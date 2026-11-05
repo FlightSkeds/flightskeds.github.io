@@ -1,0 +1,65 @@
+
+name: Check CNATRA Schedules
+
+on:
+  workflow_dispatch:
+    inputs:
+      squadron:
+        description: "Squadron to check"
+        required: true
+        default: "VT-21"
+        type: choice
+        options:
+          - VT-21
+          - VT-3
+          - all
+      schedule_date:
+        description: "Schedule date (YYYY-MM-DD)"
+        required: true
+        default: "2026-11-05"
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cnatra-schedule-check
+  cancel-in-progress: false
+
+jobs:
+  check-schedules:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Download and process schedules
+        env:
+          SQUADRON: ${{ inputs.squadron }}
+          SCHEDULE_DATE: ${{ inputs.schedule_date }}
+        run: |
+          python fetch_schedules.py \
+            --squadron "$SQUADRON" \
+            --date "$SCHEDULE_DATE"
+
+      - name: Commit downloaded schedules
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add schedules/
+          if ! git diff --cached --quiet; then
+            git commit -m "Update CNATRA schedules"
+            git push
+          else
+            echo "No new schedules to commit"
+          fi
