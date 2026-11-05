@@ -5,409 +5,101 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#090909">
-<title>CNATRA Flight Schedule</title>
+<meta name="apple-mobile-web-app-title" content="FlightLine">
+<title>FlightLine | Flight Schedules</title>
 <style>
-:root{
-  color-scheme:dark;
-  font-family:system-ui,-apple-system,Arial,sans-serif;
-  background:#090909;
-  color:#f7f7f7
-}
+:root{color-scheme:dark;font-family:system-ui,-apple-system,Arial,sans-serif;background:#090909;color:#f7f7f7}
 *{box-sizing:border-box}
 body{margin:0;background:#090909}
 button,input,select{font:inherit}
 button{cursor:pointer}
 button:disabled{opacity:.45;cursor:default}
-header{
-  background:#101010;
-  border-bottom:2px solid #bc202c;
-  position:sticky;
-  top:0;
-  z-index:10
-}
-.top{
-  max-width:820px;
-  margin:auto;
-  padding:16px;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:12px
-}
-.brand small{
-  display:block;
-  color:#e34b54;
-  font-size:11px;
-  font-weight:800;
-  letter-spacing:2px
-}
-.brand h1{
-  margin:3px 0 0;
-  font-size:23px;
-  letter-spacing:-.5px
-}
-.menuButton{
-  width:46px;
-  height:46px;
-  border:1px solid #444;
-  border-radius:11px;
-  background:#202020;
-  color:white;
-  font-size:25px
-}
-.menu{
-  position:absolute;
-  top:72px;
-  right:max(12px,calc((100vw - 820px)/2));
-  width:min(285px,calc(100vw - 24px));
-  padding:8px;
-  background:#202020;
-  border:1px solid #444;
-  border-radius:13px;
-  box-shadow:0 12px 35px #000a
-}
-.menu button{
-  display:block;
-  width:100%;
-  padding:15px 12px;
-  border:0;
-  border-radius:8px;
-  background:transparent;
-  color:#fff;
-  text-align:left;
-  font-weight:650
-}
+header{background:#101010;border-bottom:2px solid #bc202c;position:sticky;top:0;z-index:10}
+.top{max-width:820px;margin:auto;padding:14px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand h1{margin:0;font-size:27px;letter-spacing:-1px;font-weight:900}
+.brand h1 span{color:#ee4552}
+.brand small{display:block;margin-top:1px;color:#aaa;font-size:11px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase}
+.menuButton{width:46px;height:46px;border:1px solid #444;border-radius:11px;background:#202020;color:white;font-size:25px}
+.menu{position:absolute;top:74px;right:max(12px,calc((100vw - 820px)/2));width:min(285px,calc(100vw - 24px));padding:8px;background:#202020;border:1px solid #444;border-radius:13px;box-shadow:0 12px 35px #000a}
+.menu button{display:block;width:100%;padding:15px 12px;border:0;border-radius:8px;background:transparent;color:#fff;text-align:left;font-weight:650}
 .menu button:hover{background:#383838}
-.menu button.selected{
-  background:#5b1720;
-  color:white
-}
+.menu button.selected{background:#5b1720}
 main{max-width:820px;margin:auto;padding:17px}
 .hidden{display:none!important}
-.panel{
-  background:#171717;
-  border:1px solid #333;
-  border-radius:15px;
-  padding:18px;
-  margin-bottom:15px
-}
+.panel{background:#171717;border:1px solid #333;border-radius:15px;padding:18px;margin-bottom:15px}
 h2{margin:0 0 12px;font-size:22px}
 h3{font-size:17px;margin:23px 0 12px}
 .muted{color:#aaa}
 .small{font-size:13px}
-.subheading{
-  color:#e4545d;
-  font-size:12px;
-  font-weight:800;
-  letter-spacing:1.3px;
-  text-transform:uppercase
-}
-label{
-  display:block;
-  color:#ccc;
-  font-size:13px;
-  font-weight:700;
-  margin:13px 0 6px
-}
-input,select{
-  width:100%;
-  min-width:0;
-  padding:13px;
-  border:1px solid #505050;
-  border-radius:9px;
-  background:#252525;
-  color:#fff;
-  outline-color:#e34750
-}
+label{display:block;color:#ccc;font-size:13px;font-weight:700;margin:13px 0 6px}
+input,select{width:100%;min-width:0;padding:13px;border:1px solid #505050;border-radius:9px;background:#252525;color:#fff;outline-color:#e34750}
 input[type=date]{color-scheme:dark}
-.primary{
-  border:0;
-  border-radius:9px;
-  background:#bb2531;
-  color:white;
-  padding:13px 18px;
-  font-weight:800
-}
+.primary{border:0;border-radius:9px;background:#bb2531;color:white;padding:13px 18px;font-weight:800}
 .primary:hover{background:#d52d3b}
 .row{display:flex;gap:11px}
 .row>*{flex:1;min-width:0}
-.pageTitle{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:10px;
-  margin-bottom:13px
-}
+.pageTitle{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:13px}
 .pageTitle h2{margin:0}
-.squad{
-  color:#e45a64;
-  font-size:12px;
-  font-weight:800;
-  letter-spacing:.7px
-}
-.dateBar{
-  display:flex;
-  align-items:center;
-  gap:8px;
-  background:#171717;
-  border:1px solid #353535;
-  padding:9px;
-  border-radius:13px;
-  margin-bottom:15px
-}
-.dateBar input{
-  flex:1;
-  padding:12px 8px;
-  border:0;
-  background:transparent;
-  font-weight:700
-}
-.iconButton{
-  flex:none;
-  width:43px;
-  height:43px;
-  background:#292929;
-  color:white;
-  border:1px solid #444;
-  border-radius:9px;
-  font-size:20px
-}
-.dateBar .todayLink{
-  flex:none;
-  width:auto;
-  border:0;
-  background:transparent;
-  color:#f17880;
-  font-size:12px;
-  font-weight:800;
-  padding:8px
-}
-.notice{
-  padding:13px;
-  background:#202020;
-  border:1px solid #383838;
-  border-radius:10px;
-  font-size:13px;
-  margin-bottom:14px
-}
-.notice.warning{
-  border-color:#946b27;
-  color:#ffd89b
-}
-.summary{
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:10px;
-  margin-bottom:17px
-}
-.stat{
-  background:#181818;
-  border:1px solid #353535;
-  border-radius:12px;
-  padding:13px
-}
-.stat small{
-  color:#aaa;
-  font-size:11px;
-  font-weight:750;
-  letter-spacing:.7px
-}
-.stat strong{
-  display:block;
-  margin-top:6px;
-  font-size:28px;
-  line-height:1
-}
-.sectionHead{
-  display:flex;
-  align-items:center;
-  gap:10px;
-  margin:25px 0 13px
-}
+.squad{color:#e45a64;font-size:12px;font-weight:800;letter-spacing:.7px;text-transform:uppercase}
+.dateBar{display:flex;align-items:center;gap:8px;background:#171717;border:1px solid #353535;padding:9px;border-radius:13px;margin-bottom:15px}
+.dateBar input{flex:1;padding:12px 8px;border:0;background:transparent;font-weight:700}
+.iconButton{flex:none;width:43px;height:43px;background:#292929;color:white;border:1px solid #444;border-radius:9px;font-size:20px}
+.dateBar .todayLink{flex:none;width:auto;border:0;background:transparent;color:#f17880;font-size:12px;font-weight:800;padding:8px}
+.notice{padding:13px;background:#202020;border:1px solid #383838;border-radius:10px;font-size:13px;margin-bottom:14px}
+.notice.warning{border-color:#946b27;color:#ffd89b}
+.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:17px}
+.stat{background:#181818;border:1px solid #353535;border-radius:12px;padding:13px}
+.stat small{color:#aaa;font-size:11px;font-weight:750;letter-spacing:.7px}
+.stat strong{display:block;margin-top:6px;font-size:28px;line-height:1}
+.sectionHead{display:flex;align-items:center;gap:10px;margin:25px 0 13px}
 .sectionHead h3{margin:0}
-.sectionHead:after{
-  content:"";
-  height:1px;
-  flex:1;
-  background:#393939
-}
-.event{
-  background:#191919;
-  border:1px solid #383838;
-  border-left:4px solid #bd2531;
-  border-radius:13px;
-  padding:18px;
-  margin-bottom:13px
-}
+.sectionHead:after{content:"";height:1px;flex:1;background:#393939}
+.event{background:#191919;border:1px solid #383838;border-left:4px solid #bd2531;border-radius:13px;padding:18px;margin-bottom:13px}
 .event.sim{border-left-color:#c9c9c9}
 .event.ground{border-left-color:#8d8d8d}
 .event.duty{border-left-color:#e79a52}
-.eventTop{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:10px;
-  margin-bottom:18px
-}
-.eventCode{
-  font-size:25px;
-  font-weight:900;
-  letter-spacing:.2px;
-  color:#fff
-}
+.eventTop{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:18px}
+.eventCode{font-size:25px;font-weight:900;letter-spacing:.2px;color:#fff}
 .eventCode.red{color:#fa626c}
-.lineNumber{
-  color:#aaa;
-  font-size:12px;
-  text-align:right
-}
-.timeGrid{
-  display:grid;
-  grid-template-columns:repeat(3,minmax(0,1fr));
-  gap:8px;
-  margin-bottom:17px
-}
-.timeBox{
-  background:#262626;
-  border-radius:9px;
-  padding:12px 9px
-}
-.timeBox small{
-  display:block;
-  font-size:10px;
-  font-weight:800;
-  color:#a8a8a8;
-  letter-spacing:.7px
-}
-.timeBox strong{
-  display:block;
-  font-size:clamp(18px,5.3vw,28px);
-  margin-top:5px;
-  font-variant-numeric:tabular-nums;
-  letter-spacing:-.5px;
-  overflow-wrap:anywhere
-}
-.crewGrid{
-  display:grid;
-  grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:12px;
-  border-top:1px solid #393939;
-  padding-top:15px
-}
-.crewGrid small{
-  display:block;
-  color:#a7a7a7;
-  font-size:11px;
-  font-weight:750;
-  margin-bottom:6px;
-  letter-spacing:.5px
-}
-.crewGrid strong{
-  display:block;
-  font-size:15px;
-  overflow-wrap:anywhere
-}
-.duration{
-  font-size:13px;
-  color:#bbb;
-  margin-top:15px
-}
-.formation{
-  background:#32171b;
-  border:1px solid #773039;
-  border-radius:10px;
-  padding:13px;
-  margin-top:15px
-}
-.formation strong{
-  display:block;
-  color:#ff9da4;
-  margin-bottom:7px;
-  font-size:13px
-}
-.formation p{
-  margin:5px 0;
-  font-size:13px
-}
-.remarks{
-  font-size:13px;
-  color:#c8c8c8;
-  line-height:1.6;
-  margin:14px 0 5px;
-  overflow-wrap:anywhere
-}
-.pdfLink{
-  display:inline-block;
-  color:#ff7b84;
-  text-decoration:none;
-  font-weight:750;
-  font-size:13px;
-  margin-top:14px
-}
-.raw{
-  font-size:14px;
-  line-height:1.6;
-  overflow-wrap:anywhere;
-  white-space:pre-wrap
-}
-.historyDay{
-  margin:19px 0;
-  padding-top:15px;
-  border-top:1px solid #444
-}
-.historyDay h3{
-  margin:0 0 12px;
-  font-size:17px
-}
-.historyStatus{
-  color:#aaa;
-  font-size:12px;
-  margin-bottom:12px
-}
-.historyControls{
-  display:flex;
-  gap:8px;
-  margin:14px 0
-}
-.historyControls button{
-  flex:1;
-  background:#282828;
-  color:white;
-  border:1px solid #555;
-  border-radius:9px;
-  padding:12px
-}
-.historyControls button.active{
-  background:#a82430;
-  border-color:#d33b48
-}
-footer{
-  max-width:820px;
-  margin:0 auto;
-  padding:10px 18px 30px;
-  color:#777;
-  font-size:12px;
-  line-height:1.6
-}
+.lineNumber{color:#aaa;font-size:12px;text-align:right}
+.timeGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:17px}
+.timeBox{background:#262626;border-radius:9px;padding:12px 9px}
+.timeBox small{display:block;font-size:10px;font-weight:800;color:#a8a8a8;letter-spacing:.7px}
+.timeBox strong{display:block;font-size:clamp(18px,5.3vw,28px);margin-top:5px;font-variant-numeric:tabular-nums;letter-spacing:-.5px;overflow-wrap:anywhere}
+.crewGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;border-top:1px solid #393939;padding-top:15px}
+.crewGrid small{display:block;color:#a7a7a7;font-size:11px;font-weight:750;margin-bottom:6px;letter-spacing:.5px}
+.crewGrid strong{display:block;font-size:15px;overflow-wrap:anywhere}
+.duration{font-size:13px;color:#bbb;margin-top:15px}
+.formation{background:#32171b;border:1px solid #773039;border-radius:10px;padding:13px;margin-top:15px}
+.formation strong{display:block;color:#ff9da4;margin-bottom:7px;font-size:13px}
+.formation p{margin:5px 0;font-size:13px}
+.remarks{font-size:13px;color:#c8c8c8;line-height:1.6;margin:14px 0 5px;overflow-wrap:anywhere}
+.pdfLink{display:inline-block;color:#ff7b84;text-decoration:none;font-weight:750;font-size:13px;margin-top:14px}
+.pdfLink:hover{text-decoration:underline}
+.raw{font-size:14px;line-height:1.6;overflow-wrap:anywhere;white-space:pre-wrap}
+.historyDay{margin:19px 0;padding-top:15px;border-top:1px solid #444}
+.historyDay h3{margin:0 0 12px;font-size:17px}
+.historyStatus{color:#aaa;font-size:12px;margin-bottom:12px}
+.historyControls{display:flex;gap:8px;margin:14px 0}
+.historyControls button{flex:1;background:#282828;color:white;border:1px solid #555;border-radius:9px;padding:12px}
+.historyControls button.active{background:#a82430;border-color:#d33b48}
+footer{max-width:820px;margin:0 auto;padding:10px 18px 30px;color:#777;font-size:12px;line-height:1.6}
 @media(max-width:360px){
-  main{padding:11px}
-  .event{padding:13px}
-  .crewGrid strong{font-size:13px}
-  .timeBox{padding:9px 6px}
+main{padding:11px}
+.event{padding:13px}
+.crewGrid strong{font-size:13px}
+.timeBox{padding:9px 6px}
 }
 </style>
 </head>
 <body>
-
 <header>
 <div class="top">
   <div class="brand">
-    <small>CNATRA</small>
-    <h1 id="headerTitle">My Schedule</h1>
+    <h1>Flight<span>Line</span></h1>
+    <small id="headerTitle">My Schedule</small>
   </div>
-  <button class="menuButton" id="menuButton"
-    aria-label="Open menu"
-    aria-expanded="false">☰</button>
+  <button class="menuButton" id="menuButton" aria-label="Open menu" aria-expanded="false">☰</button>
 </div>
 <div class="menu hidden" id="menu">
   <button data-view="my">My Schedule</button>
@@ -427,14 +119,11 @@ footer{
     </div>
   </div>
   <div class="dateBar">
-    <button class="iconButton" id="previous"
-      aria-label="Previous day">‹</button>
+    <button class="iconButton" id="previous" aria-label="Previous day">‹</button>
     <input id="date" type="date" aria-label="Schedule date">
-    <button class="iconButton" id="next"
-      aria-label="Next day">›</button>
+    <button class="iconButton" id="next" aria-label="Next day">›</button>
     <button class="todayLink" id="today">TODAY</button>
-    <button class="iconButton" id="refresh"
-      aria-label="Refresh schedule">↻</button>
+    <button class="iconButton" id="refresh" aria-label="Refresh schedule">↻</button>
   </div>
   <div id="myMessage"></div>
   <div id="myResults"></div>
@@ -457,8 +146,7 @@ footer{
     <select id="findSq"></select>
     <label for="findDate">Schedule date</label>
     <input type="date" id="findDate">
-    <button class="primary" id="findSearch"
-      style="width:100%;margin-top:15px">
+    <button class="primary" id="findSearch" style="width:100%;margin-top:15px">
       Search Schedules
     </button>
   </div>
@@ -478,7 +166,7 @@ footer{
     <button id="monthButton">Past 30 Days</button>
   </div>
   <p class="muted small">
-    Published schedules saved in GitHub.
+    Published schedules previously saved by FlightLine.
     Days without a downloaded schedule are marked unavailable.
   </p>
   <div id="historyMessage"></div>
@@ -488,9 +176,7 @@ footer{
 <section id="profileView" class="hidden">
   <div class="panel">
     <h2>Profile Settings</h2>
-    <p class="muted small">
-      Your profile is saved on this device.
-    </p>
+    <p class="muted small">Your profile is saved on this device.</p>
     <div class="row">
       <div>
         <label for="last">Last name</label>
@@ -503,8 +189,7 @@ footer{
     </div>
     <label for="homeSq">Home squadron</label>
     <select id="homeSq"></select>
-    <button class="primary" id="save"
-      style="width:100%;margin-top:17px">
+    <button class="primary" id="save" style="width:100%;margin-top:17px">
       Save Profile
     </button>
     <p class="muted small" id="saved"></p>
@@ -513,7 +198,7 @@ footer{
 </main>
 
 <footer>
-Schedules are retrieved from the CNATRA PDF archive.
+FlightLine displays archived CNATRA schedules.
 Always verify flight assignments, times, and remarks
 against the original published schedule.
 Formation relationships are inferred from event codes
@@ -526,12 +211,12 @@ and closely spaced takeoff times.
 const OWNER='baileyl9';
 const REPO='CNATRA-Schedules';
 const ROOT=`https://raw.githubusercontent.com/${OWNER}/${REPO}/main`;
+const SITE=`https://${OWNER}.github.io/${REPO}`;
 const PROFILE_KEY='cnatra-profile-v1';
 const $=id=>document.getElementById(id);
 
 let squadrons={};
 let currentView='my';
-let historyRange=7;
 let requestCounter=0;
 const cache=new Map();
 
@@ -615,8 +300,7 @@ function saveProfile(){
     );
     $('saved').textContent='Profile saved.';
   }catch(e){
-    $('saved').textContent=
-      'Could not save to this browser.';
+    $('saved').textContent='Could not save to this browser.';
   }
 
   updateHomeLabel();
@@ -642,27 +326,20 @@ function restoreProfile(){
 
 function updateHomeLabel(){
   const id=$('homeSq').value;
-  $('homeLabel').textContent=
-    squadrons[id]?.name||id;
-  $('historySquad').textContent=
-    squadrons[id]?.name||id;
+  $('homeLabel').textContent=squadrons[id]?.name||id;
+  $('historySquad').textContent=squadrons[id]?.name||id;
 }
 
 function setMenu(open){
   $('menu').classList.toggle('hidden',!open);
-  $('menuButton').setAttribute(
-    'aria-expanded',
-    String(open)
-  );
+  $('menuButton').setAttribute('aria-expanded',String(open));
 }
 
 function openView(view){
   currentView=view;
   requestCounter++;
 
-  for(const id of [
-    'my','find','history','profile'
-  ]){
+  for(const id of ['my','find','history','profile']){
     $(id+'View').classList.add('hidden');
   }
 
@@ -683,14 +360,13 @@ function openView(view){
 
   $('headerTitle').textContent=titles[view];
 
-  document.querySelectorAll(
-    '#menu [data-view]'
-  ).forEach(b=>{
-    b.classList.toggle(
-      'selected',
-      b.dataset.view===view
-    );
-  });
+  document.querySelectorAll('#menu [data-view]')
+    .forEach(b=>{
+      b.classList.toggle(
+        'selected',
+        b.dataset.view===view
+      );
+    });
 
   setMenu(false);
 
@@ -714,6 +390,7 @@ async function fetchJSON(url){
   );
 
   if(response.status===404)return null;
+
   if(!response.ok){
     throw Error('HTTP '+response.status);
   }
@@ -764,7 +441,6 @@ function makeEvent(
   code,duration,crewText,remarks,page,device
 ){
   const crew=namesIn(crewText);
-
   if(!crew.length)return null;
 
   return {
@@ -790,6 +466,7 @@ function parseFlight(text,page){
   if(!m)return null;
 
   const body=m[5];
+
   const hit=body.match(
     /\s+([A-Z]{1,5}\d{3,5}[A-Z]?|BIS|QIP)\s+(\d+(?:\.\d+)?\/\d+(?:\.\d+)?)(?:\s+|$)/
   );
@@ -889,8 +566,6 @@ function parseSchedule(data){
     }
   }
 
-  // Extract duty assignments from the duty/watch
-  // portion of the first page.
   const firstPage=
     data.pages?.find(x=>x.page===1)?.text||'';
 
@@ -976,25 +651,36 @@ function formationPartners(event,all){
     Math.abs(timeMinutes(x.start)-t)<=8
   );
 
-  // Do not guess if several possible formations
-  // share the same event code and time window.
   return partners.length===1?partners:[];
 }
 
+/*
+ * Version 4 PDF links:
+ * Serve the archived PDF through the public
+ * FlightLine GitHub Pages site, not GitHub's
+ * repository file-preview interface.
+ *
+ * Example:
+ * https://baileyl9.github.io/CNATRA-Schedules/
+ * schedules/VT-3/2026-11-05/original_schedule.pdf
+ */
 function pdfURL(id,date){
   return (
-    `https://github.com/${OWNER}/${REPO}/blob/main/`+
-    `schedules/${encodeURIComponent(id)}/`+
-    `${date}/original_schedule.pdf`
+    `${SITE}/schedules/`+
+    `${encodeURIComponent(id)}/`+
+    `${encodeURIComponent(date)}/`+
+    `original_schedule.pdf`
   );
 }
 
 function pdfLink(id,date,page){
+  const url=pdfURL(id,date);
+
   return `<a class="pdfLink"
-    href="${pdfURL(id,date)}"
+    href="${escapeHTML(url)}"
     target="_blank"
     rel="noopener">
-    VIEW ORIGINAL PDF · PAGE ${page||1} ↗
+    VIEW SCHEDULE PDF · PAGE ${page||1} ↗
   </a>`;
 }
 
@@ -1007,6 +693,7 @@ function timeBox(label,value){
 
 function eventCard(e,id,date,all){
   const isFlight=e.section==='Flight';
+
   const partners=isFlight
     ?formationPartners(e,all)
     :[];
@@ -1149,7 +836,7 @@ function sectionHTML(title,items,render){
 }
 
 function scheduleHTML(found,id,date,parsed){
-  const sort=(items)=>[...items].sort(
+  const sort=items=>[...items].sort(
     (a,b)=>
       (timeMinutes(a.brief||a.start)||0)-
       (timeMinutes(b.brief||b.start)||0)
@@ -1191,6 +878,7 @@ async function loadMySchedule(){
     'myMessage',
     'Checking '+prettyDate(date)+'...'
   );
+
   $('myResults').innerHTML='';
 
   try{
@@ -1219,12 +907,15 @@ async function loadMySchedule(){
         'myMessage',
         'Schedule available. No assigned events found for '+p.last+', '+p.first+'.'
       );
+
       $('myResults').innerHTML=
         `<a class="pdfLink"
           href="${pdfURL(p.squadron,date)}"
-          target="_blank" rel="noopener">
+          target="_blank"
+          rel="noopener">
           VIEW FULL SCHEDULE PDF ↗
         </a>`;
+
       return;
     }
 
@@ -1359,7 +1050,6 @@ async function searchSomeone(){
 
 async function loadHistory(days){
   const token=++requestCounter;
-  historyRange=days;
 
   $('historyTitle').textContent=
     days===7?'Past 7 Days':'Past 30 Days';
@@ -1367,6 +1057,7 @@ async function loadHistory(days){
   $('weekButton').classList.toggle(
     'active',days===7
   );
+
   $('monthButton').classList.toggle(
     'active',days===30
   );
@@ -1374,12 +1065,14 @@ async function loadHistory(days){
   updateHomeLabel();
 
   const p=profile();
+
   const dates=Array.from(
     {length:days},
     (_,i)=>centralDate(-i)
   );
 
   $('historyResults').innerHTML='';
+
   showMessage(
     'historyMessage',
     'Loading '+days+' days of saved schedules...'
@@ -1416,25 +1109,29 @@ async function loadHistory(days){
 
       if(item.error){
         errors++;
+
         html+=
           '<div class="historyStatus">Could not load schedule.</div></div>';
+
         continue;
       }
 
       if(!item.data){
         html+=
           '<div class="historyStatus">No saved schedule for this date.</div></div>';
+
         continue;
       }
 
       available++;
 
       const parsed=parseSchedule(item.data);
+
       const found=findEvents(
         parsed,p.last,p.first
       );
-      const count=eventCount(found);
 
+      const count=eventCount(found);
       assigned+=count;
 
       if(count){
