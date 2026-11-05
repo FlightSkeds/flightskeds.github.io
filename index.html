@@ -1,315 +1,770 @@
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#10243f">
+<meta name="theme-color" content="#090909">
 <title>CNATRA Flight Schedule</title>
 <style>
-:root{font-family:system-ui,-apple-system,Arial,sans-serif;color:#16253a;background:#f1f4f9}
+:root{
+  color-scheme:dark;
+  font-family:system-ui,-apple-system,Arial,sans-serif;
+  background:#090909;
+  color:#f7f7f7
+}
 *{box-sizing:border-box}
-body{margin:0}
-header{background:#10243f;color:white;padding:22px 18px}
-header>div,main{max-width:780px;margin:auto}
-h1{margin:0;font-size:23px}
-header p{margin:5px 0 0;color:#b9c9db;font-size:13px}
-main{padding:16px}
-.card{background:white;border-radius:15px;padding:17px;margin-bottom:14px;box-shadow:0 2px 10px #1220390c}
-h2{font-size:18px;margin:0 0 12px}
-h3{font-size:16px;margin:0}
-.muted{color:#607087;font-size:13px}
-.tiny{font-size:12px}
-.tabs,.row,.stats,.times{display:flex;gap:9px}
-.tabs{margin-bottom:14px}
-.tabs button{flex:1;background:white;color:#174d7b;border:1px solid #cbd6e2}
-.tabs button.active{background:#174d7b;color:white}
-.row>*{flex:1;min-width:0}
-label{display:block;font-size:13px;font-weight:650;margin:11px 0 5px}
-input,select,button{font:inherit;width:100%;padding:11px;border-radius:9px}
-input,select{border:1px solid #cbd6e2;background:white;color:#17263b}
-button{background:#185386;color:white;border:0;font-weight:650;cursor:pointer}
-button:disabled{opacity:.6}
+body{margin:0;background:#090909}
+button,input,select{font:inherit}
+button{cursor:pointer}
+button:disabled{opacity:.45;cursor:default}
+header{
+  background:#101010;
+  border-bottom:2px solid #bc202c;
+  position:sticky;
+  top:0;
+  z-index:10
+}
+.top{
+  max-width:820px;
+  margin:auto;
+  padding:16px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px
+}
+.brand small{
+  display:block;
+  color:#e34b54;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:2px
+}
+.brand h1{
+  margin:3px 0 0;
+  font-size:23px;
+  letter-spacing:-.5px
+}
+.menuButton{
+  width:46px;
+  height:46px;
+  border:1px solid #444;
+  border-radius:11px;
+  background:#202020;
+  color:white;
+  font-size:25px
+}
+.menu{
+  position:absolute;
+  top:72px;
+  right:max(12px,calc((100vw - 820px)/2));
+  width:min(285px,calc(100vw - 24px));
+  padding:8px;
+  background:#202020;
+  border:1px solid #444;
+  border-radius:13px;
+  box-shadow:0 12px 35px #000a
+}
+.menu button{
+  display:block;
+  width:100%;
+  padding:15px 12px;
+  border:0;
+  border-radius:8px;
+  background:transparent;
+  color:#fff;
+  text-align:left;
+  font-weight:650
+}
+.menu button:hover{background:#383838}
+.menu button.selected{
+  background:#5b1720;
+  color:white
+}
+main{max-width:820px;margin:auto;padding:17px}
 .hidden{display:none!important}
-.stats>div{flex:1;background:#edf3fa;border-radius:10px;padding:11px}
-.stats strong{display:block;font-size:22px}
-.stats small{font-size:11px;color:#607087}
-.event{border:1px solid #d9e2ec;border-radius:13px;padding:14px;margin:11px 0}
-.eventhead{display:flex;align-items:center;justify-content:space-between;gap:8px}
-.pill{background:#e4eef9;color:#174d7b;border-radius:7px;padding:5px 8px;font-size:12px;font-weight:750}
-.times{margin:14px 0}
-.times>div{flex:1;min-width:0}
-.times small{display:block;color:#607087;font-size:11px}
-.times strong{font-size:20px;font-variant-numeric:tabular-nums}
-.crew{border-top:1px solid #e5ebf1;padding-top:10px}
-.crew p{margin:5px 0}
-.related{background:#eff5fb;border-radius:9px;padding:11px;margin-top:11px}
-.related p{margin:5px 0}
-.remarks{overflow-wrap:anywhere;color:#52637a;font-size:13px;margin:10px 0}
-.notice{padding:12px;border-radius:9px;background:#edf7f0}
-.warning{background:#fff4dd}
-.sectionTitle{margin:21px 0 10px}
-.link{display:inline-block;margin-top:9px;font-size:13px;color:#175e99}
-.dateRow{align-items:end}
-.dateRow button{white-space:nowrap}
-.line{font-size:12px;color:#617189}
-.raw{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px}
-.status{font-size:12px;color:#68788c;margin-top:6px}
+.panel{
+  background:#171717;
+  border:1px solid #333;
+  border-radius:15px;
+  padding:18px;
+  margin-bottom:15px
+}
+h2{margin:0 0 12px;font-size:22px}
+h3{font-size:17px;margin:23px 0 12px}
+.muted{color:#aaa}
+.small{font-size:13px}
+.subheading{
+  color:#e4545d;
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:1.3px;
+  text-transform:uppercase
+}
+label{
+  display:block;
+  color:#ccc;
+  font-size:13px;
+  font-weight:700;
+  margin:13px 0 6px
+}
+input,select{
+  width:100%;
+  min-width:0;
+  padding:13px;
+  border:1px solid #505050;
+  border-radius:9px;
+  background:#252525;
+  color:#fff;
+  outline-color:#e34750
+}
+input[type=date]{color-scheme:dark}
+.primary{
+  border:0;
+  border-radius:9px;
+  background:#bb2531;
+  color:white;
+  padding:13px 18px;
+  font-weight:800
+}
+.primary:hover{background:#d52d3b}
+.row{display:flex;gap:11px}
+.row>*{flex:1;min-width:0}
+.pageTitle{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  margin-bottom:13px
+}
+.pageTitle h2{margin:0}
+.squad{
+  color:#e45a64;
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.7px
+}
+.dateBar{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  background:#171717;
+  border:1px solid #353535;
+  padding:9px;
+  border-radius:13px;
+  margin-bottom:15px
+}
+.dateBar input{
+  flex:1;
+  padding:12px 8px;
+  border:0;
+  background:transparent;
+  font-weight:700
+}
+.iconButton{
+  flex:none;
+  width:43px;
+  height:43px;
+  background:#292929;
+  color:white;
+  border:1px solid #444;
+  border-radius:9px;
+  font-size:20px
+}
+.dateBar .todayLink{
+  flex:none;
+  width:auto;
+  border:0;
+  background:transparent;
+  color:#f17880;
+  font-size:12px;
+  font-weight:800;
+  padding:8px
+}
+.notice{
+  padding:13px;
+  background:#202020;
+  border:1px solid #383838;
+  border-radius:10px;
+  font-size:13px;
+  margin-bottom:14px
+}
+.notice.warning{
+  border-color:#946b27;
+  color:#ffd89b
+}
+.summary{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+  margin-bottom:17px
+}
+.stat{
+  background:#181818;
+  border:1px solid #353535;
+  border-radius:12px;
+  padding:13px
+}
+.stat small{
+  color:#aaa;
+  font-size:11px;
+  font-weight:750;
+  letter-spacing:.7px
+}
+.stat strong{
+  display:block;
+  margin-top:6px;
+  font-size:28px;
+  line-height:1
+}
+.sectionHead{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin:25px 0 13px
+}
+.sectionHead h3{margin:0}
+.sectionHead:after{
+  content:"";
+  height:1px;
+  flex:1;
+  background:#393939
+}
+.event{
+  background:#191919;
+  border:1px solid #383838;
+  border-left:4px solid #bd2531;
+  border-radius:13px;
+  padding:18px;
+  margin-bottom:13px
+}
+.event.sim{border-left-color:#c9c9c9}
+.event.ground{border-left-color:#8d8d8d}
+.event.duty{border-left-color:#e79a52}
+.eventTop{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  margin-bottom:18px
+}
+.eventCode{
+  font-size:25px;
+  font-weight:900;
+  letter-spacing:.2px;
+  color:#fff
+}
+.eventCode.red{color:#fa626c}
+.lineNumber{
+  color:#aaa;
+  font-size:12px;
+  text-align:right
+}
+.timeGrid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:8px;
+  margin-bottom:17px
+}
+.timeBox{
+  background:#262626;
+  border-radius:9px;
+  padding:12px 9px
+}
+.timeBox small{
+  display:block;
+  font-size:10px;
+  font-weight:800;
+  color:#a8a8a8;
+  letter-spacing:.7px
+}
+.timeBox strong{
+  display:block;
+  font-size:clamp(18px,5.3vw,28px);
+  margin-top:5px;
+  font-variant-numeric:tabular-nums;
+  letter-spacing:-.5px;
+  overflow-wrap:anywhere
+}
+.crewGrid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+  border-top:1px solid #393939;
+  padding-top:15px
+}
+.crewGrid small{
+  display:block;
+  color:#a7a7a7;
+  font-size:11px;
+  font-weight:750;
+  margin-bottom:6px;
+  letter-spacing:.5px
+}
+.crewGrid strong{
+  display:block;
+  font-size:15px;
+  overflow-wrap:anywhere
+}
+.duration{
+  font-size:13px;
+  color:#bbb;
+  margin-top:15px
+}
+.formation{
+  background:#32171b;
+  border:1px solid #773039;
+  border-radius:10px;
+  padding:13px;
+  margin-top:15px
+}
+.formation strong{
+  display:block;
+  color:#ff9da4;
+  margin-bottom:7px;
+  font-size:13px
+}
+.formation p{
+  margin:5px 0;
+  font-size:13px
+}
+.remarks{
+  font-size:13px;
+  color:#c8c8c8;
+  line-height:1.6;
+  margin:14px 0 5px;
+  overflow-wrap:anywhere
+}
+.pdfLink{
+  display:inline-block;
+  color:#ff7b84;
+  text-decoration:none;
+  font-weight:750;
+  font-size:13px;
+  margin-top:14px
+}
+.raw{
+  font-size:14px;
+  line-height:1.6;
+  overflow-wrap:anywhere;
+  white-space:pre-wrap
+}
+.historyDay{
+  margin:19px 0;
+  padding-top:15px;
+  border-top:1px solid #444
+}
+.historyDay h3{
+  margin:0 0 12px;
+  font-size:17px
+}
+.historyStatus{
+  color:#aaa;
+  font-size:12px;
+  margin-bottom:12px
+}
+.historyControls{
+  display:flex;
+  gap:8px;
+  margin:14px 0
+}
+.historyControls button{
+  flex:1;
+  background:#282828;
+  color:white;
+  border:1px solid #555;
+  border-radius:9px;
+  padding:12px
+}
+.historyControls button.active{
+  background:#a82430;
+  border-color:#d33b48
+}
+footer{
+  max-width:820px;
+  margin:0 auto;
+  padding:10px 18px 30px;
+  color:#777;
+  font-size:12px;
+  line-height:1.6
+}
+@media(max-width:360px){
+  main{padding:11px}
+  .event{padding:13px}
+  .crewGrid strong{font-size:13px}
+  .timeBox{padding:9px 6px}
+}
 </style>
 </head>
 <body>
+
 <header>
-<div>
-<h1>CNATRA Flight Schedule</h1>
-<p>My Schedule · Find Someone · 23 schedules</p>
+<div class="top">
+  <div class="brand">
+    <small>CNATRA</small>
+    <h1 id="headerTitle">My Schedule</h1>
+  </div>
+  <button class="menuButton" id="menuButton"
+    aria-label="Open menu"
+    aria-expanded="false">☰</button>
+</div>
+<div class="menu hidden" id="menu">
+  <button data-view="my">My Schedule</button>
+  <button data-view="find">Find Someone</button>
+  <button data-view="week">Past 7 Days</button>
+  <button data-view="month">Past 30 Days</button>
+  <button data-view="profile">Profile Settings</button>
 </div>
 </header>
+
 <main>
-<div class="tabs">
-<button id="myTab" class="active">My Schedule</button>
-<button id="findTab">Find Someone</button>
-</div>
-
-<section id="myPanel" class="card">
-<h2>My Profile</h2>
-<div class="row">
-<div>
-<label for="last">Last name</label>
-<input id="last" value="BAILEY">
-</div>
-<div>
-<label for="first">First name</label>
-<input id="first" value="LOGAN">
-</div>
-</div>
-<label for="homeSq">Home squadron</label>
-<select id="homeSq"></select>
-<button id="save" style="margin-top:13px">Save Profile</button>
-<p id="saved" class="muted"></p>
+<section id="myView">
+  <div class="pageTitle">
+    <div>
+      <div class="squad" id="homeLabel">VT-3 RED KNIGHTS</div>
+      <h2>Flight Schedule</h2>
+    </div>
+  </div>
+  <div class="dateBar">
+    <button class="iconButton" id="previous"
+      aria-label="Previous day">‹</button>
+    <input id="date" type="date" aria-label="Schedule date">
+    <button class="iconButton" id="next"
+      aria-label="Next day">›</button>
+    <button class="todayLink" id="today">TODAY</button>
+    <button class="iconButton" id="refresh"
+      aria-label="Refresh schedule">↻</button>
+  </div>
+  <div id="myMessage"></div>
+  <div id="myResults"></div>
 </section>
 
-<section id="findPanel" class="card hidden">
-<h2>Find Someone</h2>
-<div class="row">
-<div>
-<label for="findLast">Last name (required)</label>
-<input id="findLast" placeholder="CRAWFORD">
-</div>
-<div>
-<label for="findFirst">First name (optional)</label>
-<input id="findFirst" placeholder="ALAN">
-</div>
-</div>
-<label for="findSq">Squadron</label>
-<select id="findSq"></select>
+<section id="findView" class="hidden">
+  <div class="panel">
+    <h2>Find Someone</h2>
+    <div class="row">
+      <div>
+        <label for="findLast">Last name</label>
+        <input id="findLast" placeholder="CRAWFORD">
+      </div>
+      <div>
+        <label for="findFirst">First name (optional)</label>
+        <input id="findFirst" placeholder="ALAN">
+      </div>
+    </div>
+    <label for="findSq">Squadron</label>
+    <select id="findSq"></select>
+    <label for="findDate">Schedule date</label>
+    <input type="date" id="findDate">
+    <button class="primary" id="findSearch"
+      style="width:100%;margin-top:15px">
+      Search Schedules
+    </button>
+  </div>
+  <div id="findMessage"></div>
+  <div id="findResults"></div>
 </section>
 
-<section class="card">
-<h2>Schedule Date</h2>
-<div class="row dateRow">
-<div>
-<label for="date">Choose date</label>
-<input type="date" id="date">
-</div>
-<div>
-<label for="refresh">Refresh</label>
-<button id="refresh">Check Schedule</button>
-</div>
-</div>
-<div class="row" style="margin-top:10px">
-<button id="today">Today</button>
-<button id="tomorrow">Tomorrow</button>
-</div>
-<p id="dateLabel" class="muted"></p>
-<div id="message"></div>
-<div id="results"></div>
+<section id="historyView" class="hidden">
+  <div class="pageTitle">
+    <div>
+      <div class="squad" id="historySquad"></div>
+      <h2 id="historyTitle">Schedule History</h2>
+    </div>
+  </div>
+  <div class="historyControls">
+    <button id="weekButton">Past 7 Days</button>
+    <button id="monthButton">Past 30 Days</button>
+  </div>
+  <p class="muted small">
+    Published schedules saved in GitHub.
+    Days without a downloaded schedule are marked unavailable.
+  </p>
+  <div id="historyMessage"></div>
+  <div id="historyResults"></div>
 </section>
 
-<p class="muted tiny">
-This app reads downloaded CNATRA schedule data.
-Verify operational details against the original official PDF.
-Formation links are inferred from event codes and timing,
-not confirmed aircraft assignments.
-</p>
+<section id="profileView" class="hidden">
+  <div class="panel">
+    <h2>Profile Settings</h2>
+    <p class="muted small">
+      Your profile is saved on this device.
+    </p>
+    <div class="row">
+      <div>
+        <label for="last">Last name</label>
+        <input id="last" value="BAILEY">
+      </div>
+      <div>
+        <label for="first">First name</label>
+        <input id="first" value="LOGAN">
+      </div>
+    </div>
+    <label for="homeSq">Home squadron</label>
+    <select id="homeSq"></select>
+    <button class="primary" id="save"
+      style="width:100%;margin-top:17px">
+      Save Profile
+    </button>
+    <p class="muted small" id="saved"></p>
+  </div>
+</section>
 </main>
+
+<footer>
+Schedules are retrieved from the CNATRA PDF archive.
+Always verify flight assignments, times, and remarks
+against the original published schedule.
+Formation relationships are inferred from event codes
+and closely spaced takeoff times.
+</footer>
 
 <script>
 'use strict';
 
-const OWNER='baileyl9',REPO='CNATRA-Schedules';
+const OWNER='baileyl9';
+const REPO='CNATRA-Schedules';
 const ROOT=`https://raw.githubusercontent.com/${OWNER}/${REPO}/main`;
-const $=id=>document.getElementById(id);
 const PROFILE_KEY='cnatra-profile-v1';
-let squadrons={},mode='my',requestId=0;
+const $=id=>document.getElementById(id);
 
-const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({
-  '&':'&amp;',
-  '<':'&lt;',
-  '>':'&gt;',
-  '"':'&quot;',
-  "'":'&#39;'
-}[c]));
+let squadrons={};
+let currentView='my';
+let historyRange=7;
+let requestCounter=0;
+const cache=new Map();
 
-const norm=s=>String(s||'').toUpperCase().trim().replace(/\s+/g,' ');
-const reEscape=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+function escapeHTML(s){
+  return String(s??'').replace(/[&<>"']/g,c=>({
+    '&':'&amp;',
+    '<':'&lt;',
+    '>':'&gt;',
+    '"':'&quot;',
+    "'":'&#39;'
+  }[c]));
+}
+
+function normalize(s){
+  return String(s||'')
+    .toUpperCase()
+    .trim()
+    .replace(/\s+/g,' ');
+}
+
+function escapeRegex(s){
+  return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+}
 
 function centralDate(offset=0){
-  const parts=new Intl.DateTimeFormat('en-CA',{
+  const parts=new Intl.DateTimeFormat('en-US',{
     timeZone:'America/Chicago',
     year:'numeric',
     month:'2-digit',
     day:'2-digit'
   }).formatToParts(new Date());
-  const p=Object.fromEntries(parts.map(x=>[x.type,x.value]));
-  return new Date(Date.UTC(
+
+  const p=Object.fromEntries(
+    parts.map(x=>[x.type,x.value])
+  );
+
+  const d=new Date(Date.UTC(
     +p.year,+p.month-1,+p.day+offset
-  )).toISOString().slice(0,10);
+  ));
+
+  return d.toISOString().slice(0,10);
 }
 
-function setDate(n){
-  $('date').value=centralDate(n);
-  check();
+function shiftDate(date,days){
+  const d=new Date(date+'T12:00:00Z');
+  d.setUTCDate(d.getUTCDate()+days);
+  return d.toISOString().slice(0,10);
+}
+
+function prettyDate(date){
+  return new Date(date+'T12:00:00Z')
+    .toLocaleDateString('en-US',{
+      weekday:'long',
+      month:'short',
+      day:'numeric',
+      year:'numeric',
+      timeZone:'UTC'
+    });
 }
 
 function profile(){
   return {
-    last:norm($('last').value),
-    first:norm($('first').value),
+    last:normalize($('last').value),
+    first:normalize($('first').value),
     squadron:$('homeSq').value
   };
 }
 
 function saveProfile(){
   const p=profile();
+
   if(!p.last){
-    $('saved').textContent='Full last name required.';
+    $('saved').textContent='Enter a last name.';
     return;
   }
+
   try{
-    localStorage.setItem(PROFILE_KEY,JSON.stringify(p));
-    $('saved').textContent='Saved on this device.';
+    localStorage.setItem(
+      PROFILE_KEY,
+      JSON.stringify(p)
+    );
+    $('saved').textContent='Profile saved.';
   }catch(e){
-    $('saved').textContent='Browser storage unavailable.';
+    $('saved').textContent=
+      'Could not save to this browser.';
   }
-  check();
+
+  updateHomeLabel();
+  openView('my');
 }
 
-function restore(){
+function restoreProfile(){
   try{
-    const p=JSON.parse(localStorage.getItem(PROFILE_KEY));
+    const p=JSON.parse(
+      localStorage.getItem(PROFILE_KEY)
+    );
+
     if(!p)return;
+
     $('last').value=p.last||'';
     $('first').value=p.first||'';
+
     if(squadrons[p.squadron]){
       $('homeSq').value=p.squadron;
     }
-    $('saved').textContent='Profile loaded from this device.';
   }catch(e){}
 }
 
-function switchMode(m){
-  mode=m;
-  $('myPanel').classList.toggle('hidden',m!=='my');
-  $('findPanel').classList.toggle('hidden',m!=='find');
-  $('myTab').classList.toggle('active',m==='my');
-  $('findTab').classList.toggle('active',m==='find');
-  check();
+function updateHomeLabel(){
+  const id=$('homeSq').value;
+  $('homeLabel').textContent=
+    squadrons[id]?.name||id;
+  $('historySquad').textContent=
+    squadrons[id]?.name||id;
 }
 
-function message(s,warn=false){
-  $('message').innerHTML=
-    `<p class="notice ${warn?'warning':''}">${esc(s)}</p>`;
+function setMenu(open){
+  $('menu').classList.toggle('hidden',!open);
+  $('menuButton').setAttribute(
+    'aria-expanded',
+    String(open)
+  );
 }
 
-async function loadJSON(url){
-  const r=await fetch(url+'?v='+Date.now(),{cache:'no-store'});
-  if(r.status===404)return null;
-  if(!r.ok)throw Error('HTTP '+r.status);
-  return r.json();
+function openView(view){
+  currentView=view;
+  requestCounter++;
+
+  for(const id of [
+    'my','find','history','profile'
+  ]){
+    $(id+'View').classList.add('hidden');
+  }
+
+  const section=
+    view==='week'||view==='month'
+      ?'history'
+      :view;
+
+  $(section+'View').classList.remove('hidden');
+
+  const titles={
+    my:'My Schedule',
+    find:'Find Someone',
+    week:'Past 7 Days',
+    month:'Past 30 Days',
+    profile:'Profile Settings'
+  };
+
+  $('headerTitle').textContent=titles[view];
+
+  document.querySelectorAll(
+    '#menu [data-view]'
+  ).forEach(b=>{
+    b.classList.toggle(
+      'selected',
+      b.dataset.view===view
+    );
+  });
+
+  setMenu(false);
+
+  if(view==='my')loadMySchedule();
+  if(view==='week')loadHistory(7);
+  if(view==='month')loadHistory(30);
 }
 
-// Event codes, rather than names in remarks,
-// delimit crew columns.
-// Rows are parsed from the original extracted text.
+function showMessage(id,text,warning=false){
+  $(id).innerHTML=text
+    ?`<div class="notice ${warning?'warning':''}">
+        ${escapeHTML(text)}
+      </div>`
+    :'';
+}
 
-const NAME="([A-Z][A-Z'-]*(?: [A-Z][A-Z'-]*){0,2}),\\s*([A-Z][A-Z'-]*)";
-const NAME_RE=new RegExp(NAME,'g');
+async function fetchJSON(url){
+  const response=await fetch(
+    url+'?t='+Date.now(),
+    {cache:'no-store'}
+  );
 
-function namesIn(s){
-  const names=[];
-  for(const m of norm(s).matchAll(NAME_RE)){
-    names.push({
+  if(response.status===404)return null;
+  if(!response.ok){
+    throw Error('HTTP '+response.status);
+  }
+
+  return response.json();
+}
+
+async function getSchedule(id,date){
+  const key=id+'/'+date;
+
+  if(cache.has(key)){
+    return cache.get(key);
+  }
+
+  const data=await fetchJSON(
+    `${ROOT}/schedules/${id}/${date}/full_schedule.json`
+  );
+
+  if(data)cache.set(key,data);
+  return data;
+}
+
+function clearCache(){
+  cache.clear();
+}
+
+const NAME_PATTERN=
+  "([A-Z][A-Z'-]*(?: [A-Z][A-Z'-]*){0,2}),\\s*"+
+  "([A-Z][A-Z'-]*)";
+
+function namesIn(text){
+  const re=new RegExp(NAME_PATTERN,'g');
+  const found=[];
+
+  for(const m of normalize(text).matchAll(re)){
+    found.push({
       last:m[1],
       first:m[2],
       full:m[1]+', '+m[2]
     });
   }
-  return names;
+
+  return found;
 }
 
-function parseEvent(line,section,page){
-  let m,body,code,crewText,remarks='',duration='',device='';
-
-  if(section==='Flight'){
-    m=line.match(
-      /^\s*(\d{1,3})\s+(\d{4})\s+(\d{4})\s+(\d{4})\s+(.+)$/
-    );
-    if(!m)return null;
-
-    body=m[5];
-    const hit=body.match(
-      /\s+([A-Z]{1,5}\d{3,5}[A-Z]?|BIS|QIP)\s+(\d+(?:\.\d+)?\/\d+(?:\.\d+)?)(?:\s+|$)/
-    );
-    if(!hit)return null;
-
-    code=hit[1];
-    duration=hit[2];
-    crewText=body.slice(0,hit.index);
-    remarks=body.slice(hit.index+hit[0].length).trim();
-
-    return build(
-      'Flight',m[1],m[2],m[3],m[4],
-      code,duration,crewText,remarks,page,''
-    );
-  }
-
-  if(section==='Simulator'){
-    m=line.match(
-      /^\s*(\d{1,3})\s+(\d{4})\s+(\d{4})\s+(.+)$/
-    );
-    if(!m)return null;
-
-    body=m[4];
-    const hit=body.match(
-      /\s+([A-Z]{1,5}\d{3,5}[A-Z]?)\s+(\d+(?:\.\d+)?)(?:\s+|$)/
-    );
-    if(!hit)return null;
-
-    code=hit[1];
-    duration=hit[2];
-
-    const before=body.slice(0,hit.index);
-    const firstName=before.search(new RegExp(NAME));
-    if(firstName<0)return null;
-
-    device=before.slice(0,firstName).trim();
-    crewText=before.slice(firstName);
-    remarks=body.slice(hit.index+hit[0].length).trim();
-
-    return build(
-      'Simulator',m[1],m[2],m[3],'',
-      code,duration,crewText,remarks,page,device
-    );
-  }
-
-  return null;
-}
-
-function build(
+function makeEvent(
   section,line,brief,start,land,
   code,duration,crewText,remarks,page,device
 ){
   const crew=namesIn(crewText);
+
   if(!crew.length)return null;
 
   return {
@@ -323,529 +778,799 @@ function build(
     crew,
     remarks,
     page,
-    device,
-    raw:crewText
+    device
   };
 }
 
-function parseSchedule(data){
-  const rows=[],ground=[],duties=[];
-  let section='';
-  const records=data.records||[];
+function parseFlight(text,page){
+  const m=text.match(
+    /^\s*(\d{1,3})\s+(\d{4})\s+(\d{4})\s+(\d{4})\s+(.+)$/
+  );
 
-  for(const r of records){
+  if(!m)return null;
+
+  const body=m[5];
+  const hit=body.match(
+    /\s+([A-Z]{1,5}\d{3,5}[A-Z]?|BIS|QIP)\s+(\d+(?:\.\d+)?\/\d+(?:\.\d+)?)(?:\s+|$)/
+  );
+
+  if(!hit)return null;
+
+  return makeEvent(
+    'Flight',
+    m[1],m[2],m[3],m[4],
+    hit[1],hit[2],
+    body.slice(0,hit.index),
+    body.slice(hit.index+hit[0].length).trim(),
+    page,''
+  );
+}
+
+function parseSimulator(text,page){
+  const m=text.match(
+    /^\s*(\d{1,3})\s+(\d{4})\s+(\d{4})\s+(.+)$/
+  );
+
+  if(!m)return null;
+
+  const body=m[4];
+
+  const hit=body.match(
+    /\s+([A-Z]{1,5}\d{3,5}[A-Z]?)\s+(\d+(?:\.\d+)?)(?:\s+|$)/
+  );
+
+  if(!hit)return null;
+
+  const before=body.slice(0,hit.index);
+  const firstName=before.search(
+    new RegExp(NAME_PATTERN)
+  );
+
+  if(firstName<0)return null;
+
+  return makeEvent(
+    'Simulator',
+    m[1],m[2],m[3],'',
+    hit[1],hit[2],
+    before.slice(firstName),
+    body.slice(hit.index+hit[0].length).trim(),
+    page,
+    before.slice(0,firstName).trim()
+  );
+}
+
+function parseSchedule(data){
+  const flights=[];
+  const sims=[];
+  const ground=[];
+  const duty=[];
+
+  let section='';
+
+  for(const r of data.records||[]){
     const t=String(r.text||'').trim();
 
     if(/^Flight \(Flight Event\) Schedule/i.test(t)){
       section='Flight';
       continue;
     }
+
     if(/^Simulator \(Sim Event\) Schedule/i.test(t)){
       section='Simulator';
       continue;
     }
+
     if(/^Ground Events$/i.test(t)){
       section='Ground';
       continue;
     }
 
-    if(section==='Flight'||section==='Simulator'){
-      const event=parseEvent(t,section,r.page);
-      if(event)rows.push(event);
+    if(section==='Flight'){
+      const e=parseFlight(t,r.page);
+      if(e)flights.push(e);
     }
 
-    if(section==='Ground'&&/^\d{4}-\d{4}\s/.test(t)){
+    if(section==='Simulator'){
+      const e=parseSimulator(t,r.page);
+      if(e)sims.push(e);
+    }
+
+    if(
+      section==='Ground'&&
+      /^\d{4}-\d{4}\s/.test(t)
+    ){
       ground.push({
         section:'Ground',
         raw:t,
         page:r.page,
-        crew:namesIn(t),
-        start:t.slice(0,4)
-      });
-    }
-
-    if(
-      r.page===1&&
-      /^(Day SDO|Night SDO|AM FDO|PM FDO|AM AFDO|PM AFDO|QA Skeds\/Duty OPS|EVERGREEN|CDO |WKDAY AM DUTY DRIVER)/i.test(t)
-    ){
-      duties.push({
-        section:'Duty',
-        raw:t,
-        page:1,
+        start:t.slice(0,4),
         crew:namesIn(t)
       });
     }
   }
 
-  // Page 1 duty lines may be combined in extraction.
-  const p1=data.pages?.find(p=>p.page===1)?.text||'';
-  const dutyBlock=p1.split(
+  // Extract duty assignments from the duty/watch
+  // portion of the first page.
+  const firstPage=
+    data.pages?.find(x=>x.page===1)?.text||'';
+
+  const dutyBlock=firstPage.split(
     'DUTY/WATCH ASSIGNED SIGN IN SIGN OUT'
   )[1]?.split('KNSE ')[0]||'';
 
-  if(dutyBlock){
-    const roles=[
-      'Day SDO',
-      'Night SDO',
-      'AM FDO',
-      'PM FDO',
-      'AM AFDO',
-      'PM AFDO',
-      'QA Skeds/Duty OPS',
-      'EVERGREEN AM RDO',
-      'EVERGREEN AM WHEELS',
-      'CDO',
-      'WKDAY AM DUTY DRIVER'
-    ];
+  const roles=[
+    'Day SDO',
+    'Night SDO',
+    'AM FDO',
+    'PM FDO',
+    'AM AFDO',
+    'PM AFDO',
+    'QA Skeds/Duty OPS',
+    'EVERGREEN AM RDO',
+    'EVERGREEN AM WHEELS',
+    'CDO',
+    'WKDAY AM DUTY DRIVER'
+  ];
 
-    const pattern=new RegExp(
-      '('+roles.map(reEscape).join('|')+')\\s+(.+?)'+
-      '(?=\\s+(?:'+roles.map(reEscape).join('|')+')\\s+|$)',
-      'gi'
-    );
+  const roleGroup=roles.map(escapeRegex).join('|');
 
-    duties.length=0;
+  const roleRegex=new RegExp(
+    '('+roleGroup+')\\s+(.+?)'+
+    '(?=\\s+(?:'+roleGroup+')\\s+|$)',
+    'gi'
+  );
 
-    for(const m of dutyBlock.replace(/\n/g,' ').matchAll(pattern)){
-      duties.push({
-        section:'Duty',
-        role:m[1],
-        raw:m[0].trim(),
-        page:1,
-        crew:namesIn(m[2])
-      });
-    }
+  for(const m of dutyBlock
+    .replace(/\n/g,' ')
+    .matchAll(roleRegex)){
+
+    duty.push({
+      section:'Duty',
+      role:m[1],
+      raw:m[0].trim(),
+      page:1,
+      crew:namesIn(m[2])
+    });
   }
 
-  return {rows,ground,duties};
+  return {flights,sims,ground,duty};
 }
 
-function matchPerson(crew,last,first,otherNames){
-  const candidates=crew.filter(n=>n.last===last);
-  if(!candidates.length)return 'none';
+function matchPerson(crew,last,first){
+  const candidates=crew.filter(
+    n=>n.last===last
+  );
 
-  if(!first)return 'match';
+  if(!candidates.length)return false;
+  if(!first)return true;
 
-  if(candidates.some(n=>n.first===first)){
-    return 'match';
-  }
-
-  if(candidates.some(
-    n=>n.first.length===1&&n.first===first[0]
-  )){
-    return [...otherNames].some(
-      n=>n!==first&&n.startsWith(first[0])
-    )?'possible':'match';
-  }
-
-  if(candidates.some(
-    n=>n.first&&n.first!==first
-  )){
-    return 'none';
-  }
-
-  return otherNames.size?'possible':'match';
+  return candidates.some(n=>
+    n.first===first||
+    (
+      n.first.length===1&&
+      n.first===first[0]
+    )
+  );
 }
 
-function minutes(hhmm){
-  if(!/^\d{4}$/.test(hhmm||''))return null;
-  return +hhmm.slice(0,2)*60 + +hhmm.slice(2);
+function timeMinutes(value){
+  if(!/^\d{4}$/.test(value||''))return null;
+
+  return (
+    +value.slice(0,2)*60+
+    +value.slice(2)
+  );
 }
 
 function formationPartners(event,all){
   if(!/^F\d/.test(event.code))return [];
 
-  const t=minutes(event.start);
+  const t=timeMinutes(event.start);
   if(t===null)return [];
 
-  // Same formation event and close launch times.
-  // Avoid connecting unrelated flights with the same code.
-  const candidates=all.filter(x=>
+  const partners=all.filter(x=>
     x!==event&&
     x.section==='Flight'&&
     x.code===event.code&&
-    Math.abs(minutes(x.start)-t)<=8
+    timeMinutes(x.start)!==null&&
+    Math.abs(timeMinutes(x.start)-t)<=8
   );
 
-  // Only show an unambiguous partner.
-  return candidates.length===1?candidates:[];
+  // Do not guess if several possible formations
+  // share the same event code and time window.
+  return partners.length===1?partners:[];
 }
 
-function pdfUrl(id,date){
-  return `https://github.com/${OWNER}/${REPO}/blob/main/schedules/${encodeURIComponent(id)}/${date}/original_schedule.pdf`;
+function pdfURL(id,date){
+  return (
+    `https://github.com/${OWNER}/${REPO}/blob/main/`+
+    `schedules/${encodeURIComponent(id)}/`+
+    `${date}/original_schedule.pdf`
+  );
 }
 
-function crewHTML(crew){
-  return crew.map((n,i)=>
-    `<p><span class="muted">${
-      i===0?'Primary':'Crew '+(i+1)
-    }:</span> <strong>${esc(n.full)}</strong></p>`
-  ).join('');
+function pdfLink(id,date,page){
+  return `<a class="pdfLink"
+    href="${pdfURL(id,date)}"
+    target="_blank"
+    rel="noopener">
+    VIEW ORIGINAL PDF · PAGE ${page||1} ↗
+  </a>`;
 }
 
-function eventCard(event,id,date,all,status){
-  const partner=formationPartners(event,all);
+function timeBox(label,value){
+  return `<div class="timeBox">
+    <small>${escapeHTML(label)}</small>
+    <strong>${escapeHTML(value||'—')}</strong>
+  </div>`;
+}
 
-  const timing=event.section==='Flight'
-    ?[
-      ['BRIEF',event.brief],
-      ['TAKEOFF',event.start],
-      ['LAND',event.land]
-    ]
-    :[
-      ['BRIEF',event.brief],
-      ['SIM',event.start],
-      ['DEVICE',event.device||'—']
-    ];
+function eventCard(e,id,date,all){
+  const isFlight=e.section==='Flight';
+  const partners=isFlight
+    ?formationPartners(e,all)
+    :[];
 
-  return `
-  <article class="event">
-    <div class="eventhead">
-      <span class="pill">${esc(event.code)}</span>
-      <span class="line">${esc(id)} · Line ${event.line}</span>
+  const first=e.crew[0]?.full||'—';
+  const second=e.crew[1]?.full||'—';
+
+  return `<article class="event ${isFlight?'':'sim'}">
+    <div class="eventTop">
+      <div class="eventCode ${isFlight?'red':''}">
+        ${escapeHTML(e.code)}
+      </div>
+      <div class="lineNumber">
+        ${escapeHTML(id)}<br>
+        LINE ${e.line}
+      </div>
     </div>
 
-    <div class="times">
-      ${timing.map(([k,v])=>`
-        <div>
-          <small>${k}</small>
-          <strong>${esc(v)}</strong>
-        </div>
-      `).join('')}
+    <div class="timeGrid">
+      ${timeBox('BRIEF',e.brief)}
+      ${timeBox(
+        isFlight?'TAKEOFF':'SIM TIME',
+        e.start
+      )}
+      ${timeBox(
+        isFlight?'LAND':'DEVICE',
+        isFlight?e.land:e.device
+      )}
     </div>
 
-    <div class="crew">
-      ${crewHTML(event.crew)}
+    <div class="crewGrid">
+      <div>
+        <small>INSTRUCTOR</small>
+        <strong>${escapeHTML(first)}</strong>
+      </div>
+      <div>
+        <small>STUDENT</small>
+        <strong>${escapeHTML(second)}</strong>
+      </div>
     </div>
 
-    <p class="muted">
-      ${event.section==='Flight'?'Scheduled flight':'Scheduled sim'}
-      time: ${esc(event.duration)}
-      ${event.device?' · '+esc(event.device):''}
-    </p>
+    <div class="duration">
+      SCHEDULED ${isFlight?'FLIGHT':'SIM'} TIME:
+      ${escapeHTML(e.duration)}
+    </div>
 
-    ${partner.length?`
-      <div class="related">
-        <strong>Formation partner (inferred)</strong>
-        ${partner.map(p=>`
+    ${partners.length?`
+      <div class="formation">
+        <strong>FORMATION PARTNER</strong>
+        ${partners.map(p=>`
           <p>
             Line ${p.line} ·
-            ${esc(p.crew.map(n=>n.full).join(' / '))}
-            <br>
-            <span class="muted">
-              ${esc(p.code)} · T/O ${esc(p.start)}
-            </span>
+            ${escapeHTML(
+              p.crew.map(n=>n.full).join(' / ')
+            )}
+          </p>
+          <p>
+            ${escapeHTML(p.code)} ·
+            T/O ${escapeHTML(p.start)}
           </p>
         `).join('')}
       </div>
     `:''}
 
-    ${event.remarks?`
+    ${e.remarks?`
       <p class="remarks">
-        <strong>Remarks:</strong> ${esc(event.remarks)}
+        <strong>REMARKS:</strong>
+        ${escapeHTML(e.remarks)}
       </p>
     `:''}
 
-    ${status==='possible'?`
-      <p class="notice warning">
-        Possible name match — verify identity.
-      </p>
-    `:''}
-
-    <a class="link"
-       href="${pdfUrl(id,date)}"
-       target="_blank"
-       rel="noopener">
-      Original PDF · page ${event.page}
-    </a>
+    ${pdfLink(id,date,e.page)}
   </article>`;
 }
 
-function plainCard(item,id,date,status){
-  return `
-  <article class="event">
-    <div class="eventhead">
-      <span class="pill">${esc(item.section)}</span>
-      <span class="line">${esc(id)}</span>
+function plainCard(e,id,date){
+  const cls=e.section==='Duty'
+    ?'duty'
+    :'ground';
+
+  return `<article class="event ${cls}">
+    <div class="eventTop">
+      <div class="eventCode">
+        ${escapeHTML(e.role||e.section)}
+      </div>
+      <div class="lineNumber">
+        ${escapeHTML(id)}
+      </div>
     </div>
-
-    <p class="raw">${esc(item.raw)}</p>
-
-    ${status==='possible'?`
-      <p class="notice warning">
-        Possible name match — verify identity.
-      </p>
-    `:''}
-
-    <a class="link"
-       href="${pdfUrl(id,date)}"
-       target="_blank"
-       rel="noopener">
-      Original PDF · page ${item.page}
-    </a>
+    <div class="raw">${escapeHTML(e.raw)}</div>
+    ${pdfLink(id,date,e.page)}
   </article>`;
 }
 
-async function check(){
-  const current=++requestId;
-
-  const last=norm(
-    mode==='my'
-      ?$('last').value
-      :$('findLast').value
+function findEvents(parsed,last,first){
+  const matches=items=>items.filter(e=>
+    matchPerson(e.crew||[],last,first)
   );
 
-  const first=norm(
-    mode==='my'
-      ?$('first').value
-      :$('findFirst').value
+  return {
+    flights:matches(parsed.flights),
+    sims:matches(parsed.sims),
+    ground:matches(parsed.ground),
+    duty:matches(parsed.duty)
+  };
+}
+
+function eventCount(found){
+  return Object.values(found).reduce(
+    (n,items)=>n+items.length,
+    0
+  );
+}
+
+function summaryHTML(found){
+  return `<div class="summary">
+    <div class="stat">
+      <small>FLIGHTS</small>
+      <strong>${found.flights.length}</strong>
+    </div>
+    <div class="stat">
+      <small>SIMS</small>
+      <strong>${found.sims.length}</strong>
+    </div>
+    <div class="stat">
+      <small>OTHER</small>
+      <strong>${
+        found.ground.length+found.duty.length
+      }</strong>
+    </div>
+  </div>`;
+}
+
+function sectionHTML(title,items,render){
+  if(!items.length)return '';
+
+  return `<div class="sectionHead">
+    <h3>${escapeHTML(title)}</h3>
+  </div>${items.map(render).join('')}`;
+}
+
+function scheduleHTML(found,id,date,parsed){
+  const sort=(items)=>[...items].sort(
+    (a,b)=>
+      (timeMinutes(a.brief||a.start)||0)-
+      (timeMinutes(b.brief||b.start)||0)
   );
 
-  const selected=mode==='my'
-    ?$('homeSq').value
-    :$('findSq').value;
+  return summaryHTML(found)+
+    sectionHTML(
+      'FLIGHT EVENTS',
+      sort(found.flights),
+      e=>eventCard(e,id,date,parsed.flights)
+    )+
+    sectionHTML(
+      'SIMULATOR EVENTS',
+      sort(found.sims),
+      e=>eventCard(e,id,date,parsed.sims)
+    )+
+    sectionHTML(
+      'GROUND EVENTS',
+      sort(found.ground),
+      e=>plainCard(e,id,date)
+    )+
+    sectionHTML(
+      'DUTY / WATCH',
+      found.duty,
+      e=>plainCard(e,id,date)
+    );
+}
 
+async function loadMySchedule(){
+  const token=++requestCounter;
+  const p=profile();
   const date=$('date').value;
 
-  $('results').innerHTML='';
-  $('dateLabel').textContent=date+' · Central time';
+  if(!p.last||!date)return;
+
+  updateHomeLabel();
+
+  showMessage(
+    'myMessage',
+    'Checking '+prettyDate(date)+'...'
+  );
+  $('myResults').innerHTML='';
+
+  try{
+    const data=await getSchedule(
+      p.squadron,date
+    );
+
+    if(token!==requestCounter)return;
+
+    if(!data){
+      showMessage(
+        'myMessage',
+        'Schedule not published or not yet downloaded for '+prettyDate(date)+'.',
+        true
+      );
+      return;
+    }
+
+    const parsed=parseSchedule(data);
+    const found=findEvents(
+      parsed,p.last,p.first
+    );
+
+    if(!eventCount(found)){
+      showMessage(
+        'myMessage',
+        'Schedule available. No assigned events found for '+p.last+', '+p.first+'.'
+      );
+      $('myResults').innerHTML=
+        `<a class="pdfLink"
+          href="${pdfURL(p.squadron,date)}"
+          target="_blank" rel="noopener">
+          VIEW FULL SCHEDULE PDF ↗
+        </a>`;
+      return;
+    }
+
+    showMessage(
+      'myMessage',
+      prettyDate(date)+' · '+
+      eventCount(found)+' matching events'
+    );
+
+    $('myResults').innerHTML=
+      scheduleHTML(
+        found,p.squadron,date,parsed
+      );
+
+  }catch(e){
+    if(token===requestCounter){
+      showMessage(
+        'myMessage',
+        'Unable to load schedule: '+e.message,
+        true
+      );
+    }
+  }
+}
+
+async function searchSomeone(){
+  const token=++requestCounter;
+  const last=normalize($('findLast').value);
+  const first=normalize($('findFirst').value);
+  const date=$('findDate').value;
+  const selected=$('findSq').value;
 
   if(!last){
-    message('Enter a complete last name.');
+    showMessage(
+      'findMessage',
+      'Enter a last name.',
+      true
+    );
     return;
   }
 
-  if(!/^\d{4}-\d{2}-\d{2}$/.test(date)){
-    message('Choose a date.');
-    return;
-  }
+  if(!date)return;
 
   const ids=selected==='all'
     ?Object.keys(squadrons)
     :[selected];
 
-  $('refresh').disabled=true;
-  message('Loading published schedules...');
+  $('findResults').innerHTML='';
+  $('findSearch').disabled=true;
+
+  showMessage(
+    'findMessage',
+    'Searching '+ids.length+' schedule(s)...'
+  );
 
   try{
-    const loaded=await Promise.all(ids.map(async id=>{
-      try{
-        return {
-          id,
-          data:await loadJSON(
-            `${ROOT}/schedules/${id}/${date}/full_schedule.json`
-          )
-        };
-      }catch(error){
-        return {id,error};
-      }
-    }));
-
-    if(current!==requestId)return;
-
-    const available=loaded.filter(x=>x.data);
-    const errors=loaded.filter(x=>x.error);
-
-    if(!available.length){
-      message(
-        errors.length
-          ?'Unable to load schedules. Try again.'
-          :'Schedule not published/downloaded for this date.',
-        true
-      );
-      return;
-    }
-
-    const found=[];
-
-    for(const {id,data} of available){
-      const parsed=parseSchedule(data);
-
-      const others=new Set(
-        [...parsed.rows,...parsed.ground,...parsed.duties]
-          .flatMap(x=>x.crew||[])
-          .filter(n=>
-            n.last===last&&
-            n.first.length>1&&
-            n.first!==first
-          )
-          .map(n=>n.first)
-      );
-
-      for(const e of parsed.rows){
-        const status=matchPerson(
-          e.crew,last,first,others
-        );
-        if(status!=='none'){
-          found.push({
+    const loaded=await Promise.all(
+      ids.map(async id=>{
+        try{
+          return {
             id,
-            event:e,
-            all:parsed.rows,
-            status
-          });
+            data:await getSchedule(id,date)
+          };
+        }catch(e){
+          return {id,error:e};
         }
-      }
-
-      for(const e of [...parsed.ground,...parsed.duties]){
-        const status=matchPerson(
-          e.crew,last,first,others
-        );
-        if(status!=='none'){
-          found.push({
-            id,
-            event:e,
-            all:[],
-            status
-          });
-        }
-      }
-    }
-
-    const certain=found.filter(
-      x=>x.status==='match'
-    );
-    const possible=found.filter(
-      x=>x.status==='possible'
+      })
     );
 
-    if(!found.length){
-      message(
-        `No assigned events found in ${
-          available.length
-        }/${ids.length} available schedule(s).${
-          errors.length
-            ?' Some downloads could not be read.'
-            :''
-        }`
+    if(token!==requestCounter)return;
+
+    let available=0;
+    let errors=0;
+    let total=0;
+    let output='';
+
+    for(const item of loaded){
+      if(item.error){
+        errors++;
+        continue;
+      }
+
+      if(!item.data)continue;
+      available++;
+
+      const parsed=parseSchedule(item.data);
+      const found=findEvents(
+        parsed,last,first
       );
-      return;
-    }
 
-    const flights=found.filter(
-      x=>x.event.section==='Flight'
-    );
-    const sims=found.filter(
-      x=>x.event.section==='Simulator'
-    );
-    const ground=found.filter(
-      x=>x.event.section==='Ground'
-    );
-    const duty=found.filter(
-      x=>x.event.section==='Duty'
-    );
+      const count=eventCount(found);
+      if(!count)continue;
 
-    message(
-      `${certain.length} assigned or matching event(s) · `+
-      `${possible.length} possible match(es) · `+
-      `${available.length}/${ids.length} schedules available.`,
-      !!possible.length||!!errors.length
-    );
+      total+=count;
 
-    const stats=`
-      <div class="stats">
-        <div>
-          <small>FLIGHTS</small>
-          <strong>${flights.length}</strong>
-        </div>
-        <div>
-          <small>SIMS</small>
-          <strong>${sims.length}</strong>
-        </div>
-        <div>
-          <small>OTHER</small>
-          <strong>${ground.length+duty.length}</strong>
-        </div>
+      output+=`<div class="sectionHead">
+        <h3>${escapeHTML(
+          squadrons[item.id]?.name||item.id
+        )}</h3>
       </div>`;
 
-    const group=(title,items)=>items.length
-      ?`<h3 class="sectionTitle">${title}</h3>`+
-        items.sort((a,b)=>
-          (minutes(a.event.brief||a.event.start)||0)-
-          (minutes(b.event.brief||b.event.start)||0)
-        ).map(x=>
-          x.event.section==='Flight'||
-          x.event.section==='Simulator'
-            ?eventCard(
-              x.event,x.id,date,x.all,x.status
-            )
-            :plainCard(
-              x.event,x.id,date,x.status
-            )
-        ).join('')
-      :'';
-
-    $('results').innerHTML=
-      stats+
-      group('Flight Events',flights)+
-      group('Simulator Events',sims)+
-      group('Ground Events',ground)+
-      group('Duty / Watch',duty);
-
-    if(errors.length){
-      $('results').insertAdjacentHTML(
-        'beforeend',
-        `<p class="muted">${
-          errors.length
-        } schedule(s) could not be loaded.</p>`
+      output+=scheduleHTML(
+        found,item.id,date,parsed
       );
     }
 
+    showMessage(
+      'findMessage',
+      `${total} matching events · `+
+      `${available}/${ids.length} schedules available`+
+      (errors?` · ${errors} load errors`:''),
+      !!errors
+    );
+
+    $('findResults').innerHTML=output||
+      '<div class="notice">No matching assignments found in the available schedules.</div>';
+
   }catch(e){
-    if(current===requestId){
-      message(
-        'Error reading schedule: '+e.message,
+    if(token===requestCounter){
+      showMessage(
+        'findMessage',
+        'Search failed: '+e.message,
         true
       );
     }
   }finally{
-    if(current===requestId){
-      $('refresh').disabled=false;
+    if(token===requestCounter){
+      $('findSearch').disabled=false;
     }
   }
 }
 
-async function init(){
-  $('myTab').onclick=()=>switchMode('my');
-  $('findTab').onclick=()=>switchMode('find');
-  $('save').onclick=saveProfile;
-  $('refresh').onclick=check;
-  $('today').onclick=()=>setDate(0);
-  $('tomorrow').onclick=()=>setDate(1);
-  $('date').onchange=check;
-  $('homeSq').onchange=check;
-  $('findSq').onchange=check;
+async function loadHistory(days){
+  const token=++requestCounter;
+  historyRange=days;
 
-  $('date').value=centralDate();
+  $('historyTitle').textContent=
+    days===7?'Past 7 Days':'Past 30 Days';
+
+  $('weekButton').classList.toggle(
+    'active',days===7
+  );
+  $('monthButton').classList.toggle(
+    'active',days===30
+  );
+
+  updateHomeLabel();
+
+  const p=profile();
+  const dates=Array.from(
+    {length:days},
+    (_,i)=>centralDate(-i)
+  );
+
+  $('historyResults').innerHTML='';
+  showMessage(
+    'historyMessage',
+    'Loading '+days+' days of saved schedules...'
+  );
 
   try{
-    const config=await loadJSON(
-      `${ROOT}/squadrons.json`
+    const loaded=await Promise.all(
+      dates.map(async date=>{
+        try{
+          return {
+            date,
+            data:await getSchedule(
+              p.squadron,date
+            )
+          };
+        }catch(e){
+          return {date,error:e};
+        }
+      })
+    );
+
+    if(token!==requestCounter)return;
+
+    let available=0;
+    let assigned=0;
+    let errors=0;
+    let html='';
+
+    for(const item of loaded){
+      const date=item.date;
+
+      html+=`<div class="historyDay">
+        <h3>${escapeHTML(prettyDate(date))}</h3>`;
+
+      if(item.error){
+        errors++;
+        html+=
+          '<div class="historyStatus">Could not load schedule.</div></div>';
+        continue;
+      }
+
+      if(!item.data){
+        html+=
+          '<div class="historyStatus">No saved schedule for this date.</div></div>';
+        continue;
+      }
+
+      available++;
+
+      const parsed=parseSchedule(item.data);
+      const found=findEvents(
+        parsed,p.last,p.first
+      );
+      const count=eventCount(found);
+
+      assigned+=count;
+
+      if(count){
+        html+=scheduleHTML(
+          found,p.squadron,date,parsed
+        );
+      }else{
+        html+=
+          '<div class="historyStatus">Published schedule — no matching assignments found.</div>';
+      }
+
+      html+='</div>';
+    }
+
+    showMessage(
+      'historyMessage',
+      `${available}/${days} schedules available · `+
+      `${assigned} matching events`+
+      (errors?` · ${errors} load errors`:''),
+      !!errors
+    );
+
+    $('historyResults').innerHTML=html;
+
+  }catch(e){
+    if(token===requestCounter){
+      showMessage(
+        'historyMessage',
+        'Unable to load history: '+e.message,
+        true
+      );
+    }
+  }
+}
+
+function fillSquadrons(){
+  const options=Object.entries(squadrons)
+    .map(([id,info])=>
+      `<option value="${escapeHTML(id)}">
+        ${escapeHTML(info.name||id)}
+      </option>`
+    ).join('');
+
+  $('homeSq').innerHTML=options;
+
+  $('findSq').innerHTML=
+    '<option value="all">All 23 Schedules</option>'+
+    options;
+
+  $('homeSq').value='VT-3';
+}
+
+function wireControls(){
+  $('menuButton').onclick=()=>{
+    setMenu(
+      $('menu').classList.contains('hidden')
+    );
+  };
+
+  document.querySelectorAll(
+    '#menu [data-view]'
+  ).forEach(button=>{
+    button.onclick=()=>openView(
+      button.dataset.view
+    );
+  });
+
+  document.addEventListener('click',e=>{
+    if(
+      !$('menu').contains(e.target)&&
+      !$('menuButton').contains(e.target)
+    ){
+      setMenu(false);
+    }
+  });
+
+  $('save').onclick=saveProfile;
+  $('findSearch').onclick=searchSomeone;
+
+  $('refresh').onclick=()=>{
+    clearCache();
+    loadMySchedule();
+  };
+
+  $('today').onclick=()=>{
+    $('date').value=centralDate();
+    loadMySchedule();
+  };
+
+  $('previous').onclick=()=>{
+    $('date').value=shiftDate(
+      $('date').value,-1
+    );
+    loadMySchedule();
+  };
+
+  $('next').onclick=()=>{
+    $('date').value=shiftDate(
+      $('date').value,1
+    );
+    loadMySchedule();
+  };
+
+  $('date').onchange=loadMySchedule;
+
+  $('weekButton').onclick=()=>{
+    openView('week');
+  };
+
+  $('monthButton').onclick=()=>{
+    openView('month');
+  };
+}
+
+async function init(){
+  wireControls();
+
+  $('date').value=centralDate();
+  $('findDate').value=centralDate();
+
+  try{
+    const config=await fetchJSON(
+      ROOT+'/squadrons.json'
     );
 
     squadrons=config.squadrons;
+    fillSquadrons();
+    restoreProfile();
+    updateHomeLabel();
 
-    const opts=Object.keys(squadrons).map(id=>
-      `<option value="${esc(id)}">${
-        esc(id)
-      } — ${
-        esc(squadrons[id].name||id)
-      }</option>`
-    ).join('');
-
-    $('homeSq').innerHTML=opts;
-
-    $('findSq').innerHTML=
-      '<option value="all">All 23 schedules</option>'+
-      opts;
-
-    $('homeSq').value='VT-3';
-
-    restore();
-    check();
+    openView('my');
 
   }catch(e){
-    message(
-      'Could not load squadron list: '+e.message,
+    showMessage(
+      'myMessage',
+      'Could not load squadron configuration: '+e.message,
       true
     );
   }
