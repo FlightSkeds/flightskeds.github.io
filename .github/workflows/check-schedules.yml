@@ -5,19 +5,48 @@ on:
   workflow_dispatch:
     inputs:
       squadron:
-        description: "Squadron to check"
+        description: "Schedule to check"
         required: true
-        default: "VT-21"
+        default: "all"
         type: choice
         options:
-          - VT-21
-          - VT-3
           - all
+          - VT-7
+          - VT-9
+          - VT-21
+          - VT-22
+          - TW2-FITU
+          - VT-27
+          - VT-28
+          - VT-31
+          - VT-35
+          - TW4-FITU
+          - TW5
+          - TW5-FITU
+          - TH-73A-HITU
+          - VT-2
+          - VT-3
+          - VT-6
+          - HT-8
+          - HT-18
+          - HT-28
+          - TW6-FITU
+          - VT-4
+          - VT-10
+          - VT-86
+
       schedule_date:
-        description: "Schedule date (YYYY-MM-DD)"
-        required: true
-        default: "2026-11-05"
+        description: "YYYY-MM-DD; blank for automatic date"
+        required: false
+        default: ""
         type: string
+
+  schedule:
+    # Every 10 minutes in a broad UTC window.
+    # Python restricts actual checks to 1300-2000
+    # America/Chicago, including DST changes.
+    - cron: "*/10 18-23 * * 1-5"
+    - cron: "*/10 0-2 * * 2-6"
 
 permissions:
   contents: write
@@ -35,7 +64,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -45,18 +74,30 @@ jobs:
 
       - name: Download and process schedules
         env:
-          SQUADRON: ${{ inputs.squadron }}
-          SCHEDULE_DATE: ${{ inputs.schedule_date }}
+          EVENT_NAME: ${{ github.event_name }}
+          SELECTED_SQUADRON: ${{ inputs.squadron }}
+          SELECTED_DATE: ${{ inputs.schedule_date }}
         run: |
-          python fetch_schedules.py \
-            --squadron "$SQUADRON" \
-            --date "$SCHEDULE_DATE"
+          if [ "$EVENT_NAME" = "schedule" ]; then
+            python fetch_schedules.py --squadron all
+          elif [ -n "$SELECTED_DATE" ]; then
+            python fetch_schedules.py \
+              --squadron "$SELECTED_SQUADRON" \
+              --date "$SELECTED_DATE"
+          else
+            python fetch_schedules.py \
+              --squadron "$SELECTED_SQUADRON"
+          fi
 
       - name: Commit downloaded schedules
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add schedules/
+
+          if [ -d schedules ]; then
+            git add schedules/
+          fi
+
           if ! git diff --cached --quiet; then
             git commit -m "Update CNATRA schedules"
             git push
