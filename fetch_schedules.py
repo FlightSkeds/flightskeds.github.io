@@ -1,5 +1,5 @@
 
-"""Independent multi-squadron CNATRA schedule downloader."""
+"""Independent CNATRA multi-squadron schedule downloader."""
 
 import argparse
 import io
@@ -17,7 +17,8 @@ import certifi
 import pdfplumber
 import requests
 from cryptography import x509
-from cryptography.hazmat.primitives import serialization, pkcs7
+from cryptography.hazmat.primitives import serialization
+from cryptography.hazmat.primitives.serialization import pkcs7
 from cryptography.x509.oid import AuthorityInformationAccessOID
 
 ROOT = Path(__file__).resolve().parent
@@ -31,7 +32,7 @@ def normalize(value):
 
 
 def trust_bundle(folder):
-    """Build a verified CA bundle for CNATRA HTTPS."""
+    """Retrieve the issuing CA and use a verified HTTPS connection."""
     context = ssl._create_unverified_context()
 
     with socket.create_connection((HOST, 443), timeout=20) as sock:
@@ -88,7 +89,7 @@ def regular_squadron(identifier):
 
 
 def schedule_url(identifier, info, day):
-    """Resolve configured URL or conventional squadron URL."""
+    """Use an explicit URL or the standard squadron URL pattern."""
     explicit = info.get("url_template")
 
     if explicit:
@@ -125,9 +126,7 @@ def extract_pdf(data):
                 f"===== PAGE {number} =====\n{text}"
             )
 
-            for line_number, line in enumerate(
-                text.splitlines(), 1
-            ):
+            for line_number, line in enumerate(text.splitlines(), 1):
                 if normalize(line):
                     records.append({
                         "page": number,
@@ -354,12 +353,10 @@ def target_dates(now, override):
 
 def main():
     parser = argparse.ArgumentParser()
-
     parser.add_argument("--squadron", default="all")
     parser.add_argument("--date", default="")
     parser.add_argument("--name", default="")
     parser.add_argument("--force", action="store_true")
-
     args = parser.parse_args()
 
     config = json.loads(
@@ -367,13 +364,11 @@ def main():
             encoding="utf-8"
         )
     )
-
     squadrons = config["squadrons"]
 
     if args.squadron != "all":
         if args.squadron not in squadrons:
             parser.error("Unknown schedule identifier")
-
         selected = {
             args.squadron: squadrons[args.squadron]
         }
@@ -383,15 +378,11 @@ def main():
     now = datetime.now(TZ)
 
     if not args.date:
-        if (
-            now.weekday() >= 5
-            or not 13 <= now.hour < 20
-        ):
+        if now.weekday() >= 5 or not 13 <= now.hour < 20:
             print("Outside scheduled monitoring window")
             return
 
     dates = target_dates(now, args.date)
-
     outcomes = {}
 
     with tempfile.TemporaryDirectory() as temp:
