@@ -1,411 +1,856 @@
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#10233e">
-<title>CNATRA Schedules</title>
+<meta name="theme-color" content="#10243f">
+<title>CNATRA Flight Schedule</title>
 <style>
-:root{font-family:system-ui,Arial,sans-serif;color:#15243a;background:#f2f5f9}
+:root{font-family:system-ui,-apple-system,Arial,sans-serif;color:#16253a;background:#f1f4f9}
 *{box-sizing:border-box}
 body{margin:0}
-header{background:#10233e;color:white;padding:22px 18px}
-header h1{font-size:22px;margin:0 0 5px}
-header p{margin:0;color:#b7c8df;font-size:13px}
-main{max-width:760px;margin:auto;padding:16px}
-.card{background:white;border-radius:14px;padding:17px;margin-bottom:14px;box-shadow:0 2px 8px #14243a10}
-h2{font-size:17px;margin:0 0 15px}
-label{display:block;font-size:13px;font-weight:600;margin:12px 0 5px}
-input,select,button{font:inherit;width:100%;padding:12px;border-radius:9px}
-input,select{border:1px solid #cbd5e1;background:white;color:#15243a}
-button{border:0;background:#164e83;color:white;font-weight:600;cursor:pointer}
-button:disabled{opacity:.5}
-nav{display:flex;gap:8px;margin-bottom:14px}
-nav button{background:white;color:#164e83;border:1px solid #cbd5e1}
-nav button.active{background:#164e83;color:white}
-.row{display:flex;gap:9px}
+header{background:#10243f;color:white;padding:22px 18px}
+header>div,main{max-width:780px;margin:auto}
+h1{margin:0;font-size:23px}
+header p{margin:5px 0 0;color:#b9c9db;font-size:13px}
+main{padding:16px}
+.card{background:white;border-radius:15px;padding:17px;margin-bottom:14px;box-shadow:0 2px 10px #1220390c}
+h2{font-size:18px;margin:0 0 12px}
+h3{font-size:16px;margin:0}
+.muted{color:#607087;font-size:13px}
+.tiny{font-size:12px}
+.tabs,.row,.stats,.times{display:flex;gap:9px}
+.tabs{margin-bottom:14px}
+.tabs button{flex:1;background:white;color:#174d7b;border:1px solid #cbd6e2}
+.tabs button.active{background:#174d7b;color:white}
 .row>*{flex:1;min-width:0}
-.hidden{display:none}
-.muted{color:#64748b;font-size:13px}
-.event{border:1px solid #dce4ed;border-radius:10px;padding:12px;margin-top:10px}
-.event strong{display:block;margin-bottom:6px}
-.event p{margin:4px 0;overflow-wrap:anywhere}
-.warning{background:#fff7e7;border-left:4px solid #d68a12;padding:12px;border-radius:6px}
-.success{background:#eef8f1;padding:12px;border-radius:6px}
-a{color:#155b95}
-#message{margin-bottom:12px}
-small{font-size:12px}
+label{display:block;font-size:13px;font-weight:650;margin:11px 0 5px}
+input,select,button{font:inherit;width:100%;padding:11px;border-radius:9px}
+input,select{border:1px solid #cbd6e2;background:white;color:#17263b}
+button{background:#185386;color:white;border:0;font-weight:650;cursor:pointer}
+button:disabled{opacity:.6}
+.hidden{display:none!important}
+.stats>div{flex:1;background:#edf3fa;border-radius:10px;padding:11px}
+.stats strong{display:block;font-size:22px}
+.stats small{font-size:11px;color:#607087}
+.event{border:1px solid #d9e2ec;border-radius:13px;padding:14px;margin:11px 0}
+.eventhead{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.pill{background:#e4eef9;color:#174d7b;border-radius:7px;padding:5px 8px;font-size:12px;font-weight:750}
+.times{margin:14px 0}
+.times>div{flex:1;min-width:0}
+.times small{display:block;color:#607087;font-size:11px}
+.times strong{font-size:20px;font-variant-numeric:tabular-nums}
+.crew{border-top:1px solid #e5ebf1;padding-top:10px}
+.crew p{margin:5px 0}
+.related{background:#eff5fb;border-radius:9px;padding:11px;margin-top:11px}
+.related p{margin:5px 0}
+.remarks{overflow-wrap:anywhere;color:#52637a;font-size:13px;margin:10px 0}
+.notice{padding:12px;border-radius:9px;background:#edf7f0}
+.warning{background:#fff4dd}
+.sectionTitle{margin:21px 0 10px}
+.link{display:inline-block;margin-top:9px;font-size:13px;color:#175e99}
+.dateRow{align-items:end}
+.dateRow button{white-space:nowrap}
+.line{font-size:12px;color:#617189}
+.raw{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px}
+.status{font-size:12px;color:#68788c;margin-top:6px}
 </style>
 </head>
 <body>
 <header>
-<h1>CNATRA Schedules</h1>
-<p>Your flight schedule, all in one place</p>
+<div>
+<h1>CNATRA Flight Schedule</h1>
+<p>My Schedule · Find Someone · 23 schedules</p>
+</div>
 </header>
 <main>
-<nav>
+<div class="tabs">
 <button id="myTab" class="active">My Schedule</button>
 <button id="findTab">Find Someone</button>
-</nav>
+</div>
 
 <section id="myPanel" class="card">
 <h2>My Profile</h2>
 <div class="row">
 <div>
 <label for="last">Last name</label>
-<input id="last" value="BAILEY" autocomplete="family-name">
+<input id="last" value="BAILEY">
 </div>
 <div>
 <label for="first">First name</label>
-<input id="first" value="LOGAN" autocomplete="given-name">
+<input id="first" value="LOGAN">
 </div>
 </div>
 <label for="homeSq">Home squadron</label>
 <select id="homeSq"></select>
-<button id="save" style="margin-top:14px">Save My Profile</button>
+<button id="save" style="margin-top:13px">Save Profile</button>
 <p id="saved" class="muted"></p>
 </section>
 
 <section id="findPanel" class="card hidden">
 <h2>Find Someone</h2>
+<div class="row">
+<div>
 <label for="findLast">Last name (required)</label>
 <input id="findLast" placeholder="CRAWFORD">
+</div>
+<div>
 <label for="findFirst">First name (optional)</label>
 <input id="findFirst" placeholder="ALAN">
+</div>
+</div>
 <label for="findSq">Squadron</label>
 <select id="findSq"></select>
 </section>
 
 <section class="card">
-<h2>Schedule</h2>
-<div class="row">
+<h2>Schedule Date</h2>
+<div class="row dateRow">
 <div>
-<label for="day">Date</label>
-<select id="day">
-<option value="0">Today</option>
-<option value="1">Tomorrow</option>
-</select>
+<label for="date">Choose date</label>
+<input type="date" id="date">
 </div>
 <div>
 <label for="refresh">Refresh</label>
 <button id="refresh">Check Schedule</button>
 </div>
 </div>
+<div class="row" style="margin-top:10px">
+<button id="today">Today</button>
+<button id="tomorrow">Tomorrow</button>
+</div>
 <p id="dateLabel" class="muted"></p>
 <div id="message"></div>
 <div id="results"></div>
 </section>
-<p class="muted">Schedule data is sourced from the public CNATRA PDFs and processed by the CNATRA-Schedules GitHub repository. Always verify operational details against the official schedule.</p>
+
+<p class="muted tiny">
+This app reads downloaded CNATRA schedule data.
+Verify operational details against the original official PDF.
+Formation links are inferred from event codes and timing,
+not confirmed aircraft assignments.
+</p>
 </main>
+
 <script>
-"use strict";
+'use strict';
 
-const OWNER = "baileyl9";
-const REPO = "CNATRA-Schedules";
-const ROOT = `https://raw.githubusercontent.com/${OWNER}/${REPO}/main`;
-const $ = id => document.getElementById(id);
-const storageKey = "cnatra-profile-v1";
+const OWNER='baileyl9',REPO='CNATRA-Schedules';
+const ROOT=`https://raw.githubusercontent.com/${OWNER}/${REPO}/main`;
+const $=id=>document.getElementById(id);
+const PROFILE_KEY='cnatra-profile-v1';
+let squadrons={},mode='my',requestId=0;
 
-let squadrons = {};
-let mode = "my";
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({
+  '&':'&amp;',
+  '<':'&lt;',
+  '>':'&gt;',
+  '"':'&quot;',
+  "'":'&#39;'
+}[c]));
 
-function escapeHTML(value) {
-  return String(value).replace(/[&<>"']/g, ch =>
-    ({ "&":"&amp;", "<":"&lt;", ">":"&gt;",
-       '"':"&quot;", "'":"&#39;" })[ch]);
-}
+const norm=s=>String(s||'').toUpperCase().trim().replace(/\s+/g,' ');
+const reEscape=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
 
-function normalize(value) {
-  return String(value || "").trim().toUpperCase()
-    .replace(/\s+/g, " ");
-}
-
-function chicagoDate(offset = 0) {
-  const parts = new Intl.DateTimeFormat("en-CA", {
-    timeZone:"America/Chicago",
-    year:"numeric",month:"2-digit",day:"2-digit"
+function centralDate(offset=0){
+  const parts=new Intl.DateTimeFormat('en-CA',{
+    timeZone:'America/Chicago',
+    year:'numeric',
+    month:'2-digit',
+    day:'2-digit'
   }).formatToParts(new Date());
-  const p = Object.fromEntries(parts.map(x=>[x.type,x.value]));
-  const date = new Date(Date.UTC(+p.year,+p.month-1,+p.day+offset));
-  return date.toISOString().slice(0,10);
+  const p=Object.fromEntries(parts.map(x=>[x.type,x.value]));
+  return new Date(Date.UTC(
+    +p.year,+p.month-1,+p.day+offset
+  )).toISOString().slice(0,10);
 }
 
-function fillSquadrons() {
-  const options = Object.keys(squadrons).map(id =>
-    `<option value="${escapeHTML(id)}">${escapeHTML(id)} — ${
-      escapeHTML(squadrons[id].name || id)}</option>`
-  ).join("");
-  $("homeSq").innerHTML = options;
-  $("findSq").innerHTML =
-    '<option value="all">All 23 schedules</option>' + options;
+function setDate(n){
+  $('date').value=centralDate(n);
+  check();
 }
 
-function profile() {
+function profile(){
   return {
-    last:normalize($("last").value),
-    first:normalize($("first").value),
-    squadron:$("homeSq").value
+    last:norm($('last').value),
+    first:norm($('first').value),
+    squadron:$('homeSq').value
   };
 }
 
-function saveProfile() {
-  const p = profile();
-  if (!p.last) {
-    $("saved").textContent = "A full last name is required.";
+function saveProfile(){
+  const p=profile();
+  if(!p.last){
+    $('saved').textContent='Full last name required.';
     return;
   }
-  localStorage.setItem(storageKey,JSON.stringify(p));
-  $("saved").textContent = "Saved on this device.";
+  try{
+    localStorage.setItem(PROFILE_KEY,JSON.stringify(p));
+    $('saved').textContent='Saved on this device.';
+  }catch(e){
+    $('saved').textContent='Browser storage unavailable.';
+  }
   check();
 }
 
-function restoreProfile() {
-  try {
-    const p = JSON.parse(localStorage.getItem(storageKey));
-    if (!p) return;
-    $("last").value = p.last || "";
-    $("first").value = p.first || "";
-    if (squadrons[p.squadron])
-      $("homeSq").value = p.squadron;
-    $("saved").textContent = "Profile loaded from this device.";
-  } catch(e) {}
+function restore(){
+  try{
+    const p=JSON.parse(localStorage.getItem(PROFILE_KEY));
+    if(!p)return;
+    $('last').value=p.last||'';
+    $('first').value=p.first||'';
+    if(squadrons[p.squadron]){
+      $('homeSq').value=p.squadron;
+    }
+    $('saved').textContent='Profile loaded from this device.';
+  }catch(e){}
 }
 
-function setMode(next) {
-  mode = next;
-  $("myPanel").classList.toggle("hidden",mode !== "my");
-  $("findPanel").classList.toggle("hidden",mode !== "find");
-  $("myTab").classList.toggle("active",mode === "my");
-  $("findTab").classList.toggle("active",mode === "find");
+function switchMode(m){
+  mode=m;
+  $('myPanel').classList.toggle('hidden',m!=='my');
+  $('findPanel').classList.toggle('hidden',m!=='find');
+  $('myTab').classList.toggle('active',m==='my');
+  $('findTab').classList.toggle('active',m==='find');
   check();
 }
 
-function nameCandidates(line,last) {
-  // Full surname only: never match BAIL inside BAILEY.
-  const escaped = last.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
-  const re = new RegExp(
-    "(^|[^A-Z])(" + escaped + ")(?![A-Z])" +
-    "(?:\\s*,\\s*([A-Z][A-Z'-]*))?","g"
-  );
-  const found = [];
-  let match;
-  while ((match = re.exec(normalize(line))) !== null)
-    found.push({last:match[2],first:match[3] || ""});
-  return found;
+function message(s,warn=false){
+  $('message').innerHTML=
+    `<p class="notice ${warn?'warning':''}">${esc(s)}</p>`;
 }
 
-function classify(candidates,first,otherFirsts) {
-  if (!candidates.length) return "none";
-  if (!first) return "match";
+async function loadJSON(url){
+  const r=await fetch(url+'?v='+Date.now(),{cache:'no-store'});
+  if(r.status===404)return null;
+  if(!r.ok)throw Error('HTTP '+r.status);
+  return r.json();
+}
 
-  const target = normalize(first);
-  if (candidates.some(c=>c.first === target)) return "match";
+// Event codes, rather than names in remarks,
+// delimit crew columns.
+// Rows are parsed from the original extracted text.
 
-  if (candidates.some(c =>
-      c.first.length === 1 && c.first === target[0])) {
-    const conflict = [...otherFirsts].some(n =>
-      n !== target && n.startsWith(target[0]));
-    return conflict ? "possible" : "match";
+const NAME="([A-Z][A-Z'-]*(?: [A-Z][A-Z'-]*){0,2}),\\s*([A-Z][A-Z'-]*)";
+const NAME_RE=new RegExp(NAME,'g');
+
+function namesIn(s){
+  const names=[];
+  for(const m of norm(s).matchAll(NAME_RE)){
+    names.push({
+      last:m[1],
+      first:m[2],
+      full:m[1]+', '+m[2]
+    });
+  }
+  return names;
+}
+
+function parseEvent(line,section,page){
+  let m,body,code,crewText,remarks='',duration='',device='';
+
+  if(section==='Flight'){
+    m=line.match(
+      /^\s*(\d{1,3})\s+(\d{4})\s+(\d{4})\s+(\d{4})\s+(.+)$/
+    );
+    if(!m)return null;
+
+    body=m[5];
+    const hit=body.match(
+      /\s+([A-Z]{1,5}\d{3,5}[A-Z]?|BIS|QIP)\s+(\d+(?:\.\d+)?\/\d+(?:\.\d+)?)(?:\s+|$)/
+    );
+    if(!hit)return null;
+
+    code=hit[1];
+    duration=hit[2];
+    crewText=body.slice(0,hit.index);
+    remarks=body.slice(hit.index+hit[0].length).trim();
+
+    return build(
+      'Flight',m[1],m[2],m[3],m[4],
+      code,duration,crewText,remarks,page,''
+    );
   }
 
-  if (candidates.some(c =>
-      c.first && c.first !== target &&
-      !(c.first.length === 1 && c.first === target[0])))
-    return "none";
+  if(section==='Simulator'){
+    m=line.match(
+      /^\s*(\d{1,3})\s+(\d{4})\s+(\d{4})\s+(.+)$/
+    );
+    if(!m)return null;
 
-  return otherFirsts.size === 0 ? "match" : "possible";
-}
+    body=m[4];
+    const hit=body.match(
+      /\s+([A-Z]{1,5}\d{3,5}[A-Z]?)\s+(\d+(?:\.\d+)?)(?:\s+|$)/
+    );
+    if(!hit)return null;
 
-function isEventLine(line) {
-  // Lines from flight/simulator tables begin with
-  // line number and four-digit brief time.
-  return /^\s*\d{1,3}\s+\d{4}\s/.test(line);
-}
+    code=hit[1];
+    duration=hit[2];
 
-function sectionFor(text) {
-  if (/^Flight \(Flight Event\) Schedule/i.test(text))
-    return "Flight";
-  if (/^Simulator \(Sim Event\) Schedule/i.test(text))
-    return "Simulator";
-  if (/Ground.*Schedule/i.test(text))
-    return "Ground";
+    const before=body.slice(0,hit.index);
+    const firstName=before.search(new RegExp(NAME));
+    if(firstName<0)return null;
+
+    device=before.slice(0,firstName).trim();
+    crewText=before.slice(firstName);
+    remarks=body.slice(hit.index+hit[0].length).trim();
+
+    return build(
+      'Simulator',m[1],m[2],m[3],'',
+      code,duration,crewText,remarks,page,device
+    );
+  }
+
   return null;
 }
 
-function getEntries(data,last,first) {
-  const records = data.records || [];
-  const others = new Set();
+function build(
+  section,line,brief,start,land,
+  code,duration,crewText,remarks,page,device
+){
+  const crew=namesIn(crewText);
+  if(!crew.length)return null;
 
-  // Identify other explicitly named people with
-  // the same surname on this schedule.
-  for (const r of records) {
-    if (!isEventLine(r.text || "")) continue;
-    for (const c of nameCandidates(r.text,last)) {
-      if (c.first && c.first.length > 1 &&
-          c.first !== first) others.add(c.first);
+  return {
+    section,
+    line:+line,
+    brief,
+    start,
+    land,
+    code,
+    duration,
+    crew,
+    remarks,
+    page,
+    device,
+    raw:crewText
+  };
+}
+
+function parseSchedule(data){
+  const rows=[],ground=[],duties=[];
+  let section='';
+  const records=data.records||[];
+
+  for(const r of records){
+    const t=String(r.text||'').trim();
+
+    if(/^Flight \(Flight Event\) Schedule/i.test(t)){
+      section='Flight';
+      continue;
+    }
+    if(/^Simulator \(Sim Event\) Schedule/i.test(t)){
+      section='Simulator';
+      continue;
+    }
+    if(/^Ground Events$/i.test(t)){
+      section='Ground';
+      continue;
+    }
+
+    if(section==='Flight'||section==='Simulator'){
+      const event=parseEvent(t,section,r.page);
+      if(event)rows.push(event);
+    }
+
+    if(section==='Ground'&&/^\d{4}-\d{4}\s/.test(t)){
+      ground.push({
+        section:'Ground',
+        raw:t,
+        page:r.page,
+        crew:namesIn(t),
+        start:t.slice(0,4)
+      });
+    }
+
+    if(
+      r.page===1&&
+      /^(Day SDO|Night SDO|AM FDO|PM FDO|AM AFDO|PM AFDO|QA Skeds\/Duty OPS|EVERGREEN|CDO |WKDAY AM DUTY DRIVER)/i.test(t)
+    ){
+      duties.push({
+        section:'Duty',
+        raw:t,
+        page:1,
+        crew:namesIn(t)
+      });
     }
   }
 
-  let section = "Schedule";
-  const entries = [];
+  // Page 1 duty lines may be combined in extraction.
+  const p1=data.pages?.find(p=>p.page===1)?.text||'';
+  const dutyBlock=p1.split(
+    'DUTY/WATCH ASSIGNED SIGN IN SIGN OUT'
+  )[1]?.split('KNSE ')[0]||'';
 
-  for (const r of records) {
-    const line = r.text || "";
-    const nextSection = sectionFor(line);
-    if (nextSection) section = nextSection;
+  if(dutyBlock){
+    const roles=[
+      'Day SDO',
+      'Night SDO',
+      'AM FDO',
+      'PM FDO',
+      'AM AFDO',
+      'PM AFDO',
+      'QA Skeds/Duty OPS',
+      'EVERGREEN AM RDO',
+      'EVERGREEN AM WHEELS',
+      'CDO',
+      'WKDAY AM DUTY DRIVER'
+    ];
 
-    const candidates = nameCandidates(line,last);
-    if (!candidates.length) continue;
+    const pattern=new RegExp(
+      '('+roles.map(reEscape).join('|')+')\\s+(.+?)'+
+      '(?=\\s+(?:'+roles.map(reEscape).join('|')+')\\s+|$)',
+      'gi'
+    );
 
-    // Exclude headings/remarks unless the line
-    // itself contains a recognizable event or duty.
-    const event = isEventLine(line);
-    const duty = /DUTY|SDO|FDO|AFDO|CDO|RDO|OPS/i.test(line);
-    if (!event && !duty) continue;
+    duties.length=0;
 
-    const status = classify(candidates,first,others);
-    if (status === "none") continue;
-
-    entries.push({
-      page:r.page,
-      line:line.trim(),
-      section,
-      status
-    });
+    for(const m of dutyBlock.replace(/\n/g,' ').matchAll(pattern)){
+      duties.push({
+        section:'Duty',
+        role:m[1],
+        raw:m[0].trim(),
+        page:1,
+        crew:namesIn(m[2])
+      });
+    }
   }
-  return entries;
+
+  return {rows,ground,duties};
 }
 
-async function loadJSON(url) {
-  const response = await fetch(url + "?t=" + Date.now(),
-    {cache:"no-store"});
-  if (response.status === 404) return null;
-  if (!response.ok) throw Error("HTTP " + response.status);
-  return response.json();
+function matchPerson(crew,last,first,otherNames){
+  const candidates=crew.filter(n=>n.last===last);
+  if(!candidates.length)return 'none';
+
+  if(!first)return 'match';
+
+  if(candidates.some(n=>n.first===first)){
+    return 'match';
+  }
+
+  if(candidates.some(
+    n=>n.first.length===1&&n.first===first[0]
+  )){
+    return [...otherNames].some(
+      n=>n!==first&&n.startsWith(first[0])
+    )?'possible':'match';
+  }
+
+  if(candidates.some(
+    n=>n.first&&n.first!==first
+  )){
+    return 'none';
+  }
+
+  return otherNames.size?'possible':'match';
 }
 
-function showMessage(text,type="") {
-  $("message").innerHTML =
-    `<div class="${type}">${escapeHTML(text)}</div>`;
+function minutes(hhmm){
+  if(!/^\d{4}$/.test(hhmm||''))return null;
+  return +hhmm.slice(0,2)*60 + +hhmm.slice(2);
 }
 
-async function check() {
-  const last = normalize(mode === "my" ?
-    $("last").value : $("findLast").value);
-  const first = normalize(mode === "my" ?
-    $("first").value : $("findFirst").value);
-  const selected = mode === "my" ?
-    $("homeSq").value : $("findSq").value;
-  const date = chicagoDate(Number($("day").value));
+function formationPartners(event,all){
+  if(!/^F\d/.test(event.code))return [];
 
-  $("dateLabel").textContent = date + " (Central time)";
-  $("results").innerHTML = "";
-  if (!last) {
-    showMessage("Enter a complete last name.");
+  const t=minutes(event.start);
+  if(t===null)return [];
+
+  // Same formation event and close launch times.
+  // Avoid connecting unrelated flights with the same code.
+  const candidates=all.filter(x=>
+    x!==event&&
+    x.section==='Flight'&&
+    x.code===event.code&&
+    Math.abs(minutes(x.start)-t)<=8
+  );
+
+  // Only show an unambiguous partner.
+  return candidates.length===1?candidates:[];
+}
+
+function pdfUrl(id,date){
+  return `https://github.com/${OWNER}/${REPO}/blob/main/schedules/${encodeURIComponent(id)}/${date}/original_schedule.pdf`;
+}
+
+function crewHTML(crew){
+  return crew.map((n,i)=>
+    `<p><span class="muted">${
+      i===0?'Primary':'Crew '+(i+1)
+    }:</span> <strong>${esc(n.full)}</strong></p>`
+  ).join('');
+}
+
+function eventCard(event,id,date,all,status){
+  const partner=formationPartners(event,all);
+
+  const timing=event.section==='Flight'
+    ?[
+      ['BRIEF',event.brief],
+      ['TAKEOFF',event.start],
+      ['LAND',event.land]
+    ]
+    :[
+      ['BRIEF',event.brief],
+      ['SIM',event.start],
+      ['DEVICE',event.device||'—']
+    ];
+
+  return `
+  <article class="event">
+    <div class="eventhead">
+      <span class="pill">${esc(event.code)}</span>
+      <span class="line">${esc(id)} · Line ${event.line}</span>
+    </div>
+
+    <div class="times">
+      ${timing.map(([k,v])=>`
+        <div>
+          <small>${k}</small>
+          <strong>${esc(v)}</strong>
+        </div>
+      `).join('')}
+    </div>
+
+    <div class="crew">
+      ${crewHTML(event.crew)}
+    </div>
+
+    <p class="muted">
+      ${event.section==='Flight'?'Scheduled flight':'Scheduled sim'}
+      time: ${esc(event.duration)}
+      ${event.device?' · '+esc(event.device):''}
+    </p>
+
+    ${partner.length?`
+      <div class="related">
+        <strong>Formation partner (inferred)</strong>
+        ${partner.map(p=>`
+          <p>
+            Line ${p.line} ·
+            ${esc(p.crew.map(n=>n.full).join(' / '))}
+            <br>
+            <span class="muted">
+              ${esc(p.code)} · T/O ${esc(p.start)}
+            </span>
+          </p>
+        `).join('')}
+      </div>
+    `:''}
+
+    ${event.remarks?`
+      <p class="remarks">
+        <strong>Remarks:</strong> ${esc(event.remarks)}
+      </p>
+    `:''}
+
+    ${status==='possible'?`
+      <p class="notice warning">
+        Possible name match — verify identity.
+      </p>
+    `:''}
+
+    <a class="link"
+       href="${pdfUrl(id,date)}"
+       target="_blank"
+       rel="noopener">
+      Original PDF · page ${event.page}
+    </a>
+  </article>`;
+}
+
+function plainCard(item,id,date,status){
+  return `
+  <article class="event">
+    <div class="eventhead">
+      <span class="pill">${esc(item.section)}</span>
+      <span class="line">${esc(id)}</span>
+    </div>
+
+    <p class="raw">${esc(item.raw)}</p>
+
+    ${status==='possible'?`
+      <p class="notice warning">
+        Possible name match — verify identity.
+      </p>
+    `:''}
+
+    <a class="link"
+       href="${pdfUrl(id,date)}"
+       target="_blank"
+       rel="noopener">
+      Original PDF · page ${item.page}
+    </a>
+  </article>`;
+}
+
+async function check(){
+  const current=++requestId;
+
+  const last=norm(
+    mode==='my'
+      ?$('last').value
+      :$('findLast').value
+  );
+
+  const first=norm(
+    mode==='my'
+      ?$('first').value
+      :$('findFirst').value
+  );
+
+  const selected=mode==='my'
+    ?$('homeSq').value
+    :$('findSq').value;
+
+  const date=$('date').value;
+
+  $('results').innerHTML='';
+  $('dateLabel').textContent=date+' · Central time';
+
+  if(!last){
+    message('Enter a complete last name.');
     return;
   }
 
-  const ids = selected === "all" ?
-    Object.keys(squadrons) : [selected];
-  $("refresh").disabled = true;
-  showMessage("Checking published schedules...");
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(date)){
+    message('Choose a date.');
+    return;
+  }
 
-  try {
-    const responses = await Promise.all(ids.map(async id => {
-      const path = `schedules/${id}/${date}`;
-      try {
-        const data = await loadJSON(
-          `${ROOT}/${path}/full_schedule.json`);
-        return {id,data,path};
-      } catch(error) {
+  const ids=selected==='all'
+    ?Object.keys(squadrons)
+    :[selected];
+
+  $('refresh').disabled=true;
+  message('Loading published schedules...');
+
+  try{
+    const loaded=await Promise.all(ids.map(async id=>{
+      try{
+        return {
+          id,
+          data:await loadJSON(
+            `${ROOT}/schedules/${id}/${date}/full_schedule.json`
+          )
+        };
+      }catch(error){
         return {id,error};
       }
     }));
 
-    const published = responses.filter(x=>x.data);
-    const errors = responses.filter(x=>x.error);
-    const matches = [];
+    if(current!==requestId)return;
 
-    for (const item of published) {
-      for (const entry of getEntries(item.data,last,first))
-        matches.push({...entry,...item});
-    }
+    const available=loaded.filter(x=>x.data);
+    const errors=loaded.filter(x=>x.error);
 
-    if (!published.length) {
-      showMessage(errors.length ?
-        "Could not load schedule data. Try refreshing." :
-        "No schedule has been downloaded for this date yet.",
-        "warning");
+    if(!available.length){
+      message(
+        errors.length
+          ?'Unable to load schedules. Try again.'
+          :'Schedule not published/downloaded for this date.',
+        true
+      );
       return;
     }
 
-    if (!matches.length) {
-      showMessage(
-        `No matching events found in ${published.length} published schedule(s).` +
-        (published.length < ids.length ?
-         ` ${ids.length-published.length} schedule(s) not available.` : ""),
-        "success");
+    const found=[];
+
+    for(const {id,data} of available){
+      const parsed=parseSchedule(data);
+
+      const others=new Set(
+        [...parsed.rows,...parsed.ground,...parsed.duties]
+          .flatMap(x=>x.crew||[])
+          .filter(n=>
+            n.last===last&&
+            n.first.length>1&&
+            n.first!==first
+          )
+          .map(n=>n.first)
+      );
+
+      for(const e of parsed.rows){
+        const status=matchPerson(
+          e.crew,last,first,others
+        );
+        if(status!=='none'){
+          found.push({
+            id,
+            event:e,
+            all:parsed.rows,
+            status
+          });
+        }
+      }
+
+      for(const e of [...parsed.ground,...parsed.duties]){
+        const status=matchPerson(
+          e.crew,last,first,others
+        );
+        if(status!=='none'){
+          found.push({
+            id,
+            event:e,
+            all:[],
+            status
+          });
+        }
+      }
+    }
+
+    const certain=found.filter(
+      x=>x.status==='match'
+    );
+    const possible=found.filter(
+      x=>x.status==='possible'
+    );
+
+    if(!found.length){
+      message(
+        `No assigned events found in ${
+          available.length
+        }/${ids.length} available schedule(s).${
+          errors.length
+            ?' Some downloads could not be read.'
+            :''
+        }`
+      );
       return;
     }
 
-    const certain = matches.filter(x=>x.status==="match");
-    const possible = matches.filter(x=>x.status==="possible");
+    const flights=found.filter(
+      x=>x.event.section==='Flight'
+    );
+    const sims=found.filter(
+      x=>x.event.section==='Simulator'
+    );
+    const ground=found.filter(
+      x=>x.event.section==='Ground'
+    );
+    const duty=found.filter(
+      x=>x.event.section==='Duty'
+    );
 
-    showMessage(
-      `${certain.length} matching line(s), ` +
-      `${possible.length} possible match(es). ` +
-      `${published.length}/${ids.length} schedules available.`,
-      possible.length ? "warning" : "success");
+    message(
+      `${certain.length} assigned or matching event(s) · `+
+      `${possible.length} possible match(es) · `+
+      `${available.length}/${ids.length} schedules available.`,
+      !!possible.length||!!errors.length
+    );
 
-    $("results").innerHTML = matches.map(item => {
-      const pdf = `https://github.com/${OWNER}/${REPO}/blob/main/` +
-        `${item.path}/original_schedule.pdf`;
-      return `<article class="event">
-        <strong>${escapeHTML(item.id)} — ${
-          escapeHTML(item.section)}</strong>
-        <small>${item.status === "possible" ?
-          "⚠ Possible match — verify identity" :
-          "Name match"} · PDF page ${item.page}</small>
-        <p>${escapeHTML(item.line)}</p>
-        <a href="${pdf}" target="_blank" rel="noopener">
-          View original schedule PDF</a>
-      </article>`;
-    }).join("");
+    const stats=`
+      <div class="stats">
+        <div>
+          <small>FLIGHTS</small>
+          <strong>${flights.length}</strong>
+        </div>
+        <div>
+          <small>SIMS</small>
+          <strong>${sims.length}</strong>
+        </div>
+        <div>
+          <small>OTHER</small>
+          <strong>${ground.length+duty.length}</strong>
+        </div>
+      </div>`;
 
-    if (errors.length) {
-      $("results").insertAdjacentHTML("beforeend",
-        `<p class="muted">${errors.length} schedule(s) could not be loaded.</p>`);
+    const group=(title,items)=>items.length
+      ?`<h3 class="sectionTitle">${title}</h3>`+
+        items.sort((a,b)=>
+          (minutes(a.event.brief||a.event.start)||0)-
+          (minutes(b.event.brief||b.event.start)||0)
+        ).map(x=>
+          x.event.section==='Flight'||
+          x.event.section==='Simulator'
+            ?eventCard(
+              x.event,x.id,date,x.all,x.status
+            )
+            :plainCard(
+              x.event,x.id,date,x.status
+            )
+        ).join('')
+      :'';
+
+    $('results').innerHTML=
+      stats+
+      group('Flight Events',flights)+
+      group('Simulator Events',sims)+
+      group('Ground Events',ground)+
+      group('Duty / Watch',duty);
+
+    if(errors.length){
+      $('results').insertAdjacentHTML(
+        'beforeend',
+        `<p class="muted">${
+          errors.length
+        } schedule(s) could not be loaded.</p>`
+      );
     }
-  } catch(error) {
-    showMessage("Unable to load schedule data: " + error.message,
-      "warning");
-  } finally {
-    $("refresh").disabled = false;
+
+  }catch(e){
+    if(current===requestId){
+      message(
+        'Error reading schedule: '+e.message,
+        true
+      );
+    }
+  }finally{
+    if(current===requestId){
+      $('refresh').disabled=false;
+    }
   }
 }
 
-async function init() {
-  $("myTab").onclick = ()=>setMode("my");
-  $("findTab").onclick = ()=>setMode("find");
-  $("save").onclick = saveProfile;
-  $("refresh").onclick = check;
-  $("day").onchange = check;
-  $("homeSq").onchange = check;
-  $("findSq").onchange = check;
+async function init(){
+  $('myTab').onclick=()=>switchMode('my');
+  $('findTab').onclick=()=>switchMode('find');
+  $('save').onclick=saveProfile;
+  $('refresh').onclick=check;
+  $('today').onclick=()=>setDate(0);
+  $('tomorrow').onclick=()=>setDate(1);
+  $('date').onchange=check;
+  $('homeSq').onchange=check;
+  $('findSq').onchange=check;
 
-  try {
-    const config = await loadJSON(`${ROOT}/squadrons.json`);
-    squadrons = config.squadrons;
-    fillSquadrons();
-    $("homeSq").value = "VT-3";
-    restoreProfile();
+  $('date').value=centralDate();
+
+  try{
+    const config=await loadJSON(
+      `${ROOT}/squadrons.json`
+    );
+
+    squadrons=config.squadrons;
+
+    const opts=Object.keys(squadrons).map(id=>
+      `<option value="${esc(id)}">${
+        esc(id)
+      } — ${
+        esc(squadrons[id].name||id)
+      }</option>`
+    ).join('');
+
+    $('homeSq').innerHTML=opts;
+
+    $('findSq').innerHTML=
+      '<option value="all">All 23 schedules</option>'+
+      opts;
+
+    $('homeSq').value='VT-3';
+
+    restore();
     check();
-  } catch(error) {
-    showMessage("Could not load squadron configuration: " +
-      error.message,"warning");
+
+  }catch(e){
+    message(
+      'Could not load squadron list: '+e.message,
+      true
+    );
   }
 }
+
 init();
 </script>
 </body>
