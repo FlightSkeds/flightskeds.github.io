@@ -42,11 +42,11 @@ on:
         type: string
 
   schedule:
-    # Every 10 minutes in a broad UTC window.
+    # Every 10 minutes, starting at :08.
     # Python restricts actual checks to 1300-2000
     # America/Chicago, including DST changes.
-    - cron: "*/10 18-23 * * 1-5"
-    - cron: "*/10 0-2 * * 2-6"
+    - cron: "8-59/10 18-23 * * 1-5"
+    - cron: "8-59/10 0-2 * * 2-6"
 
 permissions:
   contents: write
