@@ -2,22 +2,162 @@
 {
   "timezone": "America/Chicago",
   "squadrons": {
-    "VT-7": {"wing": "TW1"},
-    "VT-9": {"wing": "TW1"},
-    "VT-21": {"wing": "TW2", "verified_example": "2026-11-05"},
-    "VT-22": {"wing": "TW2"},
-    "VT-27": {"wing": "TW4"},
-    "VT-28": {"wing": "TW4"},
-    "VT-31": {"wing": "TW4"},
-    "VT-35": {"wing": "TW4"},
-    "VT-2": {"wing": "TW5"},
-    "VT-3": {"wing": "TW5"},
-    "VT-6": {"wing": "TW5"},
-    "HT-8": {"wing": "TW5"},
-    "HT-18": {"wing": "TW5"},
-    "HT-28": {"wing": "TW5"},
-    "VT-4": {"wing": "TW6"},
-    "VT-10": {"wing": "TW6"},
-    "VT-86": {"wing": "TW6"}
+    "TW1": {
+      "wing": "TW1",
+      "name": "Training Air Wing 1"
+    },
+    "TW1-FITU": {
+      "wing": "TW1",
+      "name": "TW1 FITU"
+    },
+    "VT-7": {
+      "wing": "TW1",
+      "name": "VT-7 Eagles"
+    },
+    "VT-9": {
+      "wing": "TW1",
+      "name": "VT-9 Tigers"
+    },
+    "CORSAIR-VT-7": {
+      "wing": "TW1",
+      "name": "Corsair VT-7"
+    },
+    "CORSAIR-VT-9": {
+      "wing": "TW1",
+      "name": "Corsair VT-9"
+    },
+
+    "TW2": {
+      "wing": "TW2",
+      "name": "Training Air Wing 2"
+    },
+    "TW2-FITU": {
+      "wing": "TW2",
+      "name": "TW2 FITU"
+    },
+    "VT-21": {
+      "wing": "TW2",
+      "name": "VT-21 Redhawks",
+      "verified_example": "2026-11-05"
+    },
+    "VT-22": {
+      "wing": "TW2",
+      "name": "VT-22 Golden Eagles"
+    },
+    "CORSAIR-VT-21": {
+      "wing": "TW2",
+      "name": "Corsair VT-21"
+    },
+    "CORSAIR-VT-22": {
+      "wing": "TW2",
+      "name": "Corsair VT-22"
+    },
+
+    "TW4-FITU": {
+      "wing": "TW4",
+      "name": "TW4 FITU"
+    },
+    "TW4-HELLCAT": {
+      "wing": "TW4",
+      "name": "TW4 Hellcat"
+    },
+    "VT-27": {
+      "wing": "TW4",
+      "name": "VT-27 Boomers"
+    },
+    "VT-28": {
+      "wing": "TW4",
+      "name": "VT-28 Rangers"
+    },
+    "VT-31": {
+      "wing": "TW4",
+      "name": "VT-31 Wise Owls"
+    },
+    "VT-35": {
+      "wing": "TW4",
+      "name": "VT-35 Sting Rays"
+    },
+    "AVENGER-VT-27": {
+      "wing": "TW4",
+      "name": "Avenger VT-27"
+    },
+    "AVENGER-VT-28": {
+      "wing": "TW4",
+      "name": "Avenger VT-28"
+    },
+
+    "TW5": {
+      "wing": "TW5",
+      "name": "Training Air Wing 5"
+    },
+    "TW5-FITU": {
+      "wing": "TW5",
+      "name": "TW5 FITU"
+    },
+    "TW5-HITU": {
+      "wing": "TW5",
+      "name": "TW5 HITU"
+    },
+    "TH-73A-HITU": {
+      "wing": "TW5",
+      "name": "TH-73A HITU"
+    },
+    "VT-2": {
+      "wing": "TW5",
+      "name": "VT-2 Doerbirds"
+    },
+    "VT-3": {
+      "wing": "TW5",
+      "name": "VT-3 Red Knights"
+    },
+    "VT-6": {
+      "wing": "TW5",
+      "name": "VT-6 Shooters"
+    },
+    "VT-GROUND-TRAINING": {
+      "wing": "TW5",
+      "name": "VT Ground Training"
+    },
+    "HT-GROUND-TRAINING": {
+      "wing": "TW5",
+      "name": "HT Ground Training"
+    },
+    "HT-8": {
+      "wing": "TW5",
+      "name": "HT-8 Eightballers"
+    },
+    "HT-18": {
+      "wing": "TW5",
+      "name": "HT-18 Vigilant Eagles"
+    },
+    "HT-28": {
+      "wing": "TW5",
+      "name": "HT-28 Hellions"
+    },
+    "AVENGER-VT-3": {
+      "wing": "TW5",
+      "name": "Avenger VT-3"
+    },
+
+    "TW6-FITU": {
+      "wing": "TW6",
+      "name": "TW6 FITU"
+    },
+    "TW6-FITU-T45": {
+      "wing": "TW6",
+      "name": "TW6 FITU T-45"
+    },
+    "VT-4": {
+      "wing": "TW6",
+      "name": "VT-4 Warbucks"
+    },
+    "VT-10": {
+      "wing": "TW6",
+      "name": "VT-10 Wildcats"
+    },
+    "VT-86": {
+      "wing": "TW6",
+      "name": "VT-86 Sabrehawks"
+    }
   }
 }
