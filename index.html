@@ -1596,5 +1596,617 @@ async function init() {
 
 init();
 </script>
+  
+<style>
+/* FlightLine approved enhancements */
+#today.fl-today {
+  background:var(--accent);
+  border-color:var(--accent);
+  color:white;
+}
+.fl-status {
+  padding:13px;
+  margin:10px 0;
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:10px;
+}
+.fl-status strong {
+  display:block;
+  margin-bottom:5px;
+}
+.fl-status small {
+  color:var(--muted);
+}
+.fl-timeline {
+  border-left:2px solid var(--accent);
+  margin:15px 0 15px 9px;
+  padding-left:18px;
+}
+.fl-timeline-item {
+  position:relative;
+  margin-bottom:14px;
+}
+.fl-timeline-item:before {
+  content:"";
+  position:absolute;
+  left:-25px;
+  top:17px;
+  width:11px;
+  height:11px;
+  border-radius:50%;
+  background:var(--accent);
+}
+.fl-skeleton {
+  height:110px;
+  margin-bottom:12px;
+  border-radius:14px;
+  background:linear-gradient(
+    100deg,#1b1f27 20%,#353a45 40%,#1b1f27 60%
+  );
+  background-size:200% 100%;
+  animation:fl-shimmer 1.5s infinite;
+}
+@keyframes fl-shimmer {
+  to {background-position-x:-200%}
+}
+.fl-icon {
+  display:inline-flex;
+  width:1.3em;
+  height:1.3em;
+  vertical-align:middle;
+}
+.fl-icon svg {
+  width:100%;
+  height:100%;
+  fill:currentColor;
+}
+#pdfModal.fl-fullscreen {
+  padding:0;
+}
+#pdfModal.fl-fullscreen .panel {
+  width:100%;
+  height:100vh;
+  max-height:100vh;
+  border-radius:0;
+}
+#pdfModal.fl-fullscreen .viewer {
+  height:calc(100vh - 155px);
+}
+@media(prefers-reduced-motion:reduce) {
+  .fl-skeleton {animation:none}
+}
+</style>
+
+<script>
+(function () {
+  'use strict';
+
+  const $fl = id => document.getElementById(id);
+
+  const searchNames = [
+    'Anita Sortie',
+    'Misty Approach',
+    'Anita Waiver'
+  ];
+
+  const loadingMessages = [
+    'Spinning the scheduling roulette wheel...',
+    'Stand by to stand by.'
+  ];
+
+  const emptyMessages = [
+    "No events found. Scheduling knows something you don't.",
+    "No flights today. Don't say it out loud."
+  ];
+
+  let timelineEnabled = false;
+  let currentSchedule = null;
+  let currentDate = null;
+  let currentSquadron = null;
+  let touchStart = null;
+  let requestId = 0;
+
+  const retrievals = new Map();
+
+  const pick = items =>
+    items[Math.floor(Math.random() * items.length)];
+
+  function icon(helicopter) {
+    if (helicopter) {
+      return `<span class="fl-icon">
+        <svg viewBox="0 0 48 48" aria-hidden="true">
+          <path d="M22 5h4v12h-4z
+            M4 19h40v3H4z
+            M20 15h8l4 9-4 10h-8l-4-10z
+            M23 32h2v11h-2z
+            M13 41h22v3H13z"/>
+        </svg>
+      </span>`;
+    }
+
+    return `<span class="fl-icon">
+      <svg viewBox="0 0 48 48" aria-hidden="true">
+        <path d="M24 2c2 0 3 4 3 9v10
+          l17 10v5L27 32v8l7 4v3
+          l-10-2-10 2v-3l7-4v-8
+          L4 36v-5l17-10V11
+          c0-5 1-9 3-9z"/>
+      </svg>
+    </span>`;
+  }
+
+  function replaceIcons(root) {
+    if (!root) return;
+
+    const walker = document.createTreeWalker(
+      root, NodeFilter.SHOW_TEXT
+    );
+
+    const nodes = [];
+
+    while (walker.nextNode()) {
+      const node = walker.currentNode;
+      if (/[✈🚁🛩]/u.test(node.textContent)) {
+        nodes.push(node);
+      }
+    }
+
+    for (const node of nodes) {
+      const text = node.textContent;
+      const fragment = document.createDocumentFragment();
+
+      for (const part of text.split(/([✈🚁🛩])/u)) {
+        if (part === '✈' || part === '🛩' || part === '🚁') {
+          const wrapper = document.createElement('span');
+          wrapper.innerHTML = icon(part === '🚁');
+          fragment.appendChild(wrapper);
+        } else if (part) {
+          fragment.appendChild(
+            document.createTextNode(part)
+          );
+        }
+      }
+
+      node.parentNode.replaceChild(fragment, node);
+    }
+  }
+
+  function formatRetrieved(date) {
+    return date.toLocaleString('en-US', {
+      timeZone:'America/Chicago',
+      month:'short',
+      day:'numeric',
+      hour:'numeric',
+      minute:'2-digit'
+    }) + ' CT';
+  }
+
+  function status(title, detail) {
+    const container = $fl('myMessage');
+    if (!container) return;
+
+    container.innerHTML = '';
+
+    const box = document.createElement('div');
+    box.className = 'fl-status';
+
+    const heading = document.createElement('strong');
+    heading.textContent = title;
+
+    const description = document.createElement('small');
+    description.textContent = detail;
+
+    box.append(heading, description);
+    container.appendChild(box);
+  }
+
+  function todayIndicator() {
+    const input = $fl('date');
+    const today = $fl('today');
+
+    if (!input || !today) return;
+
+    const isToday = input.value === centralDate();
+
+    today.classList.toggle('fl-today', isToday);
+
+    const marker = $fl('fl-date-marker');
+    if (marker) {
+      marker.textContent = isToday
+        ? 'TODAY · CENTRAL TIME'
+        : prettyDate(input.value);
+    }
+  }
+
+  function skeleton() {
+    $fl('myResults').innerHTML =
+      '<div class="fl-skeleton"></div>' +
+      '<div class="fl-skeleton"></div>';
+  }
+
+  function timeline(found, squadron, date, parsed) {
+    const all = [
+      ...found.flights,
+      ...found.sims,
+      ...found.ground,
+      ...found.duty
+    ];
+
+    all.sort((a,b) => {
+      const first = timeMinutes(a.brief || a.start);
+      const second = timeMinutes(b.brief || b.start);
+
+      return (first ?? 9999) - (second ?? 9999);
+    });
+
+    const container = document.createElement('div');
+    container.className = 'fl-timeline';
+
+    for (const event of all) {
+      const item = document.createElement('div');
+      item.className = 'fl-timeline-item';
+
+      const label = document.createElement('div');
+      label.className = 'small muted';
+
+      label.textContent =
+        (event.brief || event.start || 'Time not listed') +
+        ' · ' + event.section;
+
+      item.appendChild(label);
+
+      const content =
+        event.section === 'Flight' ||
+        event.section === 'Simulator'
+          ? eventCard(event, squadron, date, parsed.flights)
+          : plainCard(event, squadron, date);
+
+      item.insertAdjacentHTML('beforeend', content);
+      container.appendChild(item);
+    }
+
+    return container.outerHTML;
+  }
+
+  function displaySchedule() {
+    if (!currentSchedule) return;
+
+    const {
+      found, parsed, squadron, date
+    } = currentSchedule;
+
+    const count = eventCount(found);
+
+    if (!count) {
+      $fl('myResults').innerHTML =
+        `<div class="notice">
+          ${escapeHTML(pick(emptyMessages))}
+          <div>${pdfLink(squadron,date,1)}</div>
+        </div>`;
+      return;
+    }
+
+    $fl('myResults').innerHTML = timelineEnabled
+      ? timeline(found,squadron,date,parsed)
+      : scheduleHTML(found,squadron,date,parsed);
+  }
+
+  window.loadMySchedule = async function () {
+    const token = ++requestId;
+    const date = $fl('date').value;
+
+    if (!window.profile || !profile.last || !date) return;
+
+    const squadron = profile.squadron;
+
+    currentDate = date;
+    currentSquadron = squadron;
+    currentSchedule = null;
+
+    todayIndicator();
+
+    status(
+      'Checking schedule',
+      prettyDate(date) + ' · ' + pick(loadingMessages)
+    );
+
+    skeleton();
+
+    try {
+      const data = await getSchedule(squadron,date);
+
+      if (token !== requestId) return;
+
+      if (!data) {
+        status(
+          'NOT YET PUBLISHED / NOT ARCHIVED',
+          'No archived schedule is available for ' +
+          prettyDate(date) +
+          '. This does not confirm CNATRA has not published one.'
+        );
+
+        $fl('myResults').innerHTML = '';
+        return;
+      }
+
+      const parsed = parseSchedule(data);
+      const found = findEvents(
+        parsed,profile.last,profile.first
+      );
+
+      const key = squadron + '/' + date;
+
+      if (!retrievals.has(key)) {
+        retrievals.set(key,new Date());
+      }
+
+      currentSchedule = {
+        found, parsed, squadron, date
+      };
+
+      status(
+        'SCHEDULE AVAILABLE',
+        prettyDate(date) +
+        ' · ' + eventCount(found) + ' matching events' +
+        ' · Retrieved ' +
+        formatRetrieved(retrievals.get(key))
+      );
+
+      displaySchedule();
+
+    } catch(error) {
+      if (token !== requestId) return;
+
+      status(
+        'UNABLE TO LOAD',
+        error.message || 'Schedule retrieval failed.'
+      );
+
+      $fl('myResults').innerHTML = '';
+    }
+  };
+
+  function addTimelineButton() {
+    if ($fl('fl-timeline-toggle')) return;
+
+    const button = document.createElement('button');
+
+    button.id = 'fl-timeline-toggle';
+    button.className = 'secondary';
+    button.textContent = 'Timeline view: Off';
+    button.setAttribute('aria-pressed','false');
+    button.style.marginBottom = '12px';
+
+    button.onclick = () => {
+      timelineEnabled = !timelineEnabled;
+
+      button.textContent =
+        'Timeline view: ' +
+        (timelineEnabled ? 'On' : 'Off');
+
+      button.setAttribute(
+        'aria-pressed',
+        String(timelineEnabled)
+      );
+
+      if (currentSchedule) displaySchedule();
+    };
+
+    $fl('myResults').before(button);
+  }
+
+  function addDateMarker() {
+    if ($fl('fl-date-marker')) return;
+
+    const marker = document.createElement('div');
+    marker.id = 'fl-date-marker';
+    marker.className = 'small muted';
+    marker.style.marginBottom = '10px';
+
+    $fl('myMessage').before(marker);
+  }
+
+  function addPdfFullscreen() {
+    if ($fl('fl-pdf-fullscreen')) return;
+
+    const button = document.createElement('button');
+
+    button.id = 'fl-pdf-fullscreen';
+    button.className = 'secondary';
+    button.textContent = 'Full screen';
+    button.style.flex = 'none';
+
+    button.onclick = () => {
+      const modal = $fl('pdfModal');
+
+      const enabled =
+        modal.classList.toggle('fl-fullscreen');
+
+      button.textContent =
+        enabled ? 'Exit full screen' : 'Full screen';
+    };
+
+    $fl('closePdf').before(button);
+
+    const external = $fl('pdfDownload');
+    external.textContent = 'Open PDF externally / Download';
+    external.removeAttribute('download');
+    external.target = '_blank';
+    external.rel = 'noopener noreferrer';
+  }
+
+  function installSearchPlaceholders() {
+    const first = $fl('findFirst');
+    const last = $fl('findLast');
+
+    if (!first || !last) return;
+
+    function rotate() {
+      const parts = pick(searchNames).split(' ');
+
+      first.placeholder = parts[0];
+      last.placeholder = parts.slice(1).join(' ');
+    }
+
+    rotate();
+
+    const findButton = document.querySelector(
+      '[data-view="find"]'
+    );
+
+    if (findButton) {
+      findButton.addEventListener('click', () => {
+        setTimeout(rotate,0);
+      });
+    }
+  }
+
+  function installSwipe() {
+    const view = $fl('myView');
+
+    view.addEventListener('touchstart', event => {
+      if (event.touches.length !== 1) return;
+
+      touchStart = {
+        x:event.touches[0].clientX,
+        y:event.touches[0].clientY,
+        scroll:window.scrollY
+      };
+    },{passive:true});
+
+    view.addEventListener('touchend', event => {
+      if (!touchStart || !event.changedTouches.length) {
+        return;
+      }
+
+      const dx =
+        event.changedTouches[0].clientX - touchStart.x;
+
+      const dy =
+        event.changedTouches[0].clientY - touchStart.y;
+
+      const startedNearTop = touchStart.scroll < 40;
+
+      touchStart = null;
+
+      if (event.target.closest(
+        'input,button,a,iframe,select,textarea'
+      )) return;
+
+      if (
+        Math.abs(dx) > 75 &&
+        Math.abs(dx) > Math.abs(dy) * 1.6
+      ) {
+        $fl('date').value = shiftDate(
+          $fl('date').value,
+          dx < 0 ? 1 : -1
+        );
+
+        loadMySchedule();
+        return;
+      }
+
+      if (
+        startedNearTop &&
+        dy > 110 &&
+        Math.abs(dx) < 60
+      ) {
+        cache.clear();
+
+        status(
+          'Refreshing',
+          'Checking whether scheduling changed its mind.'
+        );
+
+        loadMySchedule();
+      }
+    },{passive:true});
+  }
+
+  function installRefreshMessage() {
+    const button = $fl('refresh');
+
+    if (!button) return;
+
+    button.addEventListener('click', () => {
+      status(
+        'Refreshing',
+        'Checking whether scheduling changed its mind.'
+      );
+    },{capture:true});
+  }
+
+  function installIcons() {
+    replaceIcons($fl('homePatch'));
+    replaceIcons($fl('wingTiles'));
+    replaceIcons($fl('squadTiles'));
+
+    const observer = new MutationObserver(records => {
+      for (const record of records) {
+        for (const node of record.addedNodes) {
+          if (node.nodeType === Node.ELEMENT_NODE) {
+            if (
+              node.closest &&
+              node.closest('#homePatch,#wingTiles,#squadTiles')
+            ) {
+              replaceIcons(node);
+            }
+          }
+        }
+      }
+    });
+
+    for (const id of [
+      'homePatch','wingTiles','squadTiles'
+    ]) {
+      const element = $fl(id);
+
+      if (element) {
+        observer.observe(element,{
+          childList:true,
+          subtree:true
+        });
+      }
+    }
+  }
+
+  function install() {
+    addTimelineButton();
+    addDateMarker();
+    addPdfFullscreen();
+    installSearchPlaceholders();
+    installSwipe();
+    installRefreshMessage();
+    installIcons();
+    todayIndicator();
+
+    const oldClosePDF = window.closePDF;
+
+    window.closePDF = function () {
+      $fl('pdfModal').classList.remove('fl-fullscreen');
+      $fl('fl-pdf-fullscreen').textContent = 'Full screen';
+      oldClosePDF();
+    };
+
+    const originalOpenView = window.openView;
+
+    window.openView = function (view) {
+      originalOpenView(view);
+
+      if (view === 'my') {
+        todayIndicator();
+      }
+    };
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded',install);
+  } else {
+    install();
+  }
+})();
+</script>
+
 </body>
 </html>
