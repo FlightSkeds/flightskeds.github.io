@@ -208,10 +208,10 @@ and closely spaced takeoff times.
 <script>
 'use strict';
 
-const OWNER='baileyl9';
-const REPO='CNATRA-Schedules';
+const OWNER='FlightSkeds';
+const REPO='flightskeds.github.io';
 const ROOT=`https://raw.githubusercontent.com/${OWNER}/${REPO}/main`;
-const SITE=`https://${OWNER}.github.io/${REPO}`;
+const SITE='https://flightskeds.github.io';
 const PROFILE_KEY='cnatra-profile-v1';
 const $=id=>document.getElementById(id);
 
@@ -655,13 +655,12 @@ function formationPartners(event,all){
 }
 
 /*
- * Version 4 PDF links:
- * Serve the archived PDF through the public
- * FlightLine GitHub Pages site, not GitHub's
- * repository file-preview interface.
+ * Version 4.1 PDF links:
+ * Serve the archived PDF through FlightLine.
+ * No GitHub repository file-preview page.
  *
  * Example:
- * https://baileyl9.github.io/CNATRA-Schedules/
+ * https://flightskeds.github.io/
  * schedules/VT-3/2026-11-05/original_schedule.pdf
  */
 function pdfURL(id,date){
