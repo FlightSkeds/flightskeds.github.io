@@ -331,6 +331,7 @@ def check_schedule(session, verify, identifier, info,
 
 
 def target_dates(now, override):
+    """Check today and the next seven days, including weekends/holidays."""
     if override:
         return [
             datetime.strptime(
@@ -338,17 +339,24 @@ def target_dates(now, override):
             ).date().isoformat()
         ]
 
-    if now.weekday() < 4:
-        offsets = [1]
-    elif now.weekday() == 4:
-        offsets = [1, 2, 3]
-    else:
-        offsets = []
-
     return [
         (now.date() + timedelta(days=n)).isoformat()
-        for n in offsets
+        for n in range(8)
     ]
+
+
+def should_check_date(now, day, override):
+    """Near dates every run; distant dates on the first hourly run."""
+    if override:
+        return True
+
+    distance = (
+        datetime.strptime(day, "%Y-%m-%d").date() - now.date()
+    ).days
+
+    # Existing workflow normally starts at :08, :18, :28, etc.
+    # This checks distant dates at approximately :08 each hour.
+    return distance <= 2 or now.minute < 18
 
 
 def main():
@@ -398,6 +406,9 @@ def main():
         with requests.Session() as session:
             for identifier, info in selected.items():
                 for day in dates:
+                    if not should_check_date(now, day, args.date):
+                        continue
+
                     key = f"{identifier}/{day}"
 
                     try:
