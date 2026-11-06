@@ -42,11 +42,8 @@ on:
         type: string
 
   schedule:
-    # Every 10 minutes, starting at :08.
-    # Python restricts actual checks to 1300-2000
-    # America/Chicago, including DST changes.
-    - cron: "8-59/10 18-23 * * 1-5"
-    - cron: "8-59/10 0-2 * * 2-6"
+    - cron: "8-59/10 13-19 * * 1-5"
+      timezone: "America/Chicago"
 
 permissions:
   contents: write
@@ -78,6 +75,9 @@ jobs:
           SELECTED_SQUADRON: ${{ inputs.squadron }}
           SELECTED_DATE: ${{ inputs.schedule_date }}
         run: |
+          echo "Trigger: $EVENT_NAME"
+          echo "Run time: $(date -u)"
+
           if [ "$EVENT_NAME" = "schedule" ]; then
             python fetch_schedules.py --squadron all
           elif [ -n "$SELECTED_DATE" ]; then
