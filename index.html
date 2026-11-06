@@ -1896,7 +1896,7 @@ init();
     const token = ++requestId;
     const date = $fl('date').value;
 
-    if (!window.profile || !profile.last || !date) return;
+    if (!profile || !profile.last || !date) return;
 
     const squadron = profile.squadron;
 
