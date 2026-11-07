@@ -1954,7 +1954,18 @@ async function init() {
   }
 }
 
+
 init();
+</script>
+
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .catch(error => console.warn('FlightLine service worker:', error));
+  });
+}
 </script>
 </body>
 </html>
+
