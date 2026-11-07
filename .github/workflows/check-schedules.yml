@@ -42,7 +42,6 @@ on:
         type: string
 
 # Automatic runs are triggered by cron-job.org.
-# GitHub's built-in cron schedule has been removed.
 
 permissions:
   contents: write
@@ -92,7 +91,15 @@ jobs:
               --squadron "${SELECTED_SQUADRON:-all}"
           fi
 
+      - name: Send FlightLine notifications
+        if: success()
+        env:
+          ONESIGNAL_APP_ID: ${{ vars.ONESIGNAL_APP_ID }}
+          ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
+        run: python notify_schedules.py
+
       - name: Commit downloaded schedules
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
