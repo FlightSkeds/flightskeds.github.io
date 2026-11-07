@@ -29,16 +29,42 @@ HOST = "www.cnatra.navy.mil"
 TZ = ZoneInfo("America/Chicago")
 UTC = ZoneInfo("UTC")
 
-# The scheduled workflow monitors 1 PM through 8 PM Central.
+# External scheduler dispatches GitHub Actions every 10 minutes.
+# Actual CNATRA requests are throttled by local Central time.
 MONITOR_START = 13
 MONITOR_END = 20
 
-# Today and seven additional calendar days.
 LOOKAHEAD_DAYS = 7
-
-# Distant dates are checked once per hour, near the beginning
-# of the hour. Near-term dates are checked on every run.
 DISTANT_CHECK_MINUTE = 18
+
+
+def automatic_check_allowed(now):
+    """
+    Weekdays 1 PM-8 PM Central: every dispatch (10 minutes).
+    Other weekday hours: twice hourly.
+    Weekends: hourly.
+
+    These are approximate frequencies, based on the external
+    scheduler running every ten minutes.
+    """
+
+    if now.weekday() >= 5:
+        return now.minute < 10
+
+    if MONITOR_START <= now.hour < MONITOR_END:
+        return True
+
+    return now.minute < 10 or 30 <= now.minute < 40
+
+
+def monitoring_description(now):
+    if now.weekday() >= 5:
+        return "Weekend: hourly"
+
+    if MONITOR_START <= now.hour < MONITOR_END:
+        return "Weekday peak: every 10 minutes"
+
+    return "Weekday off-peak: every 30 minutes"
 
 
 def normalize(value):
@@ -330,9 +356,8 @@ def check_schedule(
     json_path = folder / "full_schedule.json"
     status_path = folder / "status.json"
 
-    # Do not trust a previously downloaded status as proof
-    # that CNATRA has not published a revised schedule.
-    # Every selected date is checked again.
+    # Always recheck the selected CNATRA schedule.
+    # A previously saved PDF may have been revised.
 
     try:
         response = session.get(
@@ -360,8 +385,7 @@ def check_schedule(
 
     new_hash = file_hash(data)
 
-    # An unchanged PDF needs no parsing or repository commit.
-    # Force bypasses this optimization.
+    # Unchanged PDFs require no parsing or repository commit.
     if not force and pdf_path.exists() and json_path.exists():
         try:
             old_hash = file_hash(pdf_path.read_bytes())
@@ -377,7 +401,7 @@ def check_schedule(
     try:
         parsed, full_text = extract_pdf(data)
 
-    except (ValueError, OSError, Exception) as exc:
+    except Exception as exc:
         print(
             f"ERROR parsing {identifier} {day}: "
             f"{type(exc).__name__}: {exc}"
@@ -491,14 +515,17 @@ def main():
     print(f"Squadrons selected: {len(selected)}")
     print(f"Manual date: {args.date or 'automatic'}")
     print(f"Force reprocess: {args.force}")
+    print(f"Monitoring mode: {monitoring_description(now)}")
 
-    if not args.date:
-        if (
-            now.weekday() >= 5
-            or not MONITOR_START <= now.hour < MONITOR_END
-        ):
-            print("Outside scheduled monitoring window")
-            return
+    if not args.date and not automatic_check_allowed(now):
+        print("CHECK SKIPPED: outside monitoring interval")
+        print("Total checked: 0")
+        print("New schedules: 0")
+        print("Revised schedules: 0")
+        print("Unchanged schedules: 0")
+        print("Not published: 0")
+        print("Retries needed: 0")
+        return
 
     dates = target_dates(now, args.date)
 
