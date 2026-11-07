@@ -90,63 +90,134 @@ h3{margin:10px 0}
 .dateBar{display:flex;align-items:center;gap:7px;margin:14px 0}
 .dateBar input{flex:1;min-width:0}
 .dateBar button{flex:none}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:13px 0}
+.stats{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:8px;margin:13px 0
+}
 .stat{background:#252a33;border-radius:10px;padding:12px}
 .stat strong{display:block;font-size:24px}
 .stat small{color:var(--muted);font-size:10px;font-weight:800}
 .code{font-size:25px;font-weight:900;color:var(--accent)}
-.timegrid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin:15px 0}
+.timegrid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:7px;margin:15px 0
+}
 .timebox{background:#292e38;border-radius:8px;padding:10px 7px}
-.timebox small{display:block;color:var(--muted);font-size:10px;font-weight:800}
-.timebox strong{display:block;font-size:clamp(17px,5vw,25px);margin-top:5px}
+.timebox small{
+  display:block;color:var(--muted);
+  font-size:10px;font-weight:800
+}
+.timebox strong{
+  display:block;font-size:clamp(17px,5vw,25px);
+  margin-top:5px
+}
 .crewgrid{
   display:grid;grid-template-columns:repeat(2,1fr);
-  gap:12px;border-top:1px solid var(--border);padding-top:12px
+  gap:12px;border-top:1px solid var(--border);
+  padding-top:12px
 }
-.crewgrid small{display:block;color:var(--muted);font-size:11px}
-.crewgrid strong{display:block;margin-top:5px;overflow-wrap:anywhere}
+.crewgrid small{
+  display:block;color:var(--muted);font-size:11px
+}
+.crewgrid strong{
+  display:block;margin-top:5px;overflow-wrap:anywhere
+}
 .crewLink{
   border:0;background:none;padding:0;color:white;
   text-align:left;font-weight:800;text-decoration:underline;
   text-decoration-color:var(--accent)
 }
-.pdf{display:inline-block;color:#ff8d97;font-size:13px;font-weight:800;margin-top:15px}
-.squadhead{display:flex;align-items:center;gap:11px;margin-bottom:10px}
+.pdf{
+  display:inline-block;color:#ff8d97;
+  font-size:13px;font-weight:800;margin-top:15px
+}
+.squadhead{
+  display:flex;align-items:center;gap:11px;margin-bottom:10px
+}
 .patch{
   display:grid;place-items:center;flex:none;
   width:52px;height:52px;border:2px solid var(--accent);
   border-radius:50%;background:#262a34;font-size:24px
 }
 .winggrid,.squadgrid{
-  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:9px
 }
 .tile{
   border:1px solid #464b55;border-radius:12px;
   background:#292d37;color:white;padding:14px 7px;
   min-height:75px;font-weight:800
 }
-.tile.active{outline:2px solid var(--accent);background:#44242c}
-.tile .em{display:block;font-size:24px;margin-bottom:5px}
-.historyday{border-top:1px solid var(--border);margin-top:22px;padding-top:13px}
-.hint{font-size:12px;color:var(--muted)}
-.joke{font-size:12px;color:#c4aab0;font-style:italic;margin:9px 0}
-.modal{
-  position:fixed;inset:0;background:#000c;
-  display:grid;place-items:center;padding:15px;z-index:20
+.tile.active{
+  outline:2px solid var(--accent);background:#44242c
 }
-.modal .panel{width:min(100%,720px);max-height:92vh;overflow:auto}
-.viewer{width:100%;height:70vh;border:0;background:white}
-.sectionhead{margin:22px 0 12px;border-bottom:1px solid #424650;padding-bottom:8px}
+.tile .em{display:block;font-size:24px;margin-bottom:5px}
+.historyday{
+  border-top:1px solid var(--border);
+  margin-top:22px;padding-top:13px
+}
+.hint{font-size:12px;color:var(--muted)}
+.joke{
+  font-size:12px;color:#c4aab0;
+  font-style:italic;margin:9px 0
+}
+.sectionhead{
+  margin:22px 0 12px;
+  border-bottom:1px solid #424650;
+  padding-bottom:8px
+}
 .onboard{max-width:650px;margin:20px auto}
-.step{color:var(--accent);font-size:12px;font-weight:900}
+.step{
+  color:var(--accent);font-size:12px;font-weight:900
+}
 .footer{
-  max-width:850px;margin:15px auto;padding:0 17px 25px;
-  color:#838996;font-size:12px;line-height:1.6
+  max-width:850px;margin:15px auto;
+  padding:0 17px 25px;color:#838996;
+  font-size:12px;line-height:1.6
+}
+#today.fl-today{
+  background:var(--accent);
+  border-color:var(--accent);
+  color:white
+}
+.fl-status{
+  padding:13px;margin:10px 0;
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:10px
+}
+.fl-status strong{display:block;margin-bottom:5px}
+.fl-status small{color:var(--muted)}
+.fl-skeleton{
+  height:110px;margin-bottom:12px;
+  border-radius:14px;
+  background:linear-gradient(
+    100deg,#1b1f27 20%,#353a45 40%,#1b1f27 60%
+  );
+  background-size:200% 100%;
+  animation:fl-shimmer 1.5s infinite
+}
+@keyframes fl-shimmer{
+  to{background-position-x:-200%}
+}
+.fl-icon{
+  display:inline-flex;
+  width:1.3em;height:1.3em;
+  vertical-align:middle
+}
+.fl-icon svg{
+  width:100%;height:100%;fill:currentColor
+}
+@media(prefers-reduced-motion:reduce){
+  .fl-skeleton{animation:none}
 }
 @media(max-width:390px){
   main{padding:11px}
   .panel,.event{padding:13px}
-  .winggrid,.squadgrid{grid-template-columns:repeat(2,1fr)}
+  .winggrid,.squadgrid{
+    grid-template-columns:repeat(2,1fr)
+  }
   .dateBar button{padding:10px 7px}
 }
 </style>
@@ -159,7 +230,8 @@ h3{margin:10px 0}
       <div class="logo">Flight<span>Line</span></div>
       <div class="sub" id="headerSub">My Schedule</div>
     </div>
-    <button id="menuButton" class="menuButton" aria-label="Menu">☰</button>
+    <button id="menuButton" class="menuButton"
+      aria-label="Menu">☰</button>
   </div>
   <nav id="menu" class="menu">
     <button data-view="my">My Schedule</button>
@@ -177,7 +249,8 @@ h3{margin:10px 0}
   <div class="step">WELCOME TO FLIGHTLINE</div>
   <h2>Set up your flight line</h2>
   <p class="muted small">
-    No account or sign-in required. Settings stay on this device.
+    No account or sign-in required.
+    Settings stay on this device.
   </p>
 
   <label>1 · Training air wing</label>
@@ -221,13 +294,18 @@ h3{margin:10px 0}
   </div>
 
   <div class="dateBar">
-    <button id="previous" class="secondary">‹</button>
+    <button id="previous" class="secondary"
+      aria-label="Previous day">‹</button>
     <input id="date" type="date" aria-label="Schedule date">
-    <button id="next" class="secondary">›</button>
+    <button id="next" class="secondary"
+      aria-label="Next day">›</button>
     <button id="today" class="secondary">Today</button>
-    <button id="refresh" class="secondary">↻</button>
+    <button id="refresh" class="secondary"
+      aria-label="Refresh">↻</button>
   </div>
 
+  <div id="fl-date-marker" class="small muted"
+    style="margin-bottom:10px"></div>
   <div id="myMessage"></div>
   <div id="myResults"></div>
 </section>
@@ -262,8 +340,12 @@ h3{margin:10px 0}
 <section id="historyView" class="hidden">
   <h2 id="historyTitle">Schedule History</h2>
   <div class="row">
-    <button id="weekButton" class="secondary">Past 7 Days</button>
-    <button id="monthButton" class="secondary">Past 30 Days</button>
+    <button id="weekButton" class="secondary">
+      Past 7 Days
+    </button>
+    <button id="monthButton" class="secondary">
+      Past 30 Days
+    </button>
   </div>
   <p class="muted small">Previously archived schedules.</p>
   <div id="historyMessage"></div>
@@ -274,9 +356,10 @@ h3{margin:10px 0}
   <div class="panel">
     <h2>Instructor Profile</h2>
     <p class="muted small">
-      Optional instructor-authored advice. This is a private local
-      draft. Submission and approval will be enabled after the
-      secure review service is connected.
+      Optional instructor-authored advice.
+      This is a private local draft.
+      Submission and approval will be enabled after
+      the secure review service is connected.
     </p>
 
     <label>Fleet aircraft (optional)</label>
@@ -315,7 +398,8 @@ h3{margin:10px 0}
 
     <label>Instrument flight advice (optional)</label>
     <textarea id="adviceInstrument" maxlength="600"
-      placeholder="I value good, solid comms with ATC."></textarea>
+      placeholder="I value good, solid comms with ATC.">
+    </textarea>
 
     <label>Formation flight advice (optional)</label>
     <textarea id="adviceFormation" maxlength="600"></textarea>
@@ -365,31 +449,13 @@ h3{margin:10px 0}
 
 </main>
 
-<div id="pdfModal" class="modal hidden"
-  role="dialog" aria-modal="true">
-  <div class="panel">
-    <div class="row">
-      <strong>Published Schedule PDF</strong>
-      <button id="closePdf" class="secondary"
-        style="flex:none">Close ✕</button>
-    </div>
-    <p class="hint">
-      Zoom and search availability depends on your browser.
-    </p>
-    <iframe id="pdfFrame" class="viewer"
-      title="Published schedule PDF"></iframe>
-    <a id="pdfDownload" class="pdf" download="schedule.pdf">
-      Download or open PDF
-    </a>
-  </div>
-</div>
-
 <footer class="footer">
 FlightLine displays archived CNATRA schedules.
-Always verify assignments, times, and remarks against the
-original published schedule. Formation partners are inferred
-from event codes and takeoff times. Instructor tips are not
-authoritative flight procedures.
+Always verify assignments, times, and remarks against
+the original published schedule.
+Formation partners are inferred from event codes and
+takeoff times. Instructor tips are not authoritative
+flight procedures.
 </footer>
 
 <script>
@@ -412,6 +478,7 @@ let requestCounter = 0;
 let onboardingWing = 'TW5';
 let onboardingSquadron = 'VT-3';
 let onboardingRole = 'student';
+let touchStart = null;
 
 const wings = {
   TW1:'Training Air Wing ONE',
@@ -438,8 +505,10 @@ const colors = {
   'HT-28':'#b65050'
 };
 
-const approvedJokes = [
-  'Anita Sortie'
+const searchNames = [
+  'Anita Sortie',
+  'Misty Approach',
+  'Anita Waiver'
 ];
 
 const studentJokes = [
@@ -451,6 +520,20 @@ const instructorJokes = [
   'Another day, another opportunity to explain trim.',
   'Waiting for the ATIS to finish its novel.'
 ];
+
+const loadingMessages = [
+  'Spinning the scheduling roulette wheel...',
+  'Stand by to stand by.'
+];
+
+const emptyMessages = [
+  "No events found. Scheduling knows something you don't.",
+  "No flights today. Don't say it out loud."
+];
+
+function pick(items) {
+  return items[Math.floor(Math.random() * items.length)];
+}
 
 function escapeHTML(value) {
   return String(value ?? '').replace(/[&<>"']/g, char => ({
@@ -466,7 +549,7 @@ function normalize(value) {
   return String(value || '')
     .toUpperCase()
     .trim()
-    .replace(/\s+/g, ' ');
+    .replace(/\s+/g,' ');
 }
 
 function readLocal(key) {
@@ -477,21 +560,17 @@ function readLocal(key) {
   }
 }
 
-function saveLocal(key, value) {
+function saveLocal(key,value) {
   try {
-    localStorage.setItem(key, JSON.stringify(value));
+    localStorage.setItem(key,JSON.stringify(value));
     return true;
   } catch {
     return false;
   }
 }
 
-function randomItem(items) {
-  return items[Math.floor(Math.random() * items.length)];
-}
-
 function centralDate(offset = 0) {
-  const parts = new Intl.DateTimeFormat('en-US', {
+  const parts = new Intl.DateTimeFormat('en-US',{
     timeZone:'America/Chicago',
     year:'numeric',
     month:'2-digit',
@@ -499,7 +578,7 @@ function centralDate(offset = 0) {
   }).formatToParts(new Date());
 
   const values = Object.fromEntries(
-    parts.map(part => [part.type, part.value])
+    parts.map(part => [part.type,part.value])
   );
 
   const date = new Date(Date.UTC(
@@ -508,18 +587,20 @@ function centralDate(offset = 0) {
     +values.day + offset
   ));
 
-  return date.toISOString().slice(0, 10);
+  return date.toISOString().slice(0,10);
 }
 
-function shiftDate(date, days) {
+function shiftDate(date,days) {
+  if (!date) return centralDate();
+
   const value = new Date(date + 'T12:00:00Z');
   value.setUTCDate(value.getUTCDate() + days);
-  return value.toISOString().slice(0, 10);
+  return value.toISOString().slice(0,10);
 }
 
 function prettyDate(date) {
   return new Date(date + 'T12:00:00Z')
-    .toLocaleDateString('en-US', {
+    .toLocaleDateString('en-US',{
       weekday:'long',
       month:'short',
       day:'numeric',
@@ -528,9 +609,126 @@ function prettyDate(date) {
     });
 }
 
+function formatRetrieved(timestamp) {
+  if (!timestamp) return 'Download time unavailable';
+
+  const date = new Date(timestamp);
+  if (Number.isNaN(date.getTime())) {
+    return 'Download time unavailable';
+  }
+
+  return date.toLocaleString('en-US',{
+    timeZone:'America/Chicago',
+    month:'short',
+    day:'numeric',
+    hour:'numeric',
+    minute:'2-digit'
+  }) + ' CT';
+}
+
+function status(title,detail) {
+  const container = $('myMessage');
+  container.innerHTML = '';
+
+  const box = document.createElement('div');
+  box.className = 'fl-status';
+
+  const heading = document.createElement('strong');
+  heading.textContent = title;
+
+  const description = document.createElement('small');
+  description.textContent = detail;
+
+  box.append(heading,description);
+  container.appendChild(box);
+}
+
+function showMessage(id,message,warning = false) {
+  $(id).innerHTML = message
+    ? `<div class="notice ${warning ? 'warning' : ''}">
+        ${escapeHTML(message)}
+      </div>`
+    : '';
+}
+
+function todayIndicator() {
+  const date = $('date').value;
+  const isToday = date === centralDate();
+
+  $('today').classList.toggle('fl-today',isToday);
+
+  $('fl-date-marker').textContent = !date
+    ? ''
+    : isToday
+      ? 'TODAY · CENTRAL TIME'
+      : prettyDate(date);
+}
+
+function skeleton() {
+  $('myResults').innerHTML =
+    '<div class="fl-skeleton"></div>' +
+    '<div class="fl-skeleton"></div>';
+}
+
+function icon(helicopter) {
+  if (helicopter) {
+    return `<span class="fl-icon">
+      <svg viewBox="0 0 48 48" aria-hidden="true">
+        <path d="M22 5h4v12h-4z
+          M4 19h40v3H4z
+          M20 15h8l4 9-4 10h-8l-4-10z
+          M23 32h2v11h-2z
+          M13 41h22v3H13z"/>
+      </svg>
+    </span>`;
+  }
+
+  return `<span class="fl-icon">
+    <svg viewBox="0 0 48 48" aria-hidden="true">
+      <path d="M24 2c2 0 3 4 3 9v10
+        l17 10v5L27 32v8l7 4v3
+        l-10-2-10 2v-3l7-4v-8
+        L4 36v-5l17-10V11
+        c0-5 1-9 3-9z"/>
+    </svg>
+  </span>`;
+}
+
+function replaceIcons(root) {
+  if (!root) return;
+
+  const walker = document.createTreeWalker(
+    root,NodeFilter.SHOW_TEXT
+  );
+
+  const nodes = [];
+
+  while (walker.nextNode()) {
+    if (/[✈🚁🛩]/u.test(walker.currentNode.textContent)) {
+      nodes.push(walker.currentNode);
+    }
+  }
+
+  for (const node of nodes) {
+    const fragment = document.createDocumentFragment();
+
+    for (const part of node.textContent.split(/([✈🚁🛩])/u)) {
+      if (['✈','🛩','🚁'].includes(part)) {
+        const wrapper = document.createElement('span');
+        wrapper.innerHTML = icon(part === '🚁');
+        fragment.appendChild(wrapper);
+      } else if (part) {
+        fragment.appendChild(document.createTextNode(part));
+      }
+    }
+
+    node.parentNode.replaceChild(fragment,node);
+  }
+}
+
 function setTheme() {
   const accent = colors[profile.squadron] || '#d93446';
-  document.documentElement.style.setProperty('--accent', accent);
+  document.documentElement.style.setProperty('--accent',accent);
 
   $('homeSquad').textContent =
     squadrons[profile.squadron]?.name || profile.squadron;
@@ -545,70 +743,76 @@ function setTheme() {
 
   $('homePatch').textContent =
     profile.squadron.startsWith('HT') ? '🚁' : '✈';
-}
 
-function showMessage(id, message, warning = false) {
-  $(id).innerHTML = message
-    ? `<div class="notice ${warning ? 'warning' : ''}">
-        ${escapeHTML(message)}
-      </div>`
-    : '';
+  replaceIcons($('homePatch'));
 }
 
 function renderOnboarding() {
-  $('wingTiles').innerHTML = Object.keys(wings).map(wing => `
-    <button class="tile ${wing === onboardingWing ? 'active' : ''}"
-      data-wing="${wing}">
-      <span class="em">🛡️</span>${wing}
-    </button>
-  `).join('');
+  $('wingTiles').innerHTML =
+    Object.keys(wings).map(wing => `
+      <button class="tile ${
+        wing === onboardingWing ? 'active' : ''
+      }" data-wing="${wing}">
+        <span class="em">🛡️</span>${wing}
+      </button>
+    `).join('');
 
   $('squadTiles').innerHTML =
     Object.entries(squadrons)
-      .filter(([, info]) => info.wing === onboardingWing)
+      .filter(([,info]) => info.wing === onboardingWing)
       .map(([id]) => `
-        <button class="tile ${id === onboardingSquadron ? 'active' : ''}"
-          data-squad="${escapeHTML(id)}">
-          <span class="em">${id.startsWith('HT') ? '🚁' : '✈'}</span>
+        <button class="tile ${
+          id === onboardingSquadron ? 'active' : ''
+        }" data-squad="${escapeHTML(id)}">
+          <span class="em">
+            ${id.startsWith('HT') ? '🚁' : '✈'}
+          </span>
           ${escapeHTML(id)}
         </button>
       `).join('');
 
   $('roleStudent').classList.toggle(
-    'active', onboardingRole === 'student'
+    'active',onboardingRole === 'student'
   );
+
   $('roleInstructor').classList.toggle(
-    'active', onboardingRole === 'instructor'
+    'active',onboardingRole === 'instructor'
   );
+
+  replaceIcons($('wingTiles'));
+  replaceIcons($('squadTiles'));
 }
 
 function chooseWing(wing) {
   onboardingWing = wing;
+
   onboardingSquadron =
     Object.keys(squadrons).find(
       id => squadrons[id].wing === wing
     ) || '';
+
   renderOnboarding();
 }
 
 function fillSelects() {
-  const wingOptions = Object.entries(wings)
-    .map(([id, name]) =>
-      `<option value="${id}">${escapeHTML(name)}</option>`
+  $('homeWingSelect').innerHTML =
+    Object.entries(wings).map(([id,name]) =>
+      `<option value="${id}">
+        ${escapeHTML(name)}
+      </option>`
     ).join('');
 
-  $('homeWingSelect').innerHTML = wingOptions;
-
   const options = Object.entries(squadrons)
-    .map(([id, info]) =>
+    .map(([id,info]) =>
       `<option value="${escapeHTML(id)}">
         ${escapeHTML(info.name || id)}
       </option>`
     ).join('');
 
   $('findSq').innerHTML =
-    `<option value="all">All ${Object.keys(squadrons).length} Schedules</option>`
-    + options;
+    `<option value="all">
+      All ${Object.keys(squadrons).length} Schedules
+    </option>` + options;
 }
 
 function filterHomeSquadrons() {
@@ -617,8 +821,8 @@ function filterHomeSquadrons() {
 
   $('homeSq').innerHTML =
     Object.entries(squadrons)
-      .filter(([, info]) => info.wing === wing)
-      .map(([id, info]) =>
+      .filter(([,info]) => info.wing === wing)
+      .map(([id,info]) =>
         `<option value="${escapeHTML(id)}">
           ${escapeHTML(info.name || id)}
         </option>`
@@ -654,7 +858,7 @@ function saveSettings() {
     role:$('homeRoleSelect').value
   };
 
-  saveLocal(KEY, profile);
+  saveLocal(KEY,profile);
   setTheme();
   openView('my');
 }
@@ -686,24 +890,30 @@ function openView(view) {
     settings:'Profile Settings'
   };
 
-  $('headerSub').textContent = titles[view] || 'FlightLine';
+  $('headerSub').textContent =
+    titles[view] || 'FlightLine';
 
   if (view === 'my') loadMySchedule();
   if (view === 'week') loadHistory(7);
   if (view === 'month') loadHistory(30);
 
   if (view === 'find') {
-    const joke = randomItem(approvedJokes);
-    const pieces = joke.split(' ');
-    $('findFirst').placeholder = pieces[0];
-    $('findLast').placeholder = pieces.slice(1).join(' ');
-    $('findJoke').textContent =
-      randomItem(
-        profile.role === 'student' ? studentJokes : instructorJokes
-      );
+    rotateSearchNames();
+
+    $('findJoke').textContent = pick(
+      profile.role === 'student'
+        ? studentJokes
+        : instructorJokes
+    );
   }
 
   if (view === 'instructor') loadDraft();
+}
+
+function rotateSearchNames() {
+  const pieces = pick(searchNames).split(' ');
+  $('findFirst').placeholder = pieces[0];
+  $('findLast').placeholder = pieces.slice(1).join(' ');
 }
 
 async function fetchJSON(url) {
@@ -718,7 +928,7 @@ async function fetchJSON(url) {
   return response.json();
 }
 
-async function getSchedule(squadron, date) {
+async function getSchedule(squadron,date) {
   const key = squadron + '/' + date;
 
   if (cache.has(key)) return cache.get(key);
@@ -727,7 +937,8 @@ async function getSchedule(squadron, date) {
     `${ROOT}/schedules/${squadron}/${date}/full_schedule.json`
   );
 
-  if (data) cache.set(key, data);
+  if (data) cache.set(key,data);
+
   return data;
 }
 
@@ -736,7 +947,7 @@ const NAME_PATTERN =
   "([A-Z][A-Z'-]*)";
 
 function namesIn(text) {
-  const regex = new RegExp(NAME_PATTERN, 'g');
+  const regex = new RegExp(NAME_PATTERN,'g');
   const found = [];
 
   for (const match of normalize(text).matchAll(regex)) {
@@ -755,11 +966,14 @@ function makeEvent(
   code,duration,crewText,remarks,page,device
 ) {
   const crew = namesIn(crewText);
+
   if (!crew.length) return null;
 
   return {
-    section,line:+line,brief,start,land,
-    code,duration,crew,remarks,page,device
+    section,
+    line:+line,
+    brief,start,land,code,duration,
+    crew,remarks,page,device
   };
 }
 
@@ -855,7 +1069,10 @@ function parseSchedule(data) {
       if (event) sims.push(event);
     }
 
-    if (section === 'Ground' && /^\d{4}-\d{4}\s/.test(text)) {
+    if (
+      section === 'Ground' &&
+      /^\d{4}-\d{4}\s/.test(text)
+    ) {
       ground.push({
         section:'Ground',
         raw:text,
@@ -909,13 +1126,19 @@ function parseSchedule(data) {
 }
 
 function matchPerson(crew,last,first) {
-  const candidates = crew.filter(person => person.last === last);
+  const candidates = crew.filter(
+    person => person.last === last
+  );
+
   if (!candidates.length) return false;
   if (!first) return true;
 
   return candidates.some(person =>
     person.first === first ||
-    (person.first.length === 1 && person.first === first[0])
+    (
+      person.first.length === 1 &&
+      person.first === first[0]
+    )
   );
 }
 
@@ -934,12 +1157,14 @@ function findEvents(parsed,last,first) {
 
 function eventCount(found) {
   return Object.values(found).reduce(
-    (total,items) => total + items.length,0
+    (total,items) => total + items.length,
+    0
   );
 }
 
 function timeMinutes(value) {
   if (!/^\d{4}$/.test(value || '')) return null;
+
   return +value.slice(0,2) * 60 + +value.slice(2);
 }
 
@@ -966,10 +1191,13 @@ function pdfURL(id,date) {
 }
 
 function pdfLink(id,date,page) {
-  return `<a class="pdf" data-pdf="1"
-    data-page="${page || 1}"
-    href="${escapeHTML(pdfURL(id,date))}">
-    VIEW SCHEDULE PDF · PAGE ${page || 1} ↗
+  const number = Number(page) || 1;
+
+  return `<a class="pdf"
+    href="${escapeHTML(pdfURL(id,date))}#page=${number}"
+    target="_blank"
+    rel="noopener noreferrer">
+    VIEW SCHEDULE PDF · PAGE ${number} ↗
   </a>`;
 }
 
@@ -993,11 +1221,16 @@ function crewButton(person,isInstructor) {
 
 function eventCard(event,id,date,all) {
   const flight = event.section === 'Flight';
-  const partners = flight ? formationPartners(event,all) : [];
+
+  const partners = flight
+    ? formationPartners(event,all)
+    : [];
 
   return `<article class="event">
     <div class="row">
-      <div class="code">${escapeHTML(event.code)}</div>
+      <div class="code">
+        ${escapeHTML(event.code)}
+      </div>
       <div class="muted small" style="text-align:right">
         ${escapeHTML(id)} · LINE ${event.line}
       </div>
@@ -1005,7 +1238,10 @@ function eventCard(event,id,date,all) {
 
     <div class="timegrid">
       ${timeBox('BRIEF',event.brief)}
-      ${timeBox(flight ? 'TAKEOFF' : 'SIM TIME',event.start)}
+      ${timeBox(
+        flight ? 'TAKEOFF' : 'SIM TIME',
+        event.start
+      )}
       ${timeBox(
         flight ? 'LAND' : 'DEVICE',
         flight ? event.land : event.device
@@ -1015,11 +1251,15 @@ function eventCard(event,id,date,all) {
     <div class="crewgrid">
       <div>
         <small>INSTRUCTOR</small>
-        <strong>${crewButton(event.crew[0],true)}</strong>
+        <strong>
+          ${crewButton(event.crew[0],true)}
+        </strong>
       </div>
       <div>
         <small>STUDENT</small>
-        <strong>${crewButton(event.crew[1],false)}</strong>
+        <strong>
+          ${crewButton(event.crew[1],false)}
+        </strong>
       </div>
     </div>
 
@@ -1034,7 +1274,9 @@ function eventCard(event,id,date,all) {
         ${partners.map(partner => `
           <p class="small">
             Line ${partner.line} ·
-            ${escapeHTML(partner.crew.map(n => n.full).join(' / '))}
+            ${escapeHTML(
+              partner.crew.map(n => n.full).join(' / ')
+            )}
             · ${escapeHTML(partner.code)}
             · T/O ${escapeHTML(partner.start)}
           </p>
@@ -1055,7 +1297,9 @@ function eventCard(event,id,date,all) {
 
 function plainCard(event,id,date) {
   return `<article class="event">
-    <strong>${escapeHTML(event.role || event.section)}</strong>
+    <strong>
+      ${escapeHTML(event.role || event.section)}
+    </strong>
     <p class="small">${escapeHTML(event.raw)}</p>
     ${pdfLink(id,date,event.page)}
   </article>`;
@@ -1064,14 +1308,18 @@ function plainCard(event,id,date) {
 function scheduleHTML(found,id,date,parsed) {
   let html = `<div class="stats">
     <div class="stat">
-      <small>FLIGHTS</small><strong>${found.flights.length}</strong>
+      <small>FLIGHTS</small>
+      <strong>${found.flights.length}</strong>
     </div>
     <div class="stat">
-      <small>SIMS</small><strong>${found.sims.length}</strong>
+      <small>SIMS</small>
+      <strong>${found.sims.length}</strong>
     </div>
     <div class="stat">
       <small>OTHER</small>
-      <strong>${found.ground.length + found.duty.length}</strong>
+      <strong>
+        ${found.ground.length + found.duty.length}
+      </strong>
     </div>
   </div>`;
 
@@ -1106,22 +1354,33 @@ async function loadMySchedule() {
   const token = ++requestCounter;
   const date = $('date').value;
 
-  if (!profile.last || !date) return;
+  if (!profile || !profile.last || !date) return;
 
-  showMessage('myMessage','Checking ' + prettyDate(date) + '...');
-  $('myResults').innerHTML = '';
+  const squadron = profile.squadron;
+
+  todayIndicator();
+
+  status(
+    'Checking schedule',
+    prettyDate(date) + ' · ' + pick(loadingMessages)
+  );
+
+  skeleton();
 
   try {
-    const data = await getSchedule(profile.squadron,date);
+    const data = await getSchedule(squadron,date);
+
     if (token !== requestCounter) return;
 
     if (!data) {
-      showMessage(
-        'myMessage',
-        'Schedule not published or not yet downloaded for ' +
-          prettyDate(date) + '.',
-        true
+      status(
+        'NOT YET PUBLISHED / NOT ARCHIVED',
+        'No archived schedule is available for ' +
+        prettyDate(date) +
+        '. This does not confirm CNATRA has not published one.'
       );
+
+      $('myResults').innerHTML = '';
       return;
     }
 
@@ -1130,39 +1389,54 @@ async function loadMySchedule() {
       parsed,profile.last,profile.first
     );
 
-    showMessage(
-      'myMessage',
-      prettyDate(date) + ' · ' +
-        eventCount(found) + ' matching events'
+    const retrievedAt =
+      data.metadata?.retrieved_at;
+
+    status(
+      'SCHEDULE AVAILABLE',
+      prettyDate(date) +
+      ' · ' + eventCount(found) + ' matching events' +
+      ' · Downloaded ' +
+      formatRetrieved(retrievedAt)
     );
 
-    $('myResults').innerHTML = eventCount(found)
-      ? scheduleHTML(found,profile.squadron,date,parsed)
-      : `<div class="notice">
-          No assignments found.
-          ${pdfLink(profile.squadron,date,1)}
+    if (eventCount(found)) {
+      $('myResults').innerHTML =
+        scheduleHTML(found,squadron,date,parsed);
+    } else {
+      $('myResults').innerHTML =
+        `<div class="notice">
+          ${escapeHTML(pick(emptyMessages))}
+          <div>
+            ${pdfLink(squadron,date,1)}
+          </div>
         </div>`;
+    }
 
   } catch (error) {
-    if (token === requestCounter) {
-      showMessage(
-        'myMessage',
-        'Unable to load schedule: ' + error.message,
-        true
-      );
-    }
+    if (token !== requestCounter) return;
+
+    status(
+      'UNABLE TO LOAD',
+      error.message || 'Schedule retrieval failed.'
+    );
+
+    $('myResults').innerHTML = '';
   }
 }
 
 async function searchSomeone() {
   const token = ++requestCounter;
+
   const last = normalize($('findLast').value);
   const first = normalize($('findFirst').value);
   const date = $('findDate').value;
   const selected = $('findSq').value;
 
   if (!last) {
-    showMessage('findMessage','Enter a last name.',true);
+    showMessage(
+      'findMessage','Enter a last name.',true
+    );
     return;
   }
 
@@ -1210,13 +1484,18 @@ async function searchSomeone() {
       const count = eventCount(found);
 
       if (!count) continue;
+
       total += count;
 
       html += `<h3 class="sectionhead">
-        ${escapeHTML(squadrons[item.id].name)}
+        ${escapeHTML(
+          squadrons[item.id].name || item.id
+        )}
       </h3>`;
 
-      html += scheduleHTML(found,item.id,date,parsed);
+      html += scheduleHTML(
+        found,item.id,date,parsed
+      );
     }
 
     showMessage(
@@ -1267,16 +1546,20 @@ async function loadHistory(days) {
   );
 
   try {
-    const loaded = await Promise.all(dates.map(async date => {
-      try {
-        return {
-          date,
-          data:await getSchedule(profile.squadron,date)
-        };
-      } catch {
-        return {date,error:true};
-      }
-    }));
+    const loaded = await Promise.all(
+      dates.map(async date => {
+        try {
+          return {
+            date,
+            data:await getSchedule(
+              profile.squadron,date
+            )
+          };
+        } catch {
+          return {date,error:true};
+        }
+      })
+    );
 
     if (token !== requestCounter) return;
 
@@ -1291,18 +1574,23 @@ async function loadHistory(days) {
 
       if (item.error) {
         errors++;
-        html += '<p class="muted small">Could not load schedule.</p></div>';
+        html +=
+          '<p class="muted small">Could not load schedule.</p>' +
+          '</div>';
         continue;
       }
 
       if (!item.data) {
-        html += '<p class="muted small">No saved schedule.</p></div>';
+        html +=
+          '<p class="muted small">No saved schedule.</p>' +
+          '</div>';
         continue;
       }
 
       available++;
 
       const parsed = parseSchedule(item.data);
+
       const found = findEvents(
         parsed,profile.last,profile.first
       );
@@ -1315,7 +1603,8 @@ async function loadHistory(days) {
           )
         : `<p class="muted small">
             Published schedule — no matching assignments.
-          </p>`;
+          </p>
+          ${pdfLink(profile.squadron,item.date,1)}`;
 
       html += '</div>';
     }
@@ -1382,16 +1671,26 @@ function renderDraft() {
     <div class="notice">
       <h3>
         ${aircraftIcon(draft.fleet || '')}
-        ${escapeHTML(profile.first + ' ' + profile.last)}
+        ${escapeHTML(
+          profile.first + ' ' + profile.last
+        )}
       </h3>
+
       <p class="small">
-        ${escapeHTML(draft.fleet || 'Instructor Pilot')}
+        ${escapeHTML(
+          draft.fleet || 'Instructor Pilot'
+        )}
       </p>
+
       <p>${escapeHTML(draft.bio || '')}</p>
-      ${sections.filter(([,value]) => value).map(([name,value]) => `
-        <h3>${escapeHTML(name)} Advice</h3>
-        <p>${escapeHTML(value)}</p>
-      `).join('')}
+
+      ${sections
+        .filter(([,value]) => value)
+        .map(([name,value]) => `
+          <h3>${escapeHTML(name)} Advice</h3>
+          <p>${escapeHTML(value)}</p>
+        `).join('')}
+
       <p class="hint">
         Private local draft — not published or submitted.
       </p>
@@ -1426,20 +1725,66 @@ function showInstructor(name) {
   );
 }
 
-function showPDF(url,page) {
-  $('pdfFrame').src = url + '#page=' + page;
-  $('pdfDownload').href = url;
-  $('pdfModal').classList.remove('hidden');
-}
+function installSwipe() {
+  const view = $('myView');
 
-function closePDF() {
-  $('pdfModal').classList.add('hidden');
-  $('pdfFrame').src = 'about:blank';
+  view.addEventListener('touchstart',event => {
+    if (event.touches.length !== 1) return;
+
+    touchStart = {
+      x:event.touches[0].clientX,
+      y:event.touches[0].clientY,
+      scroll:window.scrollY
+    };
+  },{passive:true});
+
+  view.addEventListener('touchend',event => {
+    if (!touchStart || !event.changedTouches.length) {
+      return;
+    }
+
+    const dx =
+      event.changedTouches[0].clientX - touchStart.x;
+
+    const dy =
+      event.changedTouches[0].clientY - touchStart.y;
+
+    const startedNearTop = touchStart.scroll < 40;
+
+    touchStart = null;
+
+    if (event.target.closest(
+      'input,button,a,iframe,select,textarea'
+    )) return;
+
+    if (
+      Math.abs(dx) > 75 &&
+      Math.abs(dx) > Math.abs(dy) * 1.6
+    ) {
+      $('date').value = shiftDate(
+        $('date').value,
+        dx < 0 ? 1 : -1
+      );
+
+      loadMySchedule();
+      return;
+    }
+
+    if (
+      startedNearTop &&
+      dy > 110 &&
+      Math.abs(dx) < 60
+    ) {
+      cache.clear();
+      loadMySchedule();
+    }
+  },{passive:true});
 }
 
 function wireControls() {
   document.querySelectorAll('[data-view]').forEach(button => {
-    button.onclick = () => openView(button.dataset.view);
+    button.onclick = () =>
+      openView(button.dataset.view);
   });
 
   $('menuButton').onclick = () => {
@@ -1448,6 +1793,7 @@ function wireControls() {
 
   $('wingTiles').onclick = event => {
     const button = event.target.closest('[data-wing]');
+
     if (button) chooseWing(button.dataset.wing);
   };
 
@@ -1493,18 +1839,24 @@ function wireControls() {
     openView('my');
   };
 
-  $('homeWingSelect').onchange = filterHomeSquadrons;
+  $('homeWingSelect').onchange =
+    filterHomeSquadrons;
+
   $('save').onclick = saveSettings;
   $('findSearch').onclick = searchSomeone;
   $('saveDraft').onclick = saveDraft;
 
   $('previous').onclick = () => {
-    $('date').value = shiftDate($('date').value,-1);
+    $('date').value = shiftDate(
+      $('date').value,-1
+    );
     loadMySchedule();
   };
 
   $('next').onclick = () => {
-    $('date').value = shiftDate($('date').value,1);
+    $('date').value = shiftDate(
+      $('date').value,1
+    );
     loadMySchedule();
   };
 
@@ -1519,33 +1871,24 @@ function wireControls() {
   };
 
   $('date').onchange = loadMySchedule;
-  $('weekButton').onclick = () => openView('week');
-  $('monthButton').onclick = () => openView('month');
-  $('closePdf').onclick = closePDF;
 
-  $('pdfModal').onclick = event => {
-    if (event.target === $('pdfModal')) closePDF();
-  };
+  $('weekButton').onclick =
+    () => openView('week');
+
+  $('monthButton').onclick =
+    () => openView('month');
 
   document.addEventListener('click',event => {
-    const link = event.target.closest('a[data-pdf]');
-
-    if (link) {
-      event.preventDefault();
-      showPDF(link.href,+link.dataset.page);
-      return;
-    }
-
-    const instructor = event.target.closest('[data-instructor]');
+    const instructor = event.target.closest(
+      '[data-instructor]'
+    );
 
     if (instructor) {
       showInstructor(instructor.dataset.instructor);
     }
   });
 
-  document.addEventListener('keydown',event => {
-    if (event.key === 'Escape') closePDF();
-  });
+  installSwipe();
 }
 
 async function init() {
@@ -1554,8 +1897,13 @@ async function init() {
   $('date').value = centralDate();
   $('findDate').value = centralDate();
 
+  todayIndicator();
+  rotateSearchNames();
+
   try {
-    const config = await fetchJSON(ROOT + '/squadrons.json');
+    const config = await fetchJSON(
+      ROOT + '/squadrons.json'
+    );
 
     if (!config?.squadrons) {
       throw Error('Squadron configuration unavailable');
@@ -1566,7 +1914,10 @@ async function init() {
 
     const saved = readLocal(KEY) || readLocal(OLD);
 
-    if (saved?.last && squadrons[saved.squadron]) {
+    if (
+      saved?.last &&
+      squadrons[saved.squadron]
+    ) {
       profile = {
         last:normalize(saved.last),
         first:normalize(saved.first),
@@ -1589,624 +1940,14 @@ async function init() {
   } catch (error) {
     $('onboardView').classList.remove('hidden');
     $('obError').classList.remove('hidden');
+
     $('obError').textContent =
-      'Unable to load squadron configuration: ' + error.message;
+      'Unable to load squadron configuration: ' +
+      error.message;
   }
 }
 
 init();
 </script>
-  
-<style>
-/* FlightLine approved enhancements */
-#today.fl-today {
-  background:var(--accent);
-  border-color:var(--accent);
-  color:white;
-}
-.fl-status {
-  padding:13px;
-  margin:10px 0;
-  background:var(--panel);
-  border:1px solid var(--border);
-  border-radius:10px;
-}
-.fl-status strong {
-  display:block;
-  margin-bottom:5px;
-}
-.fl-status small {
-  color:var(--muted);
-}
-.fl-timeline {
-  border-left:2px solid var(--accent);
-  margin:15px 0 15px 9px;
-  padding-left:18px;
-}
-.fl-timeline-item {
-  position:relative;
-  margin-bottom:14px;
-}
-.fl-timeline-item:before {
-  content:"";
-  position:absolute;
-  left:-25px;
-  top:17px;
-  width:11px;
-  height:11px;
-  border-radius:50%;
-  background:var(--accent);
-}
-.fl-skeleton {
-  height:110px;
-  margin-bottom:12px;
-  border-radius:14px;
-  background:linear-gradient(
-    100deg,#1b1f27 20%,#353a45 40%,#1b1f27 60%
-  );
-  background-size:200% 100%;
-  animation:fl-shimmer 1.5s infinite;
-}
-@keyframes fl-shimmer {
-  to {background-position-x:-200%}
-}
-.fl-icon {
-  display:inline-flex;
-  width:1.3em;
-  height:1.3em;
-  vertical-align:middle;
-}
-.fl-icon svg {
-  width:100%;
-  height:100%;
-  fill:currentColor;
-}
-#pdfModal.fl-fullscreen {
-  padding:0;
-}
-#pdfModal.fl-fullscreen .panel {
-  width:100%;
-  height:100vh;
-  max-height:100vh;
-  border-radius:0;
-}
-#pdfModal.fl-fullscreen .viewer {
-  height:calc(100vh - 155px);
-}
-@media(prefers-reduced-motion:reduce) {
-  .fl-skeleton {animation:none}
-}
-</style>
-
-<script>
-(function () {
-  'use strict';
-
-  const $fl = id => document.getElementById(id);
-
-  const searchNames = [
-    'Anita Sortie',
-    'Misty Approach',
-    'Anita Waiver'
-  ];
-
-  const loadingMessages = [
-    'Spinning the scheduling roulette wheel...',
-    'Stand by to stand by.'
-  ];
-
-  const emptyMessages = [
-    "No events found. Scheduling knows something you don't.",
-    "No flights today. Don't say it out loud."
-  ];
-
-  let timelineEnabled = false;
-  let currentSchedule = null;
-  let currentDate = null;
-  let currentSquadron = null;
-  let touchStart = null;
-  let requestId = 0;
-
-  const retrievals = new Map();
-
-  const pick = items =>
-    items[Math.floor(Math.random() * items.length)];
-
-  function icon(helicopter) {
-    if (helicopter) {
-      return `<span class="fl-icon">
-        <svg viewBox="0 0 48 48" aria-hidden="true">
-          <path d="M22 5h4v12h-4z
-            M4 19h40v3H4z
-            M20 15h8l4 9-4 10h-8l-4-10z
-            M23 32h2v11h-2z
-            M13 41h22v3H13z"/>
-        </svg>
-      </span>`;
-    }
-
-    return `<span class="fl-icon">
-      <svg viewBox="0 0 48 48" aria-hidden="true">
-        <path d="M24 2c2 0 3 4 3 9v10
-          l17 10v5L27 32v8l7 4v3
-          l-10-2-10 2v-3l7-4v-8
-          L4 36v-5l17-10V11
-          c0-5 1-9 3-9z"/>
-      </svg>
-    </span>`;
-  }
-
-  function replaceIcons(root) {
-    if (!root) return;
-
-    const walker = document.createTreeWalker(
-      root, NodeFilter.SHOW_TEXT
-    );
-
-    const nodes = [];
-
-    while (walker.nextNode()) {
-      const node = walker.currentNode;
-      if (/[✈🚁🛩]/u.test(node.textContent)) {
-        nodes.push(node);
-      }
-    }
-
-    for (const node of nodes) {
-      const text = node.textContent;
-      const fragment = document.createDocumentFragment();
-
-      for (const part of text.split(/([✈🚁🛩])/u)) {
-        if (part === '✈' || part === '🛩' || part === '🚁') {
-          const wrapper = document.createElement('span');
-          wrapper.innerHTML = icon(part === '🚁');
-          fragment.appendChild(wrapper);
-        } else if (part) {
-          fragment.appendChild(
-            document.createTextNode(part)
-          );
-        }
-      }
-
-      node.parentNode.replaceChild(fragment, node);
-    }
-  }
-
-  function formatRetrieved(date) {
-    return date.toLocaleString('en-US', {
-      timeZone:'America/Chicago',
-      month:'short',
-      day:'numeric',
-      hour:'numeric',
-      minute:'2-digit'
-    }) + ' CT';
-  }
-
-  function status(title, detail) {
-    const container = $fl('myMessage');
-    if (!container) return;
-
-    container.innerHTML = '';
-
-    const box = document.createElement('div');
-    box.className = 'fl-status';
-
-    const heading = document.createElement('strong');
-    heading.textContent = title;
-
-    const description = document.createElement('small');
-    description.textContent = detail;
-
-    box.append(heading, description);
-    container.appendChild(box);
-  }
-
-  function todayIndicator() {
-    const input = $fl('date');
-    const today = $fl('today');
-
-    if (!input || !today) return;
-
-    const isToday = input.value === centralDate();
-
-    today.classList.toggle('fl-today', isToday);
-
-    const marker = $fl('fl-date-marker');
-    if (marker) {
-      marker.textContent = isToday
-        ? 'TODAY · CENTRAL TIME'
-        : prettyDate(input.value);
-    }
-  }
-
-  function skeleton() {
-    $fl('myResults').innerHTML =
-      '<div class="fl-skeleton"></div>' +
-      '<div class="fl-skeleton"></div>';
-  }
-
-  function timeline(found, squadron, date, parsed) {
-    const all = [
-      ...found.flights,
-      ...found.sims,
-      ...found.ground,
-      ...found.duty
-    ];
-
-    all.sort((a,b) => {
-      const first = timeMinutes(a.brief || a.start);
-      const second = timeMinutes(b.brief || b.start);
-
-      return (first ?? 9999) - (second ?? 9999);
-    });
-
-    const container = document.createElement('div');
-    container.className = 'fl-timeline';
-
-    for (const event of all) {
-      const item = document.createElement('div');
-      item.className = 'fl-timeline-item';
-
-      const label = document.createElement('div');
-      label.className = 'small muted';
-
-      label.textContent =
-        (event.brief || event.start || 'Time not listed') +
-        ' · ' + event.section;
-
-      item.appendChild(label);
-
-      const content =
-        event.section === 'Flight' ||
-        event.section === 'Simulator'
-          ? eventCard(event, squadron, date, parsed.flights)
-          : plainCard(event, squadron, date);
-
-      item.insertAdjacentHTML('beforeend', content);
-      container.appendChild(item);
-    }
-
-    return container.outerHTML;
-  }
-
-  function displaySchedule() {
-    if (!currentSchedule) return;
-
-    const {
-      found, parsed, squadron, date
-    } = currentSchedule;
-
-    const count = eventCount(found);
-
-    if (!count) {
-      $fl('myResults').innerHTML =
-        `<div class="notice">
-          ${escapeHTML(pick(emptyMessages))}
-          <div>${pdfLink(squadron,date,1)}</div>
-        </div>`;
-      return;
-    }
-
-    $fl('myResults').innerHTML = timelineEnabled
-      ? timeline(found,squadron,date,parsed)
-      : scheduleHTML(found,squadron,date,parsed);
-  }
-
-  window.loadMySchedule = async function () {
-    const token = ++requestId;
-    const date = $fl('date').value;
-
-    if (!profile || !profile.last || !date) return;
-
-    const squadron = profile.squadron;
-
-    currentDate = date;
-    currentSquadron = squadron;
-    currentSchedule = null;
-
-    todayIndicator();
-
-    status(
-      'Checking schedule',
-      prettyDate(date) + ' · ' + pick(loadingMessages)
-    );
-
-    skeleton();
-
-    try {
-      const data = await getSchedule(squadron,date);
-
-      if (token !== requestId) return;
-
-      if (!data) {
-        status(
-          'NOT YET PUBLISHED / NOT ARCHIVED',
-          'No archived schedule is available for ' +
-          prettyDate(date) +
-          '. This does not confirm CNATRA has not published one.'
-        );
-
-        $fl('myResults').innerHTML = '';
-        return;
-      }
-
-      const parsed = parseSchedule(data);
-      const found = findEvents(
-        parsed,profile.last,profile.first
-      );
-
-      const key = squadron + '/' + date;
-
-      if (!retrievals.has(key)) {
-        retrievals.set(key,new Date());
-      }
-
-      currentSchedule = {
-        found, parsed, squadron, date
-      };
-
-      status(
-        'SCHEDULE AVAILABLE',
-        prettyDate(date) +
-        ' · ' + eventCount(found) + ' matching events' +
-        ' · Retrieved ' +
-        formatRetrieved(retrievals.get(key))
-      );
-
-      displaySchedule();
-
-    } catch(error) {
-      if (token !== requestId) return;
-
-      status(
-        'UNABLE TO LOAD',
-        error.message || 'Schedule retrieval failed.'
-      );
-
-      $fl('myResults').innerHTML = '';
-    }
-  };
-
-  function addTimelineButton() {
-    if ($fl('fl-timeline-toggle')) return;
-
-    const button = document.createElement('button');
-
-    button.id = 'fl-timeline-toggle';
-    button.className = 'secondary';
-    button.textContent = 'Timeline view: Off';
-    button.setAttribute('aria-pressed','false');
-    button.style.marginBottom = '12px';
-
-    button.onclick = () => {
-      timelineEnabled = !timelineEnabled;
-
-      button.textContent =
-        'Timeline view: ' +
-        (timelineEnabled ? 'On' : 'Off');
-
-      button.setAttribute(
-        'aria-pressed',
-        String(timelineEnabled)
-      );
-
-      if (currentSchedule) displaySchedule();
-    };
-
-    $fl('myResults').before(button);
-  }
-
-  function addDateMarker() {
-    if ($fl('fl-date-marker')) return;
-
-    const marker = document.createElement('div');
-    marker.id = 'fl-date-marker';
-    marker.className = 'small muted';
-    marker.style.marginBottom = '10px';
-
-    $fl('myMessage').before(marker);
-  }
-
-  function addPdfFullscreen() {
-    if ($fl('fl-pdf-fullscreen')) return;
-
-    const button = document.createElement('button');
-
-    button.id = 'fl-pdf-fullscreen';
-    button.className = 'secondary';
-    button.textContent = 'Full screen';
-    button.style.flex = 'none';
-
-    button.onclick = () => {
-      const modal = $fl('pdfModal');
-
-      const enabled =
-        modal.classList.toggle('fl-fullscreen');
-
-      button.textContent =
-        enabled ? 'Exit full screen' : 'Full screen';
-    };
-
-    $fl('closePdf').before(button);
-
-    const external = $fl('pdfDownload');
-    external.textContent = 'Open PDF externally / Download';
-    external.removeAttribute('download');
-    external.target = '_blank';
-    external.rel = 'noopener noreferrer';
-  }
-
-  function installSearchPlaceholders() {
-    const first = $fl('findFirst');
-    const last = $fl('findLast');
-
-    if (!first || !last) return;
-
-    function rotate() {
-      const parts = pick(searchNames).split(' ');
-
-      first.placeholder = parts[0];
-      last.placeholder = parts.slice(1).join(' ');
-    }
-
-    rotate();
-
-    const findButton = document.querySelector(
-      '[data-view="find"]'
-    );
-
-    if (findButton) {
-      findButton.addEventListener('click', () => {
-        setTimeout(rotate,0);
-      });
-    }
-  }
-
-  function installSwipe() {
-    const view = $fl('myView');
-
-    view.addEventListener('touchstart', event => {
-      if (event.touches.length !== 1) return;
-
-      touchStart = {
-        x:event.touches[0].clientX,
-        y:event.touches[0].clientY,
-        scroll:window.scrollY
-      };
-    },{passive:true});
-
-    view.addEventListener('touchend', event => {
-      if (!touchStart || !event.changedTouches.length) {
-        return;
-      }
-
-      const dx =
-        event.changedTouches[0].clientX - touchStart.x;
-
-      const dy =
-        event.changedTouches[0].clientY - touchStart.y;
-
-      const startedNearTop = touchStart.scroll < 40;
-
-      touchStart = null;
-
-      if (event.target.closest(
-        'input,button,a,iframe,select,textarea'
-      )) return;
-
-      if (
-        Math.abs(dx) > 75 &&
-        Math.abs(dx) > Math.abs(dy) * 1.6
-      ) {
-        $fl('date').value = shiftDate(
-          $fl('date').value,
-          dx < 0 ? 1 : -1
-        );
-
-        loadMySchedule();
-        return;
-      }
-
-      if (
-        startedNearTop &&
-        dy > 110 &&
-        Math.abs(dx) < 60
-      ) {
-        cache.clear();
-
-        status(
-          'Refreshing',
-          'Checking whether scheduling changed its mind.'
-        );
-
-        loadMySchedule();
-      }
-    },{passive:true});
-  }
-
-  function installRefreshMessage() {
-    const button = $fl('refresh');
-
-    if (!button) return;
-
-    button.addEventListener('click', () => {
-      status(
-        'Refreshing',
-        'Checking whether scheduling changed its mind.'
-      );
-    },{capture:true});
-  }
-
-  function installIcons() {
-    replaceIcons($fl('homePatch'));
-    replaceIcons($fl('wingTiles'));
-    replaceIcons($fl('squadTiles'));
-
-    const observer = new MutationObserver(records => {
-      for (const record of records) {
-        for (const node of record.addedNodes) {
-          if (node.nodeType === Node.ELEMENT_NODE) {
-            if (
-              node.closest &&
-              node.closest('#homePatch,#wingTiles,#squadTiles')
-            ) {
-              replaceIcons(node);
-            }
-          }
-        }
-      }
-    });
-
-    for (const id of [
-      'homePatch','wingTiles','squadTiles'
-    ]) {
-      const element = $fl(id);
-
-      if (element) {
-        observer.observe(element,{
-          childList:true,
-          subtree:true
-        });
-      }
-    }
-  }
-
-  function install() {
-    addTimelineButton();
-    addDateMarker();
-    addPdfFullscreen();
-    installSearchPlaceholders();
-    installSwipe();
-    installRefreshMessage();
-    installIcons();
-    todayIndicator();
-
-    const oldClosePDF = window.closePDF;
-
-    window.closePDF = function () {
-      $fl('pdfModal').classList.remove('fl-fullscreen');
-      $fl('fl-pdf-fullscreen').textContent = 'Full screen';
-      oldClosePDF();
-    };
-
-    const originalOpenView = window.openView;
-
-    window.openView = function (view) {
-      originalOpenView(view);
-
-      if (view === 'my') {
-        todayIndicator();
-      }
-    };
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded',install);
-  } else {
-    install();
-  }
-})();
-</script>
-
 </body>
 </html>
