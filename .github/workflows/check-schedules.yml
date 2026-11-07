@@ -41,9 +41,11 @@ on:
         default: ""
         type: string
 
+  # UTC-based schedule covers both CST and CDT.
+  # The Python downloader enforces the local monitoring window.
+  # Offset from the top of the hour to reduce scheduling congestion.
   schedule:
-    - cron: "8-59/10 13-19 * * 1-5"
-      timezone: "America/Chicago"
+    - cron: "7,17,27,37,47,57 0-2,18-23 * * 1-6"
 
 permissions:
   contents: write
@@ -55,10 +57,13 @@ concurrency:
 jobs:
   check-schedules:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -69,15 +74,19 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Show execution details
+        run: |
+          echo "Event: ${{ github.event_name }}"
+          echo "UTC: $(date -u)"
+          echo "Central: $(TZ=America/Chicago date)"
+          echo "Branch: ${{ github.ref_name }}"
+
       - name: Download and process schedules
         env:
           EVENT_NAME: ${{ github.event_name }}
           SELECTED_SQUADRON: ${{ inputs.squadron }}
           SELECTED_DATE: ${{ inputs.schedule_date }}
         run: |
-          echo "Trigger: $EVENT_NAME"
-          echo "Run time: $(date -u)"
-
           if [ "$EVENT_NAME" = "schedule" ]; then
             python fetch_schedules.py --squadron all
           elif [ -n "$SELECTED_DATE" ]; then
