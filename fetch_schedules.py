@@ -595,6 +595,15 @@ def main():
 
                     print(f"{key}: {result}")
 
+
+    (ROOT / "flightline_notification_events.json").write_text(
+        json.dumps({
+            key: status for key, status in outcomes.items()
+            if status in ("downloaded", "revised")
+        }, indent=2),
+        encoding="utf-8"
+    )
+
     print("\n" + "=" * 60)
     print("SCHEDULE CHECK SUMMARY")
     print("=" * 60)

@@ -452,6 +452,21 @@ h3{margin:10px 0}
     </button>
     <p id="saved" class="hint"></p>
   </div>
+
+  <div class="panel" id="flightlinePushPanel">
+    <h2>Schedule Notifications</h2>
+    <p class="muted small">
+      Receive an alert when your squadron posts a schedule.
+      Your saved profile can personalize the notification.
+    </p>
+    <button id="flightlineEnablePush" class="primary"
+      style="width:100%">
+      Enable Notifications
+    </button>
+    <p id="flightlinePushStatus" class="hint">
+      Notifications are optional.
+    </p>
+  </div>
 </section>
 
 </main>
@@ -866,6 +881,7 @@ function saveSettings() {
   };
 
   saveLocal(KEY,profile);
+  flightlineSyncPushProfile();
   setTheme();
   openView('my');
 }
@@ -1841,6 +1857,7 @@ function wireControls() {
     };
 
     saveLocal(KEY,profile);
+    flightlineSyncPushProfile();
     fillSettings();
     setTheme();
     openView('my');
@@ -1965,6 +1982,85 @@ if ('serviceWorker' in navigator) {
       .catch(error => console.warn('FlightLine service worker:', error));
   });
 }
+</script>
+
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script id="flightline-push-integration-v1">
+window.OneSignalDeferred = window.OneSignalDeferred || [];
+let flightlinePushReady = false;
+
+function flightlinePushStatus(message) {
+  const element = document.getElementById('flightlinePushStatus');
+  if (element) element.textContent = message;
+}
+
+async function flightlineSyncPushProfile() {
+  if (!flightlinePushReady || !window.OneSignal || !profile) return;
+  if (!OneSignal.User.PushSubscription.optedIn) return;
+
+  try {
+    await OneSignal.User.addTags({
+      squadron: String(profile.squadron || ''),
+      last: String(profile.last || '').trim().toUpperCase(),
+      first: String(profile.first || '').trim().toUpperCase(),
+      profile: 'yes'
+    });
+  } catch (error) {
+    console.warn('FlightLine push profile:', error);
+  }
+}
+
+OneSignalDeferred.push(async function(OneSignal) {
+  try {
+    await OneSignal.init({
+      appId: '49cb48e4-3498-4e8b-aa6c-9b64dcc63329',
+      serviceWorkerPath: 'push/OneSignalSDKWorker.js',
+      serviceWorkerParam: {scope: '/push/'}
+    });
+
+    flightlinePushReady = true;
+    await flightlineSyncPushProfile();
+
+    const button = document.getElementById('flightlineEnablePush');
+
+    if (button) {
+      button.onclick = async () => {
+        try {
+          if (!profile) {
+            flightlinePushStatus('Save your profile first.');
+            return;
+          }
+
+          await OneSignal.Notifications.requestPermission();
+
+          if (!OneSignal.Notifications.permission) {
+            flightlinePushStatus(
+              'Notifications blocked. Check Android app settings.'
+            );
+            return;
+          }
+
+          await OneSignal.User.PushSubscription.optIn();
+          await flightlineSyncPushProfile();
+
+          flightlinePushStatus(
+            'Notifications enabled for ' + profile.squadron + '.'
+          );
+        } catch (error) {
+          flightlinePushStatus(
+            'Notification setup failed: ' + error.message
+          );
+        }
+      };
+    }
+
+    if (OneSignal.User.PushSubscription.optedIn) {
+      flightlinePushStatus('Notifications enabled.');
+    }
+  } catch (error) {
+    flightlinePushStatus('Push setup error: ' + error.message);
+  }
+});
 </script>
 </body>
 </html>
