@@ -854,3 +854,1252 @@ function filterHomeSquadrons() {
     $('homeSq').value = previous;
   }
 }
+
+function fillSettings() {
+  $('last').value = profile.last;
+  $('first').value = profile.first;
+  $('homeWingSelect').value = profile.wing;
+  filterHomeSquadrons();
+  $('homeSq').value = profile.squadron;
+  $('homeRoleSelect').value = profile.role;
+}
+
+function saveSettings() {
+  const last = normalize($('last').value);
+
+  if (!last) {
+    $('saved').textContent = 'Enter a last name.';
+    return;
+  }
+
+  profile = {
+    last,
+    first:normalize($('first').value),
+    wing:$('homeWingSelect').value,
+    squadron:$('homeSq').value,
+    role:$('homeRoleSelect').value
+  };
+
+  saveLocal(KEY,profile);
+  flightlineSyncPushProfile();
+  setTheme();
+  openView('my');
+}
+
+function openView(view) {
+  currentView = view;
+  requestCounter++;
+
+  for (const id of [
+    'onboard','my','find','history','instructor','settings'
+  ]) {
+    $(id + 'View').classList.add('hidden');
+  }
+
+  const section =
+    view === 'week' || view === 'month'
+      ? 'history'
+      : view;
+
+  $(section + 'View').classList.remove('hidden');
+  $('menu').classList.remove('open');
+
+  const titles = {
+    my:'My Schedule',
+    find:'Find Someone',
+    week:'Past 7 Days',
+    month:'Past 30 Days',
+    instructor:'Instructor Profile',
+    settings:'Profile Settings'
+  };
+
+  $('headerSub').textContent =
+    titles[view] || 'FlightLine';
+
+  if (view === 'my') loadMySchedule();
+  if (view === 'week') loadHistory(7);
+  if (view === 'month') loadHistory(30);
+
+  if (view === 'find') {
+    rotateSearchNames();
+
+    $('findJoke').textContent = pick(
+      profile.role === 'student'
+        ? studentJokes
+        : instructorJokes
+    );
+  }
+
+  if (view === 'instructor') loadDraft();
+  if (view === 'settings') flightlineSyncPushProfile();
+}
+
+function rotateSearchNames() {
+  const pieces = pick(searchNames).split(' ');
+  $('findFirst').placeholder = pieces[0];
+  $('findLast').placeholder = pieces.slice(1).join(' ');
+}
+
+async function fetchJSON(url) {
+  const response = await fetch(
+    url + '?t=' + Date.now(),
+    {cache:'no-store'}
+  );
+
+  if (response.status === 404) return null;
+  if (!response.ok) throw Error('HTTP ' + response.status);
+
+  return response.json();
+}
+
+async function getSchedule(squadron,date) {
+  const key = squadron + '/' + date;
+
+  if (cache.has(key)) return cache.get(key);
+
+  const data = await fetchJSON(
+    `${ROOT}/schedules/${squadron}/${date}/full_schedule.json`
+  );
+
+  if (data) cache.set(key,data);
+
+  return data;
+}
+
+const NAME_PATTERN =
+  "([A-Z][A-Z'-]*(?: [A-Z][A-Z'-]*){0,2}),\\s*" +
+  "([A-Z][A-Z'-]*)";
+
+function namesIn(text) {
+  const regex = new RegExp(NAME_PATTERN,'g');
+  const found = [];
+
+  for (const match of normalize(text).matchAll(regex)) {
+    found.push({
+      last:match[1],
+      first:match[2],
+      full:match[1] + ', ' + match[2]
+    });
+  }
+
+  return found;
+}
+
+function makeEvent(
+  section,line,brief,start,land,
+  code,duration,crewText,remarks,page,device
+) {
+  const crew = namesIn(crewText);
+
+  if (!crew.length) return null;
+
+  return {
+    section,
+    line:+line,
+    brief,start,land,code,duration,
+    crew,remarks,page,device
+  };
+}
+
+function parseFlight(text,page) {
+  const match = text.match(
+    /^\s*(\d{1,3})\s+(\d{4})\s+(\d{4})\s+(\d{4})\s+(.+)$/
+  );
+
+  if (!match) return null;
+
+  const body = match[5];
+
+  const hit = body.match(
+    /\s+([A-Z]{1,5}\d{3,5}[A-Z]?|BIS|QIP)\s+(\d+(?:\.\d+)?\/\d+(?:\.\d+)?)(?:\s+|$)/
+  );
+
+  if (!hit) return null;
+
+  return makeEvent(
+    'Flight',
+    match[1],match[2],match[3],match[4],
+    hit[1],hit[2],
+    body.slice(0,hit.index),
+    body.slice(hit.index + hit[0].length).trim(),
+    page,''
+  );
+}
+
+function parseSimulator(text,page) {
+  const match = text.match(
+    /^\s*(\d{1,3})\s+(\d{4})\s+(\d{4})\s+(.+)$/
+  );
+
+  if (!match) return null;
+
+  const body = match[4];
+
+  const hit = body.match(
+    /\s+([A-Z]{1,5}\d{3,5}[A-Z]?)\s+(\d+(?:\.\d+)?)(?:\s+|$)/
+  );
+
+  if (!hit) return null;
+
+  const before = body.slice(0,hit.index);
+  const firstName = before.search(new RegExp(NAME_PATTERN));
+
+  if (firstName < 0) return null;
+
+  return makeEvent(
+    'Simulator',
+    match[1],match[2],match[3],'',
+    hit[1],hit[2],
+    before.slice(firstName),
+    body.slice(hit.index + hit[0].length).trim(),
+    page,
+    before.slice(0,firstName).trim()
+  );
+}
+
+function parseSchedule(data) {
+  const flights = [];
+  const sims = [];
+  const ground = [];
+  const duty = [];
+
+  let section = '';
+
+  for (const record of data.records || []) {
+    const text = String(record.text || '').trim();
+
+    if (/^Flight \(Flight Event\) Schedule/i.test(text)) {
+      section = 'Flight';
+      continue;
+    }
+
+    if (/^Simulator \(Sim Event\) Schedule/i.test(text)) {
+      section = 'Simulator';
+      continue;
+    }
+
+    if (/^Ground Events$/i.test(text)) {
+      section = 'Ground';
+      continue;
+    }
+
+    if (section === 'Flight') {
+      const event = parseFlight(text,record.page);
+      if (event) flights.push(event);
+    }
+
+    if (section === 'Simulator') {
+      const event = parseSimulator(text,record.page);
+      if (event) sims.push(event);
+    }
+
+    if (
+      section === 'Ground' &&
+      /^\d{4}-\d{4}\s/.test(text)
+    ) {
+      ground.push({
+        section:'Ground',
+        raw:text,
+        page:record.page,
+        start:text.slice(0,4),
+        crew:namesIn(text)
+      });
+    }
+  }
+
+  const firstPage =
+    data.pages?.find(page => page.page === 1)?.text || '';
+
+  const dutyBlock = firstPage.split(
+    'DUTY/WATCH ASSIGNED SIGN IN SIGN OUT'
+  )[1]?.split('KNSE ')[0] || '';
+
+  const roles = [
+    'Day SDO','Night SDO',
+    'AM FDO','PM FDO',
+    'AM AFDO','PM AFDO',
+    'QA Skeds/Duty OPS',
+    'EVERGREEN AM RDO',
+    'EVERGREEN AM WHEELS',
+    'CDO',
+    'WKDAY AM DUTY DRIVER'
+  ];
+
+  const escapeRegex = text =>
+    text.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+
+  const group = roles.map(escapeRegex).join('|');
+
+  const regex = new RegExp(
+    '(' + group + ')\\s+(.+?)' +
+    '(?=\\s+(?:' + group + ')\\s+|$)',
+    'gi'
+  );
+
+  for (const match of dutyBlock.replace(/\n/g,' ').matchAll(regex)) {
+    duty.push({
+      section:'Duty',
+      role:match[1],
+      raw:match[0].trim(),
+      page:1,
+      crew:namesIn(match[2])
+    });
+  }
+
+  return {flights,sims,ground,duty};
+}
+
+function matchPerson(crew,last,first) {
+  const candidates = crew.filter(
+    person => person.last === last
+  );
+
+  if (!candidates.length) return false;
+  if (!first) return true;
+
+  return candidates.some(person =>
+    person.first === first ||
+    (
+      person.first.length === 1 &&
+      person.first === first[0]
+    )
+  );
+}
+
+function findEvents(parsed,last,first) {
+  const matching = items => items.filter(event =>
+    matchPerson(event.crew || [],last,first)
+  );
+
+  return {
+    flights:matching(parsed.flights),
+    sims:matching(parsed.sims),
+    ground:matching(parsed.ground),
+    duty:matching(parsed.duty)
+  };
+}
+
+function eventCount(found) {
+  return Object.values(found).reduce(
+    (total,items) => total + items.length,
+    0
+  );
+}
+
+function timeMinutes(value) {
+  if (!/^\d{4}$/.test(value || '')) return null;
+
+  return +value.slice(0,2) * 60 + +value.slice(2);
+}
+
+function formationPartners(event,all) {
+  if (!/^F\d/.test(event.code)) return [];
+
+  const time = timeMinutes(event.start);
+  if (time === null) return [];
+
+  const partners = all.filter(other =>
+    other !== event &&
+    other.code === event.code &&
+    timeMinutes(other.start) !== null &&
+    Math.abs(timeMinutes(other.start) - time) <= 8
+  );
+
+  return partners.length === 1 ? partners : [];
+}
+
+function pdfURL(id,date) {
+  return `${SITE}/schedules/` +
+    `${encodeURIComponent(id)}/` +
+    `${encodeURIComponent(date)}/original_schedule.pdf`;
+}
+
+function pdfLink(id,date,page) {
+  const number = Number(page) || 1;
+
+  return `<a class="pdf"
+    href="${escapeHTML(pdfURL(id,date))}#page=${number}"
+    target="_blank"
+    rel="noopener noreferrer">
+    VIEW SCHEDULE PDF · PAGE ${number} ↗
+  </a>`;
+}
+
+function timeBox(label,value) {
+  return `<div class="timebox">
+    <small>${escapeHTML(label)}</small>
+    <strong>${escapeHTML(value || '—')}</strong>
+  </div>`;
+}
+
+function crewButton(person,isInstructor) {
+  if (!person) return '—';
+
+  const name = escapeHTML(person.full);
+
+  return isInstructor
+    ? `<button class="crewLink"
+         data-instructor="${name}">${name}</button>`
+    : name;
+}
+
+function eventCard(event,id,date,all) {
+  const flight = event.section === 'Flight';
+
+  const partners = flight
+    ? formationPartners(event,all)
+    : [];
+
+  return `<article class="event">
+    <div class="row">
+      <div class="code">
+        ${escapeHTML(event.code)}
+      </div>
+      <div class="muted small" style="text-align:right">
+        ${escapeHTML(id)} · LINE ${event.line}
+      </div>
+    </div>
+
+    <div class="timegrid">
+      ${timeBox('BRIEF',event.brief)}
+      ${timeBox(
+        flight ? 'TAKEOFF' : 'SIM TIME',
+        event.start
+      )}
+      ${timeBox(
+        flight ? 'LAND' : 'DEVICE',
+        flight ? event.land : event.device
+      )}
+    </div>
+
+    <div class="crewgrid">
+      <div>
+        <small>INSTRUCTOR</small>
+        <strong>
+          ${crewButton(event.crew[0],true)}
+        </strong>
+      </div>
+      <div>
+        <small>STUDENT</small>
+        <strong>
+          ${crewButton(event.crew[1],false)}
+        </strong>
+      </div>
+    </div>
+
+    <p class="small muted">
+      SCHEDULED ${flight ? 'FLIGHT' : 'SIM'} TIME:
+      ${escapeHTML(event.duration)}
+    </p>
+
+    ${partners.length ? `
+      <div class="notice">
+        <strong>FORMATION PARTNER</strong>
+        ${partners.map(partner => `
+          <p class="small">
+            Line ${partner.line} ·
+            ${escapeHTML(
+              partner.crew.map(n => n.full).join(' / ')
+            )}
+            · ${escapeHTML(partner.code)}
+            · T/O ${escapeHTML(partner.start)}
+          </p>
+        `).join('')}
+      </div>
+    ` : ''}
+
+    ${event.remarks ? `
+      <p class="small">
+        <strong>REMARKS:</strong>
+        ${escapeHTML(event.remarks)}
+      </p>
+    ` : ''}
+
+    ${pdfLink(id,date,event.page)}
+  </article>`;
+}
+
+function plainCard(event,id,date) {
+  return `<article class="event">
+    <strong>
+      ${escapeHTML(event.role || event.section)}
+    </strong>
+    <p class="small">${escapeHTML(event.raw)}</p>
+    ${pdfLink(id,date,event.page)}
+  </article>`;
+}
+
+function scheduleHTML(found,id,date,parsed) {
+  let html = `<div class="stats">
+    <div class="stat">
+      <small>FLIGHTS</small>
+      <strong>${found.flights.length}</strong>
+    </div>
+    <div class="stat">
+      <small>SIMS</small>
+      <strong>${found.sims.length}</strong>
+    </div>
+    <div class="stat">
+      <small>OTHER</small>
+      <strong>
+        ${found.ground.length + found.duty.length}
+      </strong>
+    </div>
+  </div>`;
+
+  const sections = [
+    ['flights','FLIGHT EVENTS'],
+    ['sims','SIMULATOR EVENTS'],
+    ['ground','GROUND EVENTS'],
+    ['duty','DUTY / WATCH']
+  ];
+
+  for (const [key,title] of sections) {
+    if (!found[key].length) continue;
+
+    html += `<h3 class="sectionhead">${title}</h3>`;
+
+    const sorted = [...found[key]].sort((a,b) =>
+      (timeMinutes(a.brief || a.start) || 0) -
+      (timeMinutes(b.brief || b.start) || 0)
+    );
+
+    html += sorted.map(event =>
+      key === 'flights' || key === 'sims'
+        ? eventCard(event,id,date,parsed.flights)
+        : plainCard(event,id,date)
+    ).join('');
+  }
+
+  return html;
+}
+
+async function loadMySchedule() {
+  const token = ++requestCounter;
+  const date = $('date').value;
+
+  if (!profile || !profile.last || !date) return;
+
+  const squadron = profile.squadron;
+
+  todayIndicator();
+
+  status(
+    'Checking schedule',
+    prettyDate(date) + ' · ' + pick(loadingMessages)
+  );
+
+  skeleton();
+
+  try {
+    const data = await getSchedule(squadron,date);
+
+    if (token !== requestCounter) return;
+
+    if (!data) {
+      status(
+        'NOT YET PUBLISHED / NOT ARCHIVED',
+        'No archived schedule is available for ' +
+        prettyDate(date) +
+        '. This does not confirm CNATRA has not published one.'
+      );
+
+      $('myResults').innerHTML = '';
+      return;
+    }
+
+    const parsed = parseSchedule(data);
+    const found = findEvents(
+      parsed,profile.last,profile.first
+    );
+
+    const retrievedAt =
+      data.metadata?.retrieved_at;
+
+    status(
+      'SCHEDULE AVAILABLE',
+      prettyDate(date) +
+      ' · ' + eventCount(found) + ' matching events' +
+      ' · Downloaded ' +
+      formatRetrieved(retrievedAt)
+    );
+
+    if (eventCount(found)) {
+      $('myResults').innerHTML =
+        scheduleHTML(found,squadron,date,parsed);
+    } else {
+      $('myResults').innerHTML =
+        `<div class="notice">
+          ${escapeHTML(pick(emptyMessages))}
+          <div>
+            ${pdfLink(squadron,date,1)}
+          </div>
+        </div>`;
+    }
+
+  } catch (error) {
+    if (token !== requestCounter) return;
+
+    status(
+      'UNABLE TO LOAD',
+      error.message || 'Schedule retrieval failed.'
+    );
+
+    $('myResults').innerHTML = '';
+  }
+}
+
+async function searchSomeone() {
+  const token = ++requestCounter;
+
+  const last = normalize($('findLast').value);
+  const first = normalize($('findFirst').value);
+  const date = $('findDate').value;
+  const selected = $('findSq').value;
+
+  if (!last) {
+    showMessage(
+      'findMessage','Enter a last name.',true
+    );
+    return;
+  }
+
+  if (!date) return;
+
+  const ids = selected === 'all'
+    ? Object.keys(squadrons)
+    : [selected];
+
+  $('findSearch').disabled = true;
+  $('findResults').innerHTML = '';
+
+  showMessage(
+    'findMessage',
+    'Searching ' + ids.length + ' schedules...'
+  );
+
+  try {
+    const loaded = await Promise.all(ids.map(async id => {
+      try {
+        return {id,data:await getSchedule(id,date)};
+      } catch {
+        return {id,error:true};
+      }
+    }));
+
+    if (token !== requestCounter) return;
+
+    let available = 0;
+    let errors = 0;
+    let total = 0;
+    let html = '';
+
+    for (const item of loaded) {
+      if (item.error) {
+        errors++;
+        continue;
+      }
+
+      if (!item.data) continue;
+      available++;
+
+      const parsed = parseSchedule(item.data);
+      const found = findEvents(parsed,last,first);
+      const count = eventCount(found);
+
+      if (!count) continue;
+
+      total += count;
+
+      html += `<h3 class="sectionhead">
+        ${escapeHTML(
+          squadrons[item.id].name || item.id
+        )}
+      </h3>`;
+
+      html += scheduleHTML(
+        found,item.id,date,parsed
+      );
+    }
+
+    showMessage(
+      'findMessage',
+      `${total} matching events · ` +
+      `${available}/${ids.length} schedules available` +
+      (errors ? ` · ${errors} errors` : ''),
+      !!errors
+    );
+
+    $('findResults').innerHTML = html ||
+      `<div class="notice">
+        No matching assignments found in available schedules.
+        Scheduling may have promoted them to ground ops.
+      </div>`;
+
+  } catch (error) {
+    if (token === requestCounter) {
+      showMessage(
+        'findMessage',
+        'Search failed: ' + error.message,
+        true
+      );
+    }
+  } finally {
+    if (token === requestCounter) {
+      $('findSearch').disabled = false;
+    }
+  }
+}
+
+async function loadHistory(days) {
+  const token = ++requestCounter;
+
+  $('historyTitle').textContent =
+    days === 7 ? 'Past 7 Days' : 'Past 30 Days';
+
+  $('historyResults').innerHTML = '';
+
+  showMessage(
+    'historyMessage',
+    'Loading ' + days + ' days...'
+  );
+
+  const dates = Array.from(
+    {length:days},
+    (_,index) => centralDate(-index)
+  );
+
+  try {
+    const loaded = await Promise.all(
+      dates.map(async date => {
+        try {
+          return {
+            date,
+            data:await getSchedule(
+              profile.squadron,date
+            )
+          };
+        } catch {
+          return {date,error:true};
+        }
+      })
+    );
+
+    if (token !== requestCounter) return;
+
+    let available = 0;
+    let assigned = 0;
+    let errors = 0;
+    let html = '';
+
+    for (const item of loaded) {
+      html += `<div class="historyday">
+        <h3>${escapeHTML(prettyDate(item.date))}</h3>`;
+
+      if (item.error) {
+        errors++;
+        html +=
+          '<p class="muted small">Could not load schedule.</p>' +
+          '</div>';
+        continue;
+      }
+
+      if (!item.data) {
+        html +=
+          '<p class="muted small">No saved schedule.</p>' +
+          '</div>';
+        continue;
+      }
+
+      available++;
+
+      const parsed = parseSchedule(item.data);
+
+      const found = findEvents(
+        parsed,profile.last,profile.first
+      );
+
+      assigned += eventCount(found);
+
+      html += eventCount(found)
+        ? scheduleHTML(
+            found,profile.squadron,item.date,parsed
+          )
+        : `<p class="muted small">
+            Published schedule — no matching assignments.
+          </p>
+          ${pdfLink(profile.squadron,item.date,1)}`;
+
+      html += '</div>';
+    }
+
+    showMessage(
+      'historyMessage',
+      `${available}/${days} schedules available · ` +
+      `${assigned} matching events` +
+      (errors ? ` · ${errors} errors` : ''),
+      !!errors
+    );
+
+    $('historyResults').innerHTML = html;
+
+  } catch (error) {
+    if (token === requestCounter) {
+      showMessage(
+        'historyMessage',
+        'History failed: ' + error.message,
+        true
+      );
+    }
+  }
+}
+
+function aircraftIcon(aircraft) {
+  if (/CH-53|UH-1|AH-1|MH-60|TH-73/.test(aircraft)) {
+    return '🚁';
+  }
+
+  if (/MV-22/.test(aircraft)) return '🛩';
+  return '✈';
+}
+
+function loadDraft() {
+  const draft = readLocal(DRAFT) || {};
+
+  for (const key of [
+    'fleet','bio','adviceFam','adviceInstrument',
+    'adviceFormation','adviceOther'
+  ]) {
+    $(key).value = draft[key] || '';
+  }
+
+  renderDraft();
+}
+
+function renderDraft() {
+  const draft = readLocal(DRAFT);
+
+  if (!draft) {
+    $('draftPreview').innerHTML = '';
+    return;
+  }
+
+  const sections = [
+    ['FAM',draft.adviceFam],
+    ['Instrument',draft.adviceInstrument],
+    ['Formation',draft.adviceFormation],
+    ['Other',draft.adviceOther]
+  ];
+
+  $('draftPreview').innerHTML = `
+    <div class="notice">
+      <h3>
+        ${aircraftIcon(draft.fleet || '')}
+        ${escapeHTML(
+          profile.first + ' ' + profile.last
+        )}
+      </h3>
+
+      <p class="small">
+        ${escapeHTML(
+          draft.fleet || 'Instructor Pilot'
+        )}
+      </p>
+
+      <p>${escapeHTML(draft.bio || '')}</p>
+
+      ${sections
+        .filter(([,value]) => value)
+        .map(([name,value]) => `
+          <h3>${escapeHTML(name)} Advice</h3>
+          <p>${escapeHTML(value)}</p>
+        `).join('')}
+
+      <p class="hint">
+        Private local draft — not published or submitted.
+      </p>
+    </div>`;
+}
+
+function saveDraft() {
+  const keys = [
+    'fleet','bio','adviceFam','adviceInstrument',
+    'adviceFormation','adviceOther'
+  ];
+
+  const draft = Object.fromEntries(
+    keys.map(key => [key,$(key).value.trim()])
+  );
+
+  const saved = saveLocal(DRAFT,draft);
+
+  $('draftStatus').textContent = saved
+    ? 'Draft saved on this device. Submission is not yet enabled.'
+    : 'Could not save draft.';
+
+  renderDraft();
+}
+
+function showInstructor(name) {
+  alert(
+    name + '\n\n' +
+    'No approved public instructor profile is available yet. ' +
+    'Profiles will appear here after the submission and ' +
+    'approval service is connected.'
+  );
+}
+
+function installSwipe() {
+  const view = $('myView');
+
+  view.addEventListener('touchstart',event => {
+    if (event.touches.length !== 1) return;
+
+    touchStart = {
+      x:event.touches[0].clientX,
+      y:event.touches[0].clientY,
+      scroll:window.scrollY
+    };
+  },{passive:true});
+
+  view.addEventListener('touchend',event => {
+    if (!touchStart || !event.changedTouches.length) {
+      return;
+    }
+
+    const dx =
+      event.changedTouches[0].clientX - touchStart.x;
+
+    const dy =
+      event.changedTouches[0].clientY - touchStart.y;
+
+    const startedNearTop = touchStart.scroll < 40;
+
+    touchStart = null;
+
+    if (event.target.closest(
+      'input,button,a,iframe,select,textarea'
+    )) return;
+
+    if (
+      Math.abs(dx) > 75 &&
+      Math.abs(dx) > Math.abs(dy) * 1.6
+    ) {
+      $('date').value = shiftDate(
+        $('date').value,
+        dx < 0 ? 1 : -1
+      );
+
+      loadMySchedule();
+      return;
+    }
+
+    if (
+      startedNearTop &&
+      dy > 110 &&
+      Math.abs(dx) < 60
+    ) {
+      cache.clear();
+      loadMySchedule();
+    }
+  },{passive:true});
+}
+
+function wireControls() {
+  document.querySelectorAll('[data-view]').forEach(button => {
+    button.onclick = () =>
+      openView(button.dataset.view);
+  });
+
+  $('menuButton').onclick = () => {
+    $('menu').classList.toggle('open');
+  };
+
+  $('wingTiles').onclick = event => {
+    const button = event.target.closest('[data-wing]');
+
+    if (button) chooseWing(button.dataset.wing);
+  };
+
+  $('squadTiles').onclick = event => {
+    const button = event.target.closest('[data-squad]');
+    if (!button) return;
+
+    onboardingSquadron = button.dataset.squad;
+    renderOnboarding();
+  };
+
+  $('roleStudent').onclick = () => {
+    onboardingRole = 'student';
+    renderOnboarding();
+  };
+
+  $('roleInstructor').onclick = () => {
+    onboardingRole = 'instructor';
+    renderOnboarding();
+  };
+
+  $('finishSetup').onclick = () => {
+    const last = normalize($('obLast').value);
+
+    if (!last || !onboardingSquadron) {
+      $('obError').classList.remove('hidden');
+      $('obError').textContent =
+        'Choose a squadron and enter your last name.';
+      return;
+    }
+
+    profile = {
+      last,
+      first:normalize($('obFirst').value),
+      wing:onboardingWing,
+      squadron:onboardingSquadron,
+      role:onboardingRole
+    };
+
+    saveLocal(KEY,profile);
+    flightlineSyncPushProfile();
+    fillSettings();
+    setTheme();
+    openView('my');
+  };
+
+  $('homeWingSelect').onchange =
+    filterHomeSquadrons;
+
+  $('save').onclick = saveSettings;
+  $('findSearch').onclick = searchSomeone;
+  $('saveDraft').onclick = saveDraft;
+
+  $('previous').onclick = () => {
+    $('date').value = shiftDate(
+      $('date').value,-1
+    );
+    loadMySchedule();
+  };
+
+  $('next').onclick = () => {
+    $('date').value = shiftDate(
+      $('date').value,1
+    );
+    loadMySchedule();
+  };
+
+  $('today').onclick = () => {
+    $('date').value = centralDate();
+    loadMySchedule();
+  };
+
+  $('refresh').onclick = () => {
+    cache.clear();
+    loadMySchedule();
+  };
+
+  $('date').onchange = loadMySchedule;
+
+  $('weekButton').onclick =
+    () => openView('week');
+
+  $('monthButton').onclick =
+    () => openView('month');
+
+  document.addEventListener('click',event => {
+    const instructor = event.target.closest(
+      '[data-instructor]'
+    );
+
+    if (instructor) {
+      showInstructor(instructor.dataset.instructor);
+    }
+  });
+
+  installSwipe();
+}
+
+async function init() {
+  wireControls();
+
+  $('date').value = centralDate();
+  $('findDate').value = centralDate();
+
+  todayIndicator();
+  rotateSearchNames();
+
+  try {
+    const config = await fetchJSON(
+      ROOT + '/squadrons.json'
+    );
+
+    if (!config?.squadrons) {
+      throw Error('Squadron configuration unavailable');
+    }
+
+    squadrons = config.squadrons;
+    fillSelects();
+
+    const saved = readLocal(KEY) || readLocal(OLD);
+
+    if (
+      saved?.last &&
+      squadrons[saved.squadron]
+    ) {
+      profile = {
+        last:normalize(saved.last),
+        first:normalize(saved.first),
+        squadron:saved.squadron,
+        wing:squadrons[saved.squadron].wing,
+        role:saved.role === 'instructor'
+          ? 'instructor'
+          : 'student'
+      };
+
+      fillSettings();
+      setTheme();
+      openView('my');
+
+    } else {
+      renderOnboarding();
+      $('onboardView').classList.remove('hidden');
+    }
+
+  } catch (error) {
+    $('onboardView').classList.remove('hidden');
+    $('obError').classList.remove('hidden');
+
+    $('obError').textContent =
+      'Unable to load squadron configuration: ' +
+      error.message;
+  }
+}
+
+init();
+</script>
+
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .catch(error => console.warn('FlightLine service worker:', error));
+  });
+}
+</script>
+
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script id="flightline-push-integration-v1">
+window.OneSignalDeferred = window.OneSignalDeferred || [];
+
+let flightlinePushReady = false;
+let flightlinePushClient = null;
+let flightlinePushSyncSequence = 0;
+
+function flightlinePushStatus(message) {
+  const element = document.getElementById('flightlinePushStatus');
+  if (element) element.textContent = message;
+}
+
+async function flightlineSyncPushProfile() {
+  const client = flightlinePushClient;
+
+  if (!flightlinePushReady || !client || !profile) {
+    return;
+  }
+
+  const squadron = String(profile.squadron || '').trim();
+  const last = String(profile.last || '').trim().toUpperCase();
+  const first = String(profile.first || '').trim().toUpperCase();
+  const sequence = ++flightlinePushSyncSequence;
+
+  if (!client.User.PushSubscription.optedIn) {
+    flightlinePushStatus('Notifications are not enabled.');
+    return;
+  }
+
+  flightlinePushStatus(
+    'Updating notifications for ' + squadron + '...'
+  );
+
+  try {
+    await client.User.addTags({
+      squadron: squadron,
+      last: last,
+      first: first,
+      profile: 'yes'
+    });
+
+    const tags = await client.User.getTags();
+
+    if (sequence !== flightlinePushSyncSequence) {
+      return;
+    }
+
+    if (tags.squadron === squadron) {
+      flightlinePushStatus(
+        'Notifications enabled for ' + squadron + '.'
+      );
+    } else {
+      flightlinePushStatus(
+        'Notification profile not confirmed. Try again.'
+      );
+    }
+  } catch (error) {
+    if (sequence !== flightlinePushSyncSequence) {
+      return;
+    }
+
+    console.warn('FlightLine push profile:', error);
+    flightlinePushStatus(
+      'Could not update notifications: ' + error.message
+    );
+  }
+}
+
+OneSignalDeferred.push(async function(OneSignal) {
+  try {
+    await OneSignal.init({
+      appId: '49cb48e4-3498-4e8b-aa6c-9b64dcc63329',
+      serviceWorkerPath: 'push/OneSignalSDKWorker.js',
+      serviceWorkerParam: {scope: '/push/'}
+    });
+
+    flightlinePushClient = OneSignal;
+    flightlinePushReady = true;
+
+    const button = document.getElementById('flightlineEnablePush');
+
+    if (button) {
+      button.onclick = async () => {
+        try {
+          if (!profile) {
+            flightlinePushStatus('Save your profile first.');
+            return;
+          }
+
+          await OneSignal.Notifications.requestPermission();
+
+          if (!OneSignal.Notifications.permission) {
+            flightlinePushStatus(
+              'Notifications blocked. Check Android app settings.'
+            );
+            return;
+          }
+
+          await OneSignal.User.PushSubscription.optIn();
+          await flightlineSyncPushProfile();
+
+        } catch (error) {
+          flightlinePushStatus(
+            'Notification setup failed: ' + error.message
+          );
+        }
+      };
+    }
+
+    await flightlineSyncPushProfile();
+
+  } catch (error) {
+    flightlinePushStatus('Push setup error: ' + error.message);
+  }
+});
+</script>
+</body>
+</html>
