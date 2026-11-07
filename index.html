@@ -1994,7 +1994,52 @@ function flightlinePushStatus(message) {
   if (element) element.textContent = message;
 }
 
+
 async function flightlineSyncPushProfile() {
+  if (!flightlinePushReady || !window.OneSignal || !profile) {
+    return;
+  }
+
+  if (!OneSignal.User.PushSubscription.optedIn) {
+    flightlinePushStatus('Notifications are not enabled.');
+    return;
+  }
+
+  const squadron = String(profile.squadron || '').trim();
+  const last = String(profile.last || '').trim().toUpperCase();
+  const first = String(profile.first || '').trim().toUpperCase();
+
+  flightlinePushStatus(
+    'Updating notifications for ' + squadron + '...'
+  );
+
+  try {
+    await OneSignal.User.addTags({
+      squadron: squadron,
+      last: last,
+      first: first,
+      profile: 'yes'
+    });
+
+    const tags = await OneSignal.User.getTags();
+
+    if (tags.squadron === squadron) {
+      flightlinePushStatus(
+        'Notifications enabled for ' + squadron + '.'
+      );
+    } else {
+      flightlinePushStatus(
+        'Notification profile not confirmed. Try again.'
+      );
+    }
+  } catch (error) {
+    console.warn('FlightLine push profile:', error);
+    flightlinePushStatus(
+      'Could not update notifications: ' + error.message
+    );
+  }
+}
+  
   if (!flightlinePushReady || !window.OneSignal || !profile) return;
   if (!OneSignal.User.PushSubscription.optedIn) return;
 
