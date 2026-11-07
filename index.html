@@ -2040,20 +2040,15 @@ async function flightlineSyncPushProfile() {
   }
 }
   
-  if (!flightlinePushReady || !window.OneSignal || !profile) return;
-  if (!OneSignal.User.PushSubscription.optedIn) return;
-
-  try {
-    await OneSignal.User.addTags({
-      squadron: String(profile.squadron || ''),
-      last: String(profile.last || '').trim().toUpperCase(),
-      first: String(profile.first || '').trim().toUpperCase(),
-      profile: 'yes'
-    });
-  } catch (error) {
+    } catch (error) {
     console.warn('FlightLine push profile:', error);
+    flightlinePushStatus(
+      'Could not update notifications: ' + error.message
+    );
   }
 }
+
+OneSignalDeferred.push(async function(OneSignal) {
 
 OneSignalDeferred.push(async function(OneSignal) {
   try {
