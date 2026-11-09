@@ -189,13 +189,49 @@ h3{margin:10px 0}
   color:white
 }
 .fl-status{
-  padding:13px;margin:10px 0;
-  background:var(--panel);
-  border:1px solid var(--border);
-  border-radius:10px
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:7px 0;
+  margin:5px 0 10px;
+  font-size:12px
 }
-.fl-status strong{display:block;margin-bottom:5px}
+.fl-status strong{
+  font-size:16px;
+  line-height:1
+}
 .fl-status small{color:var(--muted)}
+.fl-status.ok strong{color:#39c978}
+.fl-status.bad strong{color:#ff6666}
+.fl-date-picker{
+  position:relative;
+  flex:1;
+  min-width:0;
+  border:1px solid var(--border);
+  border-radius:10px;
+  background:#252a33;
+  min-height:43px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:7px 4px;
+  font-size:clamp(11px,3.1vw,15px);
+  font-weight:750;
+  white-space:nowrap
+}
+.fl-date-picker input{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  opacity:0;
+  cursor:pointer;
+  z-index:1
+}
+.fl-date-picker:focus-within{
+  outline:2px solid var(--accent);
+  outline-offset:2px
+}
 .fl-skeleton{
   height:110px;margin-bottom:12px;
   border-radius:14px;
@@ -235,7 +271,6 @@ h3{margin:10px 0}
   <div class="top">
     <div>
       <div class="logo">Flight<span>Line</span></div>
-      <div class="sub" id="headerSub">My Schedule</div>
     </div>
     <button id="menuButton" class="menuButton"
       aria-label="Menu">☰</button>
@@ -303,7 +338,12 @@ h3{margin:10px 0}
   <div class="dateBar">
     <button id="previous" class="secondary"
       aria-label="Previous day">‹</button>
-    <input id="date" type="date" aria-label="Schedule date">
+    <div class="fl-date-picker">
+      <span id="fl-date-display"
+        aria-hidden="true">Select date</span>
+      <input id="date" type="date"
+        aria-label="Schedule date">
+    </div>
     <button id="next" class="secondary"
       aria-label="Next day">›</button>
     <button id="today" class="secondary">Today</button>
@@ -475,8 +515,9 @@ h3{margin:10px 0}
 FlightLine displays archived CNATRA schedules.
 Always verify assignments, times, and remarks against
 the original published schedule.
-Formation partners are inferred from event codes and
-takeoff times. Instructor tips are not authoritative
+Formation partners are inferred from event numbers and
+takeoff times. Check schedule notes to confirm formation
+assignments. Instructor tips are not authoritative
 flight procedures.
 </footer>
 
@@ -539,7 +580,6 @@ const studentJokes = [
 ];
 
 const instructorJokes = [
-  'Another day, another opportunity to explain trim.',
   'Waiting for the ATIS to finish its novel.'
 ];
 
@@ -624,7 +664,7 @@ function prettyDate(date) {
   return new Date(date + 'T12:00:00Z')
     .toLocaleDateString('en-US',{
       weekday:'long',
-      month:'short',
+      month:'long',
       day:'numeric',
       year:'numeric',
       timeZone:'UTC'
@@ -653,10 +693,19 @@ function status(title,detail) {
   container.innerHTML = '';
 
   const box = document.createElement('div');
-  box.className = 'fl-status';
+  const available = title === 'SCHEDULE AVAILABLE';
+  const unavailable =
+    title === 'NOT YET PUBLISHED / NOT ARCHIVED' ||
+    title === 'UNABLE TO LOAD';
+
+  box.className = 'fl-status' +
+    (available ? ' ok' : unavailable ? ' bad' : '');
 
   const heading = document.createElement('strong');
-  heading.textContent = title;
+  heading.textContent =
+    available ? '✓' : unavailable ? '✕' : '⋯';
+  heading.setAttribute('aria-label',title);
+  heading.title = title;
 
   const description = document.createElement('small');
   description.textContent = detail;
@@ -678,6 +727,10 @@ function todayIndicator() {
   const isToday = date === centralDate();
 
   $('today').classList.toggle('fl-today',isToday);
+
+  $('fl-date-display').textContent = date
+    ? prettyDate(date).replace(/^[^,]+, /, '')
+    : 'Select date';
 
   $('fl-date-marker').textContent = !date
     ? ''
@@ -903,18 +956,6 @@ function openView(view) {
 
   $(section + 'View').classList.remove('hidden');
   $('menu').classList.remove('open');
-
-  const titles = {
-    my:'My Schedule',
-    find:'Find Someone',
-    week:'Past 7 Days',
-    month:'Past 30 Days',
-    instructor:'Instructor Profile',
-    settings:'Profile Settings'
-  };
-
-  $('headerSub').textContent =
-    titles[view] || 'FlightLine';
 
   if (view === 'my') loadMySchedule();
   if (view === 'week') loadHistory(7);
