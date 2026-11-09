@@ -24,7 +24,14 @@
   --muted:#aab0bc;
 }
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:#f6f7fa}
+body{
+  margin:0;
+  background:var(--bg);
+  color:#f6f7fa;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column
+}
 button,input,select,textarea{font:inherit}
 button{cursor:pointer}
 button:disabled{opacity:.5}
@@ -46,7 +53,16 @@ header{
   justify-content:space-between;align-items:center;
   padding:12px 16px
 }
-.logo{font-size:26px;font-weight:900;letter-spacing:-1px}
+.logo{
+  font-size:30px;
+  font-weight:900;
+  letter-spacing:-1px;
+  cursor:pointer
+}
+.logo:focus-visible{
+  outline:2px solid var(--accent);
+  outline-offset:4px
+}
 .logo span{color:var(--accent)}
 .sub{
   font-size:11px;color:var(--muted);
@@ -67,7 +83,13 @@ header{
   border:1px solid var(--border);background:#292d36;
   color:white;padding:9px 14px;border-radius:10px;font-size:22px
 }
-main{max-width:850px;margin:auto;padding:17px}
+main{
+  width:100%;
+  max-width:850px;
+  margin:0 auto;
+  padding:17px;
+  flex:1 0 auto
+}
 .panel,.event{
   background:var(--panel);border:1px solid var(--border);
   border-radius:14px;padding:17px;margin-bottom:14px
@@ -144,7 +166,13 @@ h3{margin:10px 0}
 .patch{
   display:grid;place-items:center;flex:none;
   width:52px;height:52px;border:2px solid var(--accent);
-  border-radius:50%;background:#262a34;font-size:24px
+  border-radius:50%;background:#262a34;font-size:24px;
+  overflow:hidden
+}
+.patch img{
+  width:100%;
+  height:100%;
+  object-fit:contain
 }
 .winggrid,.squadgrid{
   display:grid;
@@ -179,9 +207,13 @@ h3{margin:10px 0}
   color:var(--accent);font-size:12px;font-weight:900
 }
 .footer{
-  max-width:850px;margin:15px auto;
-  padding:0 17px 25px;color:#838996;
-  font-size:12px;line-height:1.6
+  width:100%;
+  max-width:850px;
+  margin:15px auto 0;
+  padding:0 17px 25px;
+  color:#838996;
+  font-size:12px;
+  line-height:1.6
 }
 #today.fl-today{
   background:var(--accent);
@@ -270,7 +302,11 @@ h3{margin:10px 0}
 <header>
   <div class="top">
     <div>
-      <div class="logo">Flight<span>Line</span></div>
+      <div class="logo" id="homeLogo"
+        role="button" tabindex="0"
+        aria-label="Go to My Schedule">
+        Flight<span>Line</span>
+      </div>
     </div>
     <button id="menuButton" class="menuButton"
       aria-label="Menu">☰</button>
@@ -331,7 +367,6 @@ h3{margin:10px 0}
     <div>
       <div class="sub" id="homeWing"></div>
       <h2 style="margin:0" id="homeSquad"></h2>
-      <div class="small muted" id="homeRole"></div>
     </div>
   </div>
 
@@ -351,8 +386,6 @@ h3{margin:10px 0}
       aria-label="Refresh">↻</button>
   </div>
 
-  <div id="fl-date-marker" class="small muted"
-    style="margin-bottom:10px"></div>
   <div id="myMessage"></div>
   <div id="myResults"></div>
 </section>
@@ -446,6 +479,8 @@ h3{margin:10px 0}
     <label>Instrument flight advice (optional)</label>
     <textarea id="adviceInstrument" maxlength="600"
       placeholder="I value good, solid comms with ATC.">
+    </textarea>
+
     </textarea>
 
     <label>Formation flight advice (optional)</label>
@@ -552,20 +587,29 @@ const wings = {
 };
 
 const colors = {
-  'VT-3':'#e33447',
-  'VT-6':'#e3b738',
-  'VT-2':'#4099e2',
-  'VT-21':'#df3b42',
-  'VT-22':'#d5aa39',
-  'VT-7':'#d6a945',
-  'VT-9':'#e5aa32',
-  'VT-27':'#d9a83e',
-  'VT-28':'#4b9ad9',
-  'VT-31':'#7590d7',
-  'VT-35':'#52a5b5',
-  'HT-8':'#d6a847',
-  'HT-18':'#c94747',
-  'HT-28':'#b65050'
+  'VT-3':'#D62828',
+  'VT-6':'#F2C230',
+  'VT-2':'#F47721',
+  'VT-21':'#D42C36',
+  'VT-22':'#D6A52B',
+  'VT-7':'#B58A24',
+  'VT-9':'#E58A24',
+  'VT-27':'#D6A33C',
+  'VT-28':'#397FC1',
+  'VT-31':'#8C79B7',
+  'VT-35':'#31A5A5',
+  'HT-8':'#347DC5',
+  'HT-18':'#CBA13B',
+  'HT-28':'#C93C3C',
+  'VT-4':'#498B43',
+  'VT-10':'#B99337',
+  'VT-86':'#4384B8',
+  'TW2-FITU':'#1765A3',
+  'TW4-FITU':'#5942B5',
+  'TW5':'#168FD0',
+  'TW5-FITU':'#168FD0',
+  'TH-73A-HITU':'#168FD0',
+  'TW6-FITU':'#C7A13D'
 };
 
 const searchNames = [
@@ -580,7 +624,7 @@ const studentJokes = [
 ];
 
 const instructorJokes = [
-  'Waiting for the ATIS to finish its novel.'
+  'Scheduling roulette strikes again.'
 ];
 
 const loadingMessages = [
@@ -708,7 +752,11 @@ function status(title,detail) {
   heading.title = title;
 
   const description = document.createElement('small');
-  description.textContent = detail;
+  description.textContent = available
+    ? 'Schedule Available'
+    : unavailable
+      ? 'Schedule Unavailable'
+      : detail;
 
   box.append(heading,description);
   container.appendChild(box);
@@ -728,15 +776,26 @@ function todayIndicator() {
 
   $('today').classList.toggle('fl-today',isToday);
 
-  $('fl-date-display').textContent = date
-    ? prettyDate(date).replace(/^[^,]+, /, '')
-    : 'Select date';
+  if (!date) {
+    $('fl-date-display').textContent = 'Select date';
+    return;
+  }
 
-  $('fl-date-marker').textContent = !date
-    ? ''
-    : isToday
-      ? 'TODAY · CENTRAL TIME'
-      : prettyDate(date);
+  const [year,month,day] = date.split('-').map(Number);
+  const parsed = new Date(Date.UTC(year,month - 1,day));
+
+  const weekday = parsed.toLocaleDateString('en-US',{
+    weekday:'long',timeZone:'UTC'
+  });
+  const monthName = parsed.toLocaleDateString('en-US',{
+    month:'long',timeZone:'UTC'
+  });
+  const suffix = day % 100 >= 11 && day % 100 <= 13
+    ? 'th'
+    : ({1:'st',2:'nd',3:'rd'}[day % 10] || 'th');
+
+  $('fl-date-display').textContent =
+    weekday + ', ' + monthName + ' ' + day + suffix;
 }
 
 function skeleton() {
@@ -811,15 +870,29 @@ function setTheme() {
   $('homeWing').textContent =
     wings[profile.wing] || profile.wing;
 
-  $('homeRole').textContent =
-    profile.role === 'instructor'
-      ? 'INSTRUCTOR PILOT'
-      : 'STUDENT NAVAL AVIATOR';
+  const patch = $('homePatch');
+  const patchFiles = {
+    'VT-3':'/patches/vt-3.png',
+    'VT-6':'/patches/vt-6.png',
+    'VT-2':'/patches/vt-2.png'
+  };
+  const fallback = () => {
+    patch.textContent =
+      profile.squadron.startsWith('HT') ? '🚁' : '✈';
+    replaceIcons(patch);
+  };
 
-  $('homePatch').textContent =
-    profile.squadron.startsWith('HT') ? '🚁' : '✈';
+  patch.replaceChildren();
 
-  replaceIcons($('homePatch'));
+  if (patchFiles[profile.squadron]) {
+    const img = document.createElement('img');
+    img.alt = profile.squadron + ' squadron patch';
+    img.onerror = fallback;
+    img.src = patchFiles[profile.squadron];
+    patch.appendChild(img);
+  } else {
+    fallback();
+  }
 }
 
 function renderOnboarding() {
@@ -1330,7 +1403,11 @@ function eventCard(event,id,date,all) {
 
     <p class="small muted">
       SCHEDULED ${flight ? 'FLIGHT' : 'SIM'} TIME:
-      ${escapeHTML(event.duration)}
+      ${escapeHTML(
+        flight
+          ? String(event.duration || '').split('/')[0]
+          : event.duration
+      )}
     </p>
 
     ${partners.length ? `
@@ -1847,6 +1924,17 @@ function installSwipe() {
 }
 
 function wireControls() {
+  $('homeLogo').onclick = () => {
+    if (profile) openView('my');
+  };
+
+  $('homeLogo').onkeydown = event => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      if (profile) openView('my');
+    }
+  };
+
   document.querySelectorAll('[data-view]').forEach(button => {
     button.onclick = () =>
       openView(button.dataset.view);
@@ -1958,6 +2046,7 @@ function wireControls() {
 }
 
 async function init() {
+
   wireControls();
 
   $('date').value = centralDate();
