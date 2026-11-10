@@ -1287,60 +1287,6 @@ function namesIn(text) {
     found.push({
       last:match[1],
       first:match[2],
-      full:match[1] + ', ' + match[2]
-    });
-  }
-
-  return found;
-}
-
-function makeEvent(
-  section,line,brief,start,land,
-  code,duration,crewText,remarks,page,device
-) {
-  const crew = namesIn(crewText);
-
-  if (!crew.length) return null;
-
-  return {
-    section,
-    line:+line,
-    brief,start,land,code,duration,
-    crew,remarks,page,device
-  };
-}
-
-function parseFlight(text,page) {
-  const match = text.match(
-    /^\s*(\d{1,3})\s+(\d{4})\s+(\d{4})\s+(\d{4})\s+(.+)$/
-  );
-
-  if (!match) return null;
-
-  const body = match[5];
-
-  const hit = body.match(
-    /\s+([A-Z]{1,5}\d{3,5}[A-Z]?|BIS|QIP)\s+(\d+(?:\.\d+)?\/\d+(?:\.\d+)?)(?:\s+|$)/
-  );
-
-  if (!hit) return null;
-
-  return makeEvent(
-    'Flight',
-    match[1],match[2],match[3],match[4],
-    hit[1],hit[2],
-    body.slice(0,hit.index),
-    body.slice(hit.index + hit[0].length).trim(),
-    page,''
-  );
-}
-
-function parseSimulator(text,page) {
-  const match = text.match(
-    /^\s*(\d{1,3})\s+(\d{4})\s+(\d{4})\s+(.+)$/
-  );
-
-  if (!match) return null;
 
   const body = match[4];
 
