@@ -64,6 +64,8 @@ header{
   outline-offset:4px
 }
 .logo span{color:var(--accent)}
+.logo-image{width:42px;height:42px;object-fit:contain;border-radius:8px;display:block}
+.logo{display:flex;align-items:center;gap:10px}
 .sub{
   font-size:11px;color:var(--muted);
   letter-spacing:1px;text-transform:uppercase
@@ -166,7 +168,7 @@ h3{margin:10px 0}
 .patch{
   display:grid;place-items:center;flex:none;
   width:52px;height:52px;border:2px solid var(--accent);
-  border-radius:50%;background:#262a34;font-size:24px;
+  border-radius:50%;background:transparent;font-size:24px;
   overflow:hidden
 }
 .patch img{
@@ -208,6 +210,7 @@ h3{margin:10px 0}
 }
 .footer{
   width:100%;
+
   max-width:850px;
   margin:15px auto 0;
   padding:0 17px 25px;
@@ -305,7 +308,7 @@ h3{margin:10px 0}
       <div class="logo" id="homeLogo"
         role="button" tabindex="0"
         aria-label="Go to My Schedule">
-        Flight<span>Line</span>
+        <img class="logo-image" src="/flightline-logo.png" alt="" aria-hidden="true">Flight<span>Line</span>
       </div>
     </div>
     <button id="menuButton" class="menuButton"
@@ -398,6 +401,7 @@ h3{margin:10px 0}
       <div>
         <label>Last name</label>
         <input id="findLast">
+
       </div>
       <div>
         <label>First name (optional)</label>
@@ -479,8 +483,6 @@ h3{margin:10px 0}
     <label>Instrument flight advice (optional)</label>
     <textarea id="adviceInstrument" maxlength="600"
       placeholder="I value good, solid comms with ATC.">
-    </textarea>
-
     </textarea>
 
     <label>Formation flight advice (optional)</label>
@@ -588,6 +590,7 @@ const wings = {
 
 const colors = {
   'VT-3':'#D62828',
+
   'VT-6':'#F2C230',
   'VT-2':'#F47721',
   'VT-21':'#D42C36',
@@ -958,6 +961,198 @@ function fillSelects() {
     ).join('');
 
   $('findSq').innerHTML =
+
+    `<option value="all">
+      All ${Object.keys(squadrons).length} Schedules
+    </option>` + options;
+}
+
+function filterHomeSquadrons() {
+  const wing = $('homeWingSelect').value;
+  const previous = $('homeSq').value;
+
+  $('homeSq').innerHTML =
+    Object.entries(squadrons)
+      .filter(([,info]) => info.wing === wing)
+      .map(([id,info]) =>
+        `<option value="${escapeHTML(id)}">
+          ${escapeHTML(info.name || id)}
+        </option>`
+      ).join('');
+
+  if (squadrons[previous]?.wing === wing) {
+    $('homeSq').value = previous;
+  }
+}
+
+function fillSettings() {
+  $('last').value = profile.last;
+  $('first').value = profile.first;
+  $('homeWingSelect').value = profile.wing;
+  filterHomeSquadrons();
+  $('homeSq').value = profile.squadron;
+  $('homeRoleSelect').value = profile.role;
+}
+
+function saveSettings() {
+  const last = normalize($('last').value);
+
+  if (!last) {
+    $('saved').textContent = 'Enter a last name.';
+    return;
+  }
+
+  profile = {
+    last,
+    first:normalize($('first').value),
+    wing:$('homeWingSelect').value,
+    squadron:$('homeSq').value,
+    role:$('homeRoleSelect').value
+  };
+
+  saveLocal(KEY,profile);
+  flightlineSyncPushProfile();
+  setTheme();
+  openView('my');
+}
+
+function openView(view) {
+  currentView = view;
+  requestCounter++;
+
+  for (const id of [
+    'onboard','my','find','history','instructor','settings'
+  ]) {
+    $(id + 'View').classList.add('hidden');
+  }
+
+  const section =
+    view === 'week' || view === 'month'
+      ? 'history'
+      : view;
+
+  $(section + 'View').classList.remove('hidden');
+  $('menu').classList.remove('open');
+
+  if (view === 'my') loadMySchedule();
+  if (view === 'week') loadHistory(7);
+  if (view === 'month') loadHistory(30);
+
+  if (view === 'find') {
+    rotateSearchNames();
+
+    $('findJoke').textContent = pick(
+      profile.role === 'student'
+        ? studentJokes
+        : instructorJokes
+    );
+  }
+
+  if (view === 'instructor') loadDraft();
+  if (view === 'settings') flightlineSyncPushProfile();
+}
+
+function rotateSearchNames() {
+  const pieces = pick(searchNames).split(' ');
+  $('findFirst').placeholder = pieces[0];
+  $('findLast').placeholder = pieces.slice(1).join(' ');
+}
+
+async function fetchJSON(url) {
+  const response = await fetch(
+    url + '?t=' + Date.now(),
+    {cache:'no-store'}
+  );
+
+  if (response.status === 404) return null;
+  if (!response.ok) throw Error('HTTP ' + response.status);
+
+  return response.json();
+}
+
+async function getSchedule(squadron,date) {
+  const key = squadron + '/' + date;
+
+  if (cache.has(key)) return cache.get(key);
+
+  const data = await fetchJSON(
+    `${ROOT}/schedules/${squadron}/${date}/full_schedule.json`
+  );
+
+  if (data) cache.set(key,data);
+
+  return data;
+}
+
+const NAME_PATTERN =
+  "([A-Z][A-Z'-]*(?: [A-Z][A-Z'-]*){0,2}),\\s*" +
+  "([A-Z][A-Z'-]*)";
+
+function namesIn(text) {
+  const regex = new RegExp(NAME_PATTERN,'g');
+  const found = [];
+
+  for (const match of normalize(text).matchAll(regex)) {
+    found.push({
+      last:match[1],
+      first:match[2],
+      full:match[1] + ', ' + match[2]
+    });
+  }
+
+  return found;
+}
+
+function makeEvent(
+  section,line,brief,start,land,
+  code,duration,crewText,remarks,page,device
+) {
+  const crew = namesIn(crewText);
+
+  if (!crew.length) return null;
+
+  return {
+    section,
+    line:+line,
+    brief,start,land,code,duration,
+    crew,remarks,page,device
+  };
+}
+
+function parseFlight(text,page) {
+  const match = text.match(
+    /^\s*(\d{1,3})\s+(\d{4})\s+(\d{4})\s+(\d{4})\s+(.+)$/
+  );
+
+  if (!match) return null;
+
+  const body = match[5];
+
+  const hit = body.match(
+    /\s+([A-Z]{1,5}\d{3,5}[A-Z]?|BIS|QIP)\s+(\d+(?:\.\d+)?\/\d+(?:\.\d+)?)(?:\s+|$)/
+  );
+
+  if (!hit) return null;
+
+  return makeEvent(
+    'Flight',
+    match[1],match[2],match[3],match[4],
+    hit[1],hit[2],
+    body.slice(0,hit.index),
+    body.slice(hit.index + hit[0].length).trim(),
+    page,''
+  );
+}
+
+function parseSimulator(text,page) {
+  const match = text.match(
+    /^\s*(\d{1,3})\s+(\d{4})\s+(\d{4})\s+(.+)$/
+  );
+
+  if (!match) return null;
+
+  const body = match[4];
+
     `<option value="all">
       All ${Object.keys(squadrons).length} Schedules
     </option>` + options;
@@ -1323,7 +1518,8 @@ function formationPartners(event,all) {
 }
 
 function pdfURL(id,date) {
-  return `${SITE}/schedules/` +
+
+  return `${ROOT}/schedules/` +
     `${encodeURIComponent(id)}/` +
     `${encodeURIComponent(date)}/original_schedule.pdf`;
 }
@@ -1447,6 +1643,19 @@ function plainCard(event,id,date) {
   </article>`;
 }
 
+function dailyQuestionsHTML(data) {
+  const firstPage = data.pages?.find(page => page.page === 1)?.text || '';
+  const lines = firstPage.split(/\r?\n/);
+  const getLine = regex => lines.find(line => regex.test(line))?.trim() || '';
+  const ep = getLine(/^\s*EP Question\s*:/i);
+  const natops = getLine(/^\s*NATOPS\s*:/i);
+  if (!ep && !natops) return '';
+  return '<section class="daily-questions" aria-label="Daily questions">' +
+    (ep ? '<div class="notice"><strong>EP QUESTION OF THE DAY</strong><p>' + escapeHTML(ep) + '</p></div>' : '') +
+    (natops ? '<div class="notice"><strong>NATOPS QUESTION OF THE DAY</strong><p>' + escapeHTML(natops) + '</p></div>' : '') +
+    '</section>';
+}
+
 function scheduleHTML(found,id,date,parsed) {
   let html = `<div class="stats">
     <div class="stat">
@@ -1544,10 +1753,10 @@ async function loadMySchedule() {
 
     if (eventCount(found)) {
       $('myResults').innerHTML =
-        scheduleHTML(found,squadron,date,parsed);
+        dailyQuestionsHTML(data) + scheduleHTML(found,squadron,date,parsed);
     } else {
       $('myResults').innerHTML =
-        `<div class="notice">
+        dailyQuestionsHTML(data) + `<div class="notice">
           ${escapeHTML(pick(emptyMessages))}
           <div>
             ${pdfLink(squadron,date,1)}
@@ -1698,6 +1907,7 @@ async function loadHistory(days) {
             )
           };
         } catch {
+
           return {date,error:true};
         }
       })
@@ -1878,6 +2088,7 @@ function installSwipe() {
       y:event.touches[0].clientY,
       scroll:window.scrollY
     };
+
   },{passive:true});
 
   view.addEventListener('touchend',event => {
