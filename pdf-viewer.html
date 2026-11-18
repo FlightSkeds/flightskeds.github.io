@@ -7,71 +7,121 @@
 <meta name="theme-color" content="#0d0f14">
 <title>FlightLine PDF Viewer</title>
 <style>
-*{box-sizing:border-box}body{margin:0;background:#0d0f14;color:#fff;font:14px system-ui,Arial,sans-serif}header{position:sticky;top:0;z-index:5;background:#171a21;border-bottom:2px solid #d93446;padding:10px;display:flex;align-items:center;gap:9px;flex-wrap:wrap}button,a{background:#292d36;color:white;border:1px solid #454b57;border-radius:8px;padding:9px 12px;text-decoration:none;font:inherit;cursor:pointer}button:disabled{opacity:.45}strong{margin-right:auto}#counter{min-width:80px;text-align:center}#message{padding:14px;text-align:center;color:#c7cbd4}#pages{display:flex;flex-direction:column;align-items:center;gap:12px;padding:12px 6px 40px}.page{max-width:100%;background:#fff;box-shadow:0 3px 16px #0008}.page canvas{display:block;width:100%;height:auto}#zoom{white-space:nowrap}
+*{box-sizing:border-box}body{margin:0;background:#0d0f14;color:#fff;font:14px system-ui,Arial,sans-serif}header{position:sticky;top:0;z-index:5;background:#171a21;border-bottom:2px solid #d93446;padding:10px;display:flex;align-items:center;gap:9px;flex-wrap:wrap}button,a{background:#292d36;color:white;border:1px solid #454b57;border-radius:8px;padding:9px 12px;text-decoration:none;font:inherit;cursor:pointer}button:disabled{opacity:.45}strong{margin-right:auto}#counter{min-width:80px;text-align:center}#message{padding:14px;text-align:center;color:#c7cbd4}#message:empty{display:none}#pages{display:flex;flex-direction:column;align-items:flex-start;gap:12px;padding:12px 6px 40px}.page{margin-inline:auto;background:#fff;box-shadow:0 3px 16px #0008}.page canvas{display:block;width:100%;height:auto}#zoom{white-space:nowrap}
 </style>
 </head>
 <body>
 <header>
 <button id="back" aria-label="Return to FlightLine">✕ Close</button>
 <strong>FlightLine · Schedule PDF</strong>
-<button id="minus" aria-label="Zoom out">−</button>
+<button id="minus" aria-label="Zoom out" disabled>−</button>
 <span id="zoom">100%</span>
-<button id="plus" aria-label="Zoom in">+</button>
+<button id="plus" aria-label="Zoom in" disabled>+</button>
 <span id="counter"></span>
-<a id="external" target="_blank" rel="noopener">Open PDF</a>
+<a id="external" target="_blank" rel="noopener" hidden>Open PDF</a>
 </header>
 <div id="message" role="status">Loading schedule…</div>
 <main id="pages"></main>
 <script type="module">
-import * as pdfjsLib from 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.min.mjs';
-pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.worker.min.mjs';
-const params=new URLSearchParams(location.search);
-const file=params.get('file')||'';
-const initialPage=Math.max(1,parseInt(params.get('page')||'1',10)||1);
-const $=id=>document.getElementById(id);
-let pdf=null,scale=1,renderToken=0;
-$('back').onclick=()=>{if(history.length>1)history.back();else location.href='/';};
-const allowed=()=>{
-  try{
-    const url=new URL(file,location.origin);
-    return url.origin===location.origin && /^\/schedules\/[A-Za-z0-9_-]+\/\d{4}-\d{2}-\d{2}\/original_schedule\.pdf$/.test(url.pathname)?url:null;
-  }catch{return null;}
-};
-async function render(){
-  if(!pdf)return;
-  const token=++renderToken;
-  $('pages').replaceChildren();
-  $('zoom').textContent=Math.round(scale*100)+'%';
-  $('message').textContent='Rendering '+pdf.numPages+' pages…';
-  const targetWidth=Math.min(document.documentElement.clientWidth-12,1000)*scale;
-  for(let number=1;number<=pdf.numPages;number++){
-    if(token!==renderToken)return;
-    const page=await pdf.getPage(number);
-    const base=page.getViewport({scale:1});
-    const viewport=page.getViewport({scale:targetWidth/base.width});
-    const wrap=document.createElement('section');
-    wrap.className='page';wrap.id='page-'+number;
-    const canvas=document.createElement('canvas');
-    const ratio=Math.min(devicePixelRatio||1,2);
-    canvas.width=Math.round(viewport.width*ratio);
-    canvas.height=Math.round(viewport.height*ratio);
-    canvas.style.width=viewport.width+'px';
-    wrap.append(canvas);$('pages').append(wrap);
-    await page.render({canvasContext:canvas.getContext('2d'),viewport:page.getViewport({scale:targetWidth/base.width*ratio})}).promise;
-    $('counter').textContent=number+' / '+pdf.numPages;
-    if(number===initialPage)wrap.scrollIntoView({block:'start'});
+const pdfEngine = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/';
+const params = new URLSearchParams(location.search);
+const file = params.get('file') || '';
+const initialPage = Math.max(1,parseInt(params.get('page') || '1',10) || 1);
+const $ = id => document.getElementById(id);
+let pdf = null;
+let scale = 1;
+
+$('back').onclick = () => {
+  if (history.length > 1 && document.referrer.startsWith(location.origin + '/')) {
+    history.back();
+  } else {
+    location.href = '/';
   }
-  $('message').textContent='';
+};
+
+function scheduleURL() {
+  try {
+    const url = new URL(file,location.origin);
+    if (url.origin === location.origin &&
+      /^\/schedules\/[A-Za-z0-9_-]+\/\d{4}-\d{2}-\d{2}\/original_schedule\.pdf$/.test(url.pathname)) {
+      return url;
+    }
+  } catch {
+    return null;
+  }
+  return null;
 }
-$('minus').onclick=()=>{scale=Math.max(.5,Math.round((scale-.25)*100)/100);render();};
-$('plus').onclick=()=>{scale=Math.min(3,Math.round((scale+.25)*100)/100);render();};
-(async()=>{
-  const url=allowed();
-  if(!url){$('message').textContent='Invalid schedule PDF link.';return;}
-  $('external').href=url.href;
-  try{pdf=await pdfjsLib.getDocument({url:url.href}).promise;await render();}
-  catch(error){$('message').textContent='Unable to open schedule: '+error.message;}
-})();
+
+async function render(targetPage) {
+  $('minus').disabled = true;
+  $('plus').disabled = true;
+  $('pages').replaceChildren();
+  $('zoom').textContent = Math.round(scale * 100) + '%';
+  $('message').textContent = 'Rendering ' + pdf.numPages + ' pages…';
+  const targetWidth = Math.min(document.documentElement.clientWidth - 12,1000) * scale;
+
+  try {
+    for (let number = 1; number <= pdf.numPages; number++) {
+      const page = await pdf.getPage(number);
+      const base = page.getViewport({scale:1});
+      const ratio = Math.min(devicePixelRatio || 1,2);
+      const viewport = page.getViewport({scale:targetWidth / base.width * ratio});
+      const wrap = document.createElement('section');
+      wrap.className = 'page';
+      wrap.id = 'page-' + number;
+      const canvas = document.createElement('canvas');
+      canvas.width = Math.round(viewport.width);
+      canvas.height = Math.round(viewport.height);
+      canvas.style.width = targetWidth + 'px';
+      wrap.append(canvas);
+      $('pages').append(wrap);
+      await page.render({
+        canvasContext:canvas.getContext('2d'),
+        viewport
+      }).promise;
+    }
+
+    $('counter').textContent = pdf.numPages + (pdf.numPages === 1 ? ' page' : ' pages');
+    $('message').textContent = '';
+    const target = $('page-' + Math.min(targetPage,pdf.numPages));
+    target.style.scrollMarginTop = document.querySelector('header').offsetHeight + 6 + 'px';
+    target.scrollIntoView({block:'start',inline:'start'});
+    $('minus').disabled = scale <= .5;
+    $('plus').disabled = scale >= 3;
+  } catch {
+    $('message').textContent = 'Unable to render the schedule. Use Open PDF to view the original.';
+  }
+}
+
+function zoomBy(amount) {
+  const headerHeight = document.querySelector('header').offsetHeight;
+  const visiblePage = [...$('pages').children].findIndex(page =>
+    page.getBoundingClientRect().bottom > headerHeight
+  ) + 1;
+  scale = Math.min(3,Math.max(.5,scale + amount));
+  render(visiblePage || initialPage);
+}
+
+$('minus').onclick = () => zoomBy(-.25);
+$('plus').onclick = () => zoomBy(.25);
+
+const url = scheduleURL();
+if (url) {
+  $('external').href = 'https://raw.githubusercontent.com/FlightSkeds/flightskeds.github.io/main' +
+    url.pathname + '#page=' + initialPage;
+  $('external').hidden = false;
+
+  try {
+    const pdfjsLib = await import(pdfEngine + 'pdf.min.mjs');
+    pdfjsLib.GlobalWorkerOptions.workerSrc = pdfEngine + 'pdf.worker.min.mjs';
+    pdf = await pdfjsLib.getDocument({url:url.href}).promise;
+    await render(initialPage);
+  } catch {
+    $('message').textContent = 'Unable to open the schedule in FlightLine. Use Open PDF to view the original.';
+  }
+} else {
+  $('message').textContent = 'Invalid schedule PDF link.';
+}
 </script>
 </body>
 </html>

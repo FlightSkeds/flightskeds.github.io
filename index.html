@@ -57,7 +57,9 @@ header{
   font-size:30px;
   font-weight:900;
   letter-spacing:-1px;
-  cursor:pointer
+  cursor:pointer;
+  display:flex;align-items:center;gap:8px;
+  line-height:1;white-space:nowrap
 }
 .logo:focus-visible{
   outline:2px solid var(--accent);
@@ -65,7 +67,6 @@ header{
 }
 .logo span{color:var(--accent)}
 .logo-image{width:42px;height:42px;object-fit:contain;border-radius:8px;display:block}
-.logo{display:flex;align-items:center;gap:10px}
 .sub{
   font-size:11px;color:var(--muted);
   letter-spacing:1px;text-transform:uppercase
@@ -153,11 +154,6 @@ h3{margin:10px 0}
 .crewgrid strong{
   display:block;margin-top:5px;overflow-wrap:anywhere
 }
-.crewLink{
-  border:0;background:none;padding:0;color:white;
-  text-align:left;font-weight:800;text-decoration:underline;
-  text-decoration-color:var(--accent)
-}
 .pdf{
   display:inline-block;color:#ff8d97;
   font-size:13px;font-weight:800;margin-top:15px
@@ -194,6 +190,23 @@ h3{margin:10px 0}
   border-top:1px solid var(--border);
   margin-top:22px;padding-top:13px
 }
+.daily-questions h3{margin:0 0 8px}
+.daily-questions p{margin:6px 0 0}
+.calendar-grid{
+  display:grid;grid-template-columns:repeat(7,minmax(0,1fr));
+  gap:4px;margin:12px 0
+}
+.calendar-weekday{text-align:center;font-size:12px;color:var(--muted)}
+.calendar-day{
+  min-height:52px;min-width:0;padding:4px 2px;
+  background:#252a33;color:white;border:1px solid var(--border);
+  border-radius:8px;font-size:14px
+}
+.calendar-day small{display:block;color:var(--muted);font-size:10px}
+.calendar-day[aria-pressed="true"]{background:#44242c;border-color:var(--accent)}
+.calendar-day:focus-visible{outline:2px solid white;outline-offset:1px}
+.calendar-day[aria-current="date"]{font-weight:800}
+.calendar-day .calendar-events{color:#8be2af;font-weight:800}
 .hint{font-size:12px;color:var(--muted)}
 .joke{
   font-size:12px;color:#c4aab0;
@@ -304,12 +317,11 @@ h3{margin:10px 0}
 
 <header>
   <div class="top">
-    <div>
-      <div class="logo" id="homeLogo"
-        role="button" tabindex="0"
-        aria-label="Go to My Schedule">
-        <img class="logo-image" src="/flightline-logo.png" alt="" aria-hidden="true">Flight<span>Line</span>
-      </div>
+    <div class="logo" id="homeLogo"
+      role="button" tabindex="0"
+      aria-label="Go to My Schedule">
+      <img class="logo-image" src="/flightline-logo.png" alt="">
+      <div>Flight<span>Line</span></div>
     </div>
     <button id="menuButton" class="menuButton"
       aria-label="Menu">☰</button>
@@ -319,7 +331,6 @@ h3{margin:10px 0}
     <button data-view="find">Find Someone</button>
     <button data-view="week">Past 7 Days</button>
     <button data-view="month">Past 30 Days</button>
-    <button data-view="instructor">Instructor Profile</button>
     <button data-view="settings">Profile Settings</button>
   </nav>
 </header>
@@ -433,71 +444,8 @@ h3{margin:10px 0}
   </div>
   <p class="muted small">Previously archived schedules.</p>
   <div id="historyMessage"></div>
+  <div id="historyCalendar" class="hidden"></div>
   <div id="historyResults"></div>
-</section>
-
-<section id="instructorView" class="hidden">
-  <div class="panel">
-    <h2>Instructor Profile</h2>
-    <p class="muted small">
-      Optional instructor-authored advice.
-      This is a private local draft.
-      Submission and approval will be enabled after
-      the secure review service is connected.
-    </p>
-
-    <label>Fleet aircraft (optional)</label>
-    <select id="fleet">
-      <option value="">Not specified</option>
-      <option>AV-8B Harrier</option>
-      <option>F/A-18 Hornet</option>
-      <option>F/A-18E/F Super Hornet</option>
-      <option>F-35B Lightning II</option>
-      <option>F-35C Lightning II</option>
-      <option>EA-18G Growler</option>
-      <option>F-16 Fighting Falcon</option>
-      <option>F-15 Eagle</option>
-      <option>F-22 Raptor</option>
-      <option>A-10 Thunderbolt II</option>
-      <option>P-8A Poseidon</option>
-      <option>P-3 Orion</option>
-      <option>E-2 Hawkeye</option>
-      <option>MV-22 Osprey</option>
-      <option>CH-53E/K</option>
-      <option>UH-1Y Venom</option>
-      <option>AH-1Z Viper</option>
-      <option>MH-60 Seahawk</option>
-      <option>TH-73A Thrasher</option>
-      <option>T-6B Texan II</option>
-      <option>T-45 Goshawk</option>
-      <option>T-44 Pegasus</option>
-      <option>Other</option>
-    </select>
-
-    <label>Quick bio (optional)</label>
-    <textarea id="bio" maxlength="400"></textarea>
-
-    <label>FAM flight advice (optional)</label>
-    <textarea id="adviceFam" maxlength="600"></textarea>
-
-    <label>Instrument flight advice (optional)</label>
-    <textarea id="adviceInstrument" maxlength="600"
-      placeholder="I value good, solid comms with ATC.">
-    </textarea>
-
-    <label>Formation flight advice (optional)</label>
-    <textarea id="adviceFormation" maxlength="600"></textarea>
-
-    <label>Other flight advice (optional)</label>
-    <textarea id="adviceOther" maxlength="600"></textarea>
-
-    <button id="saveDraft" class="primary"
-      style="margin-top:15px;width:100%">
-      Save Local Draft
-    </button>
-    <p id="draftStatus" class="hint"></p>
-    <div id="draftPreview"></div>
-  </div>
 </section>
 
 <section id="settingsView" class="hidden">
@@ -566,7 +514,6 @@ const ROOT =
 const SITE = 'https://flightskeds.github.io';
 const KEY = 'flightline-profile-v2';
 const OLD = 'cnatra-profile-v1';
-const DRAFT = 'flightline-instructor-draft-v1';
 
 const $ = id => document.getElementById(id);
 const cache = new Map();
@@ -1021,7 +968,7 @@ function openView(view) {
   requestCounter++;
 
   for (const id of [
-    'onboard','my','find','history','instructor','settings'
+    'onboard','my','find','history','settings'
   ]) {
     $(id + 'View').classList.add('hidden');
   }
@@ -1048,7 +995,6 @@ function openView(view) {
     );
   }
 
-  if (view === 'instructor') loadDraft();
   if (view === 'settings') flightlineSyncPushProfile();
 }
 
@@ -1326,21 +1272,14 @@ function formationPartners(event,all) {
   return partners.length === 1 ? partners : [];
 }
 
-function pdfURL(id,date) {
-
-  return `${ROOT}/schedules/` +
-    `${encodeURIComponent(id)}/` +
-    `${encodeURIComponent(date)}/original_schedule.pdf`;
-}
-
 function pdfLink(id,date,page) {
   const number = Number(page) || 1;
+  const file = `/schedules/${encodeURIComponent(id)}/` +
+    `${encodeURIComponent(date)}/original_schedule.pdf`;
+  const params = new URLSearchParams({file,page:number});
 
-  return `<a class="pdf"
-    href="${escapeHTML(pdfURL(id,date))}#page=${number}"
-    target="_blank"
-    rel="noopener noreferrer">
-    VIEW SCHEDULE PDF · PAGE ${number} ↗
+  return `<a class="pdf" href="/pdf-viewer.html?${escapeHTML(params)}">
+    VIEW SCHEDULE PDF · PAGE ${number}
   </a>`;
 }
 
@@ -1349,17 +1288,6 @@ function timeBox(label,value) {
     <small>${escapeHTML(label)}</small>
     <strong>${escapeHTML(value || '—')}</strong>
   </div>`;
-}
-
-function crewButton(person,isInstructor) {
-  if (!person) return '—';
-
-  const name = escapeHTML(person.full);
-
-  return isInstructor
-    ? `<button class="crewLink"
-         data-instructor="${name}">${name}</button>`
-    : name;
 }
 
 function eventCard(event,id,date,all) {
@@ -1395,13 +1323,13 @@ function eventCard(event,id,date,all) {
       <div>
         <small>INSTRUCTOR</small>
         <strong>
-          ${crewButton(event.crew[0],true)}
+          ${escapeHTML(event.crew[0]?.full || '—')}
         </strong>
       </div>
       <div>
         <small>STUDENT</small>
         <strong>
-          ${crewButton(event.crew[1],false)}
+          ${escapeHTML(event.crew[1]?.full || '—')}
         </strong>
       </div>
     </div>
@@ -1453,19 +1381,28 @@ function plainCard(event,id,date) {
 }
 
 function dailyQuestionsHTML(data) {
-  const firstPage = data.pages?.find(page => page.page === 1)?.text || '';
-  const lines = firstPage.split(/\r?\n/);
-  const getLine = regex => lines.find(line => regex.test(line))?.trim() || '';
-  const ep = getLine(/^\s*EP Question\s*:/i);
-  const natops = getLine(/^\s*NATOPS\s*:/i);
+  const firstPage = data.pages?.find(page => Number(page.page) === 1)?.text || '';
+  const lines = firstPage.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
+  const ep = lines.find(line => /^EP Question\s*:/i.test(line))
+    ?.replace(/^EP Question\s*:\s*/i,'');
+  const natopsIndex = lines.findIndex(line => /^NATOPS(?: Question)?\s*:/i.test(line));
+  let natops = lines[natopsIndex]?.replace(/^NATOPS(?: Question)?\s*:\s*/i,'');
+  const previousLine = lines[natopsIndex - 1];
+  // Some front pages place the NATOPS label beside a wrapped second line.
+  if (natops && /^\d+\.\s/.test(previousLine || '') && !/^\d+\.\s/.test(natops)) {
+    natops = previousLine + ' ' + natops;
+  }
+
   if (!ep && !natops) return '';
-  return '<section class="daily-questions" aria-label="Daily questions">' +
-    (ep ? '<div class="notice"><strong>EP QUESTION OF THE DAY</strong><p>' + escapeHTML(ep) + '</p></div>' : '') +
-    (natops ? '<div class="notice"><strong>NATOPS QUESTION OF THE DAY</strong><p>' + escapeHTML(natops) + '</p></div>' : '') +
-    '</section>';
+
+  return `<section class="notice daily-questions" aria-label="Daily questions">
+    <h3>EP / NATOPS Questions</h3>
+    ${ep ? `<p><strong>EP:</strong> ${escapeHTML(ep)}</p>` : ''}
+    ${natops ? `<p><strong>NATOPS:</strong> ${escapeHTML(natops)}</p>` : ''}
+  </section>`;
 }
 
-function scheduleHTML(found,id,date,parsed) {
+function scheduleHTML(found,id,date,parsed,data) {
   let html = `<div class="stats">
     <div class="stat">
       <small>FLIGHTS</small>
@@ -1481,7 +1418,7 @@ function scheduleHTML(found,id,date,parsed) {
         ${found.ground.length + found.duty.length}
       </strong>
     </div>
-  </div>`;
+  </div>` + dailyQuestionsHTML(data);
 
   const sections = [
     ['flights','FLIGHT EVENTS'],
@@ -1560,17 +1497,13 @@ async function loadMySchedule() {
       formatRetrieved(retrievedAt)
     );
 
-    if (eventCount(found)) {
-      $('myResults').innerHTML =
-        dailyQuestionsHTML(data) + scheduleHTML(found,squadron,date,parsed);
-    } else {
-      $('myResults').innerHTML =
-        dailyQuestionsHTML(data) + `<div class="notice">
-          ${escapeHTML(pick(emptyMessages))}
-          <div>
-            ${pdfLink(squadron,date,1)}
-          </div>
-        </div>`;
+    $('myResults').innerHTML = scheduleHTML(found,squadron,date,parsed,data);
+
+    if (!eventCount(found)) {
+      $('myResults').insertAdjacentHTML('beforeend',`<div class="notice">
+        ${escapeHTML(pick(emptyMessages))}
+        <div>${pdfLink(squadron,date,1)}</div>
+      </div>`);
     }
 
   } catch (error) {
@@ -1654,7 +1587,7 @@ async function searchSomeone() {
       </h3>`;
 
       html += scheduleHTML(
-        found,item.id,date,parsed
+        found,item.id,date,parsed,item.data
       );
     }
 
@@ -1687,203 +1620,140 @@ async function searchSomeone() {
   }
 }
 
+function historyDayHTML(item) {
+  let detail;
+
+  if (item.error) {
+    detail = '<p class="muted small">Could not load schedule.</p>';
+  } else if (!item.data) {
+    detail = '<p class="muted small">No saved schedule.</p>';
+  } else {
+    detail = scheduleHTML(item.found,profile.squadron,item.date,item.parsed,item.data);
+
+    if (!item.count) {
+      detail += `<p class="muted small">Published schedule — no matching assignments.</p>
+        ${pdfLink(profile.squadron,item.date,1)}`;
+    }
+  }
+
+  return `<section class="historyday">
+    <h3>${escapeHTML(prettyDate(item.date))}</h3>
+    ${detail}
+  </section>`;
+}
+
+function renderHistoryCalendar(items,today) {
+  const calendar = $('historyCalendar');
+  const grid = document.createElement('div');
+  grid.className = 'calendar-grid';
+  grid.innerHTML = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat']
+    .map(day => `<span class="calendar-weekday" aria-hidden="true">${day}</span>`)
+    .join('');
+
+  const ordered = [...items].reverse();
+  const firstWeekday = new Date(ordered[0].date + 'T12:00:00Z').getUTCDay();
+
+  for (let index = 0; index < firstWeekday; index++) {
+    const spacer = document.createElement('span');
+    spacer.setAttribute('aria-hidden','true');
+    grid.append(spacer);
+  }
+
+  const month = new Intl.DateTimeFormat('en-US',{month:'short',timeZone:'UTC'});
+  let selectedButton;
+
+  function selectDay(button,item) {
+    selectedButton?.setAttribute('aria-pressed','false');
+    button.setAttribute('aria-pressed','true');
+    selectedButton = button;
+    $('historyResults').innerHTML = historyDayHTML(item);
+  }
+
+  for (const item of ordered) {
+    const date = new Date(item.date + 'T12:00:00Z');
+    const day = date.getUTCDate();
+    const state = item.error ? 'Schedule unavailable' : item.data
+      ? item.count + ' matching events'
+      : 'No saved schedule';
+    const mark = item.error ? '!' : item.data ? item.count : '–';
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'calendar-day';
+    button.setAttribute('aria-label',prettyDate(item.date) + ' · ' + state);
+    button.setAttribute('aria-pressed','false');
+    button.title = state;
+    button.innerHTML = `${day === 1 || item === ordered[0] ? month.format(date) + ' ' : ''}${day}
+      <small class="${item.count ? 'calendar-events' : ''}" aria-hidden="true">${mark}</small>`;
+    button.onclick = () => selectDay(button,item);
+    grid.append(button);
+
+    if (item.date === today) {
+      button.setAttribute('aria-current','date');
+      selectDay(button,item);
+    }
+  }
+
+  calendar.replaceChildren(grid);
+  calendar.classList.remove('hidden');
+}
+
 async function loadHistory(days) {
   const token = ++requestCounter;
+  const today = centralDate();
+  const {squadron,last,first} = profile;
 
   $('historyTitle').textContent =
     days === 7 ? 'Past 7 Days' : 'Past 30 Days';
 
-  $('historyResults').innerHTML = '';
+  $('historyCalendar').replaceChildren();
+  $('historyCalendar').classList.add('hidden');
+  $('historyResults').replaceChildren();
 
-  showMessage(
-    'historyMessage',
-    'Loading ' + days + ' days...'
-  );
+  showMessage('historyMessage','Loading ' + days + ' days...');
 
   const dates = Array.from(
     {length:days},
-    (_,index) => centralDate(-index)
+    (_,index) => shiftDate(today,-index)
   );
 
   try {
-    const loaded = await Promise.all(
-      dates.map(async date => {
-        try {
-          return {
-            date,
-            data:await getSchedule(
-              profile.squadron,date
-            )
-          };
-        } catch {
+    const loaded = await Promise.all(dates.map(async date => {
+      try {
+        const data = await getSchedule(squadron,date);
+        if (!data) return {date,count:0};
 
-          return {date,error:true};
-        }
-      })
-    );
+        const parsed = parseSchedule(data);
+        const found = findEvents(parsed,last,first);
+
+        return {date,data,parsed,found,count:eventCount(found)};
+      } catch {
+        return {date,error:true,count:0};
+      }
+    }));
 
     if (token !== requestCounter) return;
 
-    let available = 0;
-    let assigned = 0;
-    let errors = 0;
-    let html = '';
-
-    for (const item of loaded) {
-      html += `<div class="historyday">
-        <h3>${escapeHTML(prettyDate(item.date))}</h3>`;
-
-      if (item.error) {
-        errors++;
-        html +=
-          '<p class="muted small">Could not load schedule.</p>' +
-          '</div>';
-        continue;
-      }
-
-      if (!item.data) {
-        html +=
-          '<p class="muted small">No saved schedule.</p>' +
-          '</div>';
-        continue;
-      }
-
-      available++;
-
-      const parsed = parseSchedule(item.data);
-
-      const found = findEvents(
-        parsed,profile.last,profile.first
-      );
-
-      assigned += eventCount(found);
-
-      html += eventCount(found)
-        ? scheduleHTML(
-            found,profile.squadron,item.date,parsed
-          )
-        : `<p class="muted small">
-            Published schedule — no matching assignments.
-          </p>
-          ${pdfLink(profile.squadron,item.date,1)}`;
-
-      html += '</div>';
-    }
+    const available = loaded.filter(item => item.data).length;
+    const errors = loaded.filter(item => item.error).length;
+    const assigned = loaded.reduce((total,item) => total + item.count,0);
 
     showMessage(
       'historyMessage',
-      `${available}/${days} schedules available · ` +
-      `${assigned} matching events` +
+      `${available}/${days} schedules available · ${assigned} matching events` +
       (errors ? ` · ${errors} errors` : ''),
       !!errors
     );
 
-    $('historyResults').innerHTML = html;
-
+    if (days === 30) {
+      renderHistoryCalendar(loaded,today);
+    } else {
+      $('historyResults').innerHTML = loaded.map(historyDayHTML).join('');
+    }
   } catch (error) {
     if (token === requestCounter) {
-      showMessage(
-        'historyMessage',
-        'History failed: ' + error.message,
-        true
-      );
+      showMessage('historyMessage','History failed: ' + error.message,true);
     }
   }
-}
-
-function aircraftIcon(aircraft) {
-  if (/CH-53|UH-1|AH-1|MH-60|TH-73/.test(aircraft)) {
-    return '🚁';
-  }
-
-  if (/MV-22/.test(aircraft)) return '🛩';
-  return '✈';
-}
-
-function loadDraft() {
-  const draft = readLocal(DRAFT) || {};
-
-  for (const key of [
-    'fleet','bio','adviceFam','adviceInstrument',
-    'adviceFormation','adviceOther'
-  ]) {
-    $(key).value = draft[key] || '';
-  }
-
-  renderDraft();
-}
-
-function renderDraft() {
-  const draft = readLocal(DRAFT);
-
-  if (!draft) {
-    $('draftPreview').innerHTML = '';
-    return;
-  }
-
-  const sections = [
-    ['FAM',draft.adviceFam],
-    ['Instrument',draft.adviceInstrument],
-    ['Formation',draft.adviceFormation],
-    ['Other',draft.adviceOther]
-  ];
-
-  $('draftPreview').innerHTML = `
-    <div class="notice">
-      <h3>
-        ${aircraftIcon(draft.fleet || '')}
-        ${escapeHTML(
-          profile.first + ' ' + profile.last
-        )}
-      </h3>
-
-      <p class="small">
-        ${escapeHTML(
-          draft.fleet || 'Instructor Pilot'
-        )}
-      </p>
-
-      <p>${escapeHTML(draft.bio || '')}</p>
-
-      ${sections
-        .filter(([,value]) => value)
-        .map(([name,value]) => `
-          <h3>${escapeHTML(name)} Advice</h3>
-          <p>${escapeHTML(value)}</p>
-        `).join('')}
-
-      <p class="hint">
-        Private local draft — not published or submitted.
-      </p>
-    </div>`;
-}
-
-function saveDraft() {
-  const keys = [
-    'fleet','bio','adviceFam','adviceInstrument',
-    'adviceFormation','adviceOther'
-  ];
-
-  const draft = Object.fromEntries(
-    keys.map(key => [key,$(key).value.trim()])
-  );
-
-  const saved = saveLocal(DRAFT,draft);
-
-  $('draftStatus').textContent = saved
-    ? 'Draft saved on this device. Submission is not yet enabled.'
-    : 'Could not save draft.';
-
-  renderDraft();
-}
-
-function showInstructor(name) {
-  alert(
-    name + '\n\n' +
-    'No approved public instructor profile is available yet. ' +
-    'Profiles will appear here after the submission and ' +
-    'approval service is connected.'
-  );
 }
 
 function installSwipe() {
@@ -1956,8 +1826,9 @@ function wireControls() {
   };
 
   document.querySelectorAll('[data-view]').forEach(button => {
-    button.onclick = () =>
-      openView(button.dataset.view);
+    button.onclick = () => {
+      if (profile) openView(button.dataset.view);
+    };
   });
 
   $('menuButton').onclick = () => {
@@ -2018,7 +1889,6 @@ function wireControls() {
 
   $('save').onclick = saveSettings;
   $('findSearch').onclick = searchSomeone;
-  $('saveDraft').onclick = saveDraft;
 
   $('previous').onclick = () => {
     $('date').value = shiftDate(
@@ -2051,16 +1921,6 @@ function wireControls() {
 
   $('monthButton').onclick =
     () => openView('month');
-
-  document.addEventListener('click',event => {
-    const instructor = event.target.closest(
-      '[data-instructor]'
-    );
-
-    if (instructor) {
-      showInstructor(instructor.dataset.instructor);
-    }
-  });
 
   installSwipe();
 }
