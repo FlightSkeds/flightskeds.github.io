@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -191,7 +190,15 @@ h3{margin:10px 0}
   margin-top:22px;padding-top:13px
 }
 .daily-questions h3{margin:0 0 8px}
-.daily-questions p{margin:6px 0 0}
+.daily-questions p{margin:6px 0 0;color:#fff}
+.daily-questions strong{color:#ff747b}
+.daily-questions p+p{border-top:1px solid var(--border);padding-top:8px;margin-top:8px}
+.discuss{border-top:1px solid var(--border);margin:12px 0;padding-top:10px}
+.discuss h4{margin:0 0 6px}
+.discuss p,.discuss ul{margin:6px 0}
+.discuss ul{padding-left:20px}
+.discuss label{margin-top:6px}
+.discuss select{max-width:18rem}
 .calendar-grid{
   display:grid;grid-template-columns:repeat(7,minmax(0,1fr));
   gap:4px;margin:12px 0
@@ -206,7 +213,13 @@ h3{margin:10px 0}
 .calendar-day[aria-pressed="true"]{background:#44242c;border-color:var(--accent)}
 .calendar-day:focus-visible{outline:2px solid white;outline-offset:1px}
 .calendar-day[aria-current="date"]{font-weight:800}
-.calendar-day .calendar-events{color:#8be2af;font-weight:800}
+.calendar-day .calendar-events{color:#8be2af;font-weight:700;overflow-wrap:anywhere}
+.calendar-day .calendar-events b{display:block;font-weight:inherit}
+@media(max-width:520px){
+  .calendar-grid{gap:3px}
+  .calendar-day{font-size:12px;min-height:58px}
+  .calendar-day small{font-size:9px;line-height:1.18}
+}
 .hint{font-size:12px;color:var(--muted)}
 .joke{
   font-size:12px;color:#c4aab0;
@@ -328,14 +341,14 @@ h3{margin:10px 0}
   </div>
   <nav id="menu" class="menu">
     <button data-view="my">My Schedule</button>
-    <button data-view="find">Find Someone</button>
-    <button data-view="week">Past 7 Days</button>
+    <button data-view="find">Find Someone Else</button>
     <button data-view="month">Past 30 Days</button>
     <button data-view="settings">Profile Settings</button>
   </nav>
 </header>
 
 <main>
+<p id="connectionStatus" class="notice warning hidden" role="status"></p>
 
 <section id="onboardView" class="hidden onboard panel">
   <div class="step">WELCOME TO FLIGHTLINE</div>
@@ -367,6 +380,13 @@ h3{margin:10px 0}
     <button id="roleStudent" class="tile">🎓 Student</button>
     <button id="roleInstructor" class="tile">✈ Instructor</button>
   </div>
+
+  <label id="obSyllabusField" for="obSyllabus" class="hidden">5 · JPPT syllabus</label>
+  <select id="obSyllabus" class="hidden">
+    <option value="">Choose your syllabus</option>
+    <option value="D">2024 (D)</option>
+    <option value="E">2026 (E)</option>
+  </select>
 
   <p id="obError" class="notice hidden"></p>
   <button id="finishSetup" class="primary"
@@ -406,7 +426,7 @@ h3{margin:10px 0}
 
 <section id="findView" class="hidden">
   <div class="panel">
-    <h2>Find Someone</h2>
+    <h2>Find Someone Else</h2>
     <p id="findJoke" class="joke"></p>
     <div class="row">
       <div>
@@ -433,16 +453,9 @@ h3{margin:10px 0}
 </section>
 
 <section id="historyView" class="hidden">
-  <h2 id="historyTitle">Schedule History</h2>
-  <div class="row">
-    <button id="weekButton" class="secondary">
-      Past 7 Days
-    </button>
-    <button id="monthButton" class="secondary">
-      Past 30 Days
-    </button>
-  </div>
-  <p class="muted small">Previously archived schedules.</p>
+  <h2>Past 30 Days</h2>
+  <p class="muted small">Select a date to view its full schedule.</p>
+
   <div id="historyMessage"></div>
   <div id="historyCalendar" class="hidden"></div>
   <div id="historyResults"></div>
@@ -471,6 +484,12 @@ h3{margin:10px 0}
       <option value="student">Student</option>
       <option value="instructor">Instructor</option>
     </select>
+    <label id="homeSyllabusLabel" for="homeSyllabus" class="hidden">JPPT syllabus</label>
+    <select id="homeSyllabus" class="hidden">
+      <option value="">Choose your syllabus</option>
+      <option value="D">2024 (D)</option>
+      <option value="E">2026 (E)</option>
+    </select>
     <button id="save" class="primary"
       style="width:100%;margin-top:17px">
       Save Profile
@@ -488,7 +507,7 @@ h3{margin:10px 0}
       style="width:100%">
       Enable Notifications
     </button>
-    <p id="flightlinePushStatus" class="hint">
+    <p id="flightlinePushStatus" class="hint" role="status">
       Notifications are optional.
     </p>
   </div>
@@ -502,8 +521,7 @@ Always verify assignments, times, and remarks against
 the original published schedule.
 Formation partners are inferred from event numbers and
 takeoff times. Check schedule notes to confirm formation
-assignments. Instructor tips are not authoritative
-flight procedures.
+assignments.
 </footer>
 
 <script>
@@ -516,7 +534,17 @@ const KEY = 'flightline-profile-v2';
 const OLD = 'cnatra-profile-v1';
 
 const $ = id => document.getElementById(id);
-const cache = new Map();
+const pendingSchedules = new Map();
+const SCHEDULE_CACHE = 'flightline-schedules-v1';
+const CONFIG_KEY = 'flightline-squadrons-v1';
+const JPPT_SQUADRONS = new Set(['VT-2','VT-3','VT-6','VT-27','VT-28']);
+const EVENT_SYLLABI_KEY = 'flightline-event-syllabi-v1';
+const viewedSyllabi = new Map();
+let discussDatabase = null;
+let discussRequest;
+let selectedHistoryDate;
+let manualDate = false;
+let searched = false;
 
 let squadrons = {};
 let profile = null;
@@ -682,7 +710,7 @@ function formatRetrieved(timestamp) {
   }) + ' CT';
 }
 
-function status(title,detail) {
+function status(title,detail,{cached = false} = {}) {
   const container = $('myMessage');
   container.innerHTML = '';
 
@@ -703,10 +731,9 @@ function status(title,detail) {
 
   const description = document.createElement('small');
   description.textContent = available
-    ? 'Schedule Available'
-    : unavailable
-      ? 'Schedule Unavailable'
-      : detail;
+    ? cached ? 'Schedule Available · Cached copy' : 'Schedule Available'
+    : unavailable ? 'Schedule Unavailable' : detail;
+  description.title = detail;
 
   box.append(heading,description);
   container.appendChild(box);
@@ -877,6 +904,12 @@ function renderOnboarding() {
     'active',onboardingRole === 'instructor'
   );
 
+  const needsSyllabus = onboardingRole === 'student' &&
+    JPPT_SQUADRONS.has(onboardingSquadron);
+  $('obSyllabusField').classList.toggle('hidden',!needsSyllabus);
+  $('obSyllabus').classList.toggle('hidden',!needsSyllabus);
+  $('obSyllabus').required = needsSyllabus;
+
   replaceIcons($('wingTiles'));
   replaceIcons($('squadTiles'));
 }
@@ -907,11 +940,12 @@ function fillSelects() {
       </option>`
     ).join('');
 
+  const previousFind = $('findSq').value;
   $('findSq').innerHTML =
-
     `<option value="all">
       All ${Object.keys(squadrons).length} Schedules
     </option>` + options;
+  if (squadrons[previousFind]) $('findSq').value = previousFind;
 }
 
 function filterHomeSquadrons() {
@@ -930,6 +964,19 @@ function filterHomeSquadrons() {
   if (squadrons[previous]?.wing === wing) {
     $('homeSq').value = previous;
   }
+  updateSyllabusField();
+}
+
+function updateSyllabusField() {
+  const visible = $('homeRoleSelect').value === 'student' &&
+    JPPT_SQUADRONS.has($('homeSq').value);
+  $('homeSyllabusLabel').classList.toggle('hidden',!visible);
+  $('homeSyllabus').classList.toggle('hidden',!visible);
+  $('homeSyllabus').required = visible;
+}
+
+function validSyllabus(value) {
+  return value === 'D' || value === 'E' ? value : '';
 }
 
 function fillSettings() {
@@ -939,31 +986,47 @@ function fillSettings() {
   filterHomeSquadrons();
   $('homeSq').value = profile.squadron;
   $('homeRoleSelect').value = profile.role;
+  $('homeSyllabus').value = validSyllabus(profile.syllabus);
+  updateSyllabusField();
 }
 
 function saveSettings() {
   const last = normalize($('last').value);
+  const squadron = $('homeSq').value;
+  const role = $('homeRoleSelect').value;
+  const selected = validSyllabus($('homeSyllabus').value);
 
-  if (!last) {
-    $('saved').textContent = 'Enter a last name.';
+  if (!last || !squadrons[squadron]) {
+    $('saved').textContent = 'Choose a squadron and enter a last name.';
+    return;
+  }
+  if (role === 'student' && JPPT_SQUADRONS.has(squadron) && !selected) {
+    $('saved').textContent = 'Choose your JPPT syllabus.';
     return;
   }
 
-  profile = {
+  const next = {
+    ...profile,
     last,
     first:normalize($('first').value),
     wing:$('homeWingSelect').value,
-    squadron:$('homeSq').value,
-    role:$('homeRoleSelect').value
+    squadron,
+    role,
+    syllabus:selected || validSyllabus(profile.syllabus)
   };
 
-  saveLocal(KEY,profile);
+  if (!saveLocal(KEY,next)) {
+    $('saved').textContent = 'This device could not save your profile.';
+    return;
+  }
+
+  profile = next;
   flightlineSyncPushProfile();
   setTheme();
   openView('my');
 }
 
-function openView(view) {
+function openView(view,{auto = false} = {}) {
   currentView = view;
   requestCounter++;
 
@@ -974,18 +1037,18 @@ function openView(view) {
   }
 
   const section =
-    view === 'week' || view === 'month'
+    view === 'month'
       ? 'history'
       : view;
 
   $(section + 'View').classList.remove('hidden');
   $('menu').classList.remove('open');
 
-  if (view === 'my') loadMySchedule();
-  if (view === 'week') loadHistory(7);
-  if (view === 'month') loadHistory(30);
+  if (view === 'my') loadMySchedule({auto});
+  if (view === 'month') loadHistory();
 
   if (view === 'find') {
+    $('findSearch').disabled = false;
     rotateSearchNames();
 
     $('findJoke').textContent = pick(
@@ -995,7 +1058,10 @@ function openView(view) {
     );
   }
 
-  if (view === 'settings') flightlineSyncPushProfile();
+  if (view === 'settings') {
+    fillSettings();
+    flightlineSyncPushProfile();
+  }
 }
 
 function rotateSearchNames() {
@@ -1005,29 +1071,66 @@ function rotateSearchNames() {
 }
 
 async function fetchJSON(url) {
-  const response = await fetch(
-    url + '?t=' + Date.now(),
-    {cache:'no-store'}
-  );
+  const response = await fetch(url,{
+    cache:'no-store',
+    signal:AbortSignal.timeout(6500)
+  });
 
   if (response.status === 404) return null;
   if (!response.ok) throw Error('HTTP ' + response.status);
-
   return response.json();
 }
 
-async function getSchedule(squadron,date) {
-  const key = squadron + '/' + date;
+function getSchedule(squadron,date) {
+  const url = `${ROOT}/schedules/${squadron}/${date}/full_schedule.json`;
+  if (!pendingSchedules.has(url)) {
+    const request = fetchSchedule(url,squadron,date)
+      .finally(() => pendingSchedules.delete(url));
+    pendingSchedules.set(url,request);
+  }
+  return pendingSchedules.get(url);
+}
 
-  if (cache.has(key)) return cache.get(key);
+async function fetchSchedule(url,squadron,date) {
+  const storage = await window.caches?.open(SCHEDULE_CACHE).catch(() => null);
+  try {
+    if (!navigator.onLine) throw Error('Offline');
+    const data = await fetchJSON(url);
+    if (data === null) return null;
+    if (!Array.isArray(data.records) || !Array.isArray(data.pages) ||
+        (!data.records.length && !data.pages.some(page => page.text?.trim())) ||
+        data.metadata?.schedule_date !== date ||
+        data.metadata?.schedule_id !== squadron) {
+      throw Error('Invalid schedule data');
+    }
+    if (storage) {
+      try {
+        await storage.put(url,new Response(JSON.stringify(data)));
+        const keys = await storage.keys();
+        await Promise.all(keys.slice(0,Math.max(0,keys.length - 150))
+          .map(key => storage.delete(key)));
+      } catch (error) {
+        console.warn('FlightLine schedule cache:',error);
+      }
+    }
+    return {data,cached:false};
+  } catch (error) {
+    const cached = await storage?.match(url).then(response => response?.json()).catch(() => null);
+    if (cached) return {data:cached,cached:true};
+    throw error;
+  }
+}
 
-  const data = await fetchJSON(
-    `${ROOT}/schedules/${squadron}/${date}/full_schedule.json`
-  );
-
-  if (data) cache.set(key,data);
-
-  return data;
+function loadDiscussDatabase() {
+  if (discussDatabase || discussRequest) return;
+  discussRequest = fetchJSON('/jppt-discuss-v1.json')
+    .then(data => {
+      if (data?.schemaVersion !== 1) return;
+      discussDatabase = data;
+      document.querySelectorAll('.discuss').forEach(updateDiscussSection);
+    })
+    .catch(error => console.warn('FlightLine JPPT:',error))
+    .finally(() => { discussRequest = null; });
 }
 
 const NAME_PATTERN =
@@ -1061,7 +1164,8 @@ function makeEvent(
     section,
     line:+line,
     brief,start,land,code,duration,
-    crew,remarks,page,device
+    crew,remarks,page,device,
+    solo:section === 'Flight' && crew.length === 1 && /\bSOLO\b/i.test(remarks)
   };
 }
 
@@ -1075,7 +1179,7 @@ function parseFlight(text,page) {
   const body = match[5];
 
   const hit = body.match(
-    /\s+([A-Z]{1,5}\d{3,5}[A-Z]?|BIS|QIP)\s+(\d+(?:\.\d+)?\/\d+(?:\.\d+)?)(?:\s+|$)/
+    /\s+([A-Z]{1,5} ?\d{3,5}[A-Z]?|BIS|QIP)\s+(\d+(?:\.\d+)?\/\d+(?:\.\d+)?)(?:\s+|$)/
   );
 
   if (!hit) return null;
@@ -1083,7 +1187,7 @@ function parseFlight(text,page) {
   return makeEvent(
     'Flight',
     match[1],match[2],match[3],match[4],
-    hit[1],hit[2],
+    hit[1].replace(/ /g,''),hit[2],
     body.slice(0,hit.index),
     body.slice(hit.index + hit[0].length).trim(),
     page,''
@@ -1100,7 +1204,7 @@ function parseSimulator(text,page) {
   const body = match[4];
 
   const hit = body.match(
-    /\s+([A-Z]{1,5}\d{3,5}[A-Z]?)\s+(\d+(?:\.\d+)?)(?:\s+|$)/
+    /\s+([A-Z]{1,5} ?\d{3,5}[A-Z]?)\s+(\d+(?:\.\d+)?)(?:\s+|$)/
   );
 
   if (!hit) return null;
@@ -1113,7 +1217,7 @@ function parseSimulator(text,page) {
   return makeEvent(
     'Simulator',
     match[1],match[2],match[3],'',
-    hit[1],hit[2],
+    hit[1].replace(/ /g,''),hit[2],
     before.slice(firstName),
     body.slice(hit.index + hit[0].length).trim(),
     page,
@@ -1166,46 +1270,28 @@ function parseSchedule(data) {
         raw:text,
         page:record.page,
         start:text.slice(0,4),
+        end:text.slice(5,9),
         crew:namesIn(text)
       });
     }
   }
 
   const firstPage =
-    data.pages?.find(page => page.page === 1)?.text || '';
+    data.pages?.find(page => Number(page.page) === 1)?.text || '';
 
-  const dutyBlock = firstPage.split(
-    'DUTY/WATCH ASSIGNED SIGN IN SIGN OUT'
-  )[1]?.split('KNSE ')[0] || '';
-
-  const roles = [
-    'Day SDO','Night SDO',
-    'AM FDO','PM FDO',
-    'AM AFDO','PM AFDO',
-    'QA Skeds/Duty OPS',
-    'EVERGREEN AM RDO',
-    'EVERGREEN AM WHEELS',
-    'CDO',
-    'WKDAY AM DUTY DRIVER'
-  ];
-
-  const escapeRegex = text =>
-    text.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
-
-  const group = roles.map(escapeRegex).join('|');
-
-  const regex = new RegExp(
-    '(' + group + ')\\s+(.+?)' +
-    '(?=\\s+(?:' + group + ')\\s+|$)',
-    'gi'
-  );
-
-  for (const match of dutyBlock.replace(/\n/g,' ').matchAll(regex)) {
+  const dutyBlock = firstPage.split(/DUTY\s*\/\s*WATCH[^\n]*SIGN\s*OUT/i)[1] || '';
+  const dutyRole = /^(Day SDO|Night SDO|(?:AM|PM) (?:AFDO|FDO|SDO|STANDBY|DUTY DRIVER)|QA Skeds\/Duty OPS|EVERGREEN AM (?:RDO|WHEELS)|WKDAY AM DUTY DRIVER|HAROLD RDO|SANTA ROSA RDO|SKEDS WRITER|CDO)\s+(.+?)\s+(\d{4})\s+(\d{4})\s*$/i;
+  for (const line of dutyBlock.trim().split(/\r?\n/)) {
+    if (!line.trim() || /^\*|^(?:KN\s?[A-Z]{2}|FIELD HOURS|MONTHLY CALENDAR|DAILY EVENTS|UPCOMING EVENTS)\b/i.test(line)) break;
+    const match = line.trim().match(dutyRole);
+    if (!match) continue;
     duty.push({
       section:'Duty',
       role:match[1],
-      raw:match[0].trim(),
+      raw:line.trim(),
       page:1,
+      start:match[3],
+      end:match[4],
       crew:namesIn(match[2])
     });
   }
@@ -1253,7 +1339,51 @@ function eventCount(found) {
 function timeMinutes(value) {
   if (!/^\d{4}$/.test(value || '')) return null;
 
-  return +value.slice(0,2) * 60 + +value.slice(2);
+  const hour = +value.slice(0,2);
+  const minute = +value.slice(2);
+  if (hour === 24 && minute === 0) return 1440;
+  return hour < 24 && minute < 60 ? hour * 60 + minute : null;
+}
+
+function scheduledEnd(event) {
+  const start = timeMinutes(event.start);
+  if (event.section === 'Simulator') {
+    const hours = Number(event.duration);
+    return start !== null && hours > 0 ? start + Math.round(hours * 60) : null;
+  }
+  const end = timeMinutes(event.land || event.end);
+  return start !== null && end !== null && end < start ? end + 1440 : end;
+}
+
+function centralMinutes() {
+  const [hour,minute] = new Intl.DateTimeFormat('en-GB',{
+    timeZone:'America/Chicago',hour:'2-digit',minute:'2-digit',hourCycle:'h23'
+  }).format().split(':').map(Number);
+  return hour * 60 + minute;
+}
+
+async function automaticSchedule(squadron,date) {
+  const today = await getSchedule(squadron,date);
+  if (today?.cached) return {date,result:today};
+  if (today) {
+    const parsed = parseSchedule(today.data);
+    const assigned = findEvents(parsed,profile.last,profile.first);
+    const now = centralMinutes();
+    if (Object.values(assigned).flat().some(event => {
+      const end = scheduledEnd(event);
+      return end === null || end > now;
+    })) return {date,result:today};
+  }
+
+  // The publisher archives today plus seven calendar days, including weekends.
+  const upcoming = await Promise.allSettled(
+    Array.from({length:7},(_,i) => getSchedule(squadron,shiftDate(date,i + 1)))
+  );
+  for (const [i,response] of upcoming.entries()) {
+    if (response.status === 'rejected' || response.value?.cached) break;
+    if (response.value) return {date:shiftDate(date,i + 1),result:response.value};
+  }
+  return {date,result:today};
 }
 
 function formationPartners(event,all) {
@@ -1290,6 +1420,50 @@ function timeBox(label,value) {
   </div>`;
 }
 
+function discussBody(code,syllabus) {
+  const revision = discussDatabase?.revisions?.[validSyllabus(syllabus)];
+  const entry = revision && Object.hasOwn(revision.events,code) && revision.events[code];
+  if (!entry) return '<p class="muted">Discuss items unavailable</p>';
+
+  const items = entry.items.length
+    ? '<ul>' + entry.items.map(item => '<li>' + escapeHTML(item) + '</li>').join('') + '</ul>'
+    : '<p>None.</p>';
+  const pages = entry.pages.map(page =>
+    `${page.printed} (PDF page ${page.pdf})`
+  ).join(', ');
+  return items + `<p class="muted">${escapeHTML(revision.publication + ' · ' + pages)}</p>`;
+}
+
+function updateDiscussSection(section) {
+  const select = section.querySelector('select');
+  section.querySelector('.discuss-content').innerHTML = discussBody(
+    section.dataset.code,select ? select.value : section.dataset.syllabus
+  );
+}
+
+function discussHTML(event,id,date) {
+  const supported = JPPT_SQUADRONS.has(id);
+  const key = [profile.squadron,profile.last,profile.first,id,date,event.section,
+    event.line,event.code,...event.crew.map(person => person.full)].join('/');
+  const instructor = supported && profile.role === 'instructor';
+  const trainee = event.crew[event.solo ? 0 : 1];
+  const ownEvent = supported && id === profile.squadron && trainee &&
+    matchPerson([trainee],profile.last,profile.first);
+  const syllabus = instructor ? viewedSyllabi.get(key) || '' :
+    ownEvent ? validSyllabus(profile.syllabus) : '';
+  return `<section class="discuss small" data-code="${escapeHTML(event.code)}"
+    data-syllabus="${syllabus}">
+    <h4>Discuss Items</h4>
+    ${instructor ? `<label>Student’s JPPT syllabus
+      <select data-discuss-key="${escapeHTML(key)}">
+        <option value="">Choose syllabus for this event</option>
+        <option value="D"${syllabus === 'D' ? ' selected' : ''}>2024 (D)</option>
+        <option value="E"${syllabus === 'E' ? ' selected' : ''}>2026 (E)</option>
+      </select></label>` : ''}
+    <div class="discuss-content">${discussBody(event.code,syllabus)}</div>
+  </section>`;
+}
+
 function eventCard(event,id,date,all) {
   const flight = event.section === 'Flight';
 
@@ -1323,13 +1497,13 @@ function eventCard(event,id,date,all) {
       <div>
         <small>INSTRUCTOR</small>
         <strong>
-          ${escapeHTML(event.crew[0]?.full || '—')}
+          ${escapeHTML((!event.solo && event.crew[0]?.full) || '—')}
         </strong>
       </div>
       <div>
         <small>STUDENT</small>
         <strong>
-          ${escapeHTML(event.crew[1]?.full || '—')}
+          ${escapeHTML(event.crew[event.solo ? 0 : 1]?.full || '—')}
         </strong>
       </div>
     </div>
@@ -1366,6 +1540,7 @@ function eventCard(event,id,date,all) {
       </p>
     ` : ''}
 
+    ${discussHTML(event,id,date)}
     ${pdfLink(id,date,event.page)}
   </article>`;
 }
@@ -1383,8 +1558,8 @@ function plainCard(event,id,date) {
 function dailyQuestionsHTML(data) {
   const firstPage = data.pages?.find(page => Number(page.page) === 1)?.text || '';
   const lines = firstPage.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
-  const ep = lines.find(line => /^EP Question\s*:/i.test(line))
-    ?.replace(/^EP Question\s*:\s*/i,'');
+  const ep = lines.find(line => /^EP(?: Question)?\s*:/i.test(line))
+    ?.replace(/^EP(?: Question)?\s*:\s*/i,'');
   const natopsIndex = lines.findIndex(line => /^NATOPS(?: Question)?\s*:/i.test(line));
   let natops = lines[natopsIndex]?.replace(/^NATOPS(?: Question)?\s*:\s*/i,'');
   const previousLine = lines[natopsIndex - 1];
@@ -1447,9 +1622,9 @@ function scheduleHTML(found,id,date,parsed,data) {
   return html;
 }
 
-async function loadMySchedule() {
+async function loadMySchedule({auto = false} = {}) {
   const token = ++requestCounter;
-  const date = $('date').value;
+  let date = auto ? centralDate() : $('date').value;
 
   if (!profile || !profile.last || !date) return;
 
@@ -1465,9 +1640,16 @@ async function loadMySchedule() {
   skeleton();
 
   try {
-    const data = await getSchedule(squadron,date);
+    const loaded = auto
+      ? await automaticSchedule(squadron,date)
+      : {date,result:await getSchedule(squadron,date)};
 
     if (token !== requestCounter) return;
+
+    date = loaded.date;
+    $('date').value = date;
+    todayIndicator();
+    const {data,cached} = loaded.result || {};
 
     if (!data) {
       status(
@@ -1491,10 +1673,8 @@ async function loadMySchedule() {
 
     status(
       'SCHEDULE AVAILABLE',
-      prettyDate(date) +
-      ' · ' + eventCount(found) + ' matching events' +
-      ' · Downloaded ' +
-      formatRetrieved(retrievedAt)
+      eventCount(found) + ' matching events · Downloaded ' + formatRetrieved(retrievedAt),
+      {cached}
     );
 
     $('myResults').innerHTML = scheduleHTML(found,squadron,date,parsed,data);
@@ -1511,7 +1691,7 @@ async function loadMySchedule() {
 
     status(
       'UNABLE TO LOAD',
-      error.message || 'Schedule retrieval failed.'
+      navigator.onLine ? 'Schedule retrieval failed. Try refreshing.' : 'Offline. No cached schedule for this date.'
     );
 
     $('myResults').innerHTML = '';
@@ -1539,6 +1719,7 @@ async function searchSomeone() {
     ? Object.keys(squadrons)
     : [selected];
 
+  searched = true;
   $('findSearch').disabled = true;
   $('findResults').innerHTML = '';
 
@@ -1550,7 +1731,7 @@ async function searchSomeone() {
   try {
     const loaded = await Promise.all(ids.map(async id => {
       try {
-        return {id,data:await getSchedule(id,date)};
+        return {id,...await getSchedule(id,date)};
       } catch {
         return {id,error:true};
       }
@@ -1582,20 +1763,20 @@ async function searchSomeone() {
 
       html += `<h3 class="sectionhead">
         ${escapeHTML(
-          squadrons[item.id].name || item.id
+          squadrons[item.id]?.name || item.id
         )}
       </h3>`;
 
-      html += scheduleHTML(
-        found,item.id,date,parsed,item.data
-      );
+      if (item.cached) html += '<p class="muted small">Cached schedule copy</p>';
+      html += scheduleHTML(found,item.id,date,parsed,item.data);
     }
 
     showMessage(
       'findMessage',
       `${total} matching events · ` +
       `${available}/${ids.length} schedules available` +
-      (errors ? ` · ${errors} errors` : ''),
+      (loaded.some(item => item.cached) ? ' · Includes cached schedules' : '') +
+      (errors ? ` · ${errors} unavailable` : ''),
       !!errors
     );
 
@@ -1628,7 +1809,8 @@ function historyDayHTML(item) {
   } else if (!item.data) {
     detail = '<p class="muted small">No saved schedule.</p>';
   } else {
-    detail = scheduleHTML(item.found,profile.squadron,item.date,item.parsed,item.data);
+    detail = item.cached ? '<p class="muted small">Cached schedule copy</p>' : '';
+    detail += scheduleHTML(item.found,profile.squadron,item.date,item.parsed,item.data);
 
     if (!item.count) {
       detail += `<p class="muted small">Published schedule — no matching assignments.</p>
@@ -1640,6 +1822,21 @@ function historyDayHTML(item) {
     <h3>${escapeHTML(prettyDate(item.date))}</h3>
     ${detail}
   </section>`;
+}
+
+function calendarAssignments(found) {
+  if (!found) return [];
+  const events = [...found.flights,...found.sims].sort((a,b) =>
+    (timeMinutes(a.start) ?? 1440) - (timeMinutes(b.start) ?? 1440)
+  );
+  return events.map(event => {
+    const counterpart = event.crew[profile.role === 'instructor' ? 1 : 0];
+    const name = !event.solo && counterpart &&
+      !matchPerson([counterpart],profile.last,profile.first)
+      ? counterpart.last.toLowerCase().replace(/(^|[ '-])[a-z]/g,char => char.toUpperCase())
+      : '';
+    return {name,code:event.code.replace(/^([A-Z]+)(?=\d)/,'$1 ')};
+  });
 }
 
 function renderHistoryCalendar(items,today) {
@@ -1666,16 +1863,29 @@ function renderHistoryCalendar(items,today) {
     selectedButton?.setAttribute('aria-pressed','false');
     button.setAttribute('aria-pressed','true');
     selectedButton = button;
+    selectedHistoryDate = item.date;
     $('historyResults').innerHTML = historyDayHTML(item);
   }
 
   for (const item of ordered) {
     const date = new Date(item.date + 'T12:00:00Z');
     const day = date.getUTCDate();
+    const assignments = calendarAssignments(item.found);
+    const visible = new Map();
+    for (const {name,code} of assignments.slice(0,2)) {
+      if (!visible.has(name)) visible.set(name,[]);
+      visible.get(name).push(code);
+    }
+    const more = item.count - Math.min(2,assignments.length);
     const state = item.error ? 'Schedule unavailable' : item.data
-      ? item.count + ' matching events'
+      ? (item.cached ? 'Cached schedule · ' : '') +
+        (assignments.map(({name,code}) => name ? name + ' — ' + code : code).join(', ') ||
+          item.count + ' matching assignments')
       : 'No saved schedule';
-    const mark = item.error ? '!' : item.data ? item.count : '–';
+    const entries = [...visible].map(([name,codes]) =>
+      `<small class="calendar-events">${name ? `<b>${escapeHTML(name)}</b>` : ''}
+        ${escapeHTML(codes.join(', '))}</small>`
+    ).join('');
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'calendar-day';
@@ -1683,27 +1893,30 @@ function renderHistoryCalendar(items,today) {
     button.setAttribute('aria-pressed','false');
     button.title = state;
     button.innerHTML = `${day === 1 || item === ordered[0] ? month.format(date) + ' ' : ''}${day}
-      <small class="${item.count ? 'calendar-events' : ''}" aria-hidden="true">${mark}</small>`;
+      ${entries}
+      ${more ? `<small>+${more} more</small>` : ''}
+      ${!entries && !more ? `<small>${item.error ? '!' : item.data ? '0' : '–'}</small>` : ''}`;
+
     button.onclick = () => selectDay(button,item);
     grid.append(button);
 
-    if (item.date === today) {
-      button.setAttribute('aria-current','date');
-      selectDay(button,item);
-    }
+    if (item.date === today) button.setAttribute('aria-current','date');
+    if (item.date === (selectedHistoryDate || today)) selectDay(button,item);
   }
 
   calendar.replaceChildren(grid);
   calendar.classList.remove('hidden');
 }
 
-async function loadHistory(days) {
+async function loadHistory() {
+  const days = 30;
   const token = ++requestCounter;
   const today = centralDate();
   const {squadron,last,first} = profile;
 
-  $('historyTitle').textContent =
-    days === 7 ? 'Past 7 Days' : 'Past 30 Days';
+  if (selectedHistoryDate < shiftDate(today,-29) || selectedHistoryDate > today) {
+    selectedHistoryDate = undefined;
+  }
 
   $('historyCalendar').replaceChildren();
   $('historyCalendar').classList.add('hidden');
@@ -1719,13 +1932,14 @@ async function loadHistory(days) {
   try {
     const loaded = await Promise.all(dates.map(async date => {
       try {
-        const data = await getSchedule(squadron,date);
-        if (!data) return {date,count:0};
+        const result = await getSchedule(squadron,date);
+        if (!result) return {date,count:0};
+        const {data,cached} = result;
 
         const parsed = parseSchedule(data);
         const found = findEvents(parsed,last,first);
 
-        return {date,data,parsed,found,count:eventCount(found)};
+        return {date,data,cached,parsed,found,count:eventCount(found)};
       } catch {
         return {date,error:true,count:0};
       }
@@ -1740,15 +1954,12 @@ async function loadHistory(days) {
     showMessage(
       'historyMessage',
       `${available}/${days} schedules available · ${assigned} matching events` +
-      (errors ? ` · ${errors} errors` : ''),
+      (loaded.some(item => item.cached) ? ' · Includes cached schedules' : '') +
+      (errors ? ` · ${errors} unavailable` : ''),
       !!errors
     );
 
-    if (days === 30) {
-      renderHistoryCalendar(loaded,today);
-    } else {
-      $('historyResults').innerHTML = loaded.map(historyDayHTML).join('');
-    }
+    renderHistoryCalendar(loaded,today);
   } catch (error) {
     if (token === requestCounter) {
       showMessage('historyMessage','History failed: ' + error.message,true);
@@ -1793,6 +2004,7 @@ function installSwipe() {
       Math.abs(dx) > 75 &&
       Math.abs(dx) > Math.abs(dy) * 1.6
     ) {
+      manualDate = true;
       $('date').value = shiftDate(
         $('date').value,
         dx < 0 ? 1 : -1
@@ -1807,7 +2019,6 @@ function installSwipe() {
       dy > 110 &&
       Math.abs(dx) < 60
     ) {
-      cache.clear();
       loadMySchedule();
     }
   },{passive:true});
@@ -1862,35 +2073,66 @@ function wireControls() {
   $('finishSetup').onclick = () => {
     const last = normalize($('obLast').value);
 
-    if (!last || !onboardingSquadron) {
+    if (!last || !squadrons[onboardingSquadron]) {
       $('obError').classList.remove('hidden');
       $('obError').textContent =
         'Choose a squadron and enter your last name.';
       return;
     }
 
-    profile = {
+    const syllabus = validSyllabus($('obSyllabus').value);
+    if ($('obSyllabus').required && !syllabus) {
+      $('obError').classList.remove('hidden');
+      $('obError').textContent = 'Choose your JPPT syllabus.';
+      return;
+    }
+
+    const next = {
       last,
       first:normalize($('obFirst').value),
       wing:onboardingWing,
       squadron:onboardingSquadron,
-      role:onboardingRole
+      role:onboardingRole,
+      syllabus:onboardingRole === 'student' ? syllabus : ''
     };
+    if (!saveLocal(KEY,next)) {
+      $('obError').classList.remove('hidden');
+      $('obError').textContent = 'This device could not save your profile.';
+      return;
+    }
 
-    saveLocal(KEY,profile);
+    profile = next;
     flightlineSyncPushProfile();
     fillSettings();
     setTheme();
     openView('my');
   };
 
-  $('homeWingSelect').onchange =
-    filterHomeSquadrons;
+  $('homeWingSelect').onchange = filterHomeSquadrons;
+  $('homeSq').onchange = updateSyllabusField;
+  $('homeRoleSelect').onchange = updateSyllabusField;
+
+  document.querySelector('main').addEventListener('change',event => {
+    const select = event.target.closest('select[data-discuss-key]');
+    if (!select) return;
+    viewedSyllabi.delete(select.dataset.discussKey);
+    if (validSyllabus(select.value)) {
+      viewedSyllabi.set(select.dataset.discussKey,select.value);
+    }
+    if (viewedSyllabi.size > 150) viewedSyllabi.delete(viewedSyllabi.keys().next().value);
+    try {
+      sessionStorage.setItem(EVENT_SYLLABI_KEY,JSON.stringify([...viewedSyllabi]));
+    } catch {
+      // Keep the choice available on this page if session storage is blocked.
+    }
+    updateDiscussSection(select.closest('.discuss'));
+  });
 
   $('save').onclick = saveSettings;
   $('findSearch').onclick = searchSomeone;
 
   $('previous').onclick = () => {
+    manualDate = true;
     $('date').value = shiftDate(
       $('date').value,-1
     );
@@ -1898,6 +2140,7 @@ function wireControls() {
   };
 
   $('next').onclick = () => {
+    manualDate = true;
     $('date').value = shiftDate(
       $('date').value,1
     );
@@ -1905,84 +2148,116 @@ function wireControls() {
   };
 
   $('today').onclick = () => {
+    manualDate = true;
     $('date').value = centralDate();
     loadMySchedule();
   };
 
-  $('refresh').onclick = () => {
-    cache.clear();
+  $('refresh').onclick = () => loadMySchedule({auto:!manualDate});
+
+  $('date').onchange = () => {
+    manualDate = true;
     loadMySchedule();
   };
-
-  $('date').onchange = loadMySchedule;
-
-  $('weekButton').onclick =
-    () => openView('week');
-
-  $('monthButton').onclick =
-    () => openView('month');
 
   installSwipe();
 }
 
-async function init() {
+function restoreProfile() {
+  const saved = [readLocal(KEY),readLocal(OLD)].find(candidate =>
+    normalize(candidate?.last) && /^[A-Z0-9][A-Z0-9-]{0,24}$/.test(candidate?.squadron || '')
+  );
+  if (!saved) return null;
 
-  wireControls();
+  return {
+    ...saved,
+    last:normalize(saved.last),
+    first:normalize(saved.first),
+    wing:wings[saved.wing] ? saved.wing : squadrons[saved.squadron]?.wing || '',
+    role:saved.role === 'instructor' ? 'instructor' : 'student',
+    syllabus:validSyllabus(saved.syllabus)
+  };
+}
 
-  $('date').value = centralDate();
-  $('findDate').value = centralDate();
+function showConnection() {
+  const indicator = $('connectionStatus');
+  indicator.textContent = 'Offline · showing saved data where available.';
+  indicator.classList.toggle('hidden',navigator.onLine);
+}
 
-  todayIndicator();
-  rotateSearchNames();
-
+async function loadSquadrons() {
   try {
-    const config = await fetchJSON(
-      ROOT + '/squadrons.json'
-    );
-
-    if (!config?.squadrons) {
+    const config = await fetchJSON('/squadrons.json');
+    if (!config?.squadrons || !Object.keys(config.squadrons).length) {
       throw Error('Squadron configuration unavailable');
     }
-
     squadrons = config.squadrons;
-    fillSelects();
-
-    const saved = readLocal(KEY) || readLocal(OLD);
-
-    if (
-      saved?.last &&
-      squadrons[saved.squadron]
-    ) {
-      profile = {
-        last:normalize(saved.last),
-        first:normalize(saved.first),
-        squadron:saved.squadron,
-        wing:squadrons[saved.squadron].wing,
-        role:saved.role === 'instructor'
-          ? 'instructor'
-          : 'student'
-      };
-
-      fillSettings();
+    saveLocal(CONFIG_KEY,squadrons);
+    if (profile) {
+      const info = squadrons[profile.squadron];
+      if (info && !profile.wing) profile.wing = info.wing;
+      if (!info) squadrons[profile.squadron] = {wing:profile.wing,name:profile.squadron};
       setTheme();
-      openView('my');
-
-    } else {
-      renderOnboarding();
-      $('onboardView').classList.remove('hidden');
     }
-
-  } catch (error) {
-    $('onboardView').classList.remove('hidden');
-    $('obError').classList.remove('hidden');
-
-    $('obError').textContent =
-      'Unable to load squadron configuration: ' +
-      error.message;
+    fillSelects();
+    if (currentView === 'settings') filterHomeSquadrons();
+    if (currentView === 'onboard') {
+      $('obError').classList.add('hidden');
+      renderOnboarding();
+    }
+  } catch {
+    if (!profile && !Object.keys(squadrons).length) {
+      $('obError').textContent = 'Squadron setup requires a connection. Reconnect to try again.';
+      $('obError').classList.remove('hidden');
+    }
   }
 }
 
-init();
+function init() {
+  try {
+    const savedChoices = JSON.parse(sessionStorage.getItem(EVENT_SYLLABI_KEY)) || [];
+    new Map(savedChoices).forEach((value,key) => {
+      if (validSyllabus(value)) viewedSyllabi.set(key,value);
+    });
+  } catch {
+    // An unavailable or invalid session store does not affect the profile.
+  }
+  const cachedConfig = readLocal(CONFIG_KEY);
+  if (cachedConfig && typeof cachedConfig === 'object') squadrons = cachedConfig;
+  profile = restoreProfile();
+
+  wireControls();
+  $('date').value = centralDate();
+  $('findDate').value = centralDate();
+  todayIndicator();
+  rotateSearchNames();
+  showConnection();
+
+  if (profile) {
+    squadrons[profile.squadron] ||= {wing:profile.wing,name:profile.squadron};
+    fillSelects();
+    setTheme();
+    openView('my',{auto:true});
+  } else {
+    fillSelects();
+    renderOnboarding();
+    openView('onboard');
+  }
+
+  loadSquadrons();
+  loadDiscussDatabase();
+
+  window.addEventListener('offline',showConnection);
+  window.addEventListener('online',() => {
+    showConnection();
+    loadSquadrons();
+    loadDiscussDatabase();
+    if (currentView === 'my') loadMySchedule();
+    if (currentView === 'month') loadHistory();
+    if (currentView === 'find' && searched) searchSomeone();
+  });
+}
+
 </script>
 
 <script>
@@ -1994,122 +2269,186 @@ if ('serviceWorker' in navigator) {
 }
 </script>
 
-<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script id="flightline-push-integration-v1">
 window.OneSignalDeferred = window.OneSignalDeferred || [];
 
-let flightlinePushReady = false;
+const PUSH_PREFERENCE_KEY = 'flightline-push-preference-v1';
 let flightlinePushClient = null;
-let flightlinePushSyncSequence = 0;
+let pushScriptLoading = false;
+let pushSDKFailed = false;
+let pushCandidate = null;
+let pushInitializing = false;
+let pushSyncRunning = false;
+let pushSyncPending = false;
+let pushOptInAttempted = false;
 
 function flightlinePushStatus(message) {
-  const element = document.getElementById('flightlinePushStatus');
-  if (element) element.textContent = message;
+  $('flightlinePushStatus').textContent = message;
+}
+
+function wantsPush() {
+  const stored = readLocal(PUSH_PREFERENCE_KEY);
+  return stored === true || (stored === null && profile?.notificationsEnabled === true);
+}
+
+function pushUnavailable(message) {
+  flightlinePushStatus(wantsPush() ? 'Notifications requested · ' + message : message);
 }
 
 async function flightlineSyncPushProfile() {
+  if (!profile) return;
+  if (pushSyncRunning) {
+    pushSyncPending = true;
+    return;
+  }
   const client = flightlinePushClient;
-
-  if (!flightlinePushReady || !client || !profile) {
+  const permission = window.Notification?.permission;
+  if (!window.Notification || !navigator.serviceWorker) {
+    flightlinePushStatus('This browser does not support FlightLine push notifications.');
+    return;
+  }
+  if (permission === 'denied') {
+    pushUnavailable('Blocked by browser or device settings.');
+    return;
+  }
+  if (!navigator.onLine || !client) {
+    pushUnavailable(!navigator.onLine ? 'Offline. Subscription status unavailable.' :
+      pushSDKFailed ? 'Could not connect to OneSignal. Try again.' :
+      'Checking OneSignal subscription…');
     return;
   }
 
-  const squadron = String(profile.squadron || '').trim();
-  const last = String(profile.last || '').trim().toUpperCase();
-  const first = String(profile.first || '').trim().toUpperCase();
-  const sequence = ++flightlinePushSyncSequence;
-
-  if (!client.User.PushSubscription.optedIn) {
-    flightlinePushStatus('Notifications are not enabled.');
-    return;
-  }
-
-  flightlinePushStatus(
-    'Updating notifications for ' + squadron + '...'
-  );
-
+  pushSyncRunning = true;
+  const subscription = client.User.PushSubscription;
   try {
-    await client.User.addTags({
-      squadron: squadron,
-      last: last,
-      first: first,
-      profile: 'yes'
-    });
+    const registration = await navigator.serviceWorker.getRegistration('/push/');
+    const correctWorker = registration?.scope === new URL('/push/',location.origin).href;
+    const registered = correctWorker && !!(await registration.pushManager.getSubscription());
+    if (permission === 'granted' && wantsPush() &&
+        (!subscription.optedIn || !registered) && !pushOptInAttempted) {
+      pushOptInAttempted = true;
+      await subscription.optIn();
+      pushUnavailable('Waiting for OneSignal to confirm the subscription.');
+      setTimeout(flightlineSyncPushProfile,1500);
+      return;
+    }
+    if (!subscription.optedIn || !subscription.id || !subscription.token || !registered) {
+      pushUnavailable(wantsPush() ? 'Subscription not confirmed. Use Enable Notifications to retry.' :
+        'Notifications are not enabled.');
+      return;
+    }
 
+    // An existing active OneSignal subscription carries the opt-in forward on upgrade.
+    if (readLocal(PUSH_PREFERENCE_KEY) === null) saveLocal(PUSH_PREFERENCE_KEY,true);
+    const {squadron,last,first} = profile;
+    await client.User.addTags({squadron,last,first,profile:'yes'});
     const tags = await client.User.getTags();
 
-    if (sequence !== flightlinePushSyncSequence) {
-      return;
-    }
-
-    if (tags.squadron === squadron) {
-      flightlinePushStatus(
-        'Notifications enabled for ' + squadron + '.'
-      );
-    } else {
-      flightlinePushStatus(
-        'Notification profile not confirmed. Try again.'
-      );
+    if (navigator.onLine && window.Notification.permission === 'granted' &&
+        profile.squadron === squadron && profile.last === last && profile.first === first &&
+        subscription.optedIn && subscription.id && subscription.token) {
+      flightlinePushStatus(tags?.squadron === squadron
+        ? 'Subscription active for ' + squadron + '.'
+        : 'Subscription active. Squadron targeting is unconfirmed.');
     }
   } catch (error) {
-    if (sequence !== flightlinePushSyncSequence) {
-      return;
+    console.warn('FlightLine push sync:',error);
+    pushUnavailable('Could not verify subscription or squadron targeting. Try again.');
+  } finally {
+    pushSyncRunning = false;
+    if (pushSyncPending) {
+      pushSyncPending = false;
+      flightlineSyncPushProfile();
     }
-
-    console.warn('FlightLine push profile:', error);
-    flightlinePushStatus(
-      'Could not update notifications: ' + error.message
-    );
   }
 }
 
-OneSignalDeferred.push(async function(OneSignal) {
+function loadPushSDK() {
+  if (!navigator.onLine || flightlinePushClient || pushInitializing ||
+      !window.Notification || !navigator.serviceWorker) return;
+  if (pushSDKFailed && pushCandidate) {
+    initializePush(pushCandidate);
+    return;
+  }
+  if (pushScriptLoading) return;
+
+  pushScriptLoading = true;
+  pushSDKFailed = false;
+  const script = document.createElement('script');
+  script.src = 'https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js';
+  script.onerror = () => {
+    script.remove();
+    pushScriptLoading = false;
+    pushSDKFailed = true;
+    flightlineSyncPushProfile();
+  };
+  document.head.append(script);
+}
+
+async function initializePush(client) {
+  if (pushInitializing || flightlinePushClient) return;
+  pushCandidate = client;
+  pushInitializing = true;
+  pushSDKFailed = false;
   try {
-    await OneSignal.init({
-      appId: '49cb48e4-3498-4e8b-aa6c-9b64dcc63329',
-      serviceWorkerPath: 'push/OneSignalSDKWorker.js',
-      serviceWorkerParam: {scope: '/push/'}
+    await client.init({
+      appId:'49cb48e4-3498-4e8b-aa6c-9b64dcc63329',
+      serviceWorkerPath:'push/OneSignalSDKWorker.js',
+      serviceWorkerParam:{scope:'/push/'}
     });
 
-    flightlinePushClient = OneSignal;
-    flightlinePushReady = true;
-
-    const button = document.getElementById('flightlineEnablePush');
-
-    if (button) {
-      button.onclick = async () => {
-        try {
-          if (!profile) {
-            flightlinePushStatus('Save your profile first.');
-            return;
-          }
-
-          await OneSignal.Notifications.requestPermission();
-
-          if (!OneSignal.Notifications.permission) {
-            flightlinePushStatus(
-              'Notifications blocked. Check Android app settings.'
-            );
-            return;
-          }
-
-          await OneSignal.User.PushSubscription.optIn();
-          await flightlineSyncPushProfile();
-
-        } catch (error) {
-          flightlinePushStatus(
-            'Notification setup failed: ' + error.message
-          );
-        }
-      };
-    }
-
-    await flightlineSyncPushProfile();
-
+    flightlinePushClient = client;
+    client.User.PushSubscription.addEventListener('change',flightlineSyncPushProfile);
+    client.Notifications.addEventListener('permissionChange',flightlineSyncPushProfile);
   } catch (error) {
-    flightlinePushStatus('Push setup error: ' + error.message);
+    console.warn('FlightLine push initialization:',error);
+    pushSDKFailed = true;
+  } finally {
+    pushInitializing = false;
   }
+  await flightlineSyncPushProfile();
+}
+
+$('flightlineEnablePush').onclick = async () => {
+  if (!profile || !window.Notification || !navigator.serviceWorker) return;
+  if (!saveLocal(PUSH_PREFERENCE_KEY,true)) {
+    flightlinePushStatus('This device could not save your notification preference.');
+    return;
+  }
+  const client = flightlinePushClient;
+  if (!client || !navigator.onLine) {
+    loadPushSDK();
+    await flightlineSyncPushProfile();
+    return;
+  }
+
+  try {
+    if (window.Notification.permission === 'default') {
+      await client.Notifications.requestPermission();
+    }
+    if (window.Notification.permission === 'granted') {
+      pushOptInAttempted = true;
+      await client.User.PushSubscription.optIn();
+      setTimeout(flightlineSyncPushProfile,1500);
+    }
+    await flightlineSyncPushProfile();
+  } catch (error) {
+    console.warn('FlightLine push request:',error);
+    pushUnavailable('Could not complete setup. Use Enable Notifications to retry.');
+  }
+};
+
+window.OneSignalDeferred.push(initializePush);
+window.addEventListener('offline',flightlineSyncPushProfile);
+window.addEventListener('online',() => {
+  pushOptInAttempted = false;
+  loadPushSDK();
+  flightlineSyncPushProfile();
 });
+
+init();
+loadPushSDK();
+flightlineSyncPushProfile();
 </script>
 </body>
 </html>
