@@ -519,9 +519,6 @@ h3{margin:10px 0}
 FlightLine displays archived CNATRA schedules.
 Always verify assignments, times, and remarks against
 the original published schedule.
-Formation partners are inferred from event numbers and
-takeoff times. Check schedule notes to confirm formation
-assignments.
 </footer>
 
 <script>
@@ -2227,7 +2224,14 @@ function init() {
   profile = restoreProfile();
 
   wireControls();
-  $('date').value = centralDate();
+  const params = new URLSearchParams(location.search);
+  const requested = params.get('date') || '';
+  const linked = profile && params.get('squadron') === profile.squadron &&
+    /^\d{4}-\d{2}-\d{2}$/.test(requested);
+  $('date').value = linked ? requested : centralDate();
+  manualDate = Boolean(linked && $('date').value === requested);
+  if (!manualDate) $('date').value = centralDate();
+  if (manualDate) history.replaceState(null,'',location.pathname + location.hash);
   $('findDate').value = centralDate();
   todayIndicator();
   rotateSearchNames();
@@ -2237,7 +2241,7 @@ function init() {
     squadrons[profile.squadron] ||= {wing:profile.wing,name:profile.squadron};
     fillSelects();
     setTheme();
-    openView('my',{auto:true});
+    openView('my',{auto:!manualDate});
   } else {
     fillSelects();
     renderOnboarding();
@@ -2347,9 +2351,9 @@ async function flightlineSyncPushProfile() {
     if (navigator.onLine && window.Notification.permission === 'granted' &&
         profile.squadron === squadron && profile.last === last && profile.first === first &&
         subscription.optedIn && subscription.id && subscription.token) {
-      flightlinePushStatus(tags?.squadron === squadron
+      flightlinePushStatus(tags?.squadron === squadron && tags?.last === last && (tags?.first || '') === first
         ? 'Subscription active for ' + squadron + '.'
-        : 'Subscription active. Squadron targeting is unconfirmed.');
+        : 'Subscription active. Profile targeting is unconfirmed.');
     }
   } catch (error) {
     console.warn('FlightLine push sync:',error);

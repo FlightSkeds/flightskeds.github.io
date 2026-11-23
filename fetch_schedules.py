@@ -476,6 +476,11 @@ def main():
     )
 
     parser.add_argument(
+        "--scheduled-poll", action="store_true",
+        help="Run the half-hour GitHub fallback independently of runner start-minute delays."
+    )
+
+    parser.add_argument(
         "--name",
         default=""
     )
@@ -517,7 +522,9 @@ def main():
     print(f"Force reprocess: {args.force}")
     print(f"Monitoring mode: {monitoring_description(now)}")
 
-    if not args.date and not automatic_check_allowed(now):
+    allowed = (MONITOR_START <= now.hour <= MONITOR_END if args.scheduled_poll
+               else automatic_check_allowed(now))
+    if not args.date and not allowed:
         print("CHECK SKIPPED: outside monitoring interval")
         print("Total checked: 0")
         print("New schedules: 0")
@@ -531,7 +538,7 @@ def main():
 
     selected_dates = [
         day for day in dates
-        if should_check_date(now, day, args.date)
+        if args.scheduled_poll or should_check_date(now, day, args.date)
     ]
 
     print(f"Dates in lookahead: {', '.join(dates)}")

@@ -41,7 +41,9 @@ on:
         default: ""
         type: string
 
-# Automatic runs are triggered by cron-job.org.
+  # Backup for the existing external dispatcher. Covers 13:08 Central in both seasons.
+  schedule:
+    - cron: "8,38 0-3,18-23 * * *"
 
 permissions:
   contents: write
@@ -53,13 +55,15 @@ concurrency:
 jobs:
   check-schedules:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 45
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           persist-credentials: true
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -82,7 +86,9 @@ jobs:
           SELECTED_SQUADRON: ${{ inputs.squadron }}
           SELECTED_DATE: ${{ inputs.schedule_date }}
         run: |
-          if [ -n "$SELECTED_DATE" ]; then
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ]; then
+            python fetch_schedules.py --scheduled-poll
+          elif [ -n "$SELECTED_DATE" ]; then
             python fetch_schedules.py \
               --squadron "${SELECTED_SQUADRON:-all}" \
               --date "$SELECTED_DATE"
@@ -91,19 +97,17 @@ jobs:
               --squadron "${SELECTED_SQUADRON:-all}"
           fi
 
-      - name: Send FlightLine notifications
-        if: success()
-        env:
-          ONESIGNAL_APP_ID: ${{ vars.ONESIGNAL_APP_ID }}
-          ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
-        run: python notify_schedules.py
-
       - name: Commit downloaded schedules
-        if: always()
+        id: archive
+        if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          if [ ! -f .github/notification-cursor ]; then
+            git rev-parse HEAD > .github/notification-cursor
+            git add .github/notification-cursor
+          fi
           if [ -d schedules ]; then
             git add schedules/
           fi
@@ -113,4 +117,20 @@ jobs:
             git push
           else
             echo "No new schedules to commit"
+          fi
+
+      - name: Send FlightLine notifications
+        if: success()
+        env:
+          ONESIGNAL_APP_ID: ${{ vars.ONESIGNAL_APP_ID }}
+          ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
+        run: python notify_schedules.py
+
+      - name: Save notification progress
+        if: always() && steps.archive.outcome == 'success'
+        run: |
+          git add .github/notification-cursor
+          if ! git diff --cached --quiet; then
+            git commit -m "Record processed schedule revisions"
+            git push
           fi
