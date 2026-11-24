@@ -390,5 +390,356 @@
       "line_number": 36,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "IR4101",
+        "start": "1145",
+        "end": "1315",
+        "land": "1315",
+        "brief": "1015",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CURRAN",
+            "first": "PETER",
+            "full": "CURRAN, PETER"
+          },
+          {
+            "last": "AIKEN",
+            "first": "CHRISTOPHER",
+            "full": "AIKEN, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "CURRAN, PETER"
+        ],
+        "students": [
+          "AIKEN, CHRISTOPHER"
+        ],
+        "page": 1,
+        "line": "1",
+        "raw": "1 \u00b7 1015 \u00b7 1145 \u00b7 1315 \u00b7 CURRAN, PETER J, CTR \u00b7 AIKEN, CHRISTOPHER R, LCDR \u00b7 IR4101 \u00b7 1.5/0.0 \u00b7 RC",
+        "role": "IR4101",
+        "remarks": "RC",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4690",
+        "start": "1215",
+        "end": "1327",
+        "land": "1327",
+        "brief": "1045",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DOWD",
+            "first": "CODY",
+            "full": "DOWD, CODY"
+          },
+          {
+            "last": "SHARP",
+            "first": "BLAKE",
+            "full": "SHARP, BLAKE"
+          }
+        ],
+        "instructors": [
+          "DOWD, CODY"
+        ],
+        "students": [
+          "SHARP, BLAKE"
+        ],
+        "page": 1,
+        "line": "2",
+        "raw": "2 \u00b7 1045 \u00b7 1215 \u00b7 1327 \u00b7 DOWD, CODY A, CTR \u00b7 SHARP, BLAKE R, LT \u00b7 NA4690 \u00b7 1.2/0.0",
+        "role": "NA4690",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4101",
+        "start": "1515",
+        "end": "1627",
+        "land": "1627",
+        "brief": "1345",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DOWD",
+            "first": "CODY",
+            "full": "DOWD, CODY"
+          },
+          {
+            "last": "SHARP",
+            "first": "BLAKE",
+            "full": "SHARP, BLAKE"
+          }
+        ],
+        "instructors": [
+          "DOWD, CODY"
+        ],
+        "students": [
+          "SHARP, BLAKE"
+        ],
+        "page": 1,
+        "line": "3",
+        "raw": "3 \u00b7 1345 \u00b7 1515 \u00b7 1627 \u00b7 DOWD, CODY A, CTR \u00b7 SHARP, BLAKE R, LT \u00b7 TR4101 \u00b7 1.2/0.0 \u00b7 RC",
+        "role": "TR4101",
+        "remarks": "RC",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FRM LEAD",
+        "start": "1530",
+        "end": "1648",
+        "land": "1648",
+        "brief": "1400",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CURRAN",
+            "first": "PETER",
+            "full": "CURRAN, PETER"
+          }
+        ],
+        "instructors": [
+          "CURRAN, PETER"
+        ],
+        "students": [],
+        "page": 1,
+        "line": "4",
+        "raw": "4 \u00b7 1400 \u00b7 1530 \u00b7 1648 \u00b7 CURRAN, PETER J, CTR \u00b7 FRM LEAD \u00b7 1.3/0.0 \u00b7 LD WATERMAN",
+        "role": "FRM LEAD",
+        "remarks": "LD WATERMAN",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FRM4102",
+        "start": "1530",
+        "end": "1648",
+        "land": "1648",
+        "brief": "1400",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HANS",
+            "first": "JORDAN",
+            "full": "HANS, JORDAN"
+          },
+          {
+            "last": "WATERMAN",
+            "first": "RYAN",
+            "full": "WATERMAN, RYAN"
+          }
+        ],
+        "instructors": [
+          "HANS, JORDAN"
+        ],
+        "students": [
+          "WATERMAN, RYAN"
+        ],
+        "page": 1,
+        "line": "5",
+        "raw": "5 \u00b7 1400 \u00b7 1530 \u00b7 1648 \u00b7 HANS, JORDAN N, CTR \u00b7 WATERMAN, RYAN R, Capt \u00b7 FRM4102 \u00b7 1.3/0.0 \u00b7 RC",
+        "role": "FRM4102",
+        "remarks": "RC",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NTR4101",
+        "start": "1830",
+        "end": "1948",
+        "land": "1948",
+        "brief": "1700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STEVENS",
+            "first": "SCOTT",
+            "full": "STEVENS, SCOTT"
+          },
+          {
+            "last": "WATERMAN",
+            "first": "RYAN",
+            "full": "WATERMAN, RYAN"
+          }
+        ],
+        "instructors": [
+          "STEVENS, SCOTT"
+        ],
+        "students": [
+          "WATERMAN, RYAN"
+        ],
+        "page": 1,
+        "line": "6",
+        "raw": "6 \u00b7 1700 \u00b7 1830 \u00b7 1948 \u00b7 STEVENS, SCOTT C, CTR Simulator (Sim \u00b7 Event) \u00b7 WATERMAN, RYAN R, Capt Schedule \u00b7 NTR4101 \u00b7 1.3/0.0 \u00b7 RC",
+        "role": "NTR4101",
+        "remarks": "RC",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "INST CHECK SIM",
+        "start": "0800",
+        "end": "",
+        "land": "",
+        "brief": "0730",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STROTHER",
+            "first": "HARRY",
+            "full": "STROTHER, HARRY"
+          },
+          {
+            "last": "HOSKINS",
+            "first": "STEPHEN",
+            "full": "HOSKINS, STEPHEN"
+          }
+        ],
+        "instructors": [
+          "STROTHER, HARRY"
+        ],
+        "students": [
+          "HOSKINS, STEPHEN"
+        ],
+        "page": 1,
+        "line": "1",
+        "raw": "1 \u00b7 0730 \u00b7 0800 \u00b7 505 \u00b7 STROTHER, HARRY A, CTR \u00b7 HOSKINS, STEPHEN D, CTR \u00b7 INST CHECK SIM",
+        "role": "INST CHECK SIM",
+        "remarks": "",
+        "duration": "",
+        "device": "505",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "EP SIM",
+        "start": "0930",
+        "end": "",
+        "land": "",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PURDY",
+            "first": "ERIC",
+            "full": "PURDY, ERIC"
+          },
+          {
+            "last": "BENNETT",
+            "first": "ANDREW",
+            "full": "BENNETT, ANDREW"
+          }
+        ],
+        "instructors": [
+          "PURDY, ERIC"
+        ],
+        "students": [
+          "BENNETT, ANDREW"
+        ],
+        "page": 1,
+        "line": "2",
+        "raw": "2 \u00b7 0900 \u00b7 0930 \u00b7 505 \u00b7 PURDY, ERIC , CTR \u00b7 BENNETT, ANDREW L, 1stLt \u00b7 EP SIM",
+        "role": "EP SIM",
+        "remarks": "",
+        "duration": "",
+        "device": "505",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1130",
+        "end": "",
+        "land": "",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STOCHEL",
+            "first": "ROBERT",
+            "full": "STOCHEL, ROBERT"
+          },
+          {
+            "last": "HARRISON",
+            "first": "BENJAMIN",
+            "full": "HARRISON, BENJAMIN"
+          }
+        ],
+        "instructors": [
+          "STOCHEL, ROBERT"
+        ],
+        "students": [
+          "HARRISON, BENJAMIN"
+        ],
+        "page": 1,
+        "line": "3",
+        "raw": "3 \u00b7 1100 \u00b7 1130 \u00b7 504 \u00b7 STOCHEL, ROBERT P, CTR \u00b7 HARRISON, BENJAMIN S, LCDR \u00b7 Practice Sim",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "",
+        "device": "504",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "EP SIM",
+        "start": "1200",
+        "end": "",
+        "land": "",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PURDY",
+            "first": "ERIC",
+            "full": "PURDY, ERIC"
+          },
+          {
+            "last": "SAXE",
+            "first": "JORDAN",
+            "full": "SAXE, JORDAN"
+          }
+        ],
+        "instructors": [
+          "PURDY, ERIC"
+        ],
+        "students": [
+          "SAXE, JORDAN"
+        ],
+        "page": 1,
+        "line": "4",
+        "raw": "4 \u00b7 1130 \u00b7 1200 \u00b7 506 \u00b7 PURDY, ERIC , CTR \u00b7 SAXE, JORDAN E, Capt Ground Events \u00b7 EP SIM",
+        "role": "EP SIM",
+        "remarks": "",
+        "duration": "",
+        "device": "506",
+        "solo": false
+      }
+    ]
+  }
 }

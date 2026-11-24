@@ -156,5 +156,118 @@
       "line_number": 17,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "FAM4101 Event) Schedule",
+        "start": "1400",
+        "end": "1548",
+        "land": "1548",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LAVALLE",
+            "first": "CHRISTIAN",
+            "full": "LAVALLE, CHRISTIAN"
+          },
+          {
+            "last": "ORTIZ",
+            "first": "RICHARD",
+            "full": "ORTIZ, RICHARD"
+          }
+        ],
+        "instructors": [
+          "LAVALLE, CHRISTIAN"
+        ],
+        "students": [
+          "ORTIZ, RICHARD"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1200 \u00b7 1400 \u00b7 1548 \u00b7 LAVALLE, CHRISTIAN \u00b7 ORTIZ, RICHARD Simulator (Sim \u00b7 FAM4101 Event) Schedule \u00b7 1.8 \u00b7 DD-1801",
+        "role": "FAM4101 Event) Schedule",
+        "remarks": "DD-1801",
+        "duration": "1.8",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NA3103",
+        "start": "0930",
+        "end": "1100",
+        "land": "1100",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JELENIEWSKI",
+            "first": "WHITNEY",
+            "full": "JELENIEWSKI, WHITNEY"
+          },
+          {
+            "last": "CLEVELAND",
+            "first": "JONATHAN",
+            "full": "CLEVELAND, JONATHAN"
+          }
+        ],
+        "instructors": [
+          "JELENIEWSKI, WHITNEY"
+        ],
+        "students": [
+          "CLEVELAND, JONATHAN"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "0900 \u00b7 0930 \u00b7 1100 \u00b7 OFT-7P \u00b7 JELENIEWSKI, WHITNEY \u00b7 CLEVELAND, JONATHAN \u00b7 NA3103 \u00b7 1.5",
+        "role": "NA3103",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "OFT-7P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NA3104",
+        "start": "1230",
+        "end": "1400",
+        "land": "1400",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BALL",
+            "first": "GREG",
+            "full": "BALL, GREG"
+          },
+          {
+            "last": "CLEVELAND",
+            "first": "JONATHAN",
+            "full": "CLEVELAND, JONATHAN"
+          }
+        ],
+        "instructors": [
+          "BALL, GREG"
+        ],
+        "students": [
+          "CLEVELAND, JONATHAN"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1200 No Ground \u00b7 1230 Events \u00b7 1400 Scheduled \u00b7 OFT-6P \u00b7 BALL, GREG \u00b7 CLEVELAND, JONATHAN \u00b7 NA3104 \u00b7 1.5",
+        "role": "NA3104",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "OFT-6P",
+        "solo": false
+      }
+    ]
+  }
 }
