@@ -156,5 +156,118 @@
       "line_number": 17,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "NA4290 Event) Schedule",
+        "start": "1000",
+        "end": "1148",
+        "land": "1148",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "POPE",
+            "first": "DANIEL",
+            "full": "POPE, DANIEL"
+          },
+          {
+            "last": "MITCHELL",
+            "first": "KEITH",
+            "full": "MITCHELL, KEITH"
+          }
+        ],
+        "instructors": [
+          "POPE, DANIEL"
+        ],
+        "students": [
+          "MITCHELL, KEITH"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "0800 \u00b7 1000 \u00b7 1148 \u00b7 POPE, DANIEL \u00b7 MITCHELL, KEITH Simulator (Sim \u00b7 NA4290 Event) Schedule \u00b7 1.8 \u00b7 DD-1801",
+        "role": "NA4290 Event) Schedule",
+        "remarks": "DD-1801",
+        "duration": "1.8",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NA3102",
+        "start": "0930",
+        "end": "1100",
+        "land": "1100",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BALL",
+            "first": "GREG",
+            "full": "BALL, GREG"
+          },
+          {
+            "last": "CLEVELAND",
+            "first": "JONATHAN",
+            "full": "CLEVELAND, JONATHAN"
+          }
+        ],
+        "instructors": [
+          "BALL, GREG"
+        ],
+        "students": [
+          "CLEVELAND, JONATHAN"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "0900 \u00b7 0930 \u00b7 1100 \u00b7 OFT-6P \u00b7 BALL, GREG \u00b7 CLEVELAND, JONATHAN \u00b7 NA3102 \u00b7 1.5",
+        "role": "NA3102",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "OFT-6P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FAM3101",
+        "start": "1400",
+        "end": "1530",
+        "land": "1530",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DUKE",
+            "first": "JOSHUA",
+            "full": "DUKE, JOSHUA"
+          },
+          {
+            "last": "ORTIZ",
+            "first": "RICHARD",
+            "full": "ORTIZ, RICHARD"
+          }
+        ],
+        "instructors": [
+          "DUKE, JOSHUA"
+        ],
+        "students": [
+          "ORTIZ, RICHARD"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1330 No Ground \u00b7 1400 Events \u00b7 1530 Scheduled \u00b7 OFT-6P \u00b7 DUKE, JOSHUA \u00b7 ORTIZ, RICHARD \u00b7 FAM3101 \u00b7 1.5",
+        "role": "FAM3101",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "OFT-6P",
+        "solo": false
+      }
+    ]
+  }
 }

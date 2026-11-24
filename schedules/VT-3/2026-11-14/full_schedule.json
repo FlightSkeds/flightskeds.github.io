@@ -1131,5 +1131,668 @@
       "line_number": 146,
       "text": "e"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "  , T  B    4I ,      G R L B CI L B , R N G    N , T , M O T L B EJI N    N E A E L S T , E E D     D S , , R R E    O A V A , J 4I , , L     O 4I , 4I S K G , G A 1 R   N R R , , B 3 L     2 2 4I 0 , 1 e   , N 0 0 W 4I S 4I M / p    , 0 2 4I 3 1 o     CI L B L , N     , M T E E B EJI N     L T , D     A , J R R , E     4I G , 4I , L     2 , , 3 ,      , E e     ,  ",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "Day SDO",
+        "start": "0800",
+        "end": "2000",
+        "land": "2000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JEONG",
+            "first": "KWANGPIL",
+            "full": "JEONG, KWANGPIL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "Day SDO \u00b7 JEONG, KWANGPIL \u00b7 0800 \u00b7 2000",
+        "role": "Day SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "Night SDO",
+        "start": "2000",
+        "end": "0800",
+        "land": "0800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MARTIN",
+            "first": "ZACHARY",
+            "full": "MARTIN, ZACHARY"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "Night SDO \u00b7 MARTIN, ZACHARY \u00b7 2000 \u00b7 0800",
+        "role": "Night SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "QA Skeds/Duty OPS",
+        "start": "0700",
+        "end": "1500",
+        "land": "1500",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GIBBS",
+            "first": "AARON",
+            "full": "GIBBS, AARON"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "QA Skeds/Duty OPS \u00b7 GIBBS, AARON# \u00b7 0700 \u00b7 1500",
+        "role": "QA Skeds/Duty OPS",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "CDO",
+        "start": "1200",
+        "end": "1201",
+        "land": "1201",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORTENSEN",
+            "first": "RYAN",
+            "full": "MORTENSEN, RYAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "CDO \u00b7 MORTENSEN, RYAN \u00b7 1200 \u00b7 1201",
+        "role": "CDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "WKDAY AM DUTY DRIVER",
+        "start": "0600",
+        "end": "2000",
+        "land": "2000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "OLIPHANT",
+            "first": "NICHOLAS",
+            "full": "OLIPHANT, NICHOLAS"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "WKDAY AM DUTY DRIVER \u00b7 OLIPHANT, NICHOLAS \u00b7 0600 \u00b7 2000",
+        "role": "WKDAY AM DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4203",
+        "start": "0747",
+        "end": "0923",
+        "land": "0923",
+        "brief": "0602",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STATES",
+            "first": "RICHARD",
+            "full": "STATES, RICHARD"
+          },
+          {
+            "last": "PALAIA",
+            "first": "ABIGAIL",
+            "full": "PALAIA, ABIGAIL"
+          }
+        ],
+        "instructors": [
+          "STATES, RICHARD"
+        ],
+        "students": [
+          "PALAIA, ABIGAIL"
+        ],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0602 \u00b7 0747 \u00b7 0923 \u00b7 STATES, RICHARD# \u00b7 PALAIA, ABIGAIL# \u00b7 I4203 \u00b7 1.6/0.0 \u00b7 2X; CCX",
+        "role": "I4203",
+        "remarks": "2X; CCX",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4303",
+        "start": "1102",
+        "end": "1244",
+        "land": "1244",
+        "brief": "0917",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LIEGNELL",
+            "first": "MATS",
+            "full": "LIEGNELL, MATS"
+          },
+          {
+            "last": "KIRKLAND",
+            "first": "ALEXANDER",
+            "full": "KIRKLAND, ALEXANDER"
+          }
+        ],
+        "instructors": [
+          "LIEGNELL, MATS"
+        ],
+        "students": [
+          "KIRKLAND, ALEXANDER"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0917 \u00b7 1102 \u00b7 1244 \u00b7 LIEGNELL, MATS# \u00b7 KIRKLAND, ALEXANDER# \u00b7 I4303 \u00b7 1.7/0.0 \u00b7 3X; O/I; DO NOT T/O PRIOR TO 0800",
+        "role": "I4303",
+        "remarks": "3X; O/I; DO NOT T/O PRIOR TO 0800",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4303",
+        "start": "1105",
+        "end": "1247",
+        "land": "1247",
+        "brief": "0920",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RORIJE",
+            "first": "GERRIT",
+            "full": "RORIJE, GERRIT"
+          },
+          {
+            "last": "USELIS",
+            "first": "BRYCE",
+            "full": "USELIS, BRYCE"
+          }
+        ],
+        "instructors": [
+          "RORIJE, GERRIT"
+        ],
+        "students": [
+          "USELIS, BRYCE"
+        ],
+        "page": 2,
+        "line": "3",
+        "raw": "3 \u00b7 0920 \u00b7 1105 \u00b7 1247 \u00b7 RORIJE, GERRIT# \u00b7 USELIS, BRYCE# \u00b7 I4303 \u00b7 1.7/0.0 \u00b7 2X; O/I; DO NOT T/O PRIOR TO 0800",
+        "role": "I4303",
+        "remarks": "2X; O/I; DO NOT T/O PRIOR TO 0800",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4202",
+        "start": "1116",
+        "end": "1252",
+        "land": "1252",
+        "brief": "0931",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MILLER",
+            "first": "BRANNON",
+            "full": "MILLER, BRANNON"
+          },
+          {
+            "last": "ROSENBERG",
+            "first": "SARAH",
+            "full": "ROSENBERG, SARAH"
+          }
+        ],
+        "instructors": [
+          "MILLER, BRANNON"
+        ],
+        "students": [
+          "ROSENBERG, SARAH"
+        ],
+        "page": 2,
+        "line": "4",
+        "raw": "4 \u00b7 0931 \u00b7 1116 \u00b7 1252 \u00b7 MILLER, BRANNON# \u00b7 ROSENBERG, SARAH# \u00b7 I4202 \u00b7 1.6/0.0 \u00b7 2X; O/I; DO NOT T/O PRIOR TO 0800",
+        "role": "I4202",
+        "remarks": "2X; O/I; DO NOT T/O PRIOR TO 0800",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4203",
+        "start": "1119",
+        "end": "1255",
+        "land": "1255",
+        "brief": "0934",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HOLT",
+            "first": "JASON",
+            "full": "HOLT, JASON"
+          },
+          {
+            "last": "BENEDICT",
+            "first": "KEVIN",
+            "full": "BENEDICT, KEVIN"
+          }
+        ],
+        "instructors": [
+          "HOLT, JASON"
+        ],
+        "students": [
+          "BENEDICT, KEVIN"
+        ],
+        "page": 2,
+        "line": "5",
+        "raw": "5 \u00b7 0934 \u00b7 1119 \u00b7 1255 \u00b7 HOLT, JASON# \u00b7 BENEDICT, KEVIN# \u00b7 I4203 \u00b7 1.6/0.0 \u00b7 2X; O/I; DO NOT T/O PRIOR TO 0800",
+        "role": "I4203",
+        "remarks": "2X; O/I; DO NOT T/O PRIOR TO 0800",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4302",
+        "start": "1133",
+        "end": "1315",
+        "land": "1315",
+        "brief": "0948",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GIBBS",
+            "first": "AARON",
+            "full": "GIBBS, AARON"
+          },
+          {
+            "last": "DICARLO",
+            "first": "VICTORIA",
+            "full": "DICARLO, VICTORIA"
+          }
+        ],
+        "instructors": [
+          "GIBBS, AARON"
+        ],
+        "students": [
+          "DICARLO, VICTORIA"
+        ],
+        "page": 2,
+        "line": "6",
+        "raw": "6 \u00b7 0948 \u00b7 1133 \u00b7 1315 \u00b7 GIBBS, AARON# \u00b7 DICARLO, VICTORIA \u00b7 I4302 \u00b7 1.7/0.0 \u00b7 3.8 NITE; DO NOT T/O PRIOR TO 0800",
+        "role": "I4302",
+        "remarks": "3.8 NITE; DO NOT T/O PRIOR TO 0800",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4203",
+        "start": "1136",
+        "end": "1312",
+        "land": "1312",
+        "brief": "0951",
+        "formation": "",
+        "crew": [
+          {
+            "last": "THOMAS",
+            "first": "WILLIAM",
+            "full": "THOMAS, WILLIAM"
+          },
+          {
+            "last": "NESTER",
+            "first": "LUKE",
+            "full": "NESTER, LUKE"
+          }
+        ],
+        "instructors": [
+          "THOMAS, WILLIAM"
+        ],
+        "students": [
+          "NESTER, LUKE"
+        ],
+        "page": 2,
+        "line": "7",
+        "raw": "7 \u00b7 0951 \u00b7 1136 \u00b7 1312 \u00b7 THOMAS, WILLIAM# \u00b7 NESTER, LUKE# \u00b7 I4203 \u00b7 1.6/0.0 \u00b7 2X; O/I; DO NOT T/O PRIOR TO 0800",
+        "role": "I4203",
+        "remarks": "2X; O/I; DO NOT T/O PRIOR TO 0800",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "1147",
+        "end": "1323",
+        "land": "1323",
+        "brief": "1002",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STATES",
+            "first": "RICHARD",
+            "full": "STATES, RICHARD"
+          },
+          {
+            "last": "PALAIA",
+            "first": "ABIGAIL",
+            "full": "PALAIA, ABIGAIL"
+          }
+        ],
+        "instructors": [
+          "STATES, RICHARD"
+        ],
+        "students": [
+          "PALAIA, ABIGAIL"
+        ],
+        "page": 2,
+        "line": "8",
+        "raw": "8 \u00b7 1002 \u00b7 1147 \u00b7 1323 \u00b7 STATES, RICHARD# \u00b7 PALAIA, ABIGAIL# \u00b7 I4204 \u00b7 1.6/0.0",
+        "role": "I4204",
+        "remarks": "",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4304",
+        "start": "1150",
+        "end": "1332",
+        "land": "1332",
+        "brief": "1005",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAGEDORN",
+            "first": "JOSHUA",
+            "full": "HAGEDORN, JOSHUA"
+          },
+          {
+            "last": "FONCANNON",
+            "first": "EATHAN",
+            "full": "FONCANNON, EATHAN"
+          }
+        ],
+        "instructors": [
+          "HAGEDORN, JOSHUA"
+        ],
+        "students": [
+          "FONCANNON, EATHAN"
+        ],
+        "page": 2,
+        "line": "9",
+        "raw": "9 \u00b7 1005 \u00b7 1150 \u00b7 1332 \u00b7 HAGEDORN, JOSHUA \u00b7 FONCANNON, EATHAN \u00b7 FAM4304 \u00b7 1.7/0.0 \u00b7 DO NOT T/O PRIOR TO 0800",
+        "role": "FAM4304",
+        "remarks": "DO NOT T/O PRIOR TO 0800",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4304",
+        "start": "1502",
+        "end": "1644",
+        "land": "1644",
+        "brief": "1317",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LIEGNELL",
+            "first": "MATS",
+            "full": "LIEGNELL, MATS"
+          },
+          {
+            "last": "KIRKLAND",
+            "first": "ALEXANDER",
+            "full": "KIRKLAND, ALEXANDER"
+          }
+        ],
+        "instructors": [
+          "LIEGNELL, MATS"
+        ],
+        "students": [
+          "KIRKLAND, ALEXANDER"
+        ],
+        "page": 2,
+        "line": "10",
+        "raw": "10 \u00b7 1317 \u00b7 1502 \u00b7 1644 \u00b7 LIEGNELL, MATS# \u00b7 KIRKLAND, ALEXANDER# \u00b7 I4304 \u00b7 1.7/0.0",
+        "role": "I4304",
+        "remarks": "",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4304",
+        "start": "1505",
+        "end": "1647",
+        "land": "1647",
+        "brief": "1320",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RORIJE",
+            "first": "GERRIT",
+            "full": "RORIJE, GERRIT"
+          },
+          {
+            "last": "USELIS",
+            "first": "BRYCE",
+            "full": "USELIS, BRYCE"
+          }
+        ],
+        "instructors": [
+          "RORIJE, GERRIT"
+        ],
+        "students": [
+          "USELIS, BRYCE"
+        ],
+        "page": 2,
+        "line": "11",
+        "raw": "11 \u00b7 1320 \u00b7 1505 \u00b7 1647 \u00b7 RORIJE, GERRIT# \u00b7 USELIS, BRYCE# \u00b7 I4304 \u00b7 1.7/0.0 \u00b7 6.1 NITE",
+        "role": "I4304",
+        "remarks": "6.1 NITE",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4201",
+        "start": "1516",
+        "end": "1652",
+        "land": "1652",
+        "brief": "1331",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MILLER",
+            "first": "BRANNON",
+            "full": "MILLER, BRANNON"
+          },
+          {
+            "last": "ROSENBERG",
+            "first": "SARAH",
+            "full": "ROSENBERG, SARAH"
+          }
+        ],
+        "instructors": [
+          "MILLER, BRANNON"
+        ],
+        "students": [
+          "ROSENBERG, SARAH"
+        ],
+        "page": 2,
+        "line": "12",
+        "raw": "12 \u00b7 1331 \u00b7 1516 \u00b7 1652 \u00b7 MILLER, BRANNON# \u00b7 ROSENBERG, SARAH# \u00b7 I4201 \u00b7 1.6/0.0",
+        "role": "I4201",
+        "remarks": "",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "1519",
+        "end": "1655",
+        "land": "1655",
+        "brief": "1334",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HOLT",
+            "first": "JASON",
+            "full": "HOLT, JASON"
+          },
+          {
+            "last": "BENEDICT",
+            "first": "KEVIN",
+            "full": "BENEDICT, KEVIN"
+          }
+        ],
+        "instructors": [
+          "HOLT, JASON"
+        ],
+        "students": [
+          "BENEDICT, KEVIN"
+        ],
+        "page": 2,
+        "line": "13",
+        "raw": "13 \u00b7 1334 \u00b7 1519 \u00b7 1655 \u00b7 HOLT, JASON# \u00b7 BENEDICT, KEVIN# \u00b7 I4204 \u00b7 1.6/0.0 \u00b7 4.2 NITE",
+        "role": "I4204",
+        "remarks": "4.2 NITE",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "1536",
+        "end": "1712",
+        "land": "1712",
+        "brief": "1351",
+        "formation": "",
+        "crew": [
+          {
+            "last": "THOMAS",
+            "first": "WILLIAM",
+            "full": "THOMAS, WILLIAM"
+          },
+          {
+            "last": "NESTER",
+            "first": "LUKE",
+            "full": "NESTER, LUKE"
+          }
+        ],
+        "instructors": [
+          "THOMAS, WILLIAM"
+        ],
+        "students": [
+          "NESTER, LUKE"
+        ],
+        "page": 2,
+        "line": "14",
+        "raw": "14 \u00b7 1351 \u00b7 1536 \u00b7 1712 \u00b7 THOMAS, WILLIAM# \u00b7 NESTER, LUKE# \u00b7 I4204 \u00b7 1.6/0.0",
+        "role": "I4204",
+        "remarks": "",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4490",
+        "start": "1902",
+        "end": "2044",
+        "land": "2044",
+        "brief": "1717",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LIEGNELL",
+            "first": "MATS",
+            "full": "LIEGNELL, MATS"
+          },
+          {
+            "last": "KIRKLAND",
+            "first": "ALEXANDER",
+            "full": "KIRKLAND, ALEXANDER"
+          }
+        ],
+        "instructors": [
+          "LIEGNELL, MATS"
+        ],
+        "students": [
+          "KIRKLAND, ALEXANDER"
+        ],
+        "page": 2,
+        "line": "15",
+        "raw": "15 \u00b7 1717 \u00b7 1902 \u00b7 2044 \u00b7 LIEGNELL, MATS# \u00b7 KIRKLAND, ALEXANDER# Simulator (Sim Event) Schedule \u00b7 I4490 \u00b7 1.7/0.0 \u00b7 5.4 NITE",
+        "role": "I4490",
+        "remarks": "5.4 NITE",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

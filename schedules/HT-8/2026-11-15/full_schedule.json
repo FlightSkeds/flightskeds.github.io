@@ -472,5 +472,320 @@
       "line_number": 23,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "FDO",
+        "start": "0700",
+        "end": "0659",
+        "land": "0659",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ASTORGA",
+            "first": "B",
+            "full": "ASTORGA, B"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "FDO \u00b7 LT ASTORGA B \u00b7 0700 \u00b7 0659",
+        "role": "FDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER",
+        "start": "0730",
+        "end": "0729",
+        "land": "0729",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CORY",
+            "first": "W",
+            "full": "CORY, W"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER \u00b7 ENS CORY W \u00b7 0730 \u00b7 0729",
+        "role": "DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM SDO",
+        "start": "0700",
+        "end": "1900",
+        "land": "1900",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RICHARDSON",
+            "first": "B",
+            "full": "RICHARDSON, B"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM SDO \u00b7 LTJG RICHARDSON B \u00b7 0700 \u00b7 1900",
+        "role": "AM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM SDO",
+        "start": "1900",
+        "end": "0700",
+        "land": "0700",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PROCTOR",
+            "first": "A",
+            "full": "PROCTOR, A"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM SDO \u00b7 ENS PROCTOR A \u00b7 1900 \u00b7 0700",
+        "role": "PM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4002A, NAV4101A",
+        "start": "1415",
+        "end": "2015",
+        "land": "2015",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BAZO",
+            "first": "T",
+            "full": "BAZO, T"
+          },
+          {
+            "last": "FORMBY",
+            "first": "S",
+            "full": "FORMBY, S"
+          }
+        ],
+        "instructors": [
+          "BAZO, T"
+        ],
+        "students": [
+          "FORMBY, S"
+        ],
+        "page": 2,
+        "line": "T54-1",
+        "raw": "T54-1 \u00b7 1200 \u00b7 1415 \u00b7 2015 \u00b7 KGNV \u00b7 KNDZ \u00b7 LT BAZO T \u00b7 LTJG FORMBY S \u00b7 NAV4002A, NAV4101A \u00b7 6.0 \u00b7 CCX RTB FROM KGNV, FL",
+        "role": "NAV4002A, NAV4101A",
+        "remarks": "CCX RTB FROM KGNV, FL",
+        "duration": "6.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4101A",
+        "start": "1415",
+        "end": "2015",
+        "land": "2015",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BAZO",
+            "first": "T",
+            "full": "BAZO, T"
+          },
+          {
+            "last": "LE",
+            "first": "S",
+            "full": "LE, S"
+          }
+        ],
+        "instructors": [
+          "BAZO, T"
+        ],
+        "students": [
+          "LE, S"
+        ],
+        "page": 2,
+        "line": "T54-1",
+        "raw": "T54-1 \u00b7 1200 \u00b7 1415 \u00b7 2015 \u00b7 LT BAZO T \u00b7 LTJG LE S \u00b7 NAV4101A",
+        "role": "NAV4101A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4202A, RI4203A",
+        "start": "1215",
+        "end": "1815",
+        "land": "1815",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TOWNSEND",
+            "first": "M",
+            "full": "TOWNSEND, M"
+          },
+          {
+            "last": "THARRINGTON",
+            "first": "W",
+            "full": "THARRINGTON, W"
+          }
+        ],
+        "instructors": [
+          "TOWNSEND, M"
+        ],
+        "students": [
+          "THARRINGTON, W"
+        ],
+        "page": 2,
+        "line": "T58-1",
+        "raw": "T58-1 \u00b7 1000 \u00b7 1215 \u00b7 1815 \u00b7 KSAV \u00b7 KNDZ \u00b7 LT TOWNSEND M \u00b7 LTJG THARRINGTON W \u00b7 RI4202A, RI4203A \u00b7 6.0 \u00b7 CCX RTB FROM SAVANNAH, GA",
+        "role": "RI4202A, RI4203A",
+        "remarks": "CCX RTB FROM SAVANNAH, GA",
+        "duration": "6.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4203A",
+        "start": "1215",
+        "end": "1815",
+        "land": "1815",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TOWNSEND",
+            "first": "M",
+            "full": "TOWNSEND, M"
+          },
+          {
+            "last": "HARDY",
+            "first": "G",
+            "full": "HARDY, G"
+          }
+        ],
+        "instructors": [
+          "TOWNSEND, M"
+        ],
+        "students": [
+          "HARDY, G"
+        ],
+        "page": 2,
+        "line": "T58-1",
+        "raw": "T58-1 \u00b7 1000 \u00b7 1215 \u00b7 1815 \u00b7 LT TOWNSEND M \u00b7 LTJG HARDY G \u00b7 RI4203A",
+        "role": "RI4203A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4202A, RI4203A",
+        "start": "0915",
+        "end": "1515",
+        "land": "1515",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAHLER",
+            "first": "J",
+            "full": "MAHLER, J"
+          },
+          {
+            "last": "ALZAHRANI",
+            "first": "Y",
+            "full": "ALZAHRANI, Y"
+          }
+        ],
+        "instructors": [
+          "MAHLER, J"
+        ],
+        "students": [
+          "ALZAHRANI, Y"
+        ],
+        "page": 2,
+        "line": "T62-1",
+        "raw": "T62-1 \u00b7 0700 \u00b7 0915 \u00b7 1515 \u00b7 KGNV \u00b7 KNDZ \u00b7 LT MAHLER J \u00b7 ENS ALZAHRANI Y \u00b7 RI4202A, RI4203A \u00b7 6.0 \u00b7 CCX RTB FROM KGNV, FL",
+        "role": "RI4202A, RI4203A",
+        "remarks": "CCX RTB FROM KGNV, FL",
+        "duration": "6.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4203A",
+        "start": "0915",
+        "end": "1515",
+        "land": "1515",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FLANNERY L SCHEDULE",
+            "first": "",
+            "full": "FLANNERY L SCHEDULE"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "FLANNERY L SCHEDULE"
+        ],
+        "page": 2,
+        "line": "T62-1",
+        "raw": "T62-1 \u00b7 0700 \u00b7 0915 \u00b7 1515 \u00b7 LT MAHLER J Simulator (Sim Event) \u00b7 1stLt FLANNERY L Schedule \u00b7 RI4203A",
+        "role": "RI4203A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

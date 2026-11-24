@@ -201,5 +201,293 @@
       "line_number": 26,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "NAV4290 (RPT)",
+        "start": "0900",
+        "end": "1100",
+        "land": "1100",
+        "brief": "0730",
+        "formation": "",
+        "crew": [
+          {
+            "last": "POPE",
+            "first": "DANIEL",
+            "full": "POPE, DANIEL"
+          },
+          {
+            "last": "MORGAN",
+            "first": "JAMES",
+            "full": "MORGAN, JAMES"
+          }
+        ],
+        "instructors": [
+          "POPE, DANIEL"
+        ],
+        "students": [
+          "MORGAN, JAMES"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "0730 \u00b7 0900 \u00b7 1100 \u00b7 POPE, DANIEL \u00b7 MORGAN, JAMES \u00b7 NAV4290 (RPT) \u00b7 2.0 \u00b7 DD-1801, FITU NAV STAN/INST CKR/CRM-F",
+        "role": "NAV4290 (RPT)",
+        "remarks": "DD-1801, FITU NAV STAN/INST CKR/CRM-F",
+        "duration": "2.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4105",
+        "start": "1000",
+        "end": "1148",
+        "land": "1148",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GUINAN",
+            "first": "ANDREW",
+            "full": "GUINAN, ANDREW"
+          },
+          {
+            "last": "MITCHELL",
+            "first": "KEITH",
+            "full": "MITCHELL, KEITH"
+          }
+        ],
+        "instructors": [
+          "GUINAN, ANDREW"
+        ],
+        "students": [
+          "MITCHELL, KEITH"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "0800 \u00b7 1000 \u00b7 1148 \u00b7 GUINAN, ANDREW \u00b7 MITCHELL, KEITH \u00b7 NA4105 \u00b7 1.8 \u00b7 DD-1801",
+        "role": "NA4105",
+        "remarks": "DD-1801",
+        "duration": "1.8",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4390 (RPT)",
+        "start": "1000",
+        "end": "1148",
+        "land": "1148",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MARTIN",
+            "first": "PARKER",
+            "full": "MARTIN, PARKER"
+          },
+          {
+            "last": "SIMS",
+            "first": "GEORGE",
+            "full": "SIMS, GEORGE"
+          }
+        ],
+        "instructors": [
+          "MARTIN, PARKER"
+        ],
+        "students": [
+          "SIMS, GEORGE"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "0830 \u00b7 1000 \u00b7 1148 \u00b7 MARTIN, PARKER \u00b7 SIMS, GEORGE \u00b7 FAM4390 (RPT) \u00b7 1.8 \u00b7 DD-1801",
+        "role": "FAM4390 (RPT)",
+        "remarks": "DD-1801",
+        "duration": "1.8",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4106",
+        "start": "1330",
+        "end": "1518",
+        "land": "1518",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GUINAN",
+            "first": "ANDREW",
+            "full": "GUINAN, ANDREW"
+          },
+          {
+            "last": "MITCHELL",
+            "first": "KEITH",
+            "full": "MITCHELL, KEITH"
+          }
+        ],
+        "instructors": [
+          "GUINAN, ANDREW"
+        ],
+        "students": [
+          "MITCHELL, KEITH"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1130 \u00b7 1330 \u00b7 1518 \u00b7 GUINAN, ANDREW \u00b7 MITCHELL, KEITH \u00b7 NA4106 \u00b7 1.8 \u00b7 DD-1801",
+        "role": "NA4106",
+        "remarks": "DD-1801",
+        "duration": "1.8",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "ON4290 (RPT) Event) Schedule",
+        "start": "1330",
+        "end": "1506",
+        "land": "1506",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MARTIN",
+            "first": "PARKER",
+            "full": "MARTIN, PARKER"
+          },
+          {
+            "last": "SIMS",
+            "first": "GEORGE",
+            "full": "SIMS, GEORGE"
+          }
+        ],
+        "instructors": [
+          "MARTIN, PARKER"
+        ],
+        "students": [
+          "SIMS, GEORGE"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1130 \u00b7 1330 \u00b7 1506 \u00b7 MARTIN, PARKER \u00b7 SIMS, GEORGE Simulator (Sim \u00b7 ON4290 (RPT) Event) Schedule \u00b7 1.6 \u00b7 DD-1801",
+        "role": "ON4290 (RPT) Event) Schedule",
+        "remarks": "DD-1801",
+        "duration": "1.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NA3101",
+        "start": "0930",
+        "end": "1100",
+        "land": "1100",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BALL",
+            "first": "GREG",
+            "full": "BALL, GREG"
+          },
+          {
+            "last": "CLEVELAND",
+            "first": "JONATHAN",
+            "full": "CLEVELAND, JONATHAN"
+          }
+        ],
+        "instructors": [
+          "BALL, GREG"
+        ],
+        "students": [
+          "CLEVELAND, JONATHAN"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "0900 \u00b7 0930 \u00b7 1100 \u00b7 OFT-6P \u00b7 BALL, GREG \u00b7 CLEVELAND, JONATHAN \u00b7 NA3101 \u00b7 1.5",
+        "role": "NA3101",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "OFT-6P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NAV3102",
+        "start": "1100",
+        "end": "1230",
+        "land": "1230",
+        "brief": "1030",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GREENWOOD",
+            "first": "ANDREW",
+            "full": "GREENWOOD, ANDREW"
+          },
+          {
+            "last": "ORTIZ",
+            "first": "RICHARD",
+            "full": "ORTIZ, RICHARD"
+          }
+        ],
+        "instructors": [
+          "GREENWOOD, ANDREW"
+        ],
+        "students": [
+          "ORTIZ, RICHARD"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1030 \u00b7 1100 \u00b7 1230 \u00b7 OFT-6P \u00b7 GREENWOOD, ANDREW \u00b7 ORTIZ, RICHARD \u00b7 NAV3102 \u00b7 1.5",
+        "role": "NAV3102",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "OFT-6P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NA3301 (RPT)",
+        "start": "1230",
+        "end": "1400",
+        "land": "1400",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DEWITZ",
+            "first": "NATHANIEL",
+            "full": "DEWITZ, NATHANIEL"
+          },
+          {
+            "last": "MORGAN",
+            "first": "JAMES",
+            "full": "MORGAN, JAMES"
+          }
+        ],
+        "instructors": [
+          "DEWITZ, NATHANIEL"
+        ],
+        "students": [
+          "MORGAN, JAMES"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1200 No Ground \u00b7 1230 Events \u00b7 1400 Scheduled \u00b7 OFT-6P \u00b7 DEWITZ, NATHANIEL \u00b7 MORGAN, JAMES \u00b7 NA3301 (RPT) \u00b7 1.5",
+        "role": "NA3301 (RPT)",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "OFT-6P",
+        "solo": false
+      }
+    ]
+  }
 }

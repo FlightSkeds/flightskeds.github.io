@@ -334,5 +334,161 @@
       "line_number": 12,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "KNGP AM ODO",
+        "start": "0630",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAUCH",
+            "first": "MICHAEL",
+            "full": "MAUCH, MICHAEL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP AM ODO \u00b7 Mauch, Michael \u00b7 0630 1430",
+        "role": "KNGP AM ODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "KNGP AM AODO",
+        "start": "0445",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GORDON",
+            "first": "SABASTIAN",
+            "full": "GORDON, SABASTIAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP AM AODO \u00b7 Gordon, Sabastian \u00b7 0445 1400",
+        "role": "KNGP AM AODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "KNGP PM AODO",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LETNER",
+            "first": "LAUREN",
+            "full": "LETNER, LAUREN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP PM AODO \u00b7 Letner, Lauren \u00b7 1400 2359",
+        "role": "KNGP PM AODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4701",
+        "start": "0939",
+        "end": "1121",
+        "land": "1121",
+        "brief": "0754",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WELLNER",
+            "first": "ADAM",
+            "full": "WELLNER, ADAM"
+          },
+          {
+            "last": "CHRISTIE",
+            "first": "JAMES",
+            "full": "CHRISTIE, JAMES"
+          }
+        ],
+        "instructors": [
+          "WELLNER, ADAM"
+        ],
+        "students": [
+          "CHRISTIE, JAMES"
+        ],
+        "page": 2,
+        "line": "B61 (V27) 1",
+        "raw": "B61 (V27) 1 \u00b7 0754 \u00b7 0939 \u00b7 1121 \u00b7 Wellner, Adam \u00b7 Christie, James \u00b7 FAM4701 \u00b7 1.7/0.0 \u00b7 O/I",
+        "role": "FAM4701",
+        "remarks": "O/I",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4702 Schedule",
+        "start": "1339",
+        "end": "1521",
+        "land": "1521",
+        "brief": "1154",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WELLNER",
+            "first": "ADAM",
+            "full": "WELLNER, ADAM"
+          },
+          {
+            "last": "CHRISTIE",
+            "first": "JAMES",
+            "full": "CHRISTIE, JAMES"
+          }
+        ],
+        "instructors": [
+          "WELLNER, ADAM"
+        ],
+        "students": [
+          "CHRISTIE, JAMES"
+        ],
+        "page": 2,
+        "line": "B61 (V27) 2",
+        "raw": "B61 (V27) 2 \u00b7 1154 \u00b7 1339 \u00b7 1521 \u00b7 Wellner, Adam Simulator \u00b7 Christie, James (Sim Event) \u00b7 FAM4702 Schedule \u00b7 1.7/0.0 \u00b7 O/I RTN",
+        "role": "FAM4702 Schedule",
+        "remarks": "O/I RTN",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

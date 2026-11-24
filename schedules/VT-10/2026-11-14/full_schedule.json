@@ -321,5 +321,257 @@
       "line_number": 19,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "C. UPON COMPLETION  OF FLT NAV4390 OR STK4390 FOR INTERMEDIATE, SEE STUDENT CONTROL ASAP.    D. STUDENTS: COMPLETE EVENT REHEARSAL NAVFLIR, AND SUBMIT NAVFLIR TO SDO. SDOS: SUBMIT GRADESHEET FOR APPLICABLE EVENT IN TSHARP.",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "AM ASDO",
+        "start": "0600",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ROEHLING",
+            "first": "D",
+            "full": "ROEHLING, D"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM ASDO \u00b7 Roehling, D, ENS \u00b7 0600 \u00b7 1800",
+        "role": "AM ASDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM ASDO",
+        "start": "1800",
+        "end": "0600",
+        "land": "0600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LAUREL",
+            "first": "N",
+            "full": "LAUREL, N"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM ASDO \u00b7 Laurel, N, ENS \u00b7 1800 \u00b7 0600",
+        "role": "PM ASDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER - FLIGHT DISTRO",
+        "start": "0001",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SULLIVAN",
+            "first": "K",
+            "full": "SULLIVAN, K"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER - FLIGHT DISTRO \u00b7 Sullivan, K, ENS \u00b7 0001 \u00b7 2359",
+        "role": "DUTY DRIVER - FLIGHT DISTRO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO",
+        "start": "0001",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SYDLOWSKI",
+            "first": "J",
+            "full": "SYDLOWSKI, J"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO \u00b7 SYDLOWSKI, J, LT \u00b7 0001 \u00b7 2359",
+        "role": "SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4103",
+        "start": "0900",
+        "end": "1030",
+        "land": "1030",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MARKLEY",
+            "first": "J",
+            "full": "MARKLEY, J"
+          },
+          {
+            "last": "ACHENBACH",
+            "first": "C",
+            "full": "ACHENBACH, C"
+          }
+        ],
+        "instructors": [
+          "MARKLEY, J"
+        ],
+        "students": [
+          "ACHENBACH, C"
+        ],
+        "page": 2,
+        "line": "71",
+        "raw": "0700 \u00b7 0900 \u00b7 1030 \u00b7 KATT \u00b7 71 \u00b7 MARKLEY, J, LCDR \u00b7 Achenbach, C, ENS \u00b7 FAM4103 \u00b7 1.5 \u00b7 DD 1801",
+        "role": "FAM4103",
+        "remarks": "DD 1801",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4103",
+        "start": "1200",
+        "end": "1330",
+        "land": "1330",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MARKLEY",
+            "first": "J",
+            "full": "MARKLEY, J"
+          },
+          {
+            "last": "EATON",
+            "first": "T",
+            "full": "EATON, T"
+          }
+        ],
+        "instructors": [
+          "MARKLEY, J"
+        ],
+        "students": [
+          "EATON, T"
+        ],
+        "page": 2,
+        "line": "71",
+        "raw": "0700 \u00b7 1200 \u00b7 1330 \u00b7 KATT \u00b7 71 \u00b7 MARKLEY, J, LCDR \u00b7 Eaton, T, ENS \u00b7 FAM4103 \u00b7 1.5 \u00b7 DD 1801",
+        "role": "FAM4103",
+        "remarks": "DD 1801",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4106",
+        "start": "0900",
+        "end": "1042",
+        "land": "1042",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORGAN",
+            "first": "J",
+            "full": "MORGAN, J"
+          },
+          {
+            "last": "ALSHERI",
+            "first": "B",
+            "full": "ALSHERI, B"
+          }
+        ],
+        "instructors": [
+          "MORGAN, J"
+        ],
+        "students": [
+          "ALSHERI, B"
+        ],
+        "page": 2,
+        "line": "72",
+        "raw": "0700 \u00b7 0900 \u00b7 1042 \u00b7 KATT \u00b7 72 \u00b7 MORGAN, J, LT \u00b7 Alsheri, B, 2LT \u00b7 NAV4106 \u00b7 1.7 \u00b7 DD 1801",
+        "role": "NAV4106",
+        "remarks": "DD 1801",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4105",
+        "start": "1200",
+        "end": "1342",
+        "land": "1342",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORGAN",
+            "first": "J",
+            "full": "MORGAN, J"
+          },
+          {
+            "last": "TERRY",
+            "first": "R",
+            "full": "TERRY, R"
+          }
+        ],
+        "instructors": [
+          "MORGAN, J"
+        ],
+        "students": [
+          "TERRY, R"
+        ],
+        "page": 2,
+        "line": "72",
+        "raw": "0700 \u00b7 1200 \u00b7 1342 \u00b7 KATT \u00b7 72 \u00b7 MORGAN, J, LT Simulator (Sim \u00b7 Terry, R, ENS Event) Schedule \u00b7 NAV4105 \u00b7 1.7 \u00b7 DD 1801",
+        "role": "NAV4105",
+        "remarks": "DD 1801",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

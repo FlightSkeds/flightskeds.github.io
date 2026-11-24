@@ -444,5 +444,83 @@
       "line_number": 32,
       "text": "N. A. SLOAN M. B. SIPAH"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "Q4101",
+        "start": "0700",
+        "end": "0900",
+        "land": "0900",
+        "brief": "0515",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORRIS",
+            "first": "COLTON",
+            "full": "MORRIS, COLTON"
+          },
+          {
+            "last": "LINDSAY",
+            "first": "NICHOLAS",
+            "full": "LINDSAY, NICHOLAS"
+          }
+        ],
+        "instructors": [
+          "MORRIS, COLTON"
+        ],
+        "students": [
+          "LINDSAY, NICHOLAS"
+        ],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0515 \u00b7 0700 \u00b7 0900 \u00b7 MORRIS, COLTON J, Capt# \u00b7 LINDSAY, NICHOLAS R, LCDR# \u00b7 Q4101 \u00b7 2.0/0.0 \u00b7 2x O/I",
+        "role": "Q4101",
+        "remarks": "2x O/I",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Q4102 Event) Schedule",
+        "start": "1100",
+        "end": "1300",
+        "land": "1300",
+        "brief": "0915",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORRIS",
+            "first": "COLTON",
+            "full": "MORRIS, COLTON"
+          },
+          {
+            "last": "LINDSAY",
+            "first": "NICHOLAS",
+            "full": "LINDSAY, NICHOLAS"
+          }
+        ],
+        "instructors": [
+          "MORRIS, COLTON"
+        ],
+        "students": [
+          "LINDSAY, NICHOLAS"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0915 \u00b7 1100 \u00b7 1300 \u00b7 MORRIS, COLTON J, Capt# \u00b7 LINDSAY, NICHOLAS R, LCDR# Simulator (Sim \u00b7 Q4102 Event) Schedule \u00b7 2.0/0.0",
+        "role": "Q4102 Event) Schedule",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

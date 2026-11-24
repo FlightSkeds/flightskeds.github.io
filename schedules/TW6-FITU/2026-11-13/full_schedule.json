@@ -204,5 +204,194 @@
       "line_number": 24,
       "text": "TAKEOFF & IN-FLIGHT EMERGENCIES 1-3"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "NA4290",
+        "start": "1000",
+        "end": "1148",
+        "land": "1148",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LAVALLE",
+            "first": "CHRISTIAN",
+            "full": "LAVALLE, CHRISTIAN"
+          },
+          {
+            "last": "ORTIZ",
+            "first": "RICHARD",
+            "full": "ORTIZ, RICHARD"
+          }
+        ],
+        "instructors": [
+          "LAVALLE, CHRISTIAN"
+        ],
+        "students": [
+          "ORTIZ, RICHARD"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "0800 \u00b7 1000 \u00b7 1148 \u00b7 LAVALLE, CHRISTIAN \u00b7 ORTIZ, RICHARD \u00b7 NA4290 \u00b7 1.8 \u00b7 DD-1801",
+        "role": "NA4290",
+        "remarks": "DD-1801",
+        "duration": "1.8",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4390",
+        "start": "1000",
+        "end": "1148",
+        "land": "1148",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LETSON",
+            "first": "JACOB",
+            "full": "LETSON, JACOB"
+          },
+          {
+            "last": "ROBIE",
+            "first": "JACK",
+            "full": "ROBIE, JACK"
+          }
+        ],
+        "instructors": [
+          "LETSON, JACOB"
+        ],
+        "students": [
+          "ROBIE, JACK"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "0830 \u00b7 1000 \u00b7 1148 \u00b7 LETSON, JACOB \u00b7 ROBIE, JACK \u00b7 FAM4390 \u00b7 1.8 \u00b7 DD-1801",
+        "role": "FAM4390",
+        "remarks": "DD-1801",
+        "duration": "1.8",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4390, NAV4290 Event) Schedule",
+        "start": "1330",
+        "end": "1530",
+        "land": "1530",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LETSON",
+            "first": "JACOB",
+            "full": "LETSON, JACOB"
+          },
+          {
+            "last": "ROBIE",
+            "first": "JACK",
+            "full": "ROBIE, JACK"
+          }
+        ],
+        "instructors": [
+          "LETSON, JACOB"
+        ],
+        "students": [
+          "ROBIE, JACK"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1130 \u00b7 1330 \u00b7 1530 \u00b7 LETSON, JACOB \u00b7 ROBIE, JACK Simulator (Sim \u00b7 NA4390, NAV4290 Event) Schedule \u00b7 2.0 \u00b7 DD-1801",
+        "role": "NA4390, NAV4290 Event) Schedule",
+        "remarks": "DD-1801",
+        "duration": "2.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NA3103",
+        "start": "0930",
+        "end": "1100",
+        "land": "1100",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LEE",
+            "first": "JEFFREY",
+            "full": "LEE, JEFFREY"
+          },
+          {
+            "last": "MITCHELL",
+            "first": "KEITH",
+            "full": "MITCHELL, KEITH"
+          }
+        ],
+        "instructors": [
+          "LEE, JEFFREY"
+        ],
+        "students": [
+          "MITCHELL, KEITH"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "0900 \u00b7 0930 \u00b7 1100 \u00b7 OFT-6P \u00b7 LEE, JEFFREY \u00b7 MITCHELL, KEITH \u00b7 NA3103 \u00b7 1.5",
+        "role": "NA3103",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "OFT-6P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NA3104 Instructor CARL, JOHN",
+        "start": "1230",
+        "end": "1400",
+        "land": "1400",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BALL",
+            "first": "GREG",
+            "full": "BALL, GREG"
+          },
+          {
+            "last": "GROUND PERSON CLEVELAND",
+            "first": "JONATHAN",
+            "full": "GROUND PERSON CLEVELAND, JONATHAN"
+          },
+          {
+            "last": "MITCHELL",
+            "first": "KEITH",
+            "full": "MITCHELL, KEITH"
+          }
+        ],
+        "instructors": [
+          "BALL, GREG",
+          "GROUND PERSON CLEVELAND, JONATHAN"
+        ],
+        "students": [
+          "MITCHELL, KEITH"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1200 Time MIL 0830-1800 \u00b7 1230 Event HANDLING TAKEOFF \u00b7 1400 EMERGENCY & IN-FLIGHT \u00b7 OFT-6P PROCEDURES, EMERGENCIES \u00b7 BALL, GREG Ground Person CLEVELAND, JONATHAN 1-3 \u00b7 MITCHELL, KEITH Events \u00b7 NA3104 Instructor CARL, JOHN \u00b7 1.5 \u00b7 Location GRIFFITH HALL RM 224",
+        "role": "NA3104 Instructor CARL, JOHN",
+        "remarks": "Location GRIFFITH HALL RM 224",
+        "duration": "1.5",
+        "device": "OFT-6P PROCEDURES, EMERGENCIES",
+        "solo": false
+      }
+    ]
+  }
 }

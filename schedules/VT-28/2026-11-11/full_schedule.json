@@ -1244,5 +1244,869 @@
       "line_number": 11,
       "text": "Meetings"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "             Wednesday,   11-Nov-2026                  Wednesday,   11-Nov-2026         0800-1600     Campbell &   Campbell A, 2ndLt, Seto E, LTJG,   Apple A, ENS, Flanagan J,   Phone Muster          Seto(CS4102)     ENS, Milford J, ENS,  Koscho S, ENS            Apple(FAM4201),                     Flanagan(FAM4202),                     Koscho(FAM4203),                ",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "ODO (AM)",
+        "start": "0700",
+        "end": "1500",
+        "land": "1500",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HARRIS",
+            "first": "W",
+            "full": "HARRIS, W"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "ODO (AM) \u00b7 Harris W, LT \u00b7 0700 \u00b7 1500",
+        "role": "ODO (AM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AODO (AM)",
+        "start": "0600",
+        "end": "1430",
+        "land": "1430",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PLAEHN",
+            "first": "A",
+            "full": "PLAEHN, A"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AODO (AM) \u00b7 Plaehn A, ENS \u00b7 0600 \u00b7 1430",
+        "role": "AODO (AM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AODO (PM)",
+        "start": "1430",
+        "end": "2300",
+        "land": "2300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CHANG",
+            "first": "H",
+            "full": "CHANG, H"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AODO (PM) \u00b7 Chang H, ENS \u00b7 1430 \u00b7 2300",
+        "role": "AODO (PM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER (AM)",
+        "start": "0630",
+        "end": "1530",
+        "land": "1530",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MULKERIN",
+            "first": "G",
+            "full": "MULKERIN, G"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER (AM) \u00b7 Mulkerin G, ENS \u00b7 0630 \u00b7 1530",
+        "role": "DUTY DRIVER (AM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER (PM)",
+        "start": "1530",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ODEA",
+            "first": "R",
+            "full": "ODEA, R"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER (PM) \u00b7 Odea R, ENS \u00b7 1530 \u00b7 2359",
+        "role": "DUTY DRIVER (PM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SKEDS WRITER",
+        "start": "1100",
+        "end": "1700",
+        "land": "1700",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CASEY",
+            "first": "S",
+            "full": "CASEY, S"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SKEDS WRITER \u00b7 Casey S, LT \u00b7 1100 \u00b7 1700",
+        "role": "SKEDS WRITER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4102",
+        "start": "0957",
+        "end": "1133",
+        "land": "1133",
+        "brief": "0812",
+        "formation": "",
+        "crew": [
+          {
+            "last": "OMAN",
+            "first": "M",
+            "full": "OMAN, M"
+          },
+          {
+            "last": "SMITH",
+            "first": "A",
+            "full": "SMITH, A"
+          }
+        ],
+        "instructors": [
+          "OMAN, M"
+        ],
+        "students": [
+          "SMITH, A"
+        ],
+        "page": 2,
+        "line": "067-A",
+        "raw": "067-A \u00b7 0812 \u00b7 0957 \u00b7 1133 \u00b7 Oman M, LT \u00b7 Smith A, ENS \u00b7 FAM4102 \u00b7 1 D 1 \u00b7 LOCAL - QT",
+        "role": "FAM4102",
+        "remarks": "LOCAL - QT",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4304",
+        "start": "1009",
+        "end": "1151",
+        "land": "1151",
+        "brief": "0824",
+        "formation": "",
+        "crew": [
+          {
+            "last": "VANDERAH",
+            "first": "R",
+            "full": "VANDERAH, R"
+          },
+          {
+            "last": "PFISTER",
+            "first": "C",
+            "full": "PFISTER, C"
+          }
+        ],
+        "instructors": [
+          "VANDERAH, R"
+        ],
+        "students": [
+          "PFISTER, C"
+        ],
+        "page": 2,
+        "line": "071-A",
+        "raw": "071-A \u00b7 0824 \u00b7 1009 \u00b7 1151 \u00b7 Vanderah R, Capt \u00b7 Pfister C, ENS \u00b7 I4304 \u00b7 1 D 2 \u00b7 KCRP - O/I",
+        "role": "I4304",
+        "remarks": "KCRP - O/I",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4304",
+        "start": "1015",
+        "end": "1157",
+        "land": "1157",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KRUCHININ",
+            "first": "A",
+            "full": "KRUCHININ, A"
+          },
+          {
+            "last": "JOY",
+            "first": "J",
+            "full": "JOY, J"
+          }
+        ],
+        "instructors": [
+          "KRUCHININ, A"
+        ],
+        "students": [
+          "JOY, J"
+        ],
+        "page": 2,
+        "line": "073-A",
+        "raw": "073-A \u00b7 0830 \u00b7 1015 \u00b7 1157 \u00b7 Kruchinin A, Maj \u00b7 Joy J, ENS \u00b7 I4304 \u00b7 1 D 2 \u00b7 LOCAL - O/I",
+        "role": "I4304",
+        "remarks": "LOCAL - O/I",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CS4101",
+        "start": "1024",
+        "end": "1206",
+        "land": "1206",
+        "brief": "0839",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WALKER",
+            "first": "J",
+            "full": "WALKER, J"
+          },
+          {
+            "last": "RUOTSINOJA",
+            "first": "J",
+            "full": "RUOTSINOJA, J"
+          }
+        ],
+        "instructors": [
+          "WALKER, J"
+        ],
+        "students": [
+          "RUOTSINOJA, J"
+        ],
+        "page": 2,
+        "line": "076-A",
+        "raw": "076-A \u00b7 0839 \u00b7 1024 \u00b7 1206 \u00b7 Walker J, Maj \u00b7 Ruotsinoja J, ENS \u00b7 CS4101 \u00b7 1 D 1 \u00b7 KCRP - O/I (CH 85)",
+        "role": "CS4101",
+        "remarks": "KCRP - O/I (CH 85)",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CS4101",
+        "start": "1030",
+        "end": "1212",
+        "land": "1212",
+        "brief": "0845",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GONZALEZ",
+            "first": "V",
+            "full": "GONZALEZ, V"
+          },
+          {
+            "last": "MATHEWS",
+            "first": "K",
+            "full": "MATHEWS, K"
+          }
+        ],
+        "instructors": [
+          "GONZALEZ, V"
+        ],
+        "students": [
+          "MATHEWS, K"
+        ],
+        "page": 2,
+        "line": "078-A",
+        "raw": "078-A \u00b7 0845 \u00b7 1030 \u00b7 1212 \u00b7 Gonzalez V, Maj \u00b7 Mathews K, LTJG \u00b7 CS4101 \u00b7 1 D 1 \u00b7 LOCAL - O/I (CH 85)SL",
+        "role": "CS4101",
+        "remarks": "LOCAL - O/I (CH 85)SL",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Q4390",
+        "start": "1036",
+        "end": "1224",
+        "land": "1224",
+        "brief": "0851",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HACK",
+            "first": "R",
+            "full": "HACK, R"
+          },
+          {
+            "last": "BRENNER",
+            "first": "R",
+            "full": "BRENNER, R"
+          }
+        ],
+        "instructors": [
+          "HACK, R"
+        ],
+        "students": [
+          "BRENNER, R"
+        ],
+        "page": 2,
+        "line": "080-A",
+        "raw": "080-A \u00b7 0851 \u00b7 1036 \u00b7 1224 \u00b7 Hack R, LT \u00b7 Brenner R, LCDR \u00b7 Q4390 \u00b7 2 L 4 \u00b7 KCRP - IP NATOPS O/I",
+        "role": "Q4390",
+        "remarks": "KCRP - IP NATOPS O/I",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4303",
+        "start": "1042",
+        "end": "1224",
+        "land": "1224",
+        "brief": "0857",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MOORE",
+            "first": "P",
+            "full": "MOORE, P"
+          },
+          {
+            "last": "AILS",
+            "first": "C",
+            "full": "AILS, C"
+          }
+        ],
+        "instructors": [
+          "MOORE, P"
+        ],
+        "students": [
+          "AILS, C"
+        ],
+        "page": 2,
+        "line": "082-A",
+        "raw": "082-A \u00b7 0857 \u00b7 1042 \u00b7 1224 \u00b7 Moore P, LT \u00b7 Ails C, 1stLt \u00b7 I4303 \u00b7 1 D 2 \u00b7 KCRP - TOT",
+        "role": "I4303",
+        "remarks": "KCRP - TOT",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "N4101",
+        "start": "1051",
+        "end": "1227",
+        "land": "1227",
+        "brief": "0906",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIRIANNO",
+            "first": "M",
+            "full": "SIRIANNO, M"
+          },
+          {
+            "last": "MADRID",
+            "first": "J",
+            "full": "MADRID, J"
+          }
+        ],
+        "instructors": [
+          "SIRIANNO, M"
+        ],
+        "students": [
+          "MADRID, J"
+        ],
+        "page": 2,
+        "line": "085-A",
+        "raw": "085-A \u00b7 0906 \u00b7 1051 \u00b7 1227 \u00b7 Sirianno M, Capt \u00b7 Madrid J, 2ndLt \u00b7 N4101 \u00b7 1 D 1 \u00b7 KCRP - TOT",
+        "role": "N4101",
+        "remarks": "KCRP - TOT",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4101",
+        "start": "1357",
+        "end": "1533",
+        "land": "1533",
+        "brief": "1212",
+        "formation": "",
+        "crew": [
+          {
+            "last": "OMAN",
+            "first": "M",
+            "full": "OMAN, M"
+          },
+          {
+            "last": "LUMPKIN",
+            "first": "A",
+            "full": "LUMPKIN, A"
+          }
+        ],
+        "instructors": [
+          "OMAN, M"
+        ],
+        "students": [
+          "LUMPKIN, A"
+        ],
+        "page": 2,
+        "line": "067-B",
+        "raw": "067-B \u00b7 1212 \u00b7 1357 \u00b7 1533 \u00b7 Oman M, LT \u00b7 Lumpkin A, 2ndLt \u00b7 FAM4101 \u00b7 1 D 1 \u00b7 LOCAL",
+        "role": "FAM4101",
+        "remarks": "LOCAL",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4490",
+        "start": "1409",
+        "end": "1551",
+        "land": "1551",
+        "brief": "1224",
+        "formation": "",
+        "crew": [
+          {
+            "last": "VANDERAH",
+            "first": "R",
+            "full": "VANDERAH, R"
+          },
+          {
+            "last": "PFISTER",
+            "first": "C",
+            "full": "PFISTER, C"
+          }
+        ],
+        "instructors": [
+          "VANDERAH, R"
+        ],
+        "students": [
+          "PFISTER, C"
+        ],
+        "page": 2,
+        "line": "071-B",
+        "raw": "071-B \u00b7 1224 \u00b7 1409 \u00b7 1551 \u00b7 Vanderah R, Capt \u00b7 Pfister C, ENS \u00b7 I4490 \u00b7 1 D 2 \u00b7 KCRP - RTN TO KNGP",
+        "role": "I4490",
+        "remarks": "KCRP - RTN TO KNGP",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4490",
+        "start": "1415",
+        "end": "1557",
+        "land": "1557",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KRUCHININ",
+            "first": "A",
+            "full": "KRUCHININ, A"
+          },
+          {
+            "last": "JOY",
+            "first": "J",
+            "full": "JOY, J"
+          }
+        ],
+        "instructors": [
+          "KRUCHININ, A"
+        ],
+        "students": [
+          "JOY, J"
+        ],
+        "page": 2,
+        "line": "073-B",
+        "raw": "073-B \u00b7 1230 \u00b7 1415 \u00b7 1557 \u00b7 Kruchinin A, Maj \u00b7 Joy J, ENS \u00b7 I4490 \u00b7 1 D 2 \u00b7 LOCAL - RTN",
+        "role": "I4490",
+        "remarks": "LOCAL - RTN",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CS4102",
+        "start": "1424",
+        "end": "1606",
+        "land": "1606",
+        "brief": "1239",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WALKER",
+            "first": "J",
+            "full": "WALKER, J"
+          },
+          {
+            "last": "RUOTSINOJA",
+            "first": "J",
+            "full": "RUOTSINOJA, J"
+          }
+        ],
+        "instructors": [
+          "WALKER, J"
+        ],
+        "students": [
+          "RUOTSINOJA, J"
+        ],
+        "page": 2,
+        "line": "076-B",
+        "raw": "076-B \u00b7 1239 \u00b7 1424 \u00b7 1606 \u00b7 Walker J, Maj \u00b7 Ruotsinoja J, ENS \u00b7 CS4102 \u00b7 1 D 1 \u00b7 KCRP - RTN TO KNGP (CH 85)",
+        "role": "CS4102",
+        "remarks": "KCRP - RTN TO KNGP (CH 85)",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CS4102",
+        "start": "1430",
+        "end": "1612",
+        "land": "1612",
+        "brief": "1245",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GONZALEZ",
+            "first": "V",
+            "full": "GONZALEZ, V"
+          },
+          {
+            "last": "MATHEWS",
+            "first": "K",
+            "full": "MATHEWS, K"
+          }
+        ],
+        "instructors": [
+          "GONZALEZ, V"
+        ],
+        "students": [
+          "MATHEWS, K"
+        ],
+        "page": 2,
+        "line": "078-B",
+        "raw": "078-B \u00b7 1245 \u00b7 1430 \u00b7 1612 \u00b7 Gonzalez V, Maj \u00b7 Mathews K, LTJG \u00b7 CS4102 \u00b7 1 D 1 \u00b7 LOCAL - RTN (CH 85)SL",
+        "role": "CS4102",
+        "remarks": "LOCAL - RTN (CH 85)SL",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4890",
+        "start": "1436",
+        "end": "1612",
+        "land": "1612",
+        "brief": "1251",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HACK",
+            "first": "R",
+            "full": "HACK, R"
+          },
+          {
+            "last": "BRENNER",
+            "first": "R",
+            "full": "BRENNER, R"
+          }
+        ],
+        "instructors": [
+          "HACK, R"
+        ],
+        "students": [
+          "BRENNER, R"
+        ],
+        "page": 2,
+        "line": "080-B",
+        "raw": "080-B \u00b7 1251 \u00b7 1436 \u00b7 1612 \u00b7 Hack R, LT \u00b7 Brenner R, LCDR \u00b7 C4890 \u00b7 1 B 1 \u00b7 KCRP - IP OCF(S) REHACK RTN TO KNGP",
+        "role": "C4890",
+        "remarks": "KCRP - IP OCF(S) REHACK RTN TO KNGP",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4304",
+        "start": "1442",
+        "end": "1624",
+        "land": "1624",
+        "brief": "1257",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MOORE",
+            "first": "P",
+            "full": "MOORE, P"
+          },
+          {
+            "last": "AILS",
+            "first": "C",
+            "full": "AILS, C"
+          }
+        ],
+        "instructors": [
+          "MOORE, P"
+        ],
+        "students": [
+          "AILS, C"
+        ],
+        "page": 2,
+        "line": "082-B",
+        "raw": "082-B \u00b7 1257 \u00b7 1442 \u00b7 1624 \u00b7 Moore P, LT \u00b7 Ails C, 1stLt \u00b7 I4304 \u00b7 1 D 2 \u00b7 KCRP - TOT",
+        "role": "I4304",
+        "remarks": "KCRP - TOT",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4303",
+        "start": "1451",
+        "end": "1633",
+        "land": "1633",
+        "brief": "1306",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIRIANNO",
+            "first": "M",
+            "full": "SIRIANNO, M"
+          },
+          {
+            "last": "MADRID",
+            "first": "J",
+            "full": "MADRID, J"
+          }
+        ],
+        "instructors": [
+          "SIRIANNO, M"
+        ],
+        "students": [
+          "MADRID, J"
+        ],
+        "page": 2,
+        "line": "085-B",
+        "raw": "085-B \u00b7 1306 \u00b7 1451 \u00b7 1633 \u00b7 Sirianno M, Capt \u00b7 Madrid J, 2ndLt \u00b7 I4303 \u00b7 1 D 2 \u00b7 KCRP - TOT",
+        "role": "I4303",
+        "remarks": "KCRP - TOT",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4602",
+        "start": "1523",
+        "end": "1705",
+        "land": "1705",
+        "brief": "1338",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BENSON",
+            "first": "D",
+            "full": "BENSON, D"
+          },
+          {
+            "last": "MAGEE",
+            "first": "T",
+            "full": "MAGEE, T"
+          }
+        ],
+        "instructors": [
+          "BENSON, D"
+        ],
+        "students": [
+          "MAGEE, T"
+        ],
+        "page": 2,
+        "line": "010-C",
+        "raw": "010-C \u00b7 1338 \u00b7 1523 \u00b7 1705 \u00b7 Benson D, LCDR \u00b7 Magee T, ENS \u00b7 FAM4602 \u00b7 1 D 1 \u00b7 KCRP - O/I (AERO)",
+        "role": "FAM4602",
+        "remarks": "KCRP - O/I (AERO)",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4490",
+        "start": "1842",
+        "end": "2024",
+        "land": "2024",
+        "brief": "1657",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MOORE",
+            "first": "P",
+            "full": "MOORE, P"
+          },
+          {
+            "last": "AILS",
+            "first": "C",
+            "full": "AILS, C"
+          }
+        ],
+        "instructors": [
+          "MOORE, P"
+        ],
+        "students": [
+          "AILS, C"
+        ],
+        "page": 2,
+        "line": "082-C",
+        "raw": "082-C \u00b7 1657 \u00b7 1842 \u00b7 2024 \u00b7 Moore P, LT \u00b7 Ails C, 1stLt \u00b7 I4490 \u00b7 1 D 2 \u00b7 KCRP - TOT RTN TO KNGP",
+        "role": "I4490",
+        "remarks": "KCRP - TOT RTN TO KNGP",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4304",
+        "start": "1851",
+        "end": "2033",
+        "land": "2033",
+        "brief": "1706",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIRIANNO",
+            "first": "M",
+            "full": "SIRIANNO, M"
+          },
+          {
+            "last": "MADRID",
+            "first": "J",
+            "full": "MADRID, J"
+          }
+        ],
+        "instructors": [
+          "SIRIANNO, M"
+        ],
+        "students": [
+          "MADRID, J"
+        ],
+        "page": 2,
+        "line": "085-C",
+        "raw": "085-C \u00b7 1706 \u00b7 1851 \u00b7 2033 \u00b7 Sirianno M, Capt \u00b7 Madrid J, 2ndLt \u00b7 I4304 \u00b7 1 D 2 \u00b7 KCRP - TOT RTN TO KNGP",
+        "role": "I4304",
+        "remarks": "KCRP - TOT RTN TO KNGP",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4901",
+        "start": "1923",
+        "end": "2105",
+        "land": "2105",
+        "brief": "1738",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BENSON",
+            "first": "D",
+            "full": "BENSON, D"
+          },
+          {
+            "last": "MAGEE",
+            "first": "T",
+            "full": "MAGEE, T"
+          }
+        ],
+        "instructors": [
+          "BENSON, D"
+        ],
+        "students": [
+          "MAGEE, T"
+        ],
+        "page": 2,
+        "line": "010-D *All flight",
+        "raw": "010-D *All flight \u00b7 1738 sorties \u00b7 1923 are \u00b7 conducted \u00b7 2105 \u00b7 Benson D, LCDR in a T-6B aircraft. \u00b7 Magee T, ENS \u00b7 FAM4901 \u00b7 1 D 1 \u00b7 KCRP - RTN (NFAM)",
+        "role": "FAM4901",
+        "remarks": "KCRP - RTN (NFAM)",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

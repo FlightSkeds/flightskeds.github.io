@@ -185,5 +185,72 @@
       "line_number": 23,
       "text": "GPS, CRM"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "NA4108 (87(ET)) Events",
+        "start": "1330",
+        "end": "1518",
+        "land": "1518",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MARTIN",
+            "first": "PARKER",
+            "full": "MARTIN, PARKER"
+          },
+          {
+            "last": "PROPULSION",
+            "first": "CANOPY",
+            "full": "PROPULSION, CANOPY"
+          },
+          {
+            "last": "OPS LIMITS",
+            "first": "OCF",
+            "full": "OPS LIMITS, OCF"
+          },
+          {
+            "last": "ORTIZ",
+            "first": "RICHARD",
+            "full": "ORTIZ, RICHARD"
+          },
+          {
+            "last": "GROUND PERSON CLEVELAND",
+            "first": "JONATHAN",
+            "full": "GROUND PERSON CLEVELAND, JONATHAN"
+          },
+          {
+            "last": "MITCHELL",
+            "first": "KEITH",
+            "full": "MITCHELL, KEITH"
+          }
+        ],
+        "instructors": [
+          "MARTIN, PARKER",
+          "PROPULSION, CANOPY",
+          "OPS LIMITS, OCF"
+        ],
+        "students": [
+          "ORTIZ, RICHARD",
+          "GROUND PERSON CLEVELAND, JONATHAN",
+          "MITCHELL, KEITH"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1130 No Simulators Time MIL 0930-1530 1000-1300 \u00b7 1330 Scheduled Event ELECTRICS, ENVIRONMENTAL, REVIEW FITU GPS, \u00b7 1518 FUEL, MODULES: CRM \u00b7 MARTIN, PARKER PROPULSION, CANOPY & EJECTION EP/OPS LIMITS, OCF/SPIN, \u00b7 ORTIZ, RICHARD Ground Person CLEVELAND, JONATHAN MITCHELL, KEITH \u00b7 NA4108 (87(ET)) Events \u00b7 1.8 \u00b7 DD-1801 Instructor Location CARL, JOHN GRIFFITH HALL RM 224 MONTANA, JOHN FITU CLASSROOM",
+        "role": "NA4108 (87(ET)) Events",
+        "remarks": "DD-1801 Instructor Location CARL, JOHN GRIFFITH HALL RM 224 MONTANA, JOHN FITU CLASSROOM",
+        "duration": "1.8",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

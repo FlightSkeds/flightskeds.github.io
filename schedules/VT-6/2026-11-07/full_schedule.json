@@ -1365,5 +1365,1237 @@
       "line_number": 100,
       "text": "ts P e r L in e"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "V T - 6 B u ild R e p o r t b y G o 's  S a t u r d a y , N o v e m b e r 7 , 2 0 2 6 01 V6 1 1 SIP A H , M 01 V6 2 01 V6 3 01 V6 4  0703 SM A R T, B A irSh o w D em o 1103 1503 1903  03 V6 1 3 B EN SO N , W 03 V6 2 3 B EN SO N , W 03 V6 3 3 B EN SOER N , W 03 V6 4  0717 A SIR I, I FA M 4 201 1117 FLETC H ER , C I4203 1517 FLETC H , C I4204 1917  04 V6 1 2 M EN D EZ, S 04 V6 2 2 M EN D EZ, S 04 V6 3 04 V6 4  0720 PU R V IS, J FA M 4 201 1120 PU R V IS, J FA M 4 202 1520 1920  05 V6 1 2 C O LLIER , D 05 V6 2 2 C O LLIER , D 05 V6 3 05 V6 4  0731 A LO TA IB I, S FA M 4 202 1131 A LO TA IB I, S FA M 4 203 1531 1931 ",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "AM DUTY DRIVER",
+        "start": "0700",
+        "end": "1500",
+        "land": "1500",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CASAS",
+            "first": "MICHAEL",
+            "full": "CASAS, MICHAEL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM DUTY DRIVER \u00b7 CASAS, MICHAEL A, 2ndLt \u00b7 0700 \u00b7 1500",
+        "role": "AM DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM DUTY DRIVER",
+        "start": "1400",
+        "end": "2200",
+        "land": "2200",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "COFFEY",
+            "first": "KOHL",
+            "full": "COFFEY, KOHL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM DUTY DRIVER \u00b7 COFFEY, KOHL R, 2ndLt \u00b7 1400 \u00b7 2200",
+        "role": "PM DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO",
+        "start": "0745",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GOBER",
+            "first": "LUKE",
+            "full": "GOBER, LUKE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO \u00b7 GOBER, LUKE W, ENS \u00b7 0745 \u00b7 2359",
+        "role": "SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO MIDNIGHT_8",
+        "start": "0001",
+        "end": "0800",
+        "land": "0800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KELLOGG",
+            "first": "NICHOLAS",
+            "full": "KELLOGG, NICHOLAS"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO MIDNIGHT_8 \u00b7 KELLOGG, NICHOLAS S, ENS \u00b7 0001 \u00b7 0800",
+        "role": "SDO MIDNIGHT_8",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AirShow Demo",
+        "start": "0703",
+        "end": "0903",
+        "land": "0903",
+        "brief": "0543",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIPAH",
+            "first": "MICHAEL",
+            "full": "SIPAH, MICHAEL"
+          },
+          {
+            "last": "SMART",
+            "first": "BENJAMIN",
+            "full": "SMART, BENJAMIN"
+          }
+        ],
+        "instructors": [
+          "SIPAH, MICHAEL"
+        ],
+        "students": [
+          "SMART, BENJAMIN"
+        ],
+        "page": 3,
+        "line": "1",
+        "raw": "1 \u00b7 0543 \u00b7 0703 \u00b7 0903 \u00b7 SIPAH, MICHAEL B, LCDR \u00b7 SMART, BENJAMIN T, LT \u00b7 2Q4 \u00b7 AirShow Demo \u00b7 2.0/0.0 \u00b7 AIRSHOW",
+        "role": "AirShow Demo",
+        "remarks": "AIRSHOW",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4201",
+        "start": "0717",
+        "end": "0853",
+        "land": "0853",
+        "brief": "0532",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BENSON",
+            "first": "WILLIAM",
+            "full": "BENSON, WILLIAM"
+          },
+          {
+            "last": "ASIRI",
+            "first": "IBRAHIM",
+            "full": "ASIRI, IBRAHIM"
+          }
+        ],
+        "instructors": [
+          "BENSON, WILLIAM"
+        ],
+        "students": [
+          "ASIRI, IBRAHIM"
+        ],
+        "page": 3,
+        "line": "2",
+        "raw": "2 \u00b7 0532 \u00b7 0717 \u00b7 0853 \u00b7 BENSON, WILLIAM M, LT# \u00b7 ASIRI, IBRAHIM S, ENS \u00b7 1D1 \u00b7 FAM4201 \u00b7 1.6/0.0 \u00b7 3X/CTO/CONTACT IP FOR BRIEF TIME",
+        "role": "FAM4201",
+        "remarks": "3X/CTO/CONTACT IP FOR BRIEF TIME",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4201",
+        "start": "0720",
+        "end": "0856",
+        "land": "0856",
+        "brief": "0535",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MENDEZ",
+            "first": "STEVEN",
+            "full": "MENDEZ, STEVEN"
+          },
+          {
+            "last": "PURVIS",
+            "first": "JOSEPHINE",
+            "full": "PURVIS, JOSEPHINE"
+          }
+        ],
+        "instructors": [
+          "MENDEZ, STEVEN"
+        ],
+        "students": [
+          "PURVIS, JOSEPHINE"
+        ],
+        "page": 3,
+        "line": "3",
+        "raw": "3 \u00b7 0535 \u00b7 0720 \u00b7 0856 \u00b7 MENDEZ, STEVEN , LCDR# \u00b7 PURVIS, JOSEPHINE T, 2ndLt# \u00b7 1D1 \u00b7 FAM4201 \u00b7 1.6/0.0 \u00b7 2X/CTO/CONTACT IP FOR BRIEF TIME",
+        "role": "FAM4201",
+        "remarks": "2X/CTO/CONTACT IP FOR BRIEF TIME",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4202",
+        "start": "0731",
+        "end": "0907",
+        "land": "0907",
+        "brief": "0546",
+        "formation": "",
+        "crew": [
+          {
+            "last": "COLLIER",
+            "first": "DANE",
+            "full": "COLLIER, DANE"
+          },
+          {
+            "last": "ALOTAIBI",
+            "first": "SALEH",
+            "full": "ALOTAIBI, SALEH"
+          }
+        ],
+        "instructors": [
+          "COLLIER, DANE"
+        ],
+        "students": [
+          "ALOTAIBI, SALEH"
+        ],
+        "page": 3,
+        "line": "4",
+        "raw": "4 \u00b7 0546 \u00b7 0731 \u00b7 0907 \u00b7 COLLIER, DANE K, LT# \u00b7 ALOTAIBI, SALEH , ENS# \u00b7 1D1 \u00b7 FAM4202 \u00b7 1.6/0.0 \u00b7 2X/CTO/CONTACT IP FOR BRIEF TIME",
+        "role": "FAM4202",
+        "remarks": "2X/CTO/CONTACT IP FOR BRIEF TIME",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4203",
+        "start": "1117",
+        "end": "1253",
+        "land": "1253",
+        "brief": "0932",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BENSON",
+            "first": "WILLIAM",
+            "full": "BENSON, WILLIAM"
+          },
+          {
+            "last": "FLETCHER",
+            "first": "CHASE",
+            "full": "FLETCHER, CHASE"
+          }
+        ],
+        "instructors": [
+          "BENSON, WILLIAM"
+        ],
+        "students": [
+          "FLETCHER, CHASE"
+        ],
+        "page": 3,
+        "line": "5",
+        "raw": "5 \u00b7 0932 \u00b7 1117 \u00b7 1253 \u00b7 BENSON, WILLIAM M, LT# \u00b7 FLETCHER, CHASE N, 2ndLt# \u00b7 1D2 \u00b7 I4203 \u00b7 1.6/0.0",
+        "role": "I4203",
+        "remarks": "",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4202",
+        "start": "1120",
+        "end": "1256",
+        "land": "1256",
+        "brief": "0935",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MENDEZ",
+            "first": "STEVEN",
+            "full": "MENDEZ, STEVEN"
+          },
+          {
+            "last": "PURVIS",
+            "first": "JOSEPHINE",
+            "full": "PURVIS, JOSEPHINE"
+          }
+        ],
+        "instructors": [
+          "MENDEZ, STEVEN"
+        ],
+        "students": [
+          "PURVIS, JOSEPHINE"
+        ],
+        "page": 3,
+        "line": "6",
+        "raw": "6 \u00b7 0935 \u00b7 1120 \u00b7 1256 \u00b7 MENDEZ, STEVEN , LCDR# \u00b7 PURVIS, JOSEPHINE T, 2ndLt# \u00b7 1D1 \u00b7 FAM4202 \u00b7 1.6/0.0",
+        "role": "FAM4202",
+        "remarks": "",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4203",
+        "start": "1131",
+        "end": "1307",
+        "land": "1307",
+        "brief": "0946",
+        "formation": "",
+        "crew": [
+          {
+            "last": "COLLIER",
+            "first": "DANE",
+            "full": "COLLIER, DANE"
+          },
+          {
+            "last": "ALOTAIBI",
+            "first": "SALEH",
+            "full": "ALOTAIBI, SALEH"
+          }
+        ],
+        "instructors": [
+          "COLLIER, DANE"
+        ],
+        "students": [
+          "ALOTAIBI, SALEH"
+        ],
+        "page": 3,
+        "line": "7",
+        "raw": "7 \u00b7 0946 \u00b7 1131 \u00b7 1307 \u00b7 COLLIER, DANE K, LT# \u00b7 ALOTAIBI, SALEH , ENS# \u00b7 1D1 \u00b7 FAM4203 \u00b7 1.6/0.0",
+        "role": "FAM4203",
+        "remarks": "",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "1517",
+        "end": "1653",
+        "land": "1653",
+        "brief": "1332",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BENSON",
+            "first": "WILLIAM",
+            "full": "BENSON, WILLIAM"
+          },
+          {
+            "last": "FLETCHER",
+            "first": "CHASE",
+            "full": "FLETCHER, CHASE"
+          }
+        ],
+        "instructors": [
+          "BENSON, WILLIAM"
+        ],
+        "students": [
+          "FLETCHER, CHASE"
+        ],
+        "page": 3,
+        "line": "8",
+        "raw": "8 \u00b7 1332 \u00b7 1517 \u00b7 1653 \u00b7 BENSON, WILLIAM M, LT# \u00b7 FLETCHER, CHASE N, 2ndLt# Simulator (Sim \u00b7 1D2 Event) Schedule \u00b7 I4204 \u00b7 1.6/0.0",
+        "role": "I4204",
+        "remarks": "",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "0720",
+        "end": "",
+        "land": "",
+        "brief": "0650",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SMOLENSKI",
+            "first": "DONALD",
+            "full": "SMOLENSKI, DONALD"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "SMOLENSKI, DONALD"
+        ],
+        "page": 3,
+        "line": "1",
+        "raw": "1 \u00b7 0650 \u00b7 0720 \u00b7 OFT 8W \u00b7 SMOLENSKI, DONALD M, ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 8W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "0720",
+        "end": "",
+        "land": "",
+        "brief": "0650",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DE STEFANO",
+            "first": "GREGORIO",
+            "full": "DE STEFANO, GREGORIO"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "DE STEFANO, GREGORIO"
+        ],
+        "page": 3,
+        "line": "2",
+        "raw": "2 \u00b7 0650 \u00b7 0720 \u00b7 UTD 5W \u00b7 DE STEFANO, GREGORIO , LTJG \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "UTD 5W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "0720",
+        "end": "",
+        "land": "",
+        "brief": "0650",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RASMUSSEN",
+            "first": "LEAH",
+            "full": "RASMUSSEN, LEAH"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "RASMUSSEN, LEAH"
+        ],
+        "page": 3,
+        "line": "3",
+        "raw": "3 \u00b7 0650 \u00b7 0720 \u00b7 OFT 2W \u00b7 RASMUSSEN, LEAH C, 2ndLt \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 2W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "0720",
+        "end": "",
+        "land": "",
+        "brief": "0650",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ZAMBETTI",
+            "first": "LUCA",
+            "full": "ZAMBETTI, LUCA"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "ZAMBETTI, LUCA"
+        ],
+        "page": 3,
+        "line": "4",
+        "raw": "4 \u00b7 0650 \u00b7 0720 \u00b7 OFT 5W \u00b7 ZAMBETTI, LUCA , ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 5W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "0840",
+        "end": "",
+        "land": "",
+        "brief": "0810",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GARBER",
+            "first": "RYAN",
+            "full": "GARBER, RYAN"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "GARBER, RYAN"
+        ],
+        "page": 3,
+        "line": "5",
+        "raw": "5 \u00b7 0810 \u00b7 0840 \u00b7 OFT 7W \u00b7 GARBER, RYAN T, 2ndLt \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 7W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "0840",
+        "end": "",
+        "land": "",
+        "brief": "0810",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHARP",
+            "first": "KASEY",
+            "full": "SHARP, KASEY"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "SHARP, KASEY"
+        ],
+        "page": 3,
+        "line": "6",
+        "raw": "6 \u00b7 0810 \u00b7 0840 \u00b7 OFT 4W \u00b7 SHARP, KASEY D, 2ndLt \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 4W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "0840",
+        "end": "",
+        "land": "",
+        "brief": "0810",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CHUPPE",
+            "first": "CONNOR",
+            "full": "CHUPPE, CONNOR"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "CHUPPE, CONNOR"
+        ],
+        "page": 3,
+        "line": "7",
+        "raw": "7 \u00b7 0810 \u00b7 0840 \u00b7 UTD 4W \u00b7 CHUPPE, CONNOR N, ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "UTD 4W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "0840",
+        "end": "",
+        "land": "",
+        "brief": "0810",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SEDOR",
+            "first": "JOHN",
+            "full": "SEDOR, JOHN"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "SEDOR, JOHN"
+        ],
+        "page": 3,
+        "line": "8",
+        "raw": "8 \u00b7 0810 \u00b7 0840 \u00b7 UTD 7W \u00b7 SEDOR, JOHN T, ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "UTD 7W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "0840",
+        "end": "",
+        "land": "",
+        "brief": "0810",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PIESZALA",
+            "first": "BRANDON",
+            "full": "PIESZALA, BRANDON"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "PIESZALA, BRANDON"
+        ],
+        "page": 3,
+        "line": "9",
+        "raw": "9 \u00b7 0810 \u00b7 0840 \u00b7 OFT 1W \u00b7 PIESZALA, BRANDON , 1stLt \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 1W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1000",
+        "end": "",
+        "land": "",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DOUGLAS",
+            "first": "CHRISTOPHER",
+            "full": "DOUGLAS, CHRISTOPHER"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "DOUGLAS, CHRISTOPHER"
+        ],
+        "page": 3,
+        "line": "10",
+        "raw": "10 \u00b7 0930 \u00b7 1000 \u00b7 OFT 2W \u00b7 DOUGLAS, CHRISTOPHER D, ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 2W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1000",
+        "end": "",
+        "land": "",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LUTZ",
+            "first": "LILLY",
+            "full": "LUTZ, LILLY"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "LUTZ, LILLY"
+        ],
+        "page": 3,
+        "line": "11",
+        "raw": "11 \u00b7 0930 \u00b7 1000 \u00b7 UTD 6W \u00b7 LUTZ, LILLY E, ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "UTD 6W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1000",
+        "end": "",
+        "land": "",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NITTLE",
+            "first": "SYDNEY",
+            "full": "NITTLE, SYDNEY"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "NITTLE, SYDNEY"
+        ],
+        "page": 3,
+        "line": "12",
+        "raw": "12 \u00b7 0930 \u00b7 1000 \u00b7 OFT 6W \u00b7 NITTLE, SYDNEY G, ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 6W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1000",
+        "end": "",
+        "land": "",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "VALDIVIESO",
+            "first": "NICOLAS",
+            "full": "VALDIVIESO, NICOLAS"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "VALDIVIESO, NICOLAS"
+        ],
+        "page": 3,
+        "line": "13",
+        "raw": "13 \u00b7 0930 \u00b7 1000 \u00b7 UTD 3W \u00b7 VALDIVIESO, NICOLAS A, ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "UTD 3W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1120",
+        "end": "",
+        "land": "",
+        "brief": "1050",
+        "formation": "",
+        "crew": [
+          {
+            "last": "INGORDO",
+            "first": "FRANCESCO",
+            "full": "INGORDO, FRANCESCO"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "INGORDO, FRANCESCO"
+        ],
+        "page": 3,
+        "line": "14",
+        "raw": "14 \u00b7 1050 \u00b7 1120 \u00b7 OFT 5W \u00b7 INGORDO, FRANCESCO , LTJG \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 5W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1120",
+        "end": "",
+        "land": "",
+        "brief": "1050",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BORTUZZO",
+            "first": "MARCO",
+            "full": "BORTUZZO, MARCO"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "BORTUZZO, MARCO"
+        ],
+        "page": 3,
+        "line": "15",
+        "raw": "15 \u00b7 1050 \u00b7 1120 \u00b7 OFT 8W \u00b7 BORTUZZO, MARCO , ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 8W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1120",
+        "end": "",
+        "land": "",
+        "brief": "1050",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FLETCHER",
+            "first": "CHASE",
+            "full": "FLETCHER, CHASE"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "FLETCHER, CHASE"
+        ],
+        "page": 3,
+        "line": "16",
+        "raw": "16 \u00b7 1050 \u00b7 1120 \u00b7 OFT 2W \u00b7 FLETCHER, CHASE N, 2ndLt# \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 2W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1120",
+        "end": "",
+        "land": "",
+        "brief": "1050",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BERTRAND",
+            "first": "MILO",
+            "full": "BERTRAND, MILO"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "BERTRAND, MILO"
+        ],
+        "page": 3,
+        "line": "17",
+        "raw": "17 \u00b7 1050 \u00b7 1120 \u00b7 UTD 5W \u00b7 BERTRAND, MILO F, LTJG \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "UTD 5W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1240",
+        "end": "",
+        "land": "",
+        "brief": "1210",
+        "formation": "",
+        "crew": [
+          {
+            "last": "VU",
+            "first": "YANNI",
+            "full": "VU, YANNI"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "VU, YANNI"
+        ],
+        "page": 3,
+        "line": "18",
+        "raw": "18 \u00b7 1210 \u00b7 1240 \u00b7 UTD 4W \u00b7 VU, YANNI H, ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "UTD 4W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1240",
+        "end": "",
+        "land": "",
+        "brief": "1210",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MILTON",
+            "first": "ZACHARY",
+            "full": "MILTON, ZACHARY"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MILTON, ZACHARY"
+        ],
+        "page": 3,
+        "line": "19",
+        "raw": "19 \u00b7 1210 \u00b7 1240 \u00b7 OFT 4W \u00b7 MILTON, ZACHARY , ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 4W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1240",
+        "end": "",
+        "land": "",
+        "brief": "1210",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BLAISDELL",
+            "first": "ZANE",
+            "full": "BLAISDELL, ZANE"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "BLAISDELL, ZANE"
+        ],
+        "page": 3,
+        "line": "20",
+        "raw": "20 \u00b7 1210 \u00b7 1240 \u00b7 OFT 1W \u00b7 BLAISDELL, ZANE S, 2ndLt \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 1W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WHITTAKER",
+            "first": "JOSHUA",
+            "full": "WHITTAKER, JOSHUA"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "WHITTAKER, JOSHUA"
+        ],
+        "page": 3,
+        "line": "21",
+        "raw": "21 \u00b7 1330 \u00b7 1400 \u00b7 OFT 3W \u00b7 WHITTAKER, JOSHUA J, ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 3W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ROBERTSON",
+            "first": "CAMERON",
+            "full": "ROBERTSON, CAMERON"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "ROBERTSON, CAMERON"
+        ],
+        "page": 3,
+        "line": "22",
+        "raw": "22 \u00b7 1330 \u00b7 1400 \u00b7 UTD 3W \u00b7 ROBERTSON, CAMERON N, ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "UTD 3W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MONITTOLA",
+            "first": "MATTA",
+            "full": "MONITTOLA, MATTA"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MONITTOLA, MATTA"
+        ],
+        "page": 3,
+        "line": "23",
+        "raw": "23 \u00b7 1330 \u00b7 1400 \u00b7 UTD 6W \u00b7 MONITTOLA, MATTA , ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "UTD 6W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GANT",
+            "first": "ROBERT",
+            "full": "GANT, ROBERT"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "GANT, ROBERT"
+        ],
+        "page": 3,
+        "line": "24",
+        "raw": "24 \u00b7 1330 \u00b7 1400 \u00b7 OFT 9W \u00b7 GANT, ROBERT H, ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 9W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1520",
+        "end": "",
+        "land": "",
+        "brief": "1450",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WILLIAMS",
+            "first": "MBITI",
+            "full": "WILLIAMS, MBITI"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "WILLIAMS, MBITI"
+        ],
+        "page": 3,
+        "line": "25",
+        "raw": "25 \u00b7 1450 \u00b7 1520 \u00b7 OFT 5W \u00b7 WILLIAMS, MBITI B, ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 5W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1520",
+        "end": "",
+        "land": "",
+        "brief": "1450",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JOSHY",
+            "first": "KEVIN",
+            "full": "JOSHY, KEVIN"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "JOSHY, KEVIN"
+        ],
+        "page": 3,
+        "line": "26",
+        "raw": "26 \u00b7 1450 \u00b7 1520 \u00b7 OFT 8W \u00b7 JOSHY, KEVIN , ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 8W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1640",
+        "end": "",
+        "land": "",
+        "brief": "1610",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WORTHEN",
+            "first": "JESSE",
+            "full": "WORTHEN, JESSE"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "WORTHEN, JESSE"
+        ],
+        "page": 3,
+        "line": "27",
+        "raw": "27 \u00b7 1610 \u00b7 1640 \u00b7 OFT 4W \u00b7 WORTHEN, JESSE A, ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 4W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1640",
+        "end": "",
+        "land": "",
+        "brief": "1610",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PILLONI",
+            "first": "CLAUDIO",
+            "full": "PILLONI, CLAUDIO"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "PILLONI, CLAUDIO"
+        ],
+        "page": 3,
+        "line": "28",
+        "raw": "28 \u00b7 1610 \u00b7 1640 \u00b7 OFT 1W \u00b7 PILLONI, CLAUDIO , ENS \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 1W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1640",
+        "end": "",
+        "land": "",
+        "brief": "1610",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CAVA",
+            "first": "MICHAEL",
+            "full": "CAVA, MICHAEL"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "CAVA, MICHAEL"
+        ],
+        "page": 3,
+        "line": "29",
+        "raw": "29 \u00b7 1610 \u00b7 1640 \u00b7 UTD 7W \u00b7 CAVA, MICHAEL E, 2ndLt \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "UTD 7W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1640",
+        "end": "",
+        "land": "",
+        "brief": "1610",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DONOVAN",
+            "first": "BRANDON",
+            "full": "DONOVAN, BRANDON"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "DONOVAN, BRANDON"
+        ],
+        "page": 3,
+        "line": "30",
+        "raw": "30 \u00b7 1610 \u00b7 1640 \u00b7 OFT 7W \u00b7 DONOVAN, BRANDON T, ENS Ground Events \u00b7 Practice Sim \u00b7 0.0",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "OFT 7W",
+        "solo": false
+      }
+    ]
+  }
 }

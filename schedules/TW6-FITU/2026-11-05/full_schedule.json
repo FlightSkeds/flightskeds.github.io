@@ -174,5 +174,130 @@
       "line_number": 21,
       "text": "INSTRUMENTS REVIEW"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "FAM4390, NA4290",
+        "start": "1000",
+        "end": "1148",
+        "land": "1148",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "POPE",
+            "first": "DANIEL",
+            "full": "POPE, DANIEL"
+          },
+          {
+            "last": "MONTEVILLE",
+            "first": "JOSHUA",
+            "full": "MONTEVILLE, JOSHUA"
+          }
+        ],
+        "instructors": [
+          "POPE, DANIEL"
+        ],
+        "students": [
+          "MONTEVILLE, JOSHUA"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "0800 \u00b7 1000 \u00b7 1148 \u00b7 POPE, DANIEL \u00b7 MONTEVILLE, JOSHUA \u00b7 FAM4390, NA4290 \u00b7 1.8 \u00b7 DD-1801, FAM STAN/NI QUALS",
+        "role": "FAM4390, NA4290",
+        "remarks": "DD-1801, FAM STAN/NI QUALS",
+        "duration": "1.8",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "T6 IProf",
+        "start": "1330",
+        "end": "1500",
+        "land": "1500",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MONTANA",
+            "first": "JOHN",
+            "full": "MONTANA, JOHN"
+          },
+          {
+            "last": "ROBIE",
+            "first": "JACK",
+            "full": "ROBIE, JACK"
+          }
+        ],
+        "instructors": [
+          "MONTANA, JOHN"
+        ],
+        "students": [
+          "ROBIE, JACK"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1200 \u00b7 1330 \u00b7 1500 \u00b7 MONTANA, JOHN \u00b7 ROBIE, JACK \u00b7 T6 IProf \u00b7 1.5 \u00b7 DD-1801, PHOTO EX",
+        "role": "T6 IProf",
+        "remarks": "DD-1801, PHOTO EX",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4201 Events",
+        "start": "1700",
+        "end": "1900",
+        "land": "1900",
+        "brief": "1500",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MARTIN",
+            "first": "PARKER",
+            "full": "MARTIN, PARKER"
+          },
+          {
+            "last": "HYDRAULICS",
+            "first": "FLIGHT",
+            "full": "HYDRAULICS, FLIGHT"
+          },
+          {
+            "last": "ORTIZ",
+            "first": "RICHARD",
+            "full": "ORTIZ, RICHARD"
+          },
+          {
+            "last": "GROUND PERSON CLEVELAND",
+            "first": "JONATHAN",
+            "full": "GROUND PERSON CLEVELAND, JONATHAN"
+          }
+        ],
+        "instructors": [
+          "MARTIN, PARKER",
+          "HYDRAULICS, FLIGHT"
+        ],
+        "students": [
+          "ORTIZ, RICHARD",
+          "GROUND PERSON CLEVELAND, JONATHAN"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1500 No Simulators Time MIL 1200-1600 \u00b7 1700 Scheduled Event FLIGHT INSTRUMENTS \u00b7 1900 CONTROLS, \u00b7 MARTIN, PARKER HYDRAULICS, FLIGHT REVIEW \u00b7 ORTIZ, RICHARD Ground Person CLEVELAND, JONATHAN \u00b7 FAM4201 Events \u00b7 2.0 \u00b7 DD-1801 Instructor Location CARL, JOHN GRIFFITH HALL RM 224",
+        "role": "FAM4201 Events",
+        "remarks": "DD-1801 Instructor Location CARL, JOHN GRIFFITH HALL RM 224",
+        "duration": "2.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

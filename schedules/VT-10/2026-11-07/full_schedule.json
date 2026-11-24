@@ -370,5 +370,537 @@
       "line_number": 27,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "C. UPON COMPLETION  OF FLT NAV4390 OR STK4390 FOR INTERMEDIATE, SEE STUDENT CONTROL ASAP.    D. STUDENTS: COMPLETE EVENT REHEARSAL NAVFLIR, AND SUBMIT NAVFLIR TO SDO. SDOS: SUBMIT GRADESHEET FOR APPLICABLE EVENT IN TSHARP.",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "AM ASDO",
+        "start": "0600",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SLATE",
+            "first": "K",
+            "full": "SLATE, K"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM ASDO \u00b7 Slate, K, ENS \u00b7 0600 \u00b7 1800",
+        "role": "AM ASDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM ASDO",
+        "start": "1800",
+        "end": "0600",
+        "land": "0600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NORAH",
+            "first": "C",
+            "full": "NORAH, C"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM ASDO \u00b7 Norah, C, ENS \u00b7 1800 \u00b7 0600",
+        "role": "PM ASDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER - FLIGHT DISTRO",
+        "start": "0001",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "YOUNG",
+            "first": "S",
+            "full": "YOUNG, S"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER - FLIGHT DISTRO \u00b7 Young, S, ENS \u00b7 0001 \u00b7 2359",
+        "role": "DUTY DRIVER - FLIGHT DISTRO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO",
+        "start": "0001",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MARTIN",
+            "first": "W",
+            "full": "MARTIN, W"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO \u00b7 MARTIN, W, LT \u00b7 0001 \u00b7 2359",
+        "role": "SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4103",
+        "start": "0920",
+        "end": "1102",
+        "land": "1102",
+        "brief": "0720",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCCLANAHAN",
+            "first": "P",
+            "full": "MCCLANAHAN, P"
+          },
+          {
+            "last": "ROEHLING",
+            "first": "D",
+            "full": "ROEHLING, D"
+          }
+        ],
+        "instructors": [
+          "MCCLANAHAN, P"
+        ],
+        "students": [
+          "ROEHLING, D"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0720 \u00b7 0920 \u00b7 1102 \u00b7 KATT \u00b7 McCLANAHAN, P, LT \u00b7 Roehling, D, ENS \u00b7 NAV4103 \u00b7 1.7 \u00b7 DD1801",
+        "role": "NAV4103",
+        "remarks": "DD1801",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4104",
+        "start": "0920",
+        "end": "1102",
+        "land": "1102",
+        "brief": "0720",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WOOD",
+            "first": "C",
+            "full": "WOOD, C"
+          },
+          {
+            "last": "OETTING",
+            "first": "J",
+            "full": "OETTING, J"
+          }
+        ],
+        "instructors": [
+          "WOOD, C"
+        ],
+        "students": [
+          "OETTING, J"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0720 \u00b7 0920 \u00b7 1102 \u00b7 KATT \u00b7 WOOD, C, LT \u00b7 Oetting, J, ENS \u00b7 NAV4104 \u00b7 1.7 \u00b7 DD1801",
+        "role": "NAV4104",
+        "remarks": "DD1801",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "T6 Form Prof",
+        "start": "0700",
+        "end": "0830",
+        "land": "0830",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ROBERTS",
+            "first": "B",
+            "full": "ROBERTS, B"
+          },
+          {
+            "last": "WADDILL",
+            "first": "C",
+            "full": "WADDILL, C"
+          }
+        ],
+        "instructors": [
+          "ROBERTS, B"
+        ],
+        "students": [
+          "WADDILL, C"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "TBD \u00b7 0700 \u00b7 0830 \u00b7 KATT \u00b7 ROBERTS, B, LCDR \u00b7 WADDILL, C, CAPT \u00b7 T6 Form Prof \u00b7 1.5",
+        "role": "T6 Form Prof",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "T6 Form Prof",
+        "start": "0700",
+        "end": "0830",
+        "land": "0830",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "O'CONNOR",
+            "first": "M",
+            "full": "O'CONNOR, M"
+          },
+          {
+            "last": "JUDD",
+            "first": "A",
+            "full": "JUDD, A"
+          }
+        ],
+        "instructors": [
+          "O'CONNOR, M"
+        ],
+        "students": [
+          "JUDD, A"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "TBD \u00b7 0700 \u00b7 0830 \u00b7 KATT \u00b7 O'CONNOR, M, CDR \u00b7 JUDD, A, LCDR \u00b7 T6 Form Prof \u00b7 1.5",
+        "role": "T6 Form Prof",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "T6 Form Prof",
+        "start": "0700",
+        "end": "0830",
+        "land": "0830",
+        "brief": "0530",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DUONG",
+            "first": "Q",
+            "full": "DUONG, Q"
+          },
+          {
+            "last": "SCHUSTER",
+            "first": "R",
+            "full": "SCHUSTER, R"
+          }
+        ],
+        "instructors": [
+          "DUONG, Q"
+        ],
+        "students": [
+          "SCHUSTER, R"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0530 \u00b7 0700 \u00b7 0830 \u00b7 KATT \u00b7 DUONG, Q, LCDR \u00b7 SCHUSTER, R, LCDR \u00b7 T6 Form Prof \u00b7 1.5",
+        "role": "T6 Form Prof",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "T6 Form Prof",
+        "start": "0700",
+        "end": "0830",
+        "land": "0830",
+        "brief": "0530",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ROBIE",
+            "first": "J",
+            "full": "ROBIE, J"
+          },
+          {
+            "last": "MORGAN",
+            "first": "J",
+            "full": "MORGAN, J"
+          }
+        ],
+        "instructors": [
+          "ROBIE, J"
+        ],
+        "students": [
+          "MORGAN, J"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0530 \u00b7 0700 \u00b7 0830 \u00b7 KATT \u00b7 ROBIE, J, CDR \u00b7 MORGAN, J, LT \u00b7 T6 Form Prof \u00b7 1.5",
+        "role": "T6 Form Prof",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4490",
+        "start": "0900",
+        "end": "1030",
+        "land": "1030",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SANBORN",
+            "first": "M",
+            "full": "SANBORN, M"
+          },
+          {
+            "last": "TERAN",
+            "first": "L",
+            "full": "TERAN, L"
+          }
+        ],
+        "instructors": [
+          "SANBORN, M"
+        ],
+        "students": [
+          "TERAN, L"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0700 \u00b7 0900 \u00b7 1030 \u00b7 KATT \u00b7 SANBORN, M, LT \u00b7 Teran, L, ENS \u00b7 STK4490 \u00b7 1.5 \u00b7 DD1801, NOTE A, TAC A",
+        "role": "STK4490",
+        "remarks": "DD1801, NOTE A, TAC A",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4490",
+        "start": "0900",
+        "end": "1030",
+        "land": "1030",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BARRY",
+            "first": "K",
+            "full": "BARRY, K"
+          },
+          {
+            "last": "FADULLON",
+            "first": "I",
+            "full": "FADULLON, I"
+          }
+        ],
+        "instructors": [
+          "BARRY, K"
+        ],
+        "students": [
+          "FADULLON, I"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0700 \u00b7 0900 \u00b7 1030 \u00b7 KATT \u00b7 BARRY, K, LCDR \u00b7 Fadullon, I, ENS \u00b7 STK4490 \u00b7 1.5 \u00b7 DD1801, TAC A",
+        "role": "STK4490",
+        "remarks": "DD1801, TAC A",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4305",
+        "start": "0910",
+        "end": "1040",
+        "land": "1040",
+        "brief": "0710",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HEIN",
+            "first": "A",
+            "full": "HEIN, A"
+          },
+          {
+            "last": "NULL",
+            "first": "C",
+            "full": "NULL, C"
+          }
+        ],
+        "instructors": [
+          "HEIN, A"
+        ],
+        "students": [
+          "NULL, C"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0710 \u00b7 0910 \u00b7 1040 \u00b7 KATT \u00b7 HEIN, A, LT \u00b7 Null, C, ENS \u00b7 STK4305 \u00b7 1.5 \u00b7 DD1801, NOTE A, TAC B",
+        "role": "STK4305",
+        "remarks": "DD1801, NOTE A, TAC B",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4305",
+        "start": "0910",
+        "end": "1040",
+        "land": "1040",
+        "brief": "0710",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FITZWATER",
+            "first": "J",
+            "full": "FITZWATER, J"
+          },
+          {
+            "last": "BARLOW",
+            "first": "K",
+            "full": "BARLOW, K"
+          }
+        ],
+        "instructors": [
+          "FITZWATER, J"
+        ],
+        "students": [
+          "BARLOW, K"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0710 \u00b7 0910 \u00b7 1040 \u00b7 KATT \u00b7 FITZWATER, J, LT \u00b7 Barlow, K, ENS \u00b7 STK4305 \u00b7 1.5 \u00b7 DD1801, TAC B",
+        "role": "STK4305",
+        "remarks": "DD1801, TAC B",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4307",
+        "start": "0910",
+        "end": "1040",
+        "land": "1040",
+        "brief": "0710",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SYDLOWSKI",
+            "first": "J",
+            "full": "SYDLOWSKI, J"
+          },
+          {
+            "last": "SHEETS",
+            "first": "J",
+            "full": "SHEETS, J"
+          }
+        ],
+        "instructors": [
+          "SYDLOWSKI, J"
+        ],
+        "students": [
+          "SHEETS, J"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0710 \u00b7 0910 \u00b7 1040 \u00b7 KATT \u00b7 SYDLOWSKI, J, LT \u00b7 Sheets, J, ENS \u00b7 STK4307 \u00b7 1.5 \u00b7 DD1801, NOTE A, TAC C",
+        "role": "STK4307",
+        "remarks": "DD1801, NOTE A, TAC C",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4307",
+        "start": "0910",
+        "end": "1040",
+        "land": "1040",
+        "brief": "0710",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCWILLIAMS",
+            "first": "C",
+            "full": "MCWILLIAMS, C"
+          },
+          {
+            "last": "GOLDEN",
+            "first": "F",
+            "full": "GOLDEN, F"
+          }
+        ],
+        "instructors": [
+          "MCWILLIAMS, C"
+        ],
+        "students": [
+          "GOLDEN, F"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0710 \u00b7 0910 \u00b7 1040 \u00b7 KATT \u00b7 MCWILLIAMS, C, LT Simulator (Sim \u00b7 Golden, F, ENS Event) Schedule \u00b7 STK4307 \u00b7 1.5 \u00b7 DD1801, TAC C",
+        "role": "STK4307",
+        "remarks": "DD1801, TAC C",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

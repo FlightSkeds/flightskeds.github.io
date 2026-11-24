@@ -530,5 +530,612 @@
       "line_number": 5,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "FDO",
+        "start": "0700",
+        "end": "0659",
+        "land": "0659",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HUNG",
+            "first": "C",
+            "full": "HUNG, C"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "FDO \u00b7 LT HUNG C \u00b7 0700 \u00b7 0659",
+        "role": "FDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER",
+        "start": "0730",
+        "end": "0729",
+        "land": "0729",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NOFFSINGER",
+            "first": "B",
+            "full": "NOFFSINGER, B"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER \u00b7 1stLt NOFFSINGER B \u00b7 0730 \u00b7 0729",
+        "role": "DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM SDO",
+        "start": "0700",
+        "end": "1900",
+        "land": "1900",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORRIS",
+            "first": "C",
+            "full": "MORRIS, C"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM SDO \u00b7 LTJG MORRIS C \u00b7 0700 \u00b7 1900",
+        "role": "AM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM SDO",
+        "start": "1900",
+        "end": "0700",
+        "land": "0700",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GERHARDT",
+            "first": "T",
+            "full": "GERHARDT, T"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM SDO \u00b7 ENS GERHARDT T \u00b7 1900 \u00b7 0700",
+        "role": "PM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FORM, QIP- Concurrent",
+        "start": "0830",
+        "end": "1030",
+        "land": "1030",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CHALFANT",
+            "first": "B",
+            "full": "CHALFANT, B"
+          },
+          {
+            "last": "BARROWCLOUGH",
+            "first": "M",
+            "full": "BARROWCLOUGH, M"
+          }
+        ],
+        "instructors": [
+          "CHALFANT, B"
+        ],
+        "students": [
+          "BARROWCLOUGH, M"
+        ],
+        "page": 2,
+        "line": "T10-1",
+        "raw": "T10-1 \u00b7 0700 \u00b7 0830 \u00b7 1030 \u00b7 KNDZ \u00b7 KNDZ \u00b7 Maj CHALFANT B \u00b7 LT BARROWCLOUGH M \u00b7 FORM, QIP- Concurrent \u00b7 2.0 \u00b7 AIRSHOW AIRCRAFT; DIV LEAD W/ GATES, ACHESINSKI, SCINTO",
+        "role": "FORM, QIP- Concurrent",
+        "remarks": "AIRSHOW AIRCRAFT; DIV LEAD W/ GATES, ACHESINSKI, SCINTO",
+        "duration": "2.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FORM, QIP- Concurrent",
+        "start": "0830",
+        "end": "1030",
+        "land": "1030",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GATES",
+            "first": "L",
+            "full": "GATES, L"
+          },
+          {
+            "last": "BOTTERBRODT",
+            "first": "G",
+            "full": "BOTTERBRODT, G"
+          }
+        ],
+        "instructors": [
+          "GATES, L"
+        ],
+        "students": [
+          "BOTTERBRODT, G"
+        ],
+        "page": 2,
+        "line": "T14-1",
+        "raw": "T14-1 \u00b7 0700 \u00b7 0830 \u00b7 1030 \u00b7 KNDZ \u00b7 KNDZ \u00b7 Capt GATES L \u00b7 LT BOTTERBRODT G \u00b7 FORM, QIP- Concurrent \u00b7 2.0 \u00b7 AIRSHOW AIRCRAFT; FORM W/ CHALFANT, ACHESINSKI, SCINTO",
+        "role": "FORM, QIP- Concurrent",
+        "remarks": "AIRSHOW AIRCRAFT; FORM W/ CHALFANT, ACHESINSKI, SCINTO",
+        "duration": "2.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FORM, QIP- Concurrent",
+        "start": "0845",
+        "end": "1045",
+        "land": "1045",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ACHESINSKI",
+            "first": "J",
+            "full": "ACHESINSKI, J"
+          },
+          {
+            "last": "OPIZZO",
+            "first": "M",
+            "full": "OPIZZO, M"
+          }
+        ],
+        "instructors": [
+          "ACHESINSKI, J"
+        ],
+        "students": [
+          "OPIZZO, M"
+        ],
+        "page": 2,
+        "line": "T18-1",
+        "raw": "T18-1 \u00b7 0700 \u00b7 0845 \u00b7 1045 \u00b7 KNDZ \u00b7 KNDZ \u00b7 LT ACHESINSKI J \u00b7 LT OPIZZO M \u00b7 FORM, QIP- Concurrent \u00b7 2.0 \u00b7 AIRSHOW AIRCRAFT; FORM W/ CHALFANT, GATES, SCINTO",
+        "role": "FORM, QIP- Concurrent",
+        "remarks": "AIRSHOW AIRCRAFT; FORM W/ CHALFANT, GATES, SCINTO",
+        "duration": "2.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FORM, QIP- Concurrent",
+        "start": "0845",
+        "end": "1045",
+        "land": "1045",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ZLOGAR A SCHEDULE",
+            "first": "",
+            "full": "ZLOGAR A SCHEDULE"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "ZLOGAR A SCHEDULE"
+        ],
+        "page": 2,
+        "line": "T22-1",
+        "raw": "T22-1 \u00b7 0700 \u00b7 0845 \u00b7 1045 \u00b7 KNDZ \u00b7 KNDZ \u00b7 Maj SCINTO K Simulator (Sim Event) \u00b7 Capt ZLOGAR A Schedule \u00b7 FORM, QIP- Concurrent \u00b7 2.0 \u00b7 AIRSHOW AIRCRAFT; FORM W/ CHALFANT, GATES, ACHESINSKI",
+        "role": "FORM, QIP- Concurrent",
+        "remarks": "AIRSHOW AIRCRAFT; FORM W/ CHALFANT, GATES, ACHESINSKI",
+        "duration": "2.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TRF3001R",
+        "start": "0730",
+        "end": "",
+        "land": "",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ASHFORD",
+            "first": "R",
+            "full": "ASHFORD, R"
+          },
+          {
+            "last": "MARTIN",
+            "first": "C",
+            "full": "MARTIN, C"
+          }
+        ],
+        "instructors": [
+          "ASHFORD, R"
+        ],
+        "students": [
+          "MARTIN, C"
+        ],
+        "page": 2,
+        "line": "L7U3-2",
+        "raw": "L7U3-2 \u00b7 0700 \u00b7 0730 \u00b7 L7U3 \u00b7 CIV ASHFORD R \u00b7 1stLt MARTIN C \u00b7 TRF3001R \u00b7 1.5",
+        "role": "TRF3001R",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U3",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TRF3001A",
+        "start": "0730",
+        "end": "",
+        "land": "",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ARMSTRONG",
+            "first": "W",
+            "full": "ARMSTRONG, W"
+          },
+          {
+            "last": "BOBREK",
+            "first": "E",
+            "full": "BOBREK, E"
+          }
+        ],
+        "instructors": [
+          "ARMSTRONG, W"
+        ],
+        "students": [
+          "BOBREK, E"
+        ],
+        "page": 2,
+        "line": "L7U5-2",
+        "raw": "L7U5-2 \u00b7 0700 \u00b7 0730 \u00b7 L7U5 \u00b7 CIV ARMSTRONG W \u00b7 LTJG BOBREK E \u00b7 TRF3001A \u00b7 1.5",
+        "role": "TRF3001A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U5",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY3001A",
+        "start": "0900",
+        "end": "",
+        "land": "",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DIDIER",
+            "first": "D",
+            "full": "DIDIER, D"
+          },
+          {
+            "last": "REGIS",
+            "first": "M",
+            "full": "REGIS, M"
+          },
+          {
+            "last": "ASHBY",
+            "first": "L",
+            "full": "ASHBY, L"
+          }
+        ],
+        "instructors": [
+          "DIDIER, D",
+          "REGIS, M"
+        ],
+        "students": [
+          "ASHBY, L"
+        ],
+        "page": 2,
+        "line": "L7U6-3",
+        "raw": "L7U6-3 \u00b7 0830 \u00b7 0900 \u00b7 L7U6 \u00b7 CIV DIDIER D LCDR REGIS M \u00b7 1stLt ASHBY L \u00b7 DAY3001A \u00b7 1.5 \u00b7 OPT W/U",
+        "role": "DAY3001A",
+        "remarks": "OPT W/U",
+        "duration": "1.5",
+        "device": "L7U6",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY2003A",
+        "start": "0900",
+        "end": "",
+        "land": "",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LOEB",
+            "first": "J",
+            "full": "LOEB, J"
+          },
+          {
+            "last": "HARTNETT",
+            "first": "K",
+            "full": "HARTNETT, K"
+          }
+        ],
+        "instructors": [
+          "LOEB, J"
+        ],
+        "students": [
+          "HARTNETT, K"
+        ],
+        "page": 2,
+        "line": "L6U3-3",
+        "raw": "L6U3-3 \u00b7 0830 \u00b7 0900 \u00b7 L6U3 \u00b7 CIV LOEB J \u00b7 LTJG HARTNETT K \u00b7 DAY2003A \u00b7 1.5",
+        "role": "DAY2003A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L6U3",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY3202A",
+        "start": "1030",
+        "end": "",
+        "land": "",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HASKINS",
+            "first": "P",
+            "full": "HASKINS, P"
+          },
+          {
+            "last": "DURMUS",
+            "first": "K",
+            "full": "DURMUS, K"
+          }
+        ],
+        "instructors": [
+          "HASKINS, P"
+        ],
+        "students": [
+          "DURMUS, K"
+        ],
+        "page": 2,
+        "line": "L7U1-4",
+        "raw": "L7U1-4 \u00b7 1000 \u00b7 1030 \u00b7 L7U1 \u00b7 CIV HASKINS P \u00b7 LTJG DURMUS K \u00b7 DAY3202A \u00b7 1.5",
+        "role": "DAY3202A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U1",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY3001A",
+        "start": "1030",
+        "end": "",
+        "land": "",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "COUREY",
+            "first": "J",
+            "full": "COUREY, J"
+          },
+          {
+            "last": "REGIS",
+            "first": "M",
+            "full": "REGIS, M"
+          },
+          {
+            "last": "HEBL",
+            "first": "R",
+            "full": "HEBL, R"
+          }
+        ],
+        "instructors": [
+          "COUREY, J",
+          "REGIS, M"
+        ],
+        "students": [
+          "HEBL, R"
+        ],
+        "page": 2,
+        "line": "L7U6-4",
+        "raw": "L7U6-4 \u00b7 0830 \u00b7 1030 \u00b7 L7U6 \u00b7 CIV COUREY J LCDR REGIS M \u00b7 LTJG HEBL R \u00b7 DAY3001A \u00b7 1.5 \u00b7 OPT W/U",
+        "role": "DAY3001A",
+        "remarks": "OPT W/U",
+        "duration": "1.5",
+        "device": "L7U6",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY3401A",
+        "start": "1200",
+        "end": "",
+        "land": "",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DIDIER",
+            "first": "D",
+            "full": "DIDIER, D"
+          },
+          {
+            "last": "WEAVER",
+            "first": "T",
+            "full": "WEAVER, T"
+          }
+        ],
+        "instructors": [
+          "DIDIER, D"
+        ],
+        "students": [
+          "WEAVER, T"
+        ],
+        "page": 2,
+        "line": "L7U9-5",
+        "raw": "L7U9-5 \u00b7 1130 \u00b7 1200 \u00b7 L7U9 \u00b7 CIV DIDIER D \u00b7 LTJG WEAVER T \u00b7 DAY3401A \u00b7 1.5",
+        "role": "DAY3401A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U9",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SAR3001A",
+        "start": "1330",
+        "end": "",
+        "land": "",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ASHFORD",
+            "first": "R",
+            "full": "ASHFORD, R"
+          },
+          {
+            "last": "TRULL",
+            "first": "B",
+            "full": "TRULL, B"
+          }
+        ],
+        "instructors": [
+          "ASHFORD, R"
+        ],
+        "students": [
+          "TRULL, B"
+        ],
+        "page": 2,
+        "line": "L7U3-6",
+        "raw": "L7U3-6 \u00b7 1300 \u00b7 1330 \u00b7 L7U3 \u00b7 CIV ASHFORD R \u00b7 1stLt TRULL B \u00b7 SAR3001A \u00b7 1.5",
+        "role": "SAR3001A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U3",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TRF3101A",
+        "start": "1330",
+        "end": "",
+        "land": "",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "COUREY",
+            "first": "J",
+            "full": "COUREY, J"
+          },
+          {
+            "last": "LAVIN",
+            "first": "G",
+            "full": "LAVIN, G"
+          }
+        ],
+        "instructors": [
+          "COUREY, J"
+        ],
+        "students": [
+          "LAVIN, G"
+        ],
+        "page": 3,
+        "line": "L7U2-6",
+        "raw": "L7U2-6 \u00b7 1300 \u00b7 1330 \u00b7 L7U2 \u00b7 CIV COUREY J \u00b7 LTJG LAVIN G \u00b7 TRF3101A \u00b7 1.5",
+        "role": "TRF3101A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U2",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY3401A",
+        "start": "1500",
+        "end": "",
+        "land": "",
+        "brief": "1430",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DIDIER",
+            "first": "D",
+            "full": "DIDIER, D"
+          },
+          {
+            "last": "BRACKEN H GROUND EVENTS",
+            "first": "",
+            "full": "BRACKEN H GROUND EVENTS"
+          }
+        ],
+        "instructors": [
+          "DIDIER, D"
+        ],
+        "students": [
+          "BRACKEN H GROUND EVENTS"
+        ],
+        "page": 3,
+        "line": "L7U12-7",
+        "raw": "L7U12-7 \u00b7 1430 \u00b7 1500 \u00b7 L7U12 \u00b7 CIV DIDIER D \u00b7 LTJG BRACKEN H Ground Events \u00b7 DAY3401A \u00b7 1.5",
+        "role": "DAY3401A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U12",
+        "solo": false
+      }
+    ]
+  }
 }

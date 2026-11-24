@@ -202,5 +202,53 @@
       "line_number": 30,
       "text": "SCHEDULES OFFICER OPERATIONS OFFICER COMMANDING OFFICER"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "    Sunday, 22-Nov-2026  ",
+    "events": [
+      {
+        "section": "Simulator",
+        "code": "% ILLUM: 92%",
+        "start": "0621",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SUNRISE: \u00b7 0621 \u00b7 MOONRISE: 1509 \u00b7 % ILLUM: 92% \u00b7 JULIAN DATE: 6326",
+        "role": "% ILLUM: 92%",
+        "remarks": "JULIAN DATE: 6326",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SYL SYL",
+        "start": "1650",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SUNSET: TOTAL TOTAL SDO \u00b7 1650 FLY EVENTS: SIM EVENTS: \u00b7 FERNANDEZ, \u00b7 MOONSET: 0406 TOTAL FLY HRS: TOTAL SIM HRS: JACOB \u00b7 SYL FLY EVENTS: SYL SIM EVENTS: 0730 Simulator Events \u00b7 SYL SYL \u00b7 FLY HRS: 0.0 SIM HRS: 0.0 0729",
+        "role": "SYL SYL",
+        "remarks": "FLY HRS: 0.0 SIM HRS: 0.0 0729",
+        "duration": "",
+        "device": "FERNANDEZ,",
+        "solo": false
+      }
+    ]
+  }
 }

@@ -402,5 +402,65 @@
       "line_number": 15,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER",
+        "start": "0730",
+        "end": "0729",
+        "land": "0729",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHAW",
+            "first": "S",
+            "full": "SHAW, S"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER \u00b7 ENS SHAW S \u00b7 0730 \u00b7 0729",
+        "role": "DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO",
+        "start": "0700",
+        "end": "0659",
+        "land": "0659",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NEIDINGER",
+            "first": "R",
+            "full": "NEIDINGER, R"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO \u00b7 1stLt NEIDINGER R \u00b7 0700 \u00b7 0659",
+        "role": "SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

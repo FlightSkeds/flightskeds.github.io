@@ -633,5 +633,318 @@
       "line_number": 23,
       "text": "Training (ART)"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "        Saturday,   07-Nov-2026        0800-1600  Milford(FAM4202),     Milford J, ENS, Plaehn A, ENS, Swanson R, ENS   Phone Muster        Plaehn(FAM4202),               0800-1600   Aircrew  Rotational        BLDG 84 Room 167  Attewell D, LT ",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "ODO (AM)",
+        "start": "0700",
+        "end": "2300",
+        "land": "2300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCCRILLIS",
+            "first": "P",
+            "full": "MCCRILLIS, P"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "ODO (AM) \u00b7 McCrillis P, LT \u00b7 0700 \u00b7 2300",
+        "role": "ODO (AM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER (AM)",
+        "start": "0630",
+        "end": "1530",
+        "land": "1530",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KEDROWSKI",
+            "first": "T",
+            "full": "KEDROWSKI, T"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER (AM) \u00b7 Kedrowski T, ENS \u00b7 0630 \u00b7 1530",
+        "role": "DUTY DRIVER (AM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER (PM)",
+        "start": "1530",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GIORGETTA",
+            "first": "R",
+            "full": "GIORGETTA, R"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER (PM) \u00b7 Giorgetta R, ENS \u00b7 1530 \u00b7 2359",
+        "role": "DUTY DRIVER (PM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AODO(AM)-WEEKEND",
+        "start": "0630",
+        "end": "1530",
+        "land": "1530",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DAGGETT",
+            "first": "B",
+            "full": "DAGGETT, B"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AODO(AM)-WEEKEND \u00b7 Daggett B, ENS \u00b7 0630 \u00b7 1530",
+        "role": "AODO(AM)-WEEKEND",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AODO(PM)-WEEKEND",
+        "start": "1530",
+        "end": "2300",
+        "land": "2300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ELLIOTT",
+            "first": "S",
+            "full": "ELLIOTT, S"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AODO(PM)-WEEKEND \u00b7 Elliott S, ENS \u00b7 1530 \u00b7 2300",
+        "role": "AODO(PM)-WEEKEND",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4890",
+        "start": "1003",
+        "end": "1139",
+        "land": "1139",
+        "brief": "0818",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HACK",
+            "first": "R",
+            "full": "HACK, R"
+          },
+          {
+            "last": "SIRIANNO",
+            "first": "M",
+            "full": "SIRIANNO, M"
+          }
+        ],
+        "instructors": [
+          "HACK, R"
+        ],
+        "students": [
+          "SIRIANNO, M"
+        ],
+        "page": 2,
+        "line": "069-A",
+        "raw": "069-A \u00b7 0818 \u00b7 1003 \u00b7 1139 \u00b7 Hack R, LT \u00b7 Sirianno M, Capt \u00b7 C4890 \u00b7 1 B 1 \u00b7 KCRP - IP UPGRADE O/I",
+        "role": "C4890",
+        "remarks": "KCRP - IP UPGRADE O/I",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "N4101",
+        "start": "1051",
+        "end": "1227",
+        "land": "1227",
+        "brief": "0906",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STOTTLEMYRE",
+            "first": "J",
+            "full": "STOTTLEMYRE, J"
+          },
+          {
+            "last": "GIBBO",
+            "first": "T",
+            "full": "GIBBO, T"
+          }
+        ],
+        "instructors": [
+          "STOTTLEMYRE, J"
+        ],
+        "students": [
+          "GIBBO, T"
+        ],
+        "page": 2,
+        "line": "085-A",
+        "raw": "085-A \u00b7 0906 \u00b7 1051 \u00b7 1227 \u00b7 Stottlemyre J, LCDR \u00b7 Gibbo T, ENS \u00b7 N4101 \u00b7 1 D 1 \u00b7 KCRP - TOT",
+        "role": "N4101",
+        "remarks": "KCRP - TOT",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Q4390",
+        "start": "1403",
+        "end": "1551",
+        "land": "1551",
+        "brief": "1218",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HACK",
+            "first": "R",
+            "full": "HACK, R"
+          },
+          {
+            "last": "SIRIANNO",
+            "first": "M",
+            "full": "SIRIANNO, M"
+          }
+        ],
+        "instructors": [
+          "HACK, R"
+        ],
+        "students": [
+          "SIRIANNO, M"
+        ],
+        "page": 2,
+        "line": "069-B",
+        "raw": "069-B \u00b7 1218 \u00b7 1403 \u00b7 1551 \u00b7 Hack R, LT \u00b7 Sirianno M, Capt \u00b7 Q4390 \u00b7 2 L 4 \u00b7 KCRP - IP UPGRADE RTN",
+        "role": "Q4390",
+        "remarks": "KCRP - IP UPGRADE RTN",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4202",
+        "start": "1451",
+        "end": "1627",
+        "land": "1627",
+        "brief": "1306",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STOTTLEMYRE",
+            "first": "J",
+            "full": "STOTTLEMYRE, J"
+          },
+          {
+            "last": "GIBBO",
+            "first": "T",
+            "full": "GIBBO, T"
+          }
+        ],
+        "instructors": [
+          "STOTTLEMYRE, J"
+        ],
+        "students": [
+          "GIBBO, T"
+        ],
+        "page": 2,
+        "line": "085-B",
+        "raw": "085-B \u00b7 1306 \u00b7 1451 \u00b7 1627 \u00b7 Stottlemyre J, LCDR \u00b7 Gibbo T, ENS \u00b7 I4202 \u00b7 1 D 2 \u00b7 KCRP - TOT",
+        "role": "I4202",
+        "remarks": "KCRP - TOT",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4203",
+        "start": "1851",
+        "end": "2027",
+        "land": "2027",
+        "brief": "1706",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STOTTLEMYRE",
+            "first": "J",
+            "full": "STOTTLEMYRE, J"
+          },
+          {
+            "last": "GIBBO",
+            "first": "T",
+            "full": "GIBBO, T"
+          }
+        ],
+        "instructors": [
+          "STOTTLEMYRE, J"
+        ],
+        "students": [
+          "GIBBO, T"
+        ],
+        "page": 2,
+        "line": "085-C *All flight",
+        "raw": "085-C *All flight \u00b7 1706 sorties \u00b7 1851 are \u00b7 conducted \u00b7 2027 \u00b7 Stottlemyre J, LCDR in a T-6B aircraft. VT-28 \u00b7 Saturday, \u00b7 Gibbo T, ENS SIM SCHEDULE 07-Nov-2026 \u00b7 I4203 \u00b7 1 D 2 \u00b7 KCRP - TOT RTN",
+        "role": "I4203",
+        "remarks": "KCRP - TOT RTN",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

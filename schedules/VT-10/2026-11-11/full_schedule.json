@@ -321,5 +321,143 @@
       "line_number": 16,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "C. UPON COMPLETION  OF FLT NAV4390 OR STK4390 FOR INTERMEDIATE, SEE STUDENT CONTROL ASAP.    D. STUDENTS: COMPLETE EVENT REHEARSAL NAVFLIR, AND SUBMIT NAVFLIR TO SDO. SDOS: SUBMIT GRADESHEET FOR APPLICABLE EVENT IN TSHARP.",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "AM ASDO",
+        "start": "0600",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BAER",
+            "first": "S",
+            "full": "BAER, S"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM ASDO \u00b7 Baer, S, ENS \u00b7 0600 \u00b7 1800",
+        "role": "AM ASDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM ASDO",
+        "start": "1800",
+        "end": "0600",
+        "land": "0600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FADULLON",
+            "first": "I",
+            "full": "FADULLON, I"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM ASDO \u00b7 Fadullon, I, ENS \u00b7 1800 \u00b7 0600",
+        "role": "PM ASDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "T-6 SCHEDULER",
+        "start": "0730",
+        "end": "1600",
+        "land": "1600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAHAN",
+            "first": "T",
+            "full": "MAHAN, T"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "T-6 SCHEDULER \u00b7 MAHAN, T, LT \u00b7 0730 \u00b7 1600",
+        "role": "T-6 SCHEDULER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER - FLIGHT DISTRO",
+        "start": "0001",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MELVIN",
+            "first": "Z",
+            "full": "MELVIN, Z"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER - FLIGHT DISTRO \u00b7 Melvin, Z, ENS \u00b7 0001 \u00b7 2359",
+        "role": "DUTY DRIVER - FLIGHT DISTRO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO",
+        "start": "0001",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WOOD",
+            "first": "C",
+            "full": "WOOD, C"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO \u00b7 WOOD, C, LT \u00b7 0001 \u00b7 2359",
+        "role": "SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

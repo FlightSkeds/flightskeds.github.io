@@ -599,5 +599,464 @@
       "line_number": 33,
       "text": "JOSEPH#, RICO, DAVID, AMBROGGIO, GIULIA"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "CDO",
+        "start": "0800",
+        "end": "0800",
+        "land": "0800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCGEE",
+            "first": "BYRON",
+            "full": "MCGEE, BYRON"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "CDO \u00b7 MCGEE, BYRON \u00b7 0800 \u00b7 0800",
+        "role": "CDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO",
+        "start": "0800",
+        "end": "0800",
+        "land": "0800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NEWMAN",
+            "first": "DAVID",
+            "full": "NEWMAN, DAVID"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO \u00b7 NEWMAN, DAVID \u00b7 0800 \u00b7 0800",
+        "role": "SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SUPER",
+        "start": "0800",
+        "end": "0759",
+        "land": "0759",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JENKOT",
+            "first": "JAMES",
+            "full": "JENKOT, JAMES"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SUPER \u00b7 JENKOT, JAMES \u00b7 0800 \u00b7 0759",
+        "role": "SUPER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER",
+        "start": "0800",
+        "end": "2000",
+        "land": "2000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LAMBERT",
+            "first": "MILLER",
+            "full": "LAMBERT, MILLER"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER \u00b7 LAMBERT, MILLER# \u00b7 0800 \u00b7 2000",
+        "role": "DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4490, C4890, Q4390",
+        "start": "0701",
+        "end": "0901",
+        "land": "0901",
+        "brief": "0516",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCFANN",
+            "first": "LOGAN",
+            "full": "MCFANN, LOGAN"
+          },
+          {
+            "last": "DOUGLAS",
+            "first": "SAMUEL",
+            "full": "DOUGLAS, SAMUEL"
+          }
+        ],
+        "instructors": [
+          "MCFANN, LOGAN"
+        ],
+        "students": [
+          "DOUGLAS, SAMUEL"
+        ],
+        "page": 3,
+        "line": "1",
+        "raw": "1 \u00b7 0516 \u00b7 0701 \u00b7 0901 \u00b7 MCFANN, LOGAN# \u00b7 DOUGLAS, SAMUEL# \u00b7 2L41B11 B1 \u00b7 C4490, C4890, Q4390 \u00b7 2.0 \u00b7 KPNS; 2X O/I; CONTACT IP FOR BRIEF TIME",
+        "role": "C4490, C4890, Q4390",
+        "remarks": "KPNS; 2X O/I; CONTACT IP FOR BRIEF TIME",
+        "duration": "2.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4702",
+        "start": "0704",
+        "end": "0846",
+        "land": "0846",
+        "brief": "0519",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CAMPBELL",
+            "first": "CHRISTOPHER",
+            "full": "CAMPBELL, CHRISTOPHER"
+          },
+          {
+            "last": "TINGLE",
+            "first": "ERIC",
+            "full": "TINGLE, ERIC"
+          }
+        ],
+        "instructors": [
+          "CAMPBELL, CHRISTOPHER"
+        ],
+        "students": [
+          "TINGLE, ERIC"
+        ],
+        "page": 3,
+        "line": "2",
+        "raw": "2 \u00b7 0519 \u00b7 0704 \u00b7 0846 \u00b7 CAMPBELL, CHRISTOPHER# \u00b7 TINGLE, ERIC# \u00b7 1D1 \u00b7 FAM4702 \u00b7 1.7 \u00b7 KPNS; 3X; 2X O/I TO 1X; CONTACT IP FOR BRIEF TIME",
+        "role": "FAM4702",
+        "remarks": "KPNS; 3X; 2X O/I TO 1X; CONTACT IP FOR BRIEF TIME",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4290",
+        "start": "1101",
+        "end": "1237",
+        "land": "1237",
+        "brief": "0916",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCFANN",
+            "first": "LOGAN",
+            "full": "MCFANN, LOGAN"
+          },
+          {
+            "last": "DOUGLAS",
+            "first": "SAMUEL",
+            "full": "DOUGLAS, SAMUEL"
+          }
+        ],
+        "instructors": [
+          "MCFANN, LOGAN"
+        ],
+        "students": [
+          "DOUGLAS, SAMUEL"
+        ],
+        "page": 3,
+        "line": "3",
+        "raw": "3 \u00b7 0916 \u00b7 1101 \u00b7 1237 \u00b7 MCFANN, LOGAN# \u00b7 DOUGLAS, SAMUEL# \u00b7 1B2 \u00b7 I4290 \u00b7 1.6",
+        "role": "I4290",
+        "remarks": "",
+        "duration": "1.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4703",
+        "start": "1104",
+        "end": "1246",
+        "land": "1246",
+        "brief": "0919",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CAMPBELL",
+            "first": "CHRISTOPHER",
+            "full": "CAMPBELL, CHRISTOPHER"
+          },
+          {
+            "last": "TINGLE",
+            "first": "ERIC",
+            "full": "TINGLE, ERIC"
+          }
+        ],
+        "instructors": [
+          "CAMPBELL, CHRISTOPHER"
+        ],
+        "students": [
+          "TINGLE, ERIC"
+        ],
+        "page": 3,
+        "line": "4",
+        "raw": "4 \u00b7 0919 \u00b7 1104 \u00b7 1246 \u00b7 CAMPBELL, CHRISTOPHER# \u00b7 TINGLE, ERIC# \u00b7 1D1 \u00b7 FAM4703 \u00b7 1.7",
+        "role": "FAM4703",
+        "remarks": "",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4703",
+        "start": "1504",
+        "end": "1646",
+        "land": "1646",
+        "brief": "1319",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CAMPBELL",
+            "first": "CHRISTOPHER",
+            "full": "CAMPBELL, CHRISTOPHER"
+          },
+          {
+            "last": "MURPHY",
+            "first": "RENNY",
+            "full": "MURPHY, RENNY"
+          }
+        ],
+        "instructors": [
+          "CAMPBELL, CHRISTOPHER"
+        ],
+        "students": [
+          "MURPHY, RENNY"
+        ],
+        "page": 3,
+        "line": "5",
+        "raw": "5 \u00b7 1319 \u00b7 1504 \u00b7 1646 \u00b7 CAMPBELL, CHRISTOPHER# \u00b7 MURPHY, RENNY Simulator (Sim \u00b7 1D1 Event) Schedule \u00b7 FAM4703 \u00b7 1.7 \u00b7 KPNS; CONTACT IP FOR BRIEF TIME",
+        "role": "FAM4703",
+        "remarks": "KPNS; CONTACT IP FOR BRIEF TIME",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "AWAITING FAM 0",
+        "start": "0800",
+        "end": "1000",
+        "land": "1000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BARGREN",
+            "first": "BRADY",
+            "full": "BARGREN, BRADY"
+          },
+          {
+            "last": "BORSHARD",
+            "first": "CONNOR",
+            "full": "BORSHARD, CONNOR"
+          },
+          {
+            "last": "DEAGAN",
+            "first": "JOSEPH",
+            "full": "DEAGAN, JOSEPH"
+          },
+          {
+            "last": "TOLLISON",
+            "first": "BENJAMIN",
+            "full": "TOLLISON, BENJAMIN"
+          },
+          {
+            "last": "RUSH",
+            "first": "WILLIAM",
+            "full": "RUSH, WILLIAM"
+          },
+          {
+            "last": "LAMBERT",
+            "first": "MILLER",
+            "full": "LAMBERT, MILLER"
+          },
+          {
+            "last": "GRAVE DE PERALTA",
+            "first": "KELLEN",
+            "full": "GRAVE DE PERALTA, KELLEN"
+          },
+          {
+            "last": "NELSON",
+            "first": "ROBERT",
+            "full": "NELSON, ROBERT"
+          },
+          {
+            "last": "PHAN",
+            "first": "ANTHONY",
+            "full": "PHAN, ANTHONY"
+          },
+          {
+            "last": "TATE",
+            "first": "LUKE",
+            "full": "TATE, LUKE"
+          },
+          {
+            "last": "CARL",
+            "first": "JUSTIN",
+            "full": "CARL, JUSTIN"
+          },
+          {
+            "last": "BRIGMAN",
+            "first": "AUSTIN",
+            "full": "BRIGMAN, AUSTIN"
+          },
+          {
+            "last": "GUILLAUME",
+            "first": "JACQUES",
+            "full": "GUILLAUME, JACQUES"
+          },
+          {
+            "last": "DEBOLT",
+            "first": "JACKSON",
+            "full": "DEBOLT, JACKSON"
+          },
+          {
+            "last": "GIBSON",
+            "first": "KADEN",
+            "full": "GIBSON, KADEN"
+          },
+          {
+            "last": "GALAT",
+            "first": "JARED",
+            "full": "GALAT, JARED"
+          },
+          {
+            "last": "LIESEN",
+            "first": "VICTORIA",
+            "full": "LIESEN, VICTORIA"
+          },
+          {
+            "last": "MANN",
+            "first": "MITCHELL",
+            "full": "MANN, MITCHELL"
+          },
+          {
+            "last": "GRIFFIN",
+            "first": "JAMES",
+            "full": "GRIFFIN, JAMES"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0800-1000 \u00b7 AWAITING FAM 0 \u00b7 BARGREN, BRADY#, BORSHARD, CONNOR#, DEAGAN, JOSEPH#, TOLLISON, BENJAMIN, RUSH, WILLIAM#, LAMBERT, MILLER#, GRAVE DE PERALTA, KELLEN, NELSON, ROBERT, PHAN, ANTHONY, TATE, LUKE, CARL, JUSTIN, BRIGMAN, AUSTIN, GUILLAUME, JACQUES, DEBOLT, JACKSON, GIBSON, KADEN, GALAT, JARED, LIESEN, VICTORIA, MANN, MITCHELL, GRIFFIN, JAMES",
+        "role": "AWAITING FAM 0",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "ADMIN HOLD",
+        "start": "0800",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BARGREN",
+            "first": "BRADY",
+            "full": "BARGREN, BRADY"
+          },
+          {
+            "last": "BORSHARD",
+            "first": "CONNOR",
+            "full": "BORSHARD, CONNOR"
+          },
+          {
+            "last": "ROGERS",
+            "first": "DUTTON",
+            "full": "ROGERS, DUTTON"
+          },
+          {
+            "last": "RUSH",
+            "first": "WILLIAM",
+            "full": "RUSH, WILLIAM"
+          },
+          {
+            "last": "DEAGAN",
+            "first": "JOSEPH",
+            "full": "DEAGAN, JOSEPH"
+          },
+          {
+            "last": "RICO",
+            "first": "DAVID",
+            "full": "RICO, DAVID"
+          },
+          {
+            "last": "AMBROGGIO",
+            "first": "GIULIA",
+            "full": "AMBROGGIO, GIULIA"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0800-2359 \u00b7 ADMIN HOLD \u00b7 BARGREN, BRADY#, BORSHARD, CONNOR#, ROGERS, DUTTON, RUSH, WILLIAM#, DEAGAN, JOSEPH#, RICO, DAVID, AMBROGGIO, GIULIA",
+        "role": "ADMIN HOLD",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

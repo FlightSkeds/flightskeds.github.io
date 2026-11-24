@@ -524,5 +524,572 @@
       "line_number": 28,
       "text": "TREVOR#"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "SDO",
+        "start": "0800",
+        "end": "0800",
+        "land": "0800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "POWERS",
+            "first": "JACOB",
+            "full": "POWERS, JACOB"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO \u00b7 POWERS, JACOB \u00b7 0800 \u00b7 0800",
+        "role": "SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SUPER",
+        "start": "0800",
+        "end": "0759",
+        "land": "0759",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RUSH",
+            "first": "WILLIAM",
+            "full": "RUSH, WILLIAM"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SUPER \u00b7 RUSH, WILLIAM# \u00b7 0800 \u00b7 0759",
+        "role": "SUPER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "WEEKEND CDO",
+        "start": "0800",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHILHAN",
+            "first": "JAMES",
+            "full": "SHILHAN, JAMES"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "WEEKEND CDO \u00b7 SHILHAN, JAMES \u00b7 0800 \u00b7 2359",
+        "role": "WEEKEND CDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER",
+        "start": "0800",
+        "end": "2000",
+        "land": "2000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CARTNER",
+            "first": "GABRIEL",
+            "full": "CARTNER, GABRIEL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER \u00b7 CARTNER, GABRIEL \u00b7 0800 \u00b7 2000",
+        "role": "DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4303",
+        "start": "0701",
+        "end": "0843",
+        "land": "0843",
+        "brief": "0516",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NAWROCKI",
+            "first": "GAGE",
+            "full": "NAWROCKI, GAGE"
+          },
+          {
+            "last": "SPIRO",
+            "first": "LUCAS",
+            "full": "SPIRO, LUCAS"
+          }
+        ],
+        "instructors": [
+          "NAWROCKI, GAGE"
+        ],
+        "students": [
+          "SPIRO, LUCAS"
+        ],
+        "page": 3,
+        "line": "1",
+        "raw": "1 \u00b7 0516 \u00b7 0701 \u00b7 0843 \u00b7 NAWROCKI, GAGE# \u00b7 SPIRO, LUCAS# \u00b7 1D2 \u00b7 I4303 \u00b7 1.7 \u00b7 CCX PLANE; NIGHT HOURS COMPLETE",
+        "role": "I4303",
+        "remarks": "CCX PLANE; NIGHT HOURS COMPLETE",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4203",
+        "start": "0704",
+        "end": "0840",
+        "land": "0840",
+        "brief": "0519",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORGAN",
+            "first": "BRENAN",
+            "full": "MORGAN, BRENAN"
+          },
+          {
+            "last": "FORSEY-SMEREK",
+            "first": "AIDAN",
+            "full": "FORSEY-SMEREK, AIDAN"
+          }
+        ],
+        "instructors": [
+          "MORGAN, BRENAN"
+        ],
+        "students": [
+          "FORSEY-SMEREK, AIDAN"
+        ],
+        "page": 3,
+        "line": "2",
+        "raw": "2 \u00b7 0519 \u00b7 0704 \u00b7 0840 \u00b7 MORGAN, BRENAN# \u00b7 FORSEY-SMEREK, AIDAN# \u00b7 1D2 \u00b7 I4203 \u00b7 1.6 \u00b7 CCX PLANE; ENSURE NIGHT HOURS",
+        "role": "I4203",
+        "remarks": "CCX PLANE; ENSURE NIGHT HOURS",
+        "duration": "1.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4103",
+        "start": "0718",
+        "end": "0854",
+        "land": "0854",
+        "brief": "0533",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ANDREASEN",
+            "first": "TREVOR",
+            "full": "ANDREASEN, TREVOR"
+          },
+          {
+            "last": "GUILLAUME",
+            "first": "JACQUES",
+            "full": "GUILLAUME, JACQUES"
+          }
+        ],
+        "instructors": [
+          "ANDREASEN, TREVOR"
+        ],
+        "students": [
+          "GUILLAUME, JACQUES"
+        ],
+        "page": 3,
+        "line": "3",
+        "raw": "3 \u00b7 0533 \u00b7 0718 \u00b7 0854 \u00b7 ANDREASEN, TREVOR# \u00b7 GUILLAUME, JACQUES \u00b7 1D1 \u00b7 FAM4103 \u00b7 1.6 \u00b7 3X; 1X TO 2X O/I",
+        "role": "FAM4103",
+        "remarks": "3X; 1X TO 2X O/I",
+        "duration": "1.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4301",
+        "start": "0721",
+        "end": "0903",
+        "land": "0903",
+        "brief": "0536",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BAILIE",
+            "first": "MICHAELA",
+            "full": "BAILIE, MICHAELA"
+          },
+          {
+            "last": "DARODES DE TAILLY",
+            "first": "NICOLAS",
+            "full": "DARODES DE TAILLY, NICOLAS"
+          }
+        ],
+        "instructors": [
+          "BAILIE, MICHAELA"
+        ],
+        "students": [
+          "DARODES DE TAILLY, NICOLAS"
+        ],
+        "page": 3,
+        "line": "4",
+        "raw": "4 \u00b7 0536 \u00b7 0721 \u00b7 0903 \u00b7 BAILIE, MICHAELA# \u00b7 DARODES DE TAILLY, NICOLAS# \u00b7 1D1 \u00b7 FAM4301 \u00b7 1.7 \u00b7 2X O/I",
+        "role": "FAM4301",
+        "remarks": "2X O/I",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4103",
+        "start": "0732",
+        "end": "0908",
+        "land": "0908",
+        "brief": "0547",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SULPIZIO",
+            "first": "JOHN",
+            "full": "SULPIZIO, JOHN"
+          },
+          {
+            "last": "NAUTIYAL",
+            "first": "JAGAN",
+            "full": "NAUTIYAL, JAGAN"
+          }
+        ],
+        "instructors": [
+          "SULPIZIO, JOHN"
+        ],
+        "students": [
+          "NAUTIYAL, JAGAN"
+        ],
+        "page": 3,
+        "line": "5",
+        "raw": "5 \u00b7 0547 \u00b7 0732 \u00b7 0908 \u00b7 SULPIZIO, JOHN# \u00b7 NAUTIYAL, JAGAN \u00b7 1D1 \u00b7 FAM4103 \u00b7 1.6 \u00b7 2X",
+        "role": "FAM4103",
+        "remarks": "2X",
+        "duration": "1.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4304",
+        "start": "1101",
+        "end": "1243",
+        "land": "1243",
+        "brief": "0916",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NAWROCKI",
+            "first": "GAGE",
+            "full": "NAWROCKI, GAGE"
+          },
+          {
+            "last": "SPIRO",
+            "first": "LUCAS",
+            "full": "SPIRO, LUCAS"
+          }
+        ],
+        "instructors": [
+          "NAWROCKI, GAGE"
+        ],
+        "students": [
+          "SPIRO, LUCAS"
+        ],
+        "page": 3,
+        "line": "6",
+        "raw": "6 \u00b7 0916 \u00b7 1101 \u00b7 1243 \u00b7 NAWROCKI, GAGE# \u00b7 SPIRO, LUCAS# \u00b7 1D2 \u00b7 I4304 \u00b7 1.7",
+        "role": "I4304",
+        "remarks": "",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "1104",
+        "end": "1240",
+        "land": "1240",
+        "brief": "0919",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORGAN",
+            "first": "BRENAN",
+            "full": "MORGAN, BRENAN"
+          },
+          {
+            "last": "FORSEY-SMEREK",
+            "first": "AIDAN",
+            "full": "FORSEY-SMEREK, AIDAN"
+          }
+        ],
+        "instructors": [
+          "MORGAN, BRENAN"
+        ],
+        "students": [
+          "FORSEY-SMEREK, AIDAN"
+        ],
+        "page": 3,
+        "line": "7",
+        "raw": "7 \u00b7 0919 \u00b7 1104 \u00b7 1240 \u00b7 MORGAN, BRENAN# \u00b7 FORSEY-SMEREK, AIDAN# \u00b7 1D2 \u00b7 I4204 \u00b7 1.6",
+        "role": "I4204",
+        "remarks": "",
+        "duration": "1.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4304",
+        "start": "1118",
+        "end": "1300",
+        "land": "1300",
+        "brief": "0933",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ANDREASEN",
+            "first": "TREVOR",
+            "full": "ANDREASEN, TREVOR"
+          },
+          {
+            "last": "WIDDOP",
+            "first": "HENRY",
+            "full": "WIDDOP, HENRY"
+          }
+        ],
+        "instructors": [
+          "ANDREASEN, TREVOR"
+        ],
+        "students": [
+          "WIDDOP, HENRY"
+        ],
+        "page": 3,
+        "line": "8",
+        "raw": "8 \u00b7 0933 \u00b7 1118 \u00b7 1300 \u00b7 ANDREASEN, TREVOR# \u00b7 WIDDOP, HENRY# \u00b7 1D2 \u00b7 I4304 \u00b7 1.7 \u00b7 CHECK NIGHT HOURS",
+        "role": "I4304",
+        "remarks": "CHECK NIGHT HOURS",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4302",
+        "start": "1121",
+        "end": "1303",
+        "land": "1303",
+        "brief": "0936",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BAILIE",
+            "first": "MICHAELA",
+            "full": "BAILIE, MICHAELA"
+          },
+          {
+            "last": "DARODES DE TAILLY",
+            "first": "NICOLAS",
+            "full": "DARODES DE TAILLY, NICOLAS"
+          }
+        ],
+        "instructors": [
+          "BAILIE, MICHAELA"
+        ],
+        "students": [
+          "DARODES DE TAILLY, NICOLAS"
+        ],
+        "page": 3,
+        "line": "9",
+        "raw": "9 \u00b7 0936 \u00b7 1121 \u00b7 1303 \u00b7 BAILIE, MICHAELA# \u00b7 DARODES DE TAILLY, NICOLAS# \u00b7 1D1 \u00b7 FAM4302 \u00b7 1.7",
+        "role": "FAM4302",
+        "remarks": "",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4303",
+        "start": "1132",
+        "end": "1314",
+        "land": "1314",
+        "brief": "0947",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SULPIZIO",
+            "first": "JOHN",
+            "full": "SULPIZIO, JOHN"
+          },
+          {
+            "last": "HIGGINBOTHAM",
+            "first": "CONNOR",
+            "full": "HIGGINBOTHAM, CONNOR"
+          }
+        ],
+        "instructors": [
+          "SULPIZIO, JOHN"
+        ],
+        "students": [
+          "HIGGINBOTHAM, CONNOR"
+        ],
+        "page": 3,
+        "line": "10",
+        "raw": "10 \u00b7 0947 \u00b7 1132 \u00b7 1314 \u00b7 SULPIZIO, JOHN# \u00b7 HIGGINBOTHAM, CONNOR \u00b7 1D1 \u00b7 FAM4303 \u00b7 1.7",
+        "role": "FAM4303",
+        "remarks": "",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4490",
+        "start": "1501",
+        "end": "1643",
+        "land": "1643",
+        "brief": "1316",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NAWROCKI",
+            "first": "GAGE",
+            "full": "NAWROCKI, GAGE"
+          },
+          {
+            "last": "SPIRO",
+            "first": "LUCAS",
+            "full": "SPIRO, LUCAS"
+          }
+        ],
+        "instructors": [
+          "NAWROCKI, GAGE"
+        ],
+        "students": [
+          "SPIRO, LUCAS"
+        ],
+        "page": 3,
+        "line": "11",
+        "raw": "11 \u00b7 1316 \u00b7 1501 \u00b7 1643 \u00b7 NAWROCKI, GAGE# \u00b7 SPIRO, LUCAS# \u00b7 1D2 \u00b7 I4490 \u00b7 1.7",
+        "role": "I4490",
+        "remarks": "",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4601",
+        "start": "1504",
+        "end": "1646",
+        "land": "1646",
+        "brief": "1319",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORGAN",
+            "first": "BRENAN",
+            "full": "MORGAN, BRENAN"
+          },
+          {
+            "last": "FORSEY-SMEREK",
+            "first": "AIDAN",
+            "full": "FORSEY-SMEREK, AIDAN"
+          }
+        ],
+        "instructors": [
+          "MORGAN, BRENAN"
+        ],
+        "students": [
+          "FORSEY-SMEREK, AIDAN"
+        ],
+        "page": 3,
+        "line": "12",
+        "raw": "12 \u00b7 1319 \u00b7 1504 \u00b7 1646 \u00b7 MORGAN, BRENAN# \u00b7 FORSEY-SMEREK, AIDAN# \u00b7 1D1 \u00b7 FAM4601 \u00b7 1.7",
+        "role": "FAM4601",
+        "remarks": "",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4490",
+        "start": "1518",
+        "end": "1700",
+        "land": "1700",
+        "brief": "1333",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ANDREASEN",
+            "first": "TREVOR",
+            "full": "ANDREASEN, TREVOR"
+          },
+          {
+            "last": "WIDDOP",
+            "first": "HENRY",
+            "full": "WIDDOP, HENRY"
+          }
+        ],
+        "instructors": [
+          "ANDREASEN, TREVOR"
+        ],
+        "students": [
+          "WIDDOP, HENRY"
+        ],
+        "page": 3,
+        "line": "13",
+        "raw": "13 \u00b7 1333 \u00b7 1518 \u00b7 1700 \u00b7 ANDREASEN, TREVOR# \u00b7 WIDDOP, HENRY# \u00b7 1D2 \u00b7 I4490 \u00b7 1.7",
+        "role": "I4490",
+        "remarks": "",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

@@ -815,5 +815,493 @@
       "line_number": 30,
       "text": "Training (ART)"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "        Saturday,   21-Nov-2026        0800-1600     Bruce &  Bruce C, ENS, Giorgetta R, ENS,  Kedrowski T, ENS, Lopez M,   Phone Muster       Kedrowski(F4103),     ENS             Lopez(FAM4202),                0800-1600  Aircrew   Rotational        BLDG 84 Room 167  Attewell D, LT ",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "ODO (AM)",
+        "start": "0700",
+        "end": "1500",
+        "land": "1500",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DOWNING",
+            "first": "M",
+            "full": "DOWNING, M"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "ODO (AM) \u00b7 Downing M, LT \u00b7 0700 \u00b7 1500",
+        "role": "ODO (AM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER (AM)",
+        "start": "0630",
+        "end": "1530",
+        "land": "1530",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WARHOLD",
+            "first": "P",
+            "full": "WARHOLD, P"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER (AM) \u00b7 Warhold P, 2ndLt \u00b7 0630 \u00b7 1530",
+        "role": "DUTY DRIVER (AM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER (PM)",
+        "start": "1530",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BRADY",
+            "first": "J",
+            "full": "BRADY, J"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER (PM) \u00b7 Brady J, ENS \u00b7 1530 \u00b7 2359",
+        "role": "DUTY DRIVER (PM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AODO(AM)-WEEKEND",
+        "start": "0630",
+        "end": "1530",
+        "land": "1530",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KING",
+            "first": "E",
+            "full": "KING, E"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AODO(AM)-WEEKEND \u00b7 King E, 2ndLt \u00b7 0630 \u00b7 1530",
+        "role": "AODO(AM)-WEEKEND",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AODO(PM)-WEEKEND",
+        "start": "1530",
+        "end": "2300",
+        "land": "2300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BOESE",
+            "first": "W",
+            "full": "BOESE, W"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AODO(PM)-WEEKEND \u00b7 Boese W, 2ndLt \u00b7 1530 \u00b7 2300",
+        "role": "AODO(PM)-WEEKEND",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4203",
+        "start": "1036",
+        "end": "1212",
+        "land": "1212",
+        "brief": "0851",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MOORE",
+            "first": "P",
+            "full": "MOORE, P"
+          },
+          {
+            "last": "ODEA",
+            "first": "R",
+            "full": "ODEA, R"
+          }
+        ],
+        "instructors": [
+          "MOORE, P"
+        ],
+        "students": [
+          "ODEA, R"
+        ],
+        "page": 2,
+        "line": "080-A",
+        "raw": "080-A \u00b7 0851 \u00b7 1036 \u00b7 1212 \u00b7 Moore P, LT \u00b7 Odea R, ENS \u00b7 FAM4203 \u00b7 1 D 1 \u00b7 LOCAL - TRIPLE",
+        "role": "FAM4203",
+        "remarks": "LOCAL - TRIPLE",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "F4103",
+        "start": "1042",
+        "end": "1218",
+        "land": "1218",
+        "brief": "0857",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIRIANNO",
+            "first": "M",
+            "full": "SIRIANNO, M"
+          },
+          {
+            "last": "RAMIREZ",
+            "first": "S",
+            "full": "RAMIREZ, S"
+          }
+        ],
+        "instructors": [
+          "SIRIANNO, M"
+        ],
+        "students": [
+          "RAMIREZ, S"
+        ],
+        "page": 2,
+        "line": "082-A",
+        "raw": "082-A \u00b7 0857 \u00b7 1042 \u00b7 1218 \u00b7 Sirianno M, Capt \u00b7 Ramirez S, 1stLt \u00b7 F4103 \u00b7 1 D 1 \u00b7 LOCAL - O/I (CH 85)SL",
+        "role": "F4103",
+        "remarks": "LOCAL - O/I (CH 85)SL",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "F4103",
+        "start": "1051",
+        "end": "1227",
+        "land": "1227",
+        "brief": "0906",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HACK",
+            "first": "R",
+            "full": "HACK, R"
+          },
+          {
+            "last": "GEOATES",
+            "first": "B",
+            "full": "GEOATES, B"
+          }
+        ],
+        "instructors": [
+          "HACK, R"
+        ],
+        "students": [
+          "GEOATES, B"
+        ],
+        "page": 2,
+        "line": "085-A",
+        "raw": "085-A \u00b7 0906 \u00b7 1051 \u00b7 1227 \u00b7 Hack R, LT \u00b7 Geoates B, ENS \u00b7 F4103 \u00b7 1 D 1 \u00b7 LOCAL - TRIPLE O/I (CH 85)",
+        "role": "F4103",
+        "remarks": "LOCAL - TRIPLE O/I (CH 85)",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4101",
+        "start": "1430",
+        "end": "1606",
+        "land": "1606",
+        "brief": "1245",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCDOWELL-CTR",
+            "first": "P",
+            "full": "MCDOWELL-CTR, P"
+          },
+          {
+            "last": "SLUDER",
+            "first": "C",
+            "full": "SLUDER, C"
+          }
+        ],
+        "instructors": [
+          "MCDOWELL-CTR, P"
+        ],
+        "students": [
+          "SLUDER, C"
+        ],
+        "page": 2,
+        "line": "078-B",
+        "raw": "078-B \u00b7 1245 \u00b7 1430 \u00b7 1606 \u00b7 Mcdowell-CTR P, LCDR \u00b7 Sluder C, ENS \u00b7 I4101 \u00b7 1 D 2 \u00b7 LOCAL - O/I (PREPO TO KCRP)",
+        "role": "I4101",
+        "remarks": "LOCAL - O/I (PREPO TO KCRP)",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4101",
+        "start": "1436",
+        "end": "1612",
+        "land": "1612",
+        "brief": "1251",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MOORE",
+            "first": "P",
+            "full": "MOORE, P"
+          },
+          {
+            "last": "MAMMANA",
+            "first": "E",
+            "full": "MAMMANA, E"
+          }
+        ],
+        "instructors": [
+          "MOORE, P"
+        ],
+        "students": [
+          "MAMMANA, E"
+        ],
+        "page": 2,
+        "line": "080-B",
+        "raw": "080-B \u00b7 1251 \u00b7 1436 \u00b7 1612 \u00b7 Moore P, LT \u00b7 Mammana E, 2ndLt \u00b7 I4101 \u00b7 1 D 2 \u00b7 LOCAL - O/I",
+        "role": "I4101",
+        "remarks": "LOCAL - O/I",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "F4104",
+        "start": "1442",
+        "end": "1618",
+        "land": "1618",
+        "brief": "1257",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIRIANNO",
+            "first": "M",
+            "full": "SIRIANNO, M"
+          },
+          {
+            "last": "RAMIREZ",
+            "first": "S",
+            "full": "RAMIREZ, S"
+          }
+        ],
+        "instructors": [
+          "SIRIANNO, M"
+        ],
+        "students": [
+          "RAMIREZ, S"
+        ],
+        "page": 2,
+        "line": "082-B",
+        "raw": "082-B \u00b7 1257 \u00b7 1442 \u00b7 1618 \u00b7 Sirianno M, Capt \u00b7 Ramirez S, 1stLt \u00b7 F4104 \u00b7 1 D 1 \u00b7 LOCAL - RTN (CH 85)SL",
+        "role": "F4104",
+        "remarks": "LOCAL - RTN (CH 85)SL",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "F4103",
+        "start": "1451",
+        "end": "1627",
+        "land": "1627",
+        "brief": "1306",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HACK",
+            "first": "R",
+            "full": "HACK, R"
+          },
+          {
+            "last": "GEOATES",
+            "first": "B",
+            "full": "GEOATES, B"
+          }
+        ],
+        "instructors": [
+          "HACK, R"
+        ],
+        "students": [
+          "GEOATES, B"
+        ],
+        "page": 2,
+        "line": "085-B",
+        "raw": "085-B \u00b7 1306 \u00b7 1451 \u00b7 1627 \u00b7 Hack R, LT \u00b7 Geoates B, ENS \u00b7 F4103 \u00b7 1 D 1 \u00b7 LOCAL - RTN (CH 85)",
+        "role": "F4103",
+        "remarks": "LOCAL - RTN (CH 85)",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4102",
+        "start": "1830",
+        "end": "2006",
+        "land": "2006",
+        "brief": "1645",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCDOWELL-CTR",
+            "first": "P",
+            "full": "MCDOWELL-CTR, P"
+          },
+          {
+            "last": "SLUDER",
+            "first": "C",
+            "full": "SLUDER, C"
+          }
+        ],
+        "instructors": [
+          "MCDOWELL-CTR, P"
+        ],
+        "students": [
+          "SLUDER, C"
+        ],
+        "page": 2,
+        "line": "078-C",
+        "raw": "078-C \u00b7 1645 \u00b7 1830 \u00b7 2006 \u00b7 Mcdowell-CTR P, LCDR \u00b7 Sluder C, ENS \u00b7 I4102 \u00b7 ? ? ? \u00b7 RTN TO KCRP",
+        "role": "I4102",
+        "remarks": "RTN TO KCRP",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4102",
+        "start": "1836",
+        "end": "2012",
+        "land": "2012",
+        "brief": "1651",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MOORE",
+            "first": "P",
+            "full": "MOORE, P"
+          },
+          {
+            "last": "MAMMANA",
+            "first": "E",
+            "full": "MAMMANA, E"
+          }
+        ],
+        "instructors": [
+          "MOORE, P"
+        ],
+        "students": [
+          "MAMMANA, E"
+        ],
+        "page": 2,
+        "line": "080-C",
+        "raw": "080-C \u00b7 1651 \u00b7 1836 \u00b7 2012 \u00b7 Moore P, LT \u00b7 Mammana E, 2ndLt \u00b7 I4102 \u00b7 1 D 2 \u00b7 LOCAL - RTN",
+        "role": "I4102",
+        "remarks": "LOCAL - RTN",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4102",
+        "start": "1851",
+        "end": "2027",
+        "land": "2027",
+        "brief": "1706",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HACK",
+            "first": "R",
+            "full": "HACK, R"
+          },
+          {
+            "last": "ELLIOTT",
+            "first": "S",
+            "full": "ELLIOTT, S"
+          }
+        ],
+        "instructors": [
+          "HACK, R"
+        ],
+        "students": [
+          "ELLIOTT, S"
+        ],
+        "page": 2,
+        "line": "085-C *All flight",
+        "raw": "085-C *All flight \u00b7 1706 sorties \u00b7 1851 are \u00b7 conducted \u00b7 2027 \u00b7 Hack R, LT in a T-6B aircraft. VT-28 \u00b7 Saturday, \u00b7 Elliott S, ENS SIM SCHEDULE 21-Nov-2026 \u00b7 I4102 \u00b7 1 D 2 \u00b7 LOCAL",
+        "role": "I4102",
+        "remarks": "LOCAL",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

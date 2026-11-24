@@ -747,5 +747,423 @@
       "line_number": 27,
       "text": "Training (ART)"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "        Sunday,   08-Nov-2026        0800-1600  Madrid(I4302),   Pappas  Madrid J, 2ndLt, Pappas C,  ENS, Swanson A, ENS   Phone Muster     0800-1600   Aircrew  Rotational        BLDG 84 Room 167  Attewell D, LT ",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "ODO (PM)",
+        "start": "1500",
+        "end": "2300",
+        "land": "2300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ADCOX",
+            "first": "A",
+            "full": "ADCOX, A"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "ODO (PM) \u00b7 Adcox A, LT \u00b7 1500 \u00b7 2300",
+        "role": "ODO (PM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER (AM)",
+        "start": "0630",
+        "end": "1530",
+        "land": "1530",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BELLINGER",
+            "first": "J",
+            "full": "BELLINGER, J"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER (AM) \u00b7 Bellinger J, 2ndLt \u00b7 0630 \u00b7 1530",
+        "role": "DUTY DRIVER (AM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER (PM)",
+        "start": "1530",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FREEMAN",
+            "first": "A",
+            "full": "FREEMAN, A"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER (PM) \u00b7 Freeman A, ENS \u00b7 1530 \u00b7 2359",
+        "role": "DUTY DRIVER (PM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AODO(AM)-WEEKEND",
+        "start": "0630",
+        "end": "1530",
+        "land": "1530",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BRUCE",
+            "first": "C",
+            "full": "BRUCE, C"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AODO(AM)-WEEKEND \u00b7 Bruce C, ENS \u00b7 0630 \u00b7 1530",
+        "role": "AODO(AM)-WEEKEND",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AODO(PM)-WEEKEND",
+        "start": "1530",
+        "end": "2300",
+        "land": "2300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GAO",
+            "first": "L",
+            "full": "GAO, L"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AODO(PM)-WEEKEND \u00b7 Gao L, 2ndLt \u00b7 1530 \u00b7 2300",
+        "role": "AODO(PM)-WEEKEND",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CS4102",
+        "start": "0951",
+        "end": "1133",
+        "land": "1133",
+        "brief": "0806",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIRIANNO",
+            "first": "M",
+            "full": "SIRIANNO, M"
+          },
+          {
+            "last": "CAMPBELL",
+            "first": "A",
+            "full": "CAMPBELL, A"
+          }
+        ],
+        "instructors": [
+          "SIRIANNO, M"
+        ],
+        "students": [
+          "CAMPBELL, A"
+        ],
+        "page": 2,
+        "line": "065-A",
+        "raw": "065-A \u00b7 0806 \u00b7 0951 \u00b7 1133 \u00b7 Sirianno M, Capt \u00b7 Campbell A, 2ndLt \u00b7 CS4102 \u00b7 1 D 1 \u00b7 KCRP - O/I (CH 85)SL",
+        "role": "CS4102",
+        "remarks": "KCRP - O/I (CH 85)SL",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CS4102",
+        "start": "0957",
+        "end": "1139",
+        "land": "1139",
+        "brief": "0812",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HACK",
+            "first": "R",
+            "full": "HACK, R"
+          },
+          {
+            "last": "SETO",
+            "first": "E",
+            "full": "SETO, E"
+          }
+        ],
+        "instructors": [
+          "HACK, R"
+        ],
+        "students": [
+          "SETO, E"
+        ],
+        "page": 2,
+        "line": "067-A",
+        "raw": "067-A \u00b7 0812 \u00b7 0957 \u00b7 1139 \u00b7 Hack R, LT \u00b7 Seto E, LTJG \u00b7 CS4102 \u00b7 1 D 1 \u00b7 KCRP - O/I (CH 85)",
+        "role": "CS4102",
+        "remarks": "KCRP - O/I (CH 85)",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4303",
+        "start": "1051",
+        "end": "1233",
+        "land": "1233",
+        "brief": "0906",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MOORE",
+            "first": "P",
+            "full": "MOORE, P"
+          },
+          {
+            "last": "AILS",
+            "first": "C",
+            "full": "AILS, C"
+          }
+        ],
+        "instructors": [
+          "MOORE, P"
+        ],
+        "students": [
+          "AILS, C"
+        ],
+        "page": 2,
+        "line": "085-A",
+        "raw": "085-A \u00b7 0906 \u00b7 1051 \u00b7 1233 \u00b7 Moore P, LT \u00b7 Ails C, 1stLt \u00b7 I4303 \u00b7 1 D 2 \u00b7 LOCAL - TOT",
+        "role": "I4303",
+        "remarks": "LOCAL - TOT",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CS4290",
+        "start": "1351",
+        "end": "1533",
+        "land": "1533",
+        "brief": "1206",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIRIANNO",
+            "first": "M",
+            "full": "SIRIANNO, M"
+          },
+          {
+            "last": "CAMPBELL",
+            "first": "A",
+            "full": "CAMPBELL, A"
+          }
+        ],
+        "instructors": [
+          "SIRIANNO, M"
+        ],
+        "students": [
+          "CAMPBELL, A"
+        ],
+        "page": 2,
+        "line": "065-B",
+        "raw": "065-B \u00b7 1206 \u00b7 1351 \u00b7 1533 \u00b7 Sirianno M, Capt \u00b7 Campbell A, 2ndLt \u00b7 CS4290 \u00b7 1 D 1 \u00b7 KCRP - RTN TO KNGP (CH 85)SL",
+        "role": "CS4290",
+        "remarks": "KCRP - RTN TO KNGP (CH 85)SL",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CS4290",
+        "start": "1357",
+        "end": "1539",
+        "land": "1539",
+        "brief": "1212",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HACK",
+            "first": "R",
+            "full": "HACK, R"
+          },
+          {
+            "last": "SETO",
+            "first": "E",
+            "full": "SETO, E"
+          }
+        ],
+        "instructors": [
+          "HACK, R"
+        ],
+        "students": [
+          "SETO, E"
+        ],
+        "page": 2,
+        "line": "067-B",
+        "raw": "067-B \u00b7 1212 \u00b7 1357 \u00b7 1539 \u00b7 Hack R, LT \u00b7 Seto E, LTJG \u00b7 CS4290 \u00b7 1 D 1 \u00b7 KCRP - RTN TO KNGP (CH 85)",
+        "role": "CS4290",
+        "remarks": "KCRP - RTN TO KNGP (CH 85)",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4304",
+        "start": "1451",
+        "end": "1633",
+        "land": "1633",
+        "brief": "1306",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MOORE",
+            "first": "P",
+            "full": "MOORE, P"
+          },
+          {
+            "last": "AILS",
+            "first": "C",
+            "full": "AILS, C"
+          }
+        ],
+        "instructors": [
+          "MOORE, P"
+        ],
+        "students": [
+          "AILS, C"
+        ],
+        "page": 2,
+        "line": "085-B",
+        "raw": "085-B \u00b7 1306 \u00b7 1451 \u00b7 1633 \u00b7 Moore P, LT \u00b7 Ails C, 1stLt \u00b7 I4304 \u00b7 1 D 2 \u00b7 LOCAL - TOT",
+        "role": "I4304",
+        "remarks": "LOCAL - TOT",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4103",
+        "start": "1503",
+        "end": "1639",
+        "land": "1639",
+        "brief": "1318",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STOTTLEMYRE",
+            "first": "J",
+            "full": "STOTTLEMYRE, J"
+          },
+          {
+            "last": "KING",
+            "first": "E",
+            "full": "KING, E"
+          }
+        ],
+        "instructors": [
+          "STOTTLEMYRE, J"
+        ],
+        "students": [
+          "KING, E"
+        ],
+        "page": 2,
+        "line": "002-C",
+        "raw": "002-C \u00b7 1318 \u00b7 1503 \u00b7 1639 \u00b7 Stottlemyre J, LCDR \u00b7 King E, 2ndLt \u00b7 I4103 \u00b7 1 D 2 \u00b7 KCRP - SNG RTN TO KNGP",
+        "role": "I4103",
+        "remarks": "KCRP - SNG RTN TO KNGP",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4490",
+        "start": "1851",
+        "end": "2033",
+        "land": "2033",
+        "brief": "1706",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MOORE",
+            "first": "P",
+            "full": "MOORE, P"
+          },
+          {
+            "last": "AILS",
+            "first": "C",
+            "full": "AILS, C"
+          }
+        ],
+        "instructors": [
+          "MOORE, P"
+        ],
+        "students": [
+          "AILS, C"
+        ],
+        "page": 2,
+        "line": "085-C *All flight",
+        "raw": "085-C *All flight \u00b7 1706 sorties \u00b7 1851 are \u00b7 conducted \u00b7 2033 \u00b7 Moore P, LT in a T-6B aircraft. VT-28 \u00b7 Sunday, \u00b7 Ails C, 1stLt SIM SCHEDULE 08-Nov-2026 \u00b7 I4490 \u00b7 1 D 2 \u00b7 LOCAL - TOT RTN",
+        "role": "I4490",
+        "remarks": "LOCAL - TOT RTN",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

@@ -849,5 +849,1206 @@
       "line_number": 31,
       "text": "SCHEDULES OFFICER OPERATIONS OFFICER COMMANDING OFFICER"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Simulator",
+        "code": "NAV3101",
+        "start": "0630",
+        "end": "0759",
+        "land": "0759",
+        "brief": "0530",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STAFFORD",
+            "first": "DUSTIN",
+            "full": "STAFFORD, DUSTIN"
+          },
+          {
+            "last": "CALERO",
+            "first": "OLIVIA",
+            "full": "CALERO, OLIVIA"
+          }
+        ],
+        "instructors": [
+          "STAFFORD, DUSTIN"
+        ],
+        "students": [
+          "CALERO, OLIVIA"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0530 \u00b7 0630 \u00b7 0759 \u00b7 Device 2 Seat 2 \u00b7 STAFFORD, DUSTIN# \u00b7 Calero, Olivia \u00b7 NAV3101 \u00b7 PACOM",
+        "role": "NAV3101",
+        "remarks": "PACOM",
+        "duration": "",
+        "device": "Device 2 Seat 2",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "P3402",
+        "start": "0630",
+        "end": "0929",
+        "land": "0929",
+        "brief": "0530",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TRAYLOR",
+            "first": "DANIEL",
+            "full": "TRAYLOR, DANIEL"
+          },
+          {
+            "last": "PAULUS",
+            "first": "CHAD",
+            "full": "PAULUS, CHAD"
+          },
+          {
+            "last": "HICKS HANSEN",
+            "first": "VIVIEN",
+            "full": "HICKS HANSEN, VIVIEN"
+          }
+        ],
+        "instructors": [
+          "TRAYLOR, DANIEL",
+          "PAULUS, CHAD"
+        ],
+        "students": [
+          "HICKS HANSEN, VIVIEN"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0530 \u00b7 0630 \u00b7 0929 \u00b7 Device 2 Seat 3 \u00b7 TRAYLOR, DANIEL PAULUS, CHAD# \u00b7 Hicks Hansen, Vivien \u00b7 P3402 \u00b7 PACOM",
+        "role": "P3402",
+        "remarks": "PACOM",
+        "duration": "",
+        "device": "Device 2 Seat 3",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NAV3101",
+        "start": "0630",
+        "end": "0759",
+        "land": "0759",
+        "brief": "0530",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HIGGINS",
+            "first": "JERRY",
+            "full": "HIGGINS, JERRY"
+          },
+          {
+            "last": "MELVIN",
+            "first": "SAMUEL",
+            "full": "MELVIN, SAMUEL"
+          }
+        ],
+        "instructors": [
+          "HIGGINS, JERRY"
+        ],
+        "students": [
+          "MELVIN, SAMUEL"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0530 \u00b7 0630 \u00b7 0759 \u00b7 Device 2 Seat 1 \u00b7 HIGGINS, JERRY# \u00b7 Melvin, Samuel \u00b7 NAV3101 \u00b7 PACOM",
+        "role": "NAV3101",
+        "remarks": "PACOM",
+        "duration": "",
+        "device": "Device 2 Seat 1",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SEN3101",
+        "start": "0800",
+        "end": "0929",
+        "land": "0929",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NOBLE",
+            "first": "TIMOTHY",
+            "full": "NOBLE, TIMOTHY"
+          },
+          {
+            "last": "ICBAN",
+            "first": "KARL",
+            "full": "ICBAN, KARL"
+          }
+        ],
+        "instructors": [
+          "NOBLE, TIMOTHY"
+        ],
+        "students": [
+          "ICBAN, KARL"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0700 \u00b7 0800 \u00b7 0929 \u00b7 Device 2 Seat 1 \u00b7 NOBLE, TIMOTHY \u00b7 Icban, Karl \u00b7 SEN3101",
+        "role": "SEN3101",
+        "remarks": "",
+        "duration": "",
+        "device": "Device 2 Seat 1",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "T3205",
+        "start": "0800",
+        "end": "1059",
+        "land": "1059",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GILL",
+            "first": "JAMES",
+            "full": "GILL, JAMES"
+          },
+          {
+            "last": "LEWIS",
+            "first": "SHANE",
+            "full": "LEWIS, SHANE"
+          },
+          {
+            "last": "CROSSEY",
+            "first": "IAN",
+            "full": "CROSSEY, IAN"
+          }
+        ],
+        "instructors": [
+          "GILL, JAMES",
+          "LEWIS, SHANE"
+        ],
+        "students": [
+          "CROSSEY, IAN"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0700 \u00b7 0800 \u00b7 1059 \u00b7 Device 2 Seat 2 \u00b7 GILL, JAMES# LEWIS, SHANE \u00b7 Crossey, Ian \u00b7 T3205",
+        "role": "T3205",
+        "remarks": "",
+        "duration": "",
+        "device": "Device 2 Seat 2",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SEN3101",
+        "start": "0930",
+        "end": "1059",
+        "land": "1059",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JUDKINS",
+            "first": "CHRISTOPHER",
+            "full": "JUDKINS, CHRISTOPHER"
+          },
+          {
+            "last": "CULLEN",
+            "first": "MICHAEL",
+            "full": "CULLEN, MICHAEL"
+          }
+        ],
+        "instructors": [
+          "JUDKINS, CHRISTOPHER"
+        ],
+        "students": [
+          "CULLEN, MICHAEL"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0830 \u00b7 0930 \u00b7 1059 \u00b7 Device 2 Seat 1 \u00b7 JUDKINS, CHRISTOPHER# \u00b7 Cullen, Michael \u00b7 SEN3101",
+        "role": "SEN3101",
+        "remarks": "",
+        "duration": "",
+        "device": "Device 2 Seat 1",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SEN3101",
+        "start": "0930",
+        "end": "1059",
+        "land": "1059",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "VARIAS",
+            "first": "MICHAEL",
+            "full": "VARIAS, MICHAEL"
+          },
+          {
+            "last": "JOHNSON",
+            "first": "ELLIOT",
+            "full": "JOHNSON, ELLIOT"
+          }
+        ],
+        "instructors": [
+          "VARIAS, MICHAEL"
+        ],
+        "students": [
+          "JOHNSON, ELLIOT"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0830 \u00b7 0930 \u00b7 1059 \u00b7 Device 2 Seat 3 \u00b7 VARIAS, MICHAEL# \u00b7 Johnson, Elliot \u00b7 SEN3101",
+        "role": "SEN3101",
+        "remarks": "",
+        "duration": "",
+        "device": "Device 2 Seat 3",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SEN3101",
+        "start": "1100",
+        "end": "1229",
+        "land": "1229",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GEORGE",
+            "first": "CHAD",
+            "full": "GEORGE, CHAD"
+          },
+          {
+            "last": "CAGNEY",
+            "first": "BEAU",
+            "full": "CAGNEY, BEAU"
+          }
+        ],
+        "instructors": [
+          "GEORGE, CHAD"
+        ],
+        "students": [
+          "CAGNEY, BEAU"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1000 \u00b7 1100 \u00b7 1229 \u00b7 Device 2 Seat 2 \u00b7 GEORGE, CHAD# \u00b7 Cagney, Beau \u00b7 SEN3101",
+        "role": "SEN3101",
+        "remarks": "",
+        "duration": "",
+        "device": "Device 2 Seat 2",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NAV3101",
+        "start": "1100",
+        "end": "1229",
+        "land": "1229",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STAFFORD",
+            "first": "DUSTIN",
+            "full": "STAFFORD, DUSTIN"
+          },
+          {
+            "last": "LOCKE",
+            "first": "CADER",
+            "full": "LOCKE, CADER"
+          }
+        ],
+        "instructors": [
+          "STAFFORD, DUSTIN"
+        ],
+        "students": [
+          "LOCKE, CADER"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1000 \u00b7 1100 \u00b7 1229 \u00b7 Device 2 Seat 1 \u00b7 STAFFORD, DUSTIN# \u00b7 Locke, Cader \u00b7 NAV3101 \u00b7 PACOM",
+        "role": "NAV3101",
+        "remarks": "PACOM",
+        "duration": "",
+        "device": "Device 2 Seat 1",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SEN3105 (88(IPC) Advancing)",
+        "start": "1100",
+        "end": "1229",
+        "land": "1229",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LA VOIE",
+            "first": "MIKE",
+            "full": "LA VOIE, MIKE"
+          },
+          {
+            "last": "PAULUS",
+            "first": "CHAD",
+            "full": "PAULUS, CHAD"
+          },
+          {
+            "last": "GREGOREK-ALI",
+            "first": "GAVIN",
+            "full": "GREGOREK-ALI, GAVIN"
+          }
+        ],
+        "instructors": [
+          "LA VOIE, MIKE",
+          "PAULUS, CHAD"
+        ],
+        "students": [
+          "GREGOREK-ALI, GAVIN"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1000 \u00b7 1100 \u00b7 1229 \u00b7 Device 2 Seat 3 \u00b7 LA VOIE, MIKE PAULUS, CHAD# \u00b7 Gregorek-Ali, Gavin \u00b7 SEN3105 (88(IPC) Advancing) \u00b7 PACOM",
+        "role": "SEN3105 (88(IPC) Advancing)",
+        "remarks": "PACOM",
+        "duration": "",
+        "device": "Device 2 Seat 3",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SEN2101",
+        "start": "1230",
+        "end": "1359",
+        "land": "1359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JUDKINS",
+            "first": "CHRISTOPHER",
+            "full": "JUDKINS, CHRISTOPHER"
+          },
+          {
+            "last": "TOLKER",
+            "first": "HENRY",
+            "full": "TOLKER, HENRY"
+          }
+        ],
+        "instructors": [
+          "JUDKINS, CHRISTOPHER"
+        ],
+        "students": [
+          "TOLKER, HENRY"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1230 \u00b7 1359 \u00b7 Device 2 Seat 2 \u00b7 JUDKINS, CHRISTOPHER# \u00b7 Tolker, Henry \u00b7 SEN2101",
+        "role": "SEN2101",
+        "remarks": "",
+        "duration": "",
+        "device": "Device 2 Seat 2",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "E3203",
+        "start": "1230",
+        "end": "1359",
+        "land": "1359",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PATTERSON",
+            "first": "DAVID",
+            "full": "PATTERSON, DAVID"
+          },
+          {
+            "last": "HIGGINS",
+            "first": "JERRY",
+            "full": "HIGGINS, JERRY"
+          },
+          {
+            "last": "MATTA",
+            "first": "JONATHAN",
+            "full": "MATTA, JONATHAN"
+          }
+        ],
+        "instructors": [
+          "PATTERSON, DAVID",
+          "HIGGINS, JERRY"
+        ],
+        "students": [
+          "MATTA, JONATHAN"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1130 \u00b7 1230 \u00b7 1359 \u00b7 Device 2 Seat 1 \u00b7 PATTERSON, DAVID HIGGINS, JERRY# \u00b7 Matta, Jonathan \u00b7 E3203 \u00b7 PACOM",
+        "role": "E3203",
+        "remarks": "PACOM",
+        "duration": "",
+        "device": "Device 2 Seat 1",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SEN3101",
+        "start": "1230",
+        "end": "1359",
+        "land": "1359",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MERRIMAN",
+            "first": "ISAAC",
+            "full": "MERRIMAN, ISAAC"
+          },
+          {
+            "last": "FARLEY",
+            "first": "MEGAN",
+            "full": "FARLEY, MEGAN"
+          }
+        ],
+        "instructors": [
+          "MERRIMAN, ISAAC"
+        ],
+        "students": [
+          "FARLEY, MEGAN"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1130 \u00b7 1230 \u00b7 1359 \u00b7 Device 2 Seat 3 \u00b7 MERRIMAN, ISAAC# \u00b7 Farley, Megan \u00b7 SEN3101",
+        "role": "SEN3101",
+        "remarks": "",
+        "duration": "",
+        "device": "Device 2 Seat 3",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "E3208",
+        "start": "1400",
+        "end": "1529",
+        "land": "1529",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CHITTERLING",
+            "first": "CHRISTOPHER",
+            "full": "CHITTERLING, CHRISTOPHER"
+          },
+          {
+            "last": "BENNETT",
+            "first": "DANIEL",
+            "full": "BENNETT, DANIEL"
+          },
+          {
+            "last": "STARNES",
+            "first": "CARTER",
+            "full": "STARNES, CARTER"
+          }
+        ],
+        "instructors": [
+          "CHITTERLING, CHRISTOPHER",
+          "BENNETT, DANIEL"
+        ],
+        "students": [
+          "STARNES, CARTER"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1300 \u00b7 1400 \u00b7 1529 \u00b7 Device 2 Seat 2 \u00b7 CHITTERLING, CHRISTOPHER BENNETT, DANIEL# \u00b7 Starnes, Carter \u00b7 E3208 \u00b7 PACOM/WOODS CICO",
+        "role": "E3208",
+        "remarks": "PACOM/WOODS CICO",
+        "duration": "",
+        "device": "Device 2 Seat 2",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SEN2201",
+        "start": "1400",
+        "end": "1529",
+        "land": "1529",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "VARIAS",
+            "first": "MICHAEL",
+            "full": "VARIAS, MICHAEL"
+          },
+          {
+            "last": "HUBER",
+            "first": "EVA",
+            "full": "HUBER, EVA"
+          }
+        ],
+        "instructors": [
+          "VARIAS, MICHAEL"
+        ],
+        "students": [
+          "HUBER, EVA"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1400 \u00b7 1529 \u00b7 Device 2 Seat 3 \u00b7 VARIAS, MICHAEL# \u00b7 Huber, Eva \u00b7 SEN2201",
+        "role": "SEN2201",
+        "remarks": "",
+        "duration": "",
+        "device": "Device 2 Seat 3",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "E3209",
+        "start": "1400",
+        "end": "1529",
+        "land": "1529",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BARNES",
+            "first": "KLAYTON",
+            "full": "BARNES, KLAYTON"
+          },
+          {
+            "last": "HIGGINS",
+            "first": "JERRY",
+            "full": "HIGGINS, JERRY"
+          },
+          {
+            "last": "CANO",
+            "first": "RENE",
+            "full": "CANO, RENE"
+          }
+        ],
+        "instructors": [
+          "BARNES, KLAYTON",
+          "HIGGINS, JERRY"
+        ],
+        "students": [
+          "CANO, RENE"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1300 \u00b7 1400 \u00b7 1529 \u00b7 Device 2 Seat 1 \u00b7 BARNES, KLAYTON# HIGGINS, JERRY# \u00b7 Cano, Rene \u00b7 E3209 \u00b7 PACOM/WOODS CICO",
+        "role": "E3209",
+        "remarks": "PACOM/WOODS CICO",
+        "duration": "",
+        "device": "Device 2 Seat 1",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "MDL Manager",
+        "start": "1400",
+        "end": "1529",
+        "land": "1529",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WOODS",
+            "first": "MACI",
+            "full": "WOODS, MACI"
+          }
+        ],
+        "instructors": [
+          "WOODS, MACI"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "1400 \u00b7 1529 \u00b7 Device 1 Seat 3 \u00b7 WOODS, MACI \u00b7 MDL Manager \u00b7 CICO HRS",
+        "role": "MDL Manager",
+        "remarks": "CICO HRS",
+        "duration": "",
+        "device": "Device 1 Seat 3",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SEN3201",
+        "start": "1530",
+        "end": "1659",
+        "land": "1659",
+        "brief": "1430",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GEORGE",
+            "first": "CHAD",
+            "full": "GEORGE, CHAD"
+          },
+          {
+            "last": "EVALLE",
+            "first": "JORGE",
+            "full": "EVALLE, JORGE"
+          }
+        ],
+        "instructors": [
+          "GEORGE, CHAD"
+        ],
+        "students": [
+          "EVALLE, JORGE"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1430 \u00b7 1530 \u00b7 1659 \u00b7 Device 2 Seat 2 \u00b7 GEORGE, CHAD# \u00b7 Evalle, Jorge \u00b7 SEN3201 \u00b7 PACOM",
+        "role": "SEN3201",
+        "remarks": "PACOM",
+        "duration": "",
+        "device": "Device 2 Seat 2",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NAV3101",
+        "start": "1530",
+        "end": "1659",
+        "land": "1659",
+        "brief": "1430",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JUDKINS",
+            "first": "CHRISTOPHER",
+            "full": "JUDKINS, CHRISTOPHER"
+          },
+          {
+            "last": "FLORES",
+            "first": "DAMIEN",
+            "full": "FLORES, DAMIEN"
+          }
+        ],
+        "instructors": [
+          "JUDKINS, CHRISTOPHER"
+        ],
+        "students": [
+          "FLORES, DAMIEN"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1430 \u00b7 1530 \u00b7 1659 \u00b7 Device 2 Seat 1 \u00b7 JUDKINS, CHRISTOPHER# \u00b7 Flores, Damien \u00b7 NAV3101 \u00b7 PACOM",
+        "role": "NAV3101",
+        "remarks": "PACOM",
+        "duration": "",
+        "device": "Device 2 Seat 1",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SEN3201",
+        "start": "1700",
+        "end": "1829",
+        "land": "1829",
+        "brief": "1600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BENNETT",
+            "first": "DANIEL",
+            "full": "BENNETT, DANIEL"
+          },
+          {
+            "last": "SUHOCKI",
+            "first": "GRACE",
+            "full": "SUHOCKI, GRACE"
+          }
+        ],
+        "instructors": [
+          "BENNETT, DANIEL"
+        ],
+        "students": [
+          "SUHOCKI, GRACE"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "1600 \u00b7 1700 \u00b7 1829 \u00b7 Device 2 Seat 3 \u00b7 BENNETT, DANIEL# \u00b7 Suhocki, Grace \u00b7 SEN3201 \u00b7 PACOM",
+        "role": "SEN3201",
+        "remarks": "PACOM",
+        "duration": "",
+        "device": "Device 2 Seat 3",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NAV3101",
+        "start": "1700",
+        "end": "1829",
+        "land": "1829",
+        "brief": "1600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MERRIMAN",
+            "first": "ISAAC",
+            "full": "MERRIMAN, ISAAC"
+          },
+          {
+            "last": "ARGUETA",
+            "first": "HAMILTON",
+            "full": "ARGUETA, HAMILTON"
+          }
+        ],
+        "instructors": [
+          "MERRIMAN, ISAAC"
+        ],
+        "students": [
+          "ARGUETA, HAMILTON"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "1600 \u00b7 1700 \u00b7 1829 \u00b7 Device 2 Seat 2 \u00b7 MERRIMAN, ISAAC# \u00b7 Argueta, Hamilton \u00b7 NAV3101 \u00b7 PACOM",
+        "role": "NAV3101",
+        "remarks": "PACOM",
+        "duration": "",
+        "device": "Device 2 Seat 2",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SEN2101",
+        "start": "1700",
+        "end": "1829",
+        "land": "1829",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BARNES",
+            "first": "KLAYTON",
+            "full": "BARNES, KLAYTON"
+          },
+          {
+            "last": "ARCHULETA",
+            "first": "MAHARLIKA",
+            "full": "ARCHULETA, MAHARLIKA"
+          }
+        ],
+        "instructors": [
+          "BARNES, KLAYTON"
+        ],
+        "students": [
+          "ARCHULETA, MAHARLIKA"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "1700 \u00b7 1829 \u00b7 Device 2 Seat 1 \u00b7 BARNES, KLAYTON# \u00b7 Archuleta, Maharlika \u00b7 SEN2101",
+        "role": "SEN2101",
+        "remarks": "",
+        "duration": "",
+        "device": "Device 2 Seat 1",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SEN2201",
+        "start": "1830",
+        "end": "2000",
+        "land": "2000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BARNES",
+            "first": "KLAYTON",
+            "full": "BARNES, KLAYTON"
+          },
+          {
+            "last": "LYONS",
+            "first": "SCOTT",
+            "full": "LYONS, SCOTT"
+          }
+        ],
+        "instructors": [
+          "BARNES, KLAYTON"
+        ],
+        "students": [
+          "LYONS, SCOTT"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "1830 \u00b7 2000 \u00b7 Device 2 Seat 1 \u00b7 BARNES, KLAYTON# \u00b7 Lyons, Scott \u00b7 SEN2201",
+        "role": "SEN2201",
+        "remarks": "",
+        "duration": "",
+        "device": "Device 2 Seat 1",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SEN2101",
+        "start": "1830",
+        "end": "1959",
+        "land": "1959",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GEORGE",
+            "first": "CHAD",
+            "full": "GEORGE, CHAD"
+          },
+          {
+            "last": "GUINGON",
+            "first": "ANGELICA",
+            "full": "GUINGON, ANGELICA"
+          }
+        ],
+        "instructors": [
+          "GEORGE, CHAD"
+        ],
+        "students": [
+          "GUINGON, ANGELICA"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "CAI \u00b7 1830 \u00b7 1959 \u00b7 Device 2 Seat 3 \u00b7 GEORGE, CHAD# \u00b7 Guingon, Angelica Academic Events \u00b7 SEN2101",
+        "role": "SEN2101",
+        "remarks": "",
+        "duration": "",
+        "device": "Device 2 Seat 3",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "0930",
+        "end": "0201",
+        "land": "0201",
+        "brief": "0800",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0800 \u00b7 0930 \u00b7 P0201 \u00b7 IEC \u00b7 1 \u00b7 26-37M",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "IEC",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1000",
+        "end": "0102",
+        "land": "0102",
+        "brief": "0930",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0930 \u00b7 1000 \u00b7 OPS0102 \u00b7 IEC \u00b7 2 \u00b7 26-45",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "IEC",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1100",
+        "end": "0202",
+        "land": "0202",
+        "brief": "0930",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0930 \u00b7 1100 \u00b7 P0202 \u00b7 IEC \u00b7 1 \u00b7 26-37M",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "IEC",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1030",
+        "end": "0103",
+        "land": "0103",
+        "brief": "1000",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1000 \u00b7 1030 \u00b7 OPS0103 \u00b7 IEC \u00b7 2 \u00b7 26-45",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "IEC",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1100",
+        "end": "0104",
+        "land": "0104",
+        "brief": "1030",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1030 \u00b7 1100 \u00b7 OPS0104 \u00b7 IEC \u00b7 2 \u00b7 26-45",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "IEC",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1130",
+        "end": "0105",
+        "land": "0105",
+        "brief": "1100",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1100 \u00b7 1130 \u00b7 OPS0105 \u00b7 IEC \u00b7 2 \u00b7 26-45",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "IEC",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1130",
+        "end": "0201",
+        "land": "0201",
+        "brief": "1100",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1100 \u00b7 1130 \u00b7 NAV0201 \u00b7 IEC \u00b7 3 \u00b7 27-05",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "IEC",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1230",
+        "end": "0202",
+        "land": "0202",
+        "brief": "1130",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1130 \u00b7 1230 \u00b7 NAV0202 \u00b7 IEC \u00b7 3 \u00b7 27-05",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "IEC",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1300",
+        "end": "0203",
+        "land": "0203",
+        "brief": "1230",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1230 \u00b7 1300 \u00b7 NAV0203 \u00b7 IEC \u00b7 3 \u00b7 27-05",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "IEC",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1400",
+        "end": "0204",
+        "land": "0204",
+        "brief": "1300",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1300 \u00b7 1400 \u00b7 NAV0204 \u00b7 IEC \u00b7 3 \u00b7 27-05",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "IEC",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1500",
+        "end": "0204",
+        "land": "0204",
+        "brief": "1400",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1400 MIL \u00b7 1500 \u00b7 P0204 \u00b7 IEC \u00b7 1 \u00b7 26-37M",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "IEC",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1400",
+        "end": "0203",
+        "land": "0203",
+        "brief": "1100",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1100 \u00b7 1400 \u00b7 P0203 \u00b7 IEC \u00b7 1 CARANDANG, \u00b7 KEN 26-37M",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "IEC",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1230",
+        "end": "0106",
+        "land": "0106",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NOBLE",
+            "first": "TIMOTHY",
+            "full": "NOBLE, TIMOTHY"
+          }
+        ],
+        "instructors": [
+          "NOBLE, TIMOTHY"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1130 \u00b7 1230 \u00b7 OPS0106 \u00b7 IEC \u00b7 2 NOBLE, TIMOTHY \u00b7 26-45",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "IEC",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1530",
+        "end": "0107",
+        "land": "0107",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NOBLE",
+            "first": "TIMOTHY",
+            "full": "NOBLE, TIMOTHY"
+          }
+        ],
+        "instructors": [
+          "NOBLE, TIMOTHY"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1230 Test \u00b7 1530 \u00b7 OPS0107 \u00b7 IEC \u00b7 2 NOBLE, TIMOTHY \u00b7 26-45",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "IEC",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "COMMANDING",
+        "start": "1100",
+        "end": "0109",
+        "land": "0109",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HIGGINS",
+            "first": "OPERATIONS",
+            "full": "HIGGINS, OPERATIONS"
+          }
+        ],
+        "instructors": [
+          "HIGGINS, OPERATIONS"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0930 \u00b7 1100 SCHEDULES \u00b7 NAV0109 SUBMITTED \u00b7 IEC BY: OFFICER \u00b7 3 HIGGINS, OPERATIONS \u00b7 JERRY 27-05 REVIEWED BY: OFFICER \u00b7 COMMANDING \u00b7 APPROVED BY: OFFICER",
+        "role": "COMMANDING",
+        "remarks": "APPROVED BY: OFFICER",
+        "duration": "",
+        "device": "IEC BY: OFFICER",
+        "solo": false
+      }
+    ]
+  }
 }

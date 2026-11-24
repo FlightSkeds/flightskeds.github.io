@@ -1002,5 +1002,633 @@
       "line_number": 10,
       "text": "Meetings"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "              Saturday,  14-Nov-2026                  Saturday,   14-Nov-2026         0800-1600     Goeates &   Geoates B, ENS, Ramirez S, 1stLt,   Flanagan J, ENS, Rugg A,   Phone Muster          Ramirez(F4101),     2ndLt, Neill  B, ENS            Flanagan(FAM4202),                     Rugg(FAM4202),                ",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "ODO (AM)",
+        "start": "0700",
+        "end": "1500",
+        "land": "1500",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CASEY",
+            "first": "S",
+            "full": "CASEY, S"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "ODO (AM) \u00b7 Casey S, LT \u00b7 0700 \u00b7 1500",
+        "role": "ODO (AM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER (AM)",
+        "start": "0630",
+        "end": "1530",
+        "land": "1530",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GILBERT",
+            "first": "L",
+            "full": "GILBERT, L"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER (AM) \u00b7 Gilbert L, 2ndLt \u00b7 0630 \u00b7 1530",
+        "role": "DUTY DRIVER (AM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER (PM)",
+        "start": "1530",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GLASGOW",
+            "first": "G",
+            "full": "GLASGOW, G"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER (PM) \u00b7 Glasgow G, 2ndLt \u00b7 1530 \u00b7 2359",
+        "role": "DUTY DRIVER (PM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AODO(AM)-WEEKEND",
+        "start": "0630",
+        "end": "1530",
+        "land": "1530",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ASJES",
+            "first": "P",
+            "full": "ASJES, P"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AODO(AM)-WEEKEND \u00b7 Asjes P, ENS \u00b7 0630 \u00b7 1530",
+        "role": "AODO(AM)-WEEKEND",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AODO(PM)-WEEKEND",
+        "start": "1530",
+        "end": "2300",
+        "land": "2300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "COLEMAN",
+            "first": "A",
+            "full": "COLEMAN, A"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AODO(PM)-WEEKEND \u00b7 Coleman A, ENS \u00b7 1530 \u00b7 2300",
+        "role": "AODO(PM)-WEEKEND",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4101 (86(WU))",
+        "start": "0851",
+        "end": "1027",
+        "land": "1027",
+        "brief": "0706",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BROWN",
+            "first": "C",
+            "full": "BROWN, C"
+          },
+          {
+            "last": "MITCHELL",
+            "first": "P",
+            "full": "MITCHELL, P"
+          }
+        ],
+        "instructors": [
+          "BROWN, C"
+        ],
+        "students": [
+          "MITCHELL, P"
+        ],
+        "page": 2,
+        "line": "042-A",
+        "raw": "042-A \u00b7 0706 \u00b7 0851 \u00b7 1027 \u00b7 Brown C, Capt \u00b7 Mitchell P, ENS \u00b7 FAM4101 (86(WU)) \u00b7 1 D 1 \u00b7 L O CAL - MWU QT",
+        "role": "FAM4101 (86(WU))",
+        "remarks": "L O CAL - MWU QT",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "F4101",
+        "start": "0936",
+        "end": "1112",
+        "land": "1112",
+        "brief": "0751",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SAVAGE-CTR",
+            "first": "K",
+            "full": "SAVAGE-CTR, K"
+          },
+          {
+            "last": "PAPPAS",
+            "first": "C",
+            "full": "PAPPAS, C"
+          }
+        ],
+        "instructors": [
+          "SAVAGE-CTR, K"
+        ],
+        "students": [
+          "PAPPAS, C"
+        ],
+        "page": 2,
+        "line": "060-A",
+        "raw": "060-A \u00b7 0751 \u00b7 0936 \u00b7 1112 \u00b7 Savage-CTR K, LCDR \u00b7 Pappas C, ENS \u00b7 F4101 \u00b7 1 D 1 \u00b7 LOCAL - O/I (CH 85)",
+        "role": "F4101",
+        "remarks": "LOCAL - O/I (CH 85)",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "F4101",
+        "start": "0942",
+        "end": "1118",
+        "land": "1118",
+        "brief": "0757",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIRIANNO",
+            "first": "M",
+            "full": "SIRIANNO, M"
+          },
+          {
+            "last": "SWANSON",
+            "first": "A",
+            "full": "SWANSON, A"
+          }
+        ],
+        "instructors": [
+          "SIRIANNO, M"
+        ],
+        "students": [
+          "SWANSON, A"
+        ],
+        "page": 2,
+        "line": "062-A",
+        "raw": "062-A \u00b7 0757 \u00b7 0942 \u00b7 1118 \u00b7 Sirianno M, Capt \u00b7 Swanson A, ENS \u00b7 F4101 \u00b7 1 D 1 \u00b7 LOCAL - O/I (CH 85)SL",
+        "role": "F4101",
+        "remarks": "LOCAL - O/I (CH 85)SL",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4890",
+        "start": "0951",
+        "end": "1127",
+        "land": "1127",
+        "brief": "0806",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HACK",
+            "first": "R",
+            "full": "HACK, R"
+          },
+          {
+            "last": "BYELOGUROV",
+            "first": "A",
+            "full": "BYELOGUROV, A"
+          }
+        ],
+        "instructors": [
+          "HACK, R"
+        ],
+        "students": [
+          "BYELOGUROV, A"
+        ],
+        "page": 2,
+        "line": "065-A",
+        "raw": "065-A \u00b7 0806 \u00b7 0951 \u00b7 1127 \u00b7 Hack R, LT \u00b7 Byelogurov A, LCDR \u00b7 C4890 \u00b7 1 B 1 \u00b7 LOCAL - IP UPGRADE SNG",
+        "role": "C4890",
+        "remarks": "LOCAL - IP UPGRADE SNG",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4601",
+        "start": "0957",
+        "end": "1139",
+        "land": "1139",
+        "brief": "0812",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STANLEY",
+            "first": "H",
+            "full": "STANLEY, H"
+          },
+          {
+            "last": "VILLENA",
+            "first": "M",
+            "full": "VILLENA, M"
+          }
+        ],
+        "instructors": [
+          "STANLEY, H"
+        ],
+        "students": [
+          "VILLENA, M"
+        ],
+        "page": 2,
+        "line": "067-A",
+        "raw": "067-A \u00b7 0812 \u00b7 0957 \u00b7 1139 \u00b7 Stanley H, LCDR \u00b7 Villena M, ENS \u00b7 FAM4601 \u00b7 1 D 1 \u00b7 LOCAL - O/I",
+        "role": "FAM4601",
+        "remarks": "LOCAL - O/I",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4101",
+        "start": "1251",
+        "end": "1427",
+        "land": "1427",
+        "brief": "1106",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BROWN",
+            "first": "C",
+            "full": "BROWN, C"
+          },
+          {
+            "last": "GAO",
+            "first": "L",
+            "full": "GAO, L"
+          }
+        ],
+        "instructors": [
+          "BROWN, C"
+        ],
+        "students": [
+          "GAO, L"
+        ],
+        "page": 2,
+        "line": "042-B",
+        "raw": "042-B \u00b7 1106 \u00b7 1251 \u00b7 1427 \u00b7 Brown C, Capt \u00b7 Gao L, 2ndLt \u00b7 FAM4101 \u00b7 1 D 1 \u00b7 LOCAL",
+        "role": "FAM4101",
+        "remarks": "LOCAL",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "N4101",
+        "start": "1258",
+        "end": "1434",
+        "land": "1434",
+        "brief": "1113",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PENTZ",
+            "first": "J",
+            "full": "PENTZ, J"
+          },
+          {
+            "last": "JOHNSON",
+            "first": "T",
+            "full": "JOHNSON, T"
+          }
+        ],
+        "instructors": [
+          "PENTZ, J"
+        ],
+        "students": [
+          "JOHNSON, T"
+        ],
+        "page": 2,
+        "line": "046-B",
+        "raw": "046-B \u00b7 1113 \u00b7 1258 \u00b7 1434 \u00b7 Pentz J, LCDR \u00b7 Johnson T, 2ndLt \u00b7 N4101 \u00b7 1 D 1 \u00b7 LOCAL - TOT",
+        "role": "N4101",
+        "remarks": "LOCAL - TOT",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "F4102",
+        "start": "1336",
+        "end": "1512",
+        "land": "1512",
+        "brief": "1151",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SAVAGE-CTR",
+            "first": "K",
+            "full": "SAVAGE-CTR, K"
+          },
+          {
+            "last": "PAPPAS",
+            "first": "C",
+            "full": "PAPPAS, C"
+          }
+        ],
+        "instructors": [
+          "SAVAGE-CTR, K"
+        ],
+        "students": [
+          "PAPPAS, C"
+        ],
+        "page": 2,
+        "line": "060-B",
+        "raw": "060-B \u00b7 1151 \u00b7 1336 \u00b7 1512 \u00b7 Savage-CTR K, LCDR \u00b7 Pappas C, ENS \u00b7 F4102 \u00b7 1 D 1 \u00b7 LOCAL - RTN (CH 85)",
+        "role": "F4102",
+        "remarks": "LOCAL - RTN (CH 85)",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "F4102",
+        "start": "1342",
+        "end": "1518",
+        "land": "1518",
+        "brief": "1157",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIRIANNO",
+            "first": "M",
+            "full": "SIRIANNO, M"
+          },
+          {
+            "last": "SWANSON",
+            "first": "A",
+            "full": "SWANSON, A"
+          }
+        ],
+        "instructors": [
+          "SIRIANNO, M"
+        ],
+        "students": [
+          "SWANSON, A"
+        ],
+        "page": 2,
+        "line": "062-B",
+        "raw": "062-B \u00b7 1157 \u00b7 1342 \u00b7 1518 \u00b7 Sirianno M, Capt \u00b7 Swanson A, ENS \u00b7 F4102 \u00b7 1 D 1 \u00b7 LOCAL - RTN (CH 85)SL",
+        "role": "F4102",
+        "remarks": "LOCAL - RTN (CH 85)SL",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4602",
+        "start": "1357",
+        "end": "1539",
+        "land": "1539",
+        "brief": "1212",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STANLEY",
+            "first": "H",
+            "full": "STANLEY, H"
+          },
+          {
+            "last": "VILLENA",
+            "first": "M",
+            "full": "VILLENA, M"
+          }
+        ],
+        "instructors": [
+          "STANLEY, H"
+        ],
+        "students": [
+          "VILLENA, M"
+        ],
+        "page": 2,
+        "line": "067-B",
+        "raw": "067-B \u00b7 1212 \u00b7 1357 \u00b7 1539 \u00b7 Stanley H, LCDR \u00b7 Villena M, ENS \u00b7 FAM4602 \u00b7 1 D 1 \u00b7 LOCAL - RTN",
+        "role": "FAM4602",
+        "remarks": "LOCAL - RTN",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4102",
+        "start": "1503",
+        "end": "1639",
+        "land": "1639",
+        "brief": "1318",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCDOWELL-CTR",
+            "first": "P",
+            "full": "MCDOWELL-CTR, P"
+          },
+          {
+            "last": "KING",
+            "first": "E",
+            "full": "KING, E"
+          }
+        ],
+        "instructors": [
+          "MCDOWELL-CTR, P"
+        ],
+        "students": [
+          "KING, E"
+        ],
+        "page": 2,
+        "line": "002-C",
+        "raw": "002-C \u00b7 1318 \u00b7 1503 \u00b7 1639 \u00b7 Mcdowell-CTR P, LCDR \u00b7 King E, 2ndLt \u00b7 I4102 \u00b7 1 D 2 \u00b7 LOCAL - O/I (PREPO TO KCRP)",
+        "role": "I4102",
+        "remarks": "LOCAL - O/I (PREPO TO KCRP)",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4201",
+        "start": "1658",
+        "end": "1834",
+        "land": "1834",
+        "brief": "1513",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PENTZ",
+            "first": "J",
+            "full": "PENTZ, J"
+          },
+          {
+            "last": "JOHNSON",
+            "first": "T",
+            "full": "JOHNSON, T"
+          }
+        ],
+        "instructors": [
+          "PENTZ, J"
+        ],
+        "students": [
+          "JOHNSON, T"
+        ],
+        "page": 2,
+        "line": "046-C",
+        "raw": "046-C \u00b7 1513 \u00b7 1658 \u00b7 1834 \u00b7 Pentz J, LCDR \u00b7 Johnson T, 2ndLt \u00b7 I4201 \u00b7 1 D 2 \u00b7 LOCAL - TOT",
+        "role": "I4201",
+        "remarks": "LOCAL - TOT",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4103",
+        "start": "1903",
+        "end": "2039",
+        "land": "2039",
+        "brief": "1718",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCDOWELL-CTR",
+            "first": "P",
+            "full": "MCDOWELL-CTR, P"
+          },
+          {
+            "last": "KING",
+            "first": "E",
+            "full": "KING, E"
+          }
+        ],
+        "instructors": [
+          "MCDOWELL-CTR, P"
+        ],
+        "students": [
+          "KING, E"
+        ],
+        "page": 2,
+        "line": "002-D",
+        "raw": "002-D \u00b7 1718 \u00b7 1903 \u00b7 2039 \u00b7 Mcdowell-CTR P, LCDR \u00b7 King E, 2ndLt \u00b7 I4103 \u00b7 1 D 2 \u00b7 RTN TO KCRP",
+        "role": "I4103",
+        "remarks": "RTN TO KCRP",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4202",
+        "start": "2058",
+        "end": "2234",
+        "land": "2234",
+        "brief": "1913",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PENTZ",
+            "first": "J",
+            "full": "PENTZ, J"
+          },
+          {
+            "last": "JOHNSON",
+            "first": "T",
+            "full": "JOHNSON, T"
+          }
+        ],
+        "instructors": [
+          "PENTZ, J"
+        ],
+        "students": [
+          "JOHNSON, T"
+        ],
+        "page": 2,
+        "line": "046-D *All flight",
+        "raw": "046-D *All flight \u00b7 1913 sorties \u00b7 2058 are \u00b7 conducted \u00b7 2234 \u00b7 Pentz J, LCDR in a T-6B aircraft. \u00b7 Johnson T, 2ndLt \u00b7 I4202 \u00b7 1 D 2 \u00b7 LOCAL - TOT RTN",
+        "role": "I4202",
+        "remarks": "LOCAL - TOT RTN",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

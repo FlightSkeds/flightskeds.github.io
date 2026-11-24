@@ -431,5 +431,397 @@
       "line_number": 20,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "ODO (ON CALL)",
+        "start": "0000",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GEBHART",
+            "first": "ZACHARY",
+            "full": "GEBHART, ZACHARY"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "ODO (ON CALL) \u00b7 GEBHART, ZACHARY L, LCDR \u00b7 0000 \u00b7 2359",
+        "role": "ODO (ON CALL)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "IWO",
+        "start": "0600",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MASINI",
+            "first": "MARK",
+            "full": "MASINI, MARK"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "IWO \u00b7 MASINI, MARK J, 2ndLt \u00b7 0600 \u00b7 1800",
+        "role": "IWO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER",
+        "start": "0730",
+        "end": "1930",
+        "land": "1930",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MIDTHUN",
+            "first": "NOAH",
+            "full": "MIDTHUN, NOAH"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER \u00b7 MIDTHUN, NOAH J, LTJG \u00b7 0730 \u00b7 1930",
+        "role": "DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "IWO",
+        "start": "1800",
+        "end": "0600",
+        "land": "0600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RAMIREZ",
+            "first": "EDUARDO",
+            "full": "RAMIREZ, EDUARDO"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "IWO \u00b7 RAMIREZ, EDUARDO , LTJG \u00b7 1800 \u00b7 0600",
+        "role": "IWO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4104",
+        "start": "1030",
+        "end": "1200",
+        "land": "1200",
+        "brief": "0845",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FISHER",
+            "first": "JOHN",
+            "full": "FISHER, JOHN"
+          },
+          {
+            "last": "JAUBERT",
+            "first": "BAPTISTE",
+            "full": "JAUBERT, BAPTISTE"
+          }
+        ],
+        "instructors": [
+          "FISHER, JOHN"
+        ],
+        "students": [
+          "JAUBERT, BAPTISTE"
+        ],
+        "page": 2,
+        "line": "701",
+        "raw": "701 \u00b7 0845 \u00b7 1030 \u00b7 1200 \u00b7 FISHER, JOHN W, CDR \u00b7 JAUBERT, BAPTISTE , ENS \u00b7 IR4104 \u00b7 1.5 \u00b7 CCX; DAL-GGG",
+        "role": "IR4104",
+        "remarks": "CCX; DAL-GGG",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4102",
+        "start": "1030",
+        "end": "1200",
+        "land": "1200",
+        "brief": "0845",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LATHROP",
+            "first": "JAMES",
+            "full": "LATHROP, JAMES"
+          },
+          {
+            "last": "BERNAL",
+            "first": "NATHAN",
+            "full": "BERNAL, NATHAN"
+          }
+        ],
+        "instructors": [
+          "LATHROP, JAMES"
+        ],
+        "students": [
+          "BERNAL, NATHAN"
+        ],
+        "page": 2,
+        "line": "702",
+        "raw": "702 \u00b7 0845 \u00b7 1030 \u00b7 1200 \u00b7 LATHROP, JAMES S, LCDR \u00b7 BERNAL, NATHAN, ENS \u00b7 IR4102 \u00b7 1.5 \u00b7 MEI OPS",
+        "role": "IR4102",
+        "remarks": "MEI OPS",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4102",
+        "start": "1030",
+        "end": "1200",
+        "land": "1200",
+        "brief": "0845",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HALEY",
+            "first": "MICHAEL",
+            "full": "HALEY, MICHAEL"
+          },
+          {
+            "last": "DIERICKX",
+            "first": "ABRAM",
+            "full": "DIERICKX, ABRAM"
+          }
+        ],
+        "instructors": [
+          "HALEY, MICHAEL"
+        ],
+        "students": [
+          "DIERICKX, ABRAM"
+        ],
+        "page": 2,
+        "line": "703",
+        "raw": "703 \u00b7 0845 \u00b7 1030 \u00b7 1200 \u00b7 HALEY, MICHAEL P, LT \u00b7 DIERICKX, ABRAM W, LTJG \u00b7 IR4102 \u00b7 1.5 \u00b7 MEI OPS",
+        "role": "IR4102",
+        "remarks": "MEI OPS",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4101",
+        "start": "1030",
+        "end": "1200",
+        "land": "1200",
+        "brief": "0845",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CUMMINS",
+            "first": "BRADEN",
+            "full": "CUMMINS, BRADEN"
+          },
+          {
+            "last": "JONES",
+            "first": "TREVOR",
+            "full": "JONES, TREVOR"
+          }
+        ],
+        "instructors": [
+          "CUMMINS, BRADEN"
+        ],
+        "students": [
+          "JONES, TREVOR"
+        ],
+        "page": 2,
+        "line": "704",
+        "raw": "704 \u00b7 0845 \u00b7 1030 \u00b7 1200 \u00b7 CUMMINS, BRADEN W, LtCol \u00b7 JONES, TREVOR M, LTJG \u00b7 IR4101 \u00b7 1.5 \u00b7 MEI OPS",
+        "role": "IR4101",
+        "remarks": "MEI OPS",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4105",
+        "start": "1330",
+        "end": "1500",
+        "land": "1500",
+        "brief": "1145",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FISHER",
+            "first": "JOHN",
+            "full": "FISHER, JOHN"
+          },
+          {
+            "last": "JAUBERT",
+            "first": "BAPTISTE",
+            "full": "JAUBERT, BAPTISTE"
+          }
+        ],
+        "instructors": [
+          "FISHER, JOHN"
+        ],
+        "students": [
+          "JAUBERT, BAPTISTE"
+        ],
+        "page": 2,
+        "line": "705",
+        "raw": "705 \u00b7 1145 \u00b7 1330 \u00b7 1500 \u00b7 FISHER, JOHN W, CDR \u00b7 JAUBERT, BAPTISTE , ENS \u00b7 IR4105 \u00b7 1.5 \u00b7 CCX; GGG-MEI",
+        "role": "IR4105",
+        "remarks": "CCX; GGG-MEI",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4103",
+        "start": "1330",
+        "end": "1500",
+        "land": "1500",
+        "brief": "1145",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LATHROP",
+            "first": "JAMES",
+            "full": "LATHROP, JAMES"
+          },
+          {
+            "last": "BERNAL",
+            "first": "NATHAN",
+            "full": "BERNAL, NATHAN"
+          }
+        ],
+        "instructors": [
+          "LATHROP, JAMES"
+        ],
+        "students": [
+          "BERNAL, NATHAN"
+        ],
+        "page": 2,
+        "line": "706",
+        "raw": "706 \u00b7 1145 \u00b7 1330 \u00b7 1500 \u00b7 LATHROP, JAMES S, LCDR \u00b7 BERNAL, NATHAN, ENS \u00b7 IR4103 \u00b7 1.5 \u00b7 MEI OPS",
+        "role": "IR4103",
+        "remarks": "MEI OPS",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4103",
+        "start": "1330",
+        "end": "1500",
+        "land": "1500",
+        "brief": "1145",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HALEY",
+            "first": "MICHAEL",
+            "full": "HALEY, MICHAEL"
+          },
+          {
+            "last": "DIERICKX",
+            "first": "ABRAM",
+            "full": "DIERICKX, ABRAM"
+          }
+        ],
+        "instructors": [
+          "HALEY, MICHAEL"
+        ],
+        "students": [
+          "DIERICKX, ABRAM"
+        ],
+        "page": 2,
+        "line": "707",
+        "raw": "707 \u00b7 1145 \u00b7 1330 \u00b7 1500 \u00b7 HALEY, MICHAEL P, LT \u00b7 DIERICKX, ABRAM W, LTJG \u00b7 IR4103 \u00b7 1.5 \u00b7 MEI OPS",
+        "role": "IR4103",
+        "remarks": "MEI OPS",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4102",
+        "start": "1330",
+        "end": "1500",
+        "land": "1500",
+        "brief": "1145",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CUMMINS",
+            "first": "BRADEN",
+            "full": "CUMMINS, BRADEN"
+          },
+          {
+            "last": "JONES",
+            "first": "TREVOR",
+            "full": "JONES, TREVOR"
+          }
+        ],
+        "instructors": [
+          "CUMMINS, BRADEN"
+        ],
+        "students": [
+          "JONES, TREVOR"
+        ],
+        "page": 2,
+        "line": "708",
+        "raw": "708 \u00b7 1145 \u00b7 1330 \u00b7 1500 \u00b7 CUMMINS, BRADEN W, LtCol Simulator (Sim Event) \u00b7 JONES, TREVOR M, LTJG Schedule \u00b7 IR4102 \u00b7 1.5 \u00b7 MEI OPS",
+        "role": "IR4102",
+        "remarks": "MEI OPS",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

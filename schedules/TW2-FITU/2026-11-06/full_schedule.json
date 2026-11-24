@@ -229,5 +229,83 @@
       "line_number": 24,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "NA4202",
+        "start": "1030",
+        "end": "1142",
+        "land": "1142",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NIGUS",
+            "first": "CHRISTOPHER",
+            "full": "NIGUS, CHRISTOPHER"
+          },
+          {
+            "last": "WATERMAN",
+            "first": "RYAN",
+            "full": "WATERMAN, RYAN"
+          }
+        ],
+        "instructors": [
+          "NIGUS, CHRISTOPHER"
+        ],
+        "students": [
+          "WATERMAN, RYAN"
+        ],
+        "page": 1,
+        "line": "1",
+        "raw": "1 \u00b7 0900 \u00b7 1030 \u00b7 1142 \u00b7 NIGUS, CHRISTOPHER A, CDR Simulator (Sim \u00b7 Event) \u00b7 WATERMAN, RYAN R, Capt Schedule \u00b7 NA4202 \u00b7 1.2/0.0",
+        "role": "NA4202",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "INST CHECK SIM",
+        "start": "1430",
+        "end": "",
+        "land": "",
+        "brief": "1400",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STROTHER",
+            "first": "HARRY",
+            "full": "STROTHER, HARRY"
+          },
+          {
+            "last": "TUCKER",
+            "first": "CHRISTOPHER",
+            "full": "TUCKER, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "STROTHER, HARRY"
+        ],
+        "students": [
+          "TUCKER, CHRISTOPHER"
+        ],
+        "page": 1,
+        "line": "1",
+        "raw": "1 \u00b7 1400 \u00b7 1430 \u00b7 504 \u00b7 STROTHER, HARRY A, CTR \u00b7 TUCKER, CHRISTOPHER S, LCDR Ground Events \u00b7 INST CHECK SIM",
+        "role": "INST CHECK SIM",
+        "remarks": "",
+        "duration": "",
+        "device": "504",
+        "solo": false
+      }
+    ]
+  }
 }

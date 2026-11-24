@@ -459,5 +459,153 @@
       "line_number": 35,
       "text": "A. J. MERRALL M. B. SIPAH"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "FAM4201",
+        "start": "0700",
+        "end": "0900",
+        "land": "0900",
+        "brief": "0515",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MINICK",
+            "first": "JUSTIN",
+            "full": "MINICK, JUSTIN"
+          },
+          {
+            "last": "HACKWORTH",
+            "first": "MARK",
+            "full": "HACKWORTH, MARK"
+          }
+        ],
+        "instructors": [
+          "MINICK, JUSTIN"
+        ],
+        "students": [
+          "HACKWORTH, MARK"
+        ],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0515 \u00b7 0700 \u00b7 0900 \u00b7 MINICK, JUSTIN C, LtCol# \u00b7 HACKWORTH, MARK A, LT# \u00b7 FAM4201 \u00b7 2.0/0.0 \u00b7 2x O/I, OCF Required",
+        "role": "FAM4201",
+        "remarks": "2x O/I, OCF Required",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4301",
+        "start": "0715",
+        "end": "0915",
+        "land": "0915",
+        "brief": "0530",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIPAH",
+            "first": "MICHAEL",
+            "full": "SIPAH, MICHAEL"
+          },
+          {
+            "last": "HOWELL",
+            "first": "AARON",
+            "full": "HOWELL, AARON"
+          }
+        ],
+        "instructors": [
+          "SIPAH, MICHAEL"
+        ],
+        "students": [
+          "HOWELL, AARON"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0530 \u00b7 0715 \u00b7 0915 \u00b7 SIPAH, MICHAEL B, LCDR# \u00b7 HOWELL, AARON D, CDR# \u00b7 C4301 \u00b7 2.0/0.0 \u00b7 2x O/I OCF Required",
+        "role": "C4301",
+        "remarks": "2x O/I OCF Required",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4301",
+        "start": "1100",
+        "end": "1300",
+        "land": "1300",
+        "brief": "0915",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MINICK",
+            "first": "JUSTIN",
+            "full": "MINICK, JUSTIN"
+          },
+          {
+            "last": "HACKWORTH",
+            "first": "MARK",
+            "full": "HACKWORTH, MARK"
+          }
+        ],
+        "instructors": [
+          "MINICK, JUSTIN"
+        ],
+        "students": [
+          "HACKWORTH, MARK"
+        ],
+        "page": 2,
+        "line": "3",
+        "raw": "3 \u00b7 0915 \u00b7 1100 \u00b7 1300 \u00b7 MINICK, JUSTIN C, LtCol# \u00b7 HACKWORTH, MARK A, LT# \u00b7 FAM4301 \u00b7 2.0/0.0",
+        "role": "FAM4301",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4302 Event) Schedule",
+        "start": "1115",
+        "end": "1315",
+        "land": "1315",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIPAH",
+            "first": "MICHAEL",
+            "full": "SIPAH, MICHAEL"
+          },
+          {
+            "last": "HOWELL",
+            "first": "AARON",
+            "full": "HOWELL, AARON"
+          }
+        ],
+        "instructors": [
+          "SIPAH, MICHAEL"
+        ],
+        "students": [
+          "HOWELL, AARON"
+        ],
+        "page": 2,
+        "line": "4",
+        "raw": "4 \u00b7 0930 \u00b7 1115 \u00b7 1315 \u00b7 SIPAH, MICHAEL B, LCDR# \u00b7 HOWELL, AARON D, CDR# Simulator (Sim \u00b7 C4302 Event) Schedule \u00b7 2.0/0.0",
+        "role": "C4302 Event) Schedule",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

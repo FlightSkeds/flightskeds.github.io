@@ -422,5 +422,117 @@
       "line_number": 15,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "FDO",
+        "start": "0700",
+        "end": "0659",
+        "land": "0659",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BOWES",
+            "first": "C",
+            "full": "BOWES, C"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "FDO \u00b7 LT BOWES C \u00b7 0700 \u00b7 0659",
+        "role": "FDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER",
+        "start": "0730",
+        "end": "0729",
+        "land": "0729",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KOYAMA",
+            "first": "Y",
+            "full": "KOYAMA, Y"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER \u00b7 1stLt KOYAMA Y \u00b7 0730 \u00b7 0729",
+        "role": "DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM SDO",
+        "start": "0700",
+        "end": "1900",
+        "land": "1900",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "EMERICK ADAMS",
+            "first": "U",
+            "full": "EMERICK ADAMS, U"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM SDO \u00b7 ENS EMERICK ADAMS U \u00b7 0700 \u00b7 1900",
+        "role": "AM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM SDO",
+        "start": "1900",
+        "end": "0700",
+        "land": "0700",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MEADOWS",
+            "first": "C",
+            "full": "MEADOWS, C"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM SDO \u00b7 LTJG MEADOWS C \u00b7 1900 \u00b7 0700",
+        "role": "PM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

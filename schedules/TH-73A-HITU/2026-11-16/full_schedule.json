@@ -462,5 +462,1019 @@
       "line_number": 51,
       "text": "INITIAL"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "DAY4105I",
+        "start": "0830",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MEIER",
+            "first": "K",
+            "full": "MEIER, K"
+          },
+          {
+            "last": "KOON",
+            "first": "D",
+            "full": "KOON, D"
+          }
+        ],
+        "instructors": [
+          "MEIER, K"
+        ],
+        "students": [
+          "KOON, D"
+        ],
+        "page": 2,
+        "line": "T01-1",
+        "raw": "T01-1 \u00b7 0630 \u00b7 0830 \u00b7 1230 \u00b7 CDR MEIER K \u00b7 Capt KOON D \u00b7 DAY4105I \u00b7 4.0 \u00b7 REQ 800#",
+        "role": "DAY4105I",
+        "remarks": "REQ 800#",
+        "duration": "4.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "DAY4001I",
+        "start": "0830",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MEIER",
+            "first": "K",
+            "full": "MEIER, K"
+          },
+          {
+            "last": "SUMMA",
+            "first": "J",
+            "full": "SUMMA, J"
+          }
+        ],
+        "instructors": [
+          "MEIER, K"
+        ],
+        "students": [
+          "SUMMA, J"
+        ],
+        "page": 2,
+        "line": "T01-1",
+        "raw": "T01-1 \u00b7 0630 \u00b7 0830 \u00b7 1230 \u00b7 CDR MEIER K \u00b7 LT SUMMA J \u00b7 DAY4001I \u00b7 HS TO KEEF KOON FLY FIRST",
+        "role": "DAY4001I",
+        "remarks": "HS TO KEEF KOON FLY FIRST",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "DAY4103I",
+        "start": "1245",
+        "end": "1645",
+        "land": "1645",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KEEF",
+            "first": "C",
+            "full": "KEEF, C"
+          },
+          {
+            "last": "TASLER",
+            "first": "C",
+            "full": "TASLER, C"
+          }
+        ],
+        "instructors": [
+          "KEEF, C"
+        ],
+        "students": [
+          "TASLER, C"
+        ],
+        "page": 2,
+        "line": "T01-2",
+        "raw": "T01-2 \u00b7 1100 \u00b7 1245 \u00b7 1645 \u00b7 CDR KEEF C \u00b7 Capt TASLER C \u00b7 DAY4103I \u00b7 4.0 \u00b7 HS FM MEIER",
+        "role": "DAY4103I",
+        "remarks": "HS FM MEIER",
+        "duration": "4.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4003I",
+        "start": "1245",
+        "end": "1645",
+        "land": "1645",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KEEF",
+            "first": "C",
+            "full": "KEEF, C"
+          },
+          {
+            "last": "CASSIN",
+            "first": "F",
+            "full": "CASSIN, F"
+          }
+        ],
+        "instructors": [
+          "KEEF, C"
+        ],
+        "students": [
+          "CASSIN, F"
+        ],
+        "page": 2,
+        "line": "T01-2",
+        "raw": "T01-2 \u00b7 1100 \u00b7 1245 \u00b7 1645 \u00b7 CDR KEEF C \u00b7 Capt CASSIN F \u00b7 RI4003I \u00b7 HS TO BUIS",
+        "role": "RI4003I",
+        "remarks": "HS TO BUIS",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NGT4002I",
+        "start": "1700",
+        "end": "2100",
+        "land": "2100",
+        "brief": "1430",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BUIS",
+            "first": "J",
+            "full": "BUIS, J"
+          },
+          {
+            "last": "MCGRATH",
+            "first": "B",
+            "full": "MCGRATH, B"
+          }
+        ],
+        "instructors": [
+          "BUIS, J"
+        ],
+        "students": [
+          "MCGRATH, B"
+        ],
+        "page": 2,
+        "line": "T01-3",
+        "raw": "T01-3 \u00b7 1430 \u00b7 1700 \u00b7 2100 \u00b7 LT BUIS J \u00b7 Capt MCGRATH B \u00b7 NGT4002I \u00b7 4.0 \u00b7 HS FM KEEF",
+        "role": "NGT4002I",
+        "remarks": "HS FM KEEF",
+        "duration": "4.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4004I",
+        "start": "1700",
+        "end": "2100",
+        "land": "2100",
+        "brief": "1430",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BUIS",
+            "first": "J",
+            "full": "BUIS, J"
+          },
+          {
+            "last": "LIND",
+            "first": "R",
+            "full": "LIND, R"
+          }
+        ],
+        "instructors": [
+          "BUIS, J"
+        ],
+        "students": [
+          "LIND, R"
+        ],
+        "page": 2,
+        "line": "T01-3",
+        "raw": "T01-3 \u00b7 1430 \u00b7 1700 \u00b7 2100 \u00b7 LT BUIS J \u00b7 LT LIND R \u00b7 RI4004I \u00b7 LIND FLY FIRST",
+        "role": "RI4004I",
+        "remarks": "LIND FLY FIRST",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "EM4002I",
+        "start": "0830",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KOENIG",
+            "first": "K",
+            "full": "KOENIG, K"
+          },
+          {
+            "last": "HOLSTEAD",
+            "first": "G",
+            "full": "HOLSTEAD, G"
+          }
+        ],
+        "instructors": [
+          "KOENIG, K"
+        ],
+        "students": [
+          "HOLSTEAD, G"
+        ],
+        "page": 2,
+        "line": "T05-1",
+        "raw": "T05-1 \u00b7 0630 \u00b7 0830 \u00b7 1230 \u00b7 CDR KOENIG K \u00b7 LT HOLSTEAD G \u00b7 EM4002I \u00b7 4.0 \u00b7 REQ 800#",
+        "role": "EM4002I",
+        "remarks": "REQ 800#",
+        "duration": "4.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "EM4002I",
+        "start": "0830",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KOENIG",
+            "first": "K",
+            "full": "KOENIG, K"
+          },
+          {
+            "last": "PETERSON",
+            "first": "E",
+            "full": "PETERSON, E"
+          }
+        ],
+        "instructors": [
+          "KOENIG, K"
+        ],
+        "students": [
+          "PETERSON, E"
+        ],
+        "page": 2,
+        "line": "T05-1",
+        "raw": "T05-1 \u00b7 0630 \u00b7 0830 \u00b7 1230 \u00b7 CDR KOENIG K \u00b7 LT PETERSON E \u00b7 EM4002I \u00b7 HS TO FALCE",
+        "role": "EM4002I",
+        "remarks": "HS TO FALCE",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TRF4001I",
+        "start": "1300",
+        "end": "1700",
+        "land": "1700",
+        "brief": "1045",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FALCE",
+            "first": "A",
+            "full": "FALCE, A"
+          },
+          {
+            "last": "BROWN",
+            "first": "M",
+            "full": "BROWN, M"
+          }
+        ],
+        "instructors": [
+          "FALCE, A"
+        ],
+        "students": [
+          "BROWN, M"
+        ],
+        "page": 2,
+        "line": "T05-2",
+        "raw": "T05-2 \u00b7 1045 \u00b7 1300 \u00b7 1700 \u00b7 LCDR FALCE A \u00b7 LT BROWN M \u00b7 TRF4001I \u00b7 4.0 \u00b7 HS FM KOENIG",
+        "role": "TRF4001I",
+        "remarks": "HS FM KOENIG",
+        "duration": "4.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TRF4001I",
+        "start": "1300",
+        "end": "1700",
+        "land": "1700",
+        "brief": "1045",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FALCE",
+            "first": "A",
+            "full": "FALCE, A"
+          },
+          {
+            "last": "HOPKINS",
+            "first": "M",
+            "full": "HOPKINS, M"
+          }
+        ],
+        "instructors": [
+          "FALCE, A"
+        ],
+        "students": [
+          "HOPKINS, M"
+        ],
+        "page": 2,
+        "line": "T05-2",
+        "raw": "T05-2 \u00b7 1045 \u00b7 1300 \u00b7 1700 \u00b7 LCDR FALCE A \u00b7 LT HOPKINS M \u00b7 TRF4001I \u00b7 HS TO MORALES",
+        "role": "TRF4001I",
+        "remarks": "HS TO MORALES",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NGT4001I",
+        "start": "1730",
+        "end": "2130",
+        "land": "2130",
+        "brief": "1500",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORALES",
+            "first": "J",
+            "full": "MORALES, J"
+          },
+          {
+            "last": "CROSS",
+            "first": "M",
+            "full": "CROSS, M"
+          }
+        ],
+        "instructors": [
+          "MORALES, J"
+        ],
+        "students": [
+          "CROSS, M"
+        ],
+        "page": 2,
+        "line": "T05-3",
+        "raw": "T05-3 \u00b7 1500 \u00b7 1730 \u00b7 2130 \u00b7 Maj MORALES J \u00b7 LT CROSS M \u00b7 NGT4001I \u00b7 4.0 \u00b7 HS FM FALCE",
+        "role": "NGT4001I",
+        "remarks": "HS FM FALCE",
+        "duration": "4.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TRF4101I",
+        "start": "1730",
+        "end": "2130",
+        "land": "2130",
+        "brief": "1500",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORALES",
+            "first": "J",
+            "full": "MORALES, J"
+          },
+          {
+            "last": "SOLOMON",
+            "first": "B",
+            "full": "SOLOMON, B"
+          }
+        ],
+        "instructors": [
+          "MORALES, J"
+        ],
+        "students": [
+          "SOLOMON, B"
+        ],
+        "page": 2,
+        "line": "T05-3",
+        "raw": "T05-3 \u00b7 1500 \u00b7 1730 \u00b7 2130 \u00b7 Maj MORALES J \u00b7 LT SOLOMON B \u00b7 TRF4101I",
+        "role": "TRF4101I",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4001I",
+        "start": "0830",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STARKE",
+            "first": "E",
+            "full": "STARKE, E"
+          },
+          {
+            "last": "MACIAS-ANGEL",
+            "first": "V",
+            "full": "MACIAS-ANGEL, V"
+          }
+        ],
+        "instructors": [
+          "STARKE, E"
+        ],
+        "students": [
+          "MACIAS-ANGEL, V"
+        ],
+        "page": 2,
+        "line": "T09-1",
+        "raw": "T09-1 \u00b7 0630 \u00b7 0830 \u00b7 1230 \u00b7 Capt STARKE E \u00b7 Capt MACIAS-ANGEL V \u00b7 NAV4001I \u00b7 4.0",
+        "role": "NAV4001I",
+        "remarks": "",
+        "duration": "4.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4001I",
+        "start": "0830",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STARKE E SIMULATOR",
+            "first": "",
+            "full": "STARKE E SIMULATOR"
+          }
+        ],
+        "instructors": [
+          "STARKE E SIMULATOR"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "T09-1",
+        "raw": "T09-1 \u00b7 0630 \u00b7 0830 \u00b7 1230 \u00b7 Capt STARKE E Simulator \u00b7 Maj ROBINSON T (Sim Event) Schedule \u00b7 NAV4001I",
+        "role": "NAV4001I",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "RI3101I",
+        "start": "0730",
+        "end": "",
+        "land": "",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PEREA",
+            "first": "E",
+            "full": "PEREA, E"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "PEREA, E"
+        ],
+        "page": 2,
+        "line": "L7U12-2",
+        "raw": "L7U12-2 \u00b7 0700 \u00b7 0730 \u00b7 L7U12 \u00b7 Capt PEREA E \u00b7 RI3101I \u00b7 1.5",
+        "role": "RI3101I",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U12",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Day FAM SIM (86(WU))",
+        "start": "0900",
+        "end": "",
+        "land": "",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ABBOTT",
+            "first": "S",
+            "full": "ABBOTT, S"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "ABBOTT, S"
+        ],
+        "page": 2,
+        "line": "L7U9-3",
+        "raw": "L7U9-3 \u00b7 0830 \u00b7 0900 \u00b7 L7U9 \u00b7 LT ABBOTT S \u00b7 Day FAM SIM (86(WU)) \u00b7 1.5",
+        "role": "Day FAM SIM (86(WU))",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U9",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY2001I",
+        "start": "0900",
+        "end": "",
+        "land": "",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAYWARD",
+            "first": "M",
+            "full": "HAYWARD, M"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "HAYWARD, M"
+        ],
+        "page": 2,
+        "line": "L6U4-3",
+        "raw": "L6U4-3 \u00b7 0830 \u00b7 0900 \u00b7 L6U4 \u00b7 LT HAYWARD M \u00b7 DAY2001I \u00b7 1.5",
+        "role": "DAY2001I",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L6U4",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SAR3001I",
+        "start": "1030",
+        "end": "",
+        "land": "",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DILENSCHNEIDER",
+            "first": "M",
+            "full": "DILENSCHNEIDER, M"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "DILENSCHNEIDER, M"
+        ],
+        "page": 2,
+        "line": "L7U4-4",
+        "raw": "L7U4-4 \u00b7 1000 \u00b7 1030 \u00b7 L7U4 \u00b7 LCDR DILENSCHNEIDER M \u00b7 SAR3001I \u00b7 1.5",
+        "role": "SAR3001I",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U4",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "RI3002I",
+        "start": "1030",
+        "end": "",
+        "land": "",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CHARVET",
+            "first": "S",
+            "full": "CHARVET, S"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "CHARVET, S"
+        ],
+        "page": 2,
+        "line": "L7U12-4",
+        "raw": "L7U12-4 \u00b7 1000 \u00b7 1030 \u00b7 L7U12 \u00b7 LtCol CHARVET S \u00b7 RI3002I \u00b7 1.5",
+        "role": "RI3002I",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U12",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY2001I",
+        "start": "1030",
+        "end": "",
+        "land": "",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HALL",
+            "first": "J",
+            "full": "HALL, J"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "HALL, J"
+        ],
+        "page": 2,
+        "line": "L6U2-4",
+        "raw": "L6U2-4 \u00b7 1000 \u00b7 1030 \u00b7 L6U2 \u00b7 LT HALL J \u00b7 DAY2001I \u00b7 1.5",
+        "role": "DAY2001I",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L6U2",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY2002I",
+        "start": "1200",
+        "end": "",
+        "land": "",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAYWARD",
+            "first": "M",
+            "full": "HAYWARD, M"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "HAYWARD, M"
+        ],
+        "page": 2,
+        "line": "L7U8-5",
+        "raw": "L7U8-5 \u00b7 1130 \u00b7 1200 \u00b7 L7U8 \u00b7 LT HAYWARD M \u00b7 DAY2002I \u00b7 1.5",
+        "role": "DAY2002I",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U8",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TRF3001I",
+        "start": "1200",
+        "end": "",
+        "land": "",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MATOS",
+            "first": "J",
+            "full": "MATOS, J"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MATOS, J"
+        ],
+        "page": 2,
+        "line": "L7U7-5",
+        "raw": "L7U7-5 \u00b7 1130 \u00b7 1200 \u00b7 L7U7 \u00b7 LT MATOS J \u00b7 TRF3001I \u00b7 1.5",
+        "role": "TRF3001I",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U7",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "RI3002I",
+        "start": "1330",
+        "end": "",
+        "land": "",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LOVELL",
+            "first": "J",
+            "full": "LOVELL, J"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "LOVELL, J"
+        ],
+        "page": 2,
+        "line": "L7U10-6",
+        "raw": "L7U10-6 \u00b7 1300 \u00b7 1330 \u00b7 L7U10 \u00b7 LCDR LOVELL J \u00b7 RI3002I \u00b7 1.5",
+        "role": "RI3002I",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U10",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY2002I",
+        "start": "1330",
+        "end": "",
+        "land": "",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HALL",
+            "first": "J",
+            "full": "HALL, J"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "HALL, J"
+        ],
+        "page": 2,
+        "line": "L6U3-6",
+        "raw": "L6U3-6 \u00b7 1300 \u00b7 1330 \u00b7 L6U3 \u00b7 LT HALL J \u00b7 DAY2002I \u00b7 1.5",
+        "role": "DAY2002I",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L6U3",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY3101I",
+        "start": "1500",
+        "end": "",
+        "land": "",
+        "brief": "1430",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NEWTON",
+            "first": "R",
+            "full": "NEWTON, R"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "NEWTON, R"
+        ],
+        "page": 2,
+        "line": "L7U10-7",
+        "raw": "L7U10-7 \u00b7 1430 \u00b7 1500 \u00b7 1630 \u00b7 LCDR NEWTON R \u00b7 DAY3101I \u00b7 1.5",
+        "role": "DAY3101I",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "1630",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY3002I DAY0102I DAY0108I",
+        "start": "1630",
+        "end": "",
+        "land": "",
+        "brief": "1600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CRONGEYER",
+            "first": "G",
+            "full": "CRONGEYER, G"
+          },
+          {
+            "last": "CARNER",
+            "first": "N",
+            "full": "CARNER, N"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "CRONGEYER, G",
+          "CARNER, N"
+        ],
+        "page": 2,
+        "line": "L7U4-8 PTT04-1 PTT01-1",
+        "raw": "L7U4-8 PTT04-1 PTT01-1 \u00b7 1600 TBD TBD \u00b7 1630 TBD TBD \u00b7 L7U4 PTT-4 PTT-1 \u00b7 LT CRONGEYER G LT CARNER N LT CARNER N Ground Events \u00b7 DAY3002I DAY0102I DAY0108I \u00b7 1.5 1.0 1.0",
+        "role": "DAY3002I DAY0102I DAY0108I",
+        "remarks": "",
+        "duration": "1.5 1.0 1.0",
+        "device": "L7U4 PTT-4 PTT-1",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "Ground",
+        "start": "0800",
+        "end": "1000",
+        "land": "1000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALLERT",
+            "first": "M",
+            "full": "ALLERT, M"
+          },
+          {
+            "last": "ROZELLE",
+            "first": "J",
+            "full": "ROZELLE, J"
+          },
+          {
+            "last": "FEWELL",
+            "first": "K",
+            "full": "FEWELL, K"
+          }
+        ],
+        "instructors": [
+          "ALLERT, M"
+        ],
+        "students": [
+          "ROZELLE, J",
+          "FEWELL, K"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0800-1000 FAM-0 \u00b7 HITU LOUNGE \u00b7 LCDR ALLERT M \u00b7 LT ROZELLE J, LT FEWELL K",
+        "role": "Ground",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "EXAM",
+        "start": "0900",
+        "end": "1000",
+        "land": "1000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CARNER",
+            "first": "N",
+            "full": "CARNER, N"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "CARNER, N"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0900-1000 AERO \u00b7 EXAM \u00b7 ACAD BLDG 2946, RM7 \u00b7 LT CARNER N",
+        "role": "EXAM",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "EFB SET UP",
+        "start": "0700",
+        "end": "0800",
+        "land": "0800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCDONALD",
+            "first": "S",
+            "full": "MCDONALD, S"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MCDONALD, S"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0700-0800 GND0202- \u00b7 EFB SET UP \u00b7 ACAD BLDG 2946, RM 27 \u00b7 LT MCDONALD S",
+        "role": "EFB SET UP",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "AV SAFETY",
+        "start": "0800",
+        "end": "0930",
+        "land": "0930",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCDONALD",
+            "first": "S",
+            "full": "MCDONALD, S"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MCDONALD, S"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0800-0930 GND0301- \u00b7 AV SAFETY \u00b7 ACAD BLDG 2946, RM 27 \u00b7 LT MCDONALD S",
+        "role": "AV SAFETY",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "SIM",
+        "start": "1000",
+        "end": "1130",
+        "land": "1130",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCDONALD",
+            "first": "S",
+            "full": "MCDONALD, S"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MCDONALD, S"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1000-1130 GND0203- \u00b7 SIM \u00b7 SIMULATOR \u00b7 LT MCDONALD S",
+        "role": "SIM",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "CRM",
+        "start": "1500",
+        "end": "1630",
+        "land": "1630",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCDONALD",
+            "first": "S",
+            "full": "MCDONALD, S"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MCDONALD, S"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1500-1630 CRM0102- \u00b7 CRM \u00b7 ACAD BLDG 2946, RM 27 \u00b7 LT MCDONALD S",
+        "role": "CRM",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

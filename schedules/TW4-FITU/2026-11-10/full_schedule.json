@@ -519,5 +519,1445 @@
       "line_number": 27,
       "text": "Study SIM"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "Q4101",
+        "start": "0745",
+        "end": "0933",
+        "land": "0933",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "REUSS",
+            "first": "CODY",
+            "full": "REUSS, CODY"
+          },
+          {
+            "last": "DRABKIN",
+            "first": "KONSTANTIN",
+            "full": "DRABKIN, KONSTANTIN"
+          }
+        ],
+        "instructors": [
+          "REUSS, CODY"
+        ],
+        "students": [
+          "DRABKIN, KONSTANTIN"
+        ],
+        "page": 1,
+        "line": "1",
+        "raw": "1 \u00b7 A18 (F) 1 \u00b7 0600 \u00b7 0745 \u00b7 0933 \u00b7 Reuss, Cody# \u00b7 DRABKIN, KONSTANTIN \u00b7 Q4101 \u00b7 1.8/0.0 \u00b7 T-6 Q/T",
+        "role": "Q4101",
+        "remarks": "T-6 Q/T",
+        "duration": "1.8/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "EP4101",
+        "start": "0800",
+        "end": "1100",
+        "land": "1100",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STROM",
+            "first": "COREY",
+            "full": "STROM, COREY"
+          },
+          {
+            "last": "NELSON",
+            "first": "NOAH",
+            "full": "NELSON, NOAH"
+          }
+        ],
+        "instructors": [
+          "STROM, COREY"
+        ],
+        "students": [
+          "NELSON, NOAH"
+        ],
+        "page": 1,
+        "line": "2",
+        "raw": "2 \u00b7 1A \u00b7 0600 \u00b7 0800 \u00b7 1100 \u00b7 Strom, Corey# \u00b7 Nelson, Noah# \u00b7 EP4101 \u00b7 3.0/0.0 \u00b7 T-54 O/I",
+        "role": "EP4101",
+        "remarks": "T-54 O/I",
+        "duration": "3.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAT4590",
+        "start": "0900",
+        "end": "1030",
+        "land": "1030",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FRITZ",
+            "first": "JAMES",
+            "full": "FRITZ, JAMES"
+          },
+          {
+            "last": "KRAUSE",
+            "first": "ADAM",
+            "full": "KRAUSE, ADAM"
+          }
+        ],
+        "instructors": [
+          "FRITZ, JAMES"
+        ],
+        "students": [
+          "KRAUSE, ADAM"
+        ],
+        "page": 1,
+        "line": "3",
+        "raw": "3 \u00b7 4A \u00b7 0700 \u00b7 0900 \u00b7 1030 \u00b7 Fritz, James \u00b7 Krause, Adam \u00b7 NAT4590 \u00b7 1.5/0.0 \u00b7 T-54 SNG",
+        "role": "NAT4590",
+        "remarks": "T-54 SNG",
+        "duration": "1.5/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "VFR PROF",
+        "start": "1000",
+        "end": "1200",
+        "land": "1200",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CARROLL",
+            "first": "THOMAS",
+            "full": "CARROLL, THOMAS"
+          },
+          {
+            "last": "ROYER III",
+            "first": "AARON",
+            "full": "ROYER III, AARON"
+          }
+        ],
+        "instructors": [
+          "CARROLL, THOMAS"
+        ],
+        "students": [
+          "ROYER III, AARON"
+        ],
+        "page": 1,
+        "line": "4",
+        "raw": "4 \u00b7 10A \u00b7 0800 \u00b7 1000 \u00b7 1200 \u00b7 Carroll, Thomas \u00b7 Royer III, Aaron \u00b7 VFR PROF \u00b7 2.0/0.0 \u00b7 T-54 SNG",
+        "role": "VFR PROF",
+        "remarks": "T-54 SNG",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "BIS, BIS",
+        "start": "1000",
+        "end": "1130",
+        "land": "1130",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NEAL",
+            "first": "KENNETH",
+            "full": "NEAL, KENNETH"
+          },
+          {
+            "last": "INDIVERI",
+            "first": "DAVID",
+            "full": "INDIVERI, DAVID"
+          }
+        ],
+        "instructors": [
+          "NEAL, KENNETH"
+        ],
+        "students": [
+          "INDIVERI, DAVID"
+        ],
+        "page": 1,
+        "line": "5",
+        "raw": "5 \u00b7 7A \u00b7 0800 \u00b7 1000 \u00b7 1130 \u00b7 Neal, Kenneth# \u00b7 Indiveri, David# \u00b7 BIS, BIS \u00b7 1.5/0.0 \u00b7 T-54 O/I",
+        "role": "BIS, BIS",
+        "remarks": "T-54 O/I",
+        "duration": "1.5/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Q4103",
+        "start": "1145",
+        "end": "1333",
+        "land": "1333",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "REUSS",
+            "first": "CODY",
+            "full": "REUSS, CODY"
+          },
+          {
+            "last": "WRIGHT",
+            "first": "LAURA",
+            "full": "WRIGHT, LAURA"
+          }
+        ],
+        "instructors": [
+          "REUSS, CODY"
+        ],
+        "students": [
+          "WRIGHT, LAURA"
+        ],
+        "page": 1,
+        "line": "6",
+        "raw": "6 \u00b7 A18 (F) 2 \u00b7 1000 \u00b7 1145 \u00b7 1333 \u00b7 Reuss, Cody# \u00b7 Wright, Laura \u00b7 Q4103 \u00b7 1.8/0.0 \u00b7 T-6",
+        "role": "Q4103",
+        "remarks": "T-6",
+        "duration": "1.8/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4101",
+        "start": "1230",
+        "end": "1430",
+        "land": "1430",
+        "brief": "1030",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GROEBE",
+            "first": "THEODORE",
+            "full": "GROEBE, THEODORE"
+          },
+          {
+            "last": "LEMASTER",
+            "first": "GRANT",
+            "full": "LEMASTER, GRANT"
+          }
+        ],
+        "instructors": [
+          "GROEBE, THEODORE"
+        ],
+        "students": [
+          "LEMASTER, GRANT"
+        ],
+        "page": 1,
+        "line": "7",
+        "raw": "7 \u00b7 1030 \u00b7 1230 \u00b7 1430 \u00b7 Groebe, Theodore# \u00b7 Lemaster, Grant# \u00b7 I4101 \u00b7 2.0/0.0 \u00b7 T-44 O/I",
+        "role": "I4101",
+        "remarks": "T-44 O/I",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "EP4102",
+        "start": "1230",
+        "end": "1530",
+        "land": "1530",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STROM",
+            "first": "COREY",
+            "full": "STROM, COREY"
+          },
+          {
+            "last": "NELSON",
+            "first": "NOAH",
+            "full": "NELSON, NOAH"
+          }
+        ],
+        "instructors": [
+          "STROM, COREY"
+        ],
+        "students": [
+          "NELSON, NOAH"
+        ],
+        "page": 1,
+        "line": "8",
+        "raw": "8 \u00b7 1B \u00b7 1200 \u00b7 1230 \u00b7 1530 \u00b7 Strom, Corey# \u00b7 Nelson, Noah# \u00b7 EP4102 \u00b7 3.0/0.0 \u00b7 T-54 RTN",
+        "role": "EP4102",
+        "remarks": "T-54 RTN",
+        "duration": "3.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IFR PROF",
+        "start": "1300",
+        "end": "1500",
+        "land": "1500",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NEAL",
+            "first": "KENNETH",
+            "full": "NEAL, KENNETH"
+          },
+          {
+            "last": "INDIVERI",
+            "first": "DAVID",
+            "full": "INDIVERI, DAVID"
+          }
+        ],
+        "instructors": [
+          "NEAL, KENNETH"
+        ],
+        "students": [
+          "INDIVERI, DAVID"
+        ],
+        "page": 1,
+        "line": "9",
+        "raw": "9 \u00b7 7B \u00b7 1230 \u00b7 1300 \u00b7 1500 \u00b7 Neal, Kenneth# \u00b7 Indiveri, David# \u00b7 IFR PROF \u00b7 2.0/0.0 \u00b7 T-54 RTN",
+        "role": "IFR PROF",
+        "remarks": "T-54 RTN",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAT4104",
+        "start": "1330",
+        "end": "1530",
+        "land": "1530",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WILEMAN",
+            "first": "BRANDON",
+            "full": "WILEMAN, BRANDON"
+          },
+          {
+            "last": "ZWERNEMAN",
+            "first": "KEVIN",
+            "full": "ZWERNEMAN, KEVIN"
+          }
+        ],
+        "instructors": [
+          "WILEMAN, BRANDON"
+        ],
+        "students": [
+          "ZWERNEMAN, KEVIN"
+        ],
+        "page": 1,
+        "line": "10",
+        "raw": "10 \u00b7 4B \u00b7 1130 \u00b7 1330 \u00b7 1530 \u00b7 Wileman, Brandon# \u00b7 Zwerneman, Kevin# \u00b7 NAT4104 \u00b7 2.0/0.0 \u00b7 T-54 O/I",
+        "role": "NAT4104",
+        "remarks": "T-54 O/I",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4103",
+        "start": "1345",
+        "end": "1521",
+        "land": "1521",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MOUNT",
+            "first": "CHRISTOPHER",
+            "full": "MOUNT, CHRISTOPHER"
+          },
+          {
+            "last": "LUKER",
+            "first": "JACOB",
+            "full": "LUKER, JACOB"
+          }
+        ],
+        "instructors": [
+          "MOUNT, CHRISTOPHER"
+        ],
+        "students": [
+          "LUKER, JACOB"
+        ],
+        "page": 2,
+        "line": "11",
+        "raw": "11 \u00b7 B63 (F) 2 \u00b7 1200 \u00b7 1345 \u00b7 1521 \u00b7 Mount, Christopher# \u00b7 Luker, Jacob# \u00b7 C4103 \u00b7 1.6/0.0 \u00b7 T-6 O/I",
+        "role": "C4103",
+        "remarks": "T-6 O/I",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4102",
+        "start": "1530",
+        "end": "1730",
+        "land": "1730",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GROEBE",
+            "first": "THEODORE",
+            "full": "GROEBE, THEODORE"
+          },
+          {
+            "last": "LEMASTER",
+            "first": "GRANT",
+            "full": "LEMASTER, GRANT"
+          }
+        ],
+        "instructors": [
+          "GROEBE, THEODORE"
+        ],
+        "students": [
+          "LEMASTER, GRANT"
+        ],
+        "page": 2,
+        "line": "12",
+        "raw": "12 \u00b7 1330 \u00b7 1530 \u00b7 1730 \u00b7 Groebe, Theodore# \u00b7 Lemaster, Grant# \u00b7 I4102 \u00b7 2.0/0.0 \u00b7 T-44 RTN",
+        "role": "I4102",
+        "remarks": "T-44 RTN",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Q4104",
+        "start": "1545",
+        "end": "1733",
+        "land": "1733",
+        "brief": "1400",
+        "formation": "",
+        "crew": [
+          {
+            "last": "AMONINO",
+            "first": "JAMISON",
+            "full": "AMONINO, JAMISON"
+          },
+          {
+            "last": "FRANCOIS",
+            "first": "PATRICK",
+            "full": "FRANCOIS, PATRICK"
+          }
+        ],
+        "instructors": [
+          "AMONINO, JAMISON"
+        ],
+        "students": [
+          "FRANCOIS, PATRICK"
+        ],
+        "page": 2,
+        "line": "13",
+        "raw": "13 \u00b7 A18 (F) 3 \u00b7 1400 \u00b7 1545 \u00b7 1733 \u00b7 Amonino, Jamison# \u00b7 Francois, Patrick \u00b7 Q4104 \u00b7 1.8/0.0 \u00b7 T-6 SNG",
+        "role": "Q4104",
+        "remarks": "T-6 SNG",
+        "duration": "1.8/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAT4105",
+        "start": "1700",
+        "end": "1900",
+        "land": "1900",
+        "brief": "1630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WILEMAN",
+            "first": "BRANDON",
+            "full": "WILEMAN, BRANDON"
+          },
+          {
+            "last": "ZWERNEMAN",
+            "first": "KEVIN",
+            "full": "ZWERNEMAN, KEVIN"
+          }
+        ],
+        "instructors": [
+          "WILEMAN, BRANDON"
+        ],
+        "students": [
+          "ZWERNEMAN, KEVIN"
+        ],
+        "page": 2,
+        "line": "14",
+        "raw": "14 \u00b7 4C \u00b7 1630 \u00b7 1700 \u00b7 1900 \u00b7 Wileman, Brandon# \u00b7 Zwerneman, Kevin# \u00b7 NAT4105 \u00b7 2.0/0.0 \u00b7 T-54 RTN",
+        "role": "NAT4105",
+        "remarks": "T-54 RTN",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4501",
+        "start": "1745",
+        "end": "1921",
+        "land": "1921",
+        "brief": "1600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MOUNT",
+            "first": "CHRISTOPHER",
+            "full": "MOUNT, CHRISTOPHER"
+          },
+          {
+            "last": "LUKER",
+            "first": "JACOB",
+            "full": "LUKER, JACOB"
+          }
+        ],
+        "instructors": [
+          "MOUNT, CHRISTOPHER"
+        ],
+        "students": [
+          "LUKER, JACOB"
+        ],
+        "page": 2,
+        "line": "15",
+        "raw": "15 \u00b7 B63 (F) 3 \u00b7 1600 \u00b7 1745 \u00b7 1921 \u00b7 Mount, Christopher# Simulator (Sim \u00b7 Luker, Jacob# Event) Schedule \u00b7 C4501 \u00b7 1.6/0.0 \u00b7 T-6 O/I RTN",
+        "role": "C4501",
+        "remarks": "T-6 O/I RTN",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "RFW2105 RFW2201",
+        "start": "0830",
+        "end": "",
+        "land": "",
+        "brief": "0730",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DENVER",
+            "first": "CHRISTOPHER",
+            "full": "DENVER, CHRISTOPHER"
+          },
+          {
+            "last": "SUCIU",
+            "first": "JEFFREY",
+            "full": "SUCIU, JEFFREY"
+          },
+          {
+            "last": "VONDERSAAR",
+            "first": "JOHN",
+            "full": "VONDERSAAR, JOHN"
+          }
+        ],
+        "instructors": [
+          "DENVER, CHRISTOPHER"
+        ],
+        "students": [
+          "SUCIU, JEFFREY",
+          "VONDERSAAR, JOHN"
+        ],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0730 \u00b7 0830 \u00b7 UTD-2 \u00b7 Denver, Christopher \u00b7 Suciu, Jeffrey Vondersaar, John \u00b7 RFW2105 RFW2201 \u00b7 0.0",
+        "role": "RFW2105 RFW2201",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Q2102",
+        "start": "0840",
+        "end": "",
+        "land": "",
+        "brief": "0810",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SWERDAN",
+            "first": "MATTHEW",
+            "full": "SWERDAN, MATTHEW"
+          },
+          {
+            "last": "BARNES",
+            "first": "DANIEL",
+            "full": "BARNES, DANIEL"
+          }
+        ],
+        "instructors": [
+          "SWERDAN, MATTHEW"
+        ],
+        "students": [
+          "BARNES, DANIEL"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0810 \u00b7 0840 \u00b7 OFT 5C \u00b7 Swerdan, Matthew \u00b7 Barnes, Daniel \u00b7 Q2102 \u00b7 0.0",
+        "role": "Q2102",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "N3101",
+        "start": "1000",
+        "end": "",
+        "land": "",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KIRKPATRICK",
+            "first": "ANDREW",
+            "full": "KIRKPATRICK, ANDREW"
+          },
+          {
+            "last": "SALINAS",
+            "first": "EDUARDO",
+            "full": "SALINAS, EDUARDO"
+          }
+        ],
+        "instructors": [
+          "KIRKPATRICK, ANDREW"
+        ],
+        "students": [
+          "SALINAS, EDUARDO"
+        ],
+        "page": 2,
+        "line": "3",
+        "raw": "3 \u00b7 0930 \u00b7 1000 \u00b7 OFT 5C \u00b7 Kirkpatrick, Andrew \u00b7 Salinas, Eduardo \u00b7 N3101 \u00b7 0.0",
+        "role": "N3101",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "N3101",
+        "start": "1120",
+        "end": "",
+        "land": "",
+        "brief": "1050",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GERBERT",
+            "first": "ANDREAS",
+            "full": "GERBERT, ANDREAS"
+          },
+          {
+            "last": "MELTON",
+            "first": "CHRISTOPHER",
+            "full": "MELTON, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "GERBERT, ANDREAS"
+        ],
+        "students": [
+          "MELTON, CHRISTOPHER"
+        ],
+        "page": 2,
+        "line": "4",
+        "raw": "4 \u00b7 1050 \u00b7 1120 \u00b7 OFT 5C \u00b7 Gerbert, Andreas \u00b7 Melton, Christopher# \u00b7 N3101 \u00b7 0.0 \u00b7 1/2",
+        "role": "N3101",
+        "remarks": "1/2",
+        "duration": "0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "IP3102",
+        "start": "1130",
+        "end": "",
+        "land": "",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DEBERRY-CTR",
+            "first": "ERIC",
+            "full": "DEBERRY-CTR, ERIC"
+          },
+          {
+            "last": "ALBACHTEN",
+            "first": "BRADLEY",
+            "full": "ALBACHTEN, BRADLEY"
+          },
+          {
+            "last": "HICKS",
+            "first": "DAVID",
+            "full": "HICKS, DAVID"
+          }
+        ],
+        "instructors": [
+          "DEBERRY-CTR, ERIC",
+          "ALBACHTEN, BRADLEY"
+        ],
+        "students": [
+          "HICKS, DAVID"
+        ],
+        "page": 2,
+        "line": "5",
+        "raw": "5 \u00b7 1100 \u00b7 1130 \u00b7 UTD-3 \u00b7 Deberry-CTR, Eric Albachten, Bradley \u00b7 HICKS, DAVID \u00b7 IP3102 \u00b7 0.0 \u00b7 FITU IP: CDR Albachten",
+        "role": "IP3102",
+        "remarks": "FITU IP: CDR Albachten",
+        "duration": "0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NAT3204 NAT2201",
+        "start": "1300",
+        "end": "",
+        "land": "",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCPARTLIN",
+            "first": "COREY",
+            "full": "MCPARTLIN, COREY"
+          },
+          {
+            "last": "PORTER",
+            "first": "DAVID",
+            "full": "PORTER, DAVID"
+          },
+          {
+            "last": "OFFHAUS",
+            "first": "ZACHARY",
+            "full": "OFFHAUS, ZACHARY"
+          }
+        ],
+        "instructors": [
+          "MCPARTLIN, COREY"
+        ],
+        "students": [
+          "PORTER, DAVID",
+          "OFFHAUS, ZACHARY"
+        ],
+        "page": 2,
+        "line": "6",
+        "raw": "6 \u00b7 1230 \u00b7 1300 \u00b7 OFT-2 \u00b7 McPartlin, Corey \u00b7 Porter, David Offhaus, Zachary# \u00b7 NAT3204 NAT2201 \u00b7 0.0",
+        "role": "NAT3204 NAT2201",
+        "remarks": "",
+        "duration": "0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "N3201",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ARNOLDS",
+            "first": "ANTHONY",
+            "full": "ARNOLDS, ANTHONY"
+          },
+          {
+            "last": "MELTON",
+            "first": "CHRISTOPHER",
+            "full": "MELTON, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "ARNOLDS, ANTHONY"
+        ],
+        "students": [
+          "MELTON, CHRISTOPHER"
+        ],
+        "page": 2,
+        "line": "7",
+        "raw": "7 \u00b7 1330 \u00b7 1400 \u00b7 OFT 5C \u00b7 Arnolds, Anthony \u00b7 Melton, Christopher# Ground Events \u00b7 N3201 \u00b7 0.0 \u00b7 2/2",
+        "role": "N3201",
+        "remarks": "2/2",
+        "duration": "0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NA1101-4",
+        "start": "1015",
+        "end": "1415",
+        "land": "1415",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MONTE",
+            "first": "CHRISTOPHER",
+            "full": "MONTE, CHRISTOPHER"
+          },
+          {
+            "last": "JOHNSON",
+            "first": "MICHAEL",
+            "full": "JOHNSON, MICHAEL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "1015-1415 \u00b7 NA1101-4 \u00b7 Bldg 84 Room 163 \u00b7 Monte, Christopher#, Johnson, Michael# \u00b7 NA1101-4",
+        "role": "NA1101-4",
+        "remarks": "NA1101-4",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "SY0103-SY0105 CAI HOMEWORK",
+        "start": "1330",
+        "end": "1730",
+        "land": "1730",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KING",
+            "first": "GEORGE",
+            "full": "KING, GEORGE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "1330-1730 \u00b7 SY0103-SY0105 CAI HOMEWORK \u00b7 King, George#",
+        "role": "SY0103-SY0105 CAI HOMEWORK",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "SY0290 SYS 2 EXAM",
+        "start": "0730",
+        "end": "0900",
+        "land": "0900",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ANGELES",
+            "first": "MAXIMO",
+            "full": "ANGELES, MAXIMO"
+          },
+          {
+            "last": "BALCANOFF",
+            "first": "DALTON",
+            "full": "BALCANOFF, DALTON"
+          },
+          {
+            "last": "ESPOSITO",
+            "first": "OWEN",
+            "full": "ESPOSITO, OWEN"
+          },
+          {
+            "last": "STUKENBORG",
+            "first": "SAMUEL",
+            "full": "STUKENBORG, SAMUEL"
+          },
+          {
+            "last": "HANSEN-CTR",
+            "first": "ADAM",
+            "full": "HANSEN-CTR, ADAM"
+          }
+        ],
+        "instructors": [
+          "HANSEN-CTR, ADAM"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0730-0900 \u00b7 SY0290 SYS 2 EXAM \u00b7 Bldg 84 Room 154 \u00b7 Angeles, Maximo#, Balcanoff, Dalton#, Esposito, Owen#, Stukenborg, Samuel# \u00b7 Hansen-CTR, Adam \u00b7 Scheduled by CTW-4 T6BSim",
+        "role": "SY0290 SYS 2 EXAM",
+        "remarks": "Scheduled by CTW-4 T6BSim",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "IN1490 IFR EXAM",
+        "start": "0815",
+        "end": "0915",
+        "land": "0915",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MONTE",
+            "first": "CHRISTOPHER",
+            "full": "MONTE, CHRISTOPHER"
+          },
+          {
+            "last": "JOHNSON",
+            "first": "MICHAEL",
+            "full": "JOHNSON, MICHAEL"
+          },
+          {
+            "last": "GERBERT",
+            "first": "ANDREAS",
+            "full": "GERBERT, ANDREAS"
+          }
+        ],
+        "instructors": [
+          "GERBERT, ANDREAS"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0815-0915 \u00b7 IN1490 IFR EXAM \u00b7 Bldg 84 Room 158 \u00b7 Monte, Christopher#, Johnson, Michael# \u00b7 Gerbert, Andreas \u00b7 IN1490; Scheduled by CTW-4 T6BSim",
+        "role": "IN1490 IFR EXAM",
+        "remarks": "IN1490; Scheduled by CTW-4 T6BSim",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "FAM0101",
+        "start": "1330",
+        "end": "1830",
+        "land": "1830",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "OFFHAUS",
+            "first": "ZACHARY",
+            "full": "OFFHAUS, ZACHARY"
+          },
+          {
+            "last": "ALBACHTEN",
+            "first": "BRADLEY",
+            "full": "ALBACHTEN, BRADLEY"
+          }
+        ],
+        "instructors": [
+          "ALBACHTEN, BRADLEY"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "1330-1830 \u00b7 FAM0101 \u00b7 Bldg 84 Room 107 - FITU Spaces \u00b7 Offhaus, Zachary# \u00b7 Albachten, Bradley \u00b7 FAM0101",
+        "role": "FAM0101",
+        "remarks": "FAM0101",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "Hospital FCF",
+        "start": "0900",
+        "end": "1600",
+        "land": "1600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BEGIN",
+            "first": "BRYAN",
+            "full": "BEGIN, BRYAN"
+          },
+          {
+            "last": "THOMAS",
+            "first": "DANIEL",
+            "full": "THOMAS, DANIEL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0900-1600 \u00b7 Hospital FCF \u00b7 Begin, Bryan, THOMAS, DANIEL",
+        "role": "Hospital FCF",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "CHECK VT-27 SCHEDULE",
+        "start": "1803",
+        "end": "2003",
+        "land": "2003",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "AMONINO",
+            "first": "JAMISON",
+            "full": "AMONINO, JAMISON"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "1803-2003 \u00b7 CHECK VT-27 SCHEDULE \u00b7 Amonino, Jamison#",
+        "role": "CHECK VT-27 SCHEDULE",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "G1301",
+        "start": "0800",
+        "end": "1000",
+        "land": "1000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BROPHY",
+            "first": "JAKE",
+            "full": "BROPHY, JAKE"
+          },
+          {
+            "last": "MCPARTLIN",
+            "first": "COREY",
+            "full": "MCPARTLIN, COREY"
+          }
+        ],
+        "instructors": [
+          "MCPARTLIN, COREY"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0800-1000 \u00b7 G1301 \u00b7 Sim Building \u00b7 Brophy, Jake# \u00b7 McPartlin, Corey \u00b7 G1301; Scheduled by CTW-4 T54Sim",
+        "role": "G1301",
+        "remarks": "G1301; Scheduled by CTW-4 T54Sim",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "G1302",
+        "start": "1000",
+        "end": "1200",
+        "land": "1200",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BROPHY",
+            "first": "JAKE",
+            "full": "BROPHY, JAKE"
+          },
+          {
+            "last": "MCPARTLIN",
+            "first": "COREY",
+            "full": "MCPARTLIN, COREY"
+          }
+        ],
+        "instructors": [
+          "MCPARTLIN, COREY"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1000-1200 \u00b7 G1302 \u00b7 Sim Building \u00b7 Brophy, Jake# \u00b7 McPartlin, Corey \u00b7 G1302; Scheduled by CTW-4 T54Sim",
+        "role": "G1302",
+        "remarks": "G1302; Scheduled by CTW-4 T54Sim",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "G0107 TSHARP REP / CURRICULUM REV",
+        "start": "0730",
+        "end": "0930",
+        "land": "0930",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KING",
+            "first": "GEORGE",
+            "full": "KING, GEORGE"
+          },
+          {
+            "last": "LEWIS",
+            "first": "GARY",
+            "full": "LEWIS, GARY"
+          }
+        ],
+        "instructors": [
+          "LEWIS, GARY"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0730-0930 \u00b7 G0107 TSHARP REP / CURRICULUM REV \u00b7 Bldg 84 Room 153 \u00b7 King, George# \u00b7 Lewis, Gary \u00b7 G0107; Scheduled by CTW-4 T6BSim",
+        "role": "G0107 TSHARP REP / CURRICULUM REV",
+        "remarks": "G0107; Scheduled by CTW-4 T6BSim",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "IN1307-8 IFR LAB 1/2",
+        "start": "0800",
+        "end": "1300",
+        "land": "1300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DELUCA",
+            "first": "DEVIN",
+            "full": "DELUCA, DEVIN"
+          },
+          {
+            "last": "BLAKE",
+            "first": "JOSHUA",
+            "full": "BLAKE, JOSHUA"
+          },
+          {
+            "last": "RICHER",
+            "first": "PIERRE",
+            "full": "RICHER, PIERRE"
+          }
+        ],
+        "instructors": [
+          "RICHER, PIERRE"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0800-1300 \u00b7 IN1307-8 IFR LAB 1/2 \u00b7 Bldg 84 Room 160 \u00b7 Deluca, Devin, Blake, Joshua \u00b7 Richer, Pierre \u00b7 IN1307-8; Scheduled by CTW-4 T6BSim",
+        "role": "IN1307-8 IFR LAB 1/2",
+        "remarks": "IN1307-8; Scheduled by CTW-4 T6BSim",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "G0201 COURSE RULES",
+        "start": "0900",
+        "end": "1100",
+        "land": "1100",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ANGELES",
+            "first": "MAXIMO",
+            "full": "ANGELES, MAXIMO"
+          },
+          {
+            "last": "BALCANOFF",
+            "first": "DALTON",
+            "full": "BALCANOFF, DALTON"
+          },
+          {
+            "last": "ESPOSITO",
+            "first": "OWEN",
+            "full": "ESPOSITO, OWEN"
+          },
+          {
+            "last": "STUKENBORG",
+            "first": "SAMUEL",
+            "full": "STUKENBORG, SAMUEL"
+          },
+          {
+            "last": "HANSEN-CTR",
+            "first": "ADAM",
+            "full": "HANSEN-CTR, ADAM"
+          }
+        ],
+        "instructors": [
+          "HANSEN-CTR, ADAM"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0900-1100 \u00b7 G0201 COURSE RULES \u00b7 Bldg 84 Room 154 \u00b7 Angeles, Maximo#, Balcanoff, Dalton#, Esposito, Owen#, Stukenborg, Samuel# \u00b7 Hansen-CTR, Adam \u00b7 G0201; Scheduled by CTW-4 T6BSim",
+        "role": "G0201 COURSE RULES",
+        "remarks": "G0201; Scheduled by CTW-4 T6BSim",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "IN1501 CRM CSI",
+        "start": "0915",
+        "end": "1015",
+        "land": "1015",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MONTE",
+            "first": "CHRISTOPHER",
+            "full": "MONTE, CHRISTOPHER"
+          },
+          {
+            "last": "JOHNSON",
+            "first": "MICHAEL",
+            "full": "JOHNSON, MICHAEL"
+          },
+          {
+            "last": "GERBERT",
+            "first": "ANDREAS",
+            "full": "GERBERT, ANDREAS"
+          }
+        ],
+        "instructors": [
+          "GERBERT, ANDREAS"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0915-1015 \u00b7 IN1501 CRM CSI \u00b7 Bldg 84 Room 158 \u00b7 Monte, Christopher#, Johnson, Michael# \u00b7 Gerbert, Andreas \u00b7 IN1501; Scheduled by CTW-4 T6BSim",
+        "role": "IN1501 CRM CSI",
+        "remarks": "IN1501; Scheduled by CTW-4 T6BSim",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "SY0101 SYS 1",
+        "start": "0930",
+        "end": "1030",
+        "land": "1030",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KING",
+            "first": "GEORGE",
+            "full": "KING, GEORGE"
+          },
+          {
+            "last": "LEWIS",
+            "first": "GARY",
+            "full": "LEWIS, GARY"
+          }
+        ],
+        "instructors": [
+          "LEWIS, GARY"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0930-1030 \u00b7 SY0101 SYS 1 \u00b7 Bldg 84 Room 153 \u00b7 King, George# \u00b7 Lewis, Gary \u00b7 SY0101; Scheduled by CTW-4 T6BSim",
+        "role": "SY0101 SYS 1",
+        "remarks": "SY0101; Scheduled by CTW-4 T6BSim",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "PR0101 INTRO OP PROC",
+        "start": "1100",
+        "end": "1200",
+        "land": "1200",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ANGELES",
+            "first": "MAXIMO",
+            "full": "ANGELES, MAXIMO"
+          },
+          {
+            "last": "BALCANOFF",
+            "first": "DALTON",
+            "full": "BALCANOFF, DALTON"
+          },
+          {
+            "last": "ESPOSITO",
+            "first": "OWEN",
+            "full": "ESPOSITO, OWEN"
+          },
+          {
+            "last": "STUKENBORG",
+            "first": "SAMUEL",
+            "full": "STUKENBORG, SAMUEL"
+          },
+          {
+            "last": "HANSEN-CTR",
+            "first": "ADAM",
+            "full": "HANSEN-CTR, ADAM"
+          }
+        ],
+        "instructors": [
+          "HANSEN-CTR, ADAM"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1100-1200 \u00b7 PR0101 INTRO OP PROC \u00b7 Bldg 84 Room 154 \u00b7 Angeles, Maximo#, Balcanoff, Dalton#, Esposito, Owen#, Stukenborg, Samuel# \u00b7 Hansen-CTR, Adam \u00b7 PR0101; Scheduled by CTW-4 T6BSim",
+        "role": "PR0101 INTRO OP PROC",
+        "remarks": "PR0101; Scheduled by CTW-4 T6BSim",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "SY0102 SYS TOUR",
+        "start": "1100",
+        "end": "1300",
+        "land": "1300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KING",
+            "first": "GEORGE",
+            "full": "KING, GEORGE"
+          },
+          {
+            "last": "LEWIS",
+            "first": "GARY",
+            "full": "LEWIS, GARY"
+          }
+        ],
+        "instructors": [
+          "LEWIS, GARY"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1100-1300 \u00b7 SY0102 SYS TOUR \u00b7 King, George# \u00b7 Lewis, Gary \u00b7 SY0102 HGR 58 EAST BAY",
+        "role": "SY0102 SYS TOUR",
+        "remarks": "SY0102 HGR 58 EAST BAY",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "PR0102B NORMAL PROC",
+        "start": "1230",
+        "end": "1500",
+        "land": "1500",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ANGELES",
+            "first": "MAXIMO",
+            "full": "ANGELES, MAXIMO"
+          },
+          {
+            "last": "BALCANOFF",
+            "first": "DALTON",
+            "full": "BALCANOFF, DALTON"
+          },
+          {
+            "last": "ESPOSITO",
+            "first": "OWEN",
+            "full": "ESPOSITO, OWEN"
+          },
+          {
+            "last": "STUKENBORG",
+            "first": "SAMUEL",
+            "full": "STUKENBORG, SAMUEL"
+          },
+          {
+            "last": "HANSEN-CTR",
+            "first": "ADAM",
+            "full": "HANSEN-CTR, ADAM"
+          }
+        ],
+        "instructors": [
+          "HANSEN-CTR, ADAM"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1230-1500 \u00b7 PR0102B NORMAL PROC \u00b7 Bldg 84 Room 154 \u00b7 Angeles, Maximo#, Balcanoff, Dalton#, Esposito, Owen#, Stukenborg, Samuel# \u00b7 Hansen-CTR, Adam \u00b7 PR010 2B IUT's ONLY COMPLETE (C1204-7) CAI's BEFORE C1290 / FAM1290; Scheduled by CTW-4 T6BSim",
+        "role": "PR0102B NORMAL PROC",
+        "remarks": "PR010 2B IUT's ONLY COMPLETE (C1204-7) CAI's BEFORE C1290 / FAM1290; Scheduled by CTW-4 T6BSim",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "G0303 - CPT Self- Study SIM",
+        "start": "1230",
+        "end": "1430",
+        "land": "1430",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BROPHY",
+            "first": "JAKE",
+            "full": "BROPHY, JAKE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1230-1430 \u00b7 G0303 - CPT Self- Study SIM \u00b7 Sim Building \u00b7 Brophy, Jake# \u00b7 Sim is open at 1300",
+        "role": "G0303 - CPT Self- Study SIM",
+        "remarks": "Sim is open at 1300",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

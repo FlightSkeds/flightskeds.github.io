@@ -406,5 +406,292 @@
       "line_number": 17,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "ODO (ON CALL)",
+        "start": "0000",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LIPSCOMB",
+            "first": "BRIAN",
+            "full": "LIPSCOMB, BRIAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "ODO (ON CALL) \u00b7 LIPSCOMB, BRIAN A, LCDR \u00b7 0000 \u00b7 2359",
+        "role": "ODO (ON CALL)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER",
+        "start": "0000",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RAUPP",
+            "first": "THOMAS",
+            "full": "RAUPP, THOMAS"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER \u00b7 RAUPP, THOMAS I, ENS \u00b7 0000 \u00b7 2359",
+        "role": "DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "IWO",
+        "start": "0600",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SCOBY",
+            "first": "NATHANIAL",
+            "full": "SCOBY, NATHANIAL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "IWO \u00b7 SCOBY, NATHANIAL D, ENS \u00b7 0600 \u00b7 1800",
+        "role": "IWO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "IWO",
+        "start": "1800",
+        "end": "0600",
+        "land": "0600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MOREHEAD",
+            "first": "HANNAH",
+            "full": "MOREHEAD, HANNAH"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "IWO \u00b7 MOREHEAD, HANNAH K, LTJG \u00b7 1800 \u00b7 0600",
+        "role": "IWO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4103",
+        "start": "1100",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0915",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GROVES",
+            "first": "DONALD",
+            "full": "GROVES, DONALD"
+          },
+          {
+            "last": "JONES",
+            "first": "TREVOR",
+            "full": "JONES, TREVOR"
+          }
+        ],
+        "instructors": [
+          "GROVES, DONALD"
+        ],
+        "students": [
+          "JONES, TREVOR"
+        ],
+        "page": 2,
+        "line": "701",
+        "raw": "701 \u00b7 0915 \u00b7 1100 \u00b7 1230 \u00b7 GROVES, DONALD, LtCol \u00b7 JONES, TREVOR M, LTJG \u00b7 IR4103 \u00b7 1.5 \u00b7 MEI OPS; O/O/I",
+        "role": "IR4103",
+        "remarks": "MEI OPS; O/O/I",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4104",
+        "start": "1100",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0915",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LATHROP",
+            "first": "JAMES",
+            "full": "LATHROP, JAMES"
+          },
+          {
+            "last": "MELCHER",
+            "first": "JOSEPH",
+            "full": "MELCHER, JOSEPH"
+          }
+        ],
+        "instructors": [
+          "LATHROP, JAMES"
+        ],
+        "students": [
+          "MELCHER, JOSEPH"
+        ],
+        "page": 2,
+        "line": "702",
+        "raw": "702 \u00b7 0915 \u00b7 1100 \u00b7 1230 \u00b7 LATHROP, JAMES S, LCDR \u00b7 MELCHER, JOSEPH, LTJG \u00b7 IR4104 \u00b7 1.5 \u00b7 MEI OPS; O/I",
+        "role": "IR4104",
+        "remarks": "MEI OPS; O/I",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4104",
+        "start": "1400",
+        "end": "1530",
+        "land": "1530",
+        "brief": "1215",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GROVES",
+            "first": "DONALD",
+            "full": "GROVES, DONALD"
+          },
+          {
+            "last": "JONES",
+            "first": "TREVOR",
+            "full": "JONES, TREVOR"
+          }
+        ],
+        "instructors": [
+          "GROVES, DONALD"
+        ],
+        "students": [
+          "JONES, TREVOR"
+        ],
+        "page": 2,
+        "line": "703",
+        "raw": "703 \u00b7 1215 \u00b7 1400 \u00b7 1530 \u00b7 GROVES, DONALD, LtCol \u00b7 JONES, TREVOR M, LTJG \u00b7 IR4104 \u00b7 1.5 \u00b7 MEI OPS; O/O/I",
+        "role": "IR4104",
+        "remarks": "MEI OPS; O/O/I",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4105",
+        "start": "1400",
+        "end": "1530",
+        "land": "1530",
+        "brief": "1215",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LATHROP",
+            "first": "JAMES",
+            "full": "LATHROP, JAMES"
+          },
+          {
+            "last": "MELCHER",
+            "first": "JOSEPH",
+            "full": "MELCHER, JOSEPH"
+          }
+        ],
+        "instructors": [
+          "LATHROP, JAMES"
+        ],
+        "students": [
+          "MELCHER, JOSEPH"
+        ],
+        "page": 2,
+        "line": "704",
+        "raw": "704 \u00b7 1215 \u00b7 1400 \u00b7 1530 \u00b7 LATHROP, JAMES S, LCDR \u00b7 MELCHER, JOSEPH, LTJG \u00b7 IR4105 \u00b7 1.5 \u00b7 MEI OPS; RTB; DTA REQUIRED",
+        "role": "IR4105",
+        "remarks": "MEI OPS; RTB; DTA REQUIRED",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4105",
+        "start": "1700",
+        "end": "1830",
+        "land": "1830",
+        "brief": "1515",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GROVES",
+            "first": "DONALD",
+            "full": "GROVES, DONALD"
+          },
+          {
+            "last": "JONES",
+            "first": "TREVOR",
+            "full": "JONES, TREVOR"
+          }
+        ],
+        "instructors": [
+          "GROVES, DONALD"
+        ],
+        "students": [
+          "JONES, TREVOR"
+        ],
+        "page": 2,
+        "line": "705",
+        "raw": "705 \u00b7 1515 \u00b7 1700 \u00b7 1830 \u00b7 GROVES, DONALD, LtCol Simulator (Sim \u00b7 JONES, TREVOR M, LTJG Event) Schedule \u00b7 IR4105 \u00b7 1.5 \u00b7 MEI OPS; RTB",
+        "role": "IR4105",
+        "remarks": "MEI OPS; RTB",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

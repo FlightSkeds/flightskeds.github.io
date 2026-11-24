@@ -573,5 +573,91 @@
       "line_number": 7,
       "text": "https://usnavy.gov1.qualtrics.com/jfe/form/SV_0uEhyAAZqEbAC1w"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "CDO",
+        "start": "2300",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCINTIRE",
+            "first": "DAMON",
+            "full": "MCINTIRE, DAMON"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "CDO \u00b7 MCINTIRE, DAMON K, LCDR \u00b7 2300 \u00b7 2359",
+        "role": "CDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO",
+        "start": "0745",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PETERSON",
+            "first": "KENDALL",
+            "full": "PETERSON, KENDALL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO \u00b7 PETERSON, KENDALL L, ENS \u00b7 0745 \u00b7 2359",
+        "role": "SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO MIDNIGHT_8",
+        "start": "0001",
+        "end": "0800",
+        "land": "0800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CAMPBELL",
+            "first": "COLLIN",
+            "full": "CAMPBELL, COLLIN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO MIDNIGHT_8 \u00b7 CAMPBELL, COLLIN C, ENS \u00b7 0001 \u00b7 0800",
+        "role": "SDO MIDNIGHT_8",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

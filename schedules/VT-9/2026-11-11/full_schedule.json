@@ -406,5 +406,286 @@
       "line_number": 20,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "FTX LEAD",
+        "start": "0945",
+        "end": "1045",
+        "land": "1045",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STAGNER",
+            "first": "",
+            "full": "STAGNER"
+          },
+          {
+            "last": "SAUNDERS",
+            "first": "",
+            "full": "SAUNDERS"
+          }
+        ],
+        "instructors": [
+          "STAGNER"
+        ],
+        "students": [
+          "SAUNDERS"
+        ],
+        "page": 2,
+        "line": "933",
+        "raw": "933 \u00b7 0745 \u00b7 0945 \u00b7 1045 \u00b7 LCDR STAGNER \u00b7 1stLt SAUNDERS \u00b7 FTX LEAD \u00b7 1.0 \u00b7 MEI OPS",
+        "role": "FTX LEAD",
+        "remarks": "MEI OPS",
+        "duration": "1.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FTX4101",
+        "start": "0945",
+        "end": "1045",
+        "land": "1045",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHANMUGAM",
+            "first": "",
+            "full": "SHANMUGAM"
+          },
+          {
+            "last": "DATTOMO",
+            "first": "",
+            "full": "DATTOMO"
+          }
+        ],
+        "instructors": [
+          "SHANMUGAM"
+        ],
+        "students": [
+          "DATTOMO"
+        ],
+        "page": 2,
+        "line": "934",
+        "raw": "934 \u00b7 0745 \u00b7 0945 \u00b7 1045 \u00b7 LCDR SHANMUGAM \u00b7 LTJG DATTOMO \u00b7 FTX4101 \u00b7 1.0 \u00b7 MEI OPS; 2 HR BRF",
+        "role": "FTX4101",
+        "remarks": "MEI OPS; 2 HR BRF",
+        "duration": "1.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC LEAD",
+        "start": "1245",
+        "end": "1351",
+        "land": "1351",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "AUCOIN",
+            "first": "",
+            "full": "AUCOIN"
+          },
+          {
+            "last": "BITTING",
+            "first": "",
+            "full": "BITTING"
+          }
+        ],
+        "instructors": [
+          "AUCOIN"
+        ],
+        "students": [
+          "BITTING"
+        ],
+        "page": 2,
+        "line": "936",
+        "raw": "936 \u00b7 1000 \u00b7 1245 \u00b7 1351 \u00b7 CDR AUCOIN \u00b7 LTJG BITTING \u00b7 TAC LEAD \u00b7 1.5 \u00b7 MEI OPS",
+        "role": "TAC LEAD",
+        "remarks": "MEI OPS",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC4102",
+        "start": "1245",
+        "end": "1351",
+        "land": "1351",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KENNEDY",
+            "first": "",
+            "full": "KENNEDY"
+          },
+          {
+            "last": "BRAVO",
+            "first": "",
+            "full": "BRAVO"
+          }
+        ],
+        "instructors": [
+          "KENNEDY"
+        ],
+        "students": [
+          "BRAVO"
+        ],
+        "page": 2,
+        "line": "937",
+        "raw": "937 \u00b7 1000 \u00b7 1245 \u00b7 1351 \u00b7 CDR KENNEDY \u00b7 LTJG BRAVO \u00b7 TAC4102 \u00b7 1.1 \u00b7 MEI OPS",
+        "role": "TAC4102",
+        "remarks": "MEI OPS",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FTX LEAD",
+        "start": "1215",
+        "end": "1315",
+        "land": "1315",
+        "brief": "1030",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHANMUGAM",
+            "first": "",
+            "full": "SHANMUGAM"
+          },
+          {
+            "last": "DATTOMO",
+            "first": "",
+            "full": "DATTOMO"
+          }
+        ],
+        "instructors": [
+          "SHANMUGAM"
+        ],
+        "students": [
+          "DATTOMO"
+        ],
+        "page": 2,
+        "line": "939",
+        "raw": "939 \u00b7 1030 \u00b7 1215 \u00b7 1315 \u00b7 LCDR SHANMUGAM \u00b7 LTJG DATTOMO \u00b7 FTX LEAD \u00b7 1.0 \u00b7 MEI OPS",
+        "role": "FTX LEAD",
+        "remarks": "MEI OPS",
+        "duration": "1.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FTX4101",
+        "start": "1215",
+        "end": "1315",
+        "land": "1315",
+        "brief": "1030",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STAGNER",
+            "first": "",
+            "full": "STAGNER"
+          },
+          {
+            "last": "SAUNDERS",
+            "first": "",
+            "full": "SAUNDERS"
+          }
+        ],
+        "instructors": [
+          "STAGNER"
+        ],
+        "students": [
+          "SAUNDERS"
+        ],
+        "page": 2,
+        "line": "940",
+        "raw": "940 \u00b7 1030 \u00b7 1215 \u00b7 1315 \u00b7 LCDR STAGNER \u00b7 1stLt SAUNDERS \u00b7 FTX4101 \u00b7 1.0 \u00b7 MEI OPS; 2 HR BRF",
+        "role": "FTX4101",
+        "remarks": "MEI OPS; 2 HR BRF",
+        "duration": "1.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC LEAD",
+        "start": "1545",
+        "end": "1651",
+        "land": "1651",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KENNEDY",
+            "first": "",
+            "full": "KENNEDY"
+          },
+          {
+            "last": "BRAVO",
+            "first": "",
+            "full": "BRAVO"
+          }
+        ],
+        "instructors": [
+          "KENNEDY"
+        ],
+        "students": [
+          "BRAVO"
+        ],
+        "page": 2,
+        "line": "942",
+        "raw": "942 \u00b7 1200 \u00b7 1545 \u00b7 1651 \u00b7 CDR KENNEDY \u00b7 LTJG BRAVO \u00b7 TAC LEAD \u00b7 1.1 \u00b7 MEI OPS",
+        "role": "TAC LEAD",
+        "remarks": "MEI OPS",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC4103",
+        "start": "1545",
+        "end": "1651",
+        "land": "1651",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "AUCOIN SIMULATOR",
+            "first": "",
+            "full": "AUCOIN SIMULATOR"
+          }
+        ],
+        "instructors": [
+          "AUCOIN SIMULATOR"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "943",
+        "raw": "943 \u00b7 1200 \u00b7 1545 \u00b7 1651 \u00b7 CDR AUCOIN Simulator \u00b7 LTJG BITTING (Sim Event) Schedule \u00b7 TAC4103 \u00b7 1.1 \u00b7 MEI OPS",
+        "role": "TAC4103",
+        "remarks": "MEI OPS",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

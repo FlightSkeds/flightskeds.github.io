@@ -332,5 +332,117 @@
       "line_number": 13,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "Day SDO",
+        "start": "0800",
+        "end": "2000",
+        "land": "2000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LEE",
+            "first": "BRANDON",
+            "full": "LEE, BRANDON"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "Day SDO \u00b7 LEE, BRANDON \u00b7 0800 \u00b7 2000",
+        "role": "Day SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "Night SDO",
+        "start": "2000",
+        "end": "0800",
+        "land": "0800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHIN",
+            "first": "SAMUEL",
+            "full": "SHIN, SAMUEL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "Night SDO \u00b7 SHIN, SAMUEL \u00b7 2000 \u00b7 0800",
+        "role": "Night SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "QA Skeds/Duty OPS",
+        "start": "0700",
+        "end": "1500",
+        "land": "1500",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "THOMAS",
+            "first": "WILLIAM",
+            "full": "THOMAS, WILLIAM"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "QA Skeds/Duty OPS \u00b7 THOMAS, WILLIAM \u00b7 0700 \u00b7 1500",
+        "role": "QA Skeds/Duty OPS",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "WKDAY AM DUTY DRIVER",
+        "start": "0600",
+        "end": "2000",
+        "land": "2000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HOGG",
+            "first": "RYAN",
+            "full": "HOGG, RYAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "WKDAY AM DUTY DRIVER \u00b7 HOGG, RYAN \u00b7 0600 \u00b7 2000",
+        "role": "WKDAY AM DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

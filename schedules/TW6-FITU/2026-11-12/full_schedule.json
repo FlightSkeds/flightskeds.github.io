@@ -228,5 +228,130 @@
       "line_number": 2,
       "text": "1130-1230 DYNAMIC HYPOXIA TRAINING MONTANA, JOHN MCMILLEN, WILLIAM T-45 OFT #3"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "1130-1230 DYNAMIC HYPOXIA TRAINING MONTANA, JOHN  MCMILLEN, WILLIAM T-45 OFT #3",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "NA4108 (87(ET)) Event) Schedule",
+        "start": "1100",
+        "end": "1248",
+        "land": "1248",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LETSON",
+            "first": "JACOB",
+            "full": "LETSON, JACOB"
+          },
+          {
+            "last": "ORTIZ",
+            "first": "RICHARD",
+            "full": "ORTIZ, RICHARD"
+          }
+        ],
+        "instructors": [
+          "LETSON, JACOB"
+        ],
+        "students": [
+          "ORTIZ, RICHARD"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "0900 \u00b7 1100 \u00b7 1248 \u00b7 LETSON, JACOB \u00b7 ORTIZ, RICHARD Simulator (Sim \u00b7 NA4108 (87(ET)) Event) Schedule \u00b7 1.8 \u00b7 DD-1801",
+        "role": "NA4108 (87(ET)) Event) Schedule",
+        "remarks": "DD-1801",
+        "duration": "1.8",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NA3101",
+        "start": "0930",
+        "end": "1100",
+        "land": "1100",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LEE",
+            "first": "JEFFREY",
+            "full": "LEE, JEFFREY"
+          },
+          {
+            "last": "MITCHELL",
+            "first": "KEITH",
+            "full": "MITCHELL, KEITH"
+          }
+        ],
+        "instructors": [
+          "LEE, JEFFREY"
+        ],
+        "students": [
+          "MITCHELL, KEITH"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "0900 \u00b7 0930 \u00b7 1100 \u00b7 OFT-6P \u00b7 LEE, JEFFREY \u00b7 MITCHELL, KEITH \u00b7 NA3101 \u00b7 1.5",
+        "role": "NA3101",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "OFT-6P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NA3102 Instructor",
+        "start": "1230",
+        "end": "1400",
+        "land": "1400",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CARL",
+            "first": "JOHN",
+            "full": "CARL, JOHN"
+          },
+          {
+            "last": "GROUND PERSON AND CLEVELAND",
+            "first": "JONATHAN",
+            "full": "GROUND PERSON AND CLEVELAND, JONATHAN"
+          },
+          {
+            "last": "ROBIE",
+            "first": "JACK",
+            "full": "ROBIE, JACK"
+          },
+          {
+            "last": "MITCHELL",
+            "first": "KEITH",
+            "full": "MITCHELL, KEITH"
+          }
+        ],
+        "instructors": [
+          "CARL, JOHN",
+          "GROUND PERSON AND CLEVELAND, JONATHAN",
+          "ROBIE, JACK"
+        ],
+        "students": [
+          "MITCHELL, KEITH"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1200 Time CAI 0000-2359 MIL 0700-1130 \u00b7 1230 Event ENGINEERING NA1101-NA1105 IGS/EGRESS \u00b7 1400 \u00b7 OFT-6P EXAM (ENG0125) \u00b7 CARL, JOHN Ground Person AND CLEVELAND, JONATHAN ROBIE, JACK \u00b7 MITCHELL, KEITH Events \u00b7 NA3102 Instructor \u00b7 1.5 \u00b7 Location T-SHARP GRIFFITH HALL RM 221/SIM BLDG",
+        "role": "NA3102 Instructor",
+        "remarks": "Location T-SHARP GRIFFITH HALL RM 221/SIM BLDG",
+        "duration": "1.5",
+        "device": "OFT-6P EXAM (ENG0125)",
+        "solo": false
+      }
+    ]
+  }
 }

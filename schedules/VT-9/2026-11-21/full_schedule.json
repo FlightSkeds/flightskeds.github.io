@@ -386,5 +386,117 @@
       "line_number": 15,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "ODO (ON CALL)",
+        "start": "0000",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GEBHART",
+            "first": "ZACHARY",
+            "full": "GEBHART, ZACHARY"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "ODO (ON CALL) \u00b7 GEBHART, ZACHARY L, LCDR \u00b7 0000 \u00b7 2359",
+        "role": "ODO (ON CALL)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "IWO",
+        "start": "0600",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAAG",
+            "first": "JACK",
+            "full": "HAAG, JACK"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "IWO \u00b7 HAAG, JACK D, ENS \u00b7 0600 \u00b7 1800",
+        "role": "IWO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER",
+        "start": "1500",
+        "end": "0200",
+        "land": "0200",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CIGANOVICH",
+            "first": "JOHN",
+            "full": "CIGANOVICH, JOHN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER \u00b7 CIGANOVICH, JOHN , ENS \u00b7 1500 \u00b7 0200",
+        "role": "DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "IWO",
+        "start": "1800",
+        "end": "0600",
+        "land": "0600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RENDON",
+            "first": "CALEB",
+            "full": "RENDON, CALEB"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "IWO \u00b7 RENDON, CALEB N, ENS \u00b7 1800 \u00b7 0600",
+        "role": "IWO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

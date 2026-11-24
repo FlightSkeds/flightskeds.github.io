@@ -908,5 +908,983 @@
       "line_number": 9,
       "text": "A. J. MERRALL M. B. SIPAH"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "C1190 - Contact 1 Acad Bldg 2946, RM 7 BLANTON, RICHARD S, CWO4#, VALDEZ, EMILIO   Exam  - Testing Ctr J, CDR#   NA1190/IN1490  Acad Bldg 2946, RM 7 BILLINGS, COLBY J, Capt   CDO Turnover  TALEGAONKAR, NEERAJ A, LT#  See General Note 2. WING STAN Q4  MORRIS, COLTON J, Capt#, SIPAH, MICHAEL B,  Location: TW5 Building MEETING   LCDR, SLOAN, NICHOLAS A, Capt#   Briefs/RDO   ANDERSON, CHARLES B, LT, RUSSELL, TYLER C,   SY0101 - Sys 1 Intro JPATS Bldg 3125, Rm HATALA, SAMUEL T, LT#, WEBB, KYLE W, LT# BROOKS, LAWRENCE G, CIV HAAS, MICHAEL, CDR, SY0206 - Propulsion JPATS Bldg 3125, Rm LINDSAY, NICHOLAS R, LCDR#, TALEGAONKAR, ORTIZ, MARTIN A, CIV  Review  105 NEERAJ A, LT#   SY0102 - AC Sys 1  HATALA, SAMUEL T, LT#, WEBB, KYLE W, LT#  HAAS, MICHAEL, Culture of Ejection JPATS Bldg 3125, Rm SHARPE, ALEC C, LT, WHITE, ABIGAIL R, LT,     105 LINDSAY, NICHOLAS R, LCDR#   T-Sharp Brief  HATALA, SAMUEL T, LT#, WEBB, KYLE W, LT#  HAAS, MICHAEL, C1203 - Contact 2 JPATS Bldg 3125, Rm BLANTON, RICHARD S, CWO4#, VALDEZ, EMILIO ODAY, TREVOR A, CIV  Review  112 J, CDR#   SY0211 - SYS 2 JPATS Bldg 3125, Rm LINDSAY, NICHOLAS R, LCDR#, TALEGAONKAR, ORTIZ, MARTIN A, CIV  Review 3 105 NEERAJ A, LT#  ",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "CDO",
+        "start": "0800",
+        "end": "1200",
+        "land": "1200",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TALEGAONKAR",
+            "first": "NEERAJ",
+            "full": "TALEGAONKAR, NEERAJ"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "CDO \u00b7 TALEGAONKAR, NEERAJ A, LT# \u00b7 0800 \u00b7 1200",
+        "role": "CDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM FDO",
+        "start": "0500",
+        "end": "1400",
+        "land": "1400",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCCLANAHAN",
+            "first": "AIDAN",
+            "full": "MCCLANAHAN, AIDAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM FDO \u00b7 MCCLANAHAN, AIDAN H, ENS \u00b7 0500 \u00b7 1400",
+        "role": "AM FDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM FDO",
+        "start": "1200",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TANG",
+            "first": "ADRIENNE",
+            "full": "TANG, ADRIENNE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM FDO \u00b7 TANG, ADRIENNE Y, LTJG \u00b7 1200 \u00b7 2359",
+        "role": "PM FDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SCHEDULES",
+        "start": "0900",
+        "end": "1300",
+        "land": "1300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCLAUGHLIN",
+            "first": "STEPHEN",
+            "full": "MCLAUGHLIN, STEPHEN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SCHEDULES \u00b7 MCLAUGHLIN, STEPHEN P, LTJG \u00b7 0900 \u00b7 1300",
+        "role": "SCHEDULES",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SCHEDULES QA",
+        "start": "0900",
+        "end": "1300",
+        "land": "1300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WARNOCK",
+            "first": "ALEXANDER",
+            "full": "WARNOCK, ALEXANDER"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SCHEDULES QA \u00b7 WARNOCK, ALEXANDER D, ENS \u00b7 0900 \u00b7 1300",
+        "role": "SCHEDULES QA",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4302",
+        "start": "0700",
+        "end": "0900",
+        "land": "0900",
+        "brief": "0515",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SCHIFFER",
+            "first": "BRENT",
+            "full": "SCHIFFER, BRENT"
+          },
+          {
+            "last": "HACKWORTH",
+            "first": "MARK",
+            "full": "HACKWORTH, MARK"
+          }
+        ],
+        "instructors": [
+          "SCHIFFER, BRENT"
+        ],
+        "students": [
+          "HACKWORTH, MARK"
+        ],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0515 \u00b7 0700 \u00b7 0900 \u00b7 SCHIFFER, BRENT M, LCDR# \u00b7 HACKWORTH, MARK A, LT# \u00b7 FAM4302 \u00b7 2.0/0.0 \u00b7 2x O/I, OCF Required, To Goodpaster",
+        "role": "FAM4302",
+        "remarks": "2x O/I, OCF Required, To Goodpaster",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4103",
+        "start": "0715",
+        "end": "0915",
+        "land": "0915",
+        "brief": "0530",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ZALA",
+            "first": "JAYDEVSINH",
+            "full": "ZALA, JAYDEVSINH"
+          },
+          {
+            "last": "FERREE",
+            "first": "EVAN",
+            "full": "FERREE, EVAN"
+          }
+        ],
+        "instructors": [
+          "ZALA, JAYDEVSINH"
+        ],
+        "students": [
+          "FERREE, EVAN"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0530 \u00b7 0715 \u00b7 0915 \u00b7 ZALA, JAYDEVSINH , CAPT# \u00b7 FERREE, EVAN E, LT# \u00b7 C4103 \u00b7 2.0/0.0 \u00b7 2x O/I, To Gainey",
+        "role": "C4103",
+        "remarks": "2x O/I, To Gainey",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4302",
+        "start": "0730",
+        "end": "0930",
+        "land": "0930",
+        "brief": "0545",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STEWART",
+            "first": "CHASE",
+            "full": "STEWART, CHASE"
+          },
+          {
+            "last": "WAGSTAFF",
+            "first": "RYAN",
+            "full": "WAGSTAFF, RYAN"
+          }
+        ],
+        "instructors": [
+          "STEWART, CHASE"
+        ],
+        "students": [
+          "WAGSTAFF, RYAN"
+        ],
+        "page": 2,
+        "line": "3",
+        "raw": "3 \u00b7 0545 \u00b7 0730 \u00b7 0930 \u00b7 STEWART, CHASE T, LT# \u00b7 WAGSTAFF, RYAN K, LT# \u00b7 C4302 \u00b7 2.0/0.0 \u00b7 2x O/I, OCF Required, To Morris",
+        "role": "C4302",
+        "remarks": "2x O/I, OCF Required, To Morris",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Q4105",
+        "start": "0745",
+        "end": "0945",
+        "land": "0945",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BERNSTEIN",
+            "first": "ANTHONY",
+            "full": "BERNSTEIN, ANTHONY"
+          },
+          {
+            "last": "JACKSON",
+            "first": "JESSICA",
+            "full": "JACKSON, JESSICA"
+          }
+        ],
+        "instructors": [
+          "BERNSTEIN, ANTHONY"
+        ],
+        "students": [
+          "JACKSON, JESSICA"
+        ],
+        "page": 2,
+        "line": "4",
+        "raw": "4 \u00b7 0600 \u00b7 0745 \u00b7 0945 \u00b7 BERNSTEIN, ANTHONY C, Capt# \u00b7 JACKSON, JESSICA L, LCDR# \u00b7 Q4105 \u00b7 2.0/0.0 \u00b7 2x O/I, Brief NET 0800, To Sloan",
+        "role": "Q4105",
+        "remarks": "2x O/I, Brief NET 0800, To Sloan",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4302",
+        "start": "0800",
+        "end": "1000",
+        "land": "1000",
+        "brief": "0615",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HOFIUS",
+            "first": "JONATHAN",
+            "full": "HOFIUS, JONATHAN"
+          },
+          {
+            "last": "COGO",
+            "first": "JOAOVICTOR",
+            "full": "COGO, JOAOVICTOR"
+          }
+        ],
+        "instructors": [
+          "HOFIUS, JONATHAN"
+        ],
+        "students": [
+          "COGO, JOAOVICTOR"
+        ],
+        "page": 2,
+        "line": "5",
+        "raw": "5 \u00b7 0615 \u00b7 0800 \u00b7 1000 \u00b7 HOFIUS, JONATHAN W, LCDR# \u00b7 COGO, JOAOVICTOR C, Capt# \u00b7 C4302 \u00b7 2.0/0.0 \u00b7 2x O/I, OCF Required",
+        "role": "C4302",
+        "remarks": "2x O/I, OCF Required",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4101",
+        "start": "1100",
+        "end": "1300",
+        "land": "1300",
+        "brief": "0915",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SCHIFFER",
+            "first": "BRENT",
+            "full": "SCHIFFER, BRENT"
+          },
+          {
+            "last": "HACKWORTH",
+            "first": "MARK",
+            "full": "HACKWORTH, MARK"
+          }
+        ],
+        "instructors": [
+          "SCHIFFER, BRENT"
+        ],
+        "students": [
+          "HACKWORTH, MARK"
+        ],
+        "page": 2,
+        "line": "6",
+        "raw": "6 \u00b7 0915 \u00b7 1100 \u00b7 1300 \u00b7 SCHIFFER, BRENT M, LCDR# \u00b7 HACKWORTH, MARK A, LT# \u00b7 I4101 \u00b7 2.0/0.0",
+        "role": "I4101",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4201",
+        "start": "1115",
+        "end": "1315",
+        "land": "1315",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ZALA",
+            "first": "JAYDEVSINH",
+            "full": "ZALA, JAYDEVSINH"
+          },
+          {
+            "last": "FERREE",
+            "first": "EVAN",
+            "full": "FERREE, EVAN"
+          }
+        ],
+        "instructors": [
+          "ZALA, JAYDEVSINH"
+        ],
+        "students": [
+          "FERREE, EVAN"
+        ],
+        "page": 2,
+        "line": "7",
+        "raw": "7 \u00b7 0930 \u00b7 1115 \u00b7 1315 \u00b7 ZALA, JAYDEVSINH , CAPT# \u00b7 FERREE, EVAN E, LT# \u00b7 C4201 \u00b7 2.0/0.0",
+        "role": "C4201",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4290",
+        "start": "1130",
+        "end": "1330",
+        "land": "1330",
+        "brief": "0945",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STEWART",
+            "first": "CHASE",
+            "full": "STEWART, CHASE"
+          },
+          {
+            "last": "WAGSTAFF",
+            "first": "RYAN",
+            "full": "WAGSTAFF, RYAN"
+          }
+        ],
+        "instructors": [
+          "STEWART, CHASE"
+        ],
+        "students": [
+          "WAGSTAFF, RYAN"
+        ],
+        "page": 2,
+        "line": "8",
+        "raw": "8 \u00b7 0945 \u00b7 1130 \u00b7 1330 \u00b7 STEWART, CHASE T, LT# \u00b7 WAGSTAFF, RYAN K, LT# \u00b7 I4290 \u00b7 2.0/0.0",
+        "role": "I4290",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Q4106",
+        "start": "1145",
+        "end": "1345",
+        "land": "1345",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BERNSTEIN",
+            "first": "ANTHONY",
+            "full": "BERNSTEIN, ANTHONY"
+          },
+          {
+            "last": "JACKSON",
+            "first": "JESSICA",
+            "full": "JACKSON, JESSICA"
+          }
+        ],
+        "instructors": [
+          "BERNSTEIN, ANTHONY"
+        ],
+        "students": [
+          "JACKSON, JESSICA"
+        ],
+        "page": 2,
+        "line": "9",
+        "raw": "9 \u00b7 1000 \u00b7 1145 \u00b7 1345 \u00b7 BERNSTEIN, ANTHONY C, Capt# \u00b7 JACKSON, JESSICA L, LCDR# \u00b7 Q4106 \u00b7 2.0/0.0",
+        "role": "Q4106",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4290",
+        "start": "1200",
+        "end": "1400",
+        "land": "1400",
+        "brief": "1015",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HOFIUS",
+            "first": "JONATHAN",
+            "full": "HOFIUS, JONATHAN"
+          },
+          {
+            "last": "COGO",
+            "first": "JOAOVICTOR",
+            "full": "COGO, JOAOVICTOR"
+          }
+        ],
+        "instructors": [
+          "HOFIUS, JONATHAN"
+        ],
+        "students": [
+          "COGO, JOAOVICTOR"
+        ],
+        "page": 2,
+        "line": "10",
+        "raw": "10 \u00b7 1015 \u00b7 1200 \u00b7 1400 \u00b7 HOFIUS, JONATHAN W, LCDR# \u00b7 COGO, JOAOVICTOR C, Capt# \u00b7 I4290 \u00b7 2.0/0.0",
+        "role": "I4290",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "N4101",
+        "start": "1500",
+        "end": "1700",
+        "land": "1700",
+        "brief": "1315",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GOODPASTER",
+            "first": "MATTHEW",
+            "full": "GOODPASTER, MATTHEW"
+          },
+          {
+            "last": "VILLANI",
+            "first": "PHILIP",
+            "full": "VILLANI, PHILIP"
+          }
+        ],
+        "instructors": [
+          "GOODPASTER, MATTHEW"
+        ],
+        "students": [
+          "VILLANI, PHILIP"
+        ],
+        "page": 2,
+        "line": "11",
+        "raw": "11 \u00b7 1315 \u00b7 1500 \u00b7 1700 \u00b7 GOODPASTER, MATTHEW I, LT# \u00b7 VILLANI, PHILIP J, Capt# \u00b7 N4101 \u00b7 2.0/0.0 \u00b7 2x O/I, Night Required, Brief NET 1200",
+        "role": "N4101",
+        "remarks": "2x O/I, Night Required, Brief NET 1200",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4101",
+        "start": "1515",
+        "end": "1715",
+        "land": "1715",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GAINEY",
+            "first": "NATHAN",
+            "full": "GAINEY, NATHAN"
+          },
+          {
+            "last": "GONSALVES",
+            "first": "KAWIKA",
+            "full": "GONSALVES, KAWIKA"
+          }
+        ],
+        "instructors": [
+          "GAINEY, NATHAN"
+        ],
+        "students": [
+          "GONSALVES, KAWIKA"
+        ],
+        "page": 2,
+        "line": "12",
+        "raw": "12 \u00b7 1330 \u00b7 1515 \u00b7 1715 \u00b7 GAINEY, NATHAN J, LCDR# \u00b7 GONSALVES, KAWIKA K, LT# \u00b7 I4101 \u00b7 2.0/0.0 \u00b7 2x O/I",
+        "role": "I4101",
+        "remarks": "2x O/I",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4490",
+        "start": "1530",
+        "end": "1730",
+        "land": "1730",
+        "brief": "1345",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORRIS",
+            "first": "COLTON",
+            "full": "MORRIS, COLTON"
+          },
+          {
+            "last": "HOWELL",
+            "first": "AARON",
+            "full": "HOWELL, AARON"
+          }
+        ],
+        "instructors": [
+          "MORRIS, COLTON"
+        ],
+        "students": [
+          "HOWELL, AARON"
+        ],
+        "page": 2,
+        "line": "13",
+        "raw": "13 \u00b7 1345 \u00b7 1530 \u00b7 1730 \u00b7 MORRIS, COLTON J, Capt# \u00b7 HOWELL, AARON D, CDR# \u00b7 C4490 \u00b7 2.0/0.0 \u00b7 2x O/I, OCF/Night Required, Brief NET 1200",
+        "role": "C4490",
+        "remarks": "2x O/I, OCF/Night Required, Brief NET 1200",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4101",
+        "start": "1545",
+        "end": "1745",
+        "land": "1745",
+        "brief": "1400",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SLOAN",
+            "first": "NICHOLAS",
+            "full": "SLOAN, NICHOLAS"
+          },
+          {
+            "last": "MADDOCKS II",
+            "first": "TODD",
+            "full": "MADDOCKS II, TODD"
+          }
+        ],
+        "instructors": [
+          "SLOAN, NICHOLAS"
+        ],
+        "students": [
+          "MADDOCKS II, TODD"
+        ],
+        "page": 2,
+        "line": "14",
+        "raw": "14 \u00b7 1400 \u00b7 1545 \u00b7 1745 \u00b7 SLOAN, NICHOLAS A, Capt# \u00b7 MADDOCKS II, TODD D, Capt# \u00b7 C4101 \u00b7 2.0/0.0 \u00b7 2x O/I, Brief NET 1200",
+        "role": "C4101",
+        "remarks": "2x O/I, Brief NET 1200",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "N4201",
+        "start": "1900",
+        "end": "2100",
+        "land": "2100",
+        "brief": "1715",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GOODPASTER",
+            "first": "MATTHEW",
+            "full": "GOODPASTER, MATTHEW"
+          },
+          {
+            "last": "VILLANI",
+            "first": "PHILIP",
+            "full": "VILLANI, PHILIP"
+          }
+        ],
+        "instructors": [
+          "GOODPASTER, MATTHEW"
+        ],
+        "students": [
+          "VILLANI, PHILIP"
+        ],
+        "page": 2,
+        "line": "15",
+        "raw": "15 \u00b7 1715 \u00b7 1900 \u00b7 2100 \u00b7 GOODPASTER, MATTHEW I, LT# \u00b7 VILLANI, PHILIP J, Capt# \u00b7 N4201 \u00b7 2.0/0.0",
+        "role": "N4201",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4102",
+        "start": "1915",
+        "end": "2115",
+        "land": "2115",
+        "brief": "1730",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GAINEY",
+            "first": "NATHAN",
+            "full": "GAINEY, NATHAN"
+          },
+          {
+            "last": "GONSALVES",
+            "first": "KAWIKA",
+            "full": "GONSALVES, KAWIKA"
+          }
+        ],
+        "instructors": [
+          "GAINEY, NATHAN"
+        ],
+        "students": [
+          "GONSALVES, KAWIKA"
+        ],
+        "page": 3,
+        "line": "16",
+        "raw": "16 \u00b7 1730 \u00b7 1915 \u00b7 2115 \u00b7 GAINEY, NATHAN J, LCDR# \u00b7 GONSALVES, KAWIKA K, LT# \u00b7 I4102 \u00b7 2.0/0.0",
+        "role": "I4102",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4690",
+        "start": "1930",
+        "end": "2130",
+        "land": "2130",
+        "brief": "1745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORRIS",
+            "first": "COLTON",
+            "full": "MORRIS, COLTON"
+          },
+          {
+            "last": "HOWELL",
+            "first": "AARON",
+            "full": "HOWELL, AARON"
+          }
+        ],
+        "instructors": [
+          "MORRIS, COLTON"
+        ],
+        "students": [
+          "HOWELL, AARON"
+        ],
+        "page": 3,
+        "line": "17",
+        "raw": "17 \u00b7 1745 \u00b7 1930 \u00b7 2130 \u00b7 MORRIS, COLTON J, Capt# \u00b7 HOWELL, AARON D, CDR# \u00b7 C4690 \u00b7 2.0/0.0",
+        "role": "C4690",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4101 Event) Schedule",
+        "start": "1945",
+        "end": "2145",
+        "land": "2145",
+        "brief": "1800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SLOAN",
+            "first": "NICHOLAS",
+            "full": "SLOAN, NICHOLAS"
+          },
+          {
+            "last": "MADDOCKS II",
+            "first": "TODD",
+            "full": "MADDOCKS II, TODD"
+          }
+        ],
+        "instructors": [
+          "SLOAN, NICHOLAS"
+        ],
+        "students": [
+          "MADDOCKS II, TODD"
+        ],
+        "page": 3,
+        "line": "18",
+        "raw": "18 \u00b7 1800 \u00b7 1945 \u00b7 2145 \u00b7 SLOAN, NICHOLAS A, Capt# \u00b7 MADDOCKS II, TODD D, Capt# Simulator (Sim \u00b7 I4101 Event) Schedule \u00b7 2.0/0.0",
+        "role": "I4101 Event) Schedule",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Q3101",
+        "start": "0840",
+        "end": "",
+        "land": "",
+        "brief": "0810",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MANOR",
+            "first": "CHRISTOPHER",
+            "full": "MANOR, CHRISTOPHER"
+          },
+          {
+            "last": "BLOODGOOD",
+            "first": "RILEY",
+            "full": "BLOODGOOD, RILEY"
+          }
+        ],
+        "instructors": [
+          "MANOR, CHRISTOPHER"
+        ],
+        "students": [
+          "BLOODGOOD, RILEY"
+        ],
+        "page": 3,
+        "line": "1",
+        "raw": "1 \u00b7 0810 \u00b7 0840 \u00b7 OFT 8W \u00b7 MANOR, CHRISTOPHER J, CIV \u00b7 BLOODGOOD, RILEY D, LT# \u00b7 Q3101",
+        "role": "Q3101",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 8W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Q3101",
+        "start": "1000",
+        "end": "",
+        "land": "",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAMER",
+            "first": "DENNIS",
+            "full": "HAMER, DENNIS"
+          },
+          {
+            "last": "CESSNA",
+            "first": "ANDREW",
+            "full": "CESSNA, ANDREW"
+          }
+        ],
+        "instructors": [
+          "HAMER, DENNIS"
+        ],
+        "students": [
+          "CESSNA, ANDREW"
+        ],
+        "page": 3,
+        "line": "2",
+        "raw": "2 \u00b7 0930 \u00b7 1000 \u00b7 OFT 3W \u00b7 HAMER, DENNIS , CIV \u00b7 CESSNA, ANDREW L, LT# \u00b7 Q3101",
+        "role": "Q3101",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 3W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Q3102",
+        "start": "1120",
+        "end": "",
+        "land": "",
+        "brief": "1050",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CANZONIERO",
+            "first": "MICHAEL",
+            "full": "CANZONIERO, MICHAEL"
+          },
+          {
+            "last": "BLOODGOOD",
+            "first": "RILEY",
+            "full": "BLOODGOOD, RILEY"
+          }
+        ],
+        "instructors": [
+          "CANZONIERO, MICHAEL"
+        ],
+        "students": [
+          "BLOODGOOD, RILEY"
+        ],
+        "page": 3,
+        "line": "3",
+        "raw": "3 \u00b7 1050 \u00b7 1120 \u00b7 OFT 4W \u00b7 CANZONIERO, MICHAEL , CIV \u00b7 BLOODGOOD, RILEY D, LT# \u00b7 Q3102",
+        "role": "Q3102",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 4W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "I3202",
+        "start": "1120",
+        "end": "",
+        "land": "",
+        "brief": "1050",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LINSCOTT",
+            "first": "JASON",
+            "full": "LINSCOTT, JASON"
+          },
+          {
+            "last": "HAJEWSKI",
+            "first": "DARLENE",
+            "full": "HAJEWSKI, DARLENE"
+          }
+        ],
+        "instructors": [
+          "LINSCOTT, JASON"
+        ],
+        "students": [
+          "HAJEWSKI, DARLENE"
+        ],
+        "page": 3,
+        "line": "4",
+        "raw": "4 \u00b7 1050 \u00b7 1120 \u00b7 OFT 9W \u00b7 LINSCOTT, JASON , CIV \u00b7 HAJEWSKI, DARLENE A, CAPT# \u00b7 I3202",
+        "role": "I3202",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 9W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Q3102",
+        "start": "1240",
+        "end": "",
+        "land": "",
+        "brief": "1210",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STERSIC",
+            "first": "CHRISTOPHER",
+            "full": "STERSIC, CHRISTOPHER"
+          },
+          {
+            "last": "CESSNA",
+            "first": "ANDREW",
+            "full": "CESSNA, ANDREW"
+          }
+        ],
+        "instructors": [
+          "STERSIC, CHRISTOPHER"
+        ],
+        "students": [
+          "CESSNA, ANDREW"
+        ],
+        "page": 3,
+        "line": "5",
+        "raw": "5 \u00b7 1210 \u00b7 1240 \u00b7 OFT 3W \u00b7 STERSIC, CHRISTOPHER T, CIV \u00b7 CESSNA, ANDREW L, LT# \u00b7 Q3102",
+        "role": "Q3102",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 3W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FAM3101",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PRICE",
+            "first": "THOMAS",
+            "full": "PRICE, THOMAS"
+          },
+          {
+            "last": "HAJEWSKI",
+            "first": "DARLENE",
+            "full": "HAJEWSKI, DARLENE"
+          }
+        ],
+        "instructors": [
+          "PRICE, THOMAS"
+        ],
+        "students": [
+          "HAJEWSKI, DARLENE"
+        ],
+        "page": 3,
+        "line": "6",
+        "raw": "6 \u00b7 1330 \u00b7 1400 \u00b7 OFT 5W \u00b7 PRICE, THOMAS E, CIV \u00b7 HAJEWSKI, DARLENE A, CAPT# Ground Events \u00b7 FAM3101",
+        "role": "FAM3101",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 5W",
+        "solo": false
+      }
+    ]
+  }
 }

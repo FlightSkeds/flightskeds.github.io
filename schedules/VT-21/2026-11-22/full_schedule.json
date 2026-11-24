@@ -513,5 +513,401 @@
       "line_number": 22,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "AM SDO",
+        "start": "0700",
+        "end": "1215",
+        "land": "1215",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LEBESCH",
+            "first": "J",
+            "full": "LEBESCH, J"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM SDO \u00b7 ENS LEBESCH J \u00b7 0700 \u00b7 1215",
+        "role": "AM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM SDO",
+        "start": "1215",
+        "end": "1745",
+        "land": "1745",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LE NY",
+            "first": "L",
+            "full": "LE NY, L"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM SDO \u00b7 ENS LE NY L \u00b7 1215 \u00b7 1745",
+        "role": "PM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Flight",
+        "start": "0830",
+        "end": "0936",
+        "land": "0936",
+        "brief": "0645",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HANS",
+            "first": "J",
+            "full": "HANS, J"
+          }
+        ],
+        "instructors": [
+          "HANS, J"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0645 \u00b7 0830 \u00b7 0936 \u00b7 CS \u00b7 O/I \u00b7 CTR HANS J \u00b7 1.1 \u00b7 LD SANCHEZ",
+        "role": "Flight",
+        "remarks": "LD SANCHEZ",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC42S1",
+        "start": "0830",
+        "end": "0936",
+        "land": "0936",
+        "brief": "0645",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SANCHEZ",
+            "first": "C",
+            "full": "SANCHEZ, C"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "SANCHEZ, C"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0645 \u00b7 0830 \u00b7 0936 \u00b7 CS \u00b7 O/I \u00b7 LTJG SANCHEZ C \u00b7 TAC42S1 \u00b7 1.1",
+        "role": "TAC42S1",
+        "remarks": "",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Flight",
+        "start": "0830",
+        "end": "0948",
+        "land": "0948",
+        "brief": "0645",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CURRAN",
+            "first": "P",
+            "full": "CURRAN, P"
+          }
+        ],
+        "instructors": [
+          "CURRAN, P"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "3",
+        "raw": "3 \u00b7 0645 \u00b7 0830 \u00b7 0948 \u00b7 CS \u00b7 O/I \u00b7 CTR CURRAN P \u00b7 1.3 \u00b7 LD SPRAGG",
+        "role": "Flight",
+        "remarks": "LD SPRAGG",
+        "duration": "1.3",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FRM42S1",
+        "start": "0830",
+        "end": "0948",
+        "land": "0948",
+        "brief": "0645",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SPRAGG",
+            "first": "Z",
+            "full": "SPRAGG, Z"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "SPRAGG, Z"
+        ],
+        "page": 2,
+        "line": "4",
+        "raw": "4 \u00b7 0645 \u00b7 0830 \u00b7 0948 \u00b7 CS \u00b7 O/I \u00b7 LTJG SPRAGG Z \u00b7 FRM42S1 \u00b7 1.3",
+        "role": "FRM42S1",
+        "remarks": "",
+        "duration": "1.3",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Flight",
+        "start": "0900",
+        "end": "1006",
+        "land": "1006",
+        "brief": "0715",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAUER",
+            "first": "N",
+            "full": "MAUER, N"
+          }
+        ],
+        "instructors": [
+          "MAUER, N"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "5",
+        "raw": "5 \u00b7 0715 \u00b7 0900 \u00b7 1006 \u00b7 CS \u00b7 O/I \u00b7 CTR MAUER N \u00b7 1.1 \u00b7 LD BELL",
+        "role": "Flight",
+        "remarks": "LD BELL",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC42S1",
+        "start": "0900",
+        "end": "1006",
+        "land": "1006",
+        "brief": "0715",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BELL",
+            "first": "M",
+            "full": "BELL, M"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "BELL, M"
+        ],
+        "page": 2,
+        "line": "6",
+        "raw": "6 \u00b7 0715 \u00b7 0900 \u00b7 1006 \u00b7 CS \u00b7 O/I \u00b7 LTJG BELL M \u00b7 TAC42S1 \u00b7 1.1",
+        "role": "TAC42S1",
+        "remarks": "",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Flight",
+        "start": "1130",
+        "end": "1236",
+        "land": "1236",
+        "brief": "0945",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HANS",
+            "first": "J",
+            "full": "HANS, J"
+          }
+        ],
+        "instructors": [
+          "HANS, J"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "7",
+        "raw": "7 \u00b7 0945 \u00b7 1130 \u00b7 1236 \u00b7 NJR \u00b7 TURN \u00b7 CTR HANS J \u00b7 1.1 \u00b7 LD SANCHEZ",
+        "role": "Flight",
+        "remarks": "LD SANCHEZ",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC42S2",
+        "start": "1130",
+        "end": "1236",
+        "land": "1236",
+        "brief": "0945",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SANCHEZ",
+            "first": "C",
+            "full": "SANCHEZ, C"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "SANCHEZ, C"
+        ],
+        "page": 2,
+        "line": "8",
+        "raw": "8 \u00b7 0945 \u00b7 1130 \u00b7 1236 \u00b7 NJR \u00b7 TURN \u00b7 LTJG SANCHEZ C \u00b7 TAC42S2 \u00b7 1.1 \u00b7 MAX FCLP",
+        "role": "TAC42S2",
+        "remarks": "MAX FCLP",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Flight",
+        "start": "1130",
+        "end": "1248",
+        "land": "1248",
+        "brief": "0945",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CURRAN",
+            "first": "P",
+            "full": "CURRAN, P"
+          }
+        ],
+        "instructors": [
+          "CURRAN, P"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "9",
+        "raw": "9 \u00b7 0945 \u00b7 1130 \u00b7 1248 \u00b7 NJR \u00b7 TURN \u00b7 CTR CURRAN P \u00b7 1.3 \u00b7 LD SPRAGG",
+        "role": "Flight",
+        "remarks": "LD SPRAGG",
+        "duration": "1.3",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FRM42S2",
+        "start": "1130",
+        "end": "1248",
+        "land": "1248",
+        "brief": "0945",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SPRAGG",
+            "first": "Z",
+            "full": "SPRAGG, Z"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "SPRAGG, Z"
+        ],
+        "page": 2,
+        "line": "10",
+        "raw": "10 \u00b7 0945 \u00b7 1130 \u00b7 1248 \u00b7 NJR \u00b7 TURN \u00b7 LTJG SPRAGG Z \u00b7 FRM42S2 \u00b7 1.3",
+        "role": "FRM42S2",
+        "remarks": "",
+        "duration": "1.3",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Flight",
+        "start": "1200",
+        "end": "1306",
+        "land": "1306",
+        "brief": "1015",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAUER",
+            "first": "N",
+            "full": "MAUER, N"
+          }
+        ],
+        "instructors": [
+          "MAUER, N"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "11",
+        "raw": "11 \u00b7 1015 \u00b7 1200 \u00b7 1306 \u00b7 NJR \u00b7 TURN \u00b7 CTR MAUER N \u00b7 1.1 \u00b7 LD BELL",
+        "role": "Flight",
+        "remarks": "LD BELL",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC42S2",
+        "start": "1200",
+        "end": "1306",
+        "land": "1306",
+        "brief": "1015",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BELL M SCHEDULE",
+            "first": "",
+            "full": "BELL M SCHEDULE"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "BELL M SCHEDULE"
+        ],
+        "page": 2,
+        "line": "12",
+        "raw": "12 \u00b7 1015 \u00b7 1200 \u00b7 1306 \u00b7 NJR \u00b7 TURN \u00b7 Simulator \u00b7 LTJG BELL M Schedule \u00b7 TAC42S2 \u00b7 1.1",
+        "role": "TAC42S2",
+        "remarks": "",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

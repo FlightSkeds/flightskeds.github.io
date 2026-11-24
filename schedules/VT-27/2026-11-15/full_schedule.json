@@ -460,5 +460,826 @@
       "line_number": 37,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "KNGP AM AODO",
+        "start": "0445",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RAMOS",
+            "first": "MAC",
+            "full": "RAMOS, MAC"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP AM AODO \u00b7 Ramos, Mac \u00b7 0445 1400",
+        "role": "KNGP AM AODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "KNGP PM ODO",
+        "start": "1430",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MANDARINO",
+            "first": "KAHSE",
+            "full": "MANDARINO, KAHSE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP PM ODO \u00b7 Mandarino, Kahse \u00b7 1430 0630",
+        "role": "KNGP PM ODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "KNGP PM AODO",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PETERSON",
+            "first": "ISABELLA",
+            "full": "PETERSON, ISABELLA"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP PM AODO \u00b7 Peterson, Isabella \u00b7 1400 2359",
+        "role": "KNGP PM AODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4203",
+        "start": "1006",
+        "end": "1142",
+        "land": "1142",
+        "brief": "0821",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FLORES",
+            "first": "PAUL",
+            "full": "FLORES, PAUL"
+          },
+          {
+            "last": "CHAPAS",
+            "first": "NIKOLAS",
+            "full": "CHAPAS, NIKOLAS"
+          }
+        ],
+        "instructors": [
+          "FLORES, PAUL"
+        ],
+        "students": [
+          "CHAPAS, NIKOLAS"
+        ],
+        "page": 2,
+        "line": "B70 (V27) 1",
+        "raw": "B70 (V27) 1 \u00b7 0821 \u00b7 1006 \u00b7 1142 \u00b7 FLORES, PAUL \u00b7 Chapas, Nikolas \u00b7 I4203 \u00b7 1.6/0.0 \u00b7 CCX // KACT",
+        "role": "I4203",
+        "remarks": "CCX // KACT",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "F4103",
+        "start": "1100",
+        "end": "1236",
+        "land": "1236",
+        "brief": "0915",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ROBIE",
+            "first": "DANE",
+            "full": "ROBIE, DANE"
+          },
+          {
+            "last": "OLSEN",
+            "first": "WILLIAM",
+            "full": "OLSEN, WILLIAM"
+          }
+        ],
+        "instructors": [
+          "ROBIE, DANE"
+        ],
+        "students": [
+          "OLSEN, WILLIAM"
+        ],
+        "page": 2,
+        "line": "A01 (V27) 2",
+        "raw": "A01 (V27) 2 \u00b7 0915 \u00b7 1100 \u00b7 1236 \u00b7 ROBIE, DANE \u00b7 Olsen, William \u00b7 F4103 \u00b7 1.6/0.0 \u00b7 CCX // KVCT // FORM // ROBIE (SL) / GATES // TAC 76",
+        "role": "F4103",
+        "remarks": "CCX // KVCT // FORM // ROBIE (SL) / GATES // TAC 76",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FORM SUPPORT",
+        "start": "1106",
+        "end": "1306",
+        "land": "1306",
+        "brief": "0948",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GATES",
+            "first": "JONATHAN",
+            "full": "GATES, JONATHAN"
+          },
+          {
+            "last": "MARTINEZ",
+            "first": "ARNOLD",
+            "full": "MARTINEZ, ARNOLD"
+          }
+        ],
+        "instructors": [
+          "GATES, JONATHAN"
+        ],
+        "students": [
+          "MARTINEZ, ARNOLD"
+        ],
+        "page": 2,
+        "line": "A04 (V27) 2",
+        "raw": "A04 (V27) 2 \u00b7 0948 \u00b7 1106 \u00b7 1306 \u00b7 Gates, Jonathan \u00b7 Martinez, Arnold \u00b7 FORM SUPPORT \u00b7 2.0/0.0 \u00b7 CCX // KVCT // FORM SUPT // ROBIE (SL) / GATES // TAC 76",
+        "role": "FORM SUPPORT",
+        "remarks": "CCX // KVCT // FORM SUPT // ROBIE (SL) / GATES // TAC 76",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Q4106",
+        "start": "1112",
+        "end": "1300",
+        "land": "1300",
+        "brief": "0927",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JOHNSON- GIAMMALVO",
+            "first": "COLIN",
+            "full": "JOHNSON- GIAMMALVO, COLIN"
+          },
+          {
+            "last": "WRIGHT",
+            "first": "LAURA",
+            "full": "WRIGHT, LAURA"
+          }
+        ],
+        "instructors": [
+          "JOHNSON- GIAMMALVO, COLIN"
+        ],
+        "students": [
+          "WRIGHT, LAURA"
+        ],
+        "page": 2,
+        "line": "A06 (V27) 2",
+        "raw": "A06 (V27) 2 \u00b7 0927 \u00b7 1112 \u00b7 1300 \u00b7 JOHNSON- GIAMMALVO, COLIN \u00b7 Wright, Laura \u00b7 Q4106 \u00b7 1.8/0.0 \u00b7 CCX // KVCT",
+        "role": "Q4106",
+        "remarks": "CCX // KVCT",
+        "duration": "1.8/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4301R",
+        "start": "1121",
+        "end": "1257",
+        "land": "1257",
+        "brief": "0936",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KLETTER",
+            "first": "DYLAN",
+            "full": "KLETTER, DYLAN"
+          },
+          {
+            "last": "WELLNER",
+            "first": "ADAM",
+            "full": "WELLNER, ADAM"
+          }
+        ],
+        "instructors": [
+          "KLETTER, DYLAN"
+        ],
+        "students": [
+          "WELLNER, ADAM"
+        ],
+        "page": 2,
+        "line": "A09 (V27) 2",
+        "raw": "A09 (V27) 2 \u00b7 0936 \u00b7 1121 \u00b7 1257 \u00b7 Kletter, Dylan \u00b7 Wellner, Adam \u00b7 C4301R \u00b7 1.6/0.0 \u00b7 CCX // KVCT",
+        "role": "C4301R",
+        "remarks": "CCX // KVCT",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IFR PROF",
+        "start": "1124",
+        "end": "1342",
+        "land": "1342",
+        "brief": "0927",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LOPEZ",
+            "first": "GABRIEL",
+            "full": "LOPEZ, GABRIEL"
+          },
+          {
+            "last": "CHOUINARD",
+            "first": "PHILLIP",
+            "full": "CHOUINARD, PHILLIP"
+          }
+        ],
+        "instructors": [
+          "LOPEZ, GABRIEL"
+        ],
+        "students": [
+          "CHOUINARD, PHILLIP"
+        ],
+        "page": 2,
+        "line": "A11 (V27) 2",
+        "raw": "A11 (V27) 2 \u00b7 0927 \u00b7 1124 \u00b7 1342 \u00b7 Lopez, Gabriel \u00b7 Chouinard, Phillip \u00b7 IFR PROF \u00b7 2.3/0.0 \u00b7 CCX // KVCT",
+        "role": "IFR PROF",
+        "remarks": "CCX // KVCT",
+        "duration": "2.3/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IFR PROF",
+        "start": "1133",
+        "end": "1351",
+        "land": "1351",
+        "brief": "0936",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BIRKELAND",
+            "first": "PETER",
+            "full": "BIRKELAND, PETER"
+          },
+          {
+            "last": "JONES",
+            "first": "TAYLOR",
+            "full": "JONES, TAYLOR"
+          }
+        ],
+        "instructors": [
+          "BIRKELAND, PETER"
+        ],
+        "students": [
+          "JONES, TAYLOR"
+        ],
+        "page": 2,
+        "line": "A14 (V27) 2",
+        "raw": "A14 (V27) 2 \u00b7 0936 \u00b7 1133 \u00b7 1351 \u00b7 Birkeland, Peter \u00b7 Jones, Taylor \u00b7 IFR PROF \u00b7 2.3/0.0 \u00b7 CCX // KVCT",
+        "role": "IFR PROF",
+        "remarks": "CCX // KVCT",
+        "duration": "2.3/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "VFR PROF",
+        "start": "1139",
+        "end": "1339",
+        "land": "1339",
+        "brief": "0954",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAUCH",
+            "first": "MICHAEL",
+            "full": "MAUCH, MICHAEL"
+          },
+          {
+            "last": "KAMAT",
+            "first": "SAMIR",
+            "full": "KAMAT, SAMIR"
+          }
+        ],
+        "instructors": [
+          "MAUCH, MICHAEL"
+        ],
+        "students": [
+          "KAMAT, SAMIR"
+        ],
+        "page": 2,
+        "line": "A16 (V27) 2",
+        "raw": "A16 (V27) 2 \u00b7 0954 \u00b7 1139 \u00b7 1339 \u00b7 Mauch, Michael \u00b7 Kamat, Samir \u00b7 VFR PROF \u00b7 2.0/0.0 \u00b7 CCX // KVCT",
+        "role": "VFR PROF",
+        "remarks": "CCX // KVCT",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IFR PROF",
+        "start": "1148",
+        "end": "1406",
+        "land": "1406",
+        "brief": "0951",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAMILTON",
+            "first": "ZACHARY",
+            "full": "HAMILTON, ZACHARY"
+          },
+          {
+            "last": "TURPIN",
+            "first": "MITCHELL",
+            "full": "TURPIN, MITCHELL"
+          }
+        ],
+        "instructors": [
+          "HAMILTON, ZACHARY"
+        ],
+        "students": [
+          "TURPIN, MITCHELL"
+        ],
+        "page": 2,
+        "line": "A19 (V27) 2",
+        "raw": "A19 (V27) 2 \u00b7 0951 \u00b7 1148 \u00b7 1406 \u00b7 Hamilton, Zachary \u00b7 Turpin, Mitchell \u00b7 IFR PROF \u00b7 2.3/0.0 \u00b7 CCX // KVCT",
+        "role": "IFR PROF",
+        "remarks": "CCX // KVCT",
+        "duration": "2.3/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IFR PROF",
+        "start": "1348",
+        "end": "1606",
+        "land": "1606",
+        "brief": "1151",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WEISNER",
+            "first": "DANIEL",
+            "full": "WEISNER, DANIEL"
+          },
+          {
+            "last": "AHART",
+            "first": "SETH",
+            "full": "AHART, SETH"
+          }
+        ],
+        "instructors": [
+          "WEISNER, DANIEL"
+        ],
+        "students": [
+          "AHART, SETH"
+        ],
+        "page": 2,
+        "line": "B64 (V27) 2",
+        "raw": "B64 (V27) 2 \u00b7 1151 \u00b7 1348 \u00b7 1606 \u00b7 Weisner, Daniel \u00b7 Ahart, Seth \u00b7 IFR PROF \u00b7 2.3/0.0 \u00b7 CCX // KVCT",
+        "role": "IFR PROF",
+        "remarks": "CCX // KVCT",
+        "duration": "2.3/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "1406",
+        "end": "1542",
+        "land": "1542",
+        "brief": "1221",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FLORES",
+            "first": "PAUL",
+            "full": "FLORES, PAUL"
+          },
+          {
+            "last": "CHAPAS",
+            "first": "NIKOLAS",
+            "full": "CHAPAS, NIKOLAS"
+          }
+        ],
+        "instructors": [
+          "FLORES, PAUL"
+        ],
+        "students": [
+          "CHAPAS, NIKOLAS"
+        ],
+        "page": 2,
+        "line": "B70 (V27) 2",
+        "raw": "B70 (V27) 2 \u00b7 1221 \u00b7 1406 \u00b7 1542 \u00b7 FLORES, PAUL \u00b7 Chapas, Nikolas \u00b7 I4204 \u00b7 1.6/0.0 \u00b7 CCX // KCLL",
+        "role": "I4204",
+        "remarks": "CCX // KCLL",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FORM SUPPORT",
+        "start": "1500",
+        "end": "1700",
+        "land": "1700",
+        "brief": "1342",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ROBIE",
+            "first": "DANE",
+            "full": "ROBIE, DANE"
+          },
+          {
+            "last": "MARTINEZ",
+            "first": "ARNOLD",
+            "full": "MARTINEZ, ARNOLD"
+          }
+        ],
+        "instructors": [
+          "ROBIE, DANE"
+        ],
+        "students": [
+          "MARTINEZ, ARNOLD"
+        ],
+        "page": 2,
+        "line": "A01 (V27) 3",
+        "raw": "A01 (V27) 3 \u00b7 1342 \u00b7 1500 \u00b7 1700 \u00b7 ROBIE, DANE \u00b7 Martinez, Arnold \u00b7 FORM SUPPORT \u00b7 2.0/0.0 \u00b7 CCX // KNGP // FORM SUPT // ROBIE (SL) / GATES // TAC 76",
+        "role": "FORM SUPPORT",
+        "remarks": "CCX // KNGP // FORM SUPT // ROBIE (SL) / GATES // TAC 76",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "F4104",
+        "start": "1506",
+        "end": "1642",
+        "land": "1642",
+        "brief": "1321",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GATES",
+            "first": "JONATHAN",
+            "full": "GATES, JONATHAN"
+          },
+          {
+            "last": "OLSEN",
+            "first": "WILLIAM",
+            "full": "OLSEN, WILLIAM"
+          }
+        ],
+        "instructors": [
+          "GATES, JONATHAN"
+        ],
+        "students": [
+          "OLSEN, WILLIAM"
+        ],
+        "page": 2,
+        "line": "A04 (V27) 3",
+        "raw": "A04 (V27) 3 \u00b7 1321 \u00b7 1506 \u00b7 1642 \u00b7 Gates, Jonathan \u00b7 Olsen, William \u00b7 F4104 \u00b7 1.6/0.0 \u00b7 CCX // KNGP // FORM // ROBIE (SL) / GATES // TAC 76",
+        "role": "F4104",
+        "remarks": "CCX // KNGP // FORM // ROBIE (SL) / GATES // TAC 76",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Q4202",
+        "start": "1512",
+        "end": "1700",
+        "land": "1700",
+        "brief": "1327",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JOHNSON- GIAMMALVO",
+            "first": "COLIN",
+            "full": "JOHNSON- GIAMMALVO, COLIN"
+          },
+          {
+            "last": "WRIGHT",
+            "first": "LAURA",
+            "full": "WRIGHT, LAURA"
+          }
+        ],
+        "instructors": [
+          "JOHNSON- GIAMMALVO, COLIN"
+        ],
+        "students": [
+          "WRIGHT, LAURA"
+        ],
+        "page": 2,
+        "line": "A06 (V27) 3",
+        "raw": "A06 (V27) 3 \u00b7 1327 \u00b7 1512 \u00b7 1700 \u00b7 JOHNSON- GIAMMALVO, COLIN \u00b7 Wright, Laura \u00b7 Q4202 \u00b7 1.8/0.0 \u00b7 CCX // KNGP",
+        "role": "Q4202",
+        "remarks": "CCX // KNGP",
+        "duration": "1.8/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4490",
+        "start": "1521",
+        "end": "1657",
+        "land": "1657",
+        "brief": "1336",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KLETTER",
+            "first": "DYLAN",
+            "full": "KLETTER, DYLAN"
+          },
+          {
+            "last": "WELLNER",
+            "first": "ADAM",
+            "full": "WELLNER, ADAM"
+          }
+        ],
+        "instructors": [
+          "KLETTER, DYLAN"
+        ],
+        "students": [
+          "WELLNER, ADAM"
+        ],
+        "page": 2,
+        "line": "A09 (V27) 3",
+        "raw": "A09 (V27) 3 \u00b7 1336 \u00b7 1521 \u00b7 1657 \u00b7 Kletter, Dylan \u00b7 Wellner, Adam \u00b7 C4490 \u00b7 1.6/0.0 \u00b7 CCX // KNGP",
+        "role": "C4490",
+        "remarks": "CCX // KNGP",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IFR PROF",
+        "start": "1524",
+        "end": "1742",
+        "land": "1742",
+        "brief": "1327",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LOPEZ",
+            "first": "GABRIEL",
+            "full": "LOPEZ, GABRIEL"
+          },
+          {
+            "last": "CHOUINARD",
+            "first": "PHILLIP",
+            "full": "CHOUINARD, PHILLIP"
+          }
+        ],
+        "instructors": [
+          "LOPEZ, GABRIEL"
+        ],
+        "students": [
+          "CHOUINARD, PHILLIP"
+        ],
+        "page": 2,
+        "line": "A11 (V27) 3",
+        "raw": "A11 (V27) 3 \u00b7 1327 \u00b7 1524 \u00b7 1742 \u00b7 Lopez, Gabriel \u00b7 Chouinard, Phillip \u00b7 IFR PROF \u00b7 2.3/0.0 \u00b7 CCX // KNGP",
+        "role": "IFR PROF",
+        "remarks": "CCX // KNGP",
+        "duration": "2.3/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IFR PROF",
+        "start": "1533",
+        "end": "1751",
+        "land": "1751",
+        "brief": "1336",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BIRKELAND",
+            "first": "PETER",
+            "full": "BIRKELAND, PETER"
+          },
+          {
+            "last": "JONES",
+            "first": "TAYLOR",
+            "full": "JONES, TAYLOR"
+          }
+        ],
+        "instructors": [
+          "BIRKELAND, PETER"
+        ],
+        "students": [
+          "JONES, TAYLOR"
+        ],
+        "page": 2,
+        "line": "A14 (V27) 3",
+        "raw": "A14 (V27) 3 \u00b7 1336 \u00b7 1533 \u00b7 1751 \u00b7 Birkeland, Peter \u00b7 Jones, Taylor \u00b7 IFR PROF \u00b7 2.3/0.0 \u00b7 CCX // KNGP",
+        "role": "IFR PROF",
+        "remarks": "CCX // KNGP",
+        "duration": "2.3/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "VFR PROF",
+        "start": "1539",
+        "end": "1739",
+        "land": "1739",
+        "brief": "1354",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAUCH",
+            "first": "MICHAEL",
+            "full": "MAUCH, MICHAEL"
+          },
+          {
+            "last": "KAMAT",
+            "first": "SAMIR",
+            "full": "KAMAT, SAMIR"
+          }
+        ],
+        "instructors": [
+          "MAUCH, MICHAEL"
+        ],
+        "students": [
+          "KAMAT, SAMIR"
+        ],
+        "page": 2,
+        "line": "A16 (V27) 3",
+        "raw": "A16 (V27) 3 \u00b7 1354 \u00b7 1539 \u00b7 1739 \u00b7 Mauch, Michael \u00b7 Kamat, Samir \u00b7 VFR PROF \u00b7 2.0/0.0 \u00b7 CCX // KNGP",
+        "role": "VFR PROF",
+        "remarks": "CCX // KNGP",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IFR PROF",
+        "start": "1545",
+        "end": "1803",
+        "land": "1803",
+        "brief": "1348",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAMILTON",
+            "first": "ZACHARY",
+            "full": "HAMILTON, ZACHARY"
+          },
+          {
+            "last": "TURPIN",
+            "first": "MITCHELL",
+            "full": "TURPIN, MITCHELL"
+          }
+        ],
+        "instructors": [
+          "HAMILTON, ZACHARY"
+        ],
+        "students": [
+          "TURPIN, MITCHELL"
+        ],
+        "page": 2,
+        "line": "A19 (V27) 3",
+        "raw": "A19 (V27) 3 \u00b7 1348 \u00b7 1545 \u00b7 1803 \u00b7 Hamilton, Zachary \u00b7 Turpin, Mitchell \u00b7 IFR PROF \u00b7 2.3/0.0 \u00b7 CCX // KNGP",
+        "role": "IFR PROF",
+        "remarks": "CCX // KNGP",
+        "duration": "2.3/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4690 (RPT)",
+        "start": "1748",
+        "end": "1924",
+        "land": "1924",
+        "brief": "1603",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WEISNER",
+            "first": "DANIEL",
+            "full": "WEISNER, DANIEL"
+          },
+          {
+            "last": "AHART",
+            "first": "SETH",
+            "full": "AHART, SETH"
+          }
+        ],
+        "instructors": [
+          "WEISNER, DANIEL"
+        ],
+        "students": [
+          "AHART, SETH"
+        ],
+        "page": 2,
+        "line": "B64 (V27) 3",
+        "raw": "B64 (V27) 3 \u00b7 1603 \u00b7 1748 \u00b7 1924 \u00b7 Weisner, Daniel \u00b7 Ahart, Seth \u00b7 C4690 (RPT) \u00b7 1.6/0.0 \u00b7 CCX // KNGP",
+        "role": "C4690 (RPT)",
+        "remarks": "CCX // KNGP",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4601 Schedule",
+        "start": "1806",
+        "end": "1948",
+        "land": "1948",
+        "brief": "1621",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FLORES",
+            "first": "PAUL",
+            "full": "FLORES, PAUL"
+          },
+          {
+            "last": "CHAPAS",
+            "first": "NIKOLAS",
+            "full": "CHAPAS, NIKOLAS"
+          }
+        ],
+        "instructors": [
+          "FLORES, PAUL"
+        ],
+        "students": [
+          "CHAPAS, NIKOLAS"
+        ],
+        "page": 2,
+        "line": "B70 (V27) 3",
+        "raw": "B70 (V27) 3 \u00b7 1621 \u00b7 1806 \u00b7 1948 \u00b7 FLORES, PAUL Simulator \u00b7 Chapas, Nikolas (Sim Event) \u00b7 FAM4601 Schedule \u00b7 1.7/0.0 \u00b7 CCX // KNGP",
+        "role": "FAM4601 Schedule",
+        "remarks": "CCX // KNGP",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

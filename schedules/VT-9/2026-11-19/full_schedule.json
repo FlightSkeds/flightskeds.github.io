@@ -769,5 +769,2036 @@
       "line_number": 20,
       "text": "1730-1800 FCL1102 VT-9 LSO SHACK LTJG BITTING, LTJG BRAVO, 1stLt EUL, LTJG HARRIS, LTJG JONES, LTJG MEDINA, 1stLt TATUM LCDR VOHDEN"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "TR4502",
+        "start": "0715",
+        "end": "0827",
+        "land": "0827",
+        "brief": "0530",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHAKER",
+            "first": "",
+            "full": "SHAKER"
+          },
+          {
+            "last": "GIBBONS",
+            "first": "",
+            "full": "GIBBONS"
+          }
+        ],
+        "instructors": [
+          "SHAKER"
+        ],
+        "students": [
+          "GIBBONS"
+        ],
+        "page": 2,
+        "line": "904",
+        "raw": "904 \u00b7 0530 \u00b7 0715 \u00b7 0827 \u00b7 Maj SHAKER \u00b7 LTJG GIBBONS \u00b7 TR4502 \u00b7 1.2",
+        "role": "TR4502",
+        "remarks": "",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NATOPS CHK",
+        "start": "0715",
+        "end": "0827",
+        "land": "0827",
+        "brief": "0530",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LEPICK",
+            "first": "",
+            "full": "LEPICK"
+          },
+          {
+            "last": "FINCH",
+            "first": "",
+            "full": "FINCH"
+          }
+        ],
+        "instructors": [
+          "LEPICK"
+        ],
+        "students": [
+          "FINCH"
+        ],
+        "page": 2,
+        "line": "905",
+        "raw": "905 \u00b7 0530 \u00b7 0715 \u00b7 0827 \u00b7 Capt LEPICK \u00b7 CIV FINCH \u00b7 NATOPS CHK \u00b7 1.2",
+        "role": "NATOPS CHK",
+        "remarks": "",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC LEAD",
+        "start": "0845",
+        "end": "0957",
+        "land": "0957",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GLASGOW",
+            "first": "",
+            "full": "GLASGOW"
+          }
+        ],
+        "instructors": [
+          "GLASGOW"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "918",
+        "raw": "918 \u00b7 0700 \u00b7 0845 \u00b7 0957 \u00b7 LCDR GLASGOW \u00b7 TAC LEAD \u00b7 1.2 \u00b7 O/I",
+        "role": "TAC LEAD",
+        "remarks": "O/I",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC44S1",
+        "start": "0845",
+        "end": "0951",
+        "land": "0951",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JONES",
+            "first": "",
+            "full": "JONES"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "JONES"
+        ],
+        "page": 2,
+        "line": "919",
+        "raw": "919 \u00b7 0700 \u00b7 0845 \u00b7 0951 \u00b7 LTJG JONES \u00b7 TAC44S1 \u00b7 1.1 \u00b7 O/I",
+        "role": "TAC44S1",
+        "remarks": "O/I",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4502",
+        "start": "1015",
+        "end": "1127",
+        "land": "1127",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PLUMLEY",
+            "first": "",
+            "full": "PLUMLEY"
+          },
+          {
+            "last": "EHRET",
+            "first": "",
+            "full": "EHRET"
+          }
+        ],
+        "instructors": [
+          "PLUMLEY"
+        ],
+        "students": [
+          "EHRET"
+        ],
+        "page": 2,
+        "line": "936",
+        "raw": "936 \u00b7 0830 \u00b7 1015 \u00b7 1127 \u00b7 Capt PLUMLEY \u00b7 LTJG EHRET \u00b7 TR4502 \u00b7 1.2",
+        "role": "TR4502",
+        "remarks": "",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4402",
+        "start": "1015",
+        "end": "1127",
+        "land": "1127",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SCHEURER",
+            "first": "",
+            "full": "SCHEURER"
+          },
+          {
+            "last": "RODRIGUEZ",
+            "first": "",
+            "full": "RODRIGUEZ"
+          }
+        ],
+        "instructors": [
+          "SCHEURER"
+        ],
+        "students": [
+          "RODRIGUEZ"
+        ],
+        "page": 2,
+        "line": "937",
+        "raw": "937 \u00b7 0830 \u00b7 1015 \u00b7 1127 \u00b7 1stLt SCHEURER \u00b7 LTJG RODRIGUEZ \u00b7 TR4402 \u00b7 1.2",
+        "role": "TR4402",
+        "remarks": "",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC LEAD",
+        "start": "1045",
+        "end": "1157",
+        "land": "1157",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KOCH",
+            "first": "",
+            "full": "KOCH"
+          }
+        ],
+        "instructors": [
+          "KOCH"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "942",
+        "raw": "942 \u00b7 0900 \u00b7 1045 \u00b7 1157 \u00b7 Capt KOCH \u00b7 TAC LEAD \u00b7 1.2",
+        "role": "TAC LEAD",
+        "remarks": "",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC44S2",
+        "start": "1045",
+        "end": "1151",
+        "land": "1151",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BRAVO",
+            "first": "",
+            "full": "BRAVO"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "BRAVO"
+        ],
+        "page": 2,
+        "line": "943",
+        "raw": "943 \u00b7 0900 \u00b7 1045 \u00b7 1151 \u00b7 LTJG BRAVO \u00b7 TAC44S2 \u00b7 1.1",
+        "role": "TAC44S2",
+        "remarks": "",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4501",
+        "start": "1045",
+        "end": "1157",
+        "land": "1157",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GOGAN",
+            "first": "",
+            "full": "GOGAN"
+          },
+          {
+            "last": "HARBOUR",
+            "first": "",
+            "full": "HARBOUR"
+          }
+        ],
+        "instructors": [
+          "GOGAN"
+        ],
+        "students": [
+          "HARBOUR"
+        ],
+        "page": 2,
+        "line": "944",
+        "raw": "944 \u00b7 0900 \u00b7 1045 \u00b7 1157 \u00b7 CIV GOGAN \u00b7 LTJG HARBOUR \u00b7 TR4501 \u00b7 1.2",
+        "role": "TR4501",
+        "remarks": "",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4501",
+        "start": "1045",
+        "end": "1157",
+        "land": "1157",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FINCH",
+            "first": "",
+            "full": "FINCH"
+          },
+          {
+            "last": "PEREZ ALVAREZ",
+            "first": "",
+            "full": "PEREZ ALVAREZ"
+          }
+        ],
+        "instructors": [
+          "FINCH"
+        ],
+        "students": [
+          "PEREZ ALVAREZ"
+        ],
+        "page": 2,
+        "line": "945",
+        "raw": "945 \u00b7 0900 \u00b7 1045 \u00b7 1157 \u00b7 CIV FINCH \u00b7 LTJG PEREZ ALVAREZ \u00b7 TR4501 \u00b7 1.2",
+        "role": "TR4501",
+        "remarks": "",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4690",
+        "start": "1045",
+        "end": "1157",
+        "land": "1157",
+        "brief": "0915",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LEPICK",
+            "first": "",
+            "full": "LEPICK"
+          },
+          {
+            "last": "CROWELL",
+            "first": "",
+            "full": "CROWELL"
+          }
+        ],
+        "instructors": [
+          "LEPICK"
+        ],
+        "students": [
+          "CROWELL"
+        ],
+        "page": 2,
+        "line": "946",
+        "raw": "946 \u00b7 0915 \u00b7 1045 \u00b7 1157 \u00b7 Capt LEPICK \u00b7 LCDR CROWELL \u00b7 NA4690 \u00b7 1.2 \u00b7 FITU",
+        "role": "NA4690",
+        "remarks": "FITU",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC LEAD",
+        "start": "1115",
+        "end": "1227",
+        "land": "1227",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WATT",
+            "first": "",
+            "full": "WATT"
+          }
+        ],
+        "instructors": [
+          "WATT"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "949",
+        "raw": "949 \u00b7 0930 \u00b7 1115 \u00b7 1227 \u00b7 Maj WATT \u00b7 TAC LEAD \u00b7 1.2 \u00b7 O/I",
+        "role": "TAC LEAD",
+        "remarks": "O/I",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC44S1",
+        "start": "1115",
+        "end": "1221",
+        "land": "1221",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MEDINA",
+            "first": "",
+            "full": "MEDINA"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MEDINA"
+        ],
+        "page": 2,
+        "line": "950",
+        "raw": "950 \u00b7 0930 \u00b7 1115 \u00b7 1221 \u00b7 LTJG MEDINA \u00b7 TAC44S1 \u00b7 1.1 \u00b7 O/I",
+        "role": "TAC44S1",
+        "remarks": "O/I",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC LEAD",
+        "start": "1115",
+        "end": "1227",
+        "land": "1227",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RINE",
+            "first": "",
+            "full": "RINE"
+          }
+        ],
+        "instructors": [
+          "RINE"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "951",
+        "raw": "951 \u00b7 0930 \u00b7 1115 \u00b7 1227 \u00b7 Maj RINE \u00b7 TAC LEAD \u00b7 1.2 \u00b7 O/I",
+        "role": "TAC LEAD",
+        "remarks": "O/I",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC4301",
+        "start": "1115",
+        "end": "1221",
+        "land": "1221",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHAKER",
+            "first": "",
+            "full": "SHAKER"
+          },
+          {
+            "last": "HARRIS",
+            "first": "",
+            "full": "HARRIS"
+          }
+        ],
+        "instructors": [
+          "SHAKER"
+        ],
+        "students": [
+          "HARRIS"
+        ],
+        "page": 2,
+        "line": "952",
+        "raw": "952 \u00b7 0930 \u00b7 1115 \u00b7 1221 \u00b7 Maj SHAKER \u00b7 LTJG HARRIS \u00b7 TAC4301 \u00b7 1.1 \u00b7 O/I",
+        "role": "TAC4301",
+        "remarks": "O/I",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC LEAD",
+        "start": "1145",
+        "end": "1257",
+        "land": "1257",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GLASGOW",
+            "first": "",
+            "full": "GLASGOW"
+          }
+        ],
+        "instructors": [
+          "GLASGOW"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "954",
+        "raw": "954 \u00b7 1000 \u00b7 1145 \u00b7 1257 \u00b7 LCDR GLASGOW \u00b7 TAC LEAD \u00b7 1.2 \u00b7 RTB",
+        "role": "TAC LEAD",
+        "remarks": "RTB",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC44S2",
+        "start": "1145",
+        "end": "1251",
+        "land": "1251",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JONES",
+            "first": "",
+            "full": "JONES"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "JONES"
+        ],
+        "page": 2,
+        "line": "955",
+        "raw": "955 \u00b7 1000 \u00b7 1145 \u00b7 1251 \u00b7 LTJG JONES \u00b7 TAC44S2 \u00b7 1.1 \u00b7 RTB",
+        "role": "TAC44S2",
+        "remarks": "RTB",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "LSO LOG",
+        "start": "1215",
+        "end": "1245",
+        "land": "1245",
+        "brief": "1030",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GILBERT",
+            "first": "",
+            "full": "GILBERT"
+          },
+          {
+            "last": "MORGAN",
+            "first": "",
+            "full": "MORGAN"
+          }
+        ],
+        "instructors": [
+          "GILBERT"
+        ],
+        "students": [
+          "MORGAN"
+        ],
+        "page": 2,
+        "line": "962",
+        "raw": "962 \u00b7 1030 \u00b7 1215 \u00b7 1245 \u00b7 LT GILBERT \u00b7 LCDR MORGAN \u00b7 LSO LOG \u00b7 0.5 \u00b7 NMM-NJW",
+        "role": "LSO LOG",
+        "remarks": "NMM-NJW",
+        "duration": "0.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S01",
+        "start": "1245",
+        "end": "1321",
+        "land": "1321",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WISEMAN",
+            "first": "",
+            "full": "WISEMAN"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "WISEMAN"
+        ],
+        "page": 2,
+        "line": "966",
+        "raw": "966 \u00b7 1100 \u00b7 1245 \u00b7 1321 \u00b7 LTJG WISEMAN \u00b7 CQ4S01 \u00b7 0.6 \u00b7 CS/HP/HS; NJW; SEE NOTE 8",
+        "role": "CQ4S01",
+        "remarks": "CS/HP/HS; NJW; SEE NOTE 8",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S01",
+        "start": "1245",
+        "end": "1321",
+        "land": "1321",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "COOK",
+            "first": "",
+            "full": "COOK"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "COOK"
+        ],
+        "page": 2,
+        "line": "967",
+        "raw": "967 \u00b7 1100 \u00b7 1245 \u00b7 1321 \u00b7 LTJG COOK \u00b7 CQ4S01 \u00b7 0.6 \u00b7 CS/HP/HS; NJW; SEE NOTE 8",
+        "role": "CQ4S01",
+        "remarks": "CS/HP/HS; NJW; SEE NOTE 8",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S01",
+        "start": "1245",
+        "end": "1321",
+        "land": "1321",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ZUZELSKI",
+            "first": "",
+            "full": "ZUZELSKI"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "ZUZELSKI"
+        ],
+        "page": 2,
+        "line": "968",
+        "raw": "968 \u00b7 1100 \u00b7 1245 \u00b7 1321 \u00b7 1stLt ZUZELSKI \u00b7 CQ4S01 \u00b7 0.6 \u00b7 CS/HP/HS; NJW; SEE NOTE 8",
+        "role": "CQ4S01",
+        "remarks": "CS/HP/HS; NJW; SEE NOTE 8",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S01",
+        "start": "1245",
+        "end": "1321",
+        "land": "1321",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "POFFENBERGER",
+            "first": "",
+            "full": "POFFENBERGER"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "POFFENBERGER"
+        ],
+        "page": 2,
+        "line": "969",
+        "raw": "969 \u00b7 1100 \u00b7 1245 \u00b7 1321 \u00b7 LTJG POFFENBERGER \u00b7 CQ4S01 \u00b7 0.6 \u00b7 CS/HP/HS; NJW; SEE NOTE 8",
+        "role": "CQ4S01",
+        "remarks": "CS/HP/HS; NJW; SEE NOTE 8",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S01",
+        "start": "1245",
+        "end": "1321",
+        "land": "1321",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DROW",
+            "first": "",
+            "full": "DROW"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "DROW"
+        ],
+        "page": 2,
+        "line": "970",
+        "raw": "970 \u00b7 1100 \u00b7 1245 \u00b7 1321 \u00b7 LTJG DROW \u00b7 CQ4S01 \u00b7 0.6 \u00b7 CS/HP/HS; NJW; SEE NOTE 8",
+        "role": "CQ4S01",
+        "remarks": "CS/HP/HS; NJW; SEE NOTE 8",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S01",
+        "start": "1245",
+        "end": "1321",
+        "land": "1321",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MASON",
+            "first": "",
+            "full": "MASON"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MASON"
+        ],
+        "page": 2,
+        "line": "971",
+        "raw": "971 \u00b7 1100 \u00b7 1245 \u00b7 1321 \u00b7 LTJG MASON \u00b7 CQ4S01 \u00b7 0.6 \u00b7 CS/HP/HS; NJW; SEE NOTE 8",
+        "role": "CQ4S01",
+        "remarks": "CS/HP/HS; NJW; SEE NOTE 8",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S01",
+        "start": "1315",
+        "end": "1351",
+        "land": "1351",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MUCARIA",
+            "first": "",
+            "full": "MUCARIA"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MUCARIA"
+        ],
+        "page": 2,
+        "line": "972",
+        "raw": "972 \u00b7 1130 \u00b7 1315 \u00b7 1351 \u00b7 Capt MUCARIA \u00b7 CQ4S01 \u00b7 0.6 \u00b7 CS/SD-NMM; NJW; SEE NOTE 8",
+        "role": "CQ4S01",
+        "remarks": "CS/SD-NMM; NJW; SEE NOTE 8",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S01",
+        "start": "1315",
+        "end": "1351",
+        "land": "1351",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FREISCHLAG",
+            "first": "",
+            "full": "FREISCHLAG"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "FREISCHLAG"
+        ],
+        "page": 2,
+        "line": "973",
+        "raw": "973 \u00b7 1130 \u00b7 1315 \u00b7 1351 \u00b7 LT FREISCHLAG \u00b7 CQ4S01 \u00b7 0.6 \u00b7 CS/SD-NMM; NJW; SEE NOTE 8",
+        "role": "CQ4S01",
+        "remarks": "CS/SD-NMM; NJW; SEE NOTE 8",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S01",
+        "start": "1315",
+        "end": "1351",
+        "land": "1351",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WILLIAMS",
+            "first": "",
+            "full": "WILLIAMS"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "WILLIAMS"
+        ],
+        "page": 2,
+        "line": "974",
+        "raw": "974 \u00b7 1130 \u00b7 1315 \u00b7 1351 \u00b7 LTJG WILLIAMS \u00b7 CQ4S01 \u00b7 0.6 \u00b7 CS/SD-NMM; NJW; SEE NOTE 8",
+        "role": "CQ4S01",
+        "remarks": "CS/SD-NMM; NJW; SEE NOTE 8",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S01",
+        "start": "1315",
+        "end": "1351",
+        "land": "1351",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SAUNDERS",
+            "first": "",
+            "full": "SAUNDERS"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "SAUNDERS"
+        ],
+        "page": 2,
+        "line": "975",
+        "raw": "975 \u00b7 1130 \u00b7 1315 \u00b7 1351 \u00b7 1stLt SAUNDERS \u00b7 CQ4S01 \u00b7 0.6 \u00b7 CS/SD-NMM; NJW; SEE NOTE 8",
+        "role": "CQ4S01",
+        "remarks": "CS/SD-NMM; NJW; SEE NOTE 8",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S01",
+        "start": "1315",
+        "end": "1351",
+        "land": "1351",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GREGOR",
+            "first": "",
+            "full": "GREGOR"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "GREGOR"
+        ],
+        "page": 2,
+        "line": "976",
+        "raw": "976 \u00b7 1130 \u00b7 1315 \u00b7 1351 \u00b7 LTJG GREGOR \u00b7 CQ4S01 \u00b7 0.6 \u00b7 CS/SD-NMM; NJW; SEE NOTE 8",
+        "role": "CQ4S01",
+        "remarks": "CS/SD-NMM; NJW; SEE NOTE 8",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S01",
+        "start": "1315",
+        "end": "1351",
+        "land": "1351",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DATTOMO",
+            "first": "",
+            "full": "DATTOMO"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "DATTOMO"
+        ],
+        "page": 2,
+        "line": "977",
+        "raw": "977 \u00b7 1130 \u00b7 1315 \u00b7 1351 \u00b7 LTJG DATTOMO \u00b7 CQ4S01 \u00b7 0.6 \u00b7 CS/SD-NMM; NJW; SEE NOTE 8",
+        "role": "CQ4S01",
+        "remarks": "CS/SD-NMM; NJW; SEE NOTE 8",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC LEAD",
+        "start": "1415",
+        "end": "1527",
+        "land": "1527",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WATT",
+            "first": "",
+            "full": "WATT"
+          }
+        ],
+        "instructors": [
+          "WATT"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "984",
+        "raw": "984 \u00b7 1230 \u00b7 1415 \u00b7 1527 \u00b7 Maj WATT \u00b7 TAC LEAD \u00b7 1.2 \u00b7 RTB",
+        "role": "TAC LEAD",
+        "remarks": "RTB",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC44S2",
+        "start": "1415",
+        "end": "1521",
+        "land": "1521",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MEDINA",
+            "first": "",
+            "full": "MEDINA"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MEDINA"
+        ],
+        "page": 2,
+        "line": "985",
+        "raw": "985 \u00b7 1230 \u00b7 1415 \u00b7 1521 \u00b7 LTJG MEDINA \u00b7 TAC44S2 \u00b7 1.1 \u00b7 RTB",
+        "role": "TAC44S2",
+        "remarks": "RTB",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC LEAD",
+        "start": "1415",
+        "end": "1527",
+        "land": "1527",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHAKER",
+            "first": "",
+            "full": "SHAKER"
+          }
+        ],
+        "instructors": [
+          "SHAKER"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "986",
+        "raw": "986 \u00b7 1230 \u00b7 1415 \u00b7 1527 \u00b7 CIV SHAKER \u00b7 TAC LEAD \u00b7 1.2 \u00b7 RTB",
+        "role": "TAC LEAD",
+        "remarks": "RTB",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC4302",
+        "start": "1415",
+        "end": "1521",
+        "land": "1521",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RINE",
+            "first": "",
+            "full": "RINE"
+          },
+          {
+            "last": "HARRIS",
+            "first": "",
+            "full": "HARRIS"
+          }
+        ],
+        "instructors": [
+          "RINE"
+        ],
+        "students": [
+          "HARRIS"
+        ],
+        "page": 2,
+        "line": "987",
+        "raw": "987 \u00b7 1230 \u00b7 1415 \u00b7 1521 \u00b7 Maj RINE \u00b7 LTJG HARRIS \u00b7 TAC4302 \u00b7 1.1 \u00b7 RTB",
+        "role": "TAC4302",
+        "remarks": "RTB",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FCL4201",
+        "start": "1415",
+        "end": "1451",
+        "land": "1451",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "VOHDEN",
+            "first": "",
+            "full": "VOHDEN"
+          },
+          {
+            "last": "PECHON",
+            "first": "",
+            "full": "PECHON"
+          }
+        ],
+        "instructors": [
+          "VOHDEN"
+        ],
+        "students": [
+          "PECHON"
+        ],
+        "page": 2,
+        "line": "988",
+        "raw": "988 \u00b7 1230 \u00b7 1415 \u00b7 1451 \u00b7 LCDR VOHDEN \u00b7 Capt PECHON \u00b7 FCL4201 \u00b7 0.6 \u00b7 CS/SD; NMM, FITU",
+        "role": "FCL4201",
+        "remarks": "CS/SD; NMM, FITU",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4503",
+        "start": "1445",
+        "end": "1557",
+        "land": "1557",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIMONS",
+            "first": "",
+            "full": "SIMONS"
+          },
+          {
+            "last": "BOTKUS",
+            "first": "",
+            "full": "BOTKUS"
+          }
+        ],
+        "instructors": [
+          "SIMONS"
+        ],
+        "students": [
+          "BOTKUS"
+        ],
+        "page": 2,
+        "line": "990",
+        "raw": "990 \u00b7 1300 \u00b7 1445 \u00b7 1557 \u00b7 LCDR SIMONS \u00b7 LTJG BOTKUS \u00b7 TR4503 \u00b7 1.2",
+        "role": "TR4503",
+        "remarks": "",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4102",
+        "start": "1515",
+        "end": "1645",
+        "land": "1645",
+        "brief": "1345",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RIGGS",
+            "first": "",
+            "full": "RIGGS"
+          },
+          {
+            "last": "CROWELL",
+            "first": "",
+            "full": "CROWELL"
+          }
+        ],
+        "instructors": [
+          "RIGGS"
+        ],
+        "students": [
+          "CROWELL"
+        ],
+        "page": 2,
+        "line": "996",
+        "raw": "996 \u00b7 1345 \u00b7 1515 \u00b7 1645 \u00b7 CDR RIGGS \u00b7 LCDR CROWELL \u00b7 IR4102 \u00b7 1.5 \u00b7 FITU",
+        "role": "IR4102",
+        "remarks": "FITU",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "LSO LOG",
+        "start": "1515",
+        "end": "1545",
+        "land": "1545",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORGAN",
+            "first": "",
+            "full": "MORGAN"
+          },
+          {
+            "last": "GILBERT",
+            "first": "",
+            "full": "GILBERT"
+          }
+        ],
+        "instructors": [
+          "MORGAN"
+        ],
+        "students": [
+          "GILBERT"
+        ],
+        "page": 2,
+        "line": "997",
+        "raw": "997 \u00b7 1330 \u00b7 1515 \u00b7 1545 \u00b7 LCDR MORGAN \u00b7 LT GILBERT \u00b7 LSO LOG \u00b7 0.5 \u00b7 NJW-NMM",
+        "role": "LSO LOG",
+        "remarks": "NJW-NMM",
+        "duration": "0.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4502",
+        "start": "1515",
+        "end": "1627",
+        "land": "1627",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "AUGUSTINE",
+            "first": "",
+            "full": "AUGUSTINE"
+          },
+          {
+            "last": "CARLSON",
+            "first": "",
+            "full": "CARLSON"
+          }
+        ],
+        "instructors": [
+          "AUGUSTINE"
+        ],
+        "students": [
+          "CARLSON"
+        ],
+        "page": 2,
+        "line": "998",
+        "raw": "998 \u00b7 1330 \u00b7 1515 \u00b7 1627 \u00b7 LtCol AUGUSTINE \u00b7 LTJG CARLSON \u00b7 TR4502 \u00b7 1.2",
+        "role": "TR4502",
+        "remarks": "",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4501",
+        "start": "1515",
+        "end": "1627",
+        "land": "1627",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KOCH SIMULATOR",
+            "first": "",
+            "full": "KOCH SIMULATOR"
+          }
+        ],
+        "instructors": [
+          "KOCH SIMULATOR"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "999",
+        "raw": "999 \u00b7 1330 \u00b7 1515 \u00b7 1627 \u00b7 Capt KOCH Simulator \u00b7 LTJG MEEUWSEN (Sim Event) Schedule \u00b7 TR4501 \u00b7 1.2",
+        "role": "TR4501",
+        "remarks": "",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR3202",
+        "start": "0900",
+        "end": "",
+        "land": "",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "USREY",
+            "first": "",
+            "full": "USREY"
+          }
+        ],
+        "instructors": [
+          "USREY"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0830 \u00b7 0900 \u00b7 812 \u00b7 CIV USREY LTJG \u00b7 FLAHERTY \u00b7 TR3202",
+        "role": "TR3202",
+        "remarks": "",
+        "duration": "",
+        "device": "812",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR3205",
+        "start": "0930",
+        "end": "",
+        "land": "",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "POLSON",
+            "first": "",
+            "full": "POLSON"
+          }
+        ],
+        "instructors": [
+          "POLSON"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0900 \u00b7 0930 \u00b7 808 \u00b7 CIV POLSON 1stLt \u00b7 TAFOYA \u00b7 TR3205",
+        "role": "TR3205",
+        "remarks": "",
+        "duration": "",
+        "device": "808",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR3202",
+        "start": "1030",
+        "end": "",
+        "land": "",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SANDERS",
+            "first": "",
+            "full": "SANDERS"
+          }
+        ],
+        "instructors": [
+          "SANDERS"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "1000 \u00b7 1030 \u00b7 811 \u00b7 CIV SANDERS LTJG \u00b7 AITKEN \u00b7 TR3202",
+        "role": "TR3202",
+        "remarks": "",
+        "duration": "",
+        "device": "811",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR3203",
+        "start": "1300",
+        "end": "",
+        "land": "",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CARRIER",
+            "first": "",
+            "full": "CARRIER"
+          }
+        ],
+        "instructors": [
+          "CARRIER"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "1230 \u00b7 1300 \u00b7 810 \u00b7 CIV CARRIER LTJG \u00b7 FLAHERTY \u00b7 TR3203",
+        "role": "TR3203",
+        "remarks": "",
+        "duration": "",
+        "device": "810",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR3206",
+        "start": "1330",
+        "end": "",
+        "land": "",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TAYLOR",
+            "first": "",
+            "full": "TAYLOR"
+          }
+        ],
+        "instructors": [
+          "TAYLOR"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "1300 \u00b7 1330 \u00b7 812 \u00b7 CIV TAYLOR 1stLt \u00b7 TAFOYA \u00b7 TR3206",
+        "role": "TR3206",
+        "remarks": "",
+        "duration": "",
+        "device": "812",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR3203",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DOWDELL",
+            "first": "",
+            "full": "DOWDELL"
+          }
+        ],
+        "instructors": [
+          "DOWDELL"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1330 \u00b7 1400 \u00b7 808 \u00b7 CIV DOWDELL LTJG \u00b7 AITKEN \u00b7 TR3203",
+        "role": "TR3203",
+        "remarks": "",
+        "duration": "",
+        "device": "808",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "OCF3101",
+        "start": "1500",
+        "end": "",
+        "land": "",
+        "brief": "1430",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ROMAN",
+            "first": "",
+            "full": "ROMAN"
+          }
+        ],
+        "instructors": [
+          "ROMAN"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1430 \u00b7 1500 \u00b7 812 \u00b7 CIV ROMAN CDR \u00b7 KENNEDY \u00b7 OCF3101 \u00b7 FITU",
+        "role": "OCF3101",
+        "remarks": "FITU",
+        "duration": "",
+        "device": "812",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "CQ3101",
+        "start": "1530",
+        "end": "",
+        "land": "",
+        "brief": "1500",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WEBSTER",
+            "first": "",
+            "full": "WEBSTER"
+          }
+        ],
+        "instructors": [
+          "WEBSTER"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1500 \u00b7 1530 \u00b7 807 \u00b7 CIV WEBSTER LTJG \u00b7 COOK \u00b7 CQ3101",
+        "role": "CQ3101",
+        "remarks": "",
+        "duration": "",
+        "device": "807",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "CQ3101",
+        "start": "1530",
+        "end": "",
+        "land": "",
+        "brief": "1500",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CARRIER",
+            "first": "",
+            "full": "CARRIER"
+          }
+        ],
+        "instructors": [
+          "CARRIER"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1500 \u00b7 1530 \u00b7 808 \u00b7 CIV CARRIER LTJG \u00b7 WISEMAN \u00b7 CQ3101",
+        "role": "CQ3101",
+        "remarks": "",
+        "duration": "",
+        "device": "808",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "CQ3101",
+        "start": "1600",
+        "end": "",
+        "land": "",
+        "brief": "1530",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TAYLOR",
+            "first": "",
+            "full": "TAYLOR"
+          }
+        ],
+        "instructors": [
+          "TAYLOR"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1530 \u00b7 1600 \u00b7 810 \u00b7 CIV TAYLOR LTJG \u00b7 WILLIAMS \u00b7 CQ3101",
+        "role": "CQ3101",
+        "remarks": "",
+        "duration": "",
+        "device": "810",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "CQ3101",
+        "start": "1630",
+        "end": "",
+        "land": "",
+        "brief": "1600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KNIGHT",
+            "first": "",
+            "full": "KNIGHT"
+          }
+        ],
+        "instructors": [
+          "KNIGHT"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1600 \u00b7 1630 \u00b7 812 \u00b7 CIV KNIGHT 1stLt \u00b7 SAUNDERS \u00b7 CQ3101",
+        "role": "CQ3101",
+        "remarks": "",
+        "duration": "",
+        "device": "812",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "CQ3101",
+        "start": "1700",
+        "end": "",
+        "land": "",
+        "brief": "1630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DOHERTY",
+            "first": "",
+            "full": "DOHERTY"
+          }
+        ],
+        "instructors": [
+          "DOHERTY"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1630 \u00b7 1700 \u00b7 808 \u00b7 CIV DOHERTY LTJG \u00b7 GREGOR \u00b7 CQ3101",
+        "role": "CQ3101",
+        "remarks": "",
+        "duration": "",
+        "device": "808",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "CQ3101",
+        "start": "1730",
+        "end": "",
+        "land": "",
+        "brief": "1700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ROMAN",
+            "first": "",
+            "full": "ROMAN"
+          }
+        ],
+        "instructors": [
+          "ROMAN"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1700 \u00b7 1730 \u00b7 810 \u00b7 CIV ROMAN LTJG \u00b7 DATTOMO \u00b7 CQ3101",
+        "role": "CQ3101",
+        "remarks": "",
+        "duration": "",
+        "device": "810",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "CQ3101",
+        "start": "1930",
+        "end": "",
+        "land": "",
+        "brief": "1900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DOHERTY",
+            "first": "",
+            "full": "DOHERTY"
+          }
+        ],
+        "instructors": [
+          "DOHERTY"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1900 \u00b7 1930 \u00b7 812 \u00b7 CIV DOHERTY Capt \u00b7 MUCARIA \u00b7 CQ3101",
+        "role": "CQ3101",
+        "remarks": "",
+        "duration": "",
+        "device": "812",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FCL3101",
+        "start": "2000",
+        "end": "",
+        "land": "",
+        "brief": "1930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ROMAN",
+            "first": "",
+            "full": "ROMAN"
+          }
+        ],
+        "instructors": [
+          "ROMAN"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1930 \u00b7 2000 \u00b7 808 \u00b7 CIV ROMAN LTJG \u00b7 BITTING Ground Events \u00b7 FCL3101",
+        "role": "FCL3101",
+        "remarks": "",
+        "duration": "",
+        "device": "808",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "FCL1103",
+        "start": "1800",
+        "end": "1900",
+        "land": "1900",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BITTING",
+            "first": "",
+            "full": "BITTING"
+          },
+          {
+            "last": "BRAVO",
+            "first": "",
+            "full": "BRAVO"
+          },
+          {
+            "last": "EUL",
+            "first": "",
+            "full": "EUL"
+          },
+          {
+            "last": "HARRIS",
+            "first": "",
+            "full": "HARRIS"
+          },
+          {
+            "last": "JONES",
+            "first": "",
+            "full": "JONES"
+          },
+          {
+            "last": "MEDINA",
+            "first": "",
+            "full": "MEDINA"
+          },
+          {
+            "last": "TATUM",
+            "first": "",
+            "full": "TATUM"
+          },
+          {
+            "last": "VOHDEN",
+            "first": "",
+            "full": "VOHDEN"
+          }
+        ],
+        "instructors": [
+          "VOHDEN"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1800-1900 \u00b7 FCL1103 \u00b7 VT-9 LSO SHACK \u00b7 LTJG BITTING, LTJG BRAVO, 1stLt EUL, LTJG HARRIS, LTJG JONES, LTJG MEDINA, 1stLt TATUM \u00b7 LCDR VOHDEN",
+        "role": "FCL1103",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "FAM1101",
+        "start": "1000",
+        "end": "1100",
+        "land": "1100",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JONES",
+            "first": "",
+            "full": "JONES"
+          },
+          {
+            "last": "MILLER",
+            "first": "",
+            "full": "MILLER"
+          },
+          {
+            "last": "PENAFIEL",
+            "first": "",
+            "full": "PENAFIEL"
+          },
+          {
+            "last": "PONDER",
+            "first": "",
+            "full": "PONDER"
+          },
+          {
+            "last": "STONER",
+            "first": "",
+            "full": "STONER"
+          },
+          {
+            "last": "MULHALL",
+            "first": "",
+            "full": "MULHALL"
+          },
+          {
+            "last": "WISLER",
+            "first": "",
+            "full": "WISLER"
+          },
+          {
+            "last": "RAUENHORST",
+            "first": "",
+            "full": "RAUENHORST"
+          }
+        ],
+        "instructors": [
+          "RAUENHORST"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1000-1100 \u00b7 FAM1101 \u00b7 207E LECTURE RM \u00b7 1stLt JONES, ENS MILLER, LTJG PENAFIEL, ENS PONDER, 1stLt STONER, LTJG MULHALL, LTJG WISLER \u00b7 CIV RAUENHORST",
+        "role": "FAM1101",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "FAM1102",
+        "start": "1100",
+        "end": "1200",
+        "land": "1200",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JONES",
+            "first": "",
+            "full": "JONES"
+          },
+          {
+            "last": "MILLER",
+            "first": "",
+            "full": "MILLER"
+          },
+          {
+            "last": "MULHALL",
+            "first": "",
+            "full": "MULHALL"
+          },
+          {
+            "last": "PENAFIEL",
+            "first": "",
+            "full": "PENAFIEL"
+          },
+          {
+            "last": "PONDER",
+            "first": "",
+            "full": "PONDER"
+          },
+          {
+            "last": "STONER",
+            "first": "",
+            "full": "STONER"
+          },
+          {
+            "last": "WISLER",
+            "first": "",
+            "full": "WISLER"
+          },
+          {
+            "last": "RAUENHORST",
+            "first": "",
+            "full": "RAUENHORST"
+          }
+        ],
+        "instructors": [
+          "RAUENHORST"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1100-1200 \u00b7 FAM1102 \u00b7 207E LECTURE RM \u00b7 1stLt JONES, ENS MILLER, LTJG MULHALL, LTJG PENAFIEL, ENS PONDER, 1stLt STONER, LTJG WISLER \u00b7 CIV RAUENHORST",
+        "role": "FAM1102",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "FAM1103",
+        "start": "1200",
+        "end": "1300",
+        "land": "1300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JONES",
+            "first": "",
+            "full": "JONES"
+          },
+          {
+            "last": "MILLER",
+            "first": "",
+            "full": "MILLER"
+          },
+          {
+            "last": "MULHALL",
+            "first": "",
+            "full": "MULHALL"
+          },
+          {
+            "last": "PENAFIEL",
+            "first": "",
+            "full": "PENAFIEL"
+          },
+          {
+            "last": "PONDER",
+            "first": "",
+            "full": "PONDER"
+          },
+          {
+            "last": "STONER",
+            "first": "",
+            "full": "STONER"
+          },
+          {
+            "last": "WISLER",
+            "first": "",
+            "full": "WISLER"
+          },
+          {
+            "last": "RAUENHORST",
+            "first": "",
+            "full": "RAUENHORST"
+          }
+        ],
+        "instructors": [
+          "RAUENHORST"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1200-1300 \u00b7 FAM1103 \u00b7 207E LECTURE RM \u00b7 1stLt JONES, ENS MILLER, LTJG MULHALL, LTJG PENAFIEL, ENS PONDER, 1stLt STONER, LTJG WISLER \u00b7 CIV RAUENHORST",
+        "role": "FAM1103",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "FCL1101",
+        "start": "1630",
+        "end": "1730",
+        "land": "1730",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BITTING",
+            "first": "",
+            "full": "BITTING"
+          },
+          {
+            "last": "BRAVO",
+            "first": "",
+            "full": "BRAVO"
+          },
+          {
+            "last": "EUL",
+            "first": "",
+            "full": "EUL"
+          },
+          {
+            "last": "HARRIS",
+            "first": "",
+            "full": "HARRIS"
+          },
+          {
+            "last": "JONES",
+            "first": "",
+            "full": "JONES"
+          },
+          {
+            "last": "MEDINA",
+            "first": "",
+            "full": "MEDINA"
+          },
+          {
+            "last": "TATUM",
+            "first": "",
+            "full": "TATUM"
+          },
+          {
+            "last": "VOHDEN",
+            "first": "",
+            "full": "VOHDEN"
+          }
+        ],
+        "instructors": [
+          "VOHDEN"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1630-1730 \u00b7 FCL1101 \u00b7 VT-9 LSO SHACK \u00b7 LTJG BITTING, LTJG BRAVO, 1stLt EUL, LTJG HARRIS, LTJG JONES, LTJG MEDINA, 1stLt TATUM \u00b7 LCDR VOHDEN",
+        "role": "FCL1101",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "FCL1102",
+        "start": "1730",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BITTING",
+            "first": "",
+            "full": "BITTING"
+          },
+          {
+            "last": "BRAVO",
+            "first": "",
+            "full": "BRAVO"
+          },
+          {
+            "last": "EUL",
+            "first": "",
+            "full": "EUL"
+          },
+          {
+            "last": "HARRIS",
+            "first": "",
+            "full": "HARRIS"
+          },
+          {
+            "last": "JONES",
+            "first": "",
+            "full": "JONES"
+          },
+          {
+            "last": "MEDINA",
+            "first": "",
+            "full": "MEDINA"
+          },
+          {
+            "last": "TATUM",
+            "first": "",
+            "full": "TATUM"
+          },
+          {
+            "last": "VOHDEN",
+            "first": "",
+            "full": "VOHDEN"
+          }
+        ],
+        "instructors": [
+          "VOHDEN"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1730-1800 \u00b7 FCL1102 \u00b7 VT-9 LSO SHACK \u00b7 LTJG BITTING, LTJG BRAVO, 1stLt EUL, LTJG HARRIS, LTJG JONES, LTJG MEDINA, 1stLt TATUM \u00b7 LCDR VOHDEN",
+        "role": "FCL1102",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

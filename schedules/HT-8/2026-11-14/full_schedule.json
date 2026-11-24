@@ -482,5 +482,460 @@
       "line_number": 25,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "FDO",
+        "start": "0700",
+        "end": "0659",
+        "land": "0659",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ASTORGA",
+            "first": "B",
+            "full": "ASTORGA, B"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "FDO \u00b7 LT ASTORGA B \u00b7 0700 \u00b7 0659",
+        "role": "FDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER",
+        "start": "0730",
+        "end": "0729",
+        "land": "0729",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "QUISPE",
+            "first": "M",
+            "full": "QUISPE, M"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER \u00b7 1stLt QUISPE M \u00b7 0730 \u00b7 0729",
+        "role": "DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM SDO",
+        "start": "0700",
+        "end": "1900",
+        "land": "1900",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAHONEY",
+            "first": "T",
+            "full": "MAHONEY, T"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM SDO \u00b7 ENS MAHONEY T \u00b7 0700 \u00b7 1900",
+        "role": "AM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM SDO",
+        "start": "1900",
+        "end": "0700",
+        "land": "0700",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GRAVES",
+            "first": "H",
+            "full": "GRAVES, H"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM SDO \u00b7 1stLt GRAVES H \u00b7 1900 \u00b7 0700",
+        "role": "PM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY2002A",
+        "start": "0730",
+        "end": "",
+        "land": "",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MURRAY",
+            "first": "M",
+            "full": "MURRAY, M"
+          },
+          {
+            "last": "DUELL",
+            "first": "C",
+            "full": "DUELL, C"
+          }
+        ],
+        "instructors": [
+          "MURRAY, M"
+        ],
+        "students": [
+          "DUELL, C"
+        ],
+        "page": 2,
+        "line": "L7U3-2",
+        "raw": "L7U3-2 \u00b7 0700 \u00b7 0730 \u00b7 L7U3 \u00b7 CIV MURRAY M \u00b7 1stLt DUELL C \u00b7 DAY2002A \u00b7 1.5",
+        "role": "DAY2002A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U3",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY2002A",
+        "start": "0730",
+        "end": "",
+        "land": "",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KEYS",
+            "first": "R",
+            "full": "KEYS, R"
+          },
+          {
+            "last": "MATTEI",
+            "first": "M",
+            "full": "MATTEI, M"
+          }
+        ],
+        "instructors": [
+          "KEYS, R"
+        ],
+        "students": [
+          "MATTEI, M"
+        ],
+        "page": 2,
+        "line": "L7U5-2",
+        "raw": "L7U5-2 \u00b7 0700 \u00b7 0730 \u00b7 L7U5 \u00b7 CIV KEYS R \u00b7 2ndLt MATTEI M \u00b7 DAY2002A \u00b7 1.5",
+        "role": "DAY2002A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U5",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY3003A",
+        "start": "0900",
+        "end": "",
+        "land": "",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JOHNSTONE",
+            "first": "J",
+            "full": "JOHNSTONE, J"
+          },
+          {
+            "last": "REES",
+            "first": "B",
+            "full": "REES, B"
+          }
+        ],
+        "instructors": [
+          "JOHNSTONE, J"
+        ],
+        "students": [
+          "REES, B"
+        ],
+        "page": 2,
+        "line": "L7U6-3",
+        "raw": "L7U6-3 \u00b7 0830 \u00b7 0900 \u00b7 L7U6 \u00b7 CIV JOHNSTONE J \u00b7 1stLt REES B \u00b7 DAY3003A \u00b7 1.5",
+        "role": "DAY3003A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U6",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY3003A",
+        "start": "0900",
+        "end": "",
+        "land": "",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HASKINS",
+            "first": "P",
+            "full": "HASKINS, P"
+          },
+          {
+            "last": "KLEISER",
+            "first": "H",
+            "full": "KLEISER, H"
+          }
+        ],
+        "instructors": [
+          "HASKINS, P"
+        ],
+        "students": [
+          "KLEISER, H"
+        ],
+        "page": 2,
+        "line": "L7U2-3",
+        "raw": "L7U2-3 \u00b7 0830 \u00b7 0900 \u00b7 L7U2 \u00b7 CIV HASKINS P \u00b7 ENS KLEISER H \u00b7 DAY3003A \u00b7 1.5",
+        "role": "DAY3003A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U2",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SAR3001R",
+        "start": "1030",
+        "end": "",
+        "land": "",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ARMSTRONG",
+            "first": "W",
+            "full": "ARMSTRONG, W"
+          },
+          {
+            "last": "WONG",
+            "first": "K",
+            "full": "WONG, K"
+          }
+        ],
+        "instructors": [
+          "ARMSTRONG, W"
+        ],
+        "students": [
+          "WONG, K"
+        ],
+        "page": 2,
+        "line": "L7U1-4",
+        "raw": "L7U1-4 \u00b7 1000 \u00b7 1030 \u00b7 L7U1 \u00b7 CIV ARMSTRONG W \u00b7 LTJG WONG K \u00b7 SAR3001R \u00b7 1.5",
+        "role": "SAR3001R",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U1",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SAR3001A",
+        "start": "1030",
+        "end": "",
+        "land": "",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "COUREY",
+            "first": "J",
+            "full": "COUREY, J"
+          },
+          {
+            "last": "HARDY",
+            "first": "R",
+            "full": "HARDY, R"
+          }
+        ],
+        "instructors": [
+          "COUREY, J"
+        ],
+        "students": [
+          "HARDY, R"
+        ],
+        "page": 2,
+        "line": "L7U6-4",
+        "raw": "L7U6-4 \u00b7 1000 \u00b7 1030 \u00b7 L7U6 \u00b7 CIV COUREY J \u00b7 LTJG HARDY R \u00b7 SAR3001A \u00b7 1.5",
+        "role": "SAR3001A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U6",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY2001T",
+        "start": "1200",
+        "end": "",
+        "land": "",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JOHNSTONE",
+            "first": "J",
+            "full": "JOHNSTONE, J"
+          },
+          {
+            "last": "ROBERTSON",
+            "first": "J",
+            "full": "ROBERTSON, J"
+          }
+        ],
+        "instructors": [
+          "JOHNSTONE, J"
+        ],
+        "students": [
+          "ROBERTSON, J"
+        ],
+        "page": 2,
+        "line": "L6U5-5",
+        "raw": "L6U5-5 \u00b7 1130 \u00b7 1200 \u00b7 L6U5 \u00b7 CIV JOHNSTONE J \u00b7 2ndLt ROBERTSON J \u00b7 DAY2001T \u00b7 1.5",
+        "role": "DAY2001T",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L6U5",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "LND3001A (86(WU))",
+        "start": "1330",
+        "end": "",
+        "land": "",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ARMSTRONG",
+            "first": "W",
+            "full": "ARMSTRONG, W"
+          },
+          {
+            "last": "SEARS",
+            "first": "J",
+            "full": "SEARS, J"
+          }
+        ],
+        "instructors": [
+          "ARMSTRONG, W"
+        ],
+        "students": [
+          "SEARS, J"
+        ],
+        "page": 2,
+        "line": "L7U2-6",
+        "raw": "L7U2-6 \u00b7 1300 \u00b7 1330 \u00b7 L7U2 \u00b7 CIV ARMSTRONG W \u00b7 LTJG SEARS J \u00b7 LND3001A (86(WU)) \u00b7 1.5",
+        "role": "LND3001A (86(WU))",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U2",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "RI3201A",
+        "start": "1330",
+        "end": "",
+        "land": "",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "COUREY",
+            "first": "J",
+            "full": "COUREY, J"
+          },
+          {
+            "last": "MICO",
+            "first": "D",
+            "full": "MICO, D"
+          }
+        ],
+        "instructors": [
+          "COUREY, J"
+        ],
+        "students": [
+          "MICO, D"
+        ],
+        "page": 2,
+        "line": "L6U5-6",
+        "raw": "L6U5-6 \u00b7 1300 \u00b7 1330 \u00b7 L6U5 \u00b7 CIV COUREY J \u00b7 1stLt MICO D \u00b7 RI3201A \u00b7 1.5",
+        "role": "RI3201A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L6U5",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY2001T",
+        "start": "1500",
+        "end": "",
+        "land": "",
+        "brief": "1430",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DIDIER",
+            "first": "D",
+            "full": "DIDIER, D"
+          }
+        ],
+        "instructors": [
+          "DIDIER, D"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "L6U1-7",
+        "raw": "L6U1-7 \u00b7 1430 \u00b7 1500 \u00b7 L6U1 \u00b7 CIV DIDIER D \u00b7 1stLt MARTINEZ MONTES B Ground Events \u00b7 DAY2001T \u00b7 1.5",
+        "role": "DAY2001T",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L6U1",
+        "solo": false
+      }
+    ]
+  }
 }

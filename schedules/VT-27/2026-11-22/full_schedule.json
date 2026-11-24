@@ -370,5 +370,406 @@
       "line_number": 19,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "KNGP AM AODO",
+        "start": "0445",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "URREA",
+            "first": "JORDYN",
+            "full": "URREA, JORDYN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP AM AODO \u00b7 Urrea, Jordyn \u00b7 0445 1400",
+        "role": "KNGP AM AODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "KNGP PM ODO",
+        "start": "1430",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "OLSEN",
+            "first": "WILLIAM",
+            "full": "OLSEN, WILLIAM"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP PM ODO \u00b7 Olsen, William \u00b7 1430 0630",
+        "role": "KNGP PM ODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "KNGP PM AODO",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WRIGHT",
+            "first": "ALISON",
+            "full": "WRIGHT, ALISON"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP PM AODO \u00b7 Wright, Alison \u00b7 1400 2359",
+        "role": "KNGP PM AODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4203",
+        "start": "1100",
+        "end": "1236",
+        "land": "1236",
+        "brief": "0915",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MANDARINO",
+            "first": "KAHSE",
+            "full": "MANDARINO, KAHSE"
+          },
+          {
+            "last": "FITZGERALD",
+            "first": "PATRICK",
+            "full": "FITZGERALD, PATRICK"
+          }
+        ],
+        "instructors": [
+          "MANDARINO, KAHSE"
+        ],
+        "students": [
+          "FITZGERALD, PATRICK"
+        ],
+        "page": 2,
+        "line": "A01 (V27) 2",
+        "raw": "A01 (V27) 2 \u00b7 0915 \u00b7 1100 \u00b7 1236 \u00b7 Mandarino, Kahse \u00b7 Fitzgerald, Patrick \u00b7 I4203 \u00b7 1.6/0.0 \u00b7 CCX // KELP",
+        "role": "I4203",
+        "remarks": "CCX // KELP",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4203",
+        "start": "1106",
+        "end": "1242",
+        "land": "1242",
+        "brief": "0921",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TURPIN",
+            "first": "MITCHELL",
+            "full": "TURPIN, MITCHELL"
+          },
+          {
+            "last": "WISE",
+            "first": "NATHAN",
+            "full": "WISE, NATHAN"
+          }
+        ],
+        "instructors": [
+          "TURPIN, MITCHELL"
+        ],
+        "students": [
+          "WISE, NATHAN"
+        ],
+        "page": 2,
+        "line": "A04 (V27) 2",
+        "raw": "A04 (V27) 2 \u00b7 0921 \u00b7 1106 \u00b7 1242 \u00b7 Turpin, Mitchell \u00b7 Wise, Nathan \u00b7 I4203 \u00b7 1.6/0.0 \u00b7 CCX // KELP",
+        "role": "I4203",
+        "remarks": "CCX // KELP",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4303",
+        "start": "1112",
+        "end": "1254",
+        "land": "1254",
+        "brief": "0927",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WEISNER",
+            "first": "DANIEL",
+            "full": "WEISNER, DANIEL"
+          },
+          {
+            "last": "SWOPE",
+            "first": "PEYTON",
+            "full": "SWOPE, PEYTON"
+          }
+        ],
+        "instructors": [
+          "WEISNER, DANIEL"
+        ],
+        "students": [
+          "SWOPE, PEYTON"
+        ],
+        "page": 2,
+        "line": "A06 (V27) 2",
+        "raw": "A06 (V27) 2 \u00b7 0927 \u00b7 1112 \u00b7 1254 \u00b7 Weisner, Daniel \u00b7 Swope, Peyton \u00b7 I4303 \u00b7 1.7/0.0 \u00b7 CCX // KELP",
+        "role": "I4303",
+        "remarks": "CCX // KELP",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "1500",
+        "end": "1636",
+        "land": "1636",
+        "brief": "1315",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MANDARINO",
+            "first": "KAHSE",
+            "full": "MANDARINO, KAHSE"
+          },
+          {
+            "last": "FITZGERALD",
+            "first": "PATRICK",
+            "full": "FITZGERALD, PATRICK"
+          }
+        ],
+        "instructors": [
+          "MANDARINO, KAHSE"
+        ],
+        "students": [
+          "FITZGERALD, PATRICK"
+        ],
+        "page": 2,
+        "line": "A01 (V27) 3",
+        "raw": "A01 (V27) 3 \u00b7 1315 \u00b7 1500 \u00b7 1636 \u00b7 Mandarino, Kahse \u00b7 Fitzgerald, Patrick \u00b7 I4204 \u00b7 1.6/0.0 \u00b7 CCX // KSKF",
+        "role": "I4204",
+        "remarks": "CCX // KSKF",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "1506",
+        "end": "1642",
+        "land": "1642",
+        "brief": "1321",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TURPIN",
+            "first": "MITCHELL",
+            "full": "TURPIN, MITCHELL"
+          },
+          {
+            "last": "WISE",
+            "first": "NATHAN",
+            "full": "WISE, NATHAN"
+          }
+        ],
+        "instructors": [
+          "TURPIN, MITCHELL"
+        ],
+        "students": [
+          "WISE, NATHAN"
+        ],
+        "page": 2,
+        "line": "A04 (V27) 3",
+        "raw": "A04 (V27) 3 \u00b7 1321 \u00b7 1506 \u00b7 1642 \u00b7 Turpin, Mitchell \u00b7 Wise, Nathan \u00b7 I4204 \u00b7 1.6/0.0 \u00b7 CCX // KSKF",
+        "role": "I4204",
+        "remarks": "CCX // KSKF",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4304",
+        "start": "1512",
+        "end": "1654",
+        "land": "1654",
+        "brief": "1327",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WEISNER",
+            "first": "DANIEL",
+            "full": "WEISNER, DANIEL"
+          },
+          {
+            "last": "SWOPE",
+            "first": "PEYTON",
+            "full": "SWOPE, PEYTON"
+          }
+        ],
+        "instructors": [
+          "WEISNER, DANIEL"
+        ],
+        "students": [
+          "SWOPE, PEYTON"
+        ],
+        "page": 2,
+        "line": "A06 (V27) 3",
+        "raw": "A06 (V27) 3 \u00b7 1327 \u00b7 1512 \u00b7 1654 \u00b7 Weisner, Daniel \u00b7 Swope, Peyton \u00b7 I4304 \u00b7 1.7/0.0 \u00b7 CCX // KSKF",
+        "role": "I4304",
+        "remarks": "CCX // KSKF",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4601",
+        "start": "1900",
+        "end": "2042",
+        "land": "2042",
+        "brief": "1715",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MANDARINO",
+            "first": "KAHSE",
+            "full": "MANDARINO, KAHSE"
+          },
+          {
+            "last": "FITZGERALD",
+            "first": "PATRICK",
+            "full": "FITZGERALD, PATRICK"
+          }
+        ],
+        "instructors": [
+          "MANDARINO, KAHSE"
+        ],
+        "students": [
+          "FITZGERALD, PATRICK"
+        ],
+        "page": 2,
+        "line": "A01 (V27) 4",
+        "raw": "A01 (V27) 4 \u00b7 1715 \u00b7 1900 \u00b7 2042 \u00b7 Mandarino, Kahse \u00b7 Fitzgerald, Patrick \u00b7 FAM4601 \u00b7 1.7/0.0 \u00b7 CCX // KNGP",
+        "role": "FAM4601",
+        "remarks": "CCX // KNGP",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4601",
+        "start": "1906",
+        "end": "2048",
+        "land": "2048",
+        "brief": "1721",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TURPIN",
+            "first": "MITCHELL",
+            "full": "TURPIN, MITCHELL"
+          },
+          {
+            "last": "WISE",
+            "first": "NATHAN",
+            "full": "WISE, NATHAN"
+          }
+        ],
+        "instructors": [
+          "TURPIN, MITCHELL"
+        ],
+        "students": [
+          "WISE, NATHAN"
+        ],
+        "page": 2,
+        "line": "A04 (V27) 4",
+        "raw": "A04 (V27) 4 \u00b7 1721 \u00b7 1906 \u00b7 2048 \u00b7 Turpin, Mitchell \u00b7 Wise, Nathan \u00b7 FAM4601 \u00b7 1.7/0.0 \u00b7 CCX // KNGP",
+        "role": "FAM4601",
+        "remarks": "CCX // KNGP",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4490 Schedule",
+        "start": "1912",
+        "end": "2054",
+        "land": "2054",
+        "brief": "1727",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WEISNER",
+            "first": "DANIEL",
+            "full": "WEISNER, DANIEL"
+          },
+          {
+            "last": "SWOPE",
+            "first": "PEYTON",
+            "full": "SWOPE, PEYTON"
+          }
+        ],
+        "instructors": [
+          "WEISNER, DANIEL"
+        ],
+        "students": [
+          "SWOPE, PEYTON"
+        ],
+        "page": 2,
+        "line": "A06 (V27) 4",
+        "raw": "A06 (V27) 4 \u00b7 1727 \u00b7 1912 \u00b7 2054 \u00b7 Weisner, Daniel Simulator \u00b7 Swope, Peyton (Sim Event) \u00b7 I4490 Schedule \u00b7 1.7/0.0 \u00b7 CCX // KNGP",
+        "role": "I4490 Schedule",
+        "remarks": "CCX // KNGP",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

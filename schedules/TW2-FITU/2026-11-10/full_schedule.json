@@ -437,5 +437,305 @@
       "line_number": 4,
       "text": "1230-1400 EP1105 Fleet & Family HARRISON, BENJAMIN S, LCDR BREITENFELD, JAMES B, CTR"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "EP1106  GT CAI Test Center HARRISON, BENJAMIN S, LCDR BREITENFELD, JAMES B, CTR  EP1101  Fleet & Family HARRISON, BENJAMIN S, LCDR BREITENFELD, JAMES B, CTR  EP1102  Fleet & Family HARRISON, BENJAMIN S, LCDR BREITENFELD, JAMES B, CTR  EP1103  Fleet & Family HARRISON, BENJAMIN S, LCDR BREITENFELD, JAMES B, CTR  EP1104  Fleet & Family HARRISON, BENJAMIN S, LCDR BREITENFELD, JAMES B, CTR  EP1105  Fleet & Family HARRISON, BENJAMIN S, LCDR BREITENFELD, JAMES B, CTR ",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "LOG",
+        "start": "0830",
+        "end": "1130",
+        "land": "1130",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HORR",
+            "first": "CHRISTIAN",
+            "full": "HORR, CHRISTIAN"
+          },
+          {
+            "last": "WOLFE",
+            "first": "JEREMY",
+            "full": "WOLFE, JEREMY"
+          }
+        ],
+        "instructors": [
+          "HORR, CHRISTIAN"
+        ],
+        "students": [
+          "WOLFE, JEREMY"
+        ],
+        "page": 1,
+        "line": "1",
+        "raw": "1 \u00b7 0700 \u00b7 0830 \u00b7 1130 \u00b7 HORR, CHRISTIAN C, Capt \u00b7 WOLFE, JEREMY P, Capt \u00b7 LOG \u00b7 3.0/0.0",
+        "role": "LOG",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4101",
+        "start": "0900",
+        "end": "1024",
+        "land": "1024",
+        "brief": "0730",
+        "formation": "",
+        "crew": [
+          {
+            "last": "EDWARDS",
+            "first": "CHAD",
+            "full": "EDWARDS, CHAD"
+          },
+          {
+            "last": "BURNELL",
+            "first": "MICHAEL",
+            "full": "BURNELL, MICHAEL"
+          }
+        ],
+        "instructors": [
+          "EDWARDS, CHAD"
+        ],
+        "students": [
+          "BURNELL, MICHAEL"
+        ],
+        "page": 1,
+        "line": "2",
+        "raw": "2 \u00b7 0730 \u00b7 0900 \u00b7 1024 \u00b7 EDWARDS, CHAD W, CTR \u00b7 BURNELL, MICHAEL D, LCDR \u00b7 NA4101 \u00b7 1.4/0.0 \u00b7 O/I",
+        "role": "NA4101",
+        "remarks": "O/I",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4102",
+        "start": "1145",
+        "end": "1309",
+        "land": "1309",
+        "brief": "1015",
+        "formation": "",
+        "crew": [
+          {
+            "last": "EDWARDS",
+            "first": "CHAD",
+            "full": "EDWARDS, CHAD"
+          },
+          {
+            "last": "BURNELL",
+            "first": "MICHAEL",
+            "full": "BURNELL, MICHAEL"
+          }
+        ],
+        "instructors": [
+          "EDWARDS, CHAD"
+        ],
+        "students": [
+          "BURNELL, MICHAEL"
+        ],
+        "page": 1,
+        "line": "3",
+        "raw": "3 \u00b7 1015 \u00b7 1145 \u00b7 1309 \u00b7 EDWARDS, CHAD W, CTR \u00b7 BURNELL, MICHAEL D, LCDR \u00b7 NA4102 \u00b7 1.4/0.0",
+        "role": "NA4102",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4101",
+        "start": "1445",
+        "end": "1615",
+        "land": "1615",
+        "brief": "1315",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TIGER",
+            "first": "JAYSON",
+            "full": "TIGER, JAYSON"
+          },
+          {
+            "last": "MCCOY",
+            "first": "MAX",
+            "full": "MCCOY, MAX"
+          },
+          {
+            "last": "G",
+            "first": "RADM",
+            "full": "G, RADM"
+          }
+        ],
+        "instructors": [
+          "TIGER, JAYSON"
+        ],
+        "students": [
+          "MCCOY, MAX",
+          "G, RADM"
+        ],
+        "page": 1,
+        "line": "4",
+        "raw": "4 \u00b7 1315 \u00b7 1445 \u00b7 1615 \u00b7 TIGER, JAYSON M, Col \u00b7 MCCOY, MAX G, RADM \u00b7 IR4101 \u00b7 1.5/0.0",
+        "role": "IR4101",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4102",
+        "start": "1730",
+        "end": "1845",
+        "land": "1845",
+        "brief": "1600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TIGER",
+            "first": "JAYSON",
+            "full": "TIGER, JAYSON"
+          },
+          {
+            "last": "MCCOY",
+            "first": "MAX",
+            "full": "MCCOY, MAX"
+          },
+          {
+            "last": "G",
+            "first": "RADM",
+            "full": "G, RADM"
+          }
+        ],
+        "instructors": [
+          "TIGER, JAYSON"
+        ],
+        "students": [
+          "MCCOY, MAX",
+          "G, RADM"
+        ],
+        "page": 1,
+        "line": "5",
+        "raw": "5 \u00b7 1600 \u00b7 1730 \u00b7 1845 \u00b7 TIGER, JAYSON M, Col \u00b7 MCCOY, MAX G, RADM \u00b7 IR4102 \u00b7 1.3/0.0",
+        "role": "IR4102",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4401",
+        "start": "1815",
+        "end": "1927",
+        "land": "1927",
+        "brief": "1645",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DONOHUE",
+            "first": "CHRISTOPHER",
+            "full": "DONOHUE, CHRISTOPHER"
+          },
+          {
+            "last": "MULINIX",
+            "first": "BENJAMIN",
+            "full": "MULINIX, BENJAMIN"
+          }
+        ],
+        "instructors": [
+          "DONOHUE, CHRISTOPHER"
+        ],
+        "students": [
+          "MULINIX, BENJAMIN"
+        ],
+        "page": 1,
+        "line": "6",
+        "raw": "6 \u00b7 1645 \u00b7 1815 \u00b7 1927 \u00b7 DONOHUE, CHRISTOPHER , LCDR \u00b7 MULINIX, BENJAMIN S, CAPT \u00b7 NA4401 \u00b7 1.2/0.0",
+        "role": "NA4401",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NTR4101",
+        "start": "1815",
+        "end": "1933",
+        "land": "1933",
+        "brief": "1645",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HANS",
+            "first": "JORDAN",
+            "full": "HANS, JORDAN"
+          },
+          {
+            "last": "TUCKER",
+            "first": "CHRISTOPHER",
+            "full": "TUCKER, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "HANS, JORDAN"
+        ],
+        "students": [
+          "TUCKER, CHRISTOPHER"
+        ],
+        "page": 1,
+        "line": "7",
+        "raw": "7 \u00b7 1645 \u00b7 1815 \u00b7 1933 \u00b7 HANS, JORDAN N, CTR \u00b7 TUCKER, CHRISTOPHER S, LCDR \u00b7 NTR4101 \u00b7 1.3/0.0 \u00b7 RC",
+        "role": "NTR4101",
+        "remarks": "RC",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4401",
+        "start": "1830",
+        "end": "1942",
+        "land": "1942",
+        "brief": "1700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LAROCHE",
+            "first": "MAX",
+            "full": "LAROCHE, MAX"
+          },
+          {
+            "last": "WATERMAN",
+            "first": "RYAN",
+            "full": "WATERMAN, RYAN"
+          }
+        ],
+        "instructors": [
+          "LAROCHE, MAX"
+        ],
+        "students": [
+          "WATERMAN, RYAN"
+        ],
+        "page": 1,
+        "line": "8",
+        "raw": "8 \u00b7 1700 \u00b7 1830 \u00b7 1942 \u00b7 LAROCHE, MAX D, Maj Simulator (Sim \u00b7 Event) \u00b7 WATERMAN, RYAN R, Capt Schedule \u00b7 NA4401 \u00b7 1.2/0.0",
+        "role": "NA4401",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

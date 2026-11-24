@@ -565,5 +565,586 @@
       "line_number": 38,
       "text": "2"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "CDO",
+        "start": "0700",
+        "end": "2100",
+        "land": "2100",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "EDWARDS",
+            "first": "COLLIN",
+            "full": "EDWARDS, COLLIN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "CDO \u00b7 EDWARDS, COLLIN M, LT \u00b7 0700 \u00b7 2100",
+        "role": "CDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM SDO",
+        "start": "0600",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CARL",
+            "first": "NICHOLAS",
+            "full": "CARL, NICHOLAS"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM SDO \u00b7 CARL, NICHOLAS S, 1stLt \u00b7 0600 \u00b7 1800",
+        "role": "AM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM SDO",
+        "start": "1800",
+        "end": "0600",
+        "land": "0600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ERICSON",
+            "first": "NICHOLAS",
+            "full": "ERICSON, NICHOLAS"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM SDO \u00b7 ERICSON, NICHOLAS F, 2ndLt \u00b7 1800 \u00b7 0600",
+        "role": "PM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER",
+        "start": "0730",
+        "end": "1600",
+        "land": "1600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WARD",
+            "first": "BRADEN",
+            "full": "WARD, BRADEN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER \u00b7 WARD, BRADEN T, ENS \u00b7 0730 \u00b7 1600",
+        "role": "DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4202A, RI4203A",
+        "start": "1100",
+        "end": "1900",
+        "land": "1900",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FLEMMING",
+            "first": "LIAM",
+            "full": "FLEMMING, LIAM"
+          },
+          {
+            "last": "WEYMOUTH",
+            "first": "HENRY",
+            "full": "WEYMOUTH, HENRY"
+          }
+        ],
+        "instructors": [
+          "FLEMMING, LIAM"
+        ],
+        "students": [
+          "WEYMOUTH, HENRY"
+        ],
+        "page": 2,
+        "line": "T19-1",
+        "raw": "T19-1 \u00b7 1000 \u00b7 1100 \u00b7 1900 \u00b7 KDAB \u00b7 KNDZ \u00b7 FLEMMING, LIAM, Maj \u00b7 WEYMOUTH, HENRY C, LTJG \u00b7 RI4202A, RI4203A \u00b7 1D2 1D1 \u00b7 6.0 \u00b7 CCX RETURN FROM KDAB",
+        "role": "RI4202A, RI4203A",
+        "remarks": "CCX RETURN FROM KDAB",
+        "duration": "6.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4101A",
+        "start": "1100",
+        "end": "1900",
+        "land": "1900",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FLEMMING",
+            "first": "LIAM",
+            "full": "FLEMMING, LIAM"
+          },
+          {
+            "last": "ALSADAN",
+            "first": "FAISAL",
+            "full": "ALSADAN, FAISAL"
+          }
+        ],
+        "instructors": [
+          "FLEMMING, LIAM"
+        ],
+        "students": [
+          "ALSADAN, FAISAL"
+        ],
+        "page": 2,
+        "line": "T19-1",
+        "raw": "T19-1 \u00b7 1000 \u00b7 1100 \u00b7 1900 \u00b7 FLEMMING, LIAM, \u00b7 ALSADAN, FAISAL A, LTJG \u00b7 NAV4101A",
+        "role": "NAV4101A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4202A, RI4203A",
+        "start": "1100",
+        "end": "1900",
+        "land": "1900",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DELCASTILLO",
+            "first": "LUIS",
+            "full": "DELCASTILLO, LUIS"
+          },
+          {
+            "last": "ROBINSON",
+            "first": "DAMON",
+            "full": "ROBINSON, DAMON"
+          }
+        ],
+        "instructors": [
+          "DELCASTILLO, LUIS"
+        ],
+        "students": [
+          "ROBINSON, DAMON"
+        ],
+        "page": 2,
+        "line": "T23-1",
+        "raw": "T23-1 \u00b7 1000 \u00b7 1100 \u00b7 1900 \u00b7 KDAB \u00b7 KNDZ \u00b7 DELCASTILLO, LUIS A, Maj \u00b7 ROBINSON, DAMON A, ENS \u00b7 RI4202A, RI4203A \u00b7 1D2 1D1 \u00b7 6.0 \u00b7 CCX RETURN FROM KDAB",
+        "role": "RI4202A, RI4203A",
+        "remarks": "CCX RETURN FROM KDAB",
+        "duration": "6.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4101A",
+        "start": "1100",
+        "end": "1900",
+        "land": "1900",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DELCASTILLO",
+            "first": "LUIS",
+            "full": "DELCASTILLO, LUIS"
+          },
+          {
+            "last": "BOBRYCKI",
+            "first": "URI",
+            "full": "BOBRYCKI, URI"
+          }
+        ],
+        "instructors": [
+          "DELCASTILLO, LUIS"
+        ],
+        "students": [
+          "BOBRYCKI, URI"
+        ],
+        "page": 2,
+        "line": "T23-1",
+        "raw": "T23-1 \u00b7 1000 \u00b7 1100 \u00b7 1900 \u00b7 DELCASTILLO, LUIS \u00b7 BOBRYCKI, URI H, 1stLt \u00b7 NAV4101A",
+        "role": "NAV4101A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4202A, RI4203A",
+        "start": "1100",
+        "end": "1900",
+        "land": "1900",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ARCHAMBO",
+            "first": "JARROD",
+            "full": "ARCHAMBO, JARROD"
+          },
+          {
+            "last": "GIACOMIN",
+            "first": "DOMINIC",
+            "full": "GIACOMIN, DOMINIC"
+          }
+        ],
+        "instructors": [
+          "ARCHAMBO, JARROD"
+        ],
+        "students": [
+          "GIACOMIN, DOMINIC"
+        ],
+        "page": 2,
+        "line": "T27-1",
+        "raw": "T27-1 \u00b7 1000 \u00b7 1100 \u00b7 1900 \u00b7 KDAB \u00b7 KNDZ \u00b7 ARCHAMBO, JARROD T, LT \u00b7 GIACOMIN, DOMINIC J, LTJG \u00b7 RI4202A, RI4203A \u00b7 1D2 1D1 \u00b7 6.0 \u00b7 CCX RETURN FROM KDAB",
+        "role": "RI4202A, RI4203A",
+        "remarks": "CCX RETURN FROM KDAB",
+        "duration": "6.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4101A",
+        "start": "1100",
+        "end": "1900",
+        "land": "1900",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BROWN",
+            "first": "PETER",
+            "full": "BROWN, PETER"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "BROWN, PETER"
+        ],
+        "page": 2,
+        "line": "T27-1",
+        "raw": "T27-1 \u00b7 1000 \u00b7 1100 \u00b7 1900 \u00b7 ARCHAMBO, \u00b7 BROWN, PETER M, LTJG (HT-8) \u00b7 NAV4101A",
+        "role": "NAV4101A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4202A, RI4203A",
+        "start": "0900",
+        "end": "1700",
+        "land": "1700",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KUERBITZ",
+            "first": "DANIEL",
+            "full": "KUERBITZ, DANIEL"
+          },
+          {
+            "last": "PAPAYOANOU",
+            "first": "ADAM",
+            "full": "PAPAYOANOU, ADAM"
+          }
+        ],
+        "instructors": [
+          "KUERBITZ, DANIEL"
+        ],
+        "students": [
+          "PAPAYOANOU, ADAM"
+        ],
+        "page": 2,
+        "line": "T31-1",
+        "raw": "T31-1 \u00b7 0800 \u00b7 0900 \u00b7 1700 \u00b7 KDAB \u00b7 KNDZ \u00b7 KUERBITZ, DANIEL R, LT \u00b7 PAPAYOANOU, ADAM S, 2ndLt \u00b7 RI4202A, RI4203A \u00b7 1D2 \u00b7 6.0 \u00b7 CCX RETURN FROM KDAB",
+        "role": "RI4202A, RI4203A",
+        "remarks": "CCX RETURN FROM KDAB",
+        "duration": "6.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4203A",
+        "start": "0900",
+        "end": "1700",
+        "land": "1700",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KUERBITZ",
+            "first": "DANIEL",
+            "full": "KUERBITZ, DANIEL"
+          },
+          {
+            "last": "WALSH",
+            "first": "MATTHEW",
+            "full": "WALSH, MATTHEW"
+          }
+        ],
+        "instructors": [
+          "KUERBITZ, DANIEL"
+        ],
+        "students": [
+          "WALSH, MATTHEW"
+        ],
+        "page": 2,
+        "line": "T31-1",
+        "raw": "T31-1 \u00b7 0800 \u00b7 0900 \u00b7 1700 \u00b7 KUERBITZ, DANIEL \u00b7 WALSH, MATTHEW F, LTJG \u00b7 RI4203A",
+        "role": "RI4203A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4202A, RI4203A",
+        "start": "1100",
+        "end": "1900",
+        "land": "1900",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RICHARDSON",
+            "first": "THOMAS",
+            "full": "RICHARDSON, THOMAS"
+          },
+          {
+            "last": "ALTURKI",
+            "first": "MUQREN",
+            "full": "ALTURKI, MUQREN"
+          }
+        ],
+        "instructors": [
+          "RICHARDSON, THOMAS"
+        ],
+        "students": [
+          "ALTURKI, MUQREN"
+        ],
+        "page": 2,
+        "line": "T35-1",
+        "raw": "T35-1 \u00b7 1000 \u00b7 1100 \u00b7 1900 \u00b7 KAVL \u00b7 KNDZ \u00b7 RICHARDSON, THOMAS F, LT \u00b7 ALTURKI, MUQREN T, LTJG \u00b7 RI4202A, RI4203A \u00b7 1D2 1D1 \u00b7 6.0 \u00b7 CCX RETURN FROM KAVL",
+        "role": "RI4202A, RI4203A",
+        "remarks": "CCX RETURN FROM KAVL",
+        "duration": "6.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4101A",
+        "start": "1100",
+        "end": "1900",
+        "land": "1900",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BALDWIN",
+            "first": "GABRIELLA",
+            "full": "BALDWIN, GABRIELLA"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "BALDWIN, GABRIELLA"
+        ],
+        "page": 2,
+        "line": "T35-1",
+        "raw": "T35-1 \u00b7 1000 \u00b7 1100 \u00b7 1900 \u00b7 RICHARDSON, \u00b7 BALDWIN, GABRIELLA F, LTJG \u00b7 NAV4101A",
+        "role": "NAV4101A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4101A,",
+        "start": "0915",
+        "end": "1515",
+        "land": "1515",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STARR",
+            "first": "MATT",
+            "full": "STARR, MATT"
+          },
+          {
+            "last": "CARTER",
+            "first": "BLAKE",
+            "full": "CARTER, BLAKE"
+          }
+        ],
+        "instructors": [
+          "STARR, MATT"
+        ],
+        "students": [
+          "CARTER, BLAKE"
+        ],
+        "page": 2,
+        "line": "T39-1",
+        "raw": "T39-1 \u00b7 0700 \u00b7 0915 \u00b7 1515 \u00b7 KNDZ \u00b7 KNDZ \u00b7 STARR, MATT C, \u00b7 CARTER, BLAKE R, ENS \u00b7 RI4101A, \u00b7 1D2 \u00b7 5.4 \u00b7 HOME FIELD PREPO",
+        "role": "RI4101A,",
+        "remarks": "HOME FIELD PREPO",
+        "duration": "5.4",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4102A DAY4502A",
+        "start": "0915",
+        "end": "1515",
+        "land": "1515",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "VASQUEZ",
+            "first": "BENJAMIN",
+            "full": "VASQUEZ, BENJAMIN"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "VASQUEZ, BENJAMIN"
+        ],
+        "page": 2,
+        "line": "T39-1",
+        "raw": "T39-1 \u00b7 0700 \u00b7 0915 \u00b7 1515 \u00b7 LCDR \u00b7 VASQUEZ, BENJAMIN A, 2ndLt \u00b7 RI4102A DAY4502A \u00b7 1D1 \u00b7 RETURN",
+        "role": "RI4102A DAY4502A",
+        "remarks": "RETURN",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4103R",
+        "start": "0930",
+        "end": "1530",
+        "land": "1530",
+        "brief": "0715",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ROSEANO",
+            "first": "LUCA",
+            "full": "ROSEANO, LUCA"
+          },
+          {
+            "last": "HEID",
+            "first": "JAMES",
+            "full": "HEID, JAMES"
+          }
+        ],
+        "instructors": [
+          "ROSEANO, LUCA"
+        ],
+        "students": [
+          "HEID, JAMES"
+        ],
+        "page": 2,
+        "line": "T47-1",
+        "raw": "T47-1 \u00b7 0715 \u00b7 0930 \u00b7 1530 \u00b7 KNDZ \u00b7 KNDZ \u00b7 ROSEANO, LUCA, \u00b7 HEID, JAMES P, ENS \u00b7 RI4103R \u00b7 1D2 \u00b7 3.6 \u00b7 HOME FIELD PREPO",
+        "role": "RI4103R",
+        "remarks": "HOME FIELD PREPO",
+        "duration": "3.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4103A",
+        "start": "0930",
+        "end": "1530",
+        "land": "1530",
+        "brief": "0715",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIMULATOR",
+            "first": "",
+            "full": "SIMULATOR"
+          },
+          {
+            "last": "SCHULTZ",
+            "first": "CHAD",
+            "full": "SCHULTZ, CHAD"
+          }
+        ],
+        "instructors": [
+          "SIMULATOR"
+        ],
+        "students": [
+          "SCHULTZ, CHAD"
+        ],
+        "page": 2,
+        "line": "T47-1",
+        "raw": "T47-1 \u00b7 0715 \u00b7 0930 \u00b7 1530 \u00b7 LCDR Simulator \u00b7 SCHULTZ, CHAD M, 1stLt (Sim Event) Schedule \u00b7 RI4103A \u00b7 RETURN",
+        "role": "RI4103A",
+        "remarks": "RETURN",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

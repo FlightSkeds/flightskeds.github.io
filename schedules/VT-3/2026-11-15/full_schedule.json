@@ -1226,5 +1226,598 @@
       "line_number": 161,
       "text": "e"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "  E , U V H T L EI 3    CI L K L , T S , B    T R 2 U , S C F E u    , S S A , A 4I     K , 0 S 4I , L     B 4 , S R A L 3 L i    D 4I 3 L , l    4I O 0 , 0 M d    0 3 , R    , U V H T L EI     K L , T S ,     3 U , S C F E     S S A , A 4I     0 S 4I , L 1 R    1 , S R A L 4 L     D 4I 3 L , 1 e     O 0 , 9 M / p     4 , 3 r    , U V H     3 , A     2 , S      1 , di ",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "Day SDO",
+        "start": "0800",
+        "end": "2000",
+        "land": "2000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ESPIRITU",
+            "first": "CHRISTOPHER",
+            "full": "ESPIRITU, CHRISTOPHER"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "Day SDO \u00b7 ESPIRITU, CHRISTOPHER \u00b7 0800 \u00b7 2000",
+        "role": "Day SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "Night SDO",
+        "start": "2000",
+        "end": "0800",
+        "land": "0800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LACON",
+            "first": "LIAM",
+            "full": "LACON, LIAM"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "Night SDO \u00b7 LACON, LIAM \u00b7 2000 \u00b7 0800",
+        "role": "Night SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "QA Skeds/Duty OPS",
+        "start": "0700",
+        "end": "1500",
+        "land": "1500",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GIBBS",
+            "first": "AARON",
+            "full": "GIBBS, AARON"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "QA Skeds/Duty OPS \u00b7 GIBBS, AARON \u00b7 0700 \u00b7 1500",
+        "role": "QA Skeds/Duty OPS",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "CDO",
+        "start": "1200",
+        "end": "1201",
+        "land": "1201",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORTENSEN",
+            "first": "RYAN",
+            "full": "MORTENSEN, RYAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "CDO \u00b7 MORTENSEN, RYAN \u00b7 1200 \u00b7 1201",
+        "role": "CDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "WKDAY AM DUTY DRIVER",
+        "start": "0600",
+        "end": "2000",
+        "land": "2000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FITZGERALD",
+            "first": "JAMES",
+            "full": "FITZGERALD, JAMES"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "WKDAY AM DUTY DRIVER \u00b7 FITZGERALD, JAMES \u00b7 0600 \u00b7 2000",
+        "role": "WKDAY AM DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4304",
+        "start": "0702",
+        "end": "0844",
+        "land": "0844",
+        "brief": "0517",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LIEGNELL",
+            "first": "MATS",
+            "full": "LIEGNELL, MATS"
+          },
+          {
+            "last": "USELIS",
+            "first": "BRYCE",
+            "full": "USELIS, BRYCE"
+          }
+        ],
+        "instructors": [
+          "LIEGNELL, MATS"
+        ],
+        "students": [
+          "USELIS, BRYCE"
+        ],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0517 \u00b7 0702 \u00b7 0844 \u00b7 LIEGNELL, MATS# \u00b7 USELIS, BRYCE# \u00b7 I4304 \u00b7 1.7/0.0 \u00b7 2X; O/I",
+        "role": "I4304",
+        "remarks": "2X; O/I",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Flight",
+        "start": "0705",
+        "end": "0835",
+        "land": "0835",
+        "brief": "0635",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WESTFALL",
+            "first": "CHAD",
+            "full": "WESTFALL, CHAD"
+          },
+          {
+            "last": "MORAVEC",
+            "first": "ANNA",
+            "full": "MORAVEC, ANNA"
+          }
+        ],
+        "instructors": [
+          "WESTFALL, CHAD"
+        ],
+        "students": [
+          "MORAVEC, ANNA"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0635 \u00b7 0705 \u00b7 0835 \u00b7 WESTFALL, CHAD# \u00b7 MORAVEC, ANNA# \u00b7 1.5/0.0 \u00b7 2X; CCX RETURN; DOC MORAVAC",
+        "role": "Flight",
+        "remarks": "2X; CCX RETURN; DOC MORAVAC",
+        "duration": "1.5/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4301",
+        "start": "0716",
+        "end": "0858",
+        "land": "0858",
+        "brief": "0531",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STATES",
+            "first": "RICHARD",
+            "full": "STATES, RICHARD"
+          },
+          {
+            "last": "PALAIA",
+            "first": "ABIGAIL",
+            "full": "PALAIA, ABIGAIL"
+          }
+        ],
+        "instructors": [
+          "STATES, RICHARD"
+        ],
+        "students": [
+          "PALAIA, ABIGAIL"
+        ],
+        "page": 2,
+        "line": "3",
+        "raw": "3 \u00b7 0531 \u00b7 0716 \u00b7 0858 \u00b7 STATES, RICHARD# \u00b7 PALAIA, ABIGAIL# \u00b7 I4301 \u00b7 1.7/0.0 \u00b7 2X; CCX RETURN",
+        "role": "I4301",
+        "remarks": "2X; CCX RETURN",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4203",
+        "start": "0719",
+        "end": "0855",
+        "land": "0855",
+        "brief": "0534",
+        "formation": "",
+        "crew": [
+          {
+            "last": "THOMASSON",
+            "first": "MICHAEL",
+            "full": "THOMASSON, MICHAEL"
+          },
+          {
+            "last": "NORVELL",
+            "first": "SAMUEL",
+            "full": "NORVELL, SAMUEL"
+          }
+        ],
+        "instructors": [
+          "THOMASSON, MICHAEL"
+        ],
+        "students": [
+          "NORVELL, SAMUEL"
+        ],
+        "page": 2,
+        "line": "4",
+        "raw": "4 \u00b7 0534 \u00b7 0719 \u00b7 0855 \u00b7 THOMASSON, MICHAEL# \u00b7 NORVELL, SAMUEL# \u00b7 I4203 \u00b7 1.6/0.0 \u00b7 3X; CCX RETURN",
+        "role": "I4203",
+        "remarks": "3X; CCX RETURN",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "0733",
+        "end": "0909",
+        "land": "0909",
+        "brief": "0548",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BUTKUS",
+            "first": "DARRIN",
+            "full": "BUTKUS, DARRIN"
+          },
+          {
+            "last": "HILL",
+            "first": "CHARLOTTE",
+            "full": "HILL, CHARLOTTE"
+          }
+        ],
+        "instructors": [
+          "BUTKUS, DARRIN"
+        ],
+        "students": [
+          "HILL, CHARLOTTE"
+        ],
+        "page": 2,
+        "line": "5",
+        "raw": "5 \u00b7 0548 \u00b7 0733 \u00b7 0909 \u00b7 BUTKUS, DARRIN# \u00b7 HILL, CHARLOTTE# \u00b7 I4204 \u00b7 1.6/0.0 \u00b7 3X; CCX RETURN",
+        "role": "I4204",
+        "remarks": "3X; CCX RETURN",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4301",
+        "start": "0736",
+        "end": "0918",
+        "land": "0918",
+        "brief": "0551",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MILLER",
+            "first": "BRANNON",
+            "full": "MILLER, BRANNON"
+          },
+          {
+            "last": "BENEDICT",
+            "first": "KEVIN",
+            "full": "BENEDICT, KEVIN"
+          }
+        ],
+        "instructors": [
+          "MILLER, BRANNON"
+        ],
+        "students": [
+          "BENEDICT, KEVIN"
+        ],
+        "page": 2,
+        "line": "6",
+        "raw": "6 \u00b7 0551 \u00b7 0736 \u00b7 0918 \u00b7 MILLER, BRANNON \u00b7 BENEDICT, KEVIN \u00b7 I4301 \u00b7 1.7/0.0 \u00b7 4.2 NITE",
+        "role": "I4301",
+        "remarks": "4.2 NITE",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4490",
+        "start": "1102",
+        "end": "1244",
+        "land": "1244",
+        "brief": "0917",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LIEGNELL",
+            "first": "MATS",
+            "full": "LIEGNELL, MATS"
+          },
+          {
+            "last": "USELIS",
+            "first": "BRYCE",
+            "full": "USELIS, BRYCE"
+          }
+        ],
+        "instructors": [
+          "LIEGNELL, MATS"
+        ],
+        "students": [
+          "USELIS, BRYCE"
+        ],
+        "page": 2,
+        "line": "7",
+        "raw": "7 \u00b7 0917 \u00b7 1102 \u00b7 1244 \u00b7 LIEGNELL, MATS# \u00b7 USELIS, BRYCE# \u00b7 I4490 \u00b7 1.7/0.0 \u00b7 6.1 NITE; CTO; LAND KNDZ 1700-2100; KNSE 0700-1700; KNDZ 2100-2300",
+        "role": "I4490",
+        "remarks": "6.1 NITE; CTO; LAND KNDZ 1700-2100; KNSE 0700-1700; KNDZ 2100-2300",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Flight",
+        "start": "1105",
+        "end": "1305",
+        "land": "1305",
+        "brief": "0920",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WESTFALL",
+            "first": "CHAD",
+            "full": "WESTFALL, CHAD"
+          },
+          {
+            "last": "MORAVEC",
+            "first": "ANNA",
+            "full": "MORAVEC, ANNA"
+          }
+        ],
+        "instructors": [
+          "WESTFALL, CHAD"
+        ],
+        "students": [
+          "MORAVEC, ANNA"
+        ],
+        "page": 2,
+        "line": "8",
+        "raw": "8 \u00b7 0920 \u00b7 1105 \u00b7 1305 \u00b7 WESTFALL, CHAD# \u00b7 MORAVEC, ANNA# \u00b7 2.0/0.0 \u00b7 CTO; LAND KNDZ 1700-2100; KNSE 0700- 1700; KNDZ 2100-2300",
+        "role": "Flight",
+        "remarks": "CTO; LAND KNDZ 1700-2100; KNSE 0700- 1700; KNDZ 2100-2300",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4302",
+        "start": "1116",
+        "end": "1258",
+        "land": "1258",
+        "brief": "0931",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STATES",
+            "first": "RICHARD",
+            "full": "STATES, RICHARD"
+          },
+          {
+            "last": "PALAIA",
+            "first": "ABIGAIL",
+            "full": "PALAIA, ABIGAIL"
+          }
+        ],
+        "instructors": [
+          "STATES, RICHARD"
+        ],
+        "students": [
+          "PALAIA, ABIGAIL"
+        ],
+        "page": 2,
+        "line": "9",
+        "raw": "9 \u00b7 0931 \u00b7 1116 \u00b7 1258 \u00b7 STATES, RICHARD# \u00b7 PALAIA, ABIGAIL# \u00b7 I4302 \u00b7 1.7/0.0 \u00b7 CTO; LAND KNDZ 1700-2100; KNSE 0700- 1700; KNDZ 2100-2300",
+        "role": "I4302",
+        "remarks": "CTO; LAND KNDZ 1700-2100; KNSE 0700- 1700; KNDZ 2100-2300",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "1119",
+        "end": "1255",
+        "land": "1255",
+        "brief": "0934",
+        "formation": "",
+        "crew": [
+          {
+            "last": "THOMASSON",
+            "first": "MICHAEL",
+            "full": "THOMASSON, MICHAEL"
+          },
+          {
+            "last": "NORVELL",
+            "first": "SAMUEL",
+            "full": "NORVELL, SAMUEL"
+          }
+        ],
+        "instructors": [
+          "THOMASSON, MICHAEL"
+        ],
+        "students": [
+          "NORVELL, SAMUEL"
+        ],
+        "page": 2,
+        "line": "10",
+        "raw": "10 \u00b7 0934 \u00b7 1119 \u00b7 1255 \u00b7 THOMASSON, MICHAEL# \u00b7 NORVELL, SAMUEL# \u00b7 I4204 \u00b7 1.6/0.0",
+        "role": "I4204",
+        "remarks": "",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4301",
+        "start": "1133",
+        "end": "1315",
+        "land": "1315",
+        "brief": "0948",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BUTKUS",
+            "first": "DARRIN",
+            "full": "BUTKUS, DARRIN"
+          },
+          {
+            "last": "HILL",
+            "first": "CHARLOTTE",
+            "full": "HILL, CHARLOTTE"
+          }
+        ],
+        "instructors": [
+          "BUTKUS, DARRIN"
+        ],
+        "students": [
+          "HILL, CHARLOTTE"
+        ],
+        "page": 2,
+        "line": "11",
+        "raw": "11 \u00b7 0948 \u00b7 1133 \u00b7 1315 \u00b7 BUTKUS, DARRIN# \u00b7 HILL, CHARLOTTE# \u00b7 I4301 \u00b7 1.7/0.0",
+        "role": "I4301",
+        "remarks": "",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4301",
+        "start": "1519",
+        "end": "1701",
+        "land": "1701",
+        "brief": "1334",
+        "formation": "",
+        "crew": [
+          {
+            "last": "THOMASSON",
+            "first": "MICHAEL",
+            "full": "THOMASSON, MICHAEL"
+          },
+          {
+            "last": "NORVELL",
+            "first": "SAMUEL",
+            "full": "NORVELL, SAMUEL"
+          }
+        ],
+        "instructors": [
+          "THOMASSON, MICHAEL"
+        ],
+        "students": [
+          "NORVELL, SAMUEL"
+        ],
+        "page": 2,
+        "line": "12",
+        "raw": "12 \u00b7 1334 \u00b7 1519 \u00b7 1701 \u00b7 THOMASSON, MICHAEL# \u00b7 NORVELL, SAMUEL# \u00b7 I4301 \u00b7 1.7/0.0 \u00b7 CTO; LAND KNDZ 1700-2100; KNSE 0700- 1700; KNDZ 2100-2300",
+        "role": "I4301",
+        "remarks": "CTO; LAND KNDZ 1700-2100; KNSE 0700- 1700; KNDZ 2100-2300",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4302",
+        "start": "1533",
+        "end": "1715",
+        "land": "1715",
+        "brief": "1348",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BUTKUS",
+            "first": "DARRIN",
+            "full": "BUTKUS, DARRIN"
+          },
+          {
+            "last": "HILL",
+            "first": "CHARLOTTE",
+            "full": "HILL, CHARLOTTE"
+          }
+        ],
+        "instructors": [
+          "BUTKUS, DARRIN"
+        ],
+        "students": [
+          "HILL, CHARLOTTE"
+        ],
+        "page": 2,
+        "line": "13",
+        "raw": "13 \u00b7 1348 \u00b7 1533 \u00b7 1715 \u00b7 BUTKUS, DARRIN# \u00b7 HILL, CHARLOTTE# Simulator (Sim Event) Schedule \u00b7 I4302 \u00b7 1.7/0.0 \u00b7 CTO; LAND KNDZ 1700-2100; KNSE 0700- 1700; KNDZ 2100-2300",
+        "role": "I4302",
+        "remarks": "CTO; LAND KNDZ 1700-2100; KNSE 0700- 1700; KNDZ 2100-2300",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

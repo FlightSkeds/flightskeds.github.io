@@ -463,5 +463,153 @@
       "line_number": 36,
       "text": "A. J. MERRALL M. B. SIPAH"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "FORM PROF",
+        "start": "0700",
+        "end": "0900",
+        "land": "0900",
+        "brief": "0515",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STATES",
+            "first": "RICHARD",
+            "full": "STATES, RICHARD"
+          },
+          {
+            "last": "SIPAH",
+            "first": "MICHAEL",
+            "full": "SIPAH, MICHAEL"
+          }
+        ],
+        "instructors": [
+          "STATES, RICHARD"
+        ],
+        "students": [
+          "SIPAH, MICHAEL"
+        ],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0515 \u00b7 0700 \u00b7 0900 \u00b7 STATES, RICHARD J, MAJ \u00b7 SIPAH, MICHAEL B, LCDR \u00b7 FORM PROF \u00b7 2.0/0.0 \u00b7 1x Parade of Trainers Div Lead, Forms w/ Humphreys, Wiggins, Liegnell",
+        "role": "FORM PROF",
+        "remarks": "1x Parade of Trainers Div Lead, Forms w/ Humphreys, Wiggins, Liegnell",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FORM SUPPORT",
+        "start": "0715",
+        "end": "0915",
+        "land": "0915",
+        "brief": "0530",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HUMPHREYS",
+            "first": "MICHAEL",
+            "full": "HUMPHREYS, MICHAEL"
+          },
+          {
+            "last": "SMART",
+            "first": "BENJAMIN",
+            "full": "SMART, BENJAMIN"
+          }
+        ],
+        "instructors": [
+          "HUMPHREYS, MICHAEL"
+        ],
+        "students": [
+          "SMART, BENJAMIN"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0530 \u00b7 0715 \u00b7 0915 \u00b7 HUMPHREYS, MICHAEL J, LCDR \u00b7 SMART, BENJAMIN T, LT \u00b7 FORM SUPPORT \u00b7 2.0/0.0 \u00b7 1x Parade of Trainers, Forms w/ States, Wiggins, Liegnell",
+        "role": "FORM SUPPORT",
+        "remarks": "1x Parade of Trainers, Forms w/ States, Wiggins, Liegnell",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FORM SUPPORT",
+        "start": "0730",
+        "end": "0930",
+        "land": "0930",
+        "brief": "0545",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WIGGINS",
+            "first": "WILLIAM",
+            "full": "WIGGINS, WILLIAM"
+          },
+          {
+            "last": "REISING",
+            "first": "MICHAEL",
+            "full": "REISING, MICHAEL"
+          }
+        ],
+        "instructors": [
+          "WIGGINS, WILLIAM"
+        ],
+        "students": [
+          "REISING, MICHAEL"
+        ],
+        "page": 2,
+        "line": "3",
+        "raw": "3 \u00b7 0545 \u00b7 0730 \u00b7 0930 \u00b7 WIGGINS, WILLIAM E, LCDR \u00b7 REISING, MICHAEL L, LT \u00b7 FORM SUPPORT \u00b7 2.0/0.0 \u00b7 1x Parade of Trainers, Forms w/ States, Humphreys, Liegnell",
+        "role": "FORM SUPPORT",
+        "remarks": "1x Parade of Trainers, Forms w/ States, Humphreys, Liegnell",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FORM SUPPORT Event) Schedule",
+        "start": "0745",
+        "end": "0945",
+        "land": "0945",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LIEGNELL",
+            "first": "MATS",
+            "full": "LIEGNELL, MATS"
+          },
+          {
+            "last": "MCINTIRE",
+            "first": "DAMON",
+            "full": "MCINTIRE, DAMON"
+          }
+        ],
+        "instructors": [
+          "LIEGNELL, MATS"
+        ],
+        "students": [
+          "MCINTIRE, DAMON"
+        ],
+        "page": 2,
+        "line": "4",
+        "raw": "4 \u00b7 0600 \u00b7 0745 \u00b7 0945 \u00b7 LIEGNELL, MATS , MAJ \u00b7 MCINTIRE, DAMON K, LCDR Simulator (Sim \u00b7 FORM SUPPORT Event) Schedule \u00b7 2.0/0.0 \u00b7 1x Parade of Trainers, Forms w/ States, Humphreys, Wiggins",
+        "role": "FORM SUPPORT Event) Schedule",
+        "remarks": "1x Parade of Trainers, Forms w/ States, Humphreys, Wiggins",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

@@ -465,5 +465,256 @@
       "line_number": 20,
       "text": "2"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "CDO",
+        "start": "0700",
+        "end": "2100",
+        "land": "2100",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DAVIDSON",
+            "first": "JAMIE",
+            "full": "DAVIDSON, JAMIE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "CDO \u00b7 DAVIDSON, JAMIE L, LT \u00b7 0700 \u00b7 2100",
+        "role": "CDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM SDO",
+        "start": "0600",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ROWLEY",
+            "first": "CAMERON",
+            "full": "ROWLEY, CAMERON"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM SDO \u00b7 ROWLEY, CAMERON R, ENS \u00b7 0600 \u00b7 1800",
+        "role": "AM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM SDO",
+        "start": "1800",
+        "end": "0600",
+        "land": "0600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CARL",
+            "first": "NICHOLAS",
+            "full": "CARL, NICHOLAS"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM SDO \u00b7 CARL, NICHOLAS S, 1stLt \u00b7 1800 \u00b7 0600",
+        "role": "PM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM DUTY DRIVER",
+        "start": "0730",
+        "end": "1600",
+        "land": "1600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GOLBRANSON",
+            "first": "KATHARINE",
+            "full": "GOLBRANSON, KATHARINE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM DUTY DRIVER \u00b7 GOLBRANSON, KATHARINE M, LTJG \u00b7 0730 \u00b7 1600",
+        "role": "AM DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4202A,",
+        "start": "1100",
+        "end": "1815",
+        "land": "1815",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CARTER",
+            "first": "BLAKE",
+            "full": "CARTER, BLAKE"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "CARTER, BLAKE"
+        ],
+        "page": 2,
+        "line": "T27-1",
+        "raw": "T27-1 \u00b7 1000 \u00b7 1100 \u00b7 1815 \u00b7 KMQY \u00b7 KNDZ \u00b7 GRZESIAK, \u00b7 CARTER, BLAKE R, ENS \u00b7 RI4202A, \u00b7 1D2 \u00b7 6.0 \u00b7 CCX RETURN FROM",
+        "role": "RI4202A,",
+        "remarks": "CCX RETURN FROM",
+        "duration": "6.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4203A NAV4101A",
+        "start": "1100",
+        "end": "1815",
+        "land": "1815",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALEXANDER",
+            "first": "J",
+            "full": "ALEXANDER, J"
+          },
+          {
+            "last": "LONEY",
+            "first": "NICHOLAS",
+            "full": "LONEY, NICHOLAS"
+          }
+        ],
+        "instructors": [
+          "ALEXANDER, J"
+        ],
+        "students": [
+          "LONEY, NICHOLAS"
+        ],
+        "page": 2,
+        "line": "T27-1",
+        "raw": "T27-1 \u00b7 1000 \u00b7 1100 \u00b7 1815 \u00b7 ALEXANDER J, LT \u00b7 LONEY, NICHOLAS R, LTJG \u00b7 RI4203A NAV4101A \u00b7 1D1 1D9 \u00b7 KMQY",
+        "role": "RI4203A NAV4101A",
+        "remarks": "KMQY",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4202A, RI4203A",
+        "start": "1100",
+        "end": "1815",
+        "land": "1815",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STANKO",
+            "first": "JACOB",
+            "full": "STANKO, JACOB"
+          },
+          {
+            "last": "KRUGER",
+            "first": "GAIGE",
+            "full": "KRUGER, GAIGE"
+          }
+        ],
+        "instructors": [
+          "STANKO, JACOB"
+        ],
+        "students": [
+          "KRUGER, GAIGE"
+        ],
+        "page": 2,
+        "line": "T31-1",
+        "raw": "T31-1 \u00b7 1000 \u00b7 1100 \u00b7 1815 \u00b7 KMQY \u00b7 KNDZ \u00b7 STANKO, JACOB R, LCDR \u00b7 KRUGER, GAIGE A, LTJG \u00b7 RI4202A, RI4203A \u00b7 1D2 1D1 \u00b7 6.0 \u00b7 CCX RETURN FROM KMQY",
+        "role": "RI4202A, RI4203A",
+        "remarks": "CCX RETURN FROM KMQY",
+        "duration": "6.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4101A",
+        "start": "1100",
+        "end": "1815",
+        "land": "1815",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STANKO",
+            "first": "JACOB",
+            "full": "STANKO, JACOB"
+          },
+          {
+            "last": "R",
+            "first": "SIMULATOR",
+            "full": "R, SIMULATOR"
+          },
+          {
+            "last": "HORTON",
+            "first": "NOAH",
+            "full": "HORTON, NOAH"
+          }
+        ],
+        "instructors": [
+          "STANKO, JACOB",
+          "R, SIMULATOR"
+        ],
+        "students": [
+          "HORTON, NOAH"
+        ],
+        "page": 2,
+        "line": "T31-1",
+        "raw": "T31-1 \u00b7 1000 \u00b7 1100 \u00b7 1815 \u00b7 STANKO, JACOB R, Simulator \u00b7 HORTON, NOAH M, LTJG (Sim Event) Schedule \u00b7 NAV4101A \u00b7 1D9",
+        "role": "NAV4101A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

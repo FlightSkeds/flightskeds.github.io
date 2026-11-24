@@ -435,5 +435,659 @@
       "line_number": 29,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "KNGP AM ODO",
+        "start": "0630",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BIRKELAND",
+            "first": "PETER",
+            "full": "BIRKELAND, PETER"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP AM ODO \u00b7 Birkeland, Peter \u00b7 0630 1430",
+        "role": "KNGP AM ODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "KNGP AM AODO",
+        "start": "0445",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ARCHER",
+            "first": "OWEN",
+            "full": "ARCHER, OWEN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP AM AODO \u00b7 Archer, Owen \u00b7 0445 1400",
+        "role": "KNGP AM AODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "KNGP PM ODO",
+        "start": "1430",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RUMFELT",
+            "first": "RHETT",
+            "full": "RUMFELT, RHETT"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP PM ODO \u00b7 Rumfelt, Rhett \u00b7 1430 0630",
+        "role": "KNGP PM ODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "KNGP PM AODO",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "COUGHLIN",
+            "first": "ISABELLA",
+            "full": "COUGHLIN, ISABELLA"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP PM AODO \u00b7 Coughlin, Isabella \u00b7 1400 2359",
+        "role": "KNGP PM AODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER AM",
+        "start": "0630",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LEE",
+            "first": "KATE",
+            "full": "LEE, KATE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER AM \u00b7 Lee, Kate \u00b7 0630 1529",
+        "role": "DUTY DRIVER AM",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER PM",
+        "start": "1530",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HECKER",
+            "first": "HARRISON",
+            "full": "HECKER, HARRISON"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER PM \u00b7 Hecker, Harrison \u00b7 1530 2359",
+        "role": "DUTY DRIVER PM",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "N4101",
+        "start": "0912",
+        "end": "1048",
+        "land": "1048",
+        "brief": "0727",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KEY",
+            "first": "COLTON",
+            "full": "KEY, COLTON"
+          },
+          {
+            "last": "KOEHR",
+            "first": "ZACKARY",
+            "full": "KOEHR, ZACKARY"
+          }
+        ],
+        "instructors": [
+          "KEY, COLTON"
+        ],
+        "students": [
+          "KOEHR, ZACKARY"
+        ],
+        "page": 2,
+        "line": "A51 (V27) 1",
+        "raw": "A51 (V27) 1 \u00b7 0727 \u00b7 0912 \u00b7 1048 \u00b7 Key, Colton \u00b7 Koehr, Zackary \u00b7 N4101 \u00b7 1.6/0.0 \u00b7 LAUNCH NGP // TOUR OF TEXAS // CONTACT IP FOR BRIEF TIME",
+        "role": "N4101",
+        "remarks": "LAUNCH NGP // TOUR OF TEXAS // CONTACT IP FOR BRIEF TIME",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "N4101",
+        "start": "0921",
+        "end": "1057",
+        "land": "1057",
+        "brief": "0736",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAMILTON",
+            "first": "ZACHARY",
+            "full": "HAMILTON, ZACHARY"
+          },
+          {
+            "last": "SWOPE",
+            "first": "PEYTON",
+            "full": "SWOPE, PEYTON"
+          }
+        ],
+        "instructors": [
+          "HAMILTON, ZACHARY"
+        ],
+        "students": [
+          "SWOPE, PEYTON"
+        ],
+        "page": 2,
+        "line": "A54 (V27) 1",
+        "raw": "A54 (V27) 1 \u00b7 0736 \u00b7 0921 \u00b7 1057 \u00b7 Hamilton, Zachary \u00b7 Swope, Peyton \u00b7 N4101 \u00b7 1.6/0.0 \u00b7 LAUNCH NGP // TOUR OF TEXAS // CONTACT IP FOR BRIEF TIME",
+        "role": "N4101",
+        "remarks": "LAUNCH NGP // TOUR OF TEXAS // CONTACT IP FOR BRIEF TIME",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4302",
+        "start": "0924",
+        "end": "1106",
+        "land": "1106",
+        "brief": "0739",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KLETTER",
+            "first": "DYLAN",
+            "full": "KLETTER, DYLAN"
+          },
+          {
+            "last": "SCOTT",
+            "first": "JOSEPH",
+            "full": "SCOTT, JOSEPH"
+          }
+        ],
+        "instructors": [
+          "KLETTER, DYLAN"
+        ],
+        "students": [
+          "SCOTT, JOSEPH"
+        ],
+        "page": 2,
+        "line": "A56 (V27) 1",
+        "raw": "A56 (V27) 1 \u00b7 0739 \u00b7 0924 \u00b7 1106 \u00b7 Kletter, Dylan \u00b7 Scott, Joseph \u00b7 I4302 \u00b7 1.7/0.0 \u00b7 LAUNCH NGP // TOUR OF TEXAS // CONTACT IP FOR BRIEF TIME",
+        "role": "I4302",
+        "remarks": "LAUNCH NGP // TOUR OF TEXAS // CONTACT IP FOR BRIEF TIME",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "N4101",
+        "start": "0933",
+        "end": "1109",
+        "land": "1109",
+        "brief": "0748",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAUCH",
+            "first": "MICHAEL",
+            "full": "MAUCH, MICHAEL"
+          },
+          {
+            "last": "WATERS",
+            "first": "MITCHELL",
+            "full": "WATERS, MITCHELL"
+          }
+        ],
+        "instructors": [
+          "MAUCH, MICHAEL"
+        ],
+        "students": [
+          "WATERS, MITCHELL"
+        ],
+        "page": 2,
+        "line": "B59 (V27) 1",
+        "raw": "B59 (V27) 1 \u00b7 0748 \u00b7 0933 \u00b7 1109 \u00b7 Mauch, Michael \u00b7 Waters, Mitchell \u00b7 N4101 \u00b7 1.6/0.0 \u00b7 LAUNCH NGP // TOUR OF TEXAS // CONTACT IP FOR BRIEF TIME",
+        "role": "N4101",
+        "remarks": "LAUNCH NGP // TOUR OF TEXAS // CONTACT IP FOR BRIEF TIME",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4102",
+        "start": "1257",
+        "end": "1433",
+        "land": "1433",
+        "brief": "1112",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PHIPPS",
+            "first": "JAMES",
+            "full": "PHIPPS, JAMES"
+          },
+          {
+            "last": "FITZGERALD",
+            "first": "PATRICK",
+            "full": "FITZGERALD, PATRICK"
+          }
+        ],
+        "instructors": [
+          "PHIPPS, JAMES"
+        ],
+        "students": [
+          "FITZGERALD, PATRICK"
+        ],
+        "page": 2,
+        "line": "A45 (V27) 2",
+        "raw": "A45 (V27) 2 \u00b7 1112 \u00b7 1257 \u00b7 1433 \u00b7 Phipps, James \u00b7 Fitzgerald, Patrick \u00b7 I4102 \u00b7 1.6/0.0 \u00b7 LAUNCH NGP // O/I // CONTACT IP FOR BRIEF TIME",
+        "role": "I4102",
+        "remarks": "LAUNCH NGP // O/I // CONTACT IP FOR BRIEF TIME",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4201",
+        "start": "1312",
+        "end": "1448",
+        "land": "1448",
+        "brief": "1127",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KEY",
+            "first": "COLTON",
+            "full": "KEY, COLTON"
+          },
+          {
+            "last": "KOEHR",
+            "first": "ZACKARY",
+            "full": "KOEHR, ZACKARY"
+          }
+        ],
+        "instructors": [
+          "KEY, COLTON"
+        ],
+        "students": [
+          "KOEHR, ZACKARY"
+        ],
+        "page": 2,
+        "line": "A51 (V27) 2",
+        "raw": "A51 (V27) 2 \u00b7 1127 \u00b7 1312 \u00b7 1448 \u00b7 Key, Colton \u00b7 Koehr, Zackary \u00b7 I4201 \u00b7 1.6/0.0 \u00b7 TOUR OF TEXAS",
+        "role": "I4201",
+        "remarks": "TOUR OF TEXAS",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4201",
+        "start": "1321",
+        "end": "1457",
+        "land": "1457",
+        "brief": "1136",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAMILTON",
+            "first": "ZACHARY",
+            "full": "HAMILTON, ZACHARY"
+          },
+          {
+            "last": "SWOPE",
+            "first": "PEYTON",
+            "full": "SWOPE, PEYTON"
+          }
+        ],
+        "instructors": [
+          "HAMILTON, ZACHARY"
+        ],
+        "students": [
+          "SWOPE, PEYTON"
+        ],
+        "page": 2,
+        "line": "A54 (V27) 2",
+        "raw": "A54 (V27) 2 \u00b7 1136 \u00b7 1321 \u00b7 1457 \u00b7 Hamilton, Zachary \u00b7 Swope, Peyton \u00b7 I4201 \u00b7 1.6/0.0 \u00b7 TOUR OF TEXAS",
+        "role": "I4201",
+        "remarks": "TOUR OF TEXAS",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4303",
+        "start": "1324",
+        "end": "1506",
+        "land": "1506",
+        "brief": "1139",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KLETTER",
+            "first": "DYLAN",
+            "full": "KLETTER, DYLAN"
+          },
+          {
+            "last": "SCOTT",
+            "first": "JOSEPH",
+            "full": "SCOTT, JOSEPH"
+          }
+        ],
+        "instructors": [
+          "KLETTER, DYLAN"
+        ],
+        "students": [
+          "SCOTT, JOSEPH"
+        ],
+        "page": 2,
+        "line": "A56 (V27) 2",
+        "raw": "A56 (V27) 2 \u00b7 1139 \u00b7 1324 \u00b7 1506 \u00b7 Kletter, Dylan \u00b7 Scott, Joseph \u00b7 I4303 \u00b7 1.7/0.0 \u00b7 TOUR OF TEXAS",
+        "role": "I4303",
+        "remarks": "TOUR OF TEXAS",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4201",
+        "start": "1333",
+        "end": "1509",
+        "land": "1509",
+        "brief": "1148",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAUCH",
+            "first": "MICHAEL",
+            "full": "MAUCH, MICHAEL"
+          },
+          {
+            "last": "WATERS",
+            "first": "MITCHELL",
+            "full": "WATERS, MITCHELL"
+          }
+        ],
+        "instructors": [
+          "MAUCH, MICHAEL"
+        ],
+        "students": [
+          "WATERS, MITCHELL"
+        ],
+        "page": 2,
+        "line": "B59 (V27) 2",
+        "raw": "B59 (V27) 2 \u00b7 1148 \u00b7 1333 \u00b7 1509 \u00b7 Mauch, Michael \u00b7 Waters, Mitchell \u00b7 I4201 \u00b7 1.6/0.0 \u00b7 TOUR OF TEXAS",
+        "role": "I4201",
+        "remarks": "TOUR OF TEXAS",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4103",
+        "start": "1657",
+        "end": "1833",
+        "land": "1833",
+        "brief": "1512",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PHIPPS",
+            "first": "JAMES",
+            "full": "PHIPPS, JAMES"
+          },
+          {
+            "last": "FITZGERALD",
+            "first": "PATRICK",
+            "full": "FITZGERALD, PATRICK"
+          }
+        ],
+        "instructors": [
+          "PHIPPS, JAMES"
+        ],
+        "students": [
+          "FITZGERALD, PATRICK"
+        ],
+        "page": 2,
+        "line": "A45 (V27) 3",
+        "raw": "A45 (V27) 3 \u00b7 1512 \u00b7 1657 \u00b7 1833 \u00b7 Phipps, James \u00b7 Fitzgerald, Patrick \u00b7 I4103 \u00b7 1.6/0.0 \u00b7 O/I RTN",
+        "role": "I4103",
+        "remarks": "O/I RTN",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4202",
+        "start": "1712",
+        "end": "1848",
+        "land": "1848",
+        "brief": "1527",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KEY",
+            "first": "COLTON",
+            "full": "KEY, COLTON"
+          },
+          {
+            "last": "KOEHR",
+            "first": "ZACKARY",
+            "full": "KOEHR, ZACKARY"
+          }
+        ],
+        "instructors": [
+          "KEY, COLTON"
+        ],
+        "students": [
+          "KOEHR, ZACKARY"
+        ],
+        "page": 2,
+        "line": "A51 (V27) 3",
+        "raw": "A51 (V27) 3 \u00b7 1527 \u00b7 1712 \u00b7 1848 \u00b7 Key, Colton \u00b7 Koehr, Zackary \u00b7 I4202 \u00b7 1.6/0.0 \u00b7 TOUR OF TEXAS // RTN NGP",
+        "role": "I4202",
+        "remarks": "TOUR OF TEXAS // RTN NGP",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4202",
+        "start": "1721",
+        "end": "1857",
+        "land": "1857",
+        "brief": "1536",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAMILTON",
+            "first": "ZACHARY",
+            "full": "HAMILTON, ZACHARY"
+          },
+          {
+            "last": "SWOPE",
+            "first": "PEYTON",
+            "full": "SWOPE, PEYTON"
+          }
+        ],
+        "instructors": [
+          "HAMILTON, ZACHARY"
+        ],
+        "students": [
+          "SWOPE, PEYTON"
+        ],
+        "page": 2,
+        "line": "A54 (V27) 3",
+        "raw": "A54 (V27) 3 \u00b7 1536 \u00b7 1721 \u00b7 1857 \u00b7 Hamilton, Zachary \u00b7 Swope, Peyton \u00b7 I4202 \u00b7 1.6/0.0 \u00b7 TOUR OF TEXAS // RTN NGP",
+        "role": "I4202",
+        "remarks": "TOUR OF TEXAS // RTN NGP",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4304",
+        "start": "1724",
+        "end": "1906",
+        "land": "1906",
+        "brief": "1539",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KLETTER",
+            "first": "DYLAN",
+            "full": "KLETTER, DYLAN"
+          },
+          {
+            "last": "SCOTT",
+            "first": "JOSEPH",
+            "full": "SCOTT, JOSEPH"
+          }
+        ],
+        "instructors": [
+          "KLETTER, DYLAN"
+        ],
+        "students": [
+          "SCOTT, JOSEPH"
+        ],
+        "page": 2,
+        "line": "A56 (V27) 3",
+        "raw": "A56 (V27) 3 \u00b7 1539 \u00b7 1724 \u00b7 1906 \u00b7 Kletter, Dylan \u00b7 Scott, Joseph \u00b7 I4304 \u00b7 1.7/0.0 \u00b7 TOUR OF TEXAS // RTN NGP",
+        "role": "I4304",
+        "remarks": "TOUR OF TEXAS // RTN NGP",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4202 Schedule",
+        "start": "1733",
+        "end": "1909",
+        "land": "1909",
+        "brief": "1548",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAUCH",
+            "first": "MICHAEL",
+            "full": "MAUCH, MICHAEL"
+          },
+          {
+            "last": "WATERS",
+            "first": "MITCHELL",
+            "full": "WATERS, MITCHELL"
+          }
+        ],
+        "instructors": [
+          "MAUCH, MICHAEL"
+        ],
+        "students": [
+          "WATERS, MITCHELL"
+        ],
+        "page": 2,
+        "line": "B59 (V27) 3",
+        "raw": "B59 (V27) 3 \u00b7 1548 \u00b7 1733 \u00b7 1909 \u00b7 Mauch, Michael Simulator \u00b7 Waters, Mitchell (Sim Event) \u00b7 I4202 Schedule \u00b7 1.6/0.0 \u00b7 TOUR OF TEXAS // RTN NGP",
+        "role": "I4202 Schedule",
+        "remarks": "TOUR OF TEXAS // RTN NGP",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

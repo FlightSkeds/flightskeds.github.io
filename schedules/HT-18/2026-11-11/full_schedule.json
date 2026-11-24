@@ -450,5 +450,143 @@
       "line_number": 14,
       "text": "2"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "CDO",
+        "start": "0700",
+        "end": "2100",
+        "land": "2100",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BOWERS",
+            "first": "PHILLIP",
+            "full": "BOWERS, PHILLIP"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "CDO \u00b7 BOWERS, PHILLIP B, Capt \u00b7 0700 \u00b7 2100",
+        "role": "CDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM SDO",
+        "start": "0600",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HUANG",
+            "first": "BRENNA",
+            "full": "HUANG, BRENNA"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM SDO \u00b7 HUANG, BRENNA E, 1stLt \u00b7 0600 \u00b7 1800",
+        "role": "AM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM SDO",
+        "start": "1800",
+        "end": "0600",
+        "land": "0600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ROWLEY",
+            "first": "CAMERON",
+            "full": "ROWLEY, CAMERON"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM SDO \u00b7 ROWLEY, CAMERON R, ENS \u00b7 1800 \u00b7 0600",
+        "role": "PM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM DUTY DRIVER",
+        "start": "0730",
+        "end": "1600",
+        "land": "1600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CONTRERAS-MARTINEZ",
+            "first": "EZEQUIEL",
+            "full": "CONTRERAS-MARTINEZ, EZEQUIEL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM DUTY DRIVER \u00b7 CONTRERAS-MARTINEZ, EZEQUIEL , ENS \u00b7 0730 \u00b7 1600",
+        "role": "AM DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM DUTY DRIVER",
+        "start": "1500",
+        "end": "0200",
+        "land": "0200",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BLOWE",
+            "first": "JENOAH",
+            "full": "BLOWE, JENOAH"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM DUTY DRIVER \u00b7 BLOWE, JENOAH M, ENS \u00b7 1500 \u00b7 0200",
+        "role": "PM DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

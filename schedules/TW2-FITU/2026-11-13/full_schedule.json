@@ -429,5 +429,553 @@
       "line_number": 8,
       "text": "0800-0830 BI1108 HARRISON, BENJAMIN S, LCDR BURNEY, TARA , CIV"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "NA4201",
+        "start": "0900",
+        "end": "1012",
+        "land": "1012",
+        "brief": "0730",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MURRAY",
+            "first": "SHAWN",
+            "full": "MURRAY, SHAWN"
+          },
+          {
+            "last": "BURNELL",
+            "first": "MICHAEL",
+            "full": "BURNELL, MICHAEL"
+          }
+        ],
+        "instructors": [
+          "MURRAY, SHAWN"
+        ],
+        "students": [
+          "BURNELL, MICHAEL"
+        ],
+        "page": 1,
+        "line": "1",
+        "raw": "1 \u00b7 0730 \u00b7 0900 \u00b7 1012 \u00b7 MURRAY, SHAWN M, LT \u00b7 BURNELL, MICHAEL D, LCDR \u00b7 NA4201 \u00b7 1.2/0.0",
+        "role": "NA4201",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4203",
+        "start": "0930",
+        "end": "1042",
+        "land": "1042",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "COLLINS",
+            "first": "DEAN",
+            "full": "COLLINS, DEAN"
+          },
+          {
+            "last": "MULINIX",
+            "first": "BENJAMIN",
+            "full": "MULINIX, BENJAMIN"
+          }
+        ],
+        "instructors": [
+          "COLLINS, DEAN"
+        ],
+        "students": [
+          "MULINIX, BENJAMIN"
+        ],
+        "page": 1,
+        "line": "2",
+        "raw": "2 \u00b7 0800 \u00b7 0930 \u00b7 1042 \u00b7 COLLINS, DEAN R, LtCol \u00b7 MULINIX, BENJAMIN S, CAPT \u00b7 NA4203 \u00b7 1.2/0.0",
+        "role": "NA4203",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "DIV LEAD",
+        "start": "1015",
+        "end": "1139",
+        "land": "1139",
+        "brief": "0845",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HUIZAR JR",
+            "first": "HECTOR",
+            "full": "HUIZAR JR, HECTOR"
+          }
+        ],
+        "instructors": [
+          "HUIZAR JR, HECTOR"
+        ],
+        "students": [],
+        "page": 1,
+        "line": "3",
+        "raw": "3 \u00b7 0845 \u00b7 1015 \u00b7 1139 \u00b7 HUIZAR JR, HECTOR S, CTR \u00b7 DIV LEAD \u00b7 1.4/0.0 \u00b7 LD TUCKER & FICK",
+        "role": "DIV LEAD",
+        "remarks": "LD TUCKER & FICK",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "DIV4102",
+        "start": "1015",
+        "end": "1139",
+        "land": "1139",
+        "brief": "0845",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CONNOR",
+            "first": "CRAIG",
+            "full": "CONNOR, CRAIG"
+          },
+          {
+            "last": "TUCKER",
+            "first": "CHRISTOPHER",
+            "full": "TUCKER, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "CONNOR, CRAIG"
+        ],
+        "students": [
+          "TUCKER, CHRISTOPHER"
+        ],
+        "page": 1,
+        "line": "4",
+        "raw": "4 \u00b7 0845 \u00b7 1015 \u00b7 1139 \u00b7 CONNOR, CRAIG H, CAPT \u00b7 TUCKER, CHRISTOPHER S, LCDR \u00b7 DIV4102 \u00b7 1.4/0.0 \u00b7 RC",
+        "role": "DIV4102",
+        "remarks": "RC",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "DIV4102",
+        "start": "1015",
+        "end": "1139",
+        "land": "1139",
+        "brief": "0845",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CURRAN",
+            "first": "PETER",
+            "full": "CURRAN, PETER"
+          },
+          {
+            "last": "FICK",
+            "first": "AUSTIN",
+            "full": "FICK, AUSTIN"
+          }
+        ],
+        "instructors": [
+          "CURRAN, PETER"
+        ],
+        "students": [
+          "FICK, AUSTIN"
+        ],
+        "page": 1,
+        "line": "5",
+        "raw": "5 \u00b7 0845 \u00b7 1015 \u00b7 1139 \u00b7 CURRAN, PETER J, CTR \u00b7 FICK, AUSTIN N, LCDR \u00b7 DIV4102 \u00b7 1.4/0.0 \u00b7 RC",
+        "role": "DIV4102",
+        "remarks": "RC",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4202",
+        "start": "1200",
+        "end": "1312",
+        "land": "1312",
+        "brief": "1030",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MURRAY",
+            "first": "SHAWN",
+            "full": "MURRAY, SHAWN"
+          },
+          {
+            "last": "BURNELL",
+            "first": "MICHAEL",
+            "full": "BURNELL, MICHAEL"
+          }
+        ],
+        "instructors": [
+          "MURRAY, SHAWN"
+        ],
+        "students": [
+          "BURNELL, MICHAEL"
+        ],
+        "page": 1,
+        "line": "6",
+        "raw": "6 \u00b7 1030 \u00b7 1200 \u00b7 1312 \u00b7 MURRAY, SHAWN M, LT Simulator (Sim \u00b7 Event) \u00b7 BURNELL, MICHAEL D, LCDR Schedule \u00b7 NA4202 \u00b7 1.2/0.0",
+        "role": "NA4202",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NA3590",
+        "start": "0930",
+        "end": "",
+        "land": "",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "OBRIEN",
+            "first": "JOSEPH",
+            "full": "OBRIEN, JOSEPH"
+          },
+          {
+            "last": "WATERMAN",
+            "first": "RYAN",
+            "full": "WATERMAN, RYAN"
+          }
+        ],
+        "instructors": [
+          "OBRIEN, JOSEPH"
+        ],
+        "students": [
+          "WATERMAN, RYAN"
+        ],
+        "page": 1,
+        "line": "1",
+        "raw": "1 \u00b7 0900 \u00b7 0930 \u00b7 505 \u00b7 OBRIEN, JOSEPH M, CTR \u00b7 WATERMAN, RYAN R, Capt Ground Events \u00b7 NA3590",
+        "role": "NA3590",
+        "remarks": "",
+        "duration": "",
+        "device": "505",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "Ground",
+        "start": "1030",
+        "end": "1130",
+        "land": "1130",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HARRISON",
+            "first": "BENJAMIN",
+            "full": "HARRISON, BENJAMIN"
+          },
+          {
+            "last": "STROTHER",
+            "first": "HARRY",
+            "full": "STROTHER, HARRY"
+          }
+        ],
+        "instructors": [
+          "STROTHER, HARRY"
+        ],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "1030-1130 BI1110X \u00b7 GT Room 144 \u00b7 HARRISON, BENJAMIN S, LCDR \u00b7 STROTHER, HARRY A, CTR",
+        "role": "Ground",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "Ground",
+        "start": "0730",
+        "end": "0830",
+        "land": "0830",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HARRISON",
+            "first": "BENJAMIN",
+            "full": "HARRISON, BENJAMIN"
+          },
+          {
+            "last": "MELIN",
+            "first": "JUSTIN",
+            "full": "MELIN, JUSTIN"
+          }
+        ],
+        "instructors": [
+          "MELIN, JUSTIN"
+        ],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "0730-0830 AN1101 \u00b7 GT Room 111 \u00b7 HARRISON, BENJAMIN S, LCDR \u00b7 MELIN, JUSTIN S, CTR",
+        "role": "Ground",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "A",
+        "start": "0800",
+        "end": "0900",
+        "land": "0900",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "AIKEN",
+            "first": "CHRISTOPHER",
+            "full": "AIKEN, CHRISTOPHER"
+          },
+          {
+            "last": "HARRISON",
+            "first": "BENJAMIN",
+            "full": "HARRISON, BENJAMIN"
+          },
+          {
+            "last": "CHAPAGARCIA",
+            "first": "JESUS",
+            "full": "CHAPAGARCIA, JESUS"
+          },
+          {
+            "last": "CTR",
+            "first": "ELEFTHERIOU",
+            "full": "CTR, ELEFTHERIOU"
+          },
+          {
+            "last": "LUKAS",
+            "first": "E",
+            "full": "LUKAS, E"
+          },
+          {
+            "last": "KARVELIS",
+            "first": "NATALIA",
+            "full": "KARVELIS, NATALIA"
+          }
+        ],
+        "instructors": [
+          "KARVELIS, NATALIA"
+        ],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "0800-0900 LEVEL \u00b7 A \u00b7 GT Room 141 \u00b7 AIKEN, CHRISTOPHER R, LCDR, HARRISON, BENJAMIN S, LCDR, CHAPAGARCIA, JESUS , CTR, ELEFTHERIOU, LUKAS E, 1stLt \u00b7 Karvelis, Natalia , LT",
+        "role": "A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "Ground",
+        "start": "0830",
+        "end": "0930",
+        "land": "0930",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HARRISON",
+            "first": "BENJAMIN",
+            "full": "HARRISON, BENJAMIN"
+          },
+          {
+            "last": "STROTHER",
+            "first": "HARRY",
+            "full": "STROTHER, HARRY"
+          }
+        ],
+        "instructors": [
+          "STROTHER, HARRY"
+        ],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "0830-0930 BI1109 \u00b7 GT Room 144 \u00b7 HARRISON, BENJAMIN S, LCDR \u00b7 STROTHER, HARRY A, CTR",
+        "role": "Ground",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "Ground",
+        "start": "0915",
+        "end": "1015",
+        "land": "1015",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "AIKEN",
+            "first": "CHRISTOPHER",
+            "full": "AIKEN, CHRISTOPHER"
+          },
+          {
+            "last": "SHARP",
+            "first": "BLAKE",
+            "full": "SHARP, BLAKE"
+          },
+          {
+            "last": "CHAPAGARCIA",
+            "first": "JESUS",
+            "full": "CHAPAGARCIA, JESUS"
+          },
+          {
+            "last": "CTR",
+            "first": "HARRISON",
+            "full": "CTR, HARRISON"
+          },
+          {
+            "last": "BENJAMIN",
+            "first": "S",
+            "full": "BENJAMIN, S"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0915-1015 ROBD \u00b7 GT Room 136 VR \u00b7 AIKEN, CHRISTOPHER R, LCDR, SHARP, BLAKE R, LT, CHAPAGARCIA, JESUS , CTR, HARRISON, BENJAMIN S, LCDR",
+        "role": "Ground",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "Ground",
+        "start": "1030",
+        "end": "1430",
+        "land": "1430",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "AIKEN",
+            "first": "CHRISTOPHER",
+            "full": "AIKEN, CHRISTOPHER"
+          },
+          {
+            "last": "CHAPAGARCIA",
+            "first": "JESUS",
+            "full": "CHAPAGARCIA, JESUS"
+          },
+          {
+            "last": "STROTHER",
+            "first": "HARRY",
+            "full": "STROTHER, HARRY"
+          }
+        ],
+        "instructors": [
+          "STROTHER, HARRY"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "1030-1430 IGS \u00b7 GT Room 141 \u00b7 AIKEN, CHRISTOPHER R, LCDR, CHAPAGARCIA, JESUS , CTR \u00b7 STROTHER, HARRY A, CTR",
+        "role": "Ground",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "Ground",
+        "start": "0700",
+        "end": "0730",
+        "land": "0730",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HARRISON",
+            "first": "BENJAMIN",
+            "full": "HARRISON, BENJAMIN"
+          },
+          {
+            "last": "BURNEY",
+            "first": "TARA",
+            "full": "BURNEY, TARA"
+          }
+        ],
+        "instructors": [
+          "BURNEY, TARA"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0700-0730 BI1106 \u00b7 HARRISON, BENJAMIN S, LCDR \u00b7 BURNEY, TARA , CIV",
+        "role": "Ground",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "Ground",
+        "start": "0800",
+        "end": "0830",
+        "land": "0830",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HARRISON",
+            "first": "BENJAMIN",
+            "full": "HARRISON, BENJAMIN"
+          },
+          {
+            "last": "BURNEY",
+            "first": "TARA",
+            "full": "BURNEY, TARA"
+          }
+        ],
+        "instructors": [
+          "BURNEY, TARA"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0800-0830 BI1108 \u00b7 HARRISON, BENJAMIN S, LCDR \u00b7 BURNEY, TARA , CIV",
+        "role": "Ground",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

@@ -451,5 +451,484 @@
       "line_number": 28,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "ODO (ON CALL)",
+        "start": "0000",
+        "end": "1230",
+        "land": "1230",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LIPSCOMB",
+            "first": "BRIAN",
+            "full": "LIPSCOMB, BRIAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "ODO (ON CALL) \u00b7 LIPSCOMB, BRIAN A, LCDR \u00b7 0000 \u00b7 1230",
+        "role": "ODO (ON CALL)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER",
+        "start": "0000",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LINDGREN",
+            "first": "JOHN",
+            "full": "LINDGREN, JOHN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER \u00b7 LINDGREN, JOHN , ENS \u00b7 0000 \u00b7 1800",
+        "role": "DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "IWO",
+        "start": "0600",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HOMOLA",
+            "first": "JOSEF",
+            "full": "HOMOLA, JOSEF"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "IWO \u00b7 HOMOLA, JOSEF P, ENS \u00b7 0600 \u00b7 1800",
+        "role": "IWO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM ODO",
+        "start": "1230",
+        "end": "1700",
+        "land": "1700",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LIPSCOMB",
+            "first": "BRIAN",
+            "full": "LIPSCOMB, BRIAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM ODO \u00b7 LIPSCOMB, BRIAN A, LCDR \u00b7 1230 \u00b7 1700",
+        "role": "PM ODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "ODO (ON CALL)",
+        "start": "1700",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LIPSCOMB",
+            "first": "BRIAN",
+            "full": "LIPSCOMB, BRIAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "ODO (ON CALL) \u00b7 LIPSCOMB, BRIAN A, LCDR \u00b7 1700 \u00b7 2359",
+        "role": "ODO (ON CALL)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "IWO",
+        "start": "1800",
+        "end": "0600",
+        "land": "0600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WEGENER",
+            "first": "WILLIAM",
+            "full": "WEGENER, WILLIAM"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "IWO \u00b7 WEGENER, WILLIAM C, LTJG \u00b7 1800 \u00b7 0600",
+        "role": "IWO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4401",
+        "start": "0800",
+        "end": "0912",
+        "land": "0912",
+        "brief": "0615",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GROVES",
+            "first": "DONALD",
+            "full": "GROVES, DONALD"
+          },
+          {
+            "last": "BILLANTE",
+            "first": "GIANLUCA",
+            "full": "BILLANTE, GIANLUCA"
+          }
+        ],
+        "instructors": [
+          "GROVES, DONALD"
+        ],
+        "students": [
+          "BILLANTE, GIANLUCA"
+        ],
+        "page": 2,
+        "line": "701",
+        "raw": "701 \u00b7 0615 \u00b7 0800 \u00b7 0912 \u00b7 GROVES, DONALD A, LtCol \u00b7 BILLANTE, GIANLUCA C, ENS \u00b7 TR4401 \u00b7 1.2 \u00b7 MEI OPS",
+        "role": "TR4401",
+        "remarks": "MEI OPS",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4104",
+        "start": "1100",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0915",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CARAWAY",
+            "first": "JOSEPH",
+            "full": "CARAWAY, JOSEPH"
+          },
+          {
+            "last": "BANCROFT",
+            "first": "BEN",
+            "full": "BANCROFT, BEN"
+          }
+        ],
+        "instructors": [
+          "CARAWAY, JOSEPH"
+        ],
+        "students": [
+          "BANCROFT, BEN"
+        ],
+        "page": 2,
+        "line": "702",
+        "raw": "702 \u00b7 0915 \u00b7 1100 \u00b7 1230 \u00b7 CARAWAY, JOSEPH M, LT \u00b7 BANCROFT, BEN , LTJG \u00b7 IR4104 \u00b7 1.5 \u00b7 CCX; COS-TUL",
+        "role": "IR4104",
+        "remarks": "CCX; COS-TUL",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4105",
+        "start": "1100",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0915",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAZAL",
+            "first": "KAMIL",
+            "full": "MAZAL, KAMIL"
+          },
+          {
+            "last": "ARNOLD",
+            "first": "ELIZABETH",
+            "full": "ARNOLD, ELIZABETH"
+          }
+        ],
+        "instructors": [
+          "MAZAL, KAMIL"
+        ],
+        "students": [
+          "ARNOLD, ELIZABETH"
+        ],
+        "page": 2,
+        "line": "703",
+        "raw": "703 \u00b7 0915 \u00b7 1100 \u00b7 1230 \u00b7 MAZAL, KAMIL A, LT \u00b7 ARNOLD, ELIZABETH C, LTJG \u00b7 IR4105 \u00b7 1.5 \u00b7 CCX; COS-TUL",
+        "role": "IR4105",
+        "remarks": "CCX; COS-TUL",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4104",
+        "start": "1100",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0915",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HALEY",
+            "first": "MICHAEL",
+            "full": "HALEY, MICHAEL"
+          },
+          {
+            "last": "DIERICKX",
+            "first": "ABRAM",
+            "full": "DIERICKX, ABRAM"
+          }
+        ],
+        "instructors": [
+          "HALEY, MICHAEL"
+        ],
+        "students": [
+          "DIERICKX, ABRAM"
+        ],
+        "page": 2,
+        "line": "704",
+        "raw": "704 \u00b7 0915 \u00b7 1100 \u00b7 1230 \u00b7 HALEY, MICHAEL P, LT \u00b7 DIERICKX, ABRAM W, LTJG \u00b7 IR4104 \u00b7 1.5 \u00b7 MEI OPS; SIGN AT NMM",
+        "role": "IR4104",
+        "remarks": "MEI OPS; SIGN AT NMM",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4401",
+        "start": "1200",
+        "end": "1312",
+        "land": "1312",
+        "brief": "1015",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GROVES",
+            "first": "DONALD",
+            "full": "GROVES, DONALD"
+          },
+          {
+            "last": "BOEUF",
+            "first": "AYRTON",
+            "full": "BOEUF, AYRTON"
+          }
+        ],
+        "instructors": [
+          "GROVES, DONALD"
+        ],
+        "students": [
+          "BOEUF, AYRTON"
+        ],
+        "page": 2,
+        "line": "705",
+        "raw": "705 \u00b7 1015 \u00b7 1200 \u00b7 1312 \u00b7 GROVES, DONALD A, LtCol \u00b7 BOEUF, AYRTON, ENS \u00b7 TR4401 \u00b7 1.2 \u00b7 MEI OPS; O/I",
+        "role": "TR4401",
+        "remarks": "MEI OPS; O/I",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4105",
+        "start": "1400",
+        "end": "1530",
+        "land": "1530",
+        "brief": "1215",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CARAWAY",
+            "first": "JOSEPH",
+            "full": "CARAWAY, JOSEPH"
+          },
+          {
+            "last": "BANCROFT",
+            "first": "BEN",
+            "full": "BANCROFT, BEN"
+          }
+        ],
+        "instructors": [
+          "CARAWAY, JOSEPH"
+        ],
+        "students": [
+          "BANCROFT, BEN"
+        ],
+        "page": 2,
+        "line": "706",
+        "raw": "706 \u00b7 1215 \u00b7 1400 \u00b7 1530 \u00b7 CARAWAY, JOSEPH M, LT \u00b7 BANCROFT, BEN , LTJG \u00b7 IR4105 \u00b7 1.5 \u00b7 CCX; TUL-NMM",
+        "role": "IR4105",
+        "remarks": "CCX; TUL-NMM",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "LOG",
+        "start": "1400",
+        "end": "1530",
+        "land": "1530",
+        "brief": "1215",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAZAL",
+            "first": "KAMIL",
+            "full": "MAZAL, KAMIL"
+          },
+          {
+            "last": "ARNOLD",
+            "first": "ELIZABETH",
+            "full": "ARNOLD, ELIZABETH"
+          }
+        ],
+        "instructors": [
+          "MAZAL, KAMIL"
+        ],
+        "students": [
+          "ARNOLD, ELIZABETH"
+        ],
+        "page": 2,
+        "line": "707",
+        "raw": "707 \u00b7 1215 \u00b7 1400 \u00b7 1530 \u00b7 MAZAL, KAMIL A, LT \u00b7 ARNOLD, ELIZABETH C, LTJG \u00b7 LOG \u00b7 1.5 \u00b7 CCX; TUL-NMM",
+        "role": "LOG",
+        "remarks": "CCX; TUL-NMM",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4105",
+        "start": "1400",
+        "end": "1530",
+        "land": "1530",
+        "brief": "1215",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HALEY",
+            "first": "MICHAEL",
+            "full": "HALEY, MICHAEL"
+          },
+          {
+            "last": "DIERICKX",
+            "first": "ABRAM",
+            "full": "DIERICKX, ABRAM"
+          }
+        ],
+        "instructors": [
+          "HALEY, MICHAEL"
+        ],
+        "students": [
+          "DIERICKX, ABRAM"
+        ],
+        "page": 2,
+        "line": "708",
+        "raw": "708 \u00b7 1215 \u00b7 1400 \u00b7 1530 \u00b7 HALEY, MICHAEL P, LT \u00b7 DIERICKX, ABRAM W, LTJG \u00b7 IR4105 \u00b7 1.5 \u00b7 RTB",
+        "role": "IR4105",
+        "remarks": "RTB",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4402",
+        "start": "1530",
+        "end": "1642",
+        "land": "1642",
+        "brief": "1345",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GROVES",
+            "first": "DONALD",
+            "full": "GROVES, DONALD"
+          },
+          {
+            "last": "BOEUF",
+            "first": "AYRTON",
+            "full": "BOEUF, AYRTON"
+          }
+        ],
+        "instructors": [
+          "GROVES, DONALD"
+        ],
+        "students": [
+          "BOEUF, AYRTON"
+        ],
+        "page": 2,
+        "line": "709",
+        "raw": "709 \u00b7 1345 \u00b7 1530 \u00b7 1642 \u00b7 GROVES, DONALD A, LtCol Simulator (Sim \u00b7 BOEUF, AYRTON, ENS Event) Schedule \u00b7 TR4402 \u00b7 1.2 \u00b7 RTB",
+        "role": "TR4402",
+        "remarks": "RTB",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

@@ -1072,5 +1072,887 @@
       "line_number": 124,
       "text": "ts P e r L in e"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "01 V3 1 3 W EA TH ER FO R D , R  01 V3 2 3 W EA TH ER FO R D , R 01 V3 3 3 W EA TH ER FO R D , R 01 V3 4    LO W ER Y, C I4203  LO W ER Y, C I4204 LO W ER Y, C I4301     02 V3 1 3 H ER A TH , T  02 V3 2 3 H ER A TH , T 02 V3 3 3 H ER A TH , T 02 V3 4    FU R M A N , B I4204  FU R M A N , B I4301 FU R M A N , B I4302     03 V3 1 3 R IC H , R  03 V3 2 3 R IC H , R 03 V3 3 3 R IC H , R 03 V3 4    PLA TT, K I4203  PLA TT, K I4204 PLA TT, K I4301     04 V3 1 2 M ILLER , B  04 V3 2 2 M ILLER , B 04 V3 3 04 V3 4    LA N G E, J I4204  LA N G E, J I4301      05 V3 1 3 H U M PH R EYS, M  05 V3 2 3 H U M PH R EYS, M 05 V3 3 3 H U M PH R EYS, M 05 V3 4    SA M M U T, M I4303  SA M M U T, M I4304 SA M M U T, M I4490     06 V3 1 3 LO C H O W SK I, A  06 V3 2 3 LO C H O W SK I, A 06 V3 3 3 LO C H O W SK I, A 06 V3 4    H A LE, B I4204   H A LE, B I4301 H A LE, B I4302     07 V3 1 2 G LA U B ITZ, G  07 V3 2 2 G LA U B ITZ, G 07 V3 3 07 V3 4    C O U N TISS, B I4201  C O U N TISS, B I4202      08 V3 1 1 STEIN LIC H T, J  08 V3 2 08 V3 3 08 V3 4    D ESA N TIS, R I4490        09 V3 1 2 C U R R IE, A  09 V3 2 2 C U R R IE, A 09 V3 3 09 V3 4    C H A PPA N O , P I4301  C H A PPA N O , P I4204     ",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "Day SDO",
+        "start": "0800",
+        "end": "2000",
+        "land": "2000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PUMA",
+            "first": "ALFONSO",
+            "full": "PUMA, ALFONSO"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "Day SDO \u00b7 PUMA, ALFONSO \u00b7 0800 \u00b7 2000",
+        "role": "Day SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "Night SDO",
+        "start": "2000",
+        "end": "0800",
+        "land": "0800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LONG",
+            "first": "COLE",
+            "full": "LONG, COLE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "Night SDO \u00b7 LONG, COLE \u00b7 2000 \u00b7 0800",
+        "role": "Night SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "WKEND AM DUTY DRIVER",
+        "start": "0600",
+        "end": "2000",
+        "land": "2000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DOWNARD",
+            "first": "COLBY",
+            "full": "DOWNARD, COLBY"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "WKEND AM DUTY DRIVER \u00b7 DOWNARD, COLBY \u00b7 0600 \u00b7 2000",
+        "role": "WKEND AM DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "CDO",
+        "start": "1200",
+        "end": "1201",
+        "land": "1201",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BAILEY",
+            "first": "LOGAN",
+            "full": "BAILEY, LOGAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "CDO \u00b7 BAILEY, LOGAN \u00b7 1200 \u00b7 1201",
+        "role": "CDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4203",
+        "start": "0702",
+        "end": "0838",
+        "land": "0838",
+        "brief": "0517",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WEATHERFORD",
+            "first": "REECE",
+            "full": "WEATHERFORD, REECE"
+          },
+          {
+            "last": "LOWERY",
+            "first": "CHARLES",
+            "full": "LOWERY, CHARLES"
+          }
+        ],
+        "instructors": [
+          "WEATHERFORD, REECE"
+        ],
+        "students": [
+          "LOWERY, CHARLES"
+        ],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0517 \u00b7 0702 \u00b7 0838 \u00b7 WEATHERFORD, REECE# \u00b7 LOWERY, CHARLES# \u00b7 I4203 \u00b7 1.6/0.0 \u00b7 3X; CCX RETURN",
+        "role": "I4203",
+        "remarks": "3X; CCX RETURN",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "0705",
+        "end": "0841",
+        "land": "0841",
+        "brief": "0520",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HERATH",
+            "first": "TYLER",
+            "full": "HERATH, TYLER"
+          },
+          {
+            "last": "FURMAN",
+            "first": "BRANTON",
+            "full": "FURMAN, BRANTON"
+          }
+        ],
+        "instructors": [
+          "HERATH, TYLER"
+        ],
+        "students": [
+          "FURMAN, BRANTON"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0520 \u00b7 0705 \u00b7 0841 \u00b7 HERATH, TYLER# \u00b7 FURMAN, BRANTON# \u00b7 I4204 \u00b7 1.6/0.0 \u00b7 3X; CCX RETURN",
+        "role": "I4204",
+        "remarks": "3X; CCX RETURN",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4203",
+        "start": "0716",
+        "end": "0852",
+        "land": "0852",
+        "brief": "0531",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RICH",
+            "first": "ROBERT",
+            "full": "RICH, ROBERT"
+          },
+          {
+            "last": "PLATT",
+            "first": "KYLE",
+            "full": "PLATT, KYLE"
+          }
+        ],
+        "instructors": [
+          "RICH, ROBERT"
+        ],
+        "students": [
+          "PLATT, KYLE"
+        ],
+        "page": 2,
+        "line": "3",
+        "raw": "3 \u00b7 0531 \u00b7 0716 \u00b7 0852 \u00b7 RICH, ROBERT# \u00b7 PLATT, KYLE# \u00b7 I4203 \u00b7 1.6/0.0 \u00b7 3X; CCX RETURN",
+        "role": "I4203",
+        "remarks": "3X; CCX RETURN",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "0719",
+        "end": "0855",
+        "land": "0855",
+        "brief": "0534",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MILLER",
+            "first": "BRANNON",
+            "full": "MILLER, BRANNON"
+          },
+          {
+            "last": "LANGE",
+            "first": "JACK",
+            "full": "LANGE, JACK"
+          }
+        ],
+        "instructors": [
+          "MILLER, BRANNON"
+        ],
+        "students": [
+          "LANGE, JACK"
+        ],
+        "page": 2,
+        "line": "4",
+        "raw": "4 \u00b7 0534 \u00b7 0719 \u00b7 0855 \u00b7 MILLER, BRANNON# \u00b7 LANGE, JACK# \u00b7 I4204 \u00b7 1.6/0.0 \u00b7 2X; CCX RETURN",
+        "role": "I4204",
+        "remarks": "2X; CCX RETURN",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4303",
+        "start": "0733",
+        "end": "0915",
+        "land": "0915",
+        "brief": "0548",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HUMPHREYS",
+            "first": "MICHAEL",
+            "full": "HUMPHREYS, MICHAEL"
+          },
+          {
+            "last": "SAMMUT",
+            "first": "MICHAEL",
+            "full": "SAMMUT, MICHAEL"
+          }
+        ],
+        "instructors": [
+          "HUMPHREYS, MICHAEL"
+        ],
+        "students": [
+          "SAMMUT, MICHAEL"
+        ],
+        "page": 2,
+        "line": "5",
+        "raw": "5 \u00b7 0548 \u00b7 0733 \u00b7 0915 \u00b7 HUMPHREYS, MICHAEL# \u00b7 SAMMUT, MICHAEL# \u00b7 I4303 \u00b7 1.7/0.0 \u00b7 3X; CCX RETURN",
+        "role": "I4303",
+        "remarks": "3X; CCX RETURN",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "0736",
+        "end": "0912",
+        "land": "0912",
+        "brief": "0551",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LOCHOWSKI",
+            "first": "ANDREW",
+            "full": "LOCHOWSKI, ANDREW"
+          },
+          {
+            "last": "HALE",
+            "first": "BENJAMIN",
+            "full": "HALE, BENJAMIN"
+          }
+        ],
+        "instructors": [
+          "LOCHOWSKI, ANDREW"
+        ],
+        "students": [
+          "HALE, BENJAMIN"
+        ],
+        "page": 2,
+        "line": "6",
+        "raw": "6 \u00b7 0551 \u00b7 0736 \u00b7 0912 \u00b7 LOCHOWSKI, ANDREW# \u00b7 HALE, BENJAMIN# \u00b7 I4204 \u00b7 1.6/0.0 \u00b7 3X; CCX RETURN",
+        "role": "I4204",
+        "remarks": "3X; CCX RETURN",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4201",
+        "start": "0747",
+        "end": "0923",
+        "land": "0923",
+        "brief": "0602",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GLAUBITZ",
+            "first": "GRACEN",
+            "full": "GLAUBITZ, GRACEN"
+          },
+          {
+            "last": "COUNTISS",
+            "first": "BENJAMIN",
+            "full": "COUNTISS, BENJAMIN"
+          }
+        ],
+        "instructors": [
+          "GLAUBITZ, GRACEN"
+        ],
+        "students": [
+          "COUNTISS, BENJAMIN"
+        ],
+        "page": 2,
+        "line": "7",
+        "raw": "7 \u00b7 0602 \u00b7 0747 \u00b7 0923 \u00b7 GLAUBITZ, GRACEN# \u00b7 COUNTISS, BENJAMIN# \u00b7 I4201 \u00b7 1.6/0.0 \u00b7 2X; O/I",
+        "role": "I4201",
+        "remarks": "2X; O/I",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4490",
+        "start": "0750",
+        "end": "0932",
+        "land": "0932",
+        "brief": "0605",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STEINLICHT",
+            "first": "JASON",
+            "full": "STEINLICHT, JASON"
+          },
+          {
+            "last": "DESANTIS",
+            "first": "RAFAELLE",
+            "full": "DESANTIS, RAFAELLE"
+          }
+        ],
+        "instructors": [
+          "STEINLICHT, JASON"
+        ],
+        "students": [
+          "DESANTIS, RAFAELLE"
+        ],
+        "page": 2,
+        "line": "8",
+        "raw": "8 \u00b7 0605 \u00b7 0750 \u00b7 0932 \u00b7 STEINLICHT, JASON \u00b7 DESANTIS, RAFAELLE \u00b7 I4490 \u00b7 1.7/0.0 \u00b7 KPNS RETURN; CTO; KNSE 0700-1700; 2100-2300; KNDZ 1700-2100",
+        "role": "I4490",
+        "remarks": "KPNS RETURN; CTO; KNSE 0700-1700; 2100-2300; KNDZ 1700-2100",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4301",
+        "start": "0801",
+        "end": "0943",
+        "land": "0943",
+        "brief": "0616",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CURRIE",
+            "first": "ALEXANDER",
+            "full": "CURRIE, ALEXANDER"
+          },
+          {
+            "last": "CHAPPANO",
+            "first": "PHILIP",
+            "full": "CHAPPANO, PHILIP"
+          }
+        ],
+        "instructors": [
+          "CURRIE, ALEXANDER"
+        ],
+        "students": [
+          "CHAPPANO, PHILIP"
+        ],
+        "page": 2,
+        "line": "9",
+        "raw": "9 \u00b7 0616 \u00b7 0801 \u00b7 0943 \u00b7 CURRIE, ALEXANDER# \u00b7 CHAPPANO, PHILIP# \u00b7 I4301 \u00b7 1.7/0.0 \u00b7 2X; O/I",
+        "role": "I4301",
+        "remarks": "2X; O/I",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "1102",
+        "end": "1238",
+        "land": "1238",
+        "brief": "0917",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WEATHERFORD",
+            "first": "REECE",
+            "full": "WEATHERFORD, REECE"
+          },
+          {
+            "last": "LOWERY",
+            "first": "CHARLES",
+            "full": "LOWERY, CHARLES"
+          }
+        ],
+        "instructors": [
+          "WEATHERFORD, REECE"
+        ],
+        "students": [
+          "LOWERY, CHARLES"
+        ],
+        "page": 2,
+        "line": "10",
+        "raw": "10 \u00b7 0917 \u00b7 1102 \u00b7 1238 \u00b7 WEATHERFORD, REECE# \u00b7 LOWERY, CHARLES# \u00b7 I4204 \u00b7 1.6/0.0",
+        "role": "I4204",
+        "remarks": "",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4301",
+        "start": "1105",
+        "end": "1247",
+        "land": "1247",
+        "brief": "0920",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HERATH",
+            "first": "TYLER",
+            "full": "HERATH, TYLER"
+          },
+          {
+            "last": "FURMAN",
+            "first": "BRANTON",
+            "full": "FURMAN, BRANTON"
+          }
+        ],
+        "instructors": [
+          "HERATH, TYLER"
+        ],
+        "students": [
+          "FURMAN, BRANTON"
+        ],
+        "page": 2,
+        "line": "11",
+        "raw": "11 \u00b7 0920 \u00b7 1105 \u00b7 1247 \u00b7 HERATH, TYLER# \u00b7 FURMAN, BRANTON# \u00b7 I4301 \u00b7 1.7/0.0",
+        "role": "I4301",
+        "remarks": "",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "1116",
+        "end": "1252",
+        "land": "1252",
+        "brief": "0931",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RICH",
+            "first": "ROBERT",
+            "full": "RICH, ROBERT"
+          },
+          {
+            "last": "PLATT",
+            "first": "KYLE",
+            "full": "PLATT, KYLE"
+          }
+        ],
+        "instructors": [
+          "RICH, ROBERT"
+        ],
+        "students": [
+          "PLATT, KYLE"
+        ],
+        "page": 2,
+        "line": "12",
+        "raw": "12 \u00b7 0931 \u00b7 1116 \u00b7 1252 \u00b7 RICH, ROBERT# \u00b7 PLATT, KYLE# \u00b7 I4204 \u00b7 1.6/0.0",
+        "role": "I4204",
+        "remarks": "",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4301",
+        "start": "1119",
+        "end": "1301",
+        "land": "1301",
+        "brief": "0934",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MILLER",
+            "first": "BRANNON",
+            "full": "MILLER, BRANNON"
+          },
+          {
+            "last": "LANGE",
+            "first": "JACK",
+            "full": "LANGE, JACK"
+          }
+        ],
+        "instructors": [
+          "MILLER, BRANNON"
+        ],
+        "students": [
+          "LANGE, JACK"
+        ],
+        "page": 2,
+        "line": "13",
+        "raw": "13 \u00b7 0934 \u00b7 1119 \u00b7 1301 \u00b7 MILLER, BRANNON# \u00b7 LANGE, JACK# \u00b7 I4301 \u00b7 1.7/0.0 \u00b7 CTO; KNSE 0700-1700; 2100-2300; KNDZ 1700-2100",
+        "role": "I4301",
+        "remarks": "CTO; KNSE 0700-1700; 2100-2300; KNDZ 1700-2100",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4304",
+        "start": "1133",
+        "end": "1333",
+        "land": "1333",
+        "brief": "0948",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HUMPHREYS",
+            "first": "MICHAEL",
+            "full": "HUMPHREYS, MICHAEL"
+          },
+          {
+            "last": "SAMMUT",
+            "first": "MICHAEL",
+            "full": "SAMMUT, MICHAEL"
+          }
+        ],
+        "instructors": [
+          "HUMPHREYS, MICHAEL"
+        ],
+        "students": [
+          "SAMMUT, MICHAEL"
+        ],
+        "page": 2,
+        "line": "14",
+        "raw": "14 \u00b7 0948 \u00b7 1133 \u00b7 1333 \u00b7 HUMPHREYS, MICHAEL# \u00b7 SAMMUT, MICHAEL# \u00b7 I4304 \u00b7 2.0/0.0",
+        "role": "I4304",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4301",
+        "start": "1136",
+        "end": "1318",
+        "land": "1318",
+        "brief": "0951",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LOCHOWSKI",
+            "first": "ANDREW",
+            "full": "LOCHOWSKI, ANDREW"
+          },
+          {
+            "last": "HALE",
+            "first": "BENJAMIN",
+            "full": "HALE, BENJAMIN"
+          }
+        ],
+        "instructors": [
+          "LOCHOWSKI, ANDREW"
+        ],
+        "students": [
+          "HALE, BENJAMIN"
+        ],
+        "page": 2,
+        "line": "15",
+        "raw": "15 \u00b7 0951 \u00b7 1136 \u00b7 1318 \u00b7 LOCHOWSKI, ANDREW# \u00b7 HALE, BENJAMIN# \u00b7 I4301 \u00b7 1.7/0.0",
+        "role": "I4301",
+        "remarks": "",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4202",
+        "start": "1147",
+        "end": "1323",
+        "land": "1323",
+        "brief": "1002",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GLAUBITZ",
+            "first": "GRACEN",
+            "full": "GLAUBITZ, GRACEN"
+          },
+          {
+            "last": "COUNTISS",
+            "first": "BENJAMIN",
+            "full": "COUNTISS, BENJAMIN"
+          }
+        ],
+        "instructors": [
+          "GLAUBITZ, GRACEN"
+        ],
+        "students": [
+          "COUNTISS, BENJAMIN"
+        ],
+        "page": 2,
+        "line": "16",
+        "raw": "16 \u00b7 1002 \u00b7 1147 \u00b7 1323 \u00b7 GLAUBITZ, GRACEN# \u00b7 COUNTISS, BENJAMIN# \u00b7 I4202 \u00b7 1.6/0.0 \u00b7 CTO; KNSE 0700-1700; 2100-2300; KNDZ 1700-2100",
+        "role": "I4202",
+        "remarks": "CTO; KNSE 0700-1700; 2100-2300; KNDZ 1700-2100",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "1201",
+        "end": "1337",
+        "land": "1337",
+        "brief": "1016",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CURRIE",
+            "first": "ALEXANDER",
+            "full": "CURRIE, ALEXANDER"
+          },
+          {
+            "last": "CHAPPANO",
+            "first": "PHILIP",
+            "full": "CHAPPANO, PHILIP"
+          }
+        ],
+        "instructors": [
+          "CURRIE, ALEXANDER"
+        ],
+        "students": [
+          "CHAPPANO, PHILIP"
+        ],
+        "page": 2,
+        "line": "17",
+        "raw": "17 \u00b7 1016 \u00b7 1201 \u00b7 1337 \u00b7 CURRIE, ALEXANDER# \u00b7 CHAPPANO, PHILIP# \u00b7 I4204 \u00b7 1.6/0.0 \u00b7 CTO; KNSE 0700-1700; 2100-2300; KNDZ 1700-2100",
+        "role": "I4204",
+        "remarks": "CTO; KNSE 0700-1700; 2100-2300; KNDZ 1700-2100",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4301",
+        "start": "1502",
+        "end": "1644",
+        "land": "1644",
+        "brief": "1317",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WEATHERFORD",
+            "first": "REECE",
+            "full": "WEATHERFORD, REECE"
+          },
+          {
+            "last": "LOWERY",
+            "first": "CHARLES",
+            "full": "LOWERY, CHARLES"
+          }
+        ],
+        "instructors": [
+          "WEATHERFORD, REECE"
+        ],
+        "students": [
+          "LOWERY, CHARLES"
+        ],
+        "page": 2,
+        "line": "18",
+        "raw": "18 \u00b7 1317 \u00b7 1502 \u00b7 1644 \u00b7 WEATHERFORD, REECE# \u00b7 LOWERY, CHARLES# \u00b7 I4301 \u00b7 1.7/0.0 \u00b7 CTO; KNSE 0700-1700; 2100-2300; KNDZ 1700-2100",
+        "role": "I4301",
+        "remarks": "CTO; KNSE 0700-1700; 2100-2300; KNDZ 1700-2100",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4302",
+        "start": "1505",
+        "end": "1647",
+        "land": "1647",
+        "brief": "1320",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HERATH",
+            "first": "TYLER",
+            "full": "HERATH, TYLER"
+          },
+          {
+            "last": "FURMAN",
+            "first": "BRANTON",
+            "full": "FURMAN, BRANTON"
+          }
+        ],
+        "instructors": [
+          "HERATH, TYLER"
+        ],
+        "students": [
+          "FURMAN, BRANTON"
+        ],
+        "page": 2,
+        "line": "19",
+        "raw": "19 \u00b7 1320 \u00b7 1505 \u00b7 1647 \u00b7 HERATH, TYLER# \u00b7 FURMAN, BRANTON# \u00b7 I4302 \u00b7 1.7/0.0 \u00b7 CTO; KNSE 0700-1700; 2100-2300; KNDZ 1700-2100",
+        "role": "I4302",
+        "remarks": "CTO; KNSE 0700-1700; 2100-2300; KNDZ 1700-2100",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4301",
+        "start": "1516",
+        "end": "1658",
+        "land": "1658",
+        "brief": "1331",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RICH",
+            "first": "ROBERT",
+            "full": "RICH, ROBERT"
+          },
+          {
+            "last": "PLATT",
+            "first": "KYLE",
+            "full": "PLATT, KYLE"
+          }
+        ],
+        "instructors": [
+          "RICH, ROBERT"
+        ],
+        "students": [
+          "PLATT, KYLE"
+        ],
+        "page": 2,
+        "line": "20",
+        "raw": "20 \u00b7 1331 \u00b7 1516 \u00b7 1658 \u00b7 RICH, ROBERT# \u00b7 PLATT, KYLE# \u00b7 I4301 \u00b7 1.7/0.0 \u00b7 CTO; KNSE 0700-1700; 2100-2300; KNDZ 1700-2100",
+        "role": "I4301",
+        "remarks": "CTO; KNSE 0700-1700; 2100-2300; KNDZ 1700-2100",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4490",
+        "start": "1533",
+        "end": "1715",
+        "land": "1715",
+        "brief": "1348",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HUMPHREYS",
+            "first": "MICHAEL",
+            "full": "HUMPHREYS, MICHAEL"
+          },
+          {
+            "last": "SAMMUT",
+            "first": "MICHAEL",
+            "full": "SAMMUT, MICHAEL"
+          }
+        ],
+        "instructors": [
+          "HUMPHREYS, MICHAEL"
+        ],
+        "students": [
+          "SAMMUT, MICHAEL"
+        ],
+        "page": 2,
+        "line": "21",
+        "raw": "21 \u00b7 1348 \u00b7 1533 \u00b7 1715 \u00b7 HUMPHREYS, MICHAEL# \u00b7 SAMMUT, MICHAEL# \u00b7 I4490 \u00b7 1.7/0.0 \u00b7 4.9 NITE; CTO; KNSE 0700-1700; 2100- 2300; KNDZ 1700-2100",
+        "role": "I4490",
+        "remarks": "4.9 NITE; CTO; KNSE 0700-1700; 2100- 2300; KNDZ 1700-2100",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4302",
+        "start": "1536",
+        "end": "1718",
+        "land": "1718",
+        "brief": "1351",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LOCHOWSKI",
+            "first": "ANDREW",
+            "full": "LOCHOWSKI, ANDREW"
+          },
+          {
+            "last": "HALE",
+            "first": "BENJAMIN",
+            "full": "HALE, BENJAMIN"
+          }
+        ],
+        "instructors": [
+          "LOCHOWSKI, ANDREW"
+        ],
+        "students": [
+          "HALE, BENJAMIN"
+        ],
+        "page": 2,
+        "line": "22",
+        "raw": "22 \u00b7 1351 \u00b7 1536 \u00b7 1718 \u00b7 LOCHOWSKI, ANDREW# \u00b7 HALE, BENJAMIN# Simulator (Sim Event) Schedule \u00b7 I4302 \u00b7 1.7/0.0 \u00b7 CTO; KNSE 0700-1700; 2100-2300; KNDZ 1700-2100",
+        "role": "I4302",
+        "remarks": "CTO; KNSE 0700-1700; 2100-2300; KNDZ 1700-2100",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

@@ -340,5 +340,161 @@
       "line_number": 13,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "KNGP AM ODO",
+        "start": "0630",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MANDARINO",
+            "first": "KAHSE",
+            "full": "MANDARINO, KAHSE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP AM ODO \u00b7 Mandarino, Kahse \u00b7 0630 1430",
+        "role": "KNGP AM ODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "KNGP AM AODO",
+        "start": "0445",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "COLLINS",
+            "first": "JOHN",
+            "full": "COLLINS, JOHN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP AM AODO \u00b7 Collins, John \u00b7 0445 1400",
+        "role": "KNGP AM AODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "KNGP PM AODO",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CUNHA",
+            "first": "PEDRO",
+            "full": "CUNHA, PEDRO"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP PM AODO \u00b7 Cunha, Pedro \u00b7 1400 2359",
+        "role": "KNGP PM AODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4101",
+        "start": "1224",
+        "end": "1400",
+        "land": "1400",
+        "brief": "1039",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NELSEN",
+            "first": "BRENT",
+            "full": "NELSEN, BRENT"
+          },
+          {
+            "last": "MILLER",
+            "first": "WILLIAM",
+            "full": "MILLER, WILLIAM"
+          }
+        ],
+        "instructors": [
+          "NELSEN, BRENT"
+        ],
+        "students": [
+          "MILLER, WILLIAM"
+        ],
+        "page": 2,
+        "line": "A33 (V27) 2",
+        "raw": "A33 (V27) 2 \u00b7 1039 \u00b7 1224 \u00b7 1400 \u00b7 Nelsen, Brent \u00b7 Miller, William \u00b7 I4101 \u00b7 1.6/0.0 \u00b7 LAUNCH CRP // O/I // CONTACT IP FOR BRIEF TIME",
+        "role": "I4101",
+        "remarks": "LAUNCH CRP // O/I // CONTACT IP FOR BRIEF TIME",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4102 Schedule",
+        "start": "1624",
+        "end": "1800",
+        "land": "1800",
+        "brief": "1439",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NELSEN",
+            "first": "BRENT",
+            "full": "NELSEN, BRENT"
+          },
+          {
+            "last": "MILLER",
+            "first": "WILLIAM",
+            "full": "MILLER, WILLIAM"
+          }
+        ],
+        "instructors": [
+          "NELSEN, BRENT"
+        ],
+        "students": [
+          "MILLER, WILLIAM"
+        ],
+        "page": 2,
+        "line": "A33 (V27) 3",
+        "raw": "A33 (V27) 3 \u00b7 1439 \u00b7 1624 \u00b7 1800 \u00b7 Nelsen, Brent Simulator \u00b7 Miller, William (Sim Event) \u00b7 I4102 Schedule \u00b7 1.6/0.0 \u00b7 O/I RTN NGP",
+        "role": "I4102 Schedule",
+        "remarks": "O/I RTN NGP",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

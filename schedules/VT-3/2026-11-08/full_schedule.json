@@ -1271,5 +1271,467 @@
       "line_number": 154,
       "text": "Go's"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "   CHAPPANO, 2 USELIS, 1 BENSON, 2 DICARLO, 2 PETTERSSON 3     NIETO, MILLER, ANDERSON, BUTKUS, RORIJE,      BEXELIUS,     CHAPPANO, 2 BENSON, 2 DICARLO, 2 PETTERSSON 3     NIETO, ANDERSON, BUTKUS, RORIJE,      BEXELIUS,      RORIJE,      BEXELIUS, ",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "Day SDO",
+        "start": "0800",
+        "end": "2000",
+        "land": "2000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GILBERT",
+            "first": "JEREMIAH",
+            "full": "GILBERT, JEREMIAH"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "Day SDO \u00b7 GILBERT, JEREMIAH \u00b7 0800 \u00b7 2000",
+        "role": "Day SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "Night SDO",
+        "start": "2000",
+        "end": "0800",
+        "land": "0800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BENDER",
+            "first": "HENRY",
+            "full": "BENDER, HENRY"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "Night SDO \u00b7 BENDER, HENRY \u00b7 2000 \u00b7 0800",
+        "role": "Night SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "QA Skeds/Duty OPS",
+        "start": "0700",
+        "end": "1500",
+        "land": "1500",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "THOMAS",
+            "first": "WILLIAM",
+            "full": "THOMAS, WILLIAM"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "QA Skeds/Duty OPS \u00b7 THOMAS, WILLIAM \u00b7 0700 \u00b7 1500",
+        "role": "QA Skeds/Duty OPS",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "WKDAY AM DUTY DRIVER",
+        "start": "0600",
+        "end": "2000",
+        "land": "2000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HUMBER",
+            "first": "COLE",
+            "full": "HUMBER, COLE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "WKDAY AM DUTY DRIVER \u00b7 HUMBER, COLE \u00b7 0600 \u00b7 2000",
+        "role": "WKDAY AM DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "0702",
+        "end": "0838",
+        "land": "0838",
+        "brief": "0517",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RORIJE",
+            "first": "GERRIT",
+            "full": "RORIJE, GERRIT"
+          },
+          {
+            "last": "PETTERSSON BEXELIUS",
+            "first": "HUGO",
+            "full": "PETTERSSON BEXELIUS, HUGO"
+          }
+        ],
+        "instructors": [
+          "RORIJE, GERRIT"
+        ],
+        "students": [
+          "PETTERSSON BEXELIUS, HUGO"
+        ],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0517 \u00b7 0702 \u00b7 0838 \u00b7 RORIJE, GERRIT# \u00b7 PETTERSSON BEXELIUS, HUGO# \u00b7 I4204 \u00b7 1.6/0.0 \u00b7 3X; CCX RETURN",
+        "role": "I4204",
+        "remarks": "3X; CCX RETURN",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "0705",
+        "end": "0841",
+        "land": "0841",
+        "brief": "0520",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BUTKUS",
+            "first": "DARRIN",
+            "full": "BUTKUS, DARRIN"
+          },
+          {
+            "last": "DICARLO",
+            "first": "VICTORIA",
+            "full": "DICARLO, VICTORIA"
+          }
+        ],
+        "instructors": [
+          "BUTKUS, DARRIN"
+        ],
+        "students": [
+          "DICARLO, VICTORIA"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0520 \u00b7 0705 \u00b7 0841 \u00b7 BUTKUS, DARRIN# \u00b7 DICARLO, VICTORIA# \u00b7 I4204 \u00b7 1.6/0.0 \u00b7 2X; O/I",
+        "role": "I4204",
+        "remarks": "2X; O/I",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4301",
+        "start": "0716",
+        "end": "0858",
+        "land": "0858",
+        "brief": "0531",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ANDERSON",
+            "first": "JOSHUA",
+            "full": "ANDERSON, JOSHUA"
+          },
+          {
+            "last": "BENSON",
+            "first": "ROBERT",
+            "full": "BENSON, ROBERT"
+          }
+        ],
+        "instructors": [
+          "ANDERSON, JOSHUA"
+        ],
+        "students": [
+          "BENSON, ROBERT"
+        ],
+        "page": 2,
+        "line": "3",
+        "raw": "3 \u00b7 0531 \u00b7 0716 \u00b7 0858 \u00b7 ANDERSON, JOSHUA# \u00b7 BENSON, ROBERT# \u00b7 I4301 \u00b7 1.7/0.0 \u00b7 2X; O/I",
+        "role": "I4301",
+        "remarks": "2X; O/I",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4301",
+        "start": "0719",
+        "end": "0901",
+        "land": "0901",
+        "brief": "0534",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MILLER",
+            "first": "BRANNON",
+            "full": "MILLER, BRANNON"
+          },
+          {
+            "last": "USELIS",
+            "first": "BRYCE",
+            "full": "USELIS, BRYCE"
+          }
+        ],
+        "instructors": [
+          "MILLER, BRANNON"
+        ],
+        "students": [
+          "USELIS, BRYCE"
+        ],
+        "page": 2,
+        "line": "4",
+        "raw": "4 \u00b7 0534 \u00b7 0719 \u00b7 0901 \u00b7 MILLER, BRANNON \u00b7 USELIS, BRYCE \u00b7 I4301 \u00b7 1.7/0.0 \u00b7 6.1 NITE; CTO; LAND KNDZ 1700-2100; CTO KNSE 0700-1700; 2100-2300",
+        "role": "I4301",
+        "remarks": "6.1 NITE; CTO; LAND KNDZ 1700-2100; CTO KNSE 0700-1700; 2100-2300",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4201",
+        "start": "0733",
+        "end": "0909",
+        "land": "0909",
+        "brief": "0548",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NIETO",
+            "first": "STEVEN",
+            "full": "NIETO, STEVEN"
+          },
+          {
+            "last": "CHAPPANO",
+            "first": "PHILIP",
+            "full": "CHAPPANO, PHILIP"
+          }
+        ],
+        "instructors": [
+          "NIETO, STEVEN"
+        ],
+        "students": [
+          "CHAPPANO, PHILIP"
+        ],
+        "page": 2,
+        "line": "5",
+        "raw": "5 \u00b7 0548 \u00b7 0733 \u00b7 0909 \u00b7 NIETO, STEVEN# \u00b7 CHAPPANO, PHILIP# \u00b7 I4201 \u00b7 1.6/0.0 \u00b7 2X; O/I",
+        "role": "I4201",
+        "remarks": "2X; O/I",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4301",
+        "start": "1102",
+        "end": "1244",
+        "land": "1244",
+        "brief": "0917",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RORIJE",
+            "first": "GERRIT",
+            "full": "RORIJE, GERRIT"
+          },
+          {
+            "last": "PETTERSSON BEXELIUS",
+            "first": "HUGO",
+            "full": "PETTERSSON BEXELIUS, HUGO"
+          }
+        ],
+        "instructors": [
+          "RORIJE, GERRIT"
+        ],
+        "students": [
+          "PETTERSSON BEXELIUS, HUGO"
+        ],
+        "page": 2,
+        "line": "6",
+        "raw": "6 \u00b7 0917 \u00b7 1102 \u00b7 1244 \u00b7 RORIJE, GERRIT# \u00b7 PETTERSSON BEXELIUS, HUGO# \u00b7 I4301 \u00b7 1.7/0.0",
+        "role": "I4301",
+        "remarks": "",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4301",
+        "start": "1105",
+        "end": "1247",
+        "land": "1247",
+        "brief": "0920",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BUTKUS",
+            "first": "DARRIN",
+            "full": "BUTKUS, DARRIN"
+          },
+          {
+            "last": "DICARLO",
+            "first": "VICTORIA",
+            "full": "DICARLO, VICTORIA"
+          }
+        ],
+        "instructors": [
+          "BUTKUS, DARRIN"
+        ],
+        "students": [
+          "DICARLO, VICTORIA"
+        ],
+        "page": 2,
+        "line": "7",
+        "raw": "7 \u00b7 0920 \u00b7 1105 \u00b7 1247 \u00b7 BUTKUS, DARRIN# \u00b7 DICARLO, VICTORIA# \u00b7 I4301 \u00b7 1.7/0.0 \u00b7 3.8 NITE; CTO; LAND KNDZ 1700-2100; CTO KNSE 0700-1700; 2100-2300",
+        "role": "I4301",
+        "remarks": "3.8 NITE; CTO; LAND KNDZ 1700-2100; CTO KNSE 0700-1700; 2100-2300",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4302",
+        "start": "1116",
+        "end": "1258",
+        "land": "1258",
+        "brief": "0931",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ANDERSON",
+            "first": "JOSHUA",
+            "full": "ANDERSON, JOSHUA"
+          },
+          {
+            "last": "BENSON",
+            "first": "ROBERT",
+            "full": "BENSON, ROBERT"
+          }
+        ],
+        "instructors": [
+          "ANDERSON, JOSHUA"
+        ],
+        "students": [
+          "BENSON, ROBERT"
+        ],
+        "page": 2,
+        "line": "8",
+        "raw": "8 \u00b7 0931 \u00b7 1116 \u00b7 1258 \u00b7 ANDERSON, JOSHUA# \u00b7 BENSON, ROBERT# \u00b7 I4302 \u00b7 1.7/0.0 \u00b7 3.5 NITE; CTO; LAND KNDZ 1700-2100; CTO KNSE 0700-1700; 2100-2300",
+        "role": "I4302",
+        "remarks": "3.5 NITE; CTO; LAND KNDZ 1700-2100; CTO KNSE 0700-1700; 2100-2300",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4202",
+        "start": "1133",
+        "end": "1309",
+        "land": "1309",
+        "brief": "0948",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NIETO",
+            "first": "STEVEN",
+            "full": "NIETO, STEVEN"
+          },
+          {
+            "last": "CHAPPANO",
+            "first": "PHILIP",
+            "full": "CHAPPANO, PHILIP"
+          }
+        ],
+        "instructors": [
+          "NIETO, STEVEN"
+        ],
+        "students": [
+          "CHAPPANO, PHILIP"
+        ],
+        "page": 2,
+        "line": "9",
+        "raw": "9 \u00b7 0948 \u00b7 1133 \u00b7 1309 \u00b7 NIETO, STEVEN# \u00b7 CHAPPANO, PHILIP# \u00b7 I4202 \u00b7 1.6/0.0 \u00b7 4.3 NITE; CTO; LAND KNDZ 1700-2100; CTO KNSE 0700-1700; 2100-2300",
+        "role": "I4202",
+        "remarks": "4.3 NITE; CTO; LAND KNDZ 1700-2100; CTO KNSE 0700-1700; 2100-2300",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4302",
+        "start": "1502",
+        "end": "1644",
+        "land": "1644",
+        "brief": "1317",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RORIJE",
+            "first": "GERRIT",
+            "full": "RORIJE, GERRIT"
+          },
+          {
+            "last": "PETTERSSON BEXELIUS",
+            "first": "HUGO",
+            "full": "PETTERSSON BEXELIUS, HUGO"
+          }
+        ],
+        "instructors": [
+          "RORIJE, GERRIT"
+        ],
+        "students": [
+          "PETTERSSON BEXELIUS, HUGO"
+        ],
+        "page": 2,
+        "line": "10",
+        "raw": "10 \u00b7 1317 \u00b7 1502 \u00b7 1644 \u00b7 RORIJE, GERRIT# \u00b7 PETTERSSON BEXELIUS, HUGO# Simulator (Sim Event) Schedule \u00b7 I4302 \u00b7 1.7/0.0 \u00b7 CTO; LAND KNDZ 1700-2100; CTO KNSE 0700-1700; 2100-2300",
+        "role": "I4302",
+        "remarks": "CTO; LAND KNDZ 1700-2100; CTO KNSE 0700-1700; 2100-2300",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

@@ -494,5 +494,698 @@
       "line_number": 22,
       "text": "20 1500 1530 503 STROTHER H, CTR HARTMAN L, ENS IR3104"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "WEEKEND WDO",
+        "start": "0800",
+        "end": "2300",
+        "land": "2300",
+        "brief": "",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "WEEKEND WDO \u00b7 TILLER, LT \u00b7 0800 \u00b7 2300",
+        "role": "WEEKEND WDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "0600",
+        "end": "",
+        "land": "",
+        "brief": "0530",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MOSHEIM",
+            "first": "A",
+            "full": "MOSHEIM, A"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MOSHEIM, A"
+        ],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0530 \u00b7 0600 \u00b7 506 \u00b7 MOSHEIM A, LT \u00b7 Practice Sim",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "",
+        "device": "506",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "CO3202",
+        "start": "0630",
+        "end": "",
+        "land": "",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HANSON",
+            "first": "J",
+            "full": "HANSON, J"
+          },
+          {
+            "last": "BOOTHE",
+            "first": "S",
+            "full": "BOOTHE, S"
+          }
+        ],
+        "instructors": [
+          "HANSON, J"
+        ],
+        "students": [
+          "BOOTHE, S"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0600 \u00b7 0630 \u00b7 503 \u00b7 HANSON J, CTR \u00b7 BOOTHE S, ENS \u00b7 CO3202",
+        "role": "CO3202",
+        "remarks": "",
+        "duration": "",
+        "device": "503",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "OCF3101",
+        "start": "0700",
+        "end": "",
+        "land": "",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JENSEN",
+            "first": "K",
+            "full": "JENSEN, K"
+          },
+          {
+            "last": "ZIOMEK",
+            "first": "L",
+            "full": "ZIOMEK, L"
+          }
+        ],
+        "instructors": [
+          "JENSEN, K"
+        ],
+        "students": [
+          "ZIOMEK, L"
+        ],
+        "page": 2,
+        "line": "3",
+        "raw": "3 \u00b7 0630 \u00b7 0700 \u00b7 504 \u00b7 JENSEN K, CTR \u00b7 ZIOMEK L, LTJG \u00b7 OCF3101",
+        "role": "OCF3101",
+        "remarks": "",
+        "duration": "",
+        "device": "504",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "OCF3101",
+        "start": "0730",
+        "end": "",
+        "land": "",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PURDY",
+            "first": "E",
+            "full": "PURDY, E"
+          },
+          {
+            "last": "SOLEY",
+            "first": "E",
+            "full": "SOLEY, E"
+          }
+        ],
+        "instructors": [
+          "PURDY, E"
+        ],
+        "students": [
+          "SOLEY, E"
+        ],
+        "page": 2,
+        "line": "4",
+        "raw": "4 \u00b7 0700 \u00b7 0730 \u00b7 501 \u00b7 PURDY E, CTR \u00b7 SOLEY E, LT \u00b7 OCF3101",
+        "role": "OCF3101",
+        "remarks": "",
+        "duration": "",
+        "device": "501",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NFR3101",
+        "start": "0800",
+        "end": "",
+        "land": "",
+        "brief": "0730",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BELAU",
+            "first": "K",
+            "full": "BELAU, K"
+          },
+          {
+            "last": "CRUTCHFIELD",
+            "first": "W",
+            "full": "CRUTCHFIELD, W"
+          }
+        ],
+        "instructors": [
+          "BELAU, K"
+        ],
+        "students": [
+          "CRUTCHFIELD, W"
+        ],
+        "page": 2,
+        "line": "5",
+        "raw": "5 \u00b7 0730 \u00b7 0800 \u00b7 505 \u00b7 BELAU K, CTR \u00b7 CRUTCHFIELD W, LTJG \u00b7 NFR3101",
+        "role": "NFR3101",
+        "remarks": "",
+        "duration": "",
+        "device": "505",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NFR3101",
+        "start": "0830",
+        "end": "",
+        "land": "",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GRANZELLA",
+            "first": "J",
+            "full": "GRANZELLA, J"
+          },
+          {
+            "last": "PERSONS",
+            "first": "A",
+            "full": "PERSONS, A"
+          }
+        ],
+        "instructors": [
+          "GRANZELLA, J"
+        ],
+        "students": [
+          "PERSONS, A"
+        ],
+        "page": 2,
+        "line": "6",
+        "raw": "6 \u00b7 0800 \u00b7 0830 \u00b7 502 \u00b7 GRANZELLA J, Maj \u00b7 PERSONS A, LTJG \u00b7 NFR3101",
+        "role": "NFR3101",
+        "remarks": "",
+        "duration": "",
+        "device": "502",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TOUR/VIP SIM",
+        "start": "0900",
+        "end": "",
+        "land": "",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WEAVER",
+            "first": "B",
+            "full": "WEAVER, B"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "WEAVER, B"
+        ],
+        "page": 2,
+        "line": "7",
+        "raw": "7 \u00b7 0830 \u00b7 0900 \u00b7 506 \u00b7 WEAVER B, LTJG \u00b7 TOUR/VIP SIM",
+        "role": "TOUR/VIP SIM",
+        "remarks": "",
+        "duration": "",
+        "device": "506",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR2101",
+        "start": "0930",
+        "end": "",
+        "land": "",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HANSON",
+            "first": "J",
+            "full": "HANSON, J"
+          },
+          {
+            "last": "SMITH",
+            "first": "M",
+            "full": "SMITH, M"
+          }
+        ],
+        "instructors": [
+          "HANSON, J"
+        ],
+        "students": [
+          "SMITH, M"
+        ],
+        "page": 2,
+        "line": "8",
+        "raw": "8 \u00b7 0900 \u00b7 0930 \u00b7 503 \u00b7 HANSON J, CTR \u00b7 SMITH M, LTJG \u00b7 TR2101",
+        "role": "TR2101",
+        "remarks": "",
+        "duration": "",
+        "device": "503",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TOUR/VIP SIM",
+        "start": "1000",
+        "end": "",
+        "land": "",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCCOLLUM",
+            "first": "W",
+            "full": "MCCOLLUM, W"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MCCOLLUM, W"
+        ],
+        "page": 2,
+        "line": "9",
+        "raw": "9 \u00b7 0930 \u00b7 1000 \u00b7 504 \u00b7 MCCOLLUM W, LTJG \u00b7 TOUR/VIP SIM",
+        "role": "TOUR/VIP SIM",
+        "remarks": "",
+        "duration": "",
+        "device": "504",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR2101",
+        "start": "1030",
+        "end": "",
+        "land": "",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PURDY",
+            "first": "E",
+            "full": "PURDY, E"
+          },
+          {
+            "last": "PITHA",
+            "first": "K",
+            "full": "PITHA, K"
+          }
+        ],
+        "instructors": [
+          "PURDY, E"
+        ],
+        "students": [
+          "PITHA, K"
+        ],
+        "page": 2,
+        "line": "10",
+        "raw": "10 \u00b7 1000 \u00b7 1030 \u00b7 501 \u00b7 PURDY E, CTR \u00b7 PITHA K, 1stLt \u00b7 TR2101",
+        "role": "TR2101",
+        "remarks": "",
+        "duration": "",
+        "device": "501",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR3303",
+        "start": "1100",
+        "end": "",
+        "land": "",
+        "brief": "1030",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GRANZELLA",
+            "first": "J",
+            "full": "GRANZELLA, J"
+          },
+          {
+            "last": "BOREL",
+            "first": "S",
+            "full": "BOREL, S"
+          }
+        ],
+        "instructors": [
+          "GRANZELLA, J"
+        ],
+        "students": [
+          "BOREL, S"
+        ],
+        "page": 2,
+        "line": "11",
+        "raw": "11 \u00b7 1030 \u00b7 1100 \u00b7 505 \u00b7 GRANZELLA J, Maj \u00b7 BOREL S, LTJG \u00b7 TR3303",
+        "role": "TR3303",
+        "remarks": "",
+        "duration": "",
+        "device": "505",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "IR3103",
+        "start": "1130",
+        "end": "",
+        "land": "",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FORD",
+            "first": "D",
+            "full": "FORD, D"
+          },
+          {
+            "last": "HARTMAN",
+            "first": "L",
+            "full": "HARTMAN, L"
+          }
+        ],
+        "instructors": [
+          "FORD, D"
+        ],
+        "students": [
+          "HARTMAN, L"
+        ],
+        "page": 2,
+        "line": "12",
+        "raw": "12 \u00b7 1100 \u00b7 1130 \u00b7 502 \u00b7 FORD D, CTR \u00b7 HARTMAN L, ENS \u00b7 IR3103",
+        "role": "IR3103",
+        "remarks": "",
+        "duration": "",
+        "device": "502",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1200",
+        "end": "",
+        "land": "",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BOOTHE",
+            "first": "S",
+            "full": "BOOTHE, S"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "BOOTHE, S"
+        ],
+        "page": 2,
+        "line": "13",
+        "raw": "13 \u00b7 1130 \u00b7 1200 \u00b7 506 \u00b7 BOOTHE S, ENS \u00b7 Practice Sim",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "",
+        "device": "506",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NFR2101",
+        "start": "1230",
+        "end": "",
+        "land": "",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ADAMS",
+            "first": "C",
+            "full": "ADAMS, C"
+          },
+          {
+            "last": "CRUTCHFIELD",
+            "first": "W",
+            "full": "CRUTCHFIELD, W"
+          }
+        ],
+        "instructors": [
+          "ADAMS, C"
+        ],
+        "students": [
+          "CRUTCHFIELD, W"
+        ],
+        "page": 2,
+        "line": "14",
+        "raw": "14 \u00b7 1200 \u00b7 1230 \u00b7 503 \u00b7 ADAMS C, CTR \u00b7 CRUTCHFIELD W, LTJG \u00b7 NFR2101",
+        "role": "NFR2101",
+        "remarks": "",
+        "duration": "",
+        "device": "503",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NFR2101",
+        "start": "1300",
+        "end": "",
+        "land": "",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STROTHER",
+            "first": "H",
+            "full": "STROTHER, H"
+          },
+          {
+            "last": "PERSONS",
+            "first": "A",
+            "full": "PERSONS, A"
+          }
+        ],
+        "instructors": [
+          "STROTHER, H"
+        ],
+        "students": [
+          "PERSONS, A"
+        ],
+        "page": 2,
+        "line": "15",
+        "raw": "15 \u00b7 1230 \u00b7 1300 \u00b7 504 \u00b7 STROTHER H, CTR \u00b7 PERSONS A, LTJG \u00b7 NFR2101",
+        "role": "NFR2101",
+        "remarks": "",
+        "duration": "",
+        "device": "504",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR2102",
+        "start": "1330",
+        "end": "",
+        "land": "",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BELAU",
+            "first": "K",
+            "full": "BELAU, K"
+          },
+          {
+            "last": "SMITH",
+            "first": "M",
+            "full": "SMITH, M"
+          }
+        ],
+        "instructors": [
+          "BELAU, K"
+        ],
+        "students": [
+          "SMITH, M"
+        ],
+        "page": 2,
+        "line": "16",
+        "raw": "16 \u00b7 1300 \u00b7 1330 \u00b7 501 \u00b7 BELAU K, CTR \u00b7 SMITH M, LTJG \u00b7 TR2102",
+        "role": "TR2102",
+        "remarks": "",
+        "duration": "",
+        "device": "501",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR2102",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MUSCAT",
+            "first": "J",
+            "full": "MUSCAT, J"
+          },
+          {
+            "last": "PITHA",
+            "first": "K",
+            "full": "PITHA, K"
+          }
+        ],
+        "instructors": [
+          "MUSCAT, J"
+        ],
+        "students": [
+          "PITHA, K"
+        ],
+        "page": 2,
+        "line": "17",
+        "raw": "17 \u00b7 1330 \u00b7 1400 \u00b7 505 \u00b7 MUSCAT J, CTR \u00b7 PITHA K, 1stLt \u00b7 TR2102",
+        "role": "TR2102",
+        "remarks": "",
+        "duration": "",
+        "device": "505",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR2101",
+        "start": "1430",
+        "end": "",
+        "land": "",
+        "brief": "1400",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FORD",
+            "first": "D",
+            "full": "FORD, D"
+          },
+          {
+            "last": "BOREL",
+            "first": "S",
+            "full": "BOREL, S"
+          }
+        ],
+        "instructors": [
+          "FORD, D"
+        ],
+        "students": [
+          "BOREL, S"
+        ],
+        "page": 2,
+        "line": "18",
+        "raw": "18 \u00b7 1400 \u00b7 1430 \u00b7 502 \u00b7 FORD D, CTR \u00b7 BOREL S, LTJG \u00b7 TR2101",
+        "role": "TR2101",
+        "remarks": "",
+        "duration": "",
+        "device": "502",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1500",
+        "end": "",
+        "land": "",
+        "brief": "1430",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MERONE",
+            "first": "M",
+            "full": "MERONE, M"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MERONE, M"
+        ],
+        "page": 2,
+        "line": "19",
+        "raw": "19 \u00b7 1430 \u00b7 1500 \u00b7 506 \u00b7 MERONE M, ENS \u00b7 Practice Sim",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "",
+        "device": "506",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "IR3104",
+        "start": "1530",
+        "end": "",
+        "land": "",
+        "brief": "1500",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STROTHER",
+            "first": "H",
+            "full": "STROTHER, H"
+          },
+          {
+            "last": "HARTMAN",
+            "first": "L",
+            "full": "HARTMAN, L"
+          }
+        ],
+        "instructors": [
+          "STROTHER, H"
+        ],
+        "students": [
+          "HARTMAN, L"
+        ],
+        "page": 2,
+        "line": "20",
+        "raw": "20 \u00b7 1500 \u00b7 1530 \u00b7 503 \u00b7 STROTHER H, CTR \u00b7 HARTMAN L, ENS \u00b7 IR3104",
+        "role": "IR3104",
+        "remarks": "",
+        "duration": "",
+        "device": "503",
+        "solo": false
+      }
+    ]
+  }
 }

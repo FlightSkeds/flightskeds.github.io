@@ -977,5 +977,565 @@
       "line_number": 58,
       "text": "4 6 0 1"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "01 V6 1 2 B U LLA R D , A 01 V6 2 2 B U LLA R D , A 01 V6 3 01 V6 4  0703 W A D E , T FA M 4 7 0 2 1103 W A D E , T FA M 4 7 0 3   02 V6 1 2 LE SZC ZY N SK I, M 02 V6 2 2 LE SZC ZY N SK I, M 02 V6 3 02 V6 4  0706 LU C Y K , C I4 3 0 2 1106 LU C Y K , C I4 3 0 3   03 V6 1  03 V6 2 3 V E R C H E R , C 03 V6 3 3 V E R C H E R , C 03 V6 4 3 V E R C H E R , C   1117 FLE T C H E R , C I4 3 0 4 1517 FLE T C H E R , C I4 4 9 0 1917 FLE T C H E R , C FA M 4 6 0 1 04 V6 1  04 V6 2 3 B E N SO N , W 04 V6 3 3 B E N SO N , W 04 V6 4 3 B E N SO N , W   1120 R IG G IN S, C I4 3 0 1 1520 R IG G IN S, C I4 3 0 2 1920 R IG G IN S, C I4 3 0 3",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "AM FDO",
+        "start": "0630",
+        "end": "1430",
+        "land": "1430",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "REISING",
+            "first": "MICHAEL",
+            "full": "REISING, MICHAEL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM FDO \u00b7 REISING, MICHAEL L, LT# \u00b7 0630 \u00b7 1430",
+        "role": "AM FDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM FDO",
+        "start": "1430",
+        "end": "2300",
+        "land": "2300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "REISING",
+            "first": "MICHAEL",
+            "full": "REISING, MICHAEL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM FDO \u00b7 REISING, MICHAEL L, LT# \u00b7 1430 \u00b7 2300",
+        "role": "PM FDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "CDO",
+        "start": "2300",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "REISING",
+            "first": "MICHAEL",
+            "full": "REISING, MICHAEL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "CDO \u00b7 REISING, MICHAEL L, LT# \u00b7 2300 \u00b7 2359",
+        "role": "CDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM DUTY DRIVER",
+        "start": "0700",
+        "end": "1500",
+        "land": "1500",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "OSTERHUS",
+            "first": "JONATHAN",
+            "full": "OSTERHUS, JONATHAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM DUTY DRIVER \u00b7 OSTERHUS, JONATHAN T, 2ndLt \u00b7 0700 \u00b7 1500",
+        "role": "AM DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM DUTY DRIVER",
+        "start": "1400",
+        "end": "2200",
+        "land": "2200",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PEPIN",
+            "first": "KATELYN",
+            "full": "PEPIN, KATELYN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM DUTY DRIVER \u00b7 PEPIN, KATELYN C, 2ndLt \u00b7 1400 \u00b7 2200",
+        "role": "PM DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO",
+        "start": "0745",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BATHGATE",
+            "first": "ALEC",
+            "full": "BATHGATE, ALEC"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO \u00b7 BATHGATE, ALEC J, ENS \u00b7 0745 \u00b7 2359",
+        "role": "SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO MIDNIGHT_8",
+        "start": "0001",
+        "end": "0800",
+        "land": "0800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TALBERT",
+            "first": "BRETT",
+            "full": "TALBERT, BRETT"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO MIDNIGHT_8 \u00b7 TALBERT, BRETT J, ENS \u00b7 0001 \u00b7 0800",
+        "role": "SDO MIDNIGHT_8",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4702",
+        "start": "0703",
+        "end": "0845",
+        "land": "0845",
+        "brief": "0518",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BULLARD",
+            "first": "ANDREW",
+            "full": "BULLARD, ANDREW"
+          },
+          {
+            "last": "WADE",
+            "first": "TANNER",
+            "full": "WADE, TANNER"
+          }
+        ],
+        "instructors": [
+          "BULLARD, ANDREW"
+        ],
+        "students": [
+          "WADE, TANNER"
+        ],
+        "page": 3,
+        "line": "1",
+        "raw": "1 \u00b7 0518 \u00b7 0703 \u00b7 0845 \u00b7 BULLARD, ANDREW B, Maj# \u00b7 WADE, TANNER B, ENS# \u00b7 1D1 \u00b7 FAM4702 \u00b7 1.7/0.0 \u00b7 2X/O/I/NSE OPS/CONTACT IP FOR BRIEF TIME",
+        "role": "FAM4702",
+        "remarks": "2X/O/I/NSE OPS/CONTACT IP FOR BRIEF TIME",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4302",
+        "start": "0706",
+        "end": "0848",
+        "land": "0848",
+        "brief": "0521",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LESZCZYNSKI",
+            "first": "MATTHEW",
+            "full": "LESZCZYNSKI, MATTHEW"
+          },
+          {
+            "last": "LUCYK",
+            "first": "CHRISTOPHER",
+            "full": "LUCYK, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "LESZCZYNSKI, MATTHEW"
+        ],
+        "students": [
+          "LUCYK, CHRISTOPHER"
+        ],
+        "page": 3,
+        "line": "2",
+        "raw": "2 \u00b7 0521 \u00b7 0706 \u00b7 0848 \u00b7 LESZCZYNSKI, MATTHEW J, Maj# \u00b7 LUCYK, CHRISTOPHER J, ENS# \u00b7 1D2 \u00b7 I4302 \u00b7 1.7/0.0 \u00b7 2X/O/I/NSE OPS/CONTACT IP FOR BRIEF TIME",
+        "role": "I4302",
+        "remarks": "2X/O/I/NSE OPS/CONTACT IP FOR BRIEF TIME",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4703",
+        "start": "1103",
+        "end": "1245",
+        "land": "1245",
+        "brief": "0918",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BULLARD",
+            "first": "ANDREW",
+            "full": "BULLARD, ANDREW"
+          },
+          {
+            "last": "WADE",
+            "first": "TANNER",
+            "full": "WADE, TANNER"
+          }
+        ],
+        "instructors": [
+          "BULLARD, ANDREW"
+        ],
+        "students": [
+          "WADE, TANNER"
+        ],
+        "page": 3,
+        "line": "3",
+        "raw": "3 \u00b7 0918 \u00b7 1103 \u00b7 1245 \u00b7 BULLARD, ANDREW B, Maj# \u00b7 WADE, TANNER B, ENS# \u00b7 1D1 \u00b7 FAM4703 \u00b7 1.7/0.0",
+        "role": "FAM4703",
+        "remarks": "",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4303",
+        "start": "1106",
+        "end": "1248",
+        "land": "1248",
+        "brief": "0921",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LESZCZYNSKI",
+            "first": "MATTHEW",
+            "full": "LESZCZYNSKI, MATTHEW"
+          },
+          {
+            "last": "LUCYK",
+            "first": "CHRISTOPHER",
+            "full": "LUCYK, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "LESZCZYNSKI, MATTHEW"
+        ],
+        "students": [
+          "LUCYK, CHRISTOPHER"
+        ],
+        "page": 3,
+        "line": "4",
+        "raw": "4 \u00b7 0921 \u00b7 1106 \u00b7 1248 \u00b7 LESZCZYNSKI, MATTHEW J, Maj# \u00b7 LUCYK, CHRISTOPHER J, ENS# \u00b7 1D2 \u00b7 I4303 \u00b7 1.7/0.0",
+        "role": "I4303",
+        "remarks": "",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4304",
+        "start": "1117",
+        "end": "1259",
+        "land": "1259",
+        "brief": "0932",
+        "formation": "",
+        "crew": [
+          {
+            "last": "VERCHER",
+            "first": "CHANDLER",
+            "full": "VERCHER, CHANDLER"
+          },
+          {
+            "last": "FLETCHER",
+            "first": "CHASE",
+            "full": "FLETCHER, CHASE"
+          }
+        ],
+        "instructors": [
+          "VERCHER, CHANDLER"
+        ],
+        "students": [
+          "FLETCHER, CHASE"
+        ],
+        "page": 3,
+        "line": "5",
+        "raw": "5 \u00b7 0932 \u00b7 1117 \u00b7 1259 \u00b7 VERCHER, CHANDLER J, Capt# \u00b7 FLETCHER, CHASE N, 2ndLt# \u00b7 1D2 \u00b7 I4304 \u00b7 1.7/0.0 \u00b7 3X/CCX RETURN",
+        "role": "I4304",
+        "remarks": "3X/CCX RETURN",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4301",
+        "start": "1120",
+        "end": "1302",
+        "land": "1302",
+        "brief": "0935",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BENSON",
+            "first": "WILLIAM",
+            "full": "BENSON, WILLIAM"
+          },
+          {
+            "last": "RIGGINS",
+            "first": "COLE",
+            "full": "RIGGINS, COLE"
+          }
+        ],
+        "instructors": [
+          "BENSON, WILLIAM"
+        ],
+        "students": [
+          "RIGGINS, COLE"
+        ],
+        "page": 3,
+        "line": "6",
+        "raw": "6 \u00b7 0935 \u00b7 1120 \u00b7 1302 \u00b7 BENSON, WILLIAM M, LT# \u00b7 RIGGINS, COLE J, 2ndLt# \u00b7 1D2 \u00b7 I4301 \u00b7 1.7/0.0 \u00b7 3X/CCX RETURN",
+        "role": "I4301",
+        "remarks": "3X/CCX RETURN",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4490",
+        "start": "1517",
+        "end": "1659",
+        "land": "1659",
+        "brief": "1332",
+        "formation": "",
+        "crew": [
+          {
+            "last": "VERCHER",
+            "first": "CHANDLER",
+            "full": "VERCHER, CHANDLER"
+          },
+          {
+            "last": "FLETCHER",
+            "first": "CHASE",
+            "full": "FLETCHER, CHASE"
+          }
+        ],
+        "instructors": [
+          "VERCHER, CHANDLER"
+        ],
+        "students": [
+          "FLETCHER, CHASE"
+        ],
+        "page": 3,
+        "line": "7",
+        "raw": "7 \u00b7 1332 \u00b7 1517 \u00b7 1659 \u00b7 VERCHER, CHANDLER J, Capt# \u00b7 FLETCHER, CHASE N, 2ndLt# \u00b7 1D2 \u00b7 I4490 \u00b7 1.7/0.0",
+        "role": "I4490",
+        "remarks": "",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4302",
+        "start": "1520",
+        "end": "1702",
+        "land": "1702",
+        "brief": "1335",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BENSON",
+            "first": "WILLIAM",
+            "full": "BENSON, WILLIAM"
+          },
+          {
+            "last": "RIGGINS",
+            "first": "COLE",
+            "full": "RIGGINS, COLE"
+          }
+        ],
+        "instructors": [
+          "BENSON, WILLIAM"
+        ],
+        "students": [
+          "RIGGINS, COLE"
+        ],
+        "page": 3,
+        "line": "8",
+        "raw": "8 \u00b7 1335 \u00b7 1520 \u00b7 1702 \u00b7 BENSON, WILLIAM M, LT# \u00b7 RIGGINS, COLE J, 2ndLt# \u00b7 1D2 \u00b7 I4302 \u00b7 1.7/0.0",
+        "role": "I4302",
+        "remarks": "",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4601",
+        "start": "1917",
+        "end": "2059",
+        "land": "2059",
+        "brief": "1732",
+        "formation": "",
+        "crew": [
+          {
+            "last": "VERCHER",
+            "first": "CHANDLER",
+            "full": "VERCHER, CHANDLER"
+          },
+          {
+            "last": "FLETCHER",
+            "first": "CHASE",
+            "full": "FLETCHER, CHASE"
+          }
+        ],
+        "instructors": [
+          "VERCHER, CHANDLER"
+        ],
+        "students": [
+          "FLETCHER, CHASE"
+        ],
+        "page": 3,
+        "line": "9",
+        "raw": "9 \u00b7 1732 \u00b7 1917 \u00b7 2059 \u00b7 VERCHER, CHANDLER J, Capt# \u00b7 FLETCHER, CHASE N, 2ndLt# \u00b7 1D1 \u00b7 FAM4601 \u00b7 1.7/0.0",
+        "role": "FAM4601",
+        "remarks": "",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4303",
+        "start": "1920",
+        "end": "2102",
+        "land": "2102",
+        "brief": "1735",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BENSON",
+            "first": "WILLIAM",
+            "full": "BENSON, WILLIAM"
+          },
+          {
+            "last": "RIGGINS",
+            "first": "COLE",
+            "full": "RIGGINS, COLE"
+          }
+        ],
+        "instructors": [
+          "BENSON, WILLIAM"
+        ],
+        "students": [
+          "RIGGINS, COLE"
+        ],
+        "page": 3,
+        "line": "10",
+        "raw": "10 \u00b7 1735 \u00b7 1920 \u00b7 2102 \u00b7 BENSON, WILLIAM M, LT# \u00b7 RIGGINS, COLE J, 2ndLt# \u00b7 1D2 \u00b7 I4303 \u00b7 1.7/0.0",
+        "role": "I4303",
+        "remarks": "",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Flight",
+        "start": "2120",
+        "end": "2320",
+        "land": "2320",
+        "brief": "1935",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "11",
+        "raw": "11 \u00b7 1935 \u00b7 2120 \u00b7 2320 \u00b7 Simulator (Sim \u00b7 Event) Schedule \u00b7 2.0/0.0",
+        "role": "Flight",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

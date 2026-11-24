@@ -334,5 +334,161 @@
       "line_number": 12,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "KNGP AM AODO",
+        "start": "0445",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PALMER",
+            "first": "NATHAN",
+            "full": "PALMER, NATHAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP AM AODO \u00b7 Palmer, Nathan \u00b7 0445 1400",
+        "role": "KNGP AM AODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "KNGP PM ODO",
+        "start": "1430",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAUCH",
+            "first": "MICHAEL",
+            "full": "MAUCH, MICHAEL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP PM ODO \u00b7 Mauch, Michael \u00b7 1430 0630",
+        "role": "KNGP PM ODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "KNGP PM AODO",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STENBERG",
+            "first": "BENNETT",
+            "full": "STENBERG, BENNETT"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "KNGP PM AODO \u00b7 Stenberg, Bennett \u00b7 1400 2359",
+        "role": "KNGP PM AODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4301",
+        "start": "0948",
+        "end": "1130",
+        "land": "1130",
+        "brief": "0803",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAMILTON",
+            "first": "ZACHARY",
+            "full": "HAMILTON, ZACHARY"
+          },
+          {
+            "last": "SCOTT",
+            "first": "JOSEPH",
+            "full": "SCOTT, JOSEPH"
+          }
+        ],
+        "instructors": [
+          "HAMILTON, ZACHARY"
+        ],
+        "students": [
+          "SCOTT, JOSEPH"
+        ],
+        "page": 2,
+        "line": "B64 (V27) 1",
+        "raw": "B64 (V27) 1 \u00b7 0803 \u00b7 0948 \u00b7 1130 \u00b7 Hamilton, Zachary \u00b7 Scott, Joseph \u00b7 I4301 \u00b7 1.7/0.0 \u00b7 O/I",
+        "role": "I4301",
+        "remarks": "O/I",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4302 Schedule",
+        "start": "1348",
+        "end": "1530",
+        "land": "1530",
+        "brief": "1203",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAMILTON",
+            "first": "ZACHARY",
+            "full": "HAMILTON, ZACHARY"
+          },
+          {
+            "last": "SCOTT",
+            "first": "JOSEPH",
+            "full": "SCOTT, JOSEPH"
+          }
+        ],
+        "instructors": [
+          "HAMILTON, ZACHARY"
+        ],
+        "students": [
+          "SCOTT, JOSEPH"
+        ],
+        "page": 2,
+        "line": "B64 (V27) 2",
+        "raw": "B64 (V27) 2 \u00b7 1203 \u00b7 1348 \u00b7 1530 \u00b7 Hamilton, Zachary Simulator \u00b7 Scott, Joseph (Sim Event) \u00b7 I4302 Schedule \u00b7 1.7/0.0 \u00b7 O/I RTN",
+        "role": "I4302 Schedule",
+        "remarks": "O/I RTN",
+        "duration": "1.7/0.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

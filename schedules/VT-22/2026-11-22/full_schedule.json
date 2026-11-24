@@ -438,5 +438,595 @@
       "line_number": 19,
       "text": "16 1100 1245 1357 JOHNSON N, LTJG AN42S2 1.2"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "AM WDO",
+        "start": "0745",
+        "end": "1745",
+        "land": "1745",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TILLER",
+            "first": "C",
+            "full": "TILLER, C"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM WDO \u00b7 TILLER C, LT \u00b7 0745 \u00b7 1745",
+        "role": "AM WDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM AWDO",
+        "start": "0730",
+        "end": "1745",
+        "land": "1745",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DAY",
+            "first": "B",
+            "full": "DAY, B"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM AWDO \u00b7 DAY B, LTJG \u00b7 0730 \u00b7 1745",
+        "role": "AM AWDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM SDO",
+        "start": "0645",
+        "end": "1645",
+        "land": "1645",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STONE",
+            "first": "C",
+            "full": "STONE, C"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM SDO \u00b7 STONE C, ENS \u00b7 0645 \u00b7 1645",
+        "role": "AM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC LEAD",
+        "start": "0900",
+        "end": "1012",
+        "land": "1012",
+        "brief": "0715",
+        "formation": "",
+        "crew": [
+          {
+            "last": "OKELLY",
+            "first": "N",
+            "full": "OKELLY, N"
+          }
+        ],
+        "instructors": [
+          "OKELLY, N"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0715 \u00b7 0900 \u00b7 1012 \u00b7 OKELLY N, CTR \u00b7 TAC LEAD \u00b7 1.2",
+        "role": "TAC LEAD",
+        "remarks": "",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC42S2",
+        "start": "0900",
+        "end": "1006",
+        "land": "1006",
+        "brief": "0715",
+        "formation": "",
+        "crew": [
+          {
+            "last": "AUSTINSON",
+            "first": "C",
+            "full": "AUSTINSON, C"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "AUSTINSON, C"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0715 \u00b7 0900 \u00b7 1006 \u00b7 AUSTINSON C, LTJG \u00b7 TAC42S2 \u00b7 1.1",
+        "role": "TAC42S2",
+        "remarks": "",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "BFM LEAD",
+        "start": "0900",
+        "end": "1006",
+        "land": "1006",
+        "brief": "0715",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PELFREY",
+            "first": "A",
+            "full": "PELFREY, A"
+          }
+        ],
+        "instructors": [
+          "PELFREY, A"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "3",
+        "raw": "3 \u00b7 0715 \u00b7 0900 \u00b7 1006 \u00b7 PELFREY A, CTR \u00b7 BFM LEAD \u00b7 1.1",
+        "role": "BFM LEAD",
+        "remarks": "",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "BFM4101",
+        "start": "0900",
+        "end": "1000",
+        "land": "1000",
+        "brief": "0715",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STEVENS",
+            "first": "S",
+            "full": "STEVENS, S"
+          },
+          {
+            "last": "PLANAS",
+            "first": "S",
+            "full": "PLANAS, S"
+          }
+        ],
+        "instructors": [
+          "STEVENS, S"
+        ],
+        "students": [
+          "PLANAS, S"
+        ],
+        "page": 2,
+        "line": "4",
+        "raw": "4 \u00b7 0715 \u00b7 0900 \u00b7 1000 \u00b7 STEVENS S, CTR \u00b7 PLANAS S, LTJG \u00b7 BFM4101 \u00b7 1.0",
+        "role": "BFM4101",
+        "remarks": "",
+        "duration": "1.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AN4101",
+        "start": "0930",
+        "end": "1045",
+        "land": "1045",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NELSON",
+            "first": "M",
+            "full": "NELSON, M"
+          },
+          {
+            "last": "JETT",
+            "first": "N",
+            "full": "JETT, N"
+          }
+        ],
+        "instructors": [
+          "NELSON, M"
+        ],
+        "students": [
+          "JETT, N"
+        ],
+        "page": 2,
+        "line": "5",
+        "raw": "5 \u00b7 0745 \u00b7 0930 \u00b7 1045 \u00b7 XC \u00b7 XC \u00b7 NELSON M, CTR \u00b7 JETT N, ENS \u00b7 AN4101 \u00b7 1.3 \u00b7 KNEW-KSHV",
+        "role": "AN4101",
+        "remarks": "KNEW-KSHV",
+        "duration": "1.3",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AN4101",
+        "start": "0930",
+        "end": "1054",
+        "land": "1054",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TOLBERT",
+            "first": "D",
+            "full": "TOLBERT, D"
+          },
+          {
+            "last": "CARLSON-ZYATS",
+            "first": "J",
+            "full": "CARLSON-ZYATS, J"
+          }
+        ],
+        "instructors": [
+          "TOLBERT, D"
+        ],
+        "students": [
+          "CARLSON-ZYATS, J"
+        ],
+        "page": 2,
+        "line": "6",
+        "raw": "6 \u00b7 0745 \u00b7 0930 \u00b7 1054 \u00b7 XC \u00b7 XC \u00b7 TOLBERT D, Maj \u00b7 CARLSON-ZYATS J, LTJG \u00b7 AN4101 \u00b7 1.4 \u00b7 KNEW-KSHV",
+        "role": "AN4101",
+        "remarks": "KNEW-KSHV",
+        "duration": "1.4",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AN4101",
+        "start": "0930",
+        "end": "1054",
+        "land": "1054",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HARDING",
+            "first": "W",
+            "full": "HARDING, W"
+          },
+          {
+            "last": "MCGOVERN",
+            "first": "G",
+            "full": "MCGOVERN, G"
+          }
+        ],
+        "instructors": [
+          "HARDING, W"
+        ],
+        "students": [
+          "MCGOVERN, G"
+        ],
+        "page": 2,
+        "line": "7",
+        "raw": "7 \u00b7 0745 \u00b7 0930 \u00b7 1054 \u00b7 XC \u00b7 XC \u00b7 HARDING W, Maj \u00b7 MCGOVERN G, LTJG \u00b7 AN4101 \u00b7 1.4 \u00b7 KNEW-KSHV",
+        "role": "AN4101",
+        "remarks": "KNEW-KSHV",
+        "duration": "1.4",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AN42S1",
+        "start": "0945",
+        "end": "1057",
+        "land": "1057",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JOHNSON",
+            "first": "N",
+            "full": "JOHNSON, N"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "JOHNSON, N"
+        ],
+        "page": 2,
+        "line": "8",
+        "raw": "8 \u00b7 0800 \u00b7 0945 \u00b7 1057 \u00b7 JOHNSON N, LTJG \u00b7 AN42S1 \u00b7 1.2",
+        "role": "AN42S1",
+        "remarks": "",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AN4102",
+        "start": "1230",
+        "end": "1354",
+        "land": "1354",
+        "brief": "1045",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NELSON",
+            "first": "M",
+            "full": "NELSON, M"
+          },
+          {
+            "last": "JETT",
+            "first": "N",
+            "full": "JETT, N"
+          }
+        ],
+        "instructors": [
+          "NELSON, M"
+        ],
+        "students": [
+          "JETT, N"
+        ],
+        "page": 2,
+        "line": "9",
+        "raw": "9 \u00b7 1045 \u00b7 1230 \u00b7 1354 \u00b7 XC \u00b7 NELSON M, CTR \u00b7 JETT N, ENS \u00b7 AN4102 \u00b7 1.4 \u00b7 KSHV-KNQI",
+        "role": "AN4102",
+        "remarks": "KSHV-KNQI",
+        "duration": "1.4",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AN4102",
+        "start": "1230",
+        "end": "1354",
+        "land": "1354",
+        "brief": "1045",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TOLBERT",
+            "first": "D",
+            "full": "TOLBERT, D"
+          },
+          {
+            "last": "CARLSON-ZYATS",
+            "first": "J",
+            "full": "CARLSON-ZYATS, J"
+          }
+        ],
+        "instructors": [
+          "TOLBERT, D"
+        ],
+        "students": [
+          "CARLSON-ZYATS, J"
+        ],
+        "page": 2,
+        "line": "10",
+        "raw": "10 \u00b7 1045 \u00b7 1230 \u00b7 1354 \u00b7 XC \u00b7 TOLBERT D, Maj \u00b7 CARLSON-ZYATS J, LTJG \u00b7 AN4102 \u00b7 1.4 \u00b7 KSHV-KNQI",
+        "role": "AN4102",
+        "remarks": "KSHV-KNQI",
+        "duration": "1.4",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AN4102",
+        "start": "1230",
+        "end": "1354",
+        "land": "1354",
+        "brief": "1045",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HARDING",
+            "first": "W",
+            "full": "HARDING, W"
+          },
+          {
+            "last": "MCGOVERN",
+            "first": "G",
+            "full": "MCGOVERN, G"
+          }
+        ],
+        "instructors": [
+          "HARDING, W"
+        ],
+        "students": [
+          "MCGOVERN, G"
+        ],
+        "page": 2,
+        "line": "11",
+        "raw": "11 \u00b7 1045 \u00b7 1230 \u00b7 1354 \u00b7 XC \u00b7 HARDING W, Maj \u00b7 MCGOVERN G, LTJG \u00b7 AN4102 \u00b7 1.4 \u00b7 KSHV-KNQI",
+        "role": "AN4102",
+        "remarks": "KSHV-KNQI",
+        "duration": "1.4",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC LEAD",
+        "start": "1245",
+        "end": "1357",
+        "land": "1357",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STEVENS",
+            "first": "S",
+            "full": "STEVENS, S"
+          }
+        ],
+        "instructors": [
+          "STEVENS, S"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "12",
+        "raw": "12 \u00b7 1100 \u00b7 1245 \u00b7 1357 \u00b7 STEVENS S, CTR \u00b7 TAC LEAD \u00b7 1.2",
+        "role": "TAC LEAD",
+        "remarks": "",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC4301",
+        "start": "1245",
+        "end": "1351",
+        "land": "1351",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "OKELLY",
+            "first": "N",
+            "full": "OKELLY, N"
+          },
+          {
+            "last": "AUSTINSON",
+            "first": "C",
+            "full": "AUSTINSON, C"
+          }
+        ],
+        "instructors": [
+          "OKELLY, N"
+        ],
+        "students": [
+          "AUSTINSON, C"
+        ],
+        "page": 2,
+        "line": "13",
+        "raw": "13 \u00b7 1100 \u00b7 1245 \u00b7 1351 \u00b7 OKELLY N, CTR \u00b7 AUSTINSON C, LTJG \u00b7 TAC4301 \u00b7 1.1",
+        "role": "TAC4301",
+        "remarks": "",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "BFM LEAD",
+        "start": "1245",
+        "end": "1351",
+        "land": "1351",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PELFREY",
+            "first": "A",
+            "full": "PELFREY, A"
+          }
+        ],
+        "instructors": [
+          "PELFREY, A"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "14",
+        "raw": "14 \u00b7 1100 \u00b7 1245 \u00b7 1351 \u00b7 PELFREY A, CTR \u00b7 BFM LEAD \u00b7 1.1",
+        "role": "BFM LEAD",
+        "remarks": "",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "BFM45S1",
+        "start": "1245",
+        "end": "1339",
+        "land": "1339",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "COOK",
+            "first": "B",
+            "full": "COOK, B"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "COOK, B"
+        ],
+        "page": 2,
+        "line": "15",
+        "raw": "15 \u00b7 1100 \u00b7 1245 \u00b7 1339 \u00b7 COOK B, ENS \u00b7 BFM45S1 \u00b7 0.9",
+        "role": "BFM45S1",
+        "remarks": "",
+        "duration": "0.9",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AN42S2",
+        "start": "1245",
+        "end": "1357",
+        "land": "1357",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JOHNSON",
+            "first": "N",
+            "full": "JOHNSON, N"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "JOHNSON, N"
+        ],
+        "page": 2,
+        "line": "16",
+        "raw": "16 \u00b7 1100 \u00b7 1245 \u00b7 1357 \u00b7 JOHNSON N, LTJG \u00b7 AN42S2 \u00b7 1.2",
+        "role": "AN42S2",
+        "remarks": "",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

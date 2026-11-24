@@ -183,5 +183,83 @@
       "line_number": 19,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "I4104",
+        "start": "1100",
+        "end": "1236",
+        "land": "1236",
+        "brief": "0915",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HOVANEC",
+            "first": "SEAN",
+            "full": "HOVANEC, SEAN"
+          },
+          {
+            "last": "LUKER",
+            "first": "JACOB",
+            "full": "LUKER, JACOB"
+          }
+        ],
+        "instructors": [
+          "HOVANEC, SEAN"
+        ],
+        "students": [
+          "LUKER, JACOB"
+        ],
+        "page": 1,
+        "line": "1",
+        "raw": "1 \u00b7 A03 (F) 2 \u00b7 0915 \u00b7 1100 \u00b7 1236 \u00b7 Hovanec, Sean# \u00b7 Luker, Jacob# \u00b7 I4104 \u00b7 1.6/0.0 \u00b7 T-6 CCX // KNGP LEG 1/2",
+        "role": "I4104",
+        "remarks": "T-6 CCX // KNGP LEG 1/2",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "N4101",
+        "start": "1500",
+        "end": "1636",
+        "land": "1636",
+        "brief": "1315",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HOVANEC",
+            "first": "SEAN",
+            "full": "HOVANEC, SEAN"
+          },
+          {
+            "last": "LUKER",
+            "first": "JACOB",
+            "full": "LUKER, JACOB"
+          }
+        ],
+        "instructors": [
+          "HOVANEC, SEAN"
+        ],
+        "students": [
+          "LUKER, JACOB"
+        ],
+        "page": 1,
+        "line": "2",
+        "raw": "2 \u00b7 A03 (F) 3 \u00b7 1315 \u00b7 1500 \u00b7 1636 \u00b7 Hovanec, Sean# Simulator \u00b7 Luker, Jacob# (Sim Event) Schedule \u00b7 N4101 \u00b7 1.6/0.0 \u00b7 T-6 CCX // KNGP LEG 2/2",
+        "role": "N4101",
+        "remarks": "T-6 CCX // KNGP LEG 2/2",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

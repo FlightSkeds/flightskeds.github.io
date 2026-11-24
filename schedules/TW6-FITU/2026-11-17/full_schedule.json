@@ -175,5 +175,89 @@
       "line_number": 21,
       "text": "0900-1100 FAM-0 MITCHELL, KEITH LAVALLE, CHRISTIAN FITU"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "NA4290",
+        "start": "1000",
+        "end": "1148",
+        "land": "1148",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "POPE",
+            "first": "DANIEL",
+            "full": "POPE, DANIEL"
+          },
+          {
+            "last": "ORTIZ",
+            "first": "RICHARD",
+            "full": "ORTIZ, RICHARD"
+          }
+        ],
+        "instructors": [
+          "POPE, DANIEL"
+        ],
+        "students": [
+          "ORTIZ, RICHARD"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "0800 \u00b7 1000 \u00b7 1148 \u00b7 POPE, DANIEL \u00b7 ORTIZ, RICHARD \u00b7 NA4290 \u00b7 1.8 \u00b7 DD-1801",
+        "role": "NA4290",
+        "remarks": "DD-1801",
+        "duration": "1.8",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4101 Events",
+        "start": "1300",
+        "end": "1448",
+        "land": "1448",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LAVALLE",
+            "first": "CHRISTIAN",
+            "full": "LAVALLE, CHRISTIAN"
+          },
+          {
+            "last": "MITCHELL",
+            "first": "KEITH",
+            "full": "MITCHELL, KEITH"
+          },
+          {
+            "last": "GROUND PERSON CLEVELAND",
+            "first": "JONATHAN",
+            "full": "GROUND PERSON CLEVELAND, JONATHAN"
+          }
+        ],
+        "instructors": [
+          "LAVALLE, CHRISTIAN"
+        ],
+        "students": [
+          "MITCHELL, KEITH",
+          "GROUND PERSON CLEVELAND, JONATHAN"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1100 No Simulators Time MIL 0800-1100 Pre-Flight 0900-1100 \u00b7 1300 Scheduled Event FITU OCF/SPIN, FAM-0 \u00b7 1448 MODULES: CRM \u00b7 LAVALLE, CHRISTIAN COURSE RULES, \u00b7 MITCHELL, KEITH Ground Person CLEVELAND, JONATHAN MITCHELL, KEITH \u00b7 NA4101 Events \u00b7 1.8 \u00b7 DD-1801 Instructor Location LETSON, JACOB FITU CLASSROOM LAVALLE, CHRISTIAN FITU",
+        "role": "NA4101 Events",
+        "remarks": "DD-1801 Instructor Location LETSON, JACOB FITU CLASSROOM LAVALLE, CHRISTIAN FITU",
+        "duration": "1.8",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

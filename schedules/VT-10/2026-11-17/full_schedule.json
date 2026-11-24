@@ -1367,5 +1367,4512 @@
       "line_number": 45,
       "text": ", Tresler, R, ENS , Wrede, M, ENS , Yordt, C, ENS"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "   ENS , Mccormack, K, ENS , Mesec, A, ENS ,      Miramadi, L, ENS , Nelson, A, ENS , Philips , V,      ENS , Schlenker, S, ENS      ENS , Parker, D, 1stLt , Ramaroson, A, ENS ,      Rogers, C, ENS , Shamai, W, ENS , Smith, B, ENS      , Tresler, R, ENS , Wrede, M, ENS , Yordt, C, ENS  ",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "AM ASDO",
+        "start": "0600",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CARMICHAEL",
+            "first": "A",
+            "full": "CARMICHAEL, A"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM ASDO \u00b7 Carmichael, A, ENS \u00b7 0600 \u00b7 1800",
+        "role": "AM ASDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM ASDO",
+        "start": "1800",
+        "end": "0600",
+        "land": "0600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BARLOW",
+            "first": "K",
+            "full": "BARLOW, K"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM ASDO \u00b7 Barlow, K, ENS \u00b7 1800 \u00b7 0600",
+        "role": "PM ASDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "T-6 SCHEDULER",
+        "start": "0730",
+        "end": "1600",
+        "land": "1600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SANDMAN",
+            "first": "W",
+            "full": "SANDMAN, W"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "T-6 SCHEDULER \u00b7 SANDMAN, W, LT \u00b7 0730 \u00b7 1600",
+        "role": "T-6 SCHEDULER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER - FLIGHT DISTRO",
+        "start": "0001",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SLATE",
+            "first": "K",
+            "full": "SLATE, K"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER - FLIGHT DISTRO \u00b7 Slate, K, ENS \u00b7 0001 \u00b7 2359",
+        "role": "DUTY DRIVER - FLIGHT DISTRO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO",
+        "start": "0001",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CALE",
+            "first": "R",
+            "full": "CALE, R"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO \u00b7 CALE, R, LT \u00b7 0001 \u00b7 2359",
+        "role": "SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4202",
+        "start": "0800",
+        "end": "0930",
+        "land": "0930",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORE",
+            "first": "A",
+            "full": "MORE, A"
+          },
+          {
+            "last": "JEROME",
+            "first": "A",
+            "full": "JEROME, A"
+          }
+        ],
+        "instructors": [
+          "MORE, A"
+        ],
+        "students": [
+          "JEROME, A"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 0800 \u00b7 0930 \u00b7 KATT \u00b7 MORE, A, LCDR \u00b7 Jerome, A, LTJG \u00b7 STK4202 \u00b7 1.5 \u00b7 VR1024 A-G (0820L)",
+        "role": "STK4202",
+        "remarks": "VR1024 A-G (0820L)",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4203",
+        "start": "1100",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORE",
+            "first": "A",
+            "full": "MORE, A"
+          },
+          {
+            "last": "JEROME",
+            "first": "A",
+            "full": "JEROME, A"
+          }
+        ],
+        "instructors": [
+          "MORE, A"
+        ],
+        "students": [
+          "JEROME, A"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 1100 \u00b7 1230 \u00b7 KATT \u00b7 MORE, A, LCDR \u00b7 Jerome, A, LTJG \u00b7 STK4203 \u00b7 1.5 \u00b7 VR1024 G-M (1120L)",
+        "role": "STK4203",
+        "remarks": "VR1024 G-M (1120L)",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4102",
+        "start": "0800",
+        "end": "0930",
+        "land": "0930",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MARTIN",
+            "first": "P",
+            "full": "MARTIN, P"
+          },
+          {
+            "last": "HAGEMASTER",
+            "first": "C",
+            "full": "HAGEMASTER, C"
+          }
+        ],
+        "instructors": [
+          "MARTIN, P"
+        ],
+        "students": [
+          "HAGEMASTER, C"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 0800 \u00b7 0930 \u00b7 KATT \u00b7 MARTIN, P, LT \u00b7 Hagemaster, C, ENS \u00b7 FAM4102 \u00b7 1.5 \u00b7 DD-1801",
+        "role": "FAM4102",
+        "remarks": "DD-1801",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4202",
+        "start": "0810",
+        "end": "0940",
+        "land": "0940",
+        "brief": "0610",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCWILLIAMS",
+            "first": "C",
+            "full": "MCWILLIAMS, C"
+          },
+          {
+            "last": "FORSBERG",
+            "first": "L",
+            "full": "FORSBERG, L"
+          }
+        ],
+        "instructors": [
+          "MCWILLIAMS, C"
+        ],
+        "students": [
+          "FORSBERG, L"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0610 \u00b7 0810 \u00b7 0940 \u00b7 KATT \u00b7 MCWILLIAMS, C, LT \u00b7 Forsberg, L, ENS \u00b7 STK4202 \u00b7 1.5 \u00b7 VR1024 A-G (0830L)",
+        "role": "STK4202",
+        "remarks": "VR1024 A-G (0830L)",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4203",
+        "start": "1110",
+        "end": "1240",
+        "land": "1240",
+        "brief": "0610",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCWILLIAMS",
+            "first": "C",
+            "full": "MCWILLIAMS, C"
+          },
+          {
+            "last": "FORSBERG",
+            "first": "L",
+            "full": "FORSBERG, L"
+          }
+        ],
+        "instructors": [
+          "MCWILLIAMS, C"
+        ],
+        "students": [
+          "FORSBERG, L"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0610 \u00b7 1110 \u00b7 1240 \u00b7 KATT \u00b7 MCWILLIAMS, C, LT \u00b7 Forsberg, L, ENS \u00b7 STK4203 \u00b7 1.5 \u00b7 VR1024 G-M (1130L)",
+        "role": "STK4203",
+        "remarks": "VR1024 G-M (1130L)",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4290",
+        "start": "0820",
+        "end": "1008",
+        "land": "1008",
+        "brief": "0620",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HEIN",
+            "first": "A",
+            "full": "HEIN, A"
+          },
+          {
+            "last": "SYDLOWSKI",
+            "first": "J",
+            "full": "SYDLOWSKI, J"
+          }
+        ],
+        "instructors": [
+          "HEIN, A"
+        ],
+        "students": [
+          "SYDLOWSKI, J"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0620 \u00b7 0820 \u00b7 1008 \u00b7 KATT \u00b7 HEIN, A, LT \u00b7 SYDLOWSKI, J, LT \u00b7 NA4290 \u00b7 1.8 \u00b7 NATOPS CHECK",
+        "role": "NA4290",
+        "remarks": "NATOPS CHECK",
+        "duration": "1.8",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4290",
+        "start": "1120",
+        "end": "1320",
+        "land": "1320",
+        "brief": "0620",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HEIN",
+            "first": "A",
+            "full": "HEIN, A"
+          },
+          {
+            "last": "SYDLOWSKI",
+            "first": "J",
+            "full": "SYDLOWSKI, J"
+          }
+        ],
+        "instructors": [
+          "HEIN, A"
+        ],
+        "students": [
+          "SYDLOWSKI, J"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0620 \u00b7 1120 \u00b7 1320 \u00b7 KATT \u00b7 HEIN, A, LT \u00b7 SYDLOWSKI, J, LT \u00b7 NAV4290 \u00b7 2.0 \u00b7 INSTRUMENT CHECK",
+        "role": "NAV4290",
+        "remarks": "INSTRUMENT CHECK",
+        "duration": "2.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4106",
+        "start": "0830",
+        "end": "1012",
+        "land": "1012",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MELICK",
+            "first": "S",
+            "full": "MELICK, S"
+          },
+          {
+            "last": "BARKER",
+            "first": "S",
+            "full": "BARKER, S"
+          }
+        ],
+        "instructors": [
+          "MELICK, S"
+        ],
+        "students": [
+          "BARKER, S"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0630 \u00b7 0830 \u00b7 1012 \u00b7 KATT \u00b7 MELICK, S, LCDR \u00b7 Barker, S, ENS \u00b7 NAV4106 \u00b7 1.7 \u00b7 *DD-1801",
+        "role": "NAV4106",
+        "remarks": "*DD-1801",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4107",
+        "start": "1300",
+        "end": "1442",
+        "land": "1442",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MELICK",
+            "first": "S",
+            "full": "MELICK, S"
+          },
+          {
+            "last": "BARKER",
+            "first": "S",
+            "full": "BARKER, S"
+          }
+        ],
+        "instructors": [
+          "MELICK, S"
+        ],
+        "students": [
+          "BARKER, S"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0630 \u00b7 1300 \u00b7 1442 \u00b7 KATT \u00b7 MELICK, S, LCDR \u00b7 Barker, S, ENS \u00b7 NAV4107 \u00b7 1.7 \u00b7 DD-1801, NOTE C",
+        "role": "NAV4107",
+        "remarks": "DD-1801, NOTE C",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4101",
+        "start": "0830",
+        "end": "1030",
+        "land": "1030",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORGAN",
+            "first": "J",
+            "full": "MORGAN, J"
+          },
+          {
+            "last": "LOOMIS",
+            "first": "A",
+            "full": "LOOMIS, A"
+          }
+        ],
+        "instructors": [
+          "MORGAN, J"
+        ],
+        "students": [
+          "LOOMIS, A"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0630 \u00b7 0830 \u00b7 1030 \u00b7 KATT \u00b7 MORGAN, J, LT \u00b7 Loomis, A, ENS \u00b7 STK4101 \u00b7 2.0 \u00b7 DD-1801",
+        "role": "STK4101",
+        "remarks": "DD-1801",
+        "duration": "2.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4102",
+        "start": "1140",
+        "end": "1340",
+        "land": "1340",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORGAN",
+            "first": "J",
+            "full": "MORGAN, J"
+          },
+          {
+            "last": "LOOMIS",
+            "first": "A",
+            "full": "LOOMIS, A"
+          }
+        ],
+        "instructors": [
+          "MORGAN, J"
+        ],
+        "students": [
+          "LOOMIS, A"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0630 \u00b7 1140 \u00b7 1340 \u00b7 KATT \u00b7 MORGAN, J, LT \u00b7 Loomis, A, ENS \u00b7 STK4102 \u00b7 2.0 \u00b7 DD-1801",
+        "role": "STK4102",
+        "remarks": "DD-1801",
+        "duration": "2.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4106",
+        "start": "1100",
+        "end": "1242",
+        "land": "1242",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JENDRYCKI",
+            "first": "C",
+            "full": "JENDRYCKI, C"
+          },
+          {
+            "last": "KORNHOFF",
+            "first": "T",
+            "full": "KORNHOFF, T"
+          }
+        ],
+        "instructors": [
+          "JENDRYCKI, C"
+        ],
+        "students": [
+          "KORNHOFF, T"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0900 \u00b7 1100 \u00b7 1242 \u00b7 KATT \u00b7 JENDRYCKI, C, LT \u00b7 Kornhoff, T, ENS \u00b7 NAV4106 \u00b7 1.7 \u00b7 *DD-1801",
+        "role": "NAV4106",
+        "remarks": "*DD-1801",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4107",
+        "start": "1400",
+        "end": "1542",
+        "land": "1542",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JENDRYCKI",
+            "first": "C",
+            "full": "JENDRYCKI, C"
+          },
+          {
+            "last": "KORNHOFF",
+            "first": "T",
+            "full": "KORNHOFF, T"
+          }
+        ],
+        "instructors": [
+          "JENDRYCKI, C"
+        ],
+        "students": [
+          "KORNHOFF, T"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0900 \u00b7 1400 \u00b7 1542 \u00b7 KATT \u00b7 JENDRYCKI, C, LT \u00b7 Kornhoff, T, ENS \u00b7 NAV4107 \u00b7 1.7 \u00b7 DD 1801, NOTE C",
+        "role": "NAV4107",
+        "remarks": "DD 1801, NOTE C",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4101",
+        "start": "1100",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCCLANAHAN",
+            "first": "P",
+            "full": "MCCLANAHAN, P"
+          },
+          {
+            "last": "WARDEN",
+            "first": "A",
+            "full": "WARDEN, A"
+          }
+        ],
+        "instructors": [
+          "MCCLANAHAN, P"
+        ],
+        "students": [
+          "WARDEN, A"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0830 \u00b7 1100 \u00b7 1230 \u00b7 KATT \u00b7 McCLANAHAN, P, LT \u00b7 Warden, A, ENS \u00b7 FAM4101 \u00b7 1.5 \u00b7 DD-1801",
+        "role": "FAM4101",
+        "remarks": "DD-1801",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4101",
+        "start": "1430",
+        "end": "1600",
+        "land": "1600",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCCLANAHAN",
+            "first": "P",
+            "full": "MCCLANAHAN, P"
+          },
+          {
+            "last": "OLSEN",
+            "first": "A",
+            "full": "OLSEN, A"
+          }
+        ],
+        "instructors": [
+          "MCCLANAHAN, P"
+        ],
+        "students": [
+          "OLSEN, A"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0830 \u00b7 1430 \u00b7 1600 \u00b7 KATT \u00b7 McCLANAHAN, P, LT \u00b7 Olsen, A, 2LT \u00b7 FAM4101 \u00b7 1.5 \u00b7 DD-1801",
+        "role": "FAM4101",
+        "remarks": "DD-1801",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4105",
+        "start": "0810",
+        "end": "0952",
+        "land": "0952",
+        "brief": "0610",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WING",
+            "first": "A",
+            "full": "WING, A"
+          },
+          {
+            "last": "MARQUIS",
+            "first": "G",
+            "full": "MARQUIS, G"
+          }
+        ],
+        "instructors": [
+          "WING, A"
+        ],
+        "students": [
+          "MARQUIS, G"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0610 \u00b7 0810 \u00b7 0952 \u00b7 KATT \u00b7 WING, A, LtCol \u00b7 Marquis, G, LTJG \u00b7 NAV4105 \u00b7 1.7 \u00b7 DD-1801",
+        "role": "NAV4105",
+        "remarks": "DD-1801",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4106",
+        "start": "1120",
+        "end": "1302",
+        "land": "1302",
+        "brief": "0610",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WING",
+            "first": "A",
+            "full": "WING, A"
+          },
+          {
+            "last": "MARQUIS",
+            "first": "G",
+            "full": "MARQUIS, G"
+          }
+        ],
+        "instructors": [
+          "WING, A"
+        ],
+        "students": [
+          "MARQUIS, G"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0610 \u00b7 1120 \u00b7 1302 \u00b7 KATT \u00b7 WING, A, LtCol \u00b7 Marquis, G, LTJG \u00b7 NAV4106 \u00b7 1.7 \u00b7 DD-1801",
+        "role": "NAV4106",
+        "remarks": "DD-1801",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4103",
+        "start": "1410",
+        "end": "1540",
+        "land": "1540",
+        "brief": "1210",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PARKS",
+            "first": "J",
+            "full": "PARKS, J"
+          },
+          {
+            "last": "WOODLE",
+            "first": "B",
+            "full": "WOODLE, B"
+          }
+        ],
+        "instructors": [
+          "PARKS, J"
+        ],
+        "students": [
+          "WOODLE, B"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1210 \u00b7 1410 \u00b7 1540 \u00b7 KATT \u00b7 PARKS, J, LT \u00b7 Woodle, B, ENS \u00b7 FAM4103 \u00b7 1.5 \u00b7 DD-1801",
+        "role": "FAM4103",
+        "remarks": "DD-1801",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4105",
+        "start": "1420",
+        "end": "1602",
+        "land": "1602",
+        "brief": "1220",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAHAN",
+            "first": "T",
+            "full": "MAHAN, T"
+          },
+          {
+            "last": "MCCHESNEY",
+            "first": "C",
+            "full": "MCCHESNEY, C"
+          }
+        ],
+        "instructors": [
+          "MAHAN, T"
+        ],
+        "students": [
+          "MCCHESNEY, C"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1220 \u00b7 1420 \u00b7 1602 \u00b7 KATT \u00b7 MAHAN, T, LT \u00b7 Mcchesney, C, ENS \u00b7 NAV4105 \u00b7 1.7 \u00b7 DD-1801",
+        "role": "NAV4105",
+        "remarks": "DD-1801",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4106",
+        "start": "1720",
+        "end": "1902",
+        "land": "1902",
+        "brief": "1220",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAHAN",
+            "first": "T",
+            "full": "MAHAN, T"
+          },
+          {
+            "last": "MCCHESNEY",
+            "first": "C",
+            "full": "MCCHESNEY, C"
+          }
+        ],
+        "instructors": [
+          "MAHAN, T"
+        ],
+        "students": [
+          "MCCHESNEY, C"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1220 \u00b7 1720 \u00b7 1902 \u00b7 KATT \u00b7 MAHAN, T, LT \u00b7 Mcchesney, C, ENS \u00b7 NAV4106 \u00b7 1.7 \u00b7 DD-1801",
+        "role": "NAV4106",
+        "remarks": "DD-1801",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4107",
+        "start": "1420",
+        "end": "1602",
+        "land": "1602",
+        "brief": "1220",
+        "formation": "",
+        "crew": [
+          {
+            "last": "EIB",
+            "first": "A",
+            "full": "EIB, A"
+          },
+          {
+            "last": "ALSHEHRI",
+            "first": "B",
+            "full": "ALSHEHRI, B"
+          }
+        ],
+        "instructors": [
+          "EIB, A"
+        ],
+        "students": [
+          "ALSHEHRI, B"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1220 \u00b7 1420 \u00b7 1602 \u00b7 KATT \u00b7 EIB, A, LT \u00b7 Alshehri, B, 2LT \u00b7 NAV4107 \u00b7 1.7 \u00b7 DD-1801",
+        "role": "NAV4107",
+        "remarks": "DD-1801",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4106",
+        "start": "1400",
+        "end": "1542",
+        "land": "1542",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WOOD",
+            "first": "C",
+            "full": "WOOD, C"
+          },
+          {
+            "last": "TERRY",
+            "first": "R",
+            "full": "TERRY, R"
+          }
+        ],
+        "instructors": [
+          "WOOD, C"
+        ],
+        "students": [
+          "TERRY, R"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1200 \u00b7 1400 \u00b7 1542 \u00b7 KATT \u00b7 WOOD, C, LT \u00b7 Terry, R, ENS \u00b7 NAV4106 \u00b7 1.7 \u00b7 *DD 1801",
+        "role": "NAV4106",
+        "remarks": "*DD 1801",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4107",
+        "start": "1700",
+        "end": "1842",
+        "land": "1842",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WOOD",
+            "first": "C",
+            "full": "WOOD, C"
+          },
+          {
+            "last": "TERRY",
+            "first": "R",
+            "full": "TERRY, R"
+          }
+        ],
+        "instructors": [
+          "WOOD, C"
+        ],
+        "students": [
+          "TERRY, R"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1200 \u00b7 1700 \u00b7 1842 \u00b7 KATT \u00b7 WOOD, C, LT \u00b7 Terry, R, ENS \u00b7 NAV4107 \u00b7 1.7 \u00b7 DD 1801, NOTE C",
+        "role": "NAV4107",
+        "remarks": "DD 1801, NOTE C",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4101",
+        "start": "1400",
+        "end": "1530",
+        "land": "1530",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DONOFRIO",
+            "first": "A",
+            "full": "DONOFRIO, A"
+          },
+          {
+            "last": "DISRAELI",
+            "first": "D",
+            "full": "DISRAELI, D"
+          }
+        ],
+        "instructors": [
+          "DONOFRIO, A"
+        ],
+        "students": [
+          "DISRAELI, D"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1130 \u00b7 1400 \u00b7 1530 \u00b7 KATT \u00b7 DONOFRIO, A, LT \u00b7 Disraeli, D, ENS \u00b7 FAM4101 \u00b7 1.5 \u00b7 DD-1801",
+        "role": "FAM4101",
+        "remarks": "DD-1801",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4101",
+        "start": "1440",
+        "end": "1610",
+        "land": "1610",
+        "brief": "1210",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BURNS",
+            "first": "L",
+            "full": "BURNS, L"
+          },
+          {
+            "last": "GAVER",
+            "first": "N",
+            "full": "GAVER, N"
+          }
+        ],
+        "instructors": [
+          "BURNS, L"
+        ],
+        "students": [
+          "GAVER, N"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1210 \u00b7 1440 \u00b7 1610 \u00b7 KATT \u00b7 BURNS, L, LCDR \u00b7 Gaver, N, ENS \u00b7 FAM4101 \u00b7 1.5 \u00b7 DD-1801",
+        "role": "FAM4101",
+        "remarks": "DD-1801",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "T6 IProf",
+        "start": "1700",
+        "end": "1830",
+        "land": "1830",
+        "brief": "1530",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BOSS",
+            "first": "J",
+            "full": "BOSS, J"
+          },
+          {
+            "last": "KHAN",
+            "first": "S",
+            "full": "KHAN, S"
+          }
+        ],
+        "instructors": [
+          "BOSS, J"
+        ],
+        "students": [
+          "KHAN, S"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1530 \u00b7 1700 \u00b7 1830 \u00b7 KATT \u00b7 BOSS, J, LCDR \u00b7 KHAN, S, CDR \u00b7 T6 IProf \u00b7 1.5 \u00b7 NIGHT REHACK",
+        "role": "T6 IProf",
+        "remarks": "NIGHT REHACK",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4201",
+        "start": "0830",
+        "end": "1000",
+        "land": "1000",
+        "brief": "0610",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALCORN",
+            "first": "Z",
+            "full": "ALCORN, Z"
+          },
+          {
+            "last": "MARK",
+            "first": "K",
+            "full": "MARK, K"
+          }
+        ],
+        "instructors": [
+          "ALCORN, Z"
+        ],
+        "students": [
+          "MARK, K"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0610 \u00b7 0830 \u00b7 1000 \u00b7 KATT \u00b7 ALCORN, Z, LT \u00b7 Mark, K, ENS \u00b7 STK4201 \u00b7 1.5 \u00b7 VR1024 A-G (0850L)",
+        "role": "STK4201",
+        "remarks": "VR1024 A-G (0850L)",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4202",
+        "start": "1130",
+        "end": "1300",
+        "land": "1300",
+        "brief": "0910",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALCORN",
+            "first": "Z",
+            "full": "ALCORN, Z"
+          },
+          {
+            "last": "MARK",
+            "first": "K",
+            "full": "MARK, K"
+          }
+        ],
+        "instructors": [
+          "ALCORN, Z"
+        ],
+        "students": [
+          "MARK, K"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0910 \u00b7 1130 \u00b7 1300 \u00b7 KATT \u00b7 ALCORN, Z, LT \u00b7 Mark, K, ENS \u00b7 STK4202 \u00b7 1.5 \u00b7 VR1024 G-M (1150L)",
+        "role": "STK4202",
+        "remarks": "VR1024 G-M (1150L)",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4201",
+        "start": "0820",
+        "end": "0950",
+        "land": "0950",
+        "brief": "0620",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FITZWATER",
+            "first": "J",
+            "full": "FITZWATER, J"
+          },
+          {
+            "last": "MURPHY",
+            "first": "M",
+            "full": "MURPHY, M"
+          }
+        ],
+        "instructors": [
+          "FITZWATER, J"
+        ],
+        "students": [
+          "MURPHY, M"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0620 \u00b7 0820 \u00b7 0950 \u00b7 KATT \u00b7 FITZWATER, J, LT \u00b7 Murphy, M, ENS \u00b7 STK4201 \u00b7 1.5 \u00b7 VR1024 A-G (0840L)",
+        "role": "STK4201",
+        "remarks": "VR1024 A-G (0840L)",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4202",
+        "start": "1120",
+        "end": "1250",
+        "land": "1250",
+        "brief": "0920",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FITZWATER",
+            "first": "J",
+            "full": "FITZWATER, J"
+          },
+          {
+            "last": "MURPHY",
+            "first": "M",
+            "full": "MURPHY, M"
+          }
+        ],
+        "instructors": [
+          "FITZWATER, J"
+        ],
+        "students": [
+          "MURPHY, M"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0920 \u00b7 1120 \u00b7 1250 \u00b7 KATT \u00b7 FITZWATER, J, LT \u00b7 Murphy, M, ENS \u00b7 STK4202 \u00b7 1.5 \u00b7 VR1024 G-M (1140L)",
+        "role": "STK4202",
+        "remarks": "VR1024 G-M (1140L)",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FRM4102",
+        "start": "0830",
+        "end": "1000",
+        "land": "1000",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SANBORN",
+            "first": "M",
+            "full": "SANBORN, M"
+          },
+          {
+            "last": "MATTSON",
+            "first": "C",
+            "full": "MATTSON, C"
+          }
+        ],
+        "instructors": [
+          "SANBORN, M"
+        ],
+        "students": [
+          "MATTSON, C"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0630 \u00b7 0830 \u00b7 1000 \u00b7 KATT \u00b7 SANBORN, M, LT \u00b7 Mattson, C, ENS \u00b7 FRM4102 \u00b7 1.5 \u00b7 DD-1801, NOTE A, TAC B",
+        "role": "FRM4102",
+        "remarks": "DD-1801, NOTE A, TAC B",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FRM4102",
+        "start": "0830",
+        "end": "1000",
+        "land": "1000",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MONTEVILLE",
+            "first": "J",
+            "full": "MONTEVILLE, J"
+          },
+          {
+            "last": "LEWIS",
+            "first": "W",
+            "full": "LEWIS, W"
+          }
+        ],
+        "instructors": [
+          "MONTEVILLE, J"
+        ],
+        "students": [
+          "LEWIS, W"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0630 \u00b7 0830 \u00b7 1000 \u00b7 KATT \u00b7 MONTEVILLE, J, LT \u00b7 Lewis, W, ENS \u00b7 FRM4102 \u00b7 1.5 \u00b7 DD-1801, TAC B",
+        "role": "FRM4102",
+        "remarks": "DD-1801, TAC B",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FAM3105 (86(WU))",
+        "start": "0630",
+        "end": "0800",
+        "land": "0800",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LEGER",
+            "first": "A",
+            "full": "LEGER, A"
+          },
+          {
+            "last": "CROKE",
+            "first": "K",
+            "full": "CROKE, K"
+          }
+        ],
+        "instructors": [
+          "LEGER, A"
+        ],
+        "students": [
+          "CROKE, K"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "0600 \u00b7 0630 \u00b7 0800 \u00b7 OFT-7P \u00b7 LEGER, A, CIV \u00b7 Croke, K, ENS \u00b7 FAM3105 (86(WU)) \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "FAM3105 (86(WU))",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "OFT-7P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FUN3102",
+        "start": "0630",
+        "end": "0800",
+        "land": "0800",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BALL",
+            "first": "G",
+            "full": "BALL, G"
+          },
+          {
+            "last": "FULLER",
+            "first": "C",
+            "full": "FULLER, C"
+          }
+        ],
+        "instructors": [
+          "BALL, G"
+        ],
+        "students": [
+          "FULLER, C"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "0600 \u00b7 0630 \u00b7 0800 \u00b7 OFT-6P \u00b7 BALL, G, CIV \u00b7 Fuller, C, ENS \u00b7 FUN3102 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "FUN3102",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "OFT-6P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NAV3103",
+        "start": "0800",
+        "end": "0930",
+        "land": "0930",
+        "brief": "0730",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DUKE",
+            "first": "J",
+            "full": "DUKE, J"
+          },
+          {
+            "last": "HALL",
+            "first": "C",
+            "full": "HALL, C"
+          }
+        ],
+        "instructors": [
+          "DUKE, J"
+        ],
+        "students": [
+          "HALL, C"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "0730 \u00b7 0800 \u00b7 0930 \u00b7 UTD-1P \u00b7 DUKE, J, CIV \u00b7 Hall, C, ENS \u00b7 NAV3103 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "NAV3103",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "UTD-1P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FUN3102",
+        "start": "0800",
+        "end": "0930",
+        "land": "0930",
+        "brief": "0730",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GREENWOOD",
+            "first": "A",
+            "full": "GREENWOOD, A"
+          },
+          {
+            "last": "HUTCHINSON",
+            "first": "J",
+            "full": "HUTCHINSON, J"
+          }
+        ],
+        "instructors": [
+          "GREENWOOD, A"
+        ],
+        "students": [
+          "HUTCHINSON, J"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "0730 \u00b7 0800 \u00b7 0930 \u00b7 OFT-7P \u00b7 GREENWOOD, A, CIV \u00b7 Hutchinson, J, ENS \u00b7 FUN3102 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "FUN3102",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "OFT-7P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FAM3104",
+        "start": "0800",
+        "end": "0930",
+        "land": "0930",
+        "brief": "0730",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KIELY",
+            "first": "D",
+            "full": "KIELY, D"
+          },
+          {
+            "last": "WALKER",
+            "first": "J",
+            "full": "WALKER, J"
+          }
+        ],
+        "instructors": [
+          "KIELY, D"
+        ],
+        "students": [
+          "WALKER, J"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "0730 \u00b7 0800 \u00b7 0930 \u00b7 OFT-6P \u00b7 KIELY, D, CIV \u00b7 Walker, J, ENS \u00b7 FAM3104 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "FAM3104",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "OFT-6P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NAV3103",
+        "start": "0930",
+        "end": "1100",
+        "land": "1100",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SUMNER",
+            "first": "M",
+            "full": "SUMNER, M"
+          },
+          {
+            "last": "NORAH",
+            "first": "C",
+            "full": "NORAH, C"
+          }
+        ],
+        "instructors": [
+          "SUMNER, M"
+        ],
+        "students": [
+          "NORAH, C"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "0900 \u00b7 0930 \u00b7 1100 \u00b7 UTD-3P \u00b7 SUMNER, M, CIV \u00b7 Norah, C, ENS \u00b7 NAV3103 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "NAV3103",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "UTD-3P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NAV3103",
+        "start": "0930",
+        "end": "1100",
+        "land": "1100",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JELENIEWSKI",
+            "first": "W",
+            "full": "JELENIEWSKI, W"
+          },
+          {
+            "last": "ROTH",
+            "first": "N",
+            "full": "ROTH, N"
+          }
+        ],
+        "instructors": [
+          "JELENIEWSKI, W"
+        ],
+        "students": [
+          "ROTH, N"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "0900 \u00b7 0930 \u00b7 1100 \u00b7 UTD-4P \u00b7 JELENIEWSKI, W, CIV \u00b7 Roth, N, LTJG \u00b7 NAV3103 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "NAV3103",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "UTD-4P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FAM3104",
+        "start": "0930",
+        "end": "1100",
+        "land": "1100",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LEGER",
+            "first": "A",
+            "full": "LEGER, A"
+          },
+          {
+            "last": "RYAN",
+            "first": "T",
+            "full": "RYAN, T"
+          }
+        ],
+        "instructors": [
+          "LEGER, A"
+        ],
+        "students": [
+          "RYAN, T"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "0900 \u00b7 0930 \u00b7 1100 \u00b7 OFT-7P \u00b7 LEGER, A, CIV \u00b7 Ryan, T, ENS \u00b7 FAM3104 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "FAM3104",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "OFT-7P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NAV3103",
+        "start": "0930",
+        "end": "1100",
+        "land": "1100",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LOVE",
+            "first": "S",
+            "full": "LOVE, S"
+          },
+          {
+            "last": "WISENBAKER",
+            "first": "L",
+            "full": "WISENBAKER, L"
+          }
+        ],
+        "instructors": [
+          "LOVE, S"
+        ],
+        "students": [
+          "WISENBAKER, L"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "0900 \u00b7 0930 \u00b7 1100 \u00b7 UTD-2P \u00b7 LOVE, S, CIV \u00b7 Wisenbaker, L, ENS \u00b7 NAV3103 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "NAV3103",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "UTD-2P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NAV3103",
+        "start": "0930",
+        "end": "1100",
+        "land": "1100",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WUJEK",
+            "first": "J",
+            "full": "WUJEK, J"
+          },
+          {
+            "last": "RENKEN",
+            "first": "H",
+            "full": "RENKEN, H"
+          }
+        ],
+        "instructors": [
+          "WUJEK, J"
+        ],
+        "students": [
+          "RENKEN, H"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "0900 \u00b7 0930 \u00b7 1100 \u00b7 UTD-5P \u00b7 WUJEK, J, CIV \u00b7 Renken, H, LTJG \u00b7 NAV3103 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "NAV3103",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "UTD-5P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FAM3104",
+        "start": "0930",
+        "end": "1100",
+        "land": "1100",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BALL",
+            "first": "G",
+            "full": "BALL, G"
+          },
+          {
+            "last": "LAWRENCE",
+            "first": "C",
+            "full": "LAWRENCE, C"
+          }
+        ],
+        "instructors": [
+          "BALL, G"
+        ],
+        "students": [
+          "LAWRENCE, C"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "0900 \u00b7 0930 \u00b7 1100 \u00b7 OFT-6P \u00b7 BALL, G, CIV \u00b7 Lawrence, C, ENS \u00b7 FAM3104 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "FAM3104",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "OFT-6P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NAV3103",
+        "start": "1100",
+        "end": "1230",
+        "land": "1230",
+        "brief": "1030",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DUKE",
+            "first": "J",
+            "full": "DUKE, J"
+          },
+          {
+            "last": "BOWERS",
+            "first": "K",
+            "full": "BOWERS, K"
+          }
+        ],
+        "instructors": [
+          "DUKE, J"
+        ],
+        "students": [
+          "BOWERS, K"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "1030 \u00b7 1100 \u00b7 1230 \u00b7 UTD-1P \u00b7 DUKE, J, CIV \u00b7 Bowers, K, ENS \u00b7 NAV3103 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "NAV3103",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "UTD-1P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FAM3104",
+        "start": "1100",
+        "end": "1230",
+        "land": "1230",
+        "brief": "1030",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KIELY",
+            "first": "D",
+            "full": "KIELY, D"
+          },
+          {
+            "last": "DEFIELD",
+            "first": "M",
+            "full": "DEFIELD, M"
+          }
+        ],
+        "instructors": [
+          "KIELY, D"
+        ],
+        "students": [
+          "DEFIELD, M"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "1030 \u00b7 1100 \u00b7 1230 \u00b7 OFT-6P \u00b7 KIELY, D, CIV \u00b7 DeField, M, ENS \u00b7 FAM3104 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "FAM3104",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "OFT-6P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FUN3102",
+        "start": "1100",
+        "end": "1230",
+        "land": "1230",
+        "brief": "1030",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GREENWOOD",
+            "first": "A",
+            "full": "GREENWOOD, A"
+          },
+          {
+            "last": "MILLER",
+            "first": "J",
+            "full": "MILLER, J"
+          }
+        ],
+        "instructors": [
+          "GREENWOOD, A"
+        ],
+        "students": [
+          "MILLER, J"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "1030 \u00b7 1100 \u00b7 1230 \u00b7 OFT-7P \u00b7 GREENWOOD, A, CIV \u00b7 Miller, J, ENS \u00b7 FUN3102 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "FUN3102",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "OFT-7P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NAV3103",
+        "start": "1230",
+        "end": "1400",
+        "land": "1400",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WUJEK",
+            "first": "J",
+            "full": "WUJEK, J"
+          },
+          {
+            "last": "YOUNG",
+            "first": "S",
+            "full": "YOUNG, S"
+          }
+        ],
+        "instructors": [
+          "WUJEK, J"
+        ],
+        "students": [
+          "YOUNG, S"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "1200 \u00b7 1230 \u00b7 1400 \u00b7 UTD-4P \u00b7 WUJEK, J, CIV \u00b7 Young, S, ENS \u00b7 NAV3103 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "NAV3103",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "UTD-4P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FUN3102",
+        "start": "1230",
+        "end": "1400",
+        "land": "1400",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BALL",
+            "first": "G",
+            "full": "BALL, G"
+          },
+          {
+            "last": "MAZUREK",
+            "first": "J",
+            "full": "MAZUREK, J"
+          }
+        ],
+        "instructors": [
+          "BALL, G"
+        ],
+        "students": [
+          "MAZUREK, J"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "1200 \u00b7 1230 \u00b7 1400 \u00b7 OFT-6P \u00b7 BALL, G, CIV \u00b7 Mazurek, J, ENS \u00b7 FUN3102 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "FUN3102",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "OFT-6P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NAV3201",
+        "start": "1230",
+        "end": "1400",
+        "land": "1400",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SUMNER",
+            "first": "M",
+            "full": "SUMNER, M"
+          },
+          {
+            "last": "OETTING",
+            "first": "J",
+            "full": "OETTING, J"
+          }
+        ],
+        "instructors": [
+          "SUMNER, M"
+        ],
+        "students": [
+          "OETTING, J"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "1200 \u00b7 1230 \u00b7 1400 \u00b7 UTD-2P \u00b7 SUMNER, M, CIV \u00b7 Oetting, J, ENS \u00b7 NAV3201 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "NAV3201",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "UTD-2P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FAM3104",
+        "start": "1230",
+        "end": "1400",
+        "land": "1400",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LEGER",
+            "first": "A",
+            "full": "LEGER, A"
+          },
+          {
+            "last": "BUI",
+            "first": "V",
+            "full": "BUI, V"
+          }
+        ],
+        "instructors": [
+          "LEGER, A"
+        ],
+        "students": [
+          "BUI, V"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "1200 \u00b7 1230 \u00b7 1400 \u00b7 OFT-7P \u00b7 LEGER, A, CIV \u00b7 Bui, V, ENS \u00b7 FAM3104 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "FAM3104",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "OFT-7P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NAV3103",
+        "start": "1230",
+        "end": "1400",
+        "land": "1400",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LOVE",
+            "first": "S",
+            "full": "LOVE, S"
+          },
+          {
+            "last": "BAS",
+            "first": "C",
+            "full": "BAS, C"
+          }
+        ],
+        "instructors": [
+          "LOVE, S"
+        ],
+        "students": [
+          "BAS, C"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "1200 \u00b7 1230 \u00b7 1400 \u00b7 UTD-1P \u00b7 LOVE, S, CIV \u00b7 Bas, C, ENS \u00b7 NAV3103 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "NAV3103",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "UTD-1P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NAV3103",
+        "start": "1230",
+        "end": "1400",
+        "land": "1400",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JELENIEWSKI",
+            "first": "W",
+            "full": "JELENIEWSKI, W"
+          },
+          {
+            "last": "MORGAN",
+            "first": "N",
+            "full": "MORGAN, N"
+          }
+        ],
+        "instructors": [
+          "JELENIEWSKI, W"
+        ],
+        "students": [
+          "MORGAN, N"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "1200 \u00b7 1230 \u00b7 1400 \u00b7 UTD-3P \u00b7 JELENIEWSKI, W, CIV \u00b7 Morgan, N, ENS \u00b7 NAV3103 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "NAV3103",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "UTD-3P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NAV3102",
+        "start": "1400",
+        "end": "1530",
+        "land": "1530",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GREENWOOD",
+            "first": "A",
+            "full": "GREENWOOD, A"
+          },
+          {
+            "last": "BOSTOCK",
+            "first": "S",
+            "full": "BOSTOCK, S"
+          }
+        ],
+        "instructors": [
+          "GREENWOOD, A"
+        ],
+        "students": [
+          "BOSTOCK, S"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "1330 \u00b7 1400 \u00b7 1530 \u00b7 OFT-7P \u00b7 GREENWOOD, A, CIV \u00b7 Bostock, S, ENS \u00b7 NAV3102 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "NAV3102",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "OFT-7P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FAM3104",
+        "start": "1530",
+        "end": "1700",
+        "land": "1700",
+        "brief": "1500",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LOVE",
+            "first": "S",
+            "full": "LOVE, S"
+          },
+          {
+            "last": "BROWNELL",
+            "first": "T",
+            "full": "BROWNELL, T"
+          }
+        ],
+        "instructors": [
+          "LOVE, S"
+        ],
+        "students": [
+          "BROWNELL, T"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "1500 \u00b7 1530 \u00b7 1700 \u00b7 OFT-6P \u00b7 LOVE, S, CIV \u00b7 Brownell, T, ENS \u00b7 FAM3104 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "role": "FAM3104",
+        "remarks": "SEE NOTE B",
+        "duration": "1.5",
+        "device": "OFT-6P",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FAM3104 FOR APPLICABLE",
+        "start": "1530",
+        "end": "1700",
+        "land": "1700",
+        "brief": "1500",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SUMNER",
+            "first": "M",
+            "full": "SUMNER, M"
+          },
+          {
+            "last": "CIV COMPLETE. FOR INTERMEDIATE",
+            "first": "SEE",
+            "full": "CIV COMPLETE. FOR INTERMEDIATE, SEE"
+          },
+          {
+            "last": "BERMUDEZ",
+            "first": "A",
+            "full": "BERMUDEZ, A"
+          }
+        ],
+        "instructors": [
+          "SUMNER, M",
+          "CIV COMPLETE. FOR INTERMEDIATE, SEE"
+        ],
+        "students": [
+          "BERMUDEZ, A"
+        ],
+        "page": 3,
+        "line": "",
+        "raw": "1500 ---------------------------------------------------------------------- FLIGHT SCHEDULE/SIMULATOR A. SECTION B. TURN IN C. UPON COMPLETION D. STUDENTS: \u00b7 1530 LEAD. NAVFLIR COMPLETE \u00b7 1700 NOTES: AND GRADESHEET OF FLT NAV4390 EVENT \u00b7 OFT-7P WHEN SIM OR STK4390 REHEARSAL NAVFLIR, \u00b7 SUMNER, M, CIV COMPLETE. FOR INTERMEDIATE, SEE STUDENT AND SUBMIT NAVFLIR TO Ground \u00b7 Bermudez, A, ENS CONTROL ASAP. SDO. SDOS: SUBMIT GRADESHEET Events \u00b7 FAM3104 FOR APPLICABLE \u00b7 1.5 EVENT \u00b7 SEE NOTE B IN TSHARP.",
+        "role": "FAM3104 FOR APPLICABLE",
+        "remarks": "SEE NOTE B IN TSHARP.",
+        "duration": "1.5 EVENT",
+        "device": "OFT-7P WHEN SIM OR STK4390 REHEARSAL NAVFLIR,",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV0113",
+        "start": "1700",
+        "end": "1730",
+        "land": "1730",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ACHENBACH",
+            "first": "C",
+            "full": "ACHENBACH, C"
+          },
+          {
+            "last": "BYBERG",
+            "first": "T",
+            "full": "BYBERG, T"
+          },
+          {
+            "last": "EATON",
+            "first": "T",
+            "full": "EATON, T"
+          },
+          {
+            "last": "LAUREL",
+            "first": "N",
+            "full": "LAUREL, N"
+          },
+          {
+            "last": "LOPEZ",
+            "first": "O",
+            "full": "LOPEZ, O"
+          },
+          {
+            "last": "MANZO",
+            "first": "G",
+            "full": "MANZO, G"
+          },
+          {
+            "last": "SULLIVAN",
+            "first": "K",
+            "full": "SULLIVAN, K"
+          },
+          {
+            "last": "SVINDAL",
+            "first": "H",
+            "full": "SVINDAL, H"
+          },
+          {
+            "last": "YOUNT",
+            "first": "H",
+            "full": "YOUNT, H"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1700-1730 \u00b7 NAV0113 \u00b7 Room 201 \u00b7 Achenbach, C, ENS , Byberg, T, 2LT , Eaton, T, ENS , Laurel, N, ENS , Lopez, O, ENS , Manzo, G, ENS , Sullivan, K, ENS , Svindal, H, 2LT , Yount, H,",
+        "role": "NAV0113",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "MET0102",
+        "start": "1700",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALHARTHI",
+            "first": "S",
+            "full": "ALHARTHI, S"
+          },
+          {
+            "last": "BLAIN",
+            "first": "B",
+            "full": "BLAIN, B"
+          },
+          {
+            "last": "CASTANEDA",
+            "first": "C",
+            "full": "CASTANEDA, C"
+          },
+          {
+            "last": "COPELAND",
+            "first": "L",
+            "full": "COPELAND, L"
+          },
+          {
+            "last": "DODD",
+            "first": "C",
+            "full": "DODD, C"
+          },
+          {
+            "last": "FARMER",
+            "first": "N",
+            "full": "FARMER, N"
+          },
+          {
+            "last": "GUTIERREZ",
+            "first": "E",
+            "full": "GUTIERREZ, E"
+          },
+          {
+            "last": "KUNISHIGE",
+            "first": "A",
+            "full": "KUNISHIGE, A"
+          },
+          {
+            "last": "LASKOWSKI",
+            "first": "N",
+            "full": "LASKOWSKI, N"
+          },
+          {
+            "last": "MALONE",
+            "first": "J",
+            "full": "MALONE, J"
+          },
+          {
+            "last": "MARTINEZ",
+            "first": "Z",
+            "full": "MARTINEZ, Z"
+          },
+          {
+            "last": "MELVIN",
+            "first": "Z",
+            "full": "MELVIN, Z"
+          },
+          {
+            "last": "OBREGON",
+            "first": "K",
+            "full": "OBREGON, K"
+          },
+          {
+            "last": "PARKER",
+            "first": "D",
+            "full": "PARKER, D"
+          },
+          {
+            "last": "RAMAROSON",
+            "first": "A",
+            "full": "RAMAROSON, A"
+          },
+          {
+            "last": "ROGERS",
+            "first": "C",
+            "full": "ROGERS, C"
+          },
+          {
+            "last": "SHAMAI",
+            "first": "W",
+            "full": "SHAMAI, W"
+          },
+          {
+            "last": "SMITH",
+            "first": "B",
+            "full": "SMITH, B"
+          },
+          {
+            "last": "TRESLER",
+            "first": "R",
+            "full": "TRESLER, R"
+          },
+          {
+            "last": "WREDE",
+            "first": "M",
+            "full": "WREDE, M"
+          },
+          {
+            "last": "YORDT",
+            "first": "C",
+            "full": "YORDT, C"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "",
+        "raw": "1700-1800 \u00b7 MET0102 \u00b7 Room 222 \u00b7 Alharthi, S, 2LT , Blain, B, ENS , Castaneda, C, ENS , Copeland, L, ENS , Dodd, C, 2ndLt , Farmer, N, ENS , Gutierrez, E, ENS , Kunishige, A, ENS , Laskowski, N, ENS , Malone, J, ENS , Martinez, Z, ENS , Melvin, Z, ENS , Obregon, K, ENS , Parker, D, 1stLt , Ramaroson, A, ENS , Rogers, C, ENS , Shamai, W, ENS , Smith, B, ENS , Tresler, R, ENS , Wrede, M, ENS , Yordt, C, ENS",
+        "role": "MET0102",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV0114",
+        "start": "1730",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ACHENBACH",
+            "first": "C",
+            "full": "ACHENBACH, C"
+          },
+          {
+            "last": "BYBERG",
+            "first": "T",
+            "full": "BYBERG, T"
+          },
+          {
+            "last": "EATON",
+            "first": "T",
+            "full": "EATON, T"
+          },
+          {
+            "last": "LAUREL",
+            "first": "N",
+            "full": "LAUREL, N"
+          },
+          {
+            "last": "LOPEZ",
+            "first": "O",
+            "full": "LOPEZ, O"
+          },
+          {
+            "last": "MANZO",
+            "first": "G",
+            "full": "MANZO, G"
+          },
+          {
+            "last": "SULLIVAN",
+            "first": "K",
+            "full": "SULLIVAN, K"
+          },
+          {
+            "last": "SVINDAL",
+            "first": "H",
+            "full": "SVINDAL, H"
+          },
+          {
+            "last": "YOUNT",
+            "first": "H",
+            "full": "YOUNT, H"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "",
+        "raw": "1730-1800 \u00b7 NAV0114 \u00b7 Room 201 \u00b7 Achenbach, C, ENS , Byberg, T, 2LT , Eaton, T, ENS , Laurel, N, ENS , Lopez, O, ENS , Manzo, G, ENS , Sullivan, K, ENS , Svindal, H, 2LT , Yount, H, 2ndLt",
+        "role": "NAV0114",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV0307",
+        "start": "0800",
+        "end": "1000",
+        "land": "1000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BALES",
+            "first": "J",
+            "full": "BALES, J"
+          },
+          {
+            "last": "CAREL",
+            "first": "K",
+            "full": "CAREL, K"
+          },
+          {
+            "last": "DOOLEY",
+            "first": "S",
+            "full": "DOOLEY, S"
+          },
+          {
+            "last": "HERMAN",
+            "first": "N",
+            "full": "HERMAN, N"
+          },
+          {
+            "last": "LEE",
+            "first": "C",
+            "full": "LEE, C"
+          },
+          {
+            "last": "JOYCE",
+            "first": "C",
+            "full": "JOYCE, C"
+          }
+        ],
+        "instructors": [
+          "JOYCE, C"
+        ],
+        "students": [],
+        "page": 4,
+        "line": "",
+        "raw": "0800-1000 \u00b7 NAV0307 \u00b7 Room 223 \u00b7 Bales, J, ENS , Carel, K, ENS , Dooley, S, ENS , Herman, N, ENS , Lee, C, ENS \u00b7 JOYCE, C, CIV",
+        "role": "NAV0307",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "STK1104",
+        "start": "0830",
+        "end": "1230",
+        "land": "1230",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GONZALEZ BERMUDEZ",
+            "first": "F",
+            "full": "GONZALEZ BERMUDEZ, F"
+          },
+          {
+            "last": "TIERNEY",
+            "first": "M",
+            "full": "TIERNEY, M"
+          },
+          {
+            "last": "DEWITZ",
+            "first": "N",
+            "full": "DEWITZ, N"
+          }
+        ],
+        "instructors": [
+          "DEWITZ, N"
+        ],
+        "students": [],
+        "page": 4,
+        "line": "",
+        "raw": "0830-1230 \u00b7 STK1104 \u00b7 Room 123 JMPS \u00b7 Gonzalez Bermudez, F, ENS , Tierney, M, ENS \u00b7 DEWITZ, N, CIV",
+        "role": "STK1104",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "ASI0114",
+        "start": "0845",
+        "end": "0930",
+        "land": "0930",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALMURAYYI",
+            "first": "A",
+            "full": "ALMURAYYI, A"
+          },
+          {
+            "last": "BOOKER",
+            "first": "K",
+            "full": "BOOKER, K"
+          },
+          {
+            "last": "COMMONS",
+            "first": "C",
+            "full": "COMMONS, C"
+          },
+          {
+            "last": "CONLON",
+            "first": "M",
+            "full": "CONLON, M"
+          },
+          {
+            "last": "HERNANDEZ",
+            "first": "K",
+            "full": "HERNANDEZ, K"
+          },
+          {
+            "last": "HUDSPETH",
+            "first": "C",
+            "full": "HUDSPETH, C"
+          },
+          {
+            "last": "MAULDIN",
+            "first": "C",
+            "full": "MAULDIN, C"
+          },
+          {
+            "last": "MCCALL",
+            "first": "D",
+            "full": "MCCALL, D"
+          },
+          {
+            "last": "MCCORMACK",
+            "first": "K",
+            "full": "MCCORMACK, K"
+          },
+          {
+            "last": "MESEC",
+            "first": "A",
+            "full": "MESEC, A"
+          },
+          {
+            "last": "MIRAMADI",
+            "first": "L",
+            "full": "MIRAMADI, L"
+          },
+          {
+            "last": "NELSON",
+            "first": "A",
+            "full": "NELSON, A"
+          },
+          {
+            "last": "SCHLENKER",
+            "first": "S",
+            "full": "SCHLENKER, S"
+          },
+          {
+            "last": "GIANNOUTSOS",
+            "first": "C",
+            "full": "GIANNOUTSOS, C"
+          }
+        ],
+        "instructors": [
+          "GIANNOUTSOS, C"
+        ],
+        "students": [],
+        "page": 4,
+        "line": "",
+        "raw": "0845-0930 \u00b7 ASI0114 \u00b7 Room 224 \u00b7 Almurayyi, A, 2LT , Booker, K, ENS , Commons, C, ENS , Conlon, M, ENS , Hernandez, K, ENS , Hudspeth, C, ENS , Mauldin, C, ENS , McCall, D, ENS , Mccormack, K, ENS , Mesec, A, ENS , Miramadi, L, ENS , Nelson, A, ENS , Philips , V, ENS , Schlenker, S, ENS \u00b7 Giannoutsos, C, CIV",
+        "role": "ASI0114",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "ASI0119",
+        "start": "1330",
+        "end": "1400",
+        "land": "1400",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALMURAYYI",
+            "first": "A",
+            "full": "ALMURAYYI, A"
+          },
+          {
+            "last": "BOOKER",
+            "first": "K",
+            "full": "BOOKER, K"
+          },
+          {
+            "last": "COMMONS",
+            "first": "C",
+            "full": "COMMONS, C"
+          },
+          {
+            "last": "CONLON",
+            "first": "M",
+            "full": "CONLON, M"
+          },
+          {
+            "last": "HERNANDEZ",
+            "first": "K",
+            "full": "HERNANDEZ, K"
+          },
+          {
+            "last": "HUDSPETH",
+            "first": "C",
+            "full": "HUDSPETH, C"
+          },
+          {
+            "last": "MAULDIN",
+            "first": "C",
+            "full": "MAULDIN, C"
+          },
+          {
+            "last": "MCCALL",
+            "first": "D",
+            "full": "MCCALL, D"
+          },
+          {
+            "last": "MCCORMACK",
+            "first": "K",
+            "full": "MCCORMACK, K"
+          },
+          {
+            "last": "MESEC",
+            "first": "A",
+            "full": "MESEC, A"
+          },
+          {
+            "last": "MIRAMADI",
+            "first": "L",
+            "full": "MIRAMADI, L"
+          },
+          {
+            "last": "NELSON",
+            "first": "A",
+            "full": "NELSON, A"
+          },
+          {
+            "last": "SCHLENKER",
+            "first": "S",
+            "full": "SCHLENKER, S"
+          },
+          {
+            "last": "DUKE",
+            "first": "J",
+            "full": "DUKE, J"
+          }
+        ],
+        "instructors": [
+          "DUKE, J"
+        ],
+        "students": [],
+        "page": 4,
+        "line": "",
+        "raw": "1330-1400 \u00b7 ASI0119 \u00b7 Room 224 \u00b7 Almurayyi, A, 2LT , Booker, K, ENS , Commons, C, ENS , Conlon, M, ENS , Hernandez, K, ENS , Hudspeth, C, ENS , Mauldin, C, ENS , McCall, D, ENS , Mccormack, K, ENS , Mesec, A, ENS , Miramadi, L, ENS , Nelson, A, ENS , Philips , V, ENS , Schlenker, S, ENS \u00b7 DUKE, J, CIV",
+        "role": "ASI0119",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "STK1105",
+        "start": "1330",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GONZALEZ BERMUDEZ",
+            "first": "F",
+            "full": "GONZALEZ BERMUDEZ, F"
+          },
+          {
+            "last": "TIERNEY",
+            "first": "M",
+            "full": "TIERNEY, M"
+          },
+          {
+            "last": "DEWITZ",
+            "first": "N",
+            "full": "DEWITZ, N"
+          }
+        ],
+        "instructors": [
+          "DEWITZ, N"
+        ],
+        "students": [],
+        "page": 4,
+        "line": "",
+        "raw": "1330-1800 \u00b7 STK1105 \u00b7 Room 123 JMPS \u00b7 Gonzalez Bermudez, F, ENS , Tierney, M, ENS \u00b7 DEWITZ, N, CIV",
+        "role": "STK1105",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "ASI0120",
+        "start": "1400",
+        "end": "1500",
+        "land": "1500",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALMURAYYI",
+            "first": "A",
+            "full": "ALMURAYYI, A"
+          },
+          {
+            "last": "BOOKER",
+            "first": "K",
+            "full": "BOOKER, K"
+          },
+          {
+            "last": "COMMONS",
+            "first": "C",
+            "full": "COMMONS, C"
+          },
+          {
+            "last": "CONLON",
+            "first": "M",
+            "full": "CONLON, M"
+          },
+          {
+            "last": "HERNANDEZ",
+            "first": "K",
+            "full": "HERNANDEZ, K"
+          },
+          {
+            "last": "HUDSPETH",
+            "first": "C",
+            "full": "HUDSPETH, C"
+          },
+          {
+            "last": "MAULDIN",
+            "first": "C",
+            "full": "MAULDIN, C"
+          },
+          {
+            "last": "MCCALL",
+            "first": "D",
+            "full": "MCCALL, D"
+          },
+          {
+            "last": "MCCORMACK",
+            "first": "K",
+            "full": "MCCORMACK, K"
+          },
+          {
+            "last": "MESEC",
+            "first": "A",
+            "full": "MESEC, A"
+          },
+          {
+            "last": "MIRAMADI",
+            "first": "L",
+            "full": "MIRAMADI, L"
+          },
+          {
+            "last": "NELSON",
+            "first": "A",
+            "full": "NELSON, A"
+          },
+          {
+            "last": "SCHLENKER",
+            "first": "S",
+            "full": "SCHLENKER, S"
+          },
+          {
+            "last": "DUKE",
+            "first": "J",
+            "full": "DUKE, J"
+          }
+        ],
+        "instructors": [
+          "DUKE, J"
+        ],
+        "students": [],
+        "page": 4,
+        "line": "",
+        "raw": "1400-1500 \u00b7 ASI0120 \u00b7 Room 224 \u00b7 Almurayyi, A, 2LT , Booker, K, ENS , Commons, C, ENS , Conlon, M, ENS , Hernandez, K, ENS , Hudspeth, C, ENS , Mauldin, C, ENS , McCall, D, ENS , Mccormack, K, ENS , Mesec, A, ENS , Miramadi, L, ENS , Nelson, A, ENS , Philips , V, ENS , Schlenker, S, ENS \u00b7 DUKE, J, CIV",
+        "role": "ASI0120",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "ASI0113",
+        "start": "0800",
+        "end": "0845",
+        "land": "0845",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALMURAYYI",
+            "first": "A",
+            "full": "ALMURAYYI, A"
+          },
+          {
+            "last": "BOOKER",
+            "first": "K",
+            "full": "BOOKER, K"
+          },
+          {
+            "last": "COMMONS",
+            "first": "C",
+            "full": "COMMONS, C"
+          },
+          {
+            "last": "CONLON",
+            "first": "M",
+            "full": "CONLON, M"
+          },
+          {
+            "last": "HERNANDEZ",
+            "first": "K",
+            "full": "HERNANDEZ, K"
+          },
+          {
+            "last": "HUDSPETH",
+            "first": "C",
+            "full": "HUDSPETH, C"
+          },
+          {
+            "last": "MAULDIN",
+            "first": "C",
+            "full": "MAULDIN, C"
+          },
+          {
+            "last": "MCCALL",
+            "first": "D",
+            "full": "MCCALL, D"
+          },
+          {
+            "last": "MCCORMACK",
+            "first": "K",
+            "full": "MCCORMACK, K"
+          },
+          {
+            "last": "MESEC",
+            "first": "A",
+            "full": "MESEC, A"
+          },
+          {
+            "last": "MIRAMADI",
+            "first": "L",
+            "full": "MIRAMADI, L"
+          },
+          {
+            "last": "NELSON",
+            "first": "A",
+            "full": "NELSON, A"
+          },
+          {
+            "last": "SCHLENKER",
+            "first": "S",
+            "full": "SCHLENKER, S"
+          },
+          {
+            "last": "BOMAN",
+            "first": "J",
+            "full": "BOMAN, J"
+          }
+        ],
+        "instructors": [
+          "BOMAN, J"
+        ],
+        "students": [],
+        "page": 4,
+        "line": "",
+        "raw": "0800-0845 \u00b7 ASI0113 \u00b7 Room 224 \u00b7 Almurayyi, A, 2LT , Booker, K, ENS , Commons, C, ENS , Conlon, M, ENS , Hernandez, K, ENS , Hudspeth, C, ENS , Mauldin, C, ENS , McCall, D, ENS , Mccormack, K, ENS , Mesec, A, ENS , Miramadi, L, ENS , Nelson, A, ENS , Philips , V, ENS , Schlenker, S, ENS \u00b7 Boman, J, CIV",
+        "role": "ASI0113",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV0108",
+        "start": "0900",
+        "end": "1030",
+        "land": "1030",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ACHENBACH",
+            "first": "C",
+            "full": "ACHENBACH, C"
+          },
+          {
+            "last": "BYBERG",
+            "first": "T",
+            "full": "BYBERG, T"
+          },
+          {
+            "last": "EATON",
+            "first": "T",
+            "full": "EATON, T"
+          },
+          {
+            "last": "LAUREL",
+            "first": "N",
+            "full": "LAUREL, N"
+          },
+          {
+            "last": "LOPEZ",
+            "first": "O",
+            "full": "LOPEZ, O"
+          },
+          {
+            "last": "MANZO",
+            "first": "G",
+            "full": "MANZO, G"
+          },
+          {
+            "last": "SULLIVAN",
+            "first": "K",
+            "full": "SULLIVAN, K"
+          },
+          {
+            "last": "SVINDAL",
+            "first": "H",
+            "full": "SVINDAL, H"
+          },
+          {
+            "last": "YOUNT",
+            "first": "H",
+            "full": "YOUNT, H"
+          },
+          {
+            "last": "LEE",
+            "first": "J",
+            "full": "LEE, J"
+          }
+        ],
+        "instructors": [
+          "LEE, J"
+        ],
+        "students": [],
+        "page": 4,
+        "line": "",
+        "raw": "0900-1030 \u00b7 NAV0108 \u00b7 Room 201 \u00b7 Achenbach, C, ENS , Byberg, T, 2LT , Eaton, T, ENS , Laurel, N, ENS , Lopez, O, ENS , Manzo, G, ENS , Sullivan, K, ENS , Svindal, H, 2LT , Yount, H, 2ndLt \u00b7 LEE, J, CIV",
+        "role": "NAV0108",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "ASI0115",
+        "start": "0930",
+        "end": "1000",
+        "land": "1000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALMURAYYI",
+            "first": "A",
+            "full": "ALMURAYYI, A"
+          },
+          {
+            "last": "BOOKER",
+            "first": "K",
+            "full": "BOOKER, K"
+          },
+          {
+            "last": "COMMONS",
+            "first": "C",
+            "full": "COMMONS, C"
+          },
+          {
+            "last": "CONLON",
+            "first": "M",
+            "full": "CONLON, M"
+          },
+          {
+            "last": "HERNANDEZ",
+            "first": "K",
+            "full": "HERNANDEZ, K"
+          },
+          {
+            "last": "HUDSPETH",
+            "first": "C",
+            "full": "HUDSPETH, C"
+          },
+          {
+            "last": "MAULDIN",
+            "first": "C",
+            "full": "MAULDIN, C"
+          },
+          {
+            "last": "MCCALL",
+            "first": "D",
+            "full": "MCCALL, D"
+          },
+          {
+            "last": "BOMAN",
+            "first": "J",
+            "full": "BOMAN, J"
+          }
+        ],
+        "instructors": [
+          "BOMAN, J"
+        ],
+        "students": [],
+        "page": 4,
+        "line": "",
+        "raw": "0930-1000 \u00b7 ASI0115 \u00b7 Room 224 \u00b7 Almurayyi, A, 2LT , Booker, K, ENS , Commons, C, ENS , Conlon, M, ENS , Hernandez, K, ENS , Hudspeth, C, ENS , Mauldin, C, ENS , McCall, D, \u00b7 Boman, J, CIV",
+        "role": "ASI0115",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "ASI0116",
+        "start": "1000",
+        "end": "1030",
+        "land": "1030",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALMURAYYI",
+            "first": "A",
+            "full": "ALMURAYYI, A"
+          },
+          {
+            "last": "BOOKER",
+            "first": "K",
+            "full": "BOOKER, K"
+          },
+          {
+            "last": "COMMONS",
+            "first": "C",
+            "full": "COMMONS, C"
+          },
+          {
+            "last": "CONLON",
+            "first": "M",
+            "full": "CONLON, M"
+          },
+          {
+            "last": "HERNANDEZ",
+            "first": "K",
+            "full": "HERNANDEZ, K"
+          },
+          {
+            "last": "HUDSPETH",
+            "first": "C",
+            "full": "HUDSPETH, C"
+          },
+          {
+            "last": "MAULDIN",
+            "first": "C",
+            "full": "MAULDIN, C"
+          },
+          {
+            "last": "MCCALL",
+            "first": "D",
+            "full": "MCCALL, D"
+          },
+          {
+            "last": "MCCORMACK",
+            "first": "K",
+            "full": "MCCORMACK, K"
+          },
+          {
+            "last": "MESEC",
+            "first": "A",
+            "full": "MESEC, A"
+          },
+          {
+            "last": "MIRAMADI",
+            "first": "L",
+            "full": "MIRAMADI, L"
+          },
+          {
+            "last": "NELSON",
+            "first": "A",
+            "full": "NELSON, A"
+          },
+          {
+            "last": "SCHLENKER",
+            "first": "S",
+            "full": "SCHLENKER, S"
+          },
+          {
+            "last": "PELLETIER",
+            "first": "B",
+            "full": "PELLETIER, B"
+          }
+        ],
+        "instructors": [
+          "PELLETIER, B"
+        ],
+        "students": [],
+        "page": 5,
+        "line": "",
+        "raw": "1000-1030 \u00b7 ASI0116 \u00b7 Room 224 \u00b7 Almurayyi, A, 2LT , Booker, K, ENS , Commons, C, ENS , Conlon, M, ENS , Hernandez, K, ENS , Hudspeth, C, ENS , Mauldin, C, ENS , McCall, D, ENS , Mccormack, K, ENS , Mesec, A, ENS , Miramadi, L, ENS , Nelson, A, ENS , Philips , V, ENS , Schlenker, S, ENS \u00b7 PELLETIER, B, CIV",
+        "role": "ASI0116",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV0308",
+        "start": "1000",
+        "end": "1200",
+        "land": "1200",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BALES",
+            "first": "J",
+            "full": "BALES, J"
+          },
+          {
+            "last": "CAREL",
+            "first": "K",
+            "full": "CAREL, K"
+          },
+          {
+            "last": "DOOLEY",
+            "first": "S",
+            "full": "DOOLEY, S"
+          },
+          {
+            "last": "HERMAN",
+            "first": "N",
+            "full": "HERMAN, N"
+          },
+          {
+            "last": "LEE",
+            "first": "C",
+            "full": "LEE, C"
+          },
+          {
+            "last": "JOYCE",
+            "first": "C",
+            "full": "JOYCE, C"
+          }
+        ],
+        "instructors": [
+          "JOYCE, C"
+        ],
+        "students": [],
+        "page": 5,
+        "line": "",
+        "raw": "1000-1200 \u00b7 NAV0308 \u00b7 2B47 Lab Rm 101 \u00b7 Bales, J, ENS , Carel, K, ENS , Dooley, S, ENS , Herman, N, ENS , Lee, C, ENS \u00b7 JOYCE, C, CIV",
+        "role": "NAV0308",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV0109",
+        "start": "1030",
+        "end": "1300",
+        "land": "1300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ACHENBACH",
+            "first": "C",
+            "full": "ACHENBACH, C"
+          },
+          {
+            "last": "BYBERG",
+            "first": "T",
+            "full": "BYBERG, T"
+          },
+          {
+            "last": "EATON",
+            "first": "T",
+            "full": "EATON, T"
+          },
+          {
+            "last": "LAUREL",
+            "first": "N",
+            "full": "LAUREL, N"
+          },
+          {
+            "last": "LOPEZ",
+            "first": "O",
+            "full": "LOPEZ, O"
+          },
+          {
+            "last": "MANZO",
+            "first": "G",
+            "full": "MANZO, G"
+          },
+          {
+            "last": "SULLIVAN",
+            "first": "K",
+            "full": "SULLIVAN, K"
+          },
+          {
+            "last": "SVINDAL",
+            "first": "H",
+            "full": "SVINDAL, H"
+          },
+          {
+            "last": "YOUNT",
+            "first": "H",
+            "full": "YOUNT, H"
+          },
+          {
+            "last": "LEE",
+            "first": "J",
+            "full": "LEE, J"
+          }
+        ],
+        "instructors": [
+          "LEE, J"
+        ],
+        "students": [],
+        "page": 5,
+        "line": "",
+        "raw": "1030-1300 \u00b7 NAV0109 \u00b7 Room 201 \u00b7 Achenbach, C, ENS , Byberg, T, 2LT , Eaton, T, ENS , Laurel, N, ENS , Lopez, O, ENS , Manzo, G, ENS , Sullivan, K, ENS , Svindal, H, 2LT , Yount, H, 2ndLt \u00b7 LEE, J, CIV",
+        "role": "NAV0109",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV0309",
+        "start": "1300",
+        "end": "1400",
+        "land": "1400",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BALES",
+            "first": "J",
+            "full": "BALES, J"
+          },
+          {
+            "last": "CAREL",
+            "first": "K",
+            "full": "CAREL, K"
+          },
+          {
+            "last": "DOOLEY",
+            "first": "S",
+            "full": "DOOLEY, S"
+          },
+          {
+            "last": "HERMAN",
+            "first": "N",
+            "full": "HERMAN, N"
+          },
+          {
+            "last": "LEE",
+            "first": "C",
+            "full": "LEE, C"
+          },
+          {
+            "last": "JOYCE",
+            "first": "C",
+            "full": "JOYCE, C"
+          }
+        ],
+        "instructors": [
+          "JOYCE, C"
+        ],
+        "students": [],
+        "page": 5,
+        "line": "",
+        "raw": "1300-1400 \u00b7 NAV0309 \u00b7 Room 223 \u00b7 Bales, J, ENS , Carel, K, ENS , Dooley, S, ENS , Herman, N, ENS , Lee, C, ENS \u00b7 JOYCE, C, CIV",
+        "role": "NAV0309",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV0110",
+        "start": "1400",
+        "end": "1530",
+        "land": "1530",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ACHENBACH",
+            "first": "C",
+            "full": "ACHENBACH, C"
+          },
+          {
+            "last": "BYBERG",
+            "first": "T",
+            "full": "BYBERG, T"
+          },
+          {
+            "last": "EATON",
+            "first": "T",
+            "full": "EATON, T"
+          },
+          {
+            "last": "LAUREL",
+            "first": "N",
+            "full": "LAUREL, N"
+          },
+          {
+            "last": "LOPEZ",
+            "first": "O",
+            "full": "LOPEZ, O"
+          },
+          {
+            "last": "MANZO",
+            "first": "G",
+            "full": "MANZO, G"
+          },
+          {
+            "last": "SULLIVAN",
+            "first": "K",
+            "full": "SULLIVAN, K"
+          },
+          {
+            "last": "SVINDAL",
+            "first": "H",
+            "full": "SVINDAL, H"
+          },
+          {
+            "last": "YOUNT",
+            "first": "H",
+            "full": "YOUNT, H"
+          },
+          {
+            "last": "LEE",
+            "first": "J",
+            "full": "LEE, J"
+          }
+        ],
+        "instructors": [
+          "LEE, J"
+        ],
+        "students": [],
+        "page": 5,
+        "line": "",
+        "raw": "1400-1530 \u00b7 NAV0110 \u00b7 2B47 Lab Rm 101 \u00b7 Achenbach, C, ENS , Byberg, T, 2LT , Eaton, T, ENS , Laurel, N, ENS , Lopez, O, ENS , Manzo, G, ENS , Sullivan, K, ENS , Svindal, H, 2LT , Yount, H, 2ndLt \u00b7 LEE, J, CIV",
+        "role": "NAV0110",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV0310",
+        "start": "1400",
+        "end": "1600",
+        "land": "1600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BALES",
+            "first": "J",
+            "full": "BALES, J"
+          },
+          {
+            "last": "CAREL",
+            "first": "K",
+            "full": "CAREL, K"
+          },
+          {
+            "last": "DOOLEY",
+            "first": "S",
+            "full": "DOOLEY, S"
+          },
+          {
+            "last": "HERMAN",
+            "first": "N",
+            "full": "HERMAN, N"
+          },
+          {
+            "last": "LEE",
+            "first": "C",
+            "full": "LEE, C"
+          },
+          {
+            "last": "JOYCE",
+            "first": "C",
+            "full": "JOYCE, C"
+          }
+        ],
+        "instructors": [
+          "JOYCE, C"
+        ],
+        "students": [],
+        "page": 5,
+        "line": "",
+        "raw": "1400-1600 \u00b7 NAV0310 \u00b7 2B47 Lab Rm 101 \u00b7 Bales, J, ENS , Carel, K, ENS , Dooley, S, ENS , Herman, N, ENS , Lee, C, ENS \u00b7 JOYCE, C, CIV",
+        "role": "NAV0310",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV0111",
+        "start": "1530",
+        "end": "1630",
+        "land": "1630",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ACHENBACH",
+            "first": "C",
+            "full": "ACHENBACH, C"
+          },
+          {
+            "last": "BYBERG",
+            "first": "T",
+            "full": "BYBERG, T"
+          },
+          {
+            "last": "EATON",
+            "first": "T",
+            "full": "EATON, T"
+          },
+          {
+            "last": "LAUREL",
+            "first": "N",
+            "full": "LAUREL, N"
+          },
+          {
+            "last": "LOPEZ",
+            "first": "O",
+            "full": "LOPEZ, O"
+          },
+          {
+            "last": "MANZO",
+            "first": "G",
+            "full": "MANZO, G"
+          },
+          {
+            "last": "SULLIVAN",
+            "first": "K",
+            "full": "SULLIVAN, K"
+          },
+          {
+            "last": "SVINDAL",
+            "first": "H",
+            "full": "SVINDAL, H"
+          },
+          {
+            "last": "YOUNT",
+            "first": "H",
+            "full": "YOUNT, H"
+          },
+          {
+            "last": "LEE",
+            "first": "J",
+            "full": "LEE, J"
+          }
+        ],
+        "instructors": [
+          "LEE, J"
+        ],
+        "students": [],
+        "page": 5,
+        "line": "",
+        "raw": "1530-1630 \u00b7 NAV0111 \u00b7 Room 201 \u00b7 Achenbach, C, ENS , Byberg, T, 2LT , Eaton, T, ENS , Laurel, N, ENS , Lopez, O, ENS , Manzo, G, ENS , Sullivan, K, ENS , Svindal, H, 2LT , Yount, H, 2ndLt \u00b7 LEE, J, CIV",
+        "role": "NAV0111",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV0311",
+        "start": "1600",
+        "end": "1700",
+        "land": "1700",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BALES",
+            "first": "J",
+            "full": "BALES, J"
+          },
+          {
+            "last": "CAREL",
+            "first": "K",
+            "full": "CAREL, K"
+          },
+          {
+            "last": "DOOLEY",
+            "first": "S",
+            "full": "DOOLEY, S"
+          },
+          {
+            "last": "HERMAN",
+            "first": "N",
+            "full": "HERMAN, N"
+          },
+          {
+            "last": "LEE",
+            "first": "C",
+            "full": "LEE, C"
+          },
+          {
+            "last": "JOYCE",
+            "first": "C",
+            "full": "JOYCE, C"
+          }
+        ],
+        "instructors": [
+          "JOYCE, C"
+        ],
+        "students": [],
+        "page": 5,
+        "line": "",
+        "raw": "1600-1700 \u00b7 NAV0311 \u00b7 Room 223 \u00b7 Bales, J, ENS , Carel, K, ENS , Dooley, S, ENS , Herman, N, ENS , Lee, C, ENS \u00b7 JOYCE, C, CIV",
+        "role": "NAV0311",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV0112",
+        "start": "1630",
+        "end": "1700",
+        "land": "1700",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ACHENBACH",
+            "first": "C",
+            "full": "ACHENBACH, C"
+          },
+          {
+            "last": "BYBERG",
+            "first": "T",
+            "full": "BYBERG, T"
+          },
+          {
+            "last": "EATON",
+            "first": "T",
+            "full": "EATON, T"
+          },
+          {
+            "last": "LAUREL",
+            "first": "N",
+            "full": "LAUREL, N"
+          },
+          {
+            "last": "LOPEZ",
+            "first": "O",
+            "full": "LOPEZ, O"
+          },
+          {
+            "last": "MANZO",
+            "first": "G",
+            "full": "MANZO, G"
+          },
+          {
+            "last": "SULLIVAN",
+            "first": "K",
+            "full": "SULLIVAN, K"
+          },
+          {
+            "last": "SVINDAL",
+            "first": "H",
+            "full": "SVINDAL, H"
+          },
+          {
+            "last": "YOUNT",
+            "first": "H",
+            "full": "YOUNT, H"
+          },
+          {
+            "last": "LEE",
+            "first": "J",
+            "full": "LEE, J"
+          }
+        ],
+        "instructors": [
+          "LEE, J"
+        ],
+        "students": [],
+        "page": 5,
+        "line": "",
+        "raw": "1630-1700 \u00b7 NAV0112 \u00b7 Room 201 \u00b7 Achenbach, C, ENS , Byberg, T, 2LT , Eaton, T, ENS , Laurel, N, ENS , Lopez, O, ENS , Manzo, G, ENS , Sullivan, K, ENS , Svindal, H, 2LT , Yount, H, 2ndLt \u00b7 LEE, J, CIV",
+        "role": "NAV0112",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "FOCUS GROUP 1",
+        "start": "1500",
+        "end": "1600",
+        "land": "1600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "AAMER",
+            "first": "D",
+            "full": "AAMER, D"
+          },
+          {
+            "last": "ENS",
+            "first": "FLEEGER",
+            "full": "ENS, FLEEGER"
+          },
+          {
+            "last": "VALDEZ",
+            "first": "G",
+            "full": "VALDEZ, G"
+          },
+          {
+            "last": "ENS",
+            "first": "DAWSHI",
+            "full": "ENS, DAWSHI"
+          },
+          {
+            "last": "LT",
+            "first": "MARQUIS",
+            "full": "LT, MARQUIS"
+          },
+          {
+            "last": "MORGAN",
+            "first": "N",
+            "full": "MORGAN, N"
+          },
+          {
+            "last": "NULL",
+            "first": "C",
+            "full": "NULL, C"
+          },
+          {
+            "last": "ENS",
+            "first": "OETTING",
+            "full": "ENS, OETTING"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 5,
+        "line": "",
+        "raw": "1500-1600 \u00b7 FOCUS GROUP 1 \u00b7 Aamer, D, ENS, Fleeger, S, ENS, Valdez, G, ENS, Dawshi, A, 2LT, Marquis, G, LTJG , Morgan, N, ENS , Null, C, ENS, Oetting, J, ENS \u00b7 MEGA BUILDING ROOM 1125",
+        "role": "FOCUS GROUP 1",
+        "remarks": "MEGA BUILDING ROOM 1125",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "FOCUS GROUP 2",
+        "start": "1600",
+        "end": "1700",
+        "land": "1700",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LANTZ",
+            "first": "A",
+            "full": "LANTZ, A"
+          },
+          {
+            "last": "ENS",
+            "first": "LEWIS",
+            "full": "ENS, LEWIS"
+          },
+          {
+            "last": "YOUNG",
+            "first": "S",
+            "full": "YOUNG, S"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 5,
+        "line": "",
+        "raw": "1600-1700 \u00b7 FOCUS GROUP 2 \u00b7 Lantz, A, ENS, Lewis, W, ENS , Young, S, ENS \u00b7 MEGA BUILDING ROOM 1125",
+        "role": "FOCUS GROUP 2",
+        "remarks": "MEGA BUILDING ROOM 1125",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV0107",
+        "start": "0830",
+        "end": "0900",
+        "land": "0900",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ACHENBACH",
+            "first": "C",
+            "full": "ACHENBACH, C"
+          },
+          {
+            "last": "BYBERG",
+            "first": "T",
+            "full": "BYBERG, T"
+          },
+          {
+            "last": "EATON",
+            "first": "T",
+            "full": "EATON, T"
+          },
+          {
+            "last": "LAUREL",
+            "first": "N",
+            "full": "LAUREL, N"
+          },
+          {
+            "last": "LOPEZ",
+            "first": "O",
+            "full": "LOPEZ, O"
+          },
+          {
+            "last": "MANZO",
+            "first": "G",
+            "full": "MANZO, G"
+          },
+          {
+            "last": "SULLIVAN",
+            "first": "K",
+            "full": "SULLIVAN, K"
+          },
+          {
+            "last": "SVINDAL",
+            "first": "H",
+            "full": "SVINDAL, H"
+          },
+          {
+            "last": "YOUNT",
+            "first": "H",
+            "full": "YOUNT, H"
+          },
+          {
+            "last": "LEE",
+            "first": "J",
+            "full": "LEE, J"
+          }
+        ],
+        "instructors": [
+          "LEE, J"
+        ],
+        "students": [],
+        "page": 5,
+        "line": "",
+        "raw": "0830-0900 \u00b7 NAV0107 \u00b7 Room 201 \u00b7 Achenbach, C, ENS , Byberg, T, 2LT , Eaton, T, ENS , Laurel, N, ENS , Lopez, O, ENS , Manzo, G, ENS , Sullivan, K, ENS , Svindal, H, 2LT , Yount, H, 2ndLt \u00b7 LEE, J, CIV",
+        "role": "NAV0107",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "COM0101",
+        "start": "0830",
+        "end": "1030",
+        "land": "1030",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALHARTHI",
+            "first": "S",
+            "full": "ALHARTHI, S"
+          },
+          {
+            "last": "BLAIN",
+            "first": "B",
+            "full": "BLAIN, B"
+          },
+          {
+            "last": "CASTANEDA",
+            "first": "C",
+            "full": "CASTANEDA, C"
+          },
+          {
+            "last": "COPELAND",
+            "first": "L",
+            "full": "COPELAND, L"
+          },
+          {
+            "last": "DODD",
+            "first": "C",
+            "full": "DODD, C"
+          },
+          {
+            "last": "FARMER",
+            "first": "N",
+            "full": "FARMER, N"
+          },
+          {
+            "last": "GUTIERREZ",
+            "first": "E",
+            "full": "GUTIERREZ, E"
+          },
+          {
+            "last": "KUNISHIGE",
+            "first": "A",
+            "full": "KUNISHIGE, A"
+          },
+          {
+            "last": "LASKOWSKI",
+            "first": "N",
+            "full": "LASKOWSKI, N"
+          },
+          {
+            "last": "MALONE",
+            "first": "J",
+            "full": "MALONE, J"
+          },
+          {
+            "last": "MARTINEZ",
+            "first": "Z",
+            "full": "MARTINEZ, Z"
+          },
+          {
+            "last": "MELVIN",
+            "first": "Z",
+            "full": "MELVIN, Z"
+          },
+          {
+            "last": "OBREGON",
+            "first": "K",
+            "full": "OBREGON, K"
+          },
+          {
+            "last": "RAVENDO",
+            "first": "R",
+            "full": "RAVENDO, R"
+          }
+        ],
+        "instructors": [
+          "RAVENDO, R"
+        ],
+        "students": [],
+        "page": 5,
+        "line": "",
+        "raw": "0830-1030 \u00b7 COM0101 \u00b7 Room 222 \u00b7 Alharthi, S, 2LT , Blain, B, ENS , Castaneda, C, ENS , Copeland, L, ENS , Dodd, C, 2ndLt , Farmer, N, ENS , Gutierrez, E, ENS , Kunishige, A, ENS , Laskowski, N, ENS , Malone, J, ENS , Martinez, Z, ENS , Melvin, Z, ENS , Obregon, K, \u00b7 RAVENDO, R, CIV",
+        "role": "COM0101",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "ASI0117",
+        "start": "1030",
+        "end": "1130",
+        "land": "1130",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALMURAYYI",
+            "first": "A",
+            "full": "ALMURAYYI, A"
+          },
+          {
+            "last": "BOOKER",
+            "first": "K",
+            "full": "BOOKER, K"
+          },
+          {
+            "last": "COMMONS",
+            "first": "C",
+            "full": "COMMONS, C"
+          },
+          {
+            "last": "CONLON",
+            "first": "M",
+            "full": "CONLON, M"
+          },
+          {
+            "last": "HERNANDEZ",
+            "first": "K",
+            "full": "HERNANDEZ, K"
+          },
+          {
+            "last": "HUDSPETH",
+            "first": "C",
+            "full": "HUDSPETH, C"
+          },
+          {
+            "last": "MAULDIN",
+            "first": "C",
+            "full": "MAULDIN, C"
+          },
+          {
+            "last": "MCCALL",
+            "first": "D",
+            "full": "MCCALL, D"
+          },
+          {
+            "last": "MCCORMACK",
+            "first": "K",
+            "full": "MCCORMACK, K"
+          },
+          {
+            "last": "MESEC",
+            "first": "A",
+            "full": "MESEC, A"
+          },
+          {
+            "last": "MIRAMADI",
+            "first": "L",
+            "full": "MIRAMADI, L"
+          },
+          {
+            "last": "NELSON",
+            "first": "A",
+            "full": "NELSON, A"
+          },
+          {
+            "last": "SCHLENKER",
+            "first": "S",
+            "full": "SCHLENKER, S"
+          },
+          {
+            "last": "PELLETIER",
+            "first": "B",
+            "full": "PELLETIER, B"
+          }
+        ],
+        "instructors": [
+          "PELLETIER, B"
+        ],
+        "students": [],
+        "page": 6,
+        "line": "",
+        "raw": "1030-1130 \u00b7 ASI0117 \u00b7 Room 224 \u00b7 Almurayyi, A, 2LT , Booker, K, ENS , Commons, C, ENS , Conlon, M, ENS , Hernandez, K, ENS , Hudspeth, C, ENS , Mauldin, C, ENS , McCall, D, ENS , Mccormack, K, ENS , Mesec, A, ENS , Miramadi, L, ENS , Nelson, A, ENS , Philips , V, ENS , Schlenker, S, ENS \u00b7 PELLETIER, B, CIV",
+        "role": "ASI0117",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "COM0102",
+        "start": "1030",
+        "end": "1230",
+        "land": "1230",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALHARTHI",
+            "first": "S",
+            "full": "ALHARTHI, S"
+          },
+          {
+            "last": "BLAIN",
+            "first": "B",
+            "full": "BLAIN, B"
+          },
+          {
+            "last": "CASTANEDA",
+            "first": "C",
+            "full": "CASTANEDA, C"
+          },
+          {
+            "last": "COPELAND",
+            "first": "L",
+            "full": "COPELAND, L"
+          },
+          {
+            "last": "DODD",
+            "first": "C",
+            "full": "DODD, C"
+          },
+          {
+            "last": "FARMER",
+            "first": "N",
+            "full": "FARMER, N"
+          },
+          {
+            "last": "GUTIERREZ",
+            "first": "E",
+            "full": "GUTIERREZ, E"
+          },
+          {
+            "last": "KUNISHIGE",
+            "first": "A",
+            "full": "KUNISHIGE, A"
+          },
+          {
+            "last": "LASKOWSKI",
+            "first": "N",
+            "full": "LASKOWSKI, N"
+          },
+          {
+            "last": "MALONE",
+            "first": "J",
+            "full": "MALONE, J"
+          },
+          {
+            "last": "MARTINEZ",
+            "first": "Z",
+            "full": "MARTINEZ, Z"
+          },
+          {
+            "last": "MELVIN",
+            "first": "Z",
+            "full": "MELVIN, Z"
+          },
+          {
+            "last": "OBREGON",
+            "first": "K",
+            "full": "OBREGON, K"
+          },
+          {
+            "last": "PARKER",
+            "first": "D",
+            "full": "PARKER, D"
+          },
+          {
+            "last": "RAMAROSON",
+            "first": "A",
+            "full": "RAMAROSON, A"
+          },
+          {
+            "last": "ROGERS",
+            "first": "C",
+            "full": "ROGERS, C"
+          },
+          {
+            "last": "SHAMAI",
+            "first": "W",
+            "full": "SHAMAI, W"
+          },
+          {
+            "last": "SMITH",
+            "first": "B",
+            "full": "SMITH, B"
+          },
+          {
+            "last": "TRESLER",
+            "first": "R",
+            "full": "TRESLER, R"
+          },
+          {
+            "last": "WREDE",
+            "first": "M",
+            "full": "WREDE, M"
+          },
+          {
+            "last": "YORDT",
+            "first": "C",
+            "full": "YORDT, C"
+          },
+          {
+            "last": "RAVENDO",
+            "first": "R",
+            "full": "RAVENDO, R"
+          }
+        ],
+        "instructors": [
+          "RAVENDO, R"
+        ],
+        "students": [],
+        "page": 6,
+        "line": "",
+        "raw": "1030-1230 \u00b7 COM0102 \u00b7 Room 222 \u00b7 Alharthi, S, 2LT , Blain, B, ENS , Castaneda, C, ENS , Copeland, L, ENS , Dodd, C, 2ndLt , Farmer, N, ENS , Gutierrez, E, ENS , Kunishige, A, ENS , Laskowski, N, ENS , Malone, J, ENS , Martinez, Z, ENS , Melvin, Z, ENS , Obregon, K, ENS , Parker, D, 1stLt , Ramaroson, A, ENS , Rogers, C, ENS , Shamai, W, ENS , Smith, B, ENS , Tresler, R, ENS , Wrede, M, ENS , Yordt, C, ENS \u00b7 RAVENDO, R, CIV",
+        "role": "COM0102",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "ASI0118",
+        "start": "1130",
+        "end": "1230",
+        "land": "1230",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALMURAYYI",
+            "first": "A",
+            "full": "ALMURAYYI, A"
+          },
+          {
+            "last": "BOOKER",
+            "first": "K",
+            "full": "BOOKER, K"
+          },
+          {
+            "last": "COMMONS",
+            "first": "C",
+            "full": "COMMONS, C"
+          },
+          {
+            "last": "CONLON",
+            "first": "M",
+            "full": "CONLON, M"
+          },
+          {
+            "last": "HERNANDEZ",
+            "first": "K",
+            "full": "HERNANDEZ, K"
+          },
+          {
+            "last": "HUDSPETH",
+            "first": "C",
+            "full": "HUDSPETH, C"
+          },
+          {
+            "last": "MAULDIN",
+            "first": "C",
+            "full": "MAULDIN, C"
+          },
+          {
+            "last": "MCCALL",
+            "first": "D",
+            "full": "MCCALL, D"
+          },
+          {
+            "last": "MCCORMACK",
+            "first": "K",
+            "full": "MCCORMACK, K"
+          },
+          {
+            "last": "MESEC",
+            "first": "A",
+            "full": "MESEC, A"
+          },
+          {
+            "last": "MIRAMADI",
+            "first": "L",
+            "full": "MIRAMADI, L"
+          },
+          {
+            "last": "NELSON",
+            "first": "A",
+            "full": "NELSON, A"
+          },
+          {
+            "last": "SCHLENKER",
+            "first": "S",
+            "full": "SCHLENKER, S"
+          },
+          {
+            "last": "PELLETIER",
+            "first": "B",
+            "full": "PELLETIER, B"
+          }
+        ],
+        "instructors": [
+          "PELLETIER, B"
+        ],
+        "students": [],
+        "page": 6,
+        "line": "",
+        "raw": "1130-1230 \u00b7 ASI0118 \u00b7 Room 224 \u00b7 Almurayyi, A, 2LT , Booker, K, ENS , Commons, C, ENS , Conlon, M, ENS , Hernandez, K, ENS , Hudspeth, C, ENS , Mauldin, C, ENS , McCall, D, ENS , Mccormack, K, ENS , Mesec, A, ENS , Miramadi, L, ENS , Nelson, A, ENS , Philips , V, ENS , Schlenker, S, ENS \u00b7 PELLETIER, B, CIV",
+        "role": "ASI0118",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "CRM0101",
+        "start": "1330",
+        "end": "1600",
+        "land": "1600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALHARTHI",
+            "first": "S",
+            "full": "ALHARTHI, S"
+          },
+          {
+            "last": "BLAIN",
+            "first": "B",
+            "full": "BLAIN, B"
+          },
+          {
+            "last": "CASTANEDA",
+            "first": "C",
+            "full": "CASTANEDA, C"
+          },
+          {
+            "last": "COPELAND",
+            "first": "L",
+            "full": "COPELAND, L"
+          },
+          {
+            "last": "DODD",
+            "first": "C",
+            "full": "DODD, C"
+          },
+          {
+            "last": "FARMER",
+            "first": "N",
+            "full": "FARMER, N"
+          },
+          {
+            "last": "GUTIERREZ",
+            "first": "E",
+            "full": "GUTIERREZ, E"
+          },
+          {
+            "last": "KUNISHIGE",
+            "first": "A",
+            "full": "KUNISHIGE, A"
+          },
+          {
+            "last": "LASKOWSKI",
+            "first": "N",
+            "full": "LASKOWSKI, N"
+          },
+          {
+            "last": "MALONE",
+            "first": "J",
+            "full": "MALONE, J"
+          },
+          {
+            "last": "MARTINEZ",
+            "first": "Z",
+            "full": "MARTINEZ, Z"
+          },
+          {
+            "last": "MELVIN",
+            "first": "Z",
+            "full": "MELVIN, Z"
+          },
+          {
+            "last": "OBREGON",
+            "first": "K",
+            "full": "OBREGON, K"
+          },
+          {
+            "last": "PARKER",
+            "first": "D",
+            "full": "PARKER, D"
+          },
+          {
+            "last": "RAMAROSON",
+            "first": "A",
+            "full": "RAMAROSON, A"
+          },
+          {
+            "last": "ROGERS",
+            "first": "C",
+            "full": "ROGERS, C"
+          },
+          {
+            "last": "SHAMAI",
+            "first": "W",
+            "full": "SHAMAI, W"
+          },
+          {
+            "last": "SMITH",
+            "first": "B",
+            "full": "SMITH, B"
+          },
+          {
+            "last": "TRESLER",
+            "first": "R",
+            "full": "TRESLER, R"
+          },
+          {
+            "last": "WREDE",
+            "first": "M",
+            "full": "WREDE, M"
+          },
+          {
+            "last": "YORDT",
+            "first": "C",
+            "full": "YORDT, C"
+          },
+          {
+            "last": "RAVENDO",
+            "first": "R",
+            "full": "RAVENDO, R"
+          }
+        ],
+        "instructors": [
+          "RAVENDO, R"
+        ],
+        "students": [],
+        "page": 6,
+        "line": "",
+        "raw": "1330-1600 \u00b7 CRM0101 \u00b7 Room 222 \u00b7 Alharthi, S, 2LT , Blain, B, ENS , Castaneda, C, ENS , Copeland, L, ENS , Dodd, C, 2ndLt , Farmer, N, ENS , Gutierrez, E, ENS , Kunishige, A, ENS , Laskowski, N, ENS , Malone, J, ENS , Martinez, Z, ENS , Melvin, Z, ENS , Obregon, K, ENS , Parker, D, 1stLt , Ramaroson, A, ENS , Rogers, C, ENS , Shamai, W, ENS , Smith, B, ENS , Tresler, R, ENS , Wrede, M, ENS , Yordt, C, ENS \u00b7 RAVENDO, R, CIV",
+        "role": "CRM0101",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "ENG0101",
+        "start": "1500",
+        "end": "1700",
+        "land": "1700",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALMURAYYI",
+            "first": "A",
+            "full": "ALMURAYYI, A"
+          },
+          {
+            "last": "BOOKER",
+            "first": "K",
+            "full": "BOOKER, K"
+          },
+          {
+            "last": "COMMONS",
+            "first": "C",
+            "full": "COMMONS, C"
+          },
+          {
+            "last": "CONLON",
+            "first": "M",
+            "full": "CONLON, M"
+          },
+          {
+            "last": "HERNANDEZ",
+            "first": "K",
+            "full": "HERNANDEZ, K"
+          },
+          {
+            "last": "HUDSPETH",
+            "first": "C",
+            "full": "HUDSPETH, C"
+          },
+          {
+            "last": "MAULDIN",
+            "first": "C",
+            "full": "MAULDIN, C"
+          },
+          {
+            "last": "MCCALL",
+            "first": "D",
+            "full": "MCCALL, D"
+          },
+          {
+            "last": "MCCORMACK",
+            "first": "K",
+            "full": "MCCORMACK, K"
+          },
+          {
+            "last": "MESEC",
+            "first": "A",
+            "full": "MESEC, A"
+          },
+          {
+            "last": "MIRAMADI",
+            "first": "L",
+            "full": "MIRAMADI, L"
+          },
+          {
+            "last": "NELSON",
+            "first": "A",
+            "full": "NELSON, A"
+          },
+          {
+            "last": "SCHLENKER",
+            "first": "S",
+            "full": "SCHLENKER, S"
+          },
+          {
+            "last": "DUKE",
+            "first": "J",
+            "full": "DUKE, J"
+          }
+        ],
+        "instructors": [
+          "DUKE, J"
+        ],
+        "students": [],
+        "page": 6,
+        "line": "",
+        "raw": "1500-1700 \u00b7 ENG0101 \u00b7 Room 224 \u00b7 Almurayyi, A, 2LT , Booker, K, ENS , Commons, C, ENS , Conlon, M, ENS , Hernandez, K, ENS , Hudspeth, C, ENS , Mauldin, C, ENS , McCall, D, ENS , Mccormack, K, ENS , Mesec, A, ENS , Miramadi, L, ENS , Nelson, A, ENS , Philips , V, ENS , Schlenker, S, ENS \u00b7 DUKE, J, CIV",
+        "role": "ENG0101",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "MET0101",
+        "start": "1600",
+        "end": "1700",
+        "land": "1700",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALHARTHI",
+            "first": "S",
+            "full": "ALHARTHI, S"
+          },
+          {
+            "last": "BLAIN",
+            "first": "B",
+            "full": "BLAIN, B"
+          },
+          {
+            "last": "CASTANEDA",
+            "first": "C",
+            "full": "CASTANEDA, C"
+          },
+          {
+            "last": "COPELAND",
+            "first": "L",
+            "full": "COPELAND, L"
+          },
+          {
+            "last": "DODD",
+            "first": "C",
+            "full": "DODD, C"
+          },
+          {
+            "last": "FARMER",
+            "first": "N",
+            "full": "FARMER, N"
+          },
+          {
+            "last": "GUTIERREZ",
+            "first": "E",
+            "full": "GUTIERREZ, E"
+          },
+          {
+            "last": "KUNISHIGE",
+            "first": "A",
+            "full": "KUNISHIGE, A"
+          },
+          {
+            "last": "LASKOWSKI",
+            "first": "N",
+            "full": "LASKOWSKI, N"
+          },
+          {
+            "last": "MALONE",
+            "first": "J",
+            "full": "MALONE, J"
+          },
+          {
+            "last": "MARTINEZ",
+            "first": "Z",
+            "full": "MARTINEZ, Z"
+          },
+          {
+            "last": "MELVIN",
+            "first": "Z",
+            "full": "MELVIN, Z"
+          },
+          {
+            "last": "OBREGON",
+            "first": "K",
+            "full": "OBREGON, K"
+          },
+          {
+            "last": "PARKER",
+            "first": "D",
+            "full": "PARKER, D"
+          },
+          {
+            "last": "RAMAROSON",
+            "first": "A",
+            "full": "RAMAROSON, A"
+          },
+          {
+            "last": "ROGERS",
+            "first": "C",
+            "full": "ROGERS, C"
+          },
+          {
+            "last": "SHAMAI",
+            "first": "W",
+            "full": "SHAMAI, W"
+          },
+          {
+            "last": "SMITH",
+            "first": "B",
+            "full": "SMITH, B"
+          },
+          {
+            "last": "TRESLER",
+            "first": "R",
+            "full": "TRESLER, R"
+          },
+          {
+            "last": "WREDE",
+            "first": "M",
+            "full": "WREDE, M"
+          },
+          {
+            "last": "YORDT",
+            "first": "C",
+            "full": "YORDT, C"
+          },
+          {
+            "last": "RAVENDO",
+            "first": "R",
+            "full": "RAVENDO, R"
+          }
+        ],
+        "instructors": [
+          "RAVENDO, R"
+        ],
+        "students": [],
+        "page": 6,
+        "line": "",
+        "raw": "1600-1700 \u00b7 MET0101 \u00b7 Room 222 \u00b7 Alharthi, S, 2LT , Blain, B, ENS , Castaneda, C, ENS , Copeland, L, ENS , Dodd, C, 2ndLt , Farmer, N, ENS , Gutierrez, E, ENS , Kunishige, A, ENS , Laskowski, N, ENS , Malone, J, ENS , Martinez, Z, ENS , Melvin, Z, ENS , Obregon, K, ENS , Parker, D, 1stLt , Ramaroson, A, ENS , Rogers, C, ENS , Shamai, W, ENS , Smith, B, ENS , Tresler, R, ENS , Wrede, M, ENS , Yordt, C, ENS \u00b7 RAVENDO, R, CIV",
+        "role": "MET0101",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

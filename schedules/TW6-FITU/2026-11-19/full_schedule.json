@@ -166,5 +166,188 @@
       "line_number": 19,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "NA4103",
+        "start": "1000",
+        "end": "1148",
+        "land": "1148",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MARTIN",
+            "first": "PARKER",
+            "full": "MARTIN, PARKER"
+          },
+          {
+            "last": "MITCHELL",
+            "first": "KEITH",
+            "full": "MITCHELL, KEITH"
+          }
+        ],
+        "instructors": [
+          "MARTIN, PARKER"
+        ],
+        "students": [
+          "MITCHELL, KEITH"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "0800 \u00b7 1000 \u00b7 1148 \u00b7 MARTIN, PARKER \u00b7 MITCHELL, KEITH \u00b7 NA4103 \u00b7 1.8 \u00b7 DD-1801",
+        "role": "NA4103",
+        "remarks": "DD-1801",
+        "duration": "1.8",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "OCF4101",
+        "start": "1200",
+        "end": "1248",
+        "land": "1248",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LAVALLE",
+            "first": "CHRISTIAN",
+            "full": "LAVALLE, CHRISTIAN"
+          },
+          {
+            "last": "MORGAN",
+            "first": "JAMES",
+            "full": "MORGAN, JAMES"
+          }
+        ],
+        "instructors": [
+          "LAVALLE, CHRISTIAN"
+        ],
+        "students": [
+          "MORGAN, JAMES"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1000 \u00b7 1200 \u00b7 1248 \u00b7 LAVALLE, CHRISTIAN \u00b7 MORGAN, JAMES \u00b7 OCF4101 \u00b7 0.8 \u00b7 DD-1801, FITU U/G",
+        "role": "OCF4101",
+        "remarks": "DD-1801, FITU U/G",
+        "duration": "0.8",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4104",
+        "start": "1330",
+        "end": "1518",
+        "land": "1518",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MARTIN",
+            "first": "PARKER",
+            "full": "MARTIN, PARKER"
+          },
+          {
+            "last": "MITCHELL",
+            "first": "KEITH",
+            "full": "MITCHELL, KEITH"
+          }
+        ],
+        "instructors": [
+          "MARTIN, PARKER"
+        ],
+        "students": [
+          "MITCHELL, KEITH"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1130 \u00b7 1330 \u00b7 1518 \u00b7 MARTIN, PARKER \u00b7 MITCHELL, KEITH \u00b7 NA4104 \u00b7 1.8 \u00b7 DD-1801",
+        "role": "NA4104",
+        "remarks": "DD-1801",
+        "duration": "1.8",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "OCF4102 Event) Schedule",
+        "start": "1430",
+        "end": "1518",
+        "land": "1518",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LAVALLE",
+            "first": "CHRISTIAN",
+            "full": "LAVALLE, CHRISTIAN"
+          },
+          {
+            "last": "MORGAN",
+            "first": "JAMES",
+            "full": "MORGAN, JAMES"
+          }
+        ],
+        "instructors": [
+          "LAVALLE, CHRISTIAN"
+        ],
+        "students": [
+          "MORGAN, JAMES"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1230 \u00b7 1430 \u00b7 1518 \u00b7 LAVALLE, CHRISTIAN \u00b7 MORGAN, JAMES Simulator (Sim \u00b7 OCF4102 Event) Schedule \u00b7 0.8 \u00b7 DD-1801, FITU U/G",
+        "role": "OCF4102 Event) Schedule",
+        "remarks": "DD-1801, FITU U/G",
+        "duration": "0.8",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NAV3101",
+        "start": "1230",
+        "end": "1400",
+        "land": "1400",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PAN",
+            "first": "TAI",
+            "full": "PAN, TAI"
+          },
+          {
+            "last": "ORTIZ",
+            "first": "RICHARD",
+            "full": "ORTIZ, RICHARD"
+          }
+        ],
+        "instructors": [
+          "PAN, TAI"
+        ],
+        "students": [
+          "ORTIZ, RICHARD"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1200 No Ground \u00b7 1230 Events \u00b7 1400 Scheduled \u00b7 OFT-6P \u00b7 PAN, TAI \u00b7 ORTIZ, RICHARD \u00b7 NAV3101 \u00b7 1.5",
+        "role": "NAV3101",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "OFT-6P",
+        "solo": false
+      }
+    ]
+  }
 }

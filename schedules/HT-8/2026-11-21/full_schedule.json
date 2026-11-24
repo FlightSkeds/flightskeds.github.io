@@ -561,5 +561,606 @@
       "line_number": 40,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "FDO",
+        "start": "0700",
+        "end": "0659",
+        "land": "0659",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BOWES",
+            "first": "C",
+            "full": "BOWES, C"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "FDO \u00b7 LT BOWES C \u00b7 0700 \u00b7 0659",
+        "role": "FDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER",
+        "start": "0730",
+        "end": "0729",
+        "land": "0729",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CROUSHORN",
+            "first": "C",
+            "full": "CROUSHORN, C"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER \u00b7 1stLt CROUSHORN C \u00b7 0730 \u00b7 0729",
+        "role": "DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM SDO",
+        "start": "0700",
+        "end": "1900",
+        "land": "1900",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FLOWER",
+            "first": "J",
+            "full": "FLOWER, J"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM SDO \u00b7 ENS FLOWER J \u00b7 0700 \u00b7 1900",
+        "role": "AM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM SDO",
+        "start": "1900",
+        "end": "0700",
+        "land": "0700",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BUDZ",
+            "first": "P",
+            "full": "BUDZ, P"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM SDO \u00b7 2ndLt BUDZ P \u00b7 1900 \u00b7 0700",
+        "role": "PM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TRF4002A",
+        "start": "1015",
+        "end": "1351",
+        "land": "1351",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ZLOGAR",
+            "first": "A",
+            "full": "ZLOGAR, A"
+          },
+          {
+            "last": "TRULL",
+            "first": "B",
+            "full": "TRULL, B"
+          }
+        ],
+        "instructors": [
+          "ZLOGAR, A"
+        ],
+        "students": [
+          "TRULL, B"
+        ],
+        "page": 2,
+        "line": "T02-1",
+        "raw": "T02-1 \u00b7 0800 \u00b7 1015 \u00b7 1351 \u00b7 KNDZ \u00b7 KNDZ \u00b7 Capt ZLOGAR A \u00b7 1stLt TRULL B \u00b7 TRF4002A \u00b7 3.6 \u00b7 FLT DOC OBS FOR TSAI",
+        "role": "TRF4002A",
+        "remarks": "FLT DOC OBS FOR TSAI",
+        "duration": "3.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "BI4102A",
+        "start": "1015",
+        "end": "1351",
+        "land": "1351",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ZLOGAR",
+            "first": "A",
+            "full": "ZLOGAR, A"
+          },
+          {
+            "last": "OSTI",
+            "first": "J",
+            "full": "OSTI, J"
+          },
+          {
+            "last": "TSAI",
+            "first": "E",
+            "full": "TSAI, E"
+          }
+        ],
+        "instructors": [
+          "ZLOGAR, A"
+        ],
+        "students": [
+          "OSTI, J",
+          "TSAI, E"
+        ],
+        "page": 2,
+        "line": "T02-1",
+        "raw": "T02-1 \u00b7 0800 \u00b7 1015 \u00b7 1351 \u00b7 Capt ZLOGAR A \u00b7 1stLt OSTI J LT TSAI E \u00b7 BI4102A",
+        "role": "BI4102A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TRF4101A",
+        "start": "1015",
+        "end": "1403",
+        "land": "1403",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BRAY",
+            "first": "B",
+            "full": "BRAY, B"
+          },
+          {
+            "last": "HOPKINS",
+            "first": "C",
+            "full": "HOPKINS, C"
+          }
+        ],
+        "instructors": [
+          "BRAY, B"
+        ],
+        "students": [
+          "HOPKINS, C"
+        ],
+        "page": 2,
+        "line": "T06-1",
+        "raw": "T06-1 \u00b7 0800 \u00b7 1015 \u00b7 1403 \u00b7 KNDZ \u00b7 KNDZ \u00b7 LCDR BRAY B \u00b7 1stLt HOPKINS C \u00b7 TRF4101A \u00b7 3.8",
+        "role": "TRF4101A",
+        "remarks": "",
+        "duration": "3.8",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "DAY4502A",
+        "start": "1015",
+        "end": "1403",
+        "land": "1403",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MICO D SCHEDULE",
+            "first": "",
+            "full": "MICO D SCHEDULE"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MICO D SCHEDULE"
+        ],
+        "page": 2,
+        "line": "T06-1",
+        "raw": "T06-1 \u00b7 0800 \u00b7 1015 \u00b7 1403 \u00b7 LCDR BRAY B Simulator (Sim Event) \u00b7 1stLt MICO D Schedule \u00b7 DAY4502A",
+        "role": "DAY4502A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SAR3001A",
+        "start": "0730",
+        "end": "",
+        "land": "",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ASHFORD",
+            "first": "R",
+            "full": "ASHFORD, R"
+          },
+          {
+            "last": "STEVENS",
+            "first": "E",
+            "full": "STEVENS, E"
+          }
+        ],
+        "instructors": [
+          "ASHFORD, R"
+        ],
+        "students": [
+          "STEVENS, E"
+        ],
+        "page": 2,
+        "line": "L7U5-2",
+        "raw": "L7U5-2 \u00b7 0700 \u00b7 0730 \u00b7 L7U5 \u00b7 CIV ASHFORD R \u00b7 LTJG STEVENS E \u00b7 SAR3001A \u00b7 1.5",
+        "role": "SAR3001A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U5",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SAR3001A",
+        "start": "0730",
+        "end": "",
+        "land": "",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "YANNUZZI",
+            "first": "J",
+            "full": "YANNUZZI, J"
+          },
+          {
+            "last": "RAUCCI",
+            "first": "Z",
+            "full": "RAUCCI, Z"
+          }
+        ],
+        "instructors": [
+          "YANNUZZI, J"
+        ],
+        "students": [
+          "RAUCCI, Z"
+        ],
+        "page": 2,
+        "line": "L7U3-2",
+        "raw": "L7U3-2 \u00b7 0700 \u00b7 0730 \u00b7 L7U3 \u00b7 CIV YANNUZZI J \u00b7 LTJG RAUCCI Z \u00b7 SAR3001A \u00b7 1.5",
+        "role": "SAR3001A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U3",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TRF3001A",
+        "start": "0900",
+        "end": "",
+        "land": "",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HOLLINGER",
+            "first": "J",
+            "full": "HOLLINGER, J"
+          },
+          {
+            "last": "BENT",
+            "first": "D",
+            "full": "BENT, D"
+          }
+        ],
+        "instructors": [
+          "HOLLINGER, J"
+        ],
+        "students": [
+          "BENT, D"
+        ],
+        "page": 2,
+        "line": "L7U2-3",
+        "raw": "L7U2-3 \u00b7 0830 \u00b7 0900 \u00b7 L7U2 \u00b7 CIV HOLLINGER J \u00b7 Capt BENT D \u00b7 TRF3001A \u00b7 1.5",
+        "role": "TRF3001A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U2",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "VIP",
+        "start": "0900",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LOEB",
+            "first": "J",
+            "full": "LOEB, J"
+          },
+          {
+            "last": "MACKRELL",
+            "first": "M",
+            "full": "MACKRELL, M"
+          }
+        ],
+        "instructors": [
+          "LOEB, J"
+        ],
+        "students": [
+          "MACKRELL, M"
+        ],
+        "page": 2,
+        "line": "L7U12-3",
+        "raw": "L7U12-3 \u00b7 TBD \u00b7 0900 \u00b7 L7U12 \u00b7 CIV LOEB J \u00b7 LTJG MACKRELL M \u00b7 VIP \u00b7 1.5 \u00b7 WINGER FAMILY SIM; GUESTS: KATHRYN MACKRELL, JOHN MACKRELL, GRACE MACKRELL, LIZA MACKRELL, DANIEL OFLAHERTY, MARGARET GAGLIONE",
+        "role": "VIP",
+        "remarks": "WINGER FAMILY SIM; GUESTS: KATHRYN MACKRELL, JOHN MACKRELL, GRACE MACKRELL, LIZA MACKRELL, DANIEL OFLAHERTY, MARGARET GAGLIONE",
+        "duration": "1.5",
+        "device": "L7U12",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TRF3001A",
+        "start": "1030",
+        "end": "",
+        "land": "",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ARMSTRONG",
+            "first": "W",
+            "full": "ARMSTRONG, W"
+          },
+          {
+            "last": "SLUKA",
+            "first": "C",
+            "full": "SLUKA, C"
+          }
+        ],
+        "instructors": [
+          "ARMSTRONG, W"
+        ],
+        "students": [
+          "SLUKA, C"
+        ],
+        "page": 2,
+        "line": "L7U6-4",
+        "raw": "L7U6-4 \u00b7 1000 \u00b7 1030 \u00b7 L7U6 \u00b7 CIV ARMSTRONG W \u00b7 1stLt SLUKA C \u00b7 TRF3001A \u00b7 1.5",
+        "role": "TRF3001A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U6",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "VIP",
+        "start": "1030",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CUNNINGHAM",
+            "first": "G",
+            "full": "CUNNINGHAM, G"
+          },
+          {
+            "last": "FOREMAN",
+            "first": "A",
+            "full": "FOREMAN, A"
+          }
+        ],
+        "instructors": [
+          "CUNNINGHAM, G"
+        ],
+        "students": [
+          "FOREMAN, A"
+        ],
+        "page": 2,
+        "line": "L7U8-4",
+        "raw": "L7U8-4 \u00b7 TBD \u00b7 1030 \u00b7 L7U8 \u00b7 CIV CUNNINGHAM G \u00b7 1stLt FOREMAN A \u00b7 VIP \u00b7 1.5 \u00b7 WINGER FAMILY SIM; GUESTS: YAMA FOREMAN, STEVE FOREMAN, PHILIP FOREMAN, PAUL MOORE, PRISCILLA MOORE, JENNA MOORE, EVA SAVA",
+        "role": "VIP",
+        "remarks": "WINGER FAMILY SIM; GUESTS: YAMA FOREMAN, STEVE FOREMAN, PHILIP FOREMAN, PAUL MOORE, PRISCILLA MOORE, JENNA MOORE, EVA SAVA",
+        "duration": "1.5",
+        "device": "L7U8",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY2002A",
+        "start": "1030",
+        "end": "",
+        "land": "",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "YANNUZZI",
+            "first": "J",
+            "full": "YANNUZZI, J"
+          },
+          {
+            "last": "SCHOFIELD",
+            "first": "S",
+            "full": "SCHOFIELD, S"
+          }
+        ],
+        "instructors": [
+          "YANNUZZI, J"
+        ],
+        "students": [
+          "SCHOFIELD, S"
+        ],
+        "page": 2,
+        "line": "L6U4-4",
+        "raw": "L6U4-4 \u00b7 1000 \u00b7 1030 \u00b7 L6U4 \u00b7 CIV YANNUZZI J \u00b7 1stLt SCHOFIELD S \u00b7 DAY2002A \u00b7 1.5",
+        "role": "DAY2002A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L6U4",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "RI3001A",
+        "start": "1200",
+        "end": "",
+        "land": "",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAGLUND",
+            "first": "D",
+            "full": "HAGLUND, D"
+          },
+          {
+            "last": "MYHRE",
+            "first": "S",
+            "full": "MYHRE, S"
+          }
+        ],
+        "instructors": [
+          "HAGLUND, D"
+        ],
+        "students": [
+          "MYHRE, S"
+        ],
+        "page": 2,
+        "line": "L7U9-5",
+        "raw": "L7U9-5 \u00b7 1130 \u00b7 1200 \u00b7 L7U9 \u00b7 CIV HAGLUND D \u00b7 LTJG MYHRE S \u00b7 RI3001A \u00b7 1.5 \u00b7 NET 1130",
+        "role": "RI3001A",
+        "remarks": "NET 1130",
+        "duration": "1.5",
+        "device": "L7U9",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "LND3001A",
+        "start": "1200",
+        "end": "",
+        "land": "",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RAUSCHER",
+            "first": "J",
+            "full": "RAUSCHER, J"
+          },
+          {
+            "last": "GRUENDLING",
+            "first": "K",
+            "full": "GRUENDLING, K"
+          }
+        ],
+        "instructors": [
+          "RAUSCHER, J"
+        ],
+        "students": [
+          "GRUENDLING, K"
+        ],
+        "page": 2,
+        "line": "L7U12-5",
+        "raw": "L7U12-5 \u00b7 1130 \u00b7 1200 \u00b7 L7U12 \u00b7 CIV RAUSCHER J \u00b7 LTJG GRUENDLING K \u00b7 LND3001A \u00b7 1.5",
+        "role": "LND3001A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U12",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NGT3002A",
+        "start": "1330",
+        "end": "",
+        "land": "",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KARR",
+            "first": "J",
+            "full": "KARR, J"
+          },
+          {
+            "last": "MELE J GROUND EVENTS",
+            "first": "",
+            "full": "MELE J GROUND EVENTS"
+          }
+        ],
+        "instructors": [
+          "KARR, J"
+        ],
+        "students": [
+          "MELE J GROUND EVENTS"
+        ],
+        "page": 2,
+        "line": "L7U5-6",
+        "raw": "L7U5-6 \u00b7 1300 \u00b7 1330 \u00b7 L7U5 \u00b7 CIV KARR J \u00b7 LTJG MELE J Ground Events \u00b7 NGT3002A \u00b7 1.5",
+        "role": "NGT3002A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "L7U5",
+        "solo": false
+      }
+    ]
+  }
 }

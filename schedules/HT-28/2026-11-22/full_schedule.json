@@ -400,5 +400,143 @@
       "line_number": 3,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "CDO LT PLUCHINO",
+        "start": "0759",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "CDO LT PLUCHINO \u00b7 A 0800 \u00b7 0759",
+        "role": "CDO LT PLUCHINO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO AM Capt",
+        "start": "1845",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO AM Capt \u00b7 SZEWC A 0645 \u00b7 1845",
+        "role": "SDO AM Capt",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO PM ENS",
+        "start": "0645",
+        "end": "",
+        "land": "",
+        "brief": "",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO PM ENS \u00b7 JONES S 1845 \u00b7 0645",
+        "role": "SDO PM ENS",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TRF4003A",
+        "start": "1200",
+        "end": "1548",
+        "land": "1548",
+        "brief": "0945",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JUDD",
+            "first": "K",
+            "full": "JUDD, K"
+          },
+          {
+            "last": "DUFFIN",
+            "first": "M",
+            "full": "DUFFIN, M"
+          }
+        ],
+        "instructors": [
+          "JUDD, K"
+        ],
+        "students": [
+          "DUFFIN, M"
+        ],
+        "page": 3,
+        "line": "T12-1",
+        "raw": "T12-1 \u00b7 0945 \u00b7 1200 \u00b7 1548 \u00b7 LCDR JUDD K \u00b7 ENS DUFFIN M \u00b7 TRF4003A \u00b7 3.8 \u00b7 PREPO KNDZ",
+        "role": "TRF4003A",
+        "remarks": "PREPO KNDZ",
+        "duration": "3.8",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TRF4101A",
+        "start": "",
+        "end": "",
+        "land": "",
+        "brief": "0945",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JUDD",
+            "first": "K",
+            "full": "JUDD, K"
+          },
+          {
+            "last": "SIMAK",
+            "first": "A",
+            "full": "SIMAK, A"
+          }
+        ],
+        "instructors": [
+          "JUDD, K"
+        ],
+        "students": [
+          "SIMAK, A"
+        ],
+        "page": 3,
+        "line": "T12-1",
+        "raw": "T12-1 \u00b7 0945 \u00b7 KNDZ \u00b7 KNDZ \u00b7 LCDR JUDD K \u00b7 LTJG SIMAK A \u00b7 TRF4101A",
+        "role": "TRF4101A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

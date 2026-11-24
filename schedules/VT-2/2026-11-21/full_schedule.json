@@ -909,5 +909,2109 @@
       "line_number": 32,
       "text": "34 1610 1640 OFT 8W"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "AFDO",
+        "start": "0730",
+        "end": "1500",
+        "land": "1500",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NELSON",
+            "first": "ROBERT",
+            "full": "NELSON, ROBERT"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AFDO \u00b7 NELSON, ROBERT \u00b7 0730 \u00b7 1500",
+        "role": "AFDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO",
+        "start": "0800",
+        "end": "0800",
+        "land": "0800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "POWERS",
+            "first": "JACOB",
+            "full": "POWERS, JACOB"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO \u00b7 POWERS, JACOB \u00b7 0800 \u00b7 0800",
+        "role": "SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SUPER",
+        "start": "0800",
+        "end": "0759",
+        "land": "0759",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RUSH",
+            "first": "WILLIAM",
+            "full": "RUSH, WILLIAM"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SUPER \u00b7 RUSH, WILLIAM# \u00b7 0800 \u00b7 0759",
+        "role": "SUPER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "WEEKEND CDO",
+        "start": "0800",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHILHAN",
+            "first": "JAMES",
+            "full": "SHILHAN, JAMES"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "WEEKEND CDO \u00b7 SHILHAN, JAMES \u00b7 0800 \u00b7 2359",
+        "role": "WEEKEND CDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER",
+        "start": "0800",
+        "end": "2000",
+        "land": "2000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CARL",
+            "first": "JUSTIN",
+            "full": "CARL, JUSTIN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER \u00b7 CARL, JUSTIN \u00b7 0800 \u00b7 2000",
+        "role": "DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CS4101",
+        "start": "0701",
+        "end": "0843",
+        "land": "0843",
+        "brief": "0516",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HATHAWAY",
+            "first": "JASON",
+            "full": "HATHAWAY, JASON"
+          },
+          {
+            "last": "GUARINO",
+            "first": "CHARLES",
+            "full": "GUARINO, CHARLES"
+          }
+        ],
+        "instructors": [
+          "HATHAWAY, JASON"
+        ],
+        "students": [
+          "GUARINO, CHARLES"
+        ],
+        "page": 3,
+        "line": "1",
+        "raw": "1 \u00b7 0516 \u00b7 0701 \u00b7 0843 \u00b7 HATHAWAY, JASON# \u00b7 GUARINO, CHARLES# \u00b7 1D1 \u00b7 CS4101 \u00b7 1.7 \u00b7 3X; SECTION LEAD W/ LT BEAMAN; CONTACT IP FOR BRIEF TIME",
+        "role": "CS4101",
+        "remarks": "3X; SECTION LEAD W/ LT BEAMAN; CONTACT IP FOR BRIEF TIME",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CS4101",
+        "start": "0704",
+        "end": "0846",
+        "land": "0846",
+        "brief": "0519",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BEAMAN",
+            "first": "KYLE",
+            "full": "BEAMAN, KYLE"
+          },
+          {
+            "last": "WILLIAMS",
+            "first": "TRAVIS",
+            "full": "WILLIAMS, TRAVIS"
+          }
+        ],
+        "instructors": [
+          "BEAMAN, KYLE"
+        ],
+        "students": [
+          "WILLIAMS, TRAVIS"
+        ],
+        "page": 3,
+        "line": "2",
+        "raw": "2 \u00b7 0519 \u00b7 0704 \u00b7 0846 \u00b7 BEAMAN, KYLE# \u00b7 WILLIAMS, TRAVIS# \u00b7 1D1 \u00b7 CS4101 \u00b7 1.7 \u00b7 3X; W/ SL CDR HATHAWAY; CONTACT IP FOR BRIEF TIME",
+        "role": "CS4101",
+        "remarks": "3X; W/ SL CDR HATHAWAY; CONTACT IP FOR BRIEF TIME",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4201",
+        "start": "0718",
+        "end": "0854",
+        "land": "0854",
+        "brief": "0533",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GRUBER",
+            "first": "THOMAS",
+            "full": "GRUBER, THOMAS"
+          },
+          {
+            "last": "HAN",
+            "first": "CRYSTAL",
+            "full": "HAN, CRYSTAL"
+          }
+        ],
+        "instructors": [
+          "GRUBER, THOMAS"
+        ],
+        "students": [
+          "HAN, CRYSTAL"
+        ],
+        "page": 3,
+        "line": "3",
+        "raw": "3 \u00b7 0533 \u00b7 0718 \u00b7 0854 \u00b7 GRUBER, THOMAS# \u00b7 HAN, CRYSTAL# \u00b7 1D2 \u00b7 I4201 \u00b7 1.6 \u00b7 CCX TO KPIE",
+        "role": "I4201",
+        "remarks": "CCX TO KPIE",
+        "duration": "1.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4203",
+        "start": "0721",
+        "end": "0857",
+        "land": "0857",
+        "brief": "0536",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SWANN",
+            "first": "MIKAL",
+            "full": "SWANN, MIKAL"
+          },
+          {
+            "last": "WISE",
+            "first": "URSULA",
+            "full": "WISE, URSULA"
+          }
+        ],
+        "instructors": [
+          "SWANN, MIKAL"
+        ],
+        "students": [
+          "WISE, URSULA"
+        ],
+        "page": 3,
+        "line": "4",
+        "raw": "4 \u00b7 0536 \u00b7 0721 \u00b7 0857 \u00b7 SWANN, MIKAL# \u00b7 WISE, URSULA# \u00b7 1D2 \u00b7 I4203 \u00b7 1.6 \u00b7 3X; CCX PROFILE",
+        "role": "I4203",
+        "remarks": "3X; CCX PROFILE",
+        "duration": "1.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4101",
+        "start": "0732",
+        "end": "0908",
+        "land": "0908",
+        "brief": "0547",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SMEDLEY",
+            "first": "GARY",
+            "full": "SMEDLEY, GARY"
+          },
+          {
+            "last": "MURPHY",
+            "first": "RENNY",
+            "full": "MURPHY, RENNY"
+          }
+        ],
+        "instructors": [
+          "SMEDLEY, GARY"
+        ],
+        "students": [
+          "MURPHY, RENNY"
+        ],
+        "page": 3,
+        "line": "5",
+        "raw": "5 \u00b7 0547 \u00b7 0732 \u00b7 0908 \u00b7 SMEDLEY, GARY# \u00b7 MURPHY, RENNY# \u00b7 1D2 \u00b7 I4101 \u00b7 1.6 \u00b7 3X; CCX PROFILE",
+        "role": "I4101",
+        "remarks": "3X; CCX PROFILE",
+        "duration": "1.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4490",
+        "start": "0746",
+        "end": "0928",
+        "land": "0928",
+        "brief": "0601",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ANDREASEN",
+            "first": "TREVOR",
+            "full": "ANDREASEN, TREVOR"
+          },
+          {
+            "last": "ZAGARA",
+            "first": "CECILIA",
+            "full": "ZAGARA, CECILIA"
+          }
+        ],
+        "instructors": [
+          "ANDREASEN, TREVOR"
+        ],
+        "students": [
+          "ZAGARA, CECILIA"
+        ],
+        "page": 3,
+        "line": "6",
+        "raw": "6 \u00b7 0601 \u00b7 0746 \u00b7 0928 \u00b7 ANDREASEN, TREVOR# \u00b7 ZAGARA, CECILIA# \u00b7 1D1 \u00b7 FAM4490 \u00b7 1.7 \u00b7 3X I/I/I",
+        "role": "FAM4490",
+        "remarks": "3X I/I/I",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4301 (84(ADPT))",
+        "start": "0749",
+        "end": "0931",
+        "land": "0931",
+        "brief": "0604",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KLEISS",
+            "first": "EVAN",
+            "full": "KLEISS, EVAN"
+          },
+          {
+            "last": "RICO",
+            "first": "DAVID",
+            "full": "RICO, DAVID"
+          }
+        ],
+        "instructors": [
+          "KLEISS, EVAN"
+        ],
+        "students": [
+          "RICO, DAVID"
+        ],
+        "page": 3,
+        "line": "7",
+        "raw": "7 \u00b7 0604 \u00b7 0749 \u00b7 0931 \u00b7 KLEISS, EVAN# \u00b7 RICO, DAVID# \u00b7 1D1 \u00b7 FAM4301 (84(ADPT)) \u00b7 1.7 \u00b7 2X",
+        "role": "FAM4301 (84(ADPT))",
+        "remarks": "2X",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4703 (86(WU))",
+        "start": "0803",
+        "end": "0945",
+        "land": "0945",
+        "brief": "0618",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SULPIZIO",
+            "first": "JOHN",
+            "full": "SULPIZIO, JOHN"
+          },
+          {
+            "last": "FROMM",
+            "first": "CHRISTOPHER",
+            "full": "FROMM, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "SULPIZIO, JOHN"
+        ],
+        "students": [
+          "FROMM, CHRISTOPHER"
+        ],
+        "page": 3,
+        "line": "8",
+        "raw": "8 \u00b7 0618 \u00b7 0803 \u00b7 0945 \u00b7 SULPIZIO, JOHN# \u00b7 FROMM, CHRISTOPHER# \u00b7 1D1 \u00b7 FAM4703 (86(WU)) \u00b7 1.7 \u00b7 3X; 2X O/I TO 1X; MANDO WARMUPS",
+        "role": "FAM4703 (86(WU))",
+        "remarks": "3X; 2X O/I TO 1X; MANDO WARMUPS",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4304 (RPT)",
+        "start": "0806",
+        "end": "0948",
+        "land": "0948",
+        "brief": "0621",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SCARFO",
+            "first": "JONATHAN",
+            "full": "SCARFO, JONATHAN"
+          },
+          {
+            "last": "VAZQUEZ",
+            "first": "EVAN",
+            "full": "VAZQUEZ, EVAN"
+          }
+        ],
+        "instructors": [
+          "SCARFO, JONATHAN"
+        ],
+        "students": [
+          "VAZQUEZ, EVAN"
+        ],
+        "page": 3,
+        "line": "9",
+        "raw": "9 \u00b7 0621 \u00b7 0806 \u00b7 0948 \u00b7 SCARFO, JONATHAN \u00b7 VAZQUEZ, EVAN \u00b7 1D1 \u00b7 FAM4304 (RPT) \u00b7 1.7 \u00b7 1X",
+        "role": "FAM4304 (RPT)",
+        "remarks": "1X",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4501",
+        "start": "0817",
+        "end": "0947",
+        "land": "0947",
+        "brief": "0632",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ASH",
+            "first": "WILLIAM",
+            "full": "ASH, WILLIAM"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "ASH, WILLIAM"
+        ],
+        "page": 3,
+        "line": "10",
+        "raw": "10 \u00b7 0632 \u00b7 0817 \u00b7 0947 \u00b7 ASH, WILLIAM \u00b7 1D1 \u00b7 FAM4501 \u00b7 1.5 \u00b7 SOLO PLACEHOLDER",
+        "role": "FAM4501",
+        "remarks": "SOLO PLACEHOLDER",
+        "duration": "1.5",
+        "device": "",
+        "solo": true
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4501",
+        "start": "0820",
+        "end": "0950",
+        "land": "0950",
+        "brief": "0635",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALMESHALY",
+            "first": "IBRAHEM",
+            "full": "ALMESHALY, IBRAHEM"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "ALMESHALY, IBRAHEM"
+        ],
+        "page": 3,
+        "line": "11",
+        "raw": "11 \u00b7 0635 \u00b7 0820 \u00b7 0950 \u00b7 ALMESHALY, IBRAHEM \u00b7 1D1 \u00b7 FAM4501 \u00b7 1.5 \u00b7 SOLO PLACEHOLDER",
+        "role": "FAM4501",
+        "remarks": "SOLO PLACEHOLDER",
+        "duration": "1.5",
+        "device": "",
+        "solo": true
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4501",
+        "start": "0831",
+        "end": "1001",
+        "land": "1001",
+        "brief": "0646",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WOODRUFF",
+            "first": "GRANT",
+            "full": "WOODRUFF, GRANT"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "WOODRUFF, GRANT"
+        ],
+        "page": 3,
+        "line": "12",
+        "raw": "12 \u00b7 0646 \u00b7 0831 \u00b7 1001 \u00b7 WOODRUFF, GRANT \u00b7 1D1 \u00b7 FAM4501 \u00b7 1.5 \u00b7 SOLO PLACEHOLDER",
+        "role": "FAM4501",
+        "remarks": "SOLO PLACEHOLDER",
+        "duration": "1.5",
+        "device": "",
+        "solo": true
+      },
+      {
+        "section": "Flight",
+        "code": "Flight",
+        "start": "0834",
+        "end": "1034",
+        "land": "1034",
+        "brief": "0649",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "13",
+        "raw": "13 \u00b7 0649 \u00b7 0834 \u00b7 1034 \u00b7 2.0",
+        "role": "Flight",
+        "remarks": "",
+        "duration": "2.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4501",
+        "start": "0848",
+        "end": "1018",
+        "land": "1018",
+        "brief": "0703",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BLAISDELL",
+            "first": "ELY",
+            "full": "BLAISDELL, ELY"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "BLAISDELL, ELY"
+        ],
+        "page": 3,
+        "line": "14",
+        "raw": "14 \u00b7 0703 \u00b7 0848 \u00b7 1018 \u00b7 BLAISDELL, ELY \u00b7 1D1 \u00b7 FAM4501 \u00b7 1.5 \u00b7 SOLO PLACEHOLDER",
+        "role": "FAM4501",
+        "remarks": "SOLO PLACEHOLDER",
+        "duration": "1.5",
+        "device": "",
+        "solo": true
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4501",
+        "start": "0851",
+        "end": "1021",
+        "land": "1021",
+        "brief": "0706",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FERRERI",
+            "first": "MATTEO",
+            "full": "FERRERI, MATTEO"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "FERRERI, MATTEO"
+        ],
+        "page": 3,
+        "line": "15",
+        "raw": "15 \u00b7 0706 \u00b7 0851 \u00b7 1021 \u00b7 FERRERI, MATTEO \u00b7 1D1 \u00b7 FAM4501 \u00b7 1.5 \u00b7 SOLO PLACEHOLDER",
+        "role": "FAM4501",
+        "remarks": "SOLO PLACEHOLDER",
+        "duration": "1.5",
+        "device": "",
+        "solo": true
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4801",
+        "start": "0902",
+        "end": "1044",
+        "land": "1044",
+        "brief": "0717",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CADIOU",
+            "first": "AYMERIC",
+            "full": "CADIOU, AYMERIC"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "CADIOU, AYMERIC"
+        ],
+        "page": 3,
+        "line": "16",
+        "raw": "16 \u00b7 0717 \u00b7 0902 \u00b7 1044 \u00b7 CADIOU, AYMERIC \u00b7 1D1 \u00b7 FAM4801 \u00b7 1.7 \u00b7 SOLO PLACEHOLDER",
+        "role": "FAM4801",
+        "remarks": "SOLO PLACEHOLDER",
+        "duration": "1.7",
+        "device": "",
+        "solo": true
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4801",
+        "start": "0905",
+        "end": "1047",
+        "land": "1047",
+        "brief": "0720",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GOMBERT- GILLMANN",
+            "first": "ELLIOT",
+            "full": "GOMBERT- GILLMANN, ELLIOT"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "GOMBERT- GILLMANN, ELLIOT"
+        ],
+        "page": 3,
+        "line": "17",
+        "raw": "17 \u00b7 0720 \u00b7 0905 \u00b7 1047 \u00b7 GOMBERT- GILLMANN, ELLIOT \u00b7 1D1 \u00b7 FAM4801 \u00b7 1.7 \u00b7 SOLO PLACEHOLDER",
+        "role": "FAM4801",
+        "remarks": "SOLO PLACEHOLDER",
+        "duration": "1.7",
+        "device": "",
+        "solo": true
+      },
+      {
+        "section": "Flight",
+        "code": "CS4102",
+        "start": "1101",
+        "end": "1243",
+        "land": "1243",
+        "brief": "0916",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HATHAWAY",
+            "first": "JASON",
+            "full": "HATHAWAY, JASON"
+          },
+          {
+            "last": "GUARINO",
+            "first": "CHARLES",
+            "full": "GUARINO, CHARLES"
+          }
+        ],
+        "instructors": [
+          "HATHAWAY, JASON"
+        ],
+        "students": [
+          "GUARINO, CHARLES"
+        ],
+        "page": 3,
+        "line": "18",
+        "raw": "18 \u00b7 0916 \u00b7 1101 \u00b7 1243 \u00b7 HATHAWAY, JASON# \u00b7 GUARINO, CHARLES# \u00b7 1D1 \u00b7 CS4102 \u00b7 1.7",
+        "role": "CS4102",
+        "remarks": "",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CS4102",
+        "start": "1104",
+        "end": "1246",
+        "land": "1246",
+        "brief": "0919",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BEAMAN",
+            "first": "KYLE",
+            "full": "BEAMAN, KYLE"
+          },
+          {
+            "last": "WILLIAMS",
+            "first": "TRAVIS",
+            "full": "WILLIAMS, TRAVIS"
+          }
+        ],
+        "instructors": [
+          "BEAMAN, KYLE"
+        ],
+        "students": [
+          "WILLIAMS, TRAVIS"
+        ],
+        "page": 3,
+        "line": "19",
+        "raw": "19 \u00b7 0919 \u00b7 1104 \u00b7 1246 \u00b7 BEAMAN, KYLE# \u00b7 WILLIAMS, TRAVIS# \u00b7 1D1 \u00b7 CS4102 \u00b7 1.7",
+        "role": "CS4102",
+        "remarks": "",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4202",
+        "start": "1118",
+        "end": "1254",
+        "land": "1254",
+        "brief": "0933",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GRUBER",
+            "first": "THOMAS",
+            "full": "GRUBER, THOMAS"
+          },
+          {
+            "last": "HAN",
+            "first": "CRYSTAL",
+            "full": "HAN, CRYSTAL"
+          }
+        ],
+        "instructors": [
+          "GRUBER, THOMAS"
+        ],
+        "students": [
+          "HAN, CRYSTAL"
+        ],
+        "page": 3,
+        "line": "20",
+        "raw": "20 \u00b7 0933 \u00b7 1118 \u00b7 1254 \u00b7 GRUBER, THOMAS# \u00b7 HAN, CRYSTAL# \u00b7 1D2 \u00b7 I4202 \u00b7 1.6",
+        "role": "I4202",
+        "remarks": "",
+        "duration": "1.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "1121",
+        "end": "1257",
+        "land": "1257",
+        "brief": "0936",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SWANN",
+            "first": "MIKAL",
+            "full": "SWANN, MIKAL"
+          },
+          {
+            "last": "WISE",
+            "first": "URSULA",
+            "full": "WISE, URSULA"
+          }
+        ],
+        "instructors": [
+          "SWANN, MIKAL"
+        ],
+        "students": [
+          "WISE, URSULA"
+        ],
+        "page": 3,
+        "line": "21",
+        "raw": "21 \u00b7 0936 \u00b7 1121 \u00b7 1257 \u00b7 SWANN, MIKAL# \u00b7 WISE, URSULA# \u00b7 1D2 \u00b7 I4204 \u00b7 1.6",
+        "role": "I4204",
+        "remarks": "",
+        "duration": "1.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4102",
+        "start": "1132",
+        "end": "1308",
+        "land": "1308",
+        "brief": "0947",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SMEDLEY",
+            "first": "GARY",
+            "full": "SMEDLEY, GARY"
+          },
+          {
+            "last": "MURPHY",
+            "first": "RENNY",
+            "full": "MURPHY, RENNY"
+          }
+        ],
+        "instructors": [
+          "SMEDLEY, GARY"
+        ],
+        "students": [
+          "MURPHY, RENNY"
+        ],
+        "page": 3,
+        "line": "22",
+        "raw": "22 \u00b7 0947 \u00b7 1132 \u00b7 1308 \u00b7 SMEDLEY, GARY# \u00b7 MURPHY, RENNY# \u00b7 1D2 \u00b7 I4102 \u00b7 1.6",
+        "role": "I4102",
+        "remarks": "",
+        "duration": "1.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4702 (86(WU))",
+        "start": "1135",
+        "end": "1317",
+        "land": "1317",
+        "brief": "0950",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MASEL",
+            "first": "ANDREW",
+            "full": "MASEL, ANDREW"
+          },
+          {
+            "last": "ECK",
+            "first": "COLBY",
+            "full": "ECK, COLBY"
+          }
+        ],
+        "instructors": [
+          "MASEL, ANDREW"
+        ],
+        "students": [
+          "ECK, COLBY"
+        ],
+        "page": 3,
+        "line": "23",
+        "raw": "23 \u00b7 0950 \u00b7 1135 \u00b7 1317 \u00b7 MASEL, ANDREW# \u00b7 ECK, COLBY# \u00b7 1D1 \u00b7 FAM4702 (86(WU)) \u00b7 1.7 \u00b7 2X O/I; MANDO WARMUPS",
+        "role": "FAM4702 (86(WU))",
+        "remarks": "2X O/I; MANDO WARMUPS",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4103",
+        "start": "1146",
+        "end": "1322",
+        "land": "1322",
+        "brief": "1001",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ANDREASEN",
+            "first": "TREVOR",
+            "full": "ANDREASEN, TREVOR"
+          },
+          {
+            "last": "LAMBERT",
+            "first": "MILLER",
+            "full": "LAMBERT, MILLER"
+          }
+        ],
+        "instructors": [
+          "ANDREASEN, TREVOR"
+        ],
+        "students": [
+          "LAMBERT, MILLER"
+        ],
+        "page": 3,
+        "line": "24",
+        "raw": "24 \u00b7 1001 \u00b7 1146 \u00b7 1322 \u00b7 ANDREASEN, TREVOR# \u00b7 LAMBERT, MILLER \u00b7 1D1 \u00b7 FAM4103 \u00b7 1.6",
+        "role": "FAM4103",
+        "remarks": "",
+        "duration": "1.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4703",
+        "start": "1149",
+        "end": "1331",
+        "land": "1331",
+        "brief": "1004",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KLEISS",
+            "first": "EVAN",
+            "full": "KLEISS, EVAN"
+          },
+          {
+            "last": "ALWAHBI",
+            "first": "IBRAHIM",
+            "full": "ALWAHBI, IBRAHIM"
+          }
+        ],
+        "instructors": [
+          "KLEISS, EVAN"
+        ],
+        "students": [
+          "ALWAHBI, IBRAHIM"
+        ],
+        "page": 3,
+        "line": "25",
+        "raw": "25 \u00b7 1004 \u00b7 1149 \u00b7 1331 \u00b7 KLEISS, EVAN# \u00b7 ALWAHBI, IBRAHIM \u00b7 1D1 \u00b7 FAM4703 \u00b7 1.7",
+        "role": "FAM4703",
+        "remarks": "",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4703 (86(WU))",
+        "start": "1203",
+        "end": "1345",
+        "land": "1345",
+        "brief": "1018",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SULPIZIO",
+            "first": "JOHN",
+            "full": "SULPIZIO, JOHN"
+          },
+          {
+            "last": "FROMM",
+            "first": "CHRISTOPHER",
+            "full": "FROMM, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "SULPIZIO, JOHN"
+        ],
+        "students": [
+          "FROMM, CHRISTOPHER"
+        ],
+        "page": 3,
+        "line": "26",
+        "raw": "26 \u00b7 1018 \u00b7 1203 \u00b7 1345 \u00b7 SULPIZIO, JOHN# \u00b7 FROMM, CHRISTOPHER# \u00b7 1D1 \u00b7 FAM4703 (86(WU)) \u00b7 1.7",
+        "role": "FAM4703 (86(WU))",
+        "remarks": "",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4501",
+        "start": "1206",
+        "end": "1336",
+        "land": "1336",
+        "brief": "1021",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ZAGARA",
+            "first": "CECILIA",
+            "full": "ZAGARA, CECILIA"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "ZAGARA, CECILIA"
+        ],
+        "page": 3,
+        "line": "27",
+        "raw": "27 \u00b7 1021 \u00b7 1206 \u00b7 1336 \u00b7 ZAGARA, CECILIA# \u00b7 1D1 \u00b7 FAM4501 \u00b7 1.5 \u00b7 SOLO PLACEHOLDER",
+        "role": "FAM4501",
+        "remarks": "SOLO PLACEHOLDER",
+        "duration": "1.5",
+        "device": "",
+        "solo": true
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4501",
+        "start": "1234",
+        "end": "1404",
+        "land": "1404",
+        "brief": "1049",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RILEY",
+            "first": "KATELYNN",
+            "full": "RILEY, KATELYNN"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "RILEY, KATELYNN"
+        ],
+        "page": 3,
+        "line": "28",
+        "raw": "28 \u00b7 1049 \u00b7 1234 \u00b7 1404 \u00b7 RILEY, KATELYNN \u00b7 1D1 \u00b7 FAM4501 \u00b7 1.5 \u00b7 SOLO PLACEHOLDER",
+        "role": "FAM4501",
+        "remarks": "SOLO PLACEHOLDER",
+        "duration": "1.5",
+        "device": "",
+        "solo": true
+      },
+      {
+        "section": "Flight",
+        "code": "CS4290",
+        "start": "1501",
+        "end": "1643",
+        "land": "1643",
+        "brief": "1316",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HATHAWAY",
+            "first": "JASON",
+            "full": "HATHAWAY, JASON"
+          },
+          {
+            "last": "GUARINO",
+            "first": "CHARLES",
+            "full": "GUARINO, CHARLES"
+          }
+        ],
+        "instructors": [
+          "HATHAWAY, JASON"
+        ],
+        "students": [
+          "GUARINO, CHARLES"
+        ],
+        "page": 3,
+        "line": "29",
+        "raw": "29 \u00b7 1316 \u00b7 1501 \u00b7 1643 \u00b7 HATHAWAY, JASON# \u00b7 GUARINO, CHARLES# \u00b7 1D1 \u00b7 CS4290 \u00b7 1.7",
+        "role": "CS4290",
+        "remarks": "",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CS4290",
+        "start": "1504",
+        "end": "1646",
+        "land": "1646",
+        "brief": "1319",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BEAMAN",
+            "first": "KYLE",
+            "full": "BEAMAN, KYLE"
+          },
+          {
+            "last": "WILLIAMS",
+            "first": "TRAVIS",
+            "full": "WILLIAMS, TRAVIS"
+          }
+        ],
+        "instructors": [
+          "BEAMAN, KYLE"
+        ],
+        "students": [
+          "WILLIAMS, TRAVIS"
+        ],
+        "page": 3,
+        "line": "30",
+        "raw": "30 \u00b7 1319 \u00b7 1504 \u00b7 1646 \u00b7 BEAMAN, KYLE# \u00b7 WILLIAMS, TRAVIS# \u00b7 1D1 \u00b7 CS4290 \u00b7 1.7",
+        "role": "CS4290",
+        "remarks": "",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4203",
+        "start": "1518",
+        "end": "1654",
+        "land": "1654",
+        "brief": "1333",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GRUBER",
+            "first": "THOMAS",
+            "full": "GRUBER, THOMAS"
+          },
+          {
+            "last": "HAN",
+            "first": "CRYSTAL",
+            "full": "HAN, CRYSTAL"
+          }
+        ],
+        "instructors": [
+          "GRUBER, THOMAS"
+        ],
+        "students": [
+          "HAN, CRYSTAL"
+        ],
+        "page": 3,
+        "line": "31",
+        "raw": "31 \u00b7 1333 \u00b7 1518 \u00b7 1654 \u00b7 GRUBER, THOMAS# \u00b7 HAN, CRYSTAL# \u00b7 1D2 \u00b7 I4203 \u00b7 1.6",
+        "role": "I4203",
+        "remarks": "",
+        "duration": "1.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4301",
+        "start": "1521",
+        "end": "1703",
+        "land": "1703",
+        "brief": "1336",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SWANN",
+            "first": "MIKAL",
+            "full": "SWANN, MIKAL"
+          },
+          {
+            "last": "WISE",
+            "first": "URSULA",
+            "full": "WISE, URSULA"
+          }
+        ],
+        "instructors": [
+          "SWANN, MIKAL"
+        ],
+        "students": [
+          "WISE, URSULA"
+        ],
+        "page": 3,
+        "line": "32",
+        "raw": "32 \u00b7 1336 \u00b7 1521 \u00b7 1703 \u00b7 SWANN, MIKAL# \u00b7 WISE, URSULA# \u00b7 1D2 \u00b7 I4301 \u00b7 1.7",
+        "role": "I4301",
+        "remarks": "",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4103",
+        "start": "1532",
+        "end": "1708",
+        "land": "1708",
+        "brief": "1347",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SMEDLEY",
+            "first": "GARY",
+            "full": "SMEDLEY, GARY"
+          },
+          {
+            "last": "MURPHY",
+            "first": "RENNY",
+            "full": "MURPHY, RENNY"
+          }
+        ],
+        "instructors": [
+          "SMEDLEY, GARY"
+        ],
+        "students": [
+          "MURPHY, RENNY"
+        ],
+        "page": 3,
+        "line": "33",
+        "raw": "33 \u00b7 1347 \u00b7 1532 \u00b7 1708 \u00b7 SMEDLEY, GARY# \u00b7 MURPHY, RENNY# \u00b7 1D2 \u00b7 I4103 \u00b7 1.6",
+        "role": "I4103",
+        "remarks": "",
+        "duration": "1.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4702 (86(WU))",
+        "start": "1535",
+        "end": "1717",
+        "land": "1717",
+        "brief": "1350",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MASEL",
+            "first": "ANDREW",
+            "full": "MASEL, ANDREW"
+          },
+          {
+            "last": "ECK",
+            "first": "COLBY",
+            "full": "ECK, COLBY"
+          }
+        ],
+        "instructors": [
+          "MASEL, ANDREW"
+        ],
+        "students": [
+          "ECK, COLBY"
+        ],
+        "page": 3,
+        "line": "34",
+        "raw": "34 \u00b7 1350 \u00b7 1535 \u00b7 1717 \u00b7 MASEL, ANDREW# \u00b7 ECK, COLBY# \u00b7 1D1 \u00b7 FAM4702 (86(WU)) \u00b7 1.7",
+        "role": "FAM4702 (86(WU))",
+        "remarks": "",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4101",
+        "start": "1546",
+        "end": "1722",
+        "land": "1722",
+        "brief": "1401",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ANDREASEN",
+            "first": "TREVOR",
+            "full": "ANDREASEN, TREVOR"
+          },
+          {
+            "last": "WHITE",
+            "first": "MATTHEW",
+            "full": "WHITE, MATTHEW"
+          }
+        ],
+        "instructors": [
+          "ANDREASEN, TREVOR"
+        ],
+        "students": [
+          "WHITE, MATTHEW"
+        ],
+        "page": 3,
+        "line": "35",
+        "raw": "35 \u00b7 1401 \u00b7 1546 \u00b7 1722 \u00b7 ANDREASEN, TREVOR# \u00b7 WHITE, MATTHEW \u00b7 1D2 \u00b7 I4101 \u00b7 1.6",
+        "role": "I4101",
+        "remarks": "",
+        "duration": "1.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4104",
+        "start": "1603",
+        "end": "1739",
+        "land": "1739",
+        "brief": "1418",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SULPIZIO",
+            "first": "JOHN",
+            "full": "SULPIZIO, JOHN"
+          },
+          {
+            "last": "GALLAHER",
+            "first": "GARRETT",
+            "full": "GALLAHER, GARRETT"
+          }
+        ],
+        "instructors": [
+          "SULPIZIO, JOHN"
+        ],
+        "students": [
+          "GALLAHER, GARRETT"
+        ],
+        "page": 3,
+        "line": "36",
+        "raw": "36 \u00b7 1418 \u00b7 1603 \u00b7 1739 \u00b7 SULPIZIO, JOHN# \u00b7 GALLAHER, GARRETT Simulator (Sim \u00b7 1D1 Event) Schedule \u00b7 FAM4104 \u00b7 1.6",
+        "role": "FAM4104",
+        "remarks": "",
+        "duration": "1.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "0720",
+        "end": "",
+        "land": "",
+        "brief": "0650",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BIEDERMANN",
+            "first": "KURT",
+            "full": "BIEDERMANN, KURT"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "BIEDERMANN, KURT"
+        ],
+        "page": 3,
+        "line": "1",
+        "raw": "1 \u00b7 0650 \u00b7 0720 \u00b7 UTD 3W \u00b7 BIEDERMANN, KURT",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "UTD 3W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "0720",
+        "end": "",
+        "land": "",
+        "brief": "0650",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BARGREN",
+            "first": "BRADY",
+            "full": "BARGREN, BRADY"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "BARGREN, BRADY"
+        ],
+        "page": 3,
+        "line": "2",
+        "raw": "2 \u00b7 0650 \u00b7 0720 \u00b7 UTD 6W \u00b7 BARGREN, BRADY#",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "UTD 6W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "0720",
+        "end": "",
+        "land": "",
+        "brief": "0650",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALLBERT",
+            "first": "ISSAC",
+            "full": "ALLBERT, ISSAC"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "ALLBERT, ISSAC"
+        ],
+        "page": 4,
+        "line": "3",
+        "raw": "3 \u00b7 0650 \u00b7 0720 \u00b7 OFT 3W \u00b7 ALLBERT, ISSAC",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 3W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "0720",
+        "end": "",
+        "land": "",
+        "brief": "0650",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "4",
+        "raw": "4 \u00b7 0650 \u00b7 0720 \u00b7 OFT 6W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 6W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "0720",
+        "end": "",
+        "land": "",
+        "brief": "0650",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "5",
+        "raw": "5 \u00b7 0650 \u00b7 0720 \u00b7 OFT 9W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 9W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "0840",
+        "end": "",
+        "land": "",
+        "brief": "0810",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "6",
+        "raw": "6 \u00b7 0810 \u00b7 0840 \u00b7 UTD 5W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "UTD 5W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "0840",
+        "end": "",
+        "land": "",
+        "brief": "0810",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HOEGSETH",
+            "first": "VICTOR",
+            "full": "HOEGSETH, VICTOR"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "HOEGSETH, VICTOR"
+        ],
+        "page": 4,
+        "line": "7",
+        "raw": "7 \u00b7 0810 \u00b7 0840 \u00b7 OFT 2W \u00b7 HOEGSETH, VICTOR",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 2W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "0840",
+        "end": "",
+        "land": "",
+        "brief": "0810",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "8",
+        "raw": "8 \u00b7 0810 \u00b7 0840 \u00b7 OFT 5W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 5W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1000",
+        "end": "",
+        "land": "",
+        "brief": "0930",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "9",
+        "raw": "9 \u00b7 0930 \u00b7 1000 \u00b7 UTD 4W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "UTD 4W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1000",
+        "end": "",
+        "land": "",
+        "brief": "0930",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "10",
+        "raw": "10 \u00b7 0930 \u00b7 1000 \u00b7 UTD 7W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "UTD 7W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1000",
+        "end": "",
+        "land": "",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GANUELAS",
+            "first": "NICHOLAS",
+            "full": "GANUELAS, NICHOLAS"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "GANUELAS, NICHOLAS"
+        ],
+        "page": 4,
+        "line": "11",
+        "raw": "11 \u00b7 0930 \u00b7 1000 \u00b7 OFT 1W \u00b7 GANUELAS, NICHOLAS",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 1W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1000",
+        "end": "",
+        "land": "",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ELLSWORTH",
+            "first": "ALEXANDER",
+            "full": "ELLSWORTH, ALEXANDER"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "ELLSWORTH, ALEXANDER"
+        ],
+        "page": 4,
+        "line": "12",
+        "raw": "12 \u00b7 0930 \u00b7 1000 \u00b7 OFT 7W \u00b7 ELLSWORTH, ALEXANDER",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 7W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1120",
+        "end": "",
+        "land": "",
+        "brief": "1050",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "13",
+        "raw": "13 \u00b7 1050 \u00b7 1120 \u00b7 UTD 3W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "UTD 3W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1120",
+        "end": "",
+        "land": "",
+        "brief": "1050",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "14",
+        "raw": "14 \u00b7 1050 \u00b7 1120 \u00b7 UTD 6W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "UTD 6W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1120",
+        "end": "",
+        "land": "",
+        "brief": "1050",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GRIFFIN",
+            "first": "MOLLY",
+            "full": "GRIFFIN, MOLLY"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "GRIFFIN, MOLLY"
+        ],
+        "page": 4,
+        "line": "15",
+        "raw": "15 \u00b7 1050 \u00b7 1120 \u00b7 OFT 3W \u00b7 GRIFFIN, MOLLY",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 3W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1120",
+        "end": "",
+        "land": "",
+        "brief": "1050",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BRIGMAN",
+            "first": "AUSTIN",
+            "full": "BRIGMAN, AUSTIN"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "BRIGMAN, AUSTIN"
+        ],
+        "page": 4,
+        "line": "16",
+        "raw": "16 \u00b7 1050 \u00b7 1120 \u00b7 OFT 6W \u00b7 BRIGMAN, AUSTIN",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 6W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1240",
+        "end": "",
+        "land": "",
+        "brief": "1210",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "17",
+        "raw": "17 \u00b7 1210 \u00b7 1240 \u00b7 UTD 5W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "UTD 5W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1240",
+        "end": "",
+        "land": "",
+        "brief": "1210",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MEYERS",
+            "first": "WESTON",
+            "full": "MEYERS, WESTON"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MEYERS, WESTON"
+        ],
+        "page": 4,
+        "line": "18",
+        "raw": "18 \u00b7 1210 \u00b7 1240 \u00b7 OFT 2W \u00b7 MEYERS, WESTON",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 2W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1240",
+        "end": "",
+        "land": "",
+        "brief": "1210",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "19",
+        "raw": "19 \u00b7 1210 \u00b7 1240 \u00b7 OFT 5W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 5W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1240",
+        "end": "",
+        "land": "",
+        "brief": "1210",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "20",
+        "raw": "20 \u00b7 1210 \u00b7 1240 \u00b7 OFT 8W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 8W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "1330",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "21",
+        "raw": "21 \u00b7 1330 \u00b7 1400 \u00b7 UTD 4W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "UTD 4W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "1330",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "22",
+        "raw": "22 \u00b7 1330 \u00b7 1400 \u00b7 UTD 7W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "UTD 7W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAMMON",
+            "first": "CALEB",
+            "full": "HAMMON, CALEB"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "HAMMON, CALEB"
+        ],
+        "page": 4,
+        "line": "23",
+        "raw": "23 \u00b7 1330 \u00b7 1400 \u00b7 OFT 1W \u00b7 HAMMON, CALEB#",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 1W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "1330",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "24",
+        "raw": "24 \u00b7 1330 \u00b7 1400 \u00b7 OFT 4W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 4W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DONALDSON",
+            "first": "MICAH",
+            "full": "DONALDSON, MICAH"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "DONALDSON, MICAH"
+        ],
+        "page": 4,
+        "line": "25",
+        "raw": "25 \u00b7 1330 \u00b7 1400 \u00b7 OFT 7W \u00b7 DONALDSON, MICAH",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 7W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1520",
+        "end": "",
+        "land": "",
+        "brief": "1450",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "26",
+        "raw": "26 \u00b7 1450 \u00b7 1520 \u00b7 UTD 3W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "UTD 3W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1520",
+        "end": "",
+        "land": "",
+        "brief": "1450",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "27",
+        "raw": "27 \u00b7 1450 \u00b7 1520 \u00b7 UTD 6W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "UTD 6W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1520",
+        "end": "",
+        "land": "",
+        "brief": "1450",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "28",
+        "raw": "28 \u00b7 1450 \u00b7 1520 \u00b7 OFT 3W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 3W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1520",
+        "end": "",
+        "land": "",
+        "brief": "1450",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "29",
+        "raw": "29 \u00b7 1450 \u00b7 1520 \u00b7 OFT 6W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 6W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1520",
+        "end": "",
+        "land": "",
+        "brief": "1450",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "30",
+        "raw": "30 \u00b7 1450 \u00b7 1520 \u00b7 OFT 9W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 9W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1640",
+        "end": "",
+        "land": "",
+        "brief": "1610",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "31",
+        "raw": "31 \u00b7 1610 \u00b7 1640 \u00b7 UTD 5W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "UTD 5W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1640",
+        "end": "",
+        "land": "",
+        "brief": "1610",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ARNY",
+            "first": "ISAAC",
+            "full": "ARNY, ISAAC"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "ARNY, ISAAC"
+        ],
+        "page": 4,
+        "line": "32",
+        "raw": "32 \u00b7 1610 \u00b7 1640 \u00b7 OFT 2W \u00b7 ARNY, ISAAC",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 2W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1640",
+        "end": "",
+        "land": "",
+        "brief": "1610",
+        "formation": "",
+        "crew": [
+          {
+            "last": "YOHANNAN",
+            "first": "BRYAN",
+            "full": "YOHANNAN, BRYAN"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "YOHANNAN, BRYAN"
+        ],
+        "page": 4,
+        "line": "33",
+        "raw": "33 \u00b7 1610 \u00b7 1640 \u00b7 OFT 5W \u00b7 YOHANNAN, BRYAN",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 5W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Simulator",
+        "start": "1640",
+        "end": "",
+        "land": "",
+        "brief": "1610",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 4,
+        "line": "34",
+        "raw": "34 \u00b7 1610 \u00b7 1640 \u00b7 OFT 8W",
+        "role": "Simulator",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 8W",
+        "solo": false
+      }
+    ]
+  }
 }

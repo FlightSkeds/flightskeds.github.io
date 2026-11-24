@@ -477,5 +477,524 @@
       "line_number": 30,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "TAC LEAD",
+        "start": "1300",
+        "end": "1412",
+        "land": "1412",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LOWERY",
+            "first": "",
+            "full": "LOWERY"
+          }
+        ],
+        "instructors": [
+          "LOWERY"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "981",
+        "raw": "981 \u00b7 1130 \u00b7 1300 \u00b7 1412 \u00b7 CDR LOWERY \u00b7 TAC LEAD \u00b7 1.2 \u00b7 O/I",
+        "role": "TAC LEAD",
+        "remarks": "O/I",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC44S1",
+        "start": "1300",
+        "end": "1406",
+        "land": "1406",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HARRIS",
+            "first": "",
+            "full": "HARRIS"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "HARRIS"
+        ],
+        "page": 2,
+        "line": "982",
+        "raw": "982 \u00b7 1130 \u00b7 1300 \u00b7 1406 \u00b7 LTJG HARRIS \u00b7 TAC44S1 \u00b7 1.1 \u00b7 O/I",
+        "role": "TAC44S1",
+        "remarks": "O/I",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4501",
+        "start": "1315",
+        "end": "1427",
+        "land": "1427",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TOPPING",
+            "first": "",
+            "full": "TOPPING"
+          },
+          {
+            "last": "PARKER",
+            "first": "",
+            "full": "PARKER"
+          }
+        ],
+        "instructors": [
+          "TOPPING"
+        ],
+        "students": [
+          "PARKER"
+        ],
+        "page": 2,
+        "line": "976",
+        "raw": "976 \u00b7 1130 \u00b7 1315 \u00b7 1427 \u00b7 CIV TOPPING \u00b7 LTJG PARKER \u00b7 TR4501 \u00b7 1.2 \u00b7 O/I",
+        "role": "TR4501",
+        "remarks": "O/I",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S03",
+        "start": "1415",
+        "end": "1451",
+        "land": "1451",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MASON",
+            "first": "",
+            "full": "MASON"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MASON"
+        ],
+        "page": 2,
+        "line": "966",
+        "raw": "966 \u00b7 1230 \u00b7 1415 \u00b7 1451 \u00b7 LTJG MASON \u00b7 CQ4S03 \u00b7 0.6 \u00b7 CS/SD; NMM; SEE NOTE 1",
+        "role": "CQ4S03",
+        "remarks": "CS/SD; NMM; SEE NOTE 1",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S03",
+        "start": "1415",
+        "end": "1451",
+        "land": "1451",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SAUNDERS",
+            "first": "",
+            "full": "SAUNDERS"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "SAUNDERS"
+        ],
+        "page": 2,
+        "line": "967",
+        "raw": "967 \u00b7 1230 \u00b7 1415 \u00b7 1451 \u00b7 1stLt SAUNDERS \u00b7 CQ4S03 \u00b7 0.6 \u00b7 CS/SD; NMM; SEE NOTE 1",
+        "role": "CQ4S03",
+        "remarks": "CS/SD; NMM; SEE NOTE 1",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S03",
+        "start": "1415",
+        "end": "1451",
+        "land": "1451",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ZUZELSKI",
+            "first": "",
+            "full": "ZUZELSKI"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "ZUZELSKI"
+        ],
+        "page": 2,
+        "line": "968",
+        "raw": "968 \u00b7 1230 \u00b7 1415 \u00b7 1451 \u00b7 1stLt ZUZELSKI \u00b7 CQ4S03 \u00b7 0.6 \u00b7 CS/SD; NMM; SEE NOTE 1",
+        "role": "CQ4S03",
+        "remarks": "CS/SD; NMM; SEE NOTE 1",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S03",
+        "start": "1415",
+        "end": "1451",
+        "land": "1451",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FREISCHLAG",
+            "first": "",
+            "full": "FREISCHLAG"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "FREISCHLAG"
+        ],
+        "page": 2,
+        "line": "969",
+        "raw": "969 \u00b7 1230 \u00b7 1415 \u00b7 1451 \u00b7 LT FREISCHLAG \u00b7 CQ4S03 \u00b7 0.6 \u00b7 CS/SD; NMM; SEE NOTE 1",
+        "role": "CQ4S03",
+        "remarks": "CS/SD; NMM; SEE NOTE 1",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S03",
+        "start": "1445",
+        "end": "1521",
+        "land": "1521",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "COOK",
+            "first": "",
+            "full": "COOK"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "COOK"
+        ],
+        "page": 2,
+        "line": "972",
+        "raw": "972 \u00b7 1300 \u00b7 1445 \u00b7 1521 \u00b7 LTJG COOK \u00b7 CQ4S03 \u00b7 0.6 \u00b7 CS/SD; NMM; SEE NOTE 1",
+        "role": "CQ4S03",
+        "remarks": "CS/SD; NMM; SEE NOTE 1",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S03",
+        "start": "1445",
+        "end": "1521",
+        "land": "1521",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DATTOMO",
+            "first": "",
+            "full": "DATTOMO"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "DATTOMO"
+        ],
+        "page": 2,
+        "line": "973",
+        "raw": "973 \u00b7 1300 \u00b7 1445 \u00b7 1521 \u00b7 LTJG DATTOMO \u00b7 CQ4S03 \u00b7 0.6 \u00b7 CS/SD; NMM; SEE NOTE 1",
+        "role": "CQ4S03",
+        "remarks": "CS/SD; NMM; SEE NOTE 1",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S03",
+        "start": "1445",
+        "end": "1521",
+        "land": "1521",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MUCARIA",
+            "first": "",
+            "full": "MUCARIA"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MUCARIA"
+        ],
+        "page": 2,
+        "line": "974",
+        "raw": "974 \u00b7 1300 \u00b7 1445 \u00b7 1521 \u00b7 Capt MUCARIA \u00b7 CQ4S03 \u00b7 0.6 \u00b7 CS/SD; NMM; SEE NOTE 1",
+        "role": "CQ4S03",
+        "remarks": "CS/SD; NMM; SEE NOTE 1",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S03",
+        "start": "1445",
+        "end": "1521",
+        "land": "1521",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WILLIAMS",
+            "first": "",
+            "full": "WILLIAMS"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "WILLIAMS"
+        ],
+        "page": 2,
+        "line": "975",
+        "raw": "975 \u00b7 1300 \u00b7 1445 \u00b7 1521 \u00b7 LTJG WILLIAMS \u00b7 CQ4S03 \u00b7 0.6 \u00b7 CS/SD; NMM; SEE NOTE 1",
+        "role": "CQ4S03",
+        "remarks": "CS/SD; NMM; SEE NOTE 1",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S03",
+        "start": "1515",
+        "end": "1551",
+        "land": "1551",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WISEMAN",
+            "first": "",
+            "full": "WISEMAN"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "WISEMAN"
+        ],
+        "page": 2,
+        "line": "977",
+        "raw": "977 \u00b7 1330 \u00b7 1515 \u00b7 1551 \u00b7 LTJG WISEMAN \u00b7 CQ4S03 \u00b7 0.6 \u00b7 CS/SD; NMM; SEE NOTE 1",
+        "role": "CQ4S03",
+        "remarks": "CS/SD; NMM; SEE NOTE 1",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S03",
+        "start": "1515",
+        "end": "1551",
+        "land": "1551",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GREGOR",
+            "first": "",
+            "full": "GREGOR"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "GREGOR"
+        ],
+        "page": 2,
+        "line": "978",
+        "raw": "978 \u00b7 1330 \u00b7 1515 \u00b7 1551 \u00b7 LTJG GREGOR \u00b7 CQ4S03 \u00b7 0.6 \u00b7 CS/SD; NMM; SEE NOTE 1",
+        "role": "CQ4S03",
+        "remarks": "CS/SD; NMM; SEE NOTE 1",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S03",
+        "start": "1515",
+        "end": "1551",
+        "land": "1551",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DROW",
+            "first": "",
+            "full": "DROW"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "DROW"
+        ],
+        "page": 2,
+        "line": "979",
+        "raw": "979 \u00b7 1330 \u00b7 1515 \u00b7 1551 \u00b7 LTJG DROW \u00b7 CQ4S03 \u00b7 0.6 \u00b7 CS/SD; NMM; SEE NOTE 1",
+        "role": "CQ4S03",
+        "remarks": "CS/SD; NMM; SEE NOTE 1",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CQ4S03",
+        "start": "1515",
+        "end": "1551",
+        "land": "1551",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "POFFENBERGER",
+            "first": "",
+            "full": "POFFENBERGER"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "POFFENBERGER"
+        ],
+        "page": 2,
+        "line": "980",
+        "raw": "980 \u00b7 1330 \u00b7 1515 \u00b7 1551 \u00b7 LTJG POFFENBERGER \u00b7 CQ4S03 \u00b7 0.6 \u00b7 CS/SD; NMM; SEE NOTE 1",
+        "role": "CQ4S03",
+        "remarks": "CS/SD; NMM; SEE NOTE 1",
+        "duration": "0.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC LEAD",
+        "start": "1530",
+        "end": "1642",
+        "land": "1642",
+        "brief": "1400",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LOWERY",
+            "first": "",
+            "full": "LOWERY"
+          }
+        ],
+        "instructors": [
+          "LOWERY"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "1002",
+        "raw": "1002 \u00b7 1400 \u00b7 1530 \u00b7 1642 \u00b7 CDR LOWERY \u00b7 TAC LEAD \u00b7 1.2 \u00b7 RTB",
+        "role": "TAC LEAD",
+        "remarks": "RTB",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC44S2",
+        "start": "1530",
+        "end": "1636",
+        "land": "1636",
+        "brief": "1400",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HARRIS",
+            "first": "",
+            "full": "HARRIS"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "HARRIS"
+        ],
+        "page": 2,
+        "line": "1003",
+        "raw": "1003 \u00b7 1400 \u00b7 1530 \u00b7 1636 \u00b7 LTJG HARRIS \u00b7 TAC44S2 \u00b7 1.1 \u00b7 RTB",
+        "role": "TAC44S2",
+        "remarks": "RTB",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4502",
+        "start": "1545",
+        "end": "1657",
+        "land": "1657",
+        "brief": "1400",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TOPPING SIMULATOR",
+            "first": "",
+            "full": "TOPPING SIMULATOR"
+          }
+        ],
+        "instructors": [
+          "TOPPING SIMULATOR"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "1001",
+        "raw": "1001 \u00b7 1400 \u00b7 1545 \u00b7 1657 \u00b7 CIV TOPPING Simulator \u00b7 LTJG PARKER (Sim Event) Schedule \u00b7 TR4502 \u00b7 1.2 \u00b7 RTB",
+        "role": "TR4502",
+        "remarks": "RTB",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

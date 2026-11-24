@@ -362,5 +362,312 @@
       "line_number": 35,
       "text": "0900-1000 FITC 3 TUCKER, CHRISTOPHER S, LCDR NIGUS, CHRISTOPHER A, CDR Wing BLDG, RM 210"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "IR4101",
+        "start": "1030",
+        "end": "1200",
+        "land": "1200",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DOWD",
+            "first": "CODY",
+            "full": "DOWD, CODY"
+          },
+          {
+            "last": "WATERMAN",
+            "first": "RYAN",
+            "full": "WATERMAN, RYAN"
+          }
+        ],
+        "instructors": [
+          "DOWD, CODY"
+        ],
+        "students": [
+          "WATERMAN, RYAN"
+        ],
+        "page": 1,
+        "line": "1",
+        "raw": "1 \u00b7 0900 \u00b7 1030 \u00b7 1200 \u00b7 DOWD, CODY A, CTR# \u00b7 WATERMAN, RYAN R, Capt# \u00b7 IR4101 \u00b7 1.5/0.0 \u00b7 O/I",
+        "role": "IR4101",
+        "remarks": "O/I",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4102",
+        "start": "1330",
+        "end": "1500",
+        "land": "1500",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DOWD",
+            "first": "CODY",
+            "full": "DOWD, CODY"
+          },
+          {
+            "last": "WATERMAN",
+            "first": "RYAN",
+            "full": "WATERMAN, RYAN"
+          }
+        ],
+        "instructors": [
+          "DOWD, CODY"
+        ],
+        "students": [
+          "WATERMAN, RYAN"
+        ],
+        "page": 1,
+        "line": "2",
+        "raw": "2 \u00b7 1200 \u00b7 1330 \u00b7 1500 \u00b7 DOWD, CODY A, CTR# \u00b7 WATERMAN, RYAN R, Capt# \u00b7 IR4102 \u00b7 1.5/0.0 \u00b7 NJR",
+        "role": "IR4102",
+        "remarks": "NJR",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4103",
+        "start": "1415",
+        "end": "1527",
+        "land": "1527",
+        "brief": "1245",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HUIZAR JR",
+            "first": "HECTOR",
+            "full": "HUIZAR JR, HECTOR"
+          },
+          {
+            "last": "AIKEN",
+            "first": "CHRISTOPHER",
+            "full": "AIKEN, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "HUIZAR JR, HECTOR"
+        ],
+        "students": [
+          "AIKEN, CHRISTOPHER"
+        ],
+        "page": 1,
+        "line": "3",
+        "raw": "3 \u00b7 1245 \u00b7 1415 \u00b7 1527 \u00b7 HUIZAR JR, HECTOR S, CTR# \u00b7 AIKEN, CHRISTOPHER R, LCDR \u00b7 TR4103 \u00b7 1.2/0.0 \u00b7 RC",
+        "role": "TR4103",
+        "remarks": "RC",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4401",
+        "start": "1815",
+        "end": "1927",
+        "land": "1927",
+        "brief": "1645",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HUIZAR JR",
+            "first": "HECTOR",
+            "full": "HUIZAR JR, HECTOR"
+          },
+          {
+            "last": "SHARP",
+            "first": "BLAKE",
+            "full": "SHARP, BLAKE"
+          }
+        ],
+        "instructors": [
+          "HUIZAR JR, HECTOR"
+        ],
+        "students": [
+          "SHARP, BLAKE"
+        ],
+        "page": 1,
+        "line": "4",
+        "raw": "4 \u00b7 1645 \u00b7 1815 \u00b7 1927 \u00b7 HUIZAR JR, HECTOR S, CTR# Simulator \u00b7 (Sim Event) \u00b7 SHARP, BLAKE R, LT# Schedule \u00b7 NA4401 \u00b7 1.2/0.0",
+        "role": "NA4401",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NA3401",
+        "start": "1100",
+        "end": "",
+        "land": "",
+        "brief": "1030",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RADABAUGH",
+            "first": "JASON",
+            "full": "RADABAUGH, JASON"
+          },
+          {
+            "last": "HARRISON",
+            "first": "BENJAMIN",
+            "full": "HARRISON, BENJAMIN"
+          }
+        ],
+        "instructors": [
+          "RADABAUGH, JASON"
+        ],
+        "students": [
+          "HARRISON, BENJAMIN"
+        ],
+        "page": 1,
+        "line": "1",
+        "raw": "1 \u00b7 1030 \u00b7 1100 \u00b7 503 \u00b7 RADABAUGH, JASON C, CTR \u00b7 HARRISON, BENJAMIN S, LCDR \u00b7 NA3401",
+        "role": "NA3401",
+        "remarks": "",
+        "duration": "",
+        "device": "503",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TURN QUAL",
+        "start": "1230",
+        "end": "",
+        "land": "",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NIGUS",
+            "first": "CHRISTOPHER",
+            "full": "NIGUS, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "NIGUS, CHRISTOPHER"
+        ],
+        "students": [],
+        "page": 1,
+        "line": "2",
+        "raw": "2 \u00b7 1200 \u00b7 1230 \u00b7 503 \u00b7 NIGUS, CHRISTOPHER A, CDR# \u00b7 TURN QUAL",
+        "role": "TURN QUAL",
+        "remarks": "",
+        "duration": "",
+        "device": "503",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NA3590",
+        "start": "1330",
+        "end": "",
+        "land": "",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KILMER",
+            "first": "JUSTIN",
+            "full": "KILMER, JUSTIN"
+          },
+          {
+            "last": "SHARP",
+            "first": "BLAKE",
+            "full": "SHARP, BLAKE"
+          }
+        ],
+        "instructors": [
+          "KILMER, JUSTIN"
+        ],
+        "students": [
+          "SHARP, BLAKE"
+        ],
+        "page": 1,
+        "line": "3",
+        "raw": "3 \u00b7 1300 \u00b7 1330 \u00b7 501 \u00b7 KILMER, JUSTIN L, CTR \u00b7 SHARP, BLAKE R, LT# \u00b7 NA3590",
+        "role": "NA3590",
+        "remarks": "",
+        "duration": "",
+        "device": "501",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TURN QUAL",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NIGUS",
+            "first": "CHRISTOPHER",
+            "full": "NIGUS, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "NIGUS, CHRISTOPHER"
+        ],
+        "students": [],
+        "page": 1,
+        "line": "4",
+        "raw": "4 \u00b7 1330 \u00b7 1400 \u00b7 503 \u00b7 NIGUS, CHRISTOPHER A, CDR# \u00b7 Ground Events \u00b7 TURN QUAL",
+        "role": "TURN QUAL",
+        "remarks": "",
+        "duration": "",
+        "device": "503",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "FITC 3",
+        "start": "0900",
+        "end": "1000",
+        "land": "1000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TUCKER",
+            "first": "CHRISTOPHER",
+            "full": "TUCKER, CHRISTOPHER"
+          },
+          {
+            "last": "NIGUS",
+            "first": "CHRISTOPHER",
+            "full": "NIGUS, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "NIGUS, CHRISTOPHER"
+        ],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "0900-1000 \u00b7 FITC 3 \u00b7 TUCKER, CHRISTOPHER S, LCDR \u00b7 NIGUS, CHRISTOPHER A, CDR \u00b7 Wing BLDG, RM 210",
+        "role": "FITC 3",
+        "remarks": "Wing BLDG, RM 210",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

@@ -534,5 +534,573 @@
       "line_number": 26,
       "text": "No Ground Event Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Simulator",
+        "code": "FRM3103",
+        "start": "0600",
+        "end": "",
+        "land": "",
+        "brief": "0530",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GRANZELLA",
+            "first": "J",
+            "full": "GRANZELLA, J"
+          },
+          {
+            "last": "BECHLER",
+            "first": "A",
+            "full": "BECHLER, A"
+          }
+        ],
+        "instructors": [
+          "GRANZELLA, J"
+        ],
+        "students": [
+          "BECHLER, A"
+        ],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0530 \u00b7 0600 \u00b7 501 \u00b7 Maj GRANZELLA J \u00b7 LTJG BECHLER A \u00b7 FRM3103",
+        "role": "FRM3103",
+        "remarks": "",
+        "duration": "",
+        "device": "501",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FRM3103",
+        "start": "0630",
+        "end": "",
+        "land": "",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KILMER",
+            "first": "J",
+            "full": "KILMER, J"
+          },
+          {
+            "last": "GRANT",
+            "first": "N",
+            "full": "GRANT, N"
+          }
+        ],
+        "instructors": [
+          "KILMER, J"
+        ],
+        "students": [
+          "GRANT, N"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0600 \u00b7 0630 \u00b7 505 \u00b7 CTR KILMER J \u00b7 LTJG GRANT N \u00b7 FRM3103",
+        "role": "FRM3103",
+        "remarks": "",
+        "duration": "",
+        "device": "505",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "IR3303",
+        "start": "0700",
+        "end": "",
+        "land": "",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MUSCAT",
+            "first": "J",
+            "full": "MUSCAT, J"
+          },
+          {
+            "last": "HURLEY",
+            "first": "D",
+            "full": "HURLEY, D"
+          }
+        ],
+        "instructors": [
+          "MUSCAT, J"
+        ],
+        "students": [
+          "HURLEY, D"
+        ],
+        "page": 2,
+        "line": "3",
+        "raw": "3 \u00b7 0630 \u00b7 0700 \u00b7 502 \u00b7 CTR MUSCAT J \u00b7 LTJG HURLEY D \u00b7 IR3303",
+        "role": "IR3303",
+        "remarks": "",
+        "duration": "",
+        "device": "502",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR2101",
+        "start": "0730",
+        "end": "",
+        "land": "",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ADAMS",
+            "first": "C",
+            "full": "ADAMS, C"
+          },
+          {
+            "last": "MARTIN",
+            "first": "J",
+            "full": "MARTIN, J"
+          }
+        ],
+        "instructors": [
+          "ADAMS, C"
+        ],
+        "students": [
+          "MARTIN, J"
+        ],
+        "page": 2,
+        "line": "4",
+        "raw": "4 \u00b7 0700 \u00b7 0730 \u00b7 506 \u00b7 CTR ADAMS C \u00b7 LTJG MARTIN J \u00b7 TR2101",
+        "role": "TR2101",
+        "remarks": "",
+        "duration": "",
+        "device": "506",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FRM6101",
+        "start": "0830",
+        "end": "",
+        "land": "",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STROTHER",
+            "first": "H",
+            "full": "STROTHER, H"
+          },
+          {
+            "last": "BUSICK",
+            "first": "J",
+            "full": "BUSICK, J"
+          }
+        ],
+        "instructors": [
+          "STROTHER, H"
+        ],
+        "students": [
+          "BUSICK, J"
+        ],
+        "page": 2,
+        "line": "5",
+        "raw": "5 \u00b7 0800 \u00b7 0830 \u00b7 MR-11K \u00b7 CTR STROTHER H \u00b7 ENS BUSICK J \u00b7 FRM6101",
+        "role": "FRM6101",
+        "remarks": "",
+        "duration": "",
+        "device": "MR-11K",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FRM6101",
+        "start": "0900",
+        "end": "",
+        "land": "",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KILMER",
+            "first": "J",
+            "full": "KILMER, J"
+          },
+          {
+            "last": "BECHLER",
+            "first": "A",
+            "full": "BECHLER, A"
+          }
+        ],
+        "instructors": [
+          "KILMER, J"
+        ],
+        "students": [
+          "BECHLER, A"
+        ],
+        "page": 2,
+        "line": "6",
+        "raw": "6 \u00b7 0830 \u00b7 0900 \u00b7 ITD-3K \u00b7 CTR KILMER J \u00b7 LTJG BECHLER A \u00b7 FRM6101",
+        "role": "FRM6101",
+        "remarks": "",
+        "duration": "",
+        "device": "ITD-3K",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR2201",
+        "start": "0900",
+        "end": "",
+        "land": "",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FORD",
+            "first": "D",
+            "full": "FORD, D"
+          },
+          {
+            "last": "ROBERTS",
+            "first": "L",
+            "full": "ROBERTS, L"
+          }
+        ],
+        "instructors": [
+          "FORD, D"
+        ],
+        "students": [
+          "ROBERTS, L"
+        ],
+        "page": 2,
+        "line": "7",
+        "raw": "7 \u00b7 0830 \u00b7 0900 \u00b7 501 \u00b7 CTR FORD D \u00b7 ENS ROBERTS L \u00b7 TR2201",
+        "role": "TR2201",
+        "remarks": "",
+        "duration": "",
+        "device": "501",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR2102",
+        "start": "0930",
+        "end": "",
+        "land": "",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MUSCAT",
+            "first": "J",
+            "full": "MUSCAT, J"
+          },
+          {
+            "last": "VODICKA",
+            "first": "C",
+            "full": "VODICKA, C"
+          }
+        ],
+        "instructors": [
+          "MUSCAT, J"
+        ],
+        "students": [
+          "VODICKA, C"
+        ],
+        "page": 2,
+        "line": "8",
+        "raw": "8 \u00b7 0900 \u00b7 0930 \u00b7 505 \u00b7 CTR MUSCAT J \u00b7 LTJG VODICKA C \u00b7 TR2102",
+        "role": "TR2102",
+        "remarks": "",
+        "duration": "",
+        "device": "505",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FRM6101",
+        "start": "0930",
+        "end": "",
+        "land": "",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JENSEN",
+            "first": "K",
+            "full": "JENSEN, K"
+          },
+          {
+            "last": "GRANT",
+            "first": "N",
+            "full": "GRANT, N"
+          }
+        ],
+        "instructors": [
+          "JENSEN, K"
+        ],
+        "students": [
+          "GRANT, N"
+        ],
+        "page": 2,
+        "line": "9",
+        "raw": "9 \u00b7 0900 \u00b7 0930 \u00b7 MR-7K \u00b7 CTR JENSEN K \u00b7 LTJG GRANT N \u00b7 FRM6101",
+        "role": "FRM6101",
+        "remarks": "",
+        "duration": "",
+        "device": "MR-7K",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR3403 (86(WU))",
+        "start": "1000",
+        "end": "",
+        "land": "",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ADAMS",
+            "first": "C",
+            "full": "ADAMS, C"
+          },
+          {
+            "last": "ANSPACH",
+            "first": "C",
+            "full": "ANSPACH, C"
+          }
+        ],
+        "instructors": [
+          "ADAMS, C"
+        ],
+        "students": [
+          "ANSPACH, C"
+        ],
+        "page": 2,
+        "line": "10",
+        "raw": "10 \u00b7 0930 \u00b7 1000 \u00b7 502 \u00b7 CTR ADAMS C \u00b7 1stLt ANSPACH C \u00b7 TR3403 (86(WU))",
+        "role": "TR3403 (86(WU))",
+        "remarks": "",
+        "duration": "",
+        "device": "502",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "IR3490",
+        "start": "1030",
+        "end": "",
+        "land": "",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STROTHER",
+            "first": "H",
+            "full": "STROTHER, H"
+          },
+          {
+            "last": "HURLEY",
+            "first": "D",
+            "full": "HURLEY, D"
+          }
+        ],
+        "instructors": [
+          "STROTHER, H"
+        ],
+        "students": [
+          "HURLEY, D"
+        ],
+        "page": 2,
+        "line": "11",
+        "raw": "11 \u00b7 1000 \u00b7 1030 \u00b7 506 \u00b7 CTR STROTHER H \u00b7 LTJG HURLEY D \u00b7 IR3490",
+        "role": "IR3490",
+        "remarks": "",
+        "duration": "",
+        "device": "506",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR2102",
+        "start": "1100",
+        "end": "",
+        "land": "",
+        "brief": "1030",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BELAU",
+            "first": "K",
+            "full": "BELAU, K"
+          },
+          {
+            "last": "MARTIN",
+            "first": "J",
+            "full": "MARTIN, J"
+          }
+        ],
+        "instructors": [
+          "BELAU, K"
+        ],
+        "students": [
+          "MARTIN, J"
+        ],
+        "page": 2,
+        "line": "12",
+        "raw": "12 \u00b7 1030 \u00b7 1100 \u00b7 503 \u00b7 CTR BELAU K \u00b7 LTJG MARTIN J \u00b7 TR2102",
+        "role": "TR2102",
+        "remarks": "",
+        "duration": "",
+        "device": "503",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FRM6102",
+        "start": "1100",
+        "end": "",
+        "land": "",
+        "brief": "1030",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KILMER",
+            "first": "J",
+            "full": "KILMER, J"
+          },
+          {
+            "last": "BUSICK",
+            "first": "J",
+            "full": "BUSICK, J"
+          }
+        ],
+        "instructors": [
+          "KILMER, J"
+        ],
+        "students": [
+          "BUSICK, J"
+        ],
+        "page": 2,
+        "line": "13",
+        "raw": "13 \u00b7 1030 \u00b7 1100 \u00b7 MR-3K \u00b7 CTR KILMER J \u00b7 ENS BUSICK J \u00b7 FRM6102",
+        "role": "FRM6102",
+        "remarks": "",
+        "duration": "",
+        "device": "MR-3K",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FRM6102",
+        "start": "1130",
+        "end": "",
+        "land": "",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JENSEN",
+            "first": "K",
+            "full": "JENSEN, K"
+          },
+          {
+            "last": "BECHLER",
+            "first": "A",
+            "full": "BECHLER, A"
+          }
+        ],
+        "instructors": [
+          "JENSEN, K"
+        ],
+        "students": [
+          "BECHLER, A"
+        ],
+        "page": 2,
+        "line": "14",
+        "raw": "14 \u00b7 1100 \u00b7 1130 \u00b7 MR-7K \u00b7 CTR JENSEN K \u00b7 LTJG BECHLER A \u00b7 FRM6102",
+        "role": "FRM6102",
+        "remarks": "",
+        "duration": "",
+        "device": "MR-7K",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FRM6102",
+        "start": "1200",
+        "end": "",
+        "land": "",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MUSCAT",
+            "first": "A",
+            "full": "MUSCAT, A"
+          },
+          {
+            "last": "GRANT",
+            "first": "N",
+            "full": "GRANT, N"
+          }
+        ],
+        "instructors": [
+          "MUSCAT, A"
+        ],
+        "students": [
+          "GRANT, N"
+        ],
+        "page": 2,
+        "line": "15",
+        "raw": "15 \u00b7 1130 \u00b7 1200 \u00b7 MR-11K \u00b7 ENS MUSCAT A \u00b7 LTJG GRANT N \u00b7 FRM6102",
+        "role": "FRM6102",
+        "remarks": "",
+        "duration": "",
+        "device": "MR-11K",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "FRM2101",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JENSEN",
+            "first": "K",
+            "full": "JENSEN, K"
+          },
+          {
+            "last": "BUSICK J GROUND EVENTS",
+            "first": "",
+            "full": "BUSICK J GROUND EVENTS"
+          }
+        ],
+        "instructors": [
+          "JENSEN, K"
+        ],
+        "students": [
+          "BUSICK J GROUND EVENTS"
+        ],
+        "page": 2,
+        "line": "16",
+        "raw": "16 \u00b7 1330 \u00b7 1400 \u00b7 503 \u00b7 CTR JENSEN K \u00b7 ENS BUSICK J Ground Events \u00b7 FRM2101",
+        "role": "FRM2101",
+        "remarks": "",
+        "duration": "",
+        "device": "503",
+        "solo": false
+      }
+    ]
+  }
 }

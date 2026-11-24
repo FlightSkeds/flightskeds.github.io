@@ -198,5 +198,188 @@
       "line_number": 22,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "C4490",
+        "start": "1100",
+        "end": "1236",
+        "land": "1236",
+        "brief": "0915",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAWTHORNE",
+            "first": "PHILIP",
+            "full": "HAWTHORNE, PHILIP"
+          },
+          {
+            "last": "CARROLL",
+            "first": "SEAN",
+            "full": "CARROLL, SEAN"
+          }
+        ],
+        "instructors": [
+          "HAWTHORNE, PHILIP"
+        ],
+        "students": [
+          "CARROLL, SEAN"
+        ],
+        "page": 1,
+        "line": "1",
+        "raw": "1 \u00b7 A03 (F) 2 \u00b7 0915 \u00b7 1100 \u00b7 1236 \u00b7 Hawthorne, Philip# \u00b7 Carroll, Sean# \u00b7 C4490 \u00b7 1.6/0.0 \u00b7 T-6 ToT // Launch KNGP",
+        "role": "C4490",
+        "remarks": "T-6 ToT // Launch KNGP",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4104",
+        "start": "1115",
+        "end": "1251",
+        "land": "1251",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FENDL",
+            "first": "MATTHEW",
+            "full": "FENDL, MATTHEW"
+          },
+          {
+            "last": "MELTON",
+            "first": "CHRISTOPHER",
+            "full": "MELTON, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "FENDL, MATTHEW"
+        ],
+        "students": [
+          "MELTON, CHRISTOPHER"
+        ],
+        "page": 1,
+        "line": "2",
+        "raw": "2 \u00b7 A08 (F) 2 \u00b7 0930 \u00b7 1115 \u00b7 1251 \u00b7 Fendl, Matthew# \u00b7 Melton, Christopher# \u00b7 I4104 \u00b7 1.6/0.0 \u00b7 T-6 O/I",
+        "role": "I4104",
+        "remarks": "T-6 O/I",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "N4101",
+        "start": "1500",
+        "end": "1636",
+        "land": "1636",
+        "brief": "1315",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAWTHORNE",
+            "first": "PHILIP",
+            "full": "HAWTHORNE, PHILIP"
+          },
+          {
+            "last": "CARROLL",
+            "first": "SEAN",
+            "full": "CARROLL, SEAN"
+          }
+        ],
+        "instructors": [
+          "HAWTHORNE, PHILIP"
+        ],
+        "students": [
+          "CARROLL, SEAN"
+        ],
+        "page": 1,
+        "line": "3",
+        "raw": "3 \u00b7 A03 (F) 3 \u00b7 1315 \u00b7 1500 \u00b7 1636 \u00b7 Hawthorne, Philip# \u00b7 Carroll, Sean# \u00b7 N4101 \u00b7 1.6/0.0 \u00b7 T-6 ToT",
+        "role": "N4101",
+        "remarks": "T-6 ToT",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4105",
+        "start": "1515",
+        "end": "1651",
+        "land": "1651",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FENDL",
+            "first": "MATTHEW",
+            "full": "FENDL, MATTHEW"
+          },
+          {
+            "last": "MELTON",
+            "first": "CHRISTOPHER",
+            "full": "MELTON, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "FENDL, MATTHEW"
+        ],
+        "students": [
+          "MELTON, CHRISTOPHER"
+        ],
+        "page": 1,
+        "line": "4",
+        "raw": "4 \u00b7 A08 (F) 3 \u00b7 1330 \u00b7 1515 \u00b7 1651 \u00b7 Fendl, Matthew# \u00b7 Melton, Christopher# \u00b7 I4105 \u00b7 1.6/0.0 \u00b7 T-6 O/I RTN",
+        "role": "I4105",
+        "remarks": "T-6 O/I RTN",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "N4201",
+        "start": "1900",
+        "end": "2036",
+        "land": "2036",
+        "brief": "1715",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAWTHORNE",
+            "first": "PHILIP",
+            "full": "HAWTHORNE, PHILIP"
+          },
+          {
+            "last": "CARROLL",
+            "first": "SEAN",
+            "full": "CARROLL, SEAN"
+          }
+        ],
+        "instructors": [
+          "HAWTHORNE, PHILIP"
+        ],
+        "students": [
+          "CARROLL, SEAN"
+        ],
+        "page": 1,
+        "line": "5",
+        "raw": "5 \u00b7 A03 (F) 4 \u00b7 1715 \u00b7 1900 \u00b7 2036 \u00b7 Hawthorne, Philip# Simulator \u00b7 Carroll, Sean# (Sim Event) Schedule \u00b7 N4201 \u00b7 1.6/0.0 \u00b7 T-6 ToT // Return KNGP",
+        "role": "N4201",
+        "remarks": "T-6 ToT // Return KNGP",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

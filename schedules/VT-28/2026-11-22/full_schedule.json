@@ -732,5 +732,423 @@
       "line_number": 24,
       "text": "Training (ART)"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "        Sunday,   22-Nov-2026        0800-1600  Fitzgerald(I4101)     Fitzgerald A,  2ndLt   VT-28 ODO     0800-1600  Aircrew   Rotational        BLDG 84 Room 167  Attewell D, LT ",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "ODO (PM)",
+        "start": "1500",
+        "end": "2300",
+        "land": "2300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "VANDERAH",
+            "first": "R",
+            "full": "VANDERAH, R"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "ODO (PM) \u00b7 Vanderah R, Capt \u00b7 1500 \u00b7 2300",
+        "role": "ODO (PM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER (AM)",
+        "start": "0630",
+        "end": "1530",
+        "land": "1530",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LINDSAY",
+            "first": "E",
+            "full": "LINDSAY, E"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER (AM) \u00b7 Lindsay E, 2ndLt \u00b7 0630 \u00b7 1530",
+        "role": "DUTY DRIVER (AM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER (PM)",
+        "start": "1530",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORELL",
+            "first": "N",
+            "full": "MORELL, N"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER (PM) \u00b7 Morell N, ENS \u00b7 1530 \u00b7 2359",
+        "role": "DUTY DRIVER (PM)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AODO(AM)-WEEKEND",
+        "start": "0630",
+        "end": "1530",
+        "land": "1530",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HUTSON",
+            "first": "J",
+            "full": "HUTSON, J"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AODO(AM)-WEEKEND \u00b7 Hutson J, ENS \u00b7 0630 \u00b7 1530",
+        "role": "AODO(AM)-WEEKEND",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AODO(PM)-WEEKEND",
+        "start": "1530",
+        "end": "2300",
+        "land": "2300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KUM",
+            "first": "B",
+            "full": "KUM, B"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AODO(PM)-WEEKEND \u00b7 Kum B, ENS \u00b7 1530 \u00b7 2300",
+        "role": "AODO(PM)-WEEKEND",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "1103",
+        "end": "1239",
+        "land": "1239",
+        "brief": "0918",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FLORES",
+            "first": "P",
+            "full": "FLORES, P"
+          },
+          {
+            "last": "HARRISON",
+            "first": "J",
+            "full": "HARRISON, J"
+          }
+        ],
+        "instructors": [
+          "FLORES, P"
+        ],
+        "students": [
+          "HARRISON, J"
+        ],
+        "page": 2,
+        "line": "002-B",
+        "raw": "002-B \u00b7 0918 \u00b7 1103 \u00b7 1239 \u00b7 FLORES P, CAPT \u00b7 Harrison J, 2ndLt \u00b7 I4204 \u00b7 1 D 2 \u00b7 CCX",
+        "role": "I4204",
+        "remarks": "CCX",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4303",
+        "start": "1109",
+        "end": "1251",
+        "land": "1251",
+        "brief": "0924",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HALLIWELL",
+            "first": "J",
+            "full": "HALLIWELL, J"
+          },
+          {
+            "last": "SALORIO",
+            "first": "A",
+            "full": "SALORIO, A"
+          }
+        ],
+        "instructors": [
+          "HALLIWELL, J"
+        ],
+        "students": [
+          "SALORIO, A"
+        ],
+        "page": 2,
+        "line": "005-B",
+        "raw": "005-B \u00b7 0924 \u00b7 1109 \u00b7 1251 \u00b7 Halliwell J, LCDR \u00b7 Salorio A, 1stLt \u00b7 I4303 \u00b7 1 D 2 \u00b7 CCX",
+        "role": "I4303",
+        "remarks": "CCX",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4304",
+        "start": "1451",
+        "end": "1633",
+        "land": "1633",
+        "brief": "1306",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCDOWELL-CTR",
+            "first": "P",
+            "full": "MCDOWELL-CTR, P"
+          },
+          {
+            "last": "JOHNSON",
+            "first": "T",
+            "full": "JOHNSON, T"
+          }
+        ],
+        "instructors": [
+          "MCDOWELL-CTR, P"
+        ],
+        "students": [
+          "JOHNSON, T"
+        ],
+        "page": 2,
+        "line": "085-B",
+        "raw": "085-B \u00b7 1306 \u00b7 1451 \u00b7 1633 \u00b7 Mcdowell-CTR P, LCDR \u00b7 Johnson T, 2ndLt \u00b7 I4304 \u00b7 1 D 2 \u00b7 KCRP - O/I",
+        "role": "I4304",
+        "remarks": "KCRP - O/I",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4301",
+        "start": "1503",
+        "end": "1645",
+        "land": "1645",
+        "brief": "1318",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FLORES",
+            "first": "P",
+            "full": "FLORES, P"
+          },
+          {
+            "last": "HARRISON",
+            "first": "J",
+            "full": "HARRISON, J"
+          }
+        ],
+        "instructors": [
+          "FLORES, P"
+        ],
+        "students": [
+          "HARRISON, J"
+        ],
+        "page": 2,
+        "line": "002-C",
+        "raw": "002-C \u00b7 1318 \u00b7 1503 \u00b7 1645 \u00b7 FLORES P, CAPT \u00b7 Harrison J, 2ndLt \u00b7 I4301 \u00b7 1 D 2 \u00b7 CCX",
+        "role": "I4301",
+        "remarks": "CCX",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4304",
+        "start": "1509",
+        "end": "1651",
+        "land": "1651",
+        "brief": "1324",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HALLIWELL",
+            "first": "J",
+            "full": "HALLIWELL, J"
+          },
+          {
+            "last": "SALORIO",
+            "first": "A",
+            "full": "SALORIO, A"
+          }
+        ],
+        "instructors": [
+          "HALLIWELL, J"
+        ],
+        "students": [
+          "SALORIO, A"
+        ],
+        "page": 2,
+        "line": "005-C",
+        "raw": "005-C \u00b7 1324 \u00b7 1509 \u00b7 1651 \u00b7 Halliwell J, LCDR \u00b7 Salorio A, 1stLt \u00b7 I4304 \u00b7 1 D 2 \u00b7 CCX",
+        "role": "I4304",
+        "remarks": "CCX",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4490",
+        "start": "1851",
+        "end": "2033",
+        "land": "2033",
+        "brief": "1706",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCDOWELL-CTR",
+            "first": "P",
+            "full": "MCDOWELL-CTR, P"
+          },
+          {
+            "last": "JOHNSON",
+            "first": "T",
+            "full": "JOHNSON, T"
+          }
+        ],
+        "instructors": [
+          "MCDOWELL-CTR, P"
+        ],
+        "students": [
+          "JOHNSON, T"
+        ],
+        "page": 2,
+        "line": "085-C",
+        "raw": "085-C \u00b7 1706 \u00b7 1851 \u00b7 2033 \u00b7 Mcdowell-CTR P, LCDR \u00b7 Johnson T, 2ndLt \u00b7 I4490 \u00b7 1 D 2 \u00b7 KCRP - RTN (NIGHT: CMP)",
+        "role": "I4490",
+        "remarks": "KCRP - RTN (NIGHT: CMP)",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4302",
+        "start": "1903",
+        "end": "2045",
+        "land": "2045",
+        "brief": "1718",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FLORES",
+            "first": "P",
+            "full": "FLORES, P"
+          },
+          {
+            "last": "HARRISON",
+            "first": "J",
+            "full": "HARRISON, J"
+          }
+        ],
+        "instructors": [
+          "FLORES, P"
+        ],
+        "students": [
+          "HARRISON, J"
+        ],
+        "page": 2,
+        "line": "002-D",
+        "raw": "002-D \u00b7 1718 \u00b7 1903 \u00b7 2045 \u00b7 FLORES P, CAPT \u00b7 Harrison J, 2ndLt \u00b7 I4302 \u00b7 1 D 2 \u00b7 CCX RTN TO KNGP",
+        "role": "I4302",
+        "remarks": "CCX RTN TO KNGP",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4490",
+        "start": "1909",
+        "end": "2051",
+        "land": "2051",
+        "brief": "1724",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HALLIWELL",
+            "first": "J",
+            "full": "HALLIWELL, J"
+          },
+          {
+            "last": "SALORIO",
+            "first": "A",
+            "full": "SALORIO, A"
+          }
+        ],
+        "instructors": [
+          "HALLIWELL, J"
+        ],
+        "students": [
+          "SALORIO, A"
+        ],
+        "page": 2,
+        "line": "005-D *All flight",
+        "raw": "005-D *All flight \u00b7 1724 sorties \u00b7 1909 are \u00b7 conducted \u00b7 2051 \u00b7 Halliwell J, LCDR in a T-6B aircraft. VT-28 \u00b7 Sunday, \u00b7 Salorio A, 1stLt SIM SCHEDULE 22-Nov-2026 \u00b7 I4490 \u00b7 1 D 2 \u00b7 CCX RTN TO KNGP",
+        "role": "I4490",
+        "remarks": "CCX RTN TO KNGP",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

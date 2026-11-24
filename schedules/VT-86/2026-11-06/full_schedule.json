@@ -481,5 +481,657 @@
       "line_number": 37,
       "text": "LT P.K. SMITH LCDR J. P. Healey CDR J. V. Seida"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "FLT Schedules Officer",
+        "start": "0700",
+        "end": "1600",
+        "land": "1600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RUFF",
+            "first": "J",
+            "full": "RUFF, J"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "FLT Schedules Officer \u00b7 RUFF J \u00b7 0700 \u00b7 1600",
+        "role": "FLT Schedules Officer",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "CDO",
+        "start": "0700",
+        "end": "1600",
+        "land": "1600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MARTENS",
+            "first": "N",
+            "full": "MARTENS, N"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "CDO \u00b7 MARTENS N \u00b7 0700 \u00b7 1600",
+        "role": "CDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO",
+        "start": "0600",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DRISCOLL",
+            "first": "B",
+            "full": "DRISCOLL, B"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO \u00b7 Driscoll B \u00b7 0600 \u00b7 1800",
+        "role": "SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DET CDO 1",
+        "start": "0700",
+        "end": "1200",
+        "land": "1200",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RUFF",
+            "first": "J",
+            "full": "RUFF, J"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DET CDO 1 \u00b7 RUFF J \u00b7 0700 \u00b7 1200",
+        "role": "DET CDO 1",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DET CDO 2",
+        "start": "1200",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STEVENS",
+            "first": "J",
+            "full": "STEVENS, J"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DET CDO 2 \u00b7 STEVENS J \u00b7 1200 \u00b7 1800",
+        "role": "DET CDO 2",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DET SDO",
+        "start": "0700",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FAILS",
+            "first": "M",
+            "full": "FAILS, M"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DET SDO \u00b7 Fails M \u00b7 0700 \u00b7 1800",
+        "role": "DET SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4290",
+        "start": "0845",
+        "end": "1015",
+        "land": "1015",
+        "brief": "0715",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BOOTH",
+            "first": "J",
+            "full": "BOOTH, J"
+          },
+          {
+            "last": "LILLY",
+            "first": "K",
+            "full": "LILLY, K"
+          }
+        ],
+        "instructors": [
+          "BOOTH, J"
+        ],
+        "students": [
+          "LILLY, K"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0715 \u00b7 0845 \u00b7 1015 \u00b7 ROKT 15 \u00b7 BOOTH J \u00b7 Lilly K \u00b7 FAM4290 \u00b7 SNOWBIRD MOA (0900-1000) MSN# 3014",
+        "role": "FAM4290",
+        "remarks": "SNOWBIRD MOA (0900-1000) MSN# 3014",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4105",
+        "start": "0845",
+        "end": "1003",
+        "land": "1003",
+        "brief": "0715",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PITTMAN",
+            "first": "C",
+            "full": "PITTMAN, C"
+          },
+          {
+            "last": "POAGE",
+            "first": "T",
+            "full": "POAGE, T"
+          }
+        ],
+        "instructors": [
+          "PITTMAN, C"
+        ],
+        "students": [
+          "POAGE, T"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0715 \u00b7 0845 \u00b7 1003 \u00b7 ROKT 25 \u00b7 PITTMAN C \u00b7 Poage T \u00b7 FAM4105 \u00b7 SNOWBIRD MOA (0900-1000) MSN# 3014 NOTE 1",
+        "role": "FAM4105",
+        "remarks": "SNOWBIRD MOA (0900-1000) MSN# 3014 NOTE 1",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "BFM4101 BFM4101",
+        "start": "0800",
+        "end": "0906",
+        "land": "0906",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FEAY C GEORGE",
+            "first": "M",
+            "full": "FEAY C GEORGE, M"
+          },
+          {
+            "last": "BATISTE L SIMMONS",
+            "first": "J",
+            "full": "BATISTE L SIMMONS, J"
+          }
+        ],
+        "instructors": [
+          "FEAY C GEORGE, M"
+        ],
+        "students": [
+          "BATISTE L SIMMONS, J"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0630 \u00b7 0800 \u00b7 0906 \u00b7 ROKT 35 \u00b7 FEAY C GEORGE M \u00b7 Batiste L Simmons J \u00b7 BFM4101 BFM4101 \u00b7 GAMECOCK C/D ATCAA OR BULLDOG MOA (0730-0900) NOTE 1, 7 + MSN# 1800/1799 NOTE 1, 7",
+        "role": "BFM4101 BFM4101",
+        "remarks": "GAMECOCK C/D ATCAA OR BULLDOG MOA (0730-0900) NOTE 1, 7 + MSN# 1800/1799 NOTE 1, 7",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AWI SUP AWI SUP",
+        "start": "0800",
+        "end": "0906",
+        "land": "0906",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCCARTHY C CHARNAS",
+            "first": "N",
+            "full": "MCCARTHY C CHARNAS, N"
+          }
+        ],
+        "instructors": [
+          "MCCARTHY C CHARNAS, N"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0630 \u00b7 0800 \u00b7 0906 \u00b7 ROKT 45 \u00b7 MCCARTHY C CHARNAS N \u00b7 BOWES C FRANKLIN M CYCLE 2 \u00b7 AWI SUP AWI SUP \u00b7 BULLDOG ATCAA OR GAMECOCK C/D (0730-0900) NOTE 1, 3 + MSN# 1799/1800 NOTE 1, 3",
+        "role": "AWI SUP AWI SUP",
+        "remarks": "BULLDOG ATCAA OR GAMECOCK C/D (0730-0900) NOTE 1, 3 + MSN# 1799/1800 NOTE 1, 3",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4104",
+        "start": "1100",
+        "end": "1218",
+        "land": "1218",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TASSINARI",
+            "first": "M",
+            "full": "TASSINARI, M"
+          },
+          {
+            "last": "DENNIS",
+            "first": "J",
+            "full": "DENNIS, J"
+          }
+        ],
+        "instructors": [
+          "TASSINARI, M"
+        ],
+        "students": [
+          "DENNIS, J"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0930 \u00b7 1100 \u00b7 1218 \u00b7 ROKT 55 \u00b7 TASSINARI M \u00b7 Dennis J \u00b7 FAM4104 \u00b7 SNOWBIRD MOA (1115-1215) MSN# 3015 NOTE 1",
+        "role": "FAM4104",
+        "remarks": "SNOWBIRD MOA (1115-1215) MSN# 3015 NOTE 1",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4290",
+        "start": "1100",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0715",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PITTMAN",
+            "first": "C",
+            "full": "PITTMAN, C"
+          },
+          {
+            "last": "POAGE",
+            "first": "T",
+            "full": "POAGE, T"
+          }
+        ],
+        "instructors": [
+          "PITTMAN, C"
+        ],
+        "students": [
+          "POAGE, T"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0715 \u00b7 1100 \u00b7 1230 \u00b7 ROKT 25 \u00b7 PITTMAN C \u00b7 Poage T \u00b7 FAM4290 \u00b7 SNOWBIRD MOA (1115-1215) MSN# 3015 NOTE 1",
+        "role": "FAM4290",
+        "remarks": "SNOWBIRD MOA (1115-1215) MSN# 3015 NOTE 1",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "BFM4102 BFM4102",
+        "start": "1030",
+        "end": "1136",
+        "land": "1136",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GEORGE M FEAY",
+            "first": "C",
+            "full": "GEORGE M FEAY, C"
+          },
+          {
+            "last": "SIMMONS J BATISTE",
+            "first": "L",
+            "full": "SIMMONS J BATISTE, L"
+          }
+        ],
+        "instructors": [
+          "GEORGE M FEAY, C"
+        ],
+        "students": [
+          "SIMMONS J BATISTE, L"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0630 \u00b7 1030 \u00b7 1136 \u00b7 ROKT 35 \u00b7 GEORGE M FEAY C \u00b7 Simmons J Batiste L \u00b7 BFM4102 BFM4102 \u00b7 GAMECOCK C/D ATCAA OR BULLDOG MOA (1100-1330) NOTE 1, 7 + MSN# 1800 NOTE 1, 7",
+        "role": "BFM4102 BFM4102",
+        "remarks": "GAMECOCK C/D ATCAA OR BULLDOG MOA (1100-1330) NOTE 1, 7 + MSN# 1800 NOTE 1, 7",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AWI SUP AWI SUP",
+        "start": "1030",
+        "end": "1136",
+        "land": "1136",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CHARNAS N MCCARTHY",
+            "first": "C",
+            "full": "CHARNAS N MCCARTHY, C"
+          }
+        ],
+        "instructors": [
+          "CHARNAS N MCCARTHY, C"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0630 \u00b7 1030 \u00b7 1136 \u00b7 ROKT 45 \u00b7 CHARNAS N MCCARTHY C \u00b7 FRANKLIN M BOWES C CYCLE 3 \u00b7 AWI SUP AWI SUP \u00b7 BULLDOG MOA OR GAMECOCK C/D (1100-1330) NOTE 1, 3 + MSN# 1800 NOTE 1, 3",
+        "role": "AWI SUP AWI SUP",
+        "remarks": "BULLDOG MOA OR GAMECOCK C/D (1100-1330) NOTE 1, 3 + MSN# 1800 NOTE 1, 3",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4105",
+        "start": "1330",
+        "end": "1448",
+        "land": "1448",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TASSINARI",
+            "first": "M",
+            "full": "TASSINARI, M"
+          },
+          {
+            "last": "DENNIS",
+            "first": "J",
+            "full": "DENNIS, J"
+          }
+        ],
+        "instructors": [
+          "TASSINARI, M"
+        ],
+        "students": [
+          "DENNIS, J"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0930 \u00b7 1330 \u00b7 1448 \u00b7 ROKT 55 \u00b7 TASSINARI M \u00b7 Dennis J \u00b7 FAM4105 \u00b7 SNOWBIRD MOA (1330-1430) MSN# 3016 NOTE 1",
+        "role": "FAM4105",
+        "remarks": "SNOWBIRD MOA (1330-1430) MSN# 3016 NOTE 1",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CAS4290 CAS4290 CAS SUP",
+        "start": "1330",
+        "end": "1442",
+        "land": "1442",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "M REILLY K PETERS",
+            "first": "D",
+            "full": "M REILLY K PETERS, D"
+          },
+          {
+            "last": "P MONSON M SEIDA",
+            "first": "J",
+            "full": "P MONSON M SEIDA, J"
+          }
+        ],
+        "instructors": [
+          "M REILLY K PETERS, D"
+        ],
+        "students": [
+          "P MONSON M SEIDA, J"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1200 \u00b7 1330 \u00b7 1442 \u00b7 ROKT 65 \u00b7 GOTTSCHALK M REILLY K PETERS D \u00b7 Haslam P Monson M SEIDA J \u00b7 CAS4290 CAS4290 CAS SUP \u00b7 SNOWBIRD MOA (1330-1430) MSN# 3016 NOTE 7 # NOTE 7 NOTE 7",
+        "role": "CAS4290 CAS4290 CAS SUP",
+        "remarks": "SNOWBIRD MOA (1330-1430) MSN# 3016 NOTE 7 # NOTE 7 NOTE 7",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4102",
+        "start": "1400",
+        "end": "1518",
+        "land": "1518",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAWLEY",
+            "first": "J",
+            "full": "HAWLEY, J"
+          },
+          {
+            "last": "TRUONG",
+            "first": "V",
+            "full": "TRUONG, V"
+          }
+        ],
+        "instructors": [
+          "HAWLEY, J"
+        ],
+        "students": [
+          "TRUONG, V"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1230 \u00b7 1400 \u00b7 1518 \u00b7 ROKT 75 \u00b7 HAWLEY J \u00b7 Truong V \u00b7 FAM4102 \u00b7 SNOWBIRD MOA (1330-1430) MSN# 3016 NOTE 1",
+        "role": "FAM4102",
+        "remarks": "SNOWBIRD MOA (1330-1430) MSN# 3016 NOTE 1",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4101",
+        "start": "1400",
+        "end": "1518",
+        "land": "1518",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAYERS",
+            "first": "G",
+            "full": "MAYERS, G"
+          }
+        ],
+        "instructors": [
+          "MAYERS, G"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "1200 \u00b7 1400 \u00b7 1518 \u00b7 ROKT 85 \u00b7 MAYERS G \u00b7 Veloz J CYCLE 4 \u00b7 FAM4101 \u00b7 SNOWBIRD MOA (1330-1430) MSN# 3016 NOTE 1",
+        "role": "FAM4101",
+        "remarks": "SNOWBIRD MOA (1330-1430) MSN# 3016 NOTE 1",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4103",
+        "start": "1645",
+        "end": "1803",
+        "land": "1803",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAWLEY",
+            "first": "J",
+            "full": "HAWLEY, J"
+          },
+          {
+            "last": "TRUONG",
+            "first": "V",
+            "full": "TRUONG, V"
+          }
+        ],
+        "instructors": [
+          "HAWLEY, J"
+        ],
+        "students": [
+          "TRUONG, V"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1230 \u00b7 1645 \u00b7 1803 \u00b7 ROKT 75 \u00b7 HAWLEY J \u00b7 Truong V \u00b7 FAM4103 \u00b7 GAMECOCK C/D OR BULLDOG MOA (1430-1730) NOTE 1, 8 MSN# 1730",
+        "role": "FAM4103",
+        "remarks": "GAMECOCK C/D OR BULLDOG MOA (1430-1730) NOTE 1, 8 MSN# 1730",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FAM4102",
+        "start": "1645",
+        "end": "1803",
+        "land": "1803",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAYERS",
+            "first": "G",
+            "full": "MAYERS, G"
+          }
+        ],
+        "instructors": [
+          "MAYERS, G"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "1200 \u00b7 1645 \u00b7 1803 \u00b7 ROKT 85 \u00b7 MAYERS G \u00b7 Veloz J GROUND EVENTS \u00b7 FAM4102 \u00b7 GAMECOCK C/D OR BULLDOG MOA (1430-1730) NOTE 1, 8 MSN# 1730",
+        "role": "FAM4102",
+        "remarks": "GAMECOCK C/D OR BULLDOG MOA (1430-1730) NOTE 1, 8 MSN# 1730",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "STK4107 + 4201 SUBMITTED BY:",
+        "start": "0630",
+        "end": "1100",
+        "land": "1100",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ARMOUR G",
+            "first": "SPRINGER",
+            "full": "ARMOUR G, SPRINGER"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0630-1100 \u00b7 STK4107 + 4201 SUBMITTED BY: \u00b7 Det Spaces \u00b7 Armour G, Springer J REVIEWED BY: \u00b7 APPROVED \u00b7 Standby Event BY:",
+        "role": "STK4107 + 4201 SUBMITTED BY:",
+        "remarks": "Standby Event BY:",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

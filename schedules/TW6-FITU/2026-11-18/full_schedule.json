@@ -175,5 +175,95 @@
       "line_number": 21,
       "text": "1200-1400 FLIGHT PLANNING/NAV PREP ORTIZ, RICHARD MARTIN, PARKER FITU CLASSROOM"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "NA4390 (RPT)",
+        "start": "0930",
+        "end": "1130",
+        "land": "1130",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MARTIN",
+            "first": "PARKER",
+            "full": "MARTIN, PARKER"
+          },
+          {
+            "last": "POPE",
+            "first": "DANIEL",
+            "full": "POPE, DANIEL"
+          }
+        ],
+        "instructors": [
+          "MARTIN, PARKER"
+        ],
+        "students": [
+          "POPE, DANIEL"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "0800 \u00b7 0930 \u00b7 1130 \u00b7 MARTIN, PARKER \u00b7 POPE, DANIEL \u00b7 NA4390 (RPT) \u00b7 2.0 \u00b7 DD-1801",
+        "role": "NA4390 (RPT)",
+        "remarks": "DD-1801",
+        "duration": "2.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4102 Events",
+        "start": "1230",
+        "end": "1418",
+        "land": "1418",
+        "brief": "1030",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LETSON",
+            "first": "JACOB",
+            "full": "LETSON, JACOB"
+          },
+          {
+            "last": "MITCHELL",
+            "first": "KEITH",
+            "full": "MITCHELL, KEITH"
+          },
+          {
+            "last": "GROUND PERSON CLEVELAND",
+            "first": "JONATHAN",
+            "full": "GROUND PERSON CLEVELAND, JONATHAN"
+          },
+          {
+            "last": "ORTIZ",
+            "first": "RICHARD",
+            "full": "ORTIZ, RICHARD"
+          }
+        ],
+        "instructors": [
+          "LETSON, JACOB"
+        ],
+        "students": [
+          "MITCHELL, KEITH",
+          "GROUND PERSON CLEVELAND, JONATHAN",
+          "ORTIZ, RICHARD"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1030 No Simulators Time MIL 0830-1030 1200-1400 \u00b7 1230 Scheduled Event FITU PATTERNS, FLIGHT \u00b7 1418 MODULES: GPS PLANNING/NAV \u00b7 LETSON, JACOB LANDING PREP \u00b7 MITCHELL, KEITH Ground Person CLEVELAND, JONATHAN ORTIZ, RICHARD \u00b7 NA4102 Events \u00b7 1.8 \u00b7 DD-1801 Instructor Location LAVALLE, CHRISTIAN FITU CLASSROOM MARTIN, PARKER FITU CLASSROOM",
+        "role": "NA4102 Events",
+        "remarks": "DD-1801 Instructor Location LAVALLE, CHRISTIAN FITU CLASSROOM MARTIN, PARKER FITU CLASSROOM",
+        "duration": "1.8",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

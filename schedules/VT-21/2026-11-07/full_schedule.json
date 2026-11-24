@@ -576,5 +576,615 @@
       "line_number": 27,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "TR4401",
+        "start": "0900",
+        "end": "1012",
+        "land": "1012",
+        "brief": "0715",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HUIZAR JR",
+            "first": "H",
+            "full": "HUIZAR JR, H"
+          },
+          {
+            "last": "ROONEY",
+            "first": "K",
+            "full": "ROONEY, K"
+          }
+        ],
+        "instructors": [
+          "HUIZAR JR, H"
+        ],
+        "students": [
+          "ROONEY, K"
+        ],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0715 \u00b7 0900 \u00b7 1012 \u00b7 CS \u00b7 O/I \u00b7 CTR HUIZAR JR H \u00b7 LTJG ROONEY K \u00b7 TR4401 \u00b7 1.2 \u00b7 CRP OPS",
+        "role": "TR4401",
+        "remarks": "CRP OPS",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4402",
+        "start": "1200",
+        "end": "1312",
+        "land": "1312",
+        "brief": "1015",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ROONEY",
+            "first": "K",
+            "full": "ROONEY, K"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "ROONEY, K"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 1015 \u00b7 1200 \u00b7 1312 \u00b7 NJR \u00b7 TURN \u00b7 CTR HUIZAR JR H Simulator Schedule \u00b7 LTJG ROONEY K \u00b7 TR4402 \u00b7 1.2 \u00b7 CRP OPS",
+        "role": "TR4402",
+        "remarks": "CRP OPS",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "IR3204",
+        "start": "0630",
+        "end": "",
+        "land": "",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FORD",
+            "first": "D",
+            "full": "FORD, D"
+          },
+          {
+            "last": "BUSICK",
+            "first": "J",
+            "full": "BUSICK, J"
+          }
+        ],
+        "instructors": [
+          "FORD, D"
+        ],
+        "students": [
+          "BUSICK, J"
+        ],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0600 \u00b7 0630 \u00b7 505 \u00b7 CTR FORD D \u00b7 ENS BUSICK J \u00b7 IR3204",
+        "role": "IR3204",
+        "remarks": "",
+        "duration": "",
+        "device": "505",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR3201",
+        "start": "0700",
+        "end": "",
+        "land": "",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PURDY",
+            "first": "E",
+            "full": "PURDY, E"
+          },
+          {
+            "last": "DUBE",
+            "first": "B",
+            "full": "DUBE, B"
+          }
+        ],
+        "instructors": [
+          "PURDY, E"
+        ],
+        "students": [
+          "DUBE, B"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0630 \u00b7 0700 \u00b7 502 \u00b7 CTR PURDY E \u00b7 LTJG DUBE B \u00b7 TR3201",
+        "role": "TR3201",
+        "remarks": "",
+        "duration": "",
+        "device": "502",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "0730",
+        "end": "",
+        "land": "",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ROBERTS",
+            "first": "L",
+            "full": "ROBERTS, L"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "ROBERTS, L"
+        ],
+        "page": 2,
+        "line": "3",
+        "raw": "3 \u00b7 0700 \u00b7 0730 \u00b7 506 \u00b7 ENS ROBERTS L \u00b7 Practice Sim",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "",
+        "device": "506",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "0800",
+        "end": "",
+        "land": "",
+        "brief": "0730",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MARTIN",
+            "first": "J",
+            "full": "MARTIN, J"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MARTIN, J"
+        ],
+        "page": 2,
+        "line": "4",
+        "raw": "4 \u00b7 0730 \u00b7 0800 \u00b7 503 \u00b7 LTJG MARTIN J \u00b7 Practice Sim",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "",
+        "device": "503",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR3202",
+        "start": "0830",
+        "end": "",
+        "land": "",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HANSON",
+            "first": "C",
+            "full": "HANSON, C"
+          },
+          {
+            "last": "BECKHAM",
+            "first": "D",
+            "full": "BECKHAM, D"
+          }
+        ],
+        "instructors": [
+          "HANSON, C"
+        ],
+        "students": [
+          "BECKHAM, D"
+        ],
+        "page": 2,
+        "line": "5",
+        "raw": "5 \u00b7 0800 \u00b7 0830 \u00b7 504 \u00b7 CTR HANSON C \u00b7 ENS BECKHAM D \u00b7 TR3202",
+        "role": "TR3202",
+        "remarks": "",
+        "duration": "",
+        "device": "504",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR3201",
+        "start": "0900",
+        "end": "",
+        "land": "",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MESMER",
+            "first": "D",
+            "full": "MESMER, D"
+          },
+          {
+            "last": "HAAS",
+            "first": "D",
+            "full": "HAAS, D"
+          }
+        ],
+        "instructors": [
+          "MESMER, D"
+        ],
+        "students": [
+          "HAAS, D"
+        ],
+        "page": 2,
+        "line": "6",
+        "raw": "6 \u00b7 0830 \u00b7 0900 \u00b7 501 \u00b7 CTR MESMER D \u00b7 LT HAAS D \u00b7 TR3201",
+        "role": "TR3201",
+        "remarks": "",
+        "duration": "",
+        "device": "501",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "IR3203",
+        "start": "0930",
+        "end": "",
+        "land": "",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HANSON",
+            "first": "J",
+            "full": "HANSON, J"
+          },
+          {
+            "last": "HURLEY",
+            "first": "D",
+            "full": "HURLEY, D"
+          }
+        ],
+        "instructors": [
+          "HANSON, J"
+        ],
+        "students": [
+          "HURLEY, D"
+        ],
+        "page": 2,
+        "line": "7",
+        "raw": "7 \u00b7 0900 \u00b7 0930 \u00b7 505 \u00b7 CTR HANSON J \u00b7 LTJG HURLEY D \u00b7 IR3203",
+        "role": "IR3203",
+        "remarks": "",
+        "duration": "",
+        "device": "505",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "IR3205",
+        "start": "1000",
+        "end": "",
+        "land": "",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PURDY",
+            "first": "E",
+            "full": "PURDY, E"
+          },
+          {
+            "last": "BUSICK",
+            "first": "J",
+            "full": "BUSICK, J"
+          }
+        ],
+        "instructors": [
+          "PURDY, E"
+        ],
+        "students": [
+          "BUSICK, J"
+        ],
+        "page": 2,
+        "line": "8",
+        "raw": "8 \u00b7 0930 \u00b7 1000 \u00b7 502 \u00b7 CTR PURDY E \u00b7 ENS BUSICK J \u00b7 IR3205",
+        "role": "IR3205",
+        "remarks": "",
+        "duration": "",
+        "device": "502",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR3202",
+        "start": "1030",
+        "end": "",
+        "land": "",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JENSEN",
+            "first": "K",
+            "full": "JENSEN, K"
+          },
+          {
+            "last": "DUBE",
+            "first": "B",
+            "full": "DUBE, B"
+          }
+        ],
+        "instructors": [
+          "JENSEN, K"
+        ],
+        "students": [
+          "DUBE, B"
+        ],
+        "page": 2,
+        "line": "9",
+        "raw": "9 \u00b7 1000 \u00b7 1030 \u00b7 506 \u00b7 CTR JENSEN K \u00b7 LTJG DUBE B \u00b7 TR3202",
+        "role": "TR3202",
+        "remarks": "",
+        "duration": "",
+        "device": "506",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR3202",
+        "start": "1100",
+        "end": "",
+        "land": "",
+        "brief": "1030",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ADAMS",
+            "first": "C",
+            "full": "ADAMS, C"
+          },
+          {
+            "last": "BOWMAN",
+            "first": "S",
+            "full": "BOWMAN, S"
+          }
+        ],
+        "instructors": [
+          "ADAMS, C"
+        ],
+        "students": [
+          "BOWMAN, S"
+        ],
+        "page": 2,
+        "line": "10",
+        "raw": "10 \u00b7 1030 \u00b7 1100 \u00b7 503 \u00b7 CTR ADAMS C \u00b7 LTJG BOWMAN S \u00b7 TR3202",
+        "role": "TR3202",
+        "remarks": "",
+        "duration": "",
+        "device": "503",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR3203",
+        "start": "1130",
+        "end": "",
+        "land": "",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KILMER",
+            "first": "J",
+            "full": "KILMER, J"
+          },
+          {
+            "last": "BECKHAM",
+            "first": "D",
+            "full": "BECKHAM, D"
+          }
+        ],
+        "instructors": [
+          "KILMER, J"
+        ],
+        "students": [
+          "BECKHAM, D"
+        ],
+        "page": 2,
+        "line": "11",
+        "raw": "11 \u00b7 1100 \u00b7 1130 \u00b7 504 \u00b7 CTR KILMER J \u00b7 ENS BECKHAM D \u00b7 TR3203",
+        "role": "TR3203",
+        "remarks": "",
+        "duration": "",
+        "device": "504",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR3202",
+        "start": "1230",
+        "end": "",
+        "land": "",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HANSON",
+            "first": "J",
+            "full": "HANSON, J"
+          },
+          {
+            "last": "HAAS",
+            "first": "D",
+            "full": "HAAS, D"
+          }
+        ],
+        "instructors": [
+          "HANSON, J"
+        ],
+        "students": [
+          "HAAS, D"
+        ],
+        "page": 2,
+        "line": "12",
+        "raw": "12 \u00b7 1200 \u00b7 1230 \u00b7 505 \u00b7 CTR HANSON J \u00b7 LT HAAS D \u00b7 TR3202",
+        "role": "TR3202",
+        "remarks": "",
+        "duration": "",
+        "device": "505",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR3202",
+        "start": "1300",
+        "end": "",
+        "land": "",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STROTHER",
+            "first": "H",
+            "full": "STROTHER, H"
+          },
+          {
+            "last": "MARTIN",
+            "first": "J",
+            "full": "MARTIN, J"
+          }
+        ],
+        "instructors": [
+          "STROTHER, H"
+        ],
+        "students": [
+          "MARTIN, J"
+        ],
+        "page": 2,
+        "line": "13",
+        "raw": "13 \u00b7 1230 \u00b7 1300 \u00b7 502 \u00b7 CTR STROTHER H \u00b7 LTJG MARTIN J \u00b7 TR3202",
+        "role": "TR3202",
+        "remarks": "",
+        "duration": "",
+        "device": "502",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR3202",
+        "start": "1330",
+        "end": "",
+        "land": "",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ADAMS",
+            "first": "C",
+            "full": "ADAMS, C"
+          },
+          {
+            "last": "VODICKA",
+            "first": "C",
+            "full": "VODICKA, C"
+          }
+        ],
+        "instructors": [
+          "ADAMS, C"
+        ],
+        "students": [
+          "VODICKA, C"
+        ],
+        "page": 2,
+        "line": "14",
+        "raw": "14 \u00b7 1300 \u00b7 1330 \u00b7 506 \u00b7 CTR ADAMS C \u00b7 LTJG VODICKA C \u00b7 TR3202",
+        "role": "TR3202",
+        "remarks": "",
+        "duration": "",
+        "device": "506",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "TR3203",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MUSCAT",
+            "first": "J",
+            "full": "MUSCAT, J"
+          },
+          {
+            "last": "BOWMAN",
+            "first": "S",
+            "full": "BOWMAN, S"
+          }
+        ],
+        "instructors": [
+          "MUSCAT, J"
+        ],
+        "students": [
+          "BOWMAN, S"
+        ],
+        "page": 2,
+        "line": "15",
+        "raw": "15 \u00b7 1330 \u00b7 1400 \u00b7 503 \u00b7 CTR MUSCAT J \u00b7 LTJG BOWMAN S \u00b7 TR3203",
+        "role": "TR3203",
+        "remarks": "",
+        "duration": "",
+        "device": "503",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Practice Sim",
+        "start": "1530",
+        "end": "",
+        "land": "",
+        "brief": "1500",
+        "formation": "",
+        "crew": [
+          {
+            "last": "VODICKA C GROUND EVENTS",
+            "first": "",
+            "full": "VODICKA C GROUND EVENTS"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "VODICKA C GROUND EVENTS"
+        ],
+        "page": 2,
+        "line": "16",
+        "raw": "16 \u00b7 1500 \u00b7 1530 \u00b7 505 \u00b7 LTJG VODICKA C Ground Events \u00b7 Practice Sim",
+        "role": "Practice Sim",
+        "remarks": "",
+        "duration": "",
+        "device": "505",
+        "solo": false
+      }
+    ]
+  }
 }

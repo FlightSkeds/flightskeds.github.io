@@ -550,5 +550,494 @@
       "line_number": 23,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "WEEKEND SDO",
+        "start": "0930",
+        "end": "1830",
+        "land": "1830",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HACKETT",
+            "first": "J",
+            "full": "HACKETT, J"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "WEEKEND SDO \u00b7 1stLt HACKETT J \u00b7 0930 \u00b7 1830",
+        "role": "WEEKEND SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4103",
+        "start": "0800",
+        "end": "0930",
+        "land": "0930",
+        "brief": "0615",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CALLISTER",
+            "first": "R",
+            "full": "CALLISTER, R"
+          },
+          {
+            "last": "BECHLER",
+            "first": "A",
+            "full": "BECHLER, A"
+          }
+        ],
+        "instructors": [
+          "CALLISTER, R"
+        ],
+        "students": [
+          "BECHLER, A"
+        ],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0615 \u00b7 0800 \u00b7 0930 \u00b7 NJR \u00b7 XC \u00b7 Capt CALLISTER R \u00b7 LTJG BECHLER A \u00b7 IR4103 \u00b7 1.5 \u00b7 GPT-CWF",
+        "role": "IR4103",
+        "remarks": "GPT-CWF",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4102",
+        "start": "0800",
+        "end": "0930",
+        "land": "0930",
+        "brief": "0615",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CALLISTER",
+            "first": "R",
+            "full": "CALLISTER, R"
+          },
+          {
+            "last": "BECHLER",
+            "first": "A",
+            "full": "BECHLER, A"
+          }
+        ],
+        "instructors": [
+          "CALLISTER, R"
+        ],
+        "students": [
+          "BECHLER, A"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0615 \u00b7 0800 \u00b7 0930 \u00b7 NJR \u00b7 XC \u00b7 Capt CALLISTER R \u00b7 LTJG BECHLER A \u00b7 IR4102 \u00b7 1.5 \u00b7 SGJ-GPT",
+        "role": "IR4102",
+        "remarks": "SGJ-GPT",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4103",
+        "start": "0800",
+        "end": "0930",
+        "land": "0930",
+        "brief": "0615",
+        "formation": "",
+        "crew": [
+          {
+            "last": "EDWARDS",
+            "first": "C",
+            "full": "EDWARDS, C"
+          },
+          {
+            "last": "GRANT",
+            "first": "N",
+            "full": "GRANT, N"
+          }
+        ],
+        "instructors": [
+          "EDWARDS, C"
+        ],
+        "students": [
+          "GRANT, N"
+        ],
+        "page": 2,
+        "line": "3",
+        "raw": "3 \u00b7 0615 \u00b7 0800 \u00b7 0930 \u00b7 NJR \u00b7 XC \u00b7 CTR EDWARDS C \u00b7 LTJG GRANT N \u00b7 IR4103 \u00b7 1.5 \u00b7 LBB-ACT",
+        "role": "IR4103",
+        "remarks": "LBB-ACT",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4102",
+        "start": "0800",
+        "end": "0930",
+        "land": "0930",
+        "brief": "0615",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAUER",
+            "first": "N",
+            "full": "MAUER, N"
+          },
+          {
+            "last": "MASTERSON",
+            "first": "T",
+            "full": "MASTERSON, T"
+          }
+        ],
+        "instructors": [
+          "MAUER, N"
+        ],
+        "students": [
+          "MASTERSON, T"
+        ],
+        "page": 2,
+        "line": "4",
+        "raw": "4 \u00b7 0615 \u00b7 0800 \u00b7 0930 \u00b7 NJR \u00b7 XC \u00b7 CTR MAUER N \u00b7 ENS MASTERSON T \u00b7 IR4102 \u00b7 1.5 \u00b7 LBB-ACT",
+        "role": "IR4102",
+        "remarks": "LBB-ACT",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4401",
+        "start": "0800",
+        "end": "0912",
+        "land": "0912",
+        "brief": "0615",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HUIZAR JR",
+            "first": "H",
+            "full": "HUIZAR JR, H"
+          },
+          {
+            "last": "YAGER",
+            "first": "C",
+            "full": "YAGER, C"
+          }
+        ],
+        "instructors": [
+          "HUIZAR JR, H"
+        ],
+        "students": [
+          "YAGER, C"
+        ],
+        "page": 2,
+        "line": "5",
+        "raw": "5 \u00b7 0615 \u00b7 0800 \u00b7 0912 \u00b7 CS \u00b7 O/I \u00b7 CTR HUIZAR JR H \u00b7 ENS YAGER C \u00b7 TR4401 \u00b7 1.2 \u00b7 CRP OPS",
+        "role": "TR4401",
+        "remarks": "CRP OPS",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4104",
+        "start": "1100",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0915",
+        "formation": "",
+        "crew": [
+          {
+            "last": "EDWARDS",
+            "first": "C",
+            "full": "EDWARDS, C"
+          },
+          {
+            "last": "GRANT",
+            "first": "N",
+            "full": "GRANT, N"
+          }
+        ],
+        "instructors": [
+          "EDWARDS, C"
+        ],
+        "students": [
+          "GRANT, N"
+        ],
+        "page": 2,
+        "line": "6",
+        "raw": "6 \u00b7 0915 \u00b7 1100 \u00b7 1230 \u00b7 NJR \u00b7 TURN \u00b7 CTR EDWARDS C \u00b7 LTJG GRANT N \u00b7 IR4104 \u00b7 1.5 \u00b7 ACT-NQI",
+        "role": "IR4104",
+        "remarks": "ACT-NQI",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4103",
+        "start": "1100",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0915",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAUER",
+            "first": "N",
+            "full": "MAUER, N"
+          },
+          {
+            "last": "MASTERSON",
+            "first": "T",
+            "full": "MASTERSON, T"
+          }
+        ],
+        "instructors": [
+          "MAUER, N"
+        ],
+        "students": [
+          "MASTERSON, T"
+        ],
+        "page": 2,
+        "line": "7",
+        "raw": "7 \u00b7 0915 \u00b7 1100 \u00b7 1230 \u00b7 NJR \u00b7 TURN \u00b7 CTR MAUER N \u00b7 ENS MASTERSON T \u00b7 IR4103 \u00b7 1.5 \u00b7 ACT-NQI",
+        "role": "IR4103",
+        "remarks": "ACT-NQI",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4402",
+        "start": "1100",
+        "end": "1212",
+        "land": "1212",
+        "brief": "0915",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HUIZAR JR",
+            "first": "H",
+            "full": "HUIZAR JR, H"
+          },
+          {
+            "last": "YAGER",
+            "first": "C",
+            "full": "YAGER, C"
+          }
+        ],
+        "instructors": [
+          "HUIZAR JR, H"
+        ],
+        "students": [
+          "YAGER, C"
+        ],
+        "page": 2,
+        "line": "8",
+        "raw": "8 \u00b7 0915 \u00b7 1100 \u00b7 1212 \u00b7 NJR \u00b7 TURN \u00b7 CTR HUIZAR JR H \u00b7 ENS YAGER C \u00b7 TR4402 \u00b7 1.2 \u00b7 RCVR NQI",
+        "role": "TR4402",
+        "remarks": "RCVR NQI",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4401",
+        "start": "1130",
+        "end": "1242",
+        "land": "1242",
+        "brief": "0945",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DOYLE",
+            "first": "R",
+            "full": "DOYLE, R"
+          },
+          {
+            "last": "MACY",
+            "first": "K",
+            "full": "MACY, K"
+          }
+        ],
+        "instructors": [
+          "DOYLE, R"
+        ],
+        "students": [
+          "MACY, K"
+        ],
+        "page": 2,
+        "line": "9",
+        "raw": "9 \u00b7 0945 \u00b7 1130 \u00b7 1242 \u00b7 CS \u00b7 O/I \u00b7 CTR DOYLE R \u00b7 ENS MACY K \u00b7 TR4401 \u00b7 1.2",
+        "role": "TR4401",
+        "remarks": "",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4401",
+        "start": "1130",
+        "end": "1242",
+        "land": "1242",
+        "brief": "0945",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STEVENS",
+            "first": "S",
+            "full": "STEVENS, S"
+          },
+          {
+            "last": "MCKINNELL",
+            "first": "A",
+            "full": "MCKINNELL, A"
+          }
+        ],
+        "instructors": [
+          "STEVENS, S"
+        ],
+        "students": [
+          "MCKINNELL, A"
+        ],
+        "page": 2,
+        "line": "10",
+        "raw": "10 \u00b7 0945 \u00b7 1130 \u00b7 1242 \u00b7 CS \u00b7 O/I \u00b7 CTR STEVENS S \u00b7 LTJG MCKINNELL A \u00b7 TR4401 \u00b7 1.2",
+        "role": "TR4401",
+        "remarks": "",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4104",
+        "start": "1300",
+        "end": "1430",
+        "land": "1430",
+        "brief": "1115",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CALLISTER",
+            "first": "R",
+            "full": "CALLISTER, R"
+          },
+          {
+            "last": "BECHLER",
+            "first": "A",
+            "full": "BECHLER, A"
+          }
+        ],
+        "instructors": [
+          "CALLISTER, R"
+        ],
+        "students": [
+          "BECHLER, A"
+        ],
+        "page": 2,
+        "line": "11",
+        "raw": "11 \u00b7 1115 \u00b7 1300 \u00b7 1430 \u00b7 NJR \u00b7 TURN \u00b7 Capt CALLISTER R \u00b7 LTJG BECHLER A \u00b7 IR4104 \u00b7 1.5 \u00b7 CWF-NQI",
+        "role": "IR4104",
+        "remarks": "CWF-NQI",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4402",
+        "start": "1400",
+        "end": "1512",
+        "land": "1512",
+        "brief": "1215",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DOYLE",
+            "first": "R",
+            "full": "DOYLE, R"
+          },
+          {
+            "last": "MACY",
+            "first": "K",
+            "full": "MACY, K"
+          }
+        ],
+        "instructors": [
+          "DOYLE, R"
+        ],
+        "students": [
+          "MACY, K"
+        ],
+        "page": 2,
+        "line": "12",
+        "raw": "12 \u00b7 1215 \u00b7 1400 \u00b7 1512 \u00b7 NJR \u00b7 TURN \u00b7 CTR DOYLE R \u00b7 ENS MACY K \u00b7 TR4402 \u00b7 1.2",
+        "role": "TR4402",
+        "remarks": "",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4402",
+        "start": "1400",
+        "end": "1512",
+        "land": "1512",
+        "brief": "1215",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STEVENS S SIMULATOR SCHEDULE",
+            "first": "",
+            "full": "STEVENS S SIMULATOR SCHEDULE"
+          },
+          {
+            "last": "MCKINNELL",
+            "first": "A",
+            "full": "MCKINNELL, A"
+          }
+        ],
+        "instructors": [
+          "STEVENS S SIMULATOR SCHEDULE"
+        ],
+        "students": [
+          "MCKINNELL, A"
+        ],
+        "page": 2,
+        "line": "13",
+        "raw": "13 \u00b7 1215 \u00b7 1400 \u00b7 1512 \u00b7 NJR \u00b7 TURN \u00b7 CTR STEVENS S Simulator Schedule \u00b7 LTJG MCKINNELL A \u00b7 TR4402 \u00b7 1.2",
+        "role": "TR4402",
+        "remarks": "",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

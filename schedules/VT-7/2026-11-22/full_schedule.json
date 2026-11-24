@@ -436,5 +436,435 @@
       "line_number": 26,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "ODO (ON CALL)",
+        "start": "0000",
+        "end": "1230",
+        "land": "1230",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GEBHART",
+            "first": "ZACHARY",
+            "full": "GEBHART, ZACHARY"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "ODO (ON CALL) \u00b7 GEBHART, ZACHARY L, LCDR \u00b7 0000 \u00b7 1230",
+        "role": "ODO (ON CALL)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER",
+        "start": "0000",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "COMPTON",
+            "first": "TRENTON",
+            "full": "COMPTON, TRENTON"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER \u00b7 COMPTON, TRENTON D, LT \u00b7 0000 \u00b7 1800",
+        "role": "DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "IWO",
+        "start": "0600",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LARRATT",
+            "first": "ANDREW",
+            "full": "LARRATT, ANDREW"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "IWO \u00b7 LARRATT, ANDREW , ENS \u00b7 0600 \u00b7 1800",
+        "role": "IWO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM ODO",
+        "start": "1230",
+        "end": "1700",
+        "land": "1700",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GEBHART",
+            "first": "ZACHARY",
+            "full": "GEBHART, ZACHARY"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM ODO \u00b7 GEBHART, ZACHARY L, LCDR \u00b7 1230 \u00b7 1700",
+        "role": "PM ODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "ODO (ON CALL)",
+        "start": "1700",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GEBHART",
+            "first": "ZACHARY",
+            "full": "GEBHART, ZACHARY"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "ODO (ON CALL) \u00b7 GEBHART, ZACHARY L, LCDR \u00b7 1700 \u00b7 2359",
+        "role": "ODO (ON CALL)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "IWO",
+        "start": "1800",
+        "end": "0600",
+        "land": "0600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BILLANTE",
+            "first": "GIANLUCA",
+            "full": "BILLANTE, GIANLUCA"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "IWO \u00b7 BILLANTE, GIANLUCA C, ENS \u00b7 1800 \u00b7 0600",
+        "role": "IWO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC LEAD",
+        "start": "1300",
+        "end": "1412",
+        "land": "1412",
+        "brief": "1115",
+        "formation": "",
+        "crew": [
+          {
+            "last": "VICARS",
+            "first": "ETHAN",
+            "full": "VICARS, ETHAN"
+          }
+        ],
+        "instructors": [
+          "VICARS, ETHAN"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "701",
+        "raw": "701 \u00b7 1115 \u00b7 1300 \u00b7 1412 \u00b7 VICARS, ETHAN W, LCDR \u00b7 TAC LEAD \u00b7 1.2 \u00b7 CS/SD",
+        "role": "TAC LEAD",
+        "remarks": "CS/SD",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TAC44S2",
+        "start": "1300",
+        "end": "1406",
+        "land": "1406",
+        "brief": "1115",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MARION",
+            "first": "CAMERON",
+            "full": "MARION, CAMERON"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MARION, CAMERON"
+        ],
+        "page": 2,
+        "line": "702",
+        "raw": "702 \u00b7 1115 \u00b7 1300 \u00b7 1406 \u00b7 MARION, CAMERON J, ENS \u00b7 TAC44S2 \u00b7 1.1 \u00b7 CS/SD",
+        "role": "TAC44S2",
+        "remarks": "CS/SD",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4301",
+        "start": "1300",
+        "end": "1412",
+        "land": "1412",
+        "brief": "1115",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GOGAN",
+            "first": "RUSSELL",
+            "full": "GOGAN, RUSSELL"
+          },
+          {
+            "last": "MOHNACS",
+            "first": "SAMUEL",
+            "full": "MOHNACS, SAMUEL"
+          }
+        ],
+        "instructors": [
+          "GOGAN, RUSSELL"
+        ],
+        "students": [
+          "MOHNACS, SAMUEL"
+        ],
+        "page": 2,
+        "line": "703",
+        "raw": "703 \u00b7 1115 \u00b7 1300 \u00b7 1412 \u00b7 GOGAN, RUSSELL G, CTR \u00b7 MOHNACS, SAMUEL J, ENS \u00b7 TR4301 \u00b7 1.2 \u00b7 CS; O/I",
+        "role": "TR4301",
+        "remarks": "CS; O/I",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AN42S2",
+        "start": "1330",
+        "end": "1442",
+        "land": "1442",
+        "brief": "1145",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GALLIER",
+            "first": "TANGUY",
+            "full": "GALLIER, TANGUY"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "GALLIER, TANGUY"
+        ],
+        "page": 2,
+        "line": "704",
+        "raw": "704 \u00b7 1145 \u00b7 1330 \u00b7 1442 \u00b7 GALLIER, TANGUY G, ENS \u00b7 AN42S2 \u00b7 1.2 \u00b7 CCX; PNS-NMM",
+        "role": "AN42S2",
+        "remarks": "CCX; PNS-NMM",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AN42S2",
+        "start": "1330",
+        "end": "1442",
+        "land": "1442",
+        "brief": "1145",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GERVAIS DE",
+            "first": "MARC",
+            "full": "GERVAIS DE, MARC"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "GERVAIS DE, MARC"
+        ],
+        "page": 2,
+        "line": "705",
+        "raw": "705 \u00b7 1145 \u00b7 1330 \u00b7 1442 \u00b7 GERVAIS DE, MARC G, ENS \u00b7 AN42S2 \u00b7 1.2 \u00b7 CCX; PNS-NMM",
+        "role": "AN42S2",
+        "remarks": "CCX; PNS-NMM",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AN42S2",
+        "start": "1330",
+        "end": "1442",
+        "land": "1442",
+        "brief": "1145",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PASSAGEZ",
+            "first": "ALEXIS",
+            "full": "PASSAGEZ, ALEXIS"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "PASSAGEZ, ALEXIS"
+        ],
+        "page": 2,
+        "line": "706",
+        "raw": "706 \u00b7 1145 \u00b7 1330 \u00b7 1442 \u00b7 PASSAGEZ, ALEXIS M, ENS \u00b7 AN42S2 \u00b7 1.2 \u00b7 CCX; PNS-NMM",
+        "role": "AN42S2",
+        "remarks": "CCX; PNS-NMM",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AN42S2",
+        "start": "1400",
+        "end": "1512",
+        "land": "1512",
+        "brief": "1215",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DEASON",
+            "first": "JACOB",
+            "full": "DEASON, JACOB"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "DEASON, JACOB"
+        ],
+        "page": 2,
+        "line": "708",
+        "raw": "708 \u00b7 1215 \u00b7 1400 \u00b7 1512 \u00b7 DEASON, JACOB D, ENS \u00b7 AN42S2 \u00b7 1.2 \u00b7 CCX; PNS-NMM",
+        "role": "AN42S2",
+        "remarks": "CCX; PNS-NMM",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AN42S2",
+        "start": "1400",
+        "end": "1512",
+        "land": "1512",
+        "brief": "1215",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAZY",
+            "first": "RYAN",
+            "full": "HAZY, RYAN"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "HAZY, RYAN"
+        ],
+        "page": 2,
+        "line": "709",
+        "raw": "709 \u00b7 1215 \u00b7 1400 \u00b7 1512 \u00b7 HAZY, RYAN J, ENS \u00b7 AN42S2 \u00b7 1.2 \u00b7 CCX; PNS-NMM",
+        "role": "AN42S2",
+        "remarks": "CCX; PNS-NMM",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TR4302",
+        "start": "1530",
+        "end": "1642",
+        "land": "1642",
+        "brief": "1345",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GOGAN",
+            "first": "RUSSELL",
+            "full": "GOGAN, RUSSELL"
+          },
+          {
+            "last": "MOHNACS",
+            "first": "SAMUEL",
+            "full": "MOHNACS, SAMUEL"
+          }
+        ],
+        "instructors": [
+          "GOGAN, RUSSELL"
+        ],
+        "students": [
+          "MOHNACS, SAMUEL"
+        ],
+        "page": 2,
+        "line": "710",
+        "raw": "710 \u00b7 1345 \u00b7 1530 \u00b7 1642 \u00b7 GOGAN, RUSSELL G, CTR Simulator (Sim \u00b7 MOHNACS, SAMUEL J, ENS Event) Schedule \u00b7 TR4302 \u00b7 1.2 \u00b7 RTB",
+        "role": "TR4302",
+        "remarks": "RTB",
+        "duration": "1.2",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

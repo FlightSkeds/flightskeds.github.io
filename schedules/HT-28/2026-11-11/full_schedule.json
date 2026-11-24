@@ -385,5 +385,91 @@
       "line_number": 3,
       "text": "No Meetings Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "CDO",
+        "start": "0800",
+        "end": "0759",
+        "land": "0759",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CANEY",
+            "first": "K",
+            "full": "CANEY, K"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "CDO \u00b7 LT CANEY K \u00b7 0800 \u00b7 0759",
+        "role": "CDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO AM",
+        "start": "0645",
+        "end": "1845",
+        "land": "1845",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LYONS",
+            "first": "E",
+            "full": "LYONS, E"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO AM \u00b7 ENS LYONS E \u00b7 0645 \u00b7 1845",
+        "role": "SDO AM",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO PM",
+        "start": "1845",
+        "end": "0645",
+        "land": "0645",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RUSHING",
+            "first": "N",
+            "full": "RUSHING, N"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO PM \u00b7 2ndLt RUSHING N \u00b7 1845 \u00b7 0645",
+        "role": "SDO PM",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

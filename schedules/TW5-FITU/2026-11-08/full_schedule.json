@@ -443,5 +443,118 @@
       "line_number": 32,
       "text": "A. J. MERRALL M. B. SIPAH"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "I4104",
+        "start": "0700",
+        "end": "0900",
+        "land": "0900",
+        "brief": "0515",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HIBBERT",
+            "first": "KEITH",
+            "full": "HIBBERT, KEITH"
+          },
+          {
+            "last": "FERREE",
+            "first": "EVAN",
+            "full": "FERREE, EVAN"
+          }
+        ],
+        "instructors": [
+          "HIBBERT, KEITH"
+        ],
+        "students": [
+          "FERREE, EVAN"
+        ],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0515 \u00b7 0700 \u00b7 0900 \u00b7 HIBBERT, KEITH L, Maj# \u00b7 FERREE, EVAN E, LT# \u00b7 I4104 \u00b7 2.0/0.0 \u00b7 3x CCX Return",
+        "role": "I4104",
+        "remarks": "3x CCX Return",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4105",
+        "start": "1100",
+        "end": "1300",
+        "land": "1300",
+        "brief": "0915",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HIBBERT",
+            "first": "KEITH",
+            "full": "HIBBERT, KEITH"
+          },
+          {
+            "last": "FERREE",
+            "first": "EVAN",
+            "full": "FERREE, EVAN"
+          }
+        ],
+        "instructors": [
+          "HIBBERT, KEITH"
+        ],
+        "students": [
+          "FERREE, EVAN"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0915 \u00b7 1100 \u00b7 1300 \u00b7 HIBBERT, KEITH L, Maj# \u00b7 FERREE, EVAN E, LT# \u00b7 I4105 \u00b7 2.0/0.0",
+        "role": "I4105",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4106 Event) Schedule",
+        "start": "1500",
+        "end": "1700",
+        "land": "1700",
+        "brief": "1315",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HIBBERT",
+            "first": "KEITH",
+            "full": "HIBBERT, KEITH"
+          },
+          {
+            "last": "FERREE",
+            "first": "EVAN",
+            "full": "FERREE, EVAN"
+          }
+        ],
+        "instructors": [
+          "HIBBERT, KEITH"
+        ],
+        "students": [
+          "FERREE, EVAN"
+        ],
+        "page": 2,
+        "line": "3",
+        "raw": "3 \u00b7 1315 \u00b7 1500 \u00b7 1700 \u00b7 HIBBERT, KEITH L, Maj# \u00b7 FERREE, EVAN E, LT# Simulator (Sim \u00b7 I4106 Event) Schedule \u00b7 2.0/0.0",
+        "role": "I4106 Event) Schedule",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

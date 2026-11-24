@@ -495,5 +495,581 @@
       "line_number": 3,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "CDO",
+        "start": "0800",
+        "end": "0759",
+        "land": "0759",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TAGGETT",
+            "first": "A",
+            "full": "TAGGETT, A"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "CDO \u00b7 Capt TAGGETT A \u00b7 0800 \u00b7 0759",
+        "role": "CDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO AM",
+        "start": "0645",
+        "end": "1845",
+        "land": "1845",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LYONS",
+            "first": "E",
+            "full": "LYONS, E"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO AM \u00b7 ENS LYONS E \u00b7 0645 \u00b7 1845",
+        "role": "SDO AM",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO PM",
+        "start": "1845",
+        "end": "0645",
+        "land": "0645",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MURRAY",
+            "first": "C",
+            "full": "MURRAY, C"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO PM \u00b7 1stLt MURRAY C \u00b7 1845 \u00b7 0645",
+        "role": "SDO PM",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "BI4101A",
+        "start": "1000",
+        "end": "1336",
+        "land": "1336",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SWEENEY",
+            "first": "T",
+            "full": "SWEENEY, T"
+          },
+          {
+            "last": "RITZ",
+            "first": "G",
+            "full": "RITZ, G"
+          }
+        ],
+        "instructors": [
+          "SWEENEY, T"
+        ],
+        "students": [
+          "RITZ, G"
+        ],
+        "page": 3,
+        "line": "T08-1",
+        "raw": "T08-1 \u00b7 0745 \u00b7 1000 \u00b7 1336 \u00b7 LCDR SWEENEY T \u00b7 LTJG RITZ G \u00b7 BI4101A \u00b7 3.6 \u00b7 PREPO-KNDZ",
+        "role": "BI4101A",
+        "remarks": "PREPO-KNDZ",
+        "duration": "3.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "BI4101A",
+        "start": "",
+        "end": "",
+        "land": "",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SWEENEY",
+            "first": "T",
+            "full": "SWEENEY, T"
+          },
+          {
+            "last": "SUAREZ",
+            "first": "R",
+            "full": "SUAREZ, R"
+          }
+        ],
+        "instructors": [
+          "SWEENEY, T"
+        ],
+        "students": [
+          "SUAREZ, R"
+        ],
+        "page": 3,
+        "line": "T08-1",
+        "raw": "T08-1 \u00b7 0745 \u00b7 KNDZ \u00b7 KNDZ \u00b7 LCDR SWEENEY T \u00b7 ENS SUAREZ R \u00b7 BI4101A",
+        "role": "BI4101A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4002A,",
+        "start": "1000",
+        "end": "1600",
+        "land": "1600",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HODGES",
+            "first": "H",
+            "full": "HODGES, H"
+          },
+          {
+            "last": "GAMMON",
+            "first": "T",
+            "full": "GAMMON, T"
+          }
+        ],
+        "instructors": [
+          "HODGES, H"
+        ],
+        "students": [
+          "GAMMON, T"
+        ],
+        "page": 3,
+        "line": "T56-1",
+        "raw": "T56-1 \u00b7 0745 \u00b7 1000 \u00b7 1600 \u00b7 LT HODGES H \u00b7 1stLt GAMMON T \u00b7 NAV4002A, \u00b7 8.0 \u00b7 CCX-KGNV-KTLH-KNDZ",
+        "role": "NAV4002A,",
+        "remarks": "CCX-KGNV-KTLH-KNDZ",
+        "duration": "8.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4101A RI4202A RI4203A",
+        "start": "",
+        "end": "",
+        "land": "",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HODGES",
+            "first": "H",
+            "full": "HODGES, H"
+          },
+          {
+            "last": "JOHNSON",
+            "first": "J",
+            "full": "JOHNSON, J"
+          }
+        ],
+        "instructors": [
+          "HODGES, H"
+        ],
+        "students": [
+          "JOHNSON, J"
+        ],
+        "page": 3,
+        "line": "T56-1",
+        "raw": "T56-1 \u00b7 0745 \u00b7 KGNV \u00b7 KNDZ \u00b7 LT HODGES H \u00b7 LTJG JOHNSON J \u00b7 NAV4101A RI4202A RI4203A",
+        "role": "NAV4101A RI4202A RI4203A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4002A,",
+        "start": "1000",
+        "end": "1600",
+        "land": "1600",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ADAMS",
+            "first": "S",
+            "full": "ADAMS, S"
+          },
+          {
+            "last": "RAMIREZ",
+            "first": "C",
+            "full": "RAMIREZ, C"
+          }
+        ],
+        "instructors": [
+          "ADAMS, S"
+        ],
+        "students": [
+          "RAMIREZ, C"
+        ],
+        "page": 3,
+        "line": "T60-1",
+        "raw": "T60-1 \u00b7 0745 \u00b7 1000 \u00b7 1600 \u00b7 LT ADAMS S \u00b7 LTJG RAMIREZ C \u00b7 NAV4002A, \u00b7 8.0 \u00b7 CCX-KGNV-KTLH-KNDZ",
+        "role": "NAV4002A,",
+        "remarks": "CCX-KGNV-KTLH-KNDZ",
+        "duration": "8.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4101A NAV4002R NAV4101A",
+        "start": "",
+        "end": "",
+        "land": "",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ADAMS",
+            "first": "S",
+            "full": "ADAMS, S"
+          },
+          {
+            "last": "RAUSCH",
+            "first": "B",
+            "full": "RAUSCH, B"
+          }
+        ],
+        "instructors": [
+          "ADAMS, S"
+        ],
+        "students": [
+          "RAUSCH, B"
+        ],
+        "page": 3,
+        "line": "T60-1",
+        "raw": "T60-1 \u00b7 0745 \u00b7 KGNV \u00b7 KNDZ \u00b7 LT ADAMS S \u00b7 LTJG RAUSCH B \u00b7 NAV4101A NAV4002R NAV4101A",
+        "role": "NAV4101A NAV4002R NAV4101A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4203R",
+        "start": "1000",
+        "end": "1600",
+        "land": "1600",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PLUCHINO",
+            "first": "A",
+            "full": "PLUCHINO, A"
+          },
+          {
+            "last": "HOLLIS",
+            "first": "J",
+            "full": "HOLLIS, J"
+          }
+        ],
+        "instructors": [
+          "PLUCHINO, A"
+        ],
+        "students": [
+          "HOLLIS, J"
+        ],
+        "page": 3,
+        "line": "T64-1",
+        "raw": "T64-1 \u00b7 0745 \u00b7 1000 \u00b7 1600 \u00b7 LT PLUCHINO A \u00b7 ENS HOLLIS J \u00b7 RI4203R \u00b7 6.0 \u00b7 CCX-KCHS-KBQK-KTLH-KNDZ",
+        "role": "RI4203R",
+        "remarks": "CCX-KCHS-KBQK-KTLH-KNDZ",
+        "duration": "6.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4002A, NAV4101A",
+        "start": "",
+        "end": "",
+        "land": "",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PLUCHINO",
+            "first": "A",
+            "full": "PLUCHINO, A"
+          },
+          {
+            "last": "HUGHES",
+            "first": "J",
+            "full": "HUGHES, J"
+          }
+        ],
+        "instructors": [
+          "PLUCHINO, A"
+        ],
+        "students": [
+          "HUGHES, J"
+        ],
+        "page": 3,
+        "line": "T64-1",
+        "raw": "T64-1 \u00b7 0745 \u00b7 KCHS \u00b7 KNDZ \u00b7 LT PLUCHINO A \u00b7 LTJG HUGHES J \u00b7 NAV4002A, NAV4101A",
+        "role": "NAV4002A, NAV4101A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4002A,",
+        "start": "1000",
+        "end": "1600",
+        "land": "1600",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KOHUT",
+            "first": "D",
+            "full": "KOHUT, D"
+          },
+          {
+            "last": "PITRE",
+            "first": "C",
+            "full": "PITRE, C"
+          }
+        ],
+        "instructors": [
+          "KOHUT, D"
+        ],
+        "students": [
+          "PITRE, C"
+        ],
+        "page": 3,
+        "line": "T68-1",
+        "raw": "T68-1 \u00b7 0745 \u00b7 1000 \u00b7 1600 \u00b7 LT KOHUT D \u00b7 LTJG PITRE C \u00b7 NAV4002A, \u00b7 6.0 \u00b7 CCX-KMCO-KGNV-KTLH-KNDZ",
+        "role": "NAV4002A,",
+        "remarks": "CCX-KMCO-KGNV-KTLH-KNDZ",
+        "duration": "6.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4101A NAV4002A",
+        "start": "",
+        "end": "",
+        "land": "",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KOHUT",
+            "first": "D",
+            "full": "KOHUT, D"
+          },
+          {
+            "last": "MAURINO",
+            "first": "P",
+            "full": "MAURINO, P"
+          }
+        ],
+        "instructors": [
+          "KOHUT, D"
+        ],
+        "students": [
+          "MAURINO, P"
+        ],
+        "page": 3,
+        "line": "T68-1",
+        "raw": "T68-1 \u00b7 0745 \u00b7 KMCO \u00b7 KNDZ \u00b7 LT KOHUT D \u00b7 1stLt MAURINO P \u00b7 NAV4101A NAV4002A",
+        "role": "NAV4101A NAV4002A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4202A,",
+        "start": "1000",
+        "end": "1600",
+        "land": "1600",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WATTS",
+            "first": "C",
+            "full": "WATTS, C"
+          },
+          {
+            "last": "MAGIERA",
+            "first": "T",
+            "full": "MAGIERA, T"
+          }
+        ],
+        "instructors": [
+          "WATTS, C"
+        ],
+        "students": [
+          "MAGIERA, T"
+        ],
+        "page": 3,
+        "line": "T72-1",
+        "raw": "T72-1 \u00b7 0745 \u00b7 1000 \u00b7 1600 \u00b7 LT WATTS C \u00b7 LTJG MAGIERA T \u00b7 RI4202A, \u00b7 6.0 \u00b7 CCX-KCHS-KBQK-KTLH-KNDZ",
+        "role": "RI4202A,",
+        "remarks": "CCX-KCHS-KBQK-KTLH-KNDZ",
+        "duration": "6.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4203A RI4203A",
+        "start": "",
+        "end": "",
+        "land": "",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WATTS",
+            "first": "C",
+            "full": "WATTS, C"
+          },
+          {
+            "last": "ROSA",
+            "first": "F",
+            "full": "ROSA, F"
+          }
+        ],
+        "instructors": [
+          "WATTS, C"
+        ],
+        "students": [
+          "ROSA, F"
+        ],
+        "page": 3,
+        "line": "T72-1",
+        "raw": "T72-1 \u00b7 0745 \u00b7 KCHS \u00b7 KNDZ \u00b7 LT WATTS C \u00b7 1stLt ROSA F \u00b7 RI4203A RI4203A",
+        "role": "RI4203A RI4203A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4202A",
+        "start": "1000",
+        "end": "1600",
+        "land": "1600",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CASTO",
+            "first": "C",
+            "full": "CASTO, C"
+          },
+          {
+            "last": "MORKE",
+            "first": "C",
+            "full": "MORKE, C"
+          }
+        ],
+        "instructors": [
+          "CASTO, C"
+        ],
+        "students": [
+          "MORKE, C"
+        ],
+        "page": 3,
+        "line": "T76-1",
+        "raw": "T76-1 \u00b7 0745 \u00b7 1000 \u00b7 1600 \u00b7 LT CASTO C \u00b7 LTJG MORKE C \u00b7 RI4202A \u00b7 8.0 \u00b7 CCX-KGNV-KTLH-KNDZ",
+        "role": "RI4202A",
+        "remarks": "CCX-KGNV-KTLH-KNDZ",
+        "duration": "8.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4203A NAV4002A, NAV4101A",
+        "start": "",
+        "end": "",
+        "land": "",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CASTO",
+            "first": "C",
+            "full": "CASTO, C"
+          },
+          {
+            "last": "MACAZO",
+            "first": "C",
+            "full": "MACAZO, C"
+          }
+        ],
+        "instructors": [
+          "CASTO, C"
+        ],
+        "students": [
+          "MACAZO, C"
+        ],
+        "page": 3,
+        "line": "T76-1",
+        "raw": "T76-1 \u00b7 0745 \u00b7 KGNV \u00b7 KNDZ \u00b7 LT CASTO C \u00b7 LTJG MACAZO C \u00b7 RI4203A NAV4002A, NAV4101A",
+        "role": "RI4203A NAV4002A, NAV4101A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

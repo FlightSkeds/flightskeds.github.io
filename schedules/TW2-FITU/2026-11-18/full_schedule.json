@@ -553,5 +553,510 @@
       "line_number": 3,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "DIV LEAD",
+        "start": "0910",
+        "end": "1020",
+        "land": "1020",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WOLTERMAN",
+            "first": "SEAN",
+            "full": "WOLTERMAN, SEAN"
+          }
+        ],
+        "instructors": [
+          "WOLTERMAN, SEAN"
+        ],
+        "students": [],
+        "page": 1,
+        "line": "1",
+        "raw": "1 \u00b7 0745 \u00b7 0910 \u00b7 1020 \u00b7 WOLTERMAN, SEAN M, LtCol \u00b7 DIV LEAD \u00b7 1.2/0.0 \u00b7 FLY OVER, 2xSpare",
+        "role": "DIV LEAD",
+        "remarks": "FLY OVER, 2xSpare",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "DIV PLAT",
+        "start": "0910",
+        "end": "1020",
+        "land": "1020",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "VILLARREAL",
+            "first": "VAUGHN",
+            "full": "VILLARREAL, VAUGHN"
+          },
+          {
+            "last": "BAIN",
+            "first": "GRAHAM",
+            "full": "BAIN, GRAHAM"
+          }
+        ],
+        "instructors": [
+          "VILLARREAL, VAUGHN"
+        ],
+        "students": [
+          "BAIN, GRAHAM"
+        ],
+        "page": 1,
+        "line": "2",
+        "raw": "2 \u00b7 0745 \u00b7 0910 \u00b7 1020 \u00b7 VILLARREAL, VAUGHN A, CDR \u00b7 BAIN, GRAHAM E, Capt \u00b7 DIV PLAT \u00b7 1.2/0.0 \u00b7 FLY OVER",
+        "role": "DIV PLAT",
+        "remarks": "FLY OVER",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "DIV PLAT",
+        "start": "0910",
+        "end": "1020",
+        "land": "1020",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAHAFFEY",
+            "first": "DANIEL",
+            "full": "MAHAFFEY, DANIEL"
+          }
+        ],
+        "instructors": [
+          "MAHAFFEY, DANIEL"
+        ],
+        "students": [],
+        "page": 1,
+        "line": "3",
+        "raw": "3 \u00b7 0745 \u00b7 0910 \u00b7 1020 \u00b7 MAHAFFEY, DANIEL , LCDR \u00b7 DIV PLAT \u00b7 1.2/0.0 \u00b7 FLY OVER",
+        "role": "DIV PLAT",
+        "remarks": "FLY OVER",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "DIV PLAT",
+        "start": "0910",
+        "end": "1020",
+        "land": "1020",
+        "brief": "0745",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WOLFE",
+            "first": "JEREMY",
+            "full": "WOLFE, JEREMY"
+          }
+        ],
+        "instructors": [
+          "WOLFE, JEREMY"
+        ],
+        "students": [],
+        "page": 1,
+        "line": "4",
+        "raw": "4 \u00b7 0745 \u00b7 0910 \u00b7 1020 \u00b7 WOLFE, JEREMY P, Capt \u00b7 DIV PLAT \u00b7 1.2/0.0 \u00b7 FLY OVER",
+        "role": "DIV PLAT",
+        "remarks": "FLY OVER",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4690",
+        "start": "1000",
+        "end": "1112",
+        "land": "1112",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GREELEY",
+            "first": "BRENDAN",
+            "full": "GREELEY, BRENDAN"
+          },
+          {
+            "last": "MULINIX",
+            "first": "BENJAMIN",
+            "full": "MULINIX, BENJAMIN"
+          }
+        ],
+        "instructors": [
+          "GREELEY, BRENDAN"
+        ],
+        "students": [
+          "MULINIX, BENJAMIN"
+        ],
+        "page": 1,
+        "line": "5",
+        "raw": "5 \u00b7 0830 \u00b7 1000 \u00b7 1112 \u00b7 GREELEY, BRENDAN E, CDR \u00b7 MULINIX, BENJAMIN S, CAPT \u00b7 NA4690 \u00b7 1.2/0.0",
+        "role": "NA4690",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4201",
+        "start": "1015",
+        "end": "1127",
+        "land": "1127",
+        "brief": "0845",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MURICKAN",
+            "first": "JOBIN",
+            "full": "MURICKAN, JOBIN"
+          },
+          {
+            "last": "SHARP",
+            "first": "BLAKE",
+            "full": "SHARP, BLAKE"
+          }
+        ],
+        "instructors": [
+          "MURICKAN, JOBIN"
+        ],
+        "students": [
+          "SHARP, BLAKE"
+        ],
+        "page": 1,
+        "line": "6",
+        "raw": "6 \u00b7 0845 \u00b7 1015 \u00b7 1127 \u00b7 MURICKAN, JOBIN G, LCDR \u00b7 SHARP, BLAKE R, LT \u00b7 NA4201 \u00b7 1.2/0.0",
+        "role": "NA4201",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4690",
+        "start": "1045",
+        "end": "1157",
+        "land": "1157",
+        "brief": "0915",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BARON VON VIETINGHOFF- SCHEEL",
+            "first": "THOMAS",
+            "full": "BARON VON VIETINGHOFF- SCHEEL, THOMAS"
+          },
+          {
+            "last": "AIKEN",
+            "first": "CHRISTOPHER",
+            "full": "AIKEN, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "BARON VON VIETINGHOFF- SCHEEL, THOMAS"
+        ],
+        "students": [
+          "AIKEN, CHRISTOPHER"
+        ],
+        "page": 1,
+        "line": "7",
+        "raw": "7 \u00b7 0915 \u00b7 1045 \u00b7 1157 \u00b7 BARON VON VIETINGHOFF- SCHEEL, THOMAS C, LT \u00b7 AIKEN, CHRISTOPHER R, LCDR \u00b7 NA4690 \u00b7 1.2/0.0",
+        "role": "NA4690",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4501",
+        "start": "1100",
+        "end": "1154",
+        "land": "1154",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LYSTAD",
+            "first": "KEVIN",
+            "full": "LYSTAD, KEVIN"
+          },
+          {
+            "last": "BURNELL",
+            "first": "MICHAEL",
+            "full": "BURNELL, MICHAEL"
+          }
+        ],
+        "instructors": [
+          "LYSTAD, KEVIN"
+        ],
+        "students": [
+          "BURNELL, MICHAEL"
+        ],
+        "page": 1,
+        "line": "8",
+        "raw": "8 \u00b7 0930 \u00b7 1100 \u00b7 1154 \u00b7 LYSTAD, KEVIN H, LCDR \u00b7 BURNELL, MICHAEL D, LCDR \u00b7 NA4501 \u00b7 0.9/0.0",
+        "role": "NA4501",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4202",
+        "start": "1315",
+        "end": "1427",
+        "land": "1427",
+        "brief": "1145",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MURICKAN",
+            "first": "JOBIN",
+            "full": "MURICKAN, JOBIN"
+          },
+          {
+            "last": "SHARP",
+            "first": "BLAKE",
+            "full": "SHARP, BLAKE"
+          }
+        ],
+        "instructors": [
+          "MURICKAN, JOBIN"
+        ],
+        "students": [
+          "SHARP, BLAKE"
+        ],
+        "page": 1,
+        "line": "9",
+        "raw": "9 \u00b7 1145 \u00b7 1315 \u00b7 1427 \u00b7 MURICKAN, JOBIN G, LCDR \u00b7 SHARP, BLAKE R, LT \u00b7 NA4202 \u00b7 1.2/0.0",
+        "role": "NA4202",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4203",
+        "start": "1400",
+        "end": "1512",
+        "land": "1512",
+        "brief": "1230",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LYSTAD",
+            "first": "KEVIN",
+            "full": "LYSTAD, KEVIN"
+          },
+          {
+            "last": "BURNELL",
+            "first": "MICHAEL",
+            "full": "BURNELL, MICHAEL"
+          }
+        ],
+        "instructors": [
+          "LYSTAD, KEVIN"
+        ],
+        "students": [
+          "BURNELL, MICHAEL"
+        ],
+        "page": 1,
+        "line": "10",
+        "raw": "10 \u00b7 1230 \u00b7 1400 \u00b7 1512 \u00b7 LYSTAD, KEVIN H, LCDR \u00b7 BURNELL, MICHAEL D, LCDR \u00b7 NA4203 \u00b7 1.2/0.0",
+        "role": "NA4203",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NFR LEAD",
+        "start": "1745",
+        "end": "1903",
+        "land": "1903",
+        "brief": "1615",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HILLER",
+            "first": "KURT",
+            "full": "HILLER, KURT"
+          }
+        ],
+        "instructors": [
+          "HILLER, KURT"
+        ],
+        "students": [],
+        "page": 1,
+        "line": "11",
+        "raw": "11 \u00b7 1615 \u00b7 1745 \u00b7 1903 \u00b7 HILLER, KURT E, LT \u00b7 NFR LEAD \u00b7 1.3/0.0 \u00b7 LD TUCKER",
+        "role": "NFR LEAD",
+        "remarks": "LD TUCKER",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NFR4102",
+        "start": "1745",
+        "end": "1903",
+        "land": "1903",
+        "brief": "1615",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STEVENS",
+            "first": "SCOTT",
+            "full": "STEVENS, SCOTT"
+          },
+          {
+            "last": "TUCKER",
+            "first": "CHRISTOPHER",
+            "full": "TUCKER, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "STEVENS, SCOTT"
+        ],
+        "students": [
+          "TUCKER, CHRISTOPHER"
+        ],
+        "page": 1,
+        "line": "12",
+        "raw": "12 \u00b7 1615 \u00b7 1745 \u00b7 1903 \u00b7 STEVENS, SCOTT C, CTR Simulator (Sim \u00b7 Event) \u00b7 TUCKER, CHRISTOPHER S, LCDR Schedule \u00b7 NFR4102 \u00b7 1.3/0.0 \u00b7 R/C",
+        "role": "NFR4102",
+        "remarks": "R/C",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "EP SIM",
+        "start": "0900",
+        "end": "",
+        "land": "",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DICK",
+            "first": "GEOFFREY",
+            "full": "DICK, GEOFFREY"
+          },
+          {
+            "last": "IRWIN",
+            "first": "JUSTIN",
+            "full": "IRWIN, JUSTIN"
+          }
+        ],
+        "instructors": [
+          "DICK, GEOFFREY"
+        ],
+        "students": [
+          "IRWIN, JUSTIN"
+        ],
+        "page": 1,
+        "line": "1",
+        "raw": "1 \u00b7 0830 \u00b7 0900 \u00b7 506 \u00b7 DICK, GEOFFREY L, CTR \u00b7 IRWIN, JUSTIN D, 1stLt \u00b7 EP SIM",
+        "role": "EP SIM",
+        "remarks": "",
+        "duration": "",
+        "device": "506",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "WARMUP/BITS SIM",
+        "start": "1130",
+        "end": "",
+        "land": "",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KILMER",
+            "first": "JUSTIN",
+            "full": "KILMER, JUSTIN"
+          },
+          {
+            "last": "ATKINSON",
+            "first": "NATHAN",
+            "full": "ATKINSON, NATHAN"
+          }
+        ],
+        "instructors": [
+          "KILMER, JUSTIN"
+        ],
+        "students": [
+          "ATKINSON, NATHAN"
+        ],
+        "page": 1,
+        "line": "2",
+        "raw": "2 \u00b7 1100 \u00b7 1130 \u00b7 502 \u00b7 KILMER, JUSTIN L, CTR \u00b7 ATKINSON, NATHAN , CDR \u00b7 WARMUP/BITS SIM",
+        "role": "WARMUP/BITS SIM",
+        "remarks": "",
+        "duration": "",
+        "device": "502",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "NA3201",
+        "start": "1200",
+        "end": "",
+        "land": "",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STROTHER",
+            "first": "HARRY",
+            "full": "STROTHER, HARRY"
+          },
+          {
+            "last": "HARRISON",
+            "first": "BENJAMIN",
+            "full": "HARRISON, BENJAMIN"
+          }
+        ],
+        "instructors": [
+          "STROTHER, HARRY"
+        ],
+        "students": [
+          "HARRISON, BENJAMIN"
+        ],
+        "page": 1,
+        "line": "3",
+        "raw": "3 \u00b7 1130 \u00b7 1200 \u00b7 501 \u00b7 STROTHER, HARRY A, CTR \u00b7 HARRISON, BENJAMIN S, LCDR \u00b7 NA3201",
+        "role": "NA3201",
+        "remarks": "",
+        "duration": "",
+        "device": "501",
+        "solo": false
+      }
+    ]
+  }
 }

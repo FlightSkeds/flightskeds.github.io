@@ -189,5 +189,101 @@
       "line_number": 24,
       "text": "SYSTEMS REVIEW"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "ON4290 (RPT)",
+        "start": "1030",
+        "end": "1206",
+        "land": "1206",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LAVALLE",
+            "first": "CHRISTIAN",
+            "full": "LAVALLE, CHRISTIAN"
+          },
+          {
+            "last": "HUFFMAN",
+            "first": "STEPHEN",
+            "full": "HUFFMAN, STEPHEN"
+          }
+        ],
+        "instructors": [
+          "LAVALLE, CHRISTIAN"
+        ],
+        "students": [
+          "HUFFMAN, STEPHEN"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "0900 \u00b7 1030 \u00b7 1206 \u00b7 LAVALLE, CHRISTIAN \u00b7 HUFFMAN, STEPHEN \u00b7 ON4290 (RPT) \u00b7 1.6 \u00b7 DD-1801, LAND NPA",
+        "role": "ON4290 (RPT)",
+        "remarks": "DD-1801, LAND NPA",
+        "duration": "1.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4108 Events",
+        "start": "1100",
+        "end": "1248",
+        "land": "1248",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "POPE",
+            "first": "DANIEL",
+            "full": "POPE, DANIEL"
+          },
+          {
+            "last": "ORTIZ",
+            "first": "RICHARD",
+            "full": "ORTIZ, RICHARD"
+          },
+          {
+            "last": "GROUND PERSON CLEVELAND",
+            "first": "JONATHAN",
+            "full": "GROUND PERSON CLEVELAND, JONATHAN"
+          },
+          {
+            "last": "MITCHELL",
+            "first": "KEITH",
+            "full": "MITCHELL, KEITH"
+          },
+          {
+            "last": "CLEVELAND",
+            "first": "JONATHAN",
+            "full": "CLEVELAND, JONATHAN"
+          }
+        ],
+        "instructors": [
+          "POPE, DANIEL"
+        ],
+        "students": [
+          "ORTIZ, RICHARD",
+          "GROUND PERSON CLEVELAND, JONATHAN",
+          "MITCHELL, KEITH",
+          "CLEVELAND, JONATHAN"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "0900 No Simulators Time CAI 0000-2359 Meetings 1000-1030 MIL 0800-1000 \u00b7 1100 Scheduled Event ENG0114-ENG0121 OIC COMMUNICATIONS SYSTEMS \u00b7 1248 BRIEF REVIEW \u00b7 POPE, DANIEL & NAVIGATION \u00b7 ORTIZ, RICHARD Ground Person CLEVELAND, JONATHAN MITCHELL, KEITH CLEVELAND, JONATHAN \u00b7 NA4108 Events \u00b7 1.8 \u00b7 DD-1801, LAND NPA Instructor Location T-SHARP MONTANA, JOHN FITU CARL, JOHN GRIFFITH HALL RM 224",
+        "role": "NA4108 Events",
+        "remarks": "DD-1801, LAND NPA Instructor Location T-SHARP MONTANA, JOHN FITU CARL, JOHN GRIFFITH HALL RM 224",
+        "duration": "1.8",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

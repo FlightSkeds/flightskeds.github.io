@@ -415,5 +415,239 @@
       "line_number": 22,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "ODO (ON CALL)",
+        "start": "0000",
+        "end": "1230",
+        "land": "1230",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ANDERSON",
+            "first": "EVAN",
+            "full": "ANDERSON, EVAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "ODO (ON CALL) \u00b7 ANDERSON, EVAN C, 1stLt \u00b7 0000 \u00b7 1230",
+        "role": "ODO (ON CALL)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "IWO",
+        "start": "0600",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KEMPER",
+            "first": "CONNOR",
+            "full": "KEMPER, CONNOR"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "IWO \u00b7 KEMPER, CONNOR N, ENS \u00b7 0600 \u00b7 1800",
+        "role": "IWO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER",
+        "start": "0700",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KIENLE",
+            "first": "RICHARD",
+            "full": "KIENLE, RICHARD"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER \u00b7 KIENLE, RICHARD L, ENS \u00b7 0700 \u00b7 1800",
+        "role": "DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM ODO",
+        "start": "1230",
+        "end": "1700",
+        "land": "1700",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ANDERSON",
+            "first": "EVAN",
+            "full": "ANDERSON, EVAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM ODO \u00b7 ANDERSON, EVAN C, 1stLt \u00b7 1230 \u00b7 1700",
+        "role": "PM ODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "ODO (ON CALL)",
+        "start": "1700",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ANDERSON",
+            "first": "EVAN",
+            "full": "ANDERSON, EVAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "ODO (ON CALL) \u00b7 ANDERSON, EVAN C, 1stLt \u00b7 1700 \u00b7 2359",
+        "role": "ODO (ON CALL)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "IWO",
+        "start": "1800",
+        "end": "0600",
+        "land": "0600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIMONSEN",
+            "first": "JOSHUA",
+            "full": "SIMONSEN, JOSHUA"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "IWO \u00b7 SIMONSEN, JOSHUA M, LTJG \u00b7 1800 \u00b7 0600",
+        "role": "IWO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4102",
+        "start": "1030",
+        "end": "1200",
+        "land": "1200",
+        "brief": "0845",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TAYLOR",
+            "first": "DEVIN",
+            "full": "TAYLOR, DEVIN"
+          },
+          {
+            "last": "MELCHER",
+            "first": "JOSEPH",
+            "full": "MELCHER, JOSEPH"
+          }
+        ],
+        "instructors": [
+          "TAYLOR, DEVIN"
+        ],
+        "students": [
+          "MELCHER, JOSEPH"
+        ],
+        "page": 2,
+        "line": "701",
+        "raw": "701 \u00b7 0845 \u00b7 1030 \u00b7 1200 \u00b7 TAYLOR, DEVIN S, LCDR \u00b7 MELCHER, JOSEPH B, LTJG \u00b7 IR4102 \u00b7 1.5 \u00b7 CCX; NPA-MGM",
+        "role": "IR4102",
+        "remarks": "CCX; NPA-MGM",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "IR4103",
+        "start": "1300",
+        "end": "1430",
+        "land": "1430",
+        "brief": "1115",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TAYLOR",
+            "first": "DEVIN",
+            "full": "TAYLOR, DEVIN"
+          },
+          {
+            "last": "MELCHER",
+            "first": "JOSEPH",
+            "full": "MELCHER, JOSEPH"
+          }
+        ],
+        "instructors": [
+          "TAYLOR, DEVIN"
+        ],
+        "students": [
+          "MELCHER, JOSEPH"
+        ],
+        "page": 2,
+        "line": "702",
+        "raw": "702 \u00b7 1115 \u00b7 1300 \u00b7 1430 \u00b7 TAYLOR, DEVIN S, LCDR Simulator (Sim Event) \u00b7 MELCHER, JOSEPH B, LTJG Schedule \u00b7 IR4103 \u00b7 1.5 \u00b7 CCX; MGM-NMM",
+        "role": "IR4103",
+        "remarks": "CCX; MGM-NMM",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

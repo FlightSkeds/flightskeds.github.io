@@ -456,5 +456,250 @@
       "line_number": 20,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "FDO",
+        "start": "0700",
+        "end": "0659",
+        "land": "0659",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HUNG",
+            "first": "C",
+            "full": "HUNG, C"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "FDO \u00b7 LT HUNG C \u00b7 0700 \u00b7 0659",
+        "role": "FDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER",
+        "start": "0730",
+        "end": "0729",
+        "land": "0729",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RIEBE",
+            "first": "J",
+            "full": "RIEBE, J"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER \u00b7 ENS RIEBE J \u00b7 0730 \u00b7 0729",
+        "role": "DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM SDO",
+        "start": "0700",
+        "end": "1900",
+        "land": "1900",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MICO",
+            "first": "D",
+            "full": "MICO, D"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM SDO \u00b7 1stLt MICO D \u00b7 0700 \u00b7 1900",
+        "role": "AM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM SDO",
+        "start": "1900",
+        "end": "0700",
+        "land": "0700",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GRIFFEY",
+            "first": "I",
+            "full": "GRIFFEY, I"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM SDO \u00b7 LTJG GRIFFEY I \u00b7 1900 \u00b7 0700",
+        "role": "PM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4002A,",
+        "start": "1215",
+        "end": "1815",
+        "land": "1815",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LIBERT",
+            "first": "N",
+            "full": "LIBERT, N"
+          },
+          {
+            "last": "CABAN",
+            "first": "M",
+            "full": "CABAN, M"
+          }
+        ],
+        "instructors": [
+          "LIBERT, N"
+        ],
+        "students": [
+          "CABAN, M"
+        ],
+        "page": 2,
+        "line": "T02-1",
+        "raw": "T02-1 \u00b7 1000 \u00b7 1215 \u00b7 1815 \u00b7 KSGJ \u00b7 KNDZ \u00b7 Maj LIBERT N \u00b7 1stLt CABAN M \u00b7 NAV4002A, \u00b7 6.0 \u00b7 CCX RTB FROM ST",
+        "role": "NAV4002A,",
+        "remarks": "CCX RTB FROM ST",
+        "duration": "6.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4101A RI4203A",
+        "start": "1215",
+        "end": "1815",
+        "land": "1815",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LIBERT",
+            "first": "N",
+            "full": "LIBERT, N"
+          },
+          {
+            "last": "GOSSELIN",
+            "first": "C",
+            "full": "GOSSELIN, C"
+          }
+        ],
+        "instructors": [
+          "LIBERT, N"
+        ],
+        "students": [
+          "GOSSELIN, C"
+        ],
+        "page": 2,
+        "line": "T02-1",
+        "raw": "T02-1 \u00b7 1000 \u00b7 1215 \u00b7 1815 \u00b7 Maj LIBERT N \u00b7 1stLt GOSSELIN C \u00b7 NAV4101A RI4203A \u00b7 AUGUSTINE, FL",
+        "role": "NAV4101A RI4203A",
+        "remarks": "AUGUSTINE, FL",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4202A,",
+        "start": "1215",
+        "end": "1815",
+        "land": "1815",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HYNDS",
+            "first": "S",
+            "full": "HYNDS, S"
+          },
+          {
+            "last": "RAUCCI",
+            "first": "Z",
+            "full": "RAUCCI, Z"
+          }
+        ],
+        "instructors": [
+          "HYNDS, S"
+        ],
+        "students": [
+          "RAUCCI, Z"
+        ],
+        "page": 2,
+        "line": "T06-1",
+        "raw": "T06-1 \u00b7 1000 \u00b7 1215 \u00b7 1815 \u00b7 KSGJ \u00b7 KNDZ \u00b7 LT HYNDS S \u00b7 LTJG RAUCCI Z \u00b7 RI4202A, \u00b7 6.0 \u00b7 CCX RTB FROM ST",
+        "role": "RI4202A,",
+        "remarks": "CCX RTB FROM ST",
+        "duration": "6.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4203A RI4203A",
+        "start": "1215",
+        "end": "1815",
+        "land": "1815",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GRUENDLING K SCHEDULE",
+            "first": "",
+            "full": "GRUENDLING K SCHEDULE"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "GRUENDLING K SCHEDULE"
+        ],
+        "page": 2,
+        "line": "T06-1",
+        "raw": "T06-1 \u00b7 1000 \u00b7 1215 \u00b7 1815 \u00b7 LT HYNDS S Simulator (Sim Event) \u00b7 LTJG GRUENDLING K Schedule \u00b7 RI4203A RI4203A \u00b7 AUGUSTINE, FL",
+        "role": "RI4203A RI4203A",
+        "remarks": "AUGUSTINE, FL",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

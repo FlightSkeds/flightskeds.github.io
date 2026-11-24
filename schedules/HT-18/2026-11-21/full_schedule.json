@@ -604,5 +604,674 @@
       "line_number": 25,
       "text": "3"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "CDO",
+        "start": "0700",
+        "end": "2100",
+        "land": "2100",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DAVIDSON",
+            "first": "JAMIE",
+            "full": "DAVIDSON, JAMIE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "CDO \u00b7 DAVIDSON, JAMIE L, LT \u00b7 0700 \u00b7 2100",
+        "role": "CDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM SDO",
+        "start": "0600",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HUANG",
+            "first": "BRENNA",
+            "full": "HUANG, BRENNA"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM SDO \u00b7 HUANG, BRENNA E, 1stLt \u00b7 0600 \u00b7 1800",
+        "role": "AM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM SDO",
+        "start": "1800",
+        "end": "0600",
+        "land": "0600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NULL",
+            "first": "MADELINE",
+            "full": "NULL, MADELINE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM SDO \u00b7 NULL, MADELINE L, 1stLt \u00b7 1800 \u00b7 0600",
+        "role": "PM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM DUTY DRIVER",
+        "start": "0730",
+        "end": "1600",
+        "land": "1600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WARNOCK",
+            "first": "SAMUEL",
+            "full": "WARNOCK, SAMUEL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM DUTY DRIVER \u00b7 WARNOCK, SAMUEL E, ENS \u00b7 0730 \u00b7 1600",
+        "role": "AM DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "BI4001M",
+        "start": "0815",
+        "end": "1400",
+        "land": "1400",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DURHAM",
+            "first": "JUSTIN",
+            "full": "DURHAM, JUSTIN"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "DURHAM, JUSTIN"
+        ],
+        "page": 2,
+        "line": "T03-1",
+        "raw": "T03-1 \u00b7 0600 \u00b7 0815 \u00b7 1400 \u00b7 KNDZ \u00b7 KNDZ \u00b7 RATH, \u00b7 DURHAM, JUSTIN, LT \u00b7 BI4001M \u00b7 1D1 \u00b7 5.3 \u00b7 HOME FIELD CTO",
+        "role": "BI4001M",
+        "remarks": "HOME FIELD CTO",
+        "duration": "5.3",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "TRF4003A TRF4002R",
+        "start": "0815",
+        "end": "1400",
+        "land": "1400",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CASTAGNA",
+            "first": "ANGELINE",
+            "full": "CASTAGNA, ANGELINE"
+          },
+          {
+            "last": "STLT ZIEGENFUS",
+            "first": "TAYLOR",
+            "full": "STLT ZIEGENFUS, TAYLOR"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "CASTAGNA, ANGELINE",
+          "STLT ZIEGENFUS, TAYLOR"
+        ],
+        "page": 2,
+        "line": "T03-1",
+        "raw": "T03-1 \u00b7 0600 \u00b7 0815 \u00b7 1400 \u00b7 CHRISTOPHER, LT \u00b7 CASTAGNA, ANGELINE M, 1stLt ZIEGENFUS, TAYLOR M, 1stLt \u00b7 TRF4003A TRF4002R \u00b7 1D2",
+        "role": "TRF4003A TRF4002R",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4104A SAR4001A",
+        "start": "0815",
+        "end": "1200",
+        "land": "1200",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KUERBITZ",
+            "first": "DANIEL",
+            "full": "KUERBITZ, DANIEL"
+          },
+          {
+            "last": "THOMPSON",
+            "first": "MICHAEL",
+            "full": "THOMPSON, MICHAEL"
+          },
+          {
+            "last": "CRAFT",
+            "first": "CHRISTIAN",
+            "full": "CRAFT, CHRISTIAN"
+          }
+        ],
+        "instructors": [
+          "KUERBITZ, DANIEL"
+        ],
+        "students": [
+          "THOMPSON, MICHAEL",
+          "CRAFT, CHRISTIAN"
+        ],
+        "page": 2,
+        "line": "T07-1",
+        "raw": "T07-1 \u00b7 0600 \u00b7 0815 \u00b7 1200 \u00b7 KNDZ \u00b7 KNDZ \u00b7 KUERBITZ, DANIEL R, LT \u00b7 THOMPSON, MICHAEL N, LTJG CRAFT, CHRISTIAN A, LTJG \u00b7 RI4104A SAR4001A \u00b7 1D2 1D1 \u00b7 3.6 \u00b7 HOME FIELD CTO",
+        "role": "RI4104A SAR4001A",
+        "remarks": "HOME FIELD CTO",
+        "duration": "3.6",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "DAY4102A DAY4102A",
+        "start": "0830",
+        "end": "1245",
+        "land": "1245",
+        "brief": "0615",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NUCUM",
+            "first": "MARC",
+            "full": "NUCUM, MARC"
+          },
+          {
+            "last": "ALLSMAN",
+            "first": "NAOMI",
+            "full": "ALLSMAN, NAOMI"
+          },
+          {
+            "last": "STLT HARRISON",
+            "first": "CHASE",
+            "full": "STLT HARRISON, CHASE"
+          }
+        ],
+        "instructors": [
+          "NUCUM, MARC"
+        ],
+        "students": [
+          "ALLSMAN, NAOMI",
+          "STLT HARRISON, CHASE"
+        ],
+        "page": 2,
+        "line": "T11-1",
+        "raw": "T11-1 \u00b7 0615 \u00b7 0830 \u00b7 1245 \u00b7 KNDZ \u00b7 KNDZ \u00b7 NUCUM, MARC R, Capt \u00b7 ALLSMAN, NAOMI N, 1stLt HARRISON, CHASE S, 1stLt \u00b7 DAY4102A DAY4102A \u00b7 1D1 \u00b7 4.0 \u00b7 HOME FIELD CTO",
+        "role": "DAY4102A DAY4102A",
+        "remarks": "HOME FIELD CTO",
+        "duration": "4.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "DAY4601R",
+        "start": "0930",
+        "end": "1300",
+        "land": "1300",
+        "brief": "0715",
+        "formation": "",
+        "crew": [
+          {
+            "last": "OUELLETTE",
+            "first": "DANIEL",
+            "full": "OUELLETTE, DANIEL"
+          },
+          {
+            "last": "HEID",
+            "first": "JAMES",
+            "full": "HEID, JAMES"
+          }
+        ],
+        "instructors": [
+          "OUELLETTE, DANIEL"
+        ],
+        "students": [
+          "HEID, JAMES"
+        ],
+        "page": 2,
+        "line": "T15-1",
+        "raw": "T15-1 \u00b7 0715 \u00b7 0930 \u00b7 1300 \u00b7 KNDZ \u00b7 KNDZ \u00b7 OUELLETTE, DANIEL \u00b7 HEID, JAMES P, ENS \u00b7 DAY4601R \u00b7 1D1 \u00b7 3.5 \u00b7 HOME FIELD CTO",
+        "role": "DAY4601R",
+        "remarks": "HOME FIELD CTO",
+        "duration": "3.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "DAY4201A",
+        "start": "0930",
+        "end": "1300",
+        "land": "1300",
+        "brief": "0715",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ARROYO",
+            "first": "ANTHONY",
+            "full": "ARROYO, ANTHONY"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "ARROYO, ANTHONY"
+        ],
+        "page": 2,
+        "line": "T15-1",
+        "raw": "T15-1 \u00b7 0715 \u00b7 0930 \u00b7 1300 \u00b7 B, LCDR \u00b7 ARROYO, ANTHONY J, 2ndLt 2 \u00b7 DAY4201A",
+        "role": "DAY4201A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "LND3001R",
+        "start": "0730",
+        "end": "",
+        "land": "",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BURNSIDE",
+            "first": "RUSSELL",
+            "full": "BURNSIDE, RUSSELL"
+          },
+          {
+            "last": "ODORISIO",
+            "first": "JOAN",
+            "full": "ODORISIO, JOAN"
+          }
+        ],
+        "instructors": [
+          "BURNSIDE, RUSSELL"
+        ],
+        "students": [
+          "ODORISIO, JOAN"
+        ],
+        "page": 3,
+        "line": "L7U9-2",
+        "raw": "L7U9-2 \u00b7 0700 \u00b7 0730 \u00b7 L7U9 \u00b7 BURNSIDE, RUSSELL, CIV \u00b7 ODORISIO, JOAN C, ENS \u00b7 LND3001R \u00b7 1D1 \u00b7 1.5 \u00b7 1 OF 2",
+        "role": "LND3001R",
+        "remarks": "1 OF 2",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SEA3001R",
+        "start": "0730",
+        "end": "",
+        "land": "",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ARMSTRONG",
+            "first": "WALTER",
+            "full": "ARMSTRONG, WALTER"
+          },
+          {
+            "last": "KOLASSA",
+            "first": "MAGDALEN",
+            "full": "KOLASSA, MAGDALEN"
+          }
+        ],
+        "instructors": [
+          "ARMSTRONG, WALTER"
+        ],
+        "students": [
+          "KOLASSA, MAGDALEN"
+        ],
+        "page": 3,
+        "line": "L7U8-2",
+        "raw": "L7U8-2 \u00b7 0700 \u00b7 0730 \u00b7 L7U8 \u00b7 ARMSTRONG, WALTER J, CIV \u00b7 KOLASSA, MAGDALEN, LTJG \u00b7 SEA3001R \u00b7 1D1 \u00b7 1.5 \u00b7 1 OF 2",
+        "role": "SEA3001R",
+        "remarks": "1 OF 2",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY2002R",
+        "start": "0900",
+        "end": "",
+        "land": "",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAGLUND",
+            "first": "DAVID",
+            "full": "HAGLUND, DAVID"
+          },
+          {
+            "last": "MARTINEZ",
+            "first": "VERA",
+            "full": "MARTINEZ, VERA"
+          }
+        ],
+        "instructors": [
+          "HAGLUND, DAVID"
+        ],
+        "students": [
+          "MARTINEZ, VERA"
+        ],
+        "page": 3,
+        "line": "L7U10",
+        "raw": "L7U10 \u00b7 0830 \u00b7 0900 \u00b7 L7U10 \u00b7 HAGLUND, DAVID K, CIV \u00b7 MARTINEZ, VERA E, ENS \u00b7 DAY2002R \u00b7 1D1 \u00b7 1.5",
+        "role": "DAY2002R",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SAR3001R",
+        "start": "1030",
+        "end": "",
+        "land": "",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KARR",
+            "first": "JESSE",
+            "full": "KARR, JESSE"
+          },
+          {
+            "last": "KOLASSA",
+            "first": "MAGDALEN",
+            "full": "KOLASSA, MAGDALEN"
+          }
+        ],
+        "instructors": [
+          "KARR, JESSE"
+        ],
+        "students": [
+          "KOLASSA, MAGDALEN"
+        ],
+        "page": 3,
+        "line": "L7U7-4",
+        "raw": "L7U7-4 \u00b7 1000 \u00b7 1030 \u00b7 L7U7 \u00b7 KARR, JESSE M, LCDR \u00b7 KOLASSA, MAGDALEN, LTJG \u00b7 SAR3001R \u00b7 1D1 \u00b7 1.5 \u00b7 2 OF 2",
+        "role": "SAR3001R",
+        "remarks": "2 OF 2",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "SAR3001R",
+        "start": "1030",
+        "end": "",
+        "land": "",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BURNSIDE",
+            "first": "RUSSELL",
+            "full": "BURNSIDE, RUSSELL"
+          },
+          {
+            "last": "ODORISIO",
+            "first": "JOAN",
+            "full": "ODORISIO, JOAN"
+          }
+        ],
+        "instructors": [
+          "BURNSIDE, RUSSELL"
+        ],
+        "students": [
+          "ODORISIO, JOAN"
+        ],
+        "page": 3,
+        "line": "L7U10-4",
+        "raw": "L7U10-4 \u00b7 1000 \u00b7 1030 \u00b7 L7U10 \u00b7 BURNSIDE, RUSSELL, CIV \u00b7 ODORISIO, JOAN C, ENS \u00b7 SAR3001R \u00b7 1D1 \u00b7 1.5 \u00b7 2 OF 2",
+        "role": "SAR3001R",
+        "remarks": "2 OF 2",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "RI3101A",
+        "start": "1200",
+        "end": "",
+        "land": "",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LOEB",
+            "first": "JEREMY",
+            "full": "LOEB, JEREMY"
+          },
+          {
+            "last": "ALSADAN",
+            "first": "FAISAL",
+            "full": "ALSADAN, FAISAL"
+          }
+        ],
+        "instructors": [
+          "LOEB, JEREMY"
+        ],
+        "students": [
+          "ALSADAN, FAISAL"
+        ],
+        "page": 3,
+        "line": "L7U6-5",
+        "raw": "L7U6-5 \u00b7 1130 \u00b7 1200 \u00b7 L7U6 \u00b7 LOEB, JEREMY D, CIV \u00b7 ALSADAN, FAISAL A, LTJG \u00b7 RI3101A \u00b7 1D2 \u00b7 1.5 \u00b7 1 OF 2",
+        "role": "RI3101A",
+        "remarks": "1 OF 2",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "BI2001A",
+        "start": "1330",
+        "end": "",
+        "land": "",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BURNSIDE",
+            "first": "RUSSELL",
+            "full": "BURNSIDE, RUSSELL"
+          },
+          {
+            "last": "BOX",
+            "first": "REES",
+            "full": "BOX, REES"
+          }
+        ],
+        "instructors": [
+          "BURNSIDE, RUSSELL"
+        ],
+        "students": [
+          "BOX, REES"
+        ],
+        "page": 3,
+        "line": "L7U11-6",
+        "raw": "L7U11-6 \u00b7 1300 \u00b7 1330 \u00b7 L7U11 \u00b7 BURNSIDE, RUSSELL, CIV \u00b7 BOX, REES W, 1stLt \u00b7 BI2001A \u00b7 1D2 \u00b7 1.5",
+        "role": "BI2001A",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY2002R",
+        "start": "1330",
+        "end": "",
+        "land": "",
+        "brief": "1300",
+        "formation": "",
+        "crew": [
+          {
+            "last": "YANNUZZI",
+            "first": "JARED",
+            "full": "YANNUZZI, JARED"
+          },
+          {
+            "last": "LIONETTI",
+            "first": "LUCIO",
+            "full": "LIONETTI, LUCIO"
+          }
+        ],
+        "instructors": [
+          "YANNUZZI, JARED"
+        ],
+        "students": [
+          "LIONETTI, LUCIO"
+        ],
+        "page": 3,
+        "line": "L7U8-6",
+        "raw": "L7U8-6 \u00b7 1300 \u00b7 1330 \u00b7 L7U8 \u00b7 YANNUZZI, JARED L, CIV \u00b7 LIONETTI, LUCIO F, ENS \u00b7 DAY2002R \u00b7 1D1 \u00b7 1.5",
+        "role": "DAY2002R",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "DAY2002R",
+        "start": "1500",
+        "end": "",
+        "land": "",
+        "brief": "1430",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAGLUND",
+            "first": "DAVID",
+            "full": "HAGLUND, DAVID"
+          },
+          {
+            "last": "KILGORE",
+            "first": "DAHLIA",
+            "full": "KILGORE, DAHLIA"
+          }
+        ],
+        "instructors": [
+          "HAGLUND, DAVID"
+        ],
+        "students": [
+          "KILGORE, DAHLIA"
+        ],
+        "page": 3,
+        "line": "L7U9-7",
+        "raw": "L7U9-7 \u00b7 1430 \u00b7 1500 \u00b7 L7U9 \u00b7 HAGLUND, DAVID K, CIV \u00b7 KILGORE, DAHLIA M, ENS \u00b7 DAY2002R \u00b7 1D1 \u00b7 1.5",
+        "role": "DAY2002R",
+        "remarks": "",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "CPI3101A",
+        "start": "1500",
+        "end": "",
+        "land": "",
+        "brief": "1430",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LOEB",
+            "first": "JEREMY",
+            "full": "LOEB, JEREMY"
+          },
+          {
+            "last": "ALSADAN",
+            "first": "FAISAL",
+            "full": "ALSADAN, FAISAL"
+          }
+        ],
+        "instructors": [
+          "LOEB, JEREMY"
+        ],
+        "students": [
+          "ALSADAN, FAISAL"
+        ],
+        "page": 3,
+        "line": "L7U11-7",
+        "raw": "L7U11-7 \u00b7 1430 \u00b7 1500 \u00b7 L7U11 \u00b7 LOEB, JEREMY D, CIV \u00b7 ALSADAN, FAISAL A, LTJG Ground Events \u00b7 CPI3101A \u00b7 1D2 \u00b7 1.5 \u00b7 2 OF 2",
+        "role": "CPI3101A",
+        "remarks": "2 OF 2",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

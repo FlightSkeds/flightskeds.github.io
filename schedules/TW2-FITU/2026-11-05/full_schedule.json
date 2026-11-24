@@ -349,5 +349,216 @@
       "line_number": 36,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "NA4103",
+        "start": "0930",
+        "end": "1054",
+        "land": "1054",
+        "brief": "0800",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LAROCHE",
+            "first": "MAX",
+            "full": "LAROCHE, MAX"
+          },
+          {
+            "last": "WATERMAN",
+            "first": "RYAN",
+            "full": "WATERMAN, RYAN"
+          }
+        ],
+        "instructors": [
+          "LAROCHE, MAX"
+        ],
+        "students": [
+          "WATERMAN, RYAN"
+        ],
+        "page": 1,
+        "line": "1",
+        "raw": "1 \u00b7 0800 \u00b7 0930 \u00b7 1054 \u00b7 LAROCHE, MAX D, Maj \u00b7 WATERMAN, RYAN R, Capt \u00b7 NA4103 \u00b7 1.4/0.0 \u00b7 O/I",
+        "role": "NA4103",
+        "remarks": "O/I",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4201",
+        "start": "1230",
+        "end": "1342",
+        "land": "1342",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LAROCHE",
+            "first": "MAX",
+            "full": "LAROCHE, MAX"
+          },
+          {
+            "last": "WATERMAN",
+            "first": "RYAN",
+            "full": "WATERMAN, RYAN"
+          }
+        ],
+        "instructors": [
+          "LAROCHE, MAX"
+        ],
+        "students": [
+          "WATERMAN, RYAN"
+        ],
+        "page": 1,
+        "line": "2",
+        "raw": "2 \u00b7 1100 \u00b7 1230 \u00b7 1342 \u00b7 LAROCHE, MAX D, Maj \u00b7 WATERMAN, RYAN R, Capt \u00b7 NA4201 \u00b7 1.2/0.0",
+        "role": "NA4201",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FRM LEAD",
+        "start": "1545",
+        "end": "1703",
+        "land": "1703",
+        "brief": "1415",
+        "formation": "",
+        "crew": [
+          {
+            "last": "REYNOLDS",
+            "first": "DAVID",
+            "full": "REYNOLDS, DAVID"
+          }
+        ],
+        "instructors": [
+          "REYNOLDS, DAVID"
+        ],
+        "students": [],
+        "page": 1,
+        "line": "3",
+        "raw": "3 \u00b7 1415 \u00b7 1545 \u00b7 1703 \u00b7 REYNOLDS, DAVID R, CDR \u00b7 FRM LEAD \u00b7 1.3/0.0 \u00b7 LD TUCKER",
+        "role": "FRM LEAD",
+        "remarks": "LD TUCKER",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FRM4102",
+        "start": "1545",
+        "end": "1703",
+        "land": "1703",
+        "brief": "1415",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MAUER",
+            "first": "NATHANIEL",
+            "full": "MAUER, NATHANIEL"
+          },
+          {
+            "last": "TUCKER",
+            "first": "CHRISTOPHER",
+            "full": "TUCKER, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "MAUER, NATHANIEL"
+        ],
+        "students": [
+          "TUCKER, CHRISTOPHER"
+        ],
+        "page": 1,
+        "line": "4",
+        "raw": "4 \u00b7 1415 \u00b7 1545 \u00b7 1703 \u00b7 MAUER, NATHANIEL C, CTR \u00b7 TUCKER, CHRISTOPHER S, LCDR \u00b7 FRM4102 \u00b7 1.3/0.0 \u00b7 RC",
+        "role": "FRM4102",
+        "remarks": "RC",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NA4401",
+        "start": "1745",
+        "end": "1857",
+        "land": "1857",
+        "brief": "1615",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WOODARD",
+            "first": "MATT",
+            "full": "WOODARD, MATT"
+          },
+          {
+            "last": "MULINIX",
+            "first": "BENJAMIN",
+            "full": "MULINIX, BENJAMIN"
+          }
+        ],
+        "instructors": [
+          "WOODARD, MATT"
+        ],
+        "students": [
+          "MULINIX, BENJAMIN"
+        ],
+        "page": 1,
+        "line": "5",
+        "raw": "5 \u00b7 1615 \u00b7 1745 \u00b7 1857 \u00b7 WOODARD, MATT S, CDR \u00b7 MULINIX, BENJAMIN S, CAPT \u00b7 NA4401 \u00b7 1.2/0.0",
+        "role": "NA4401",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NTR4101",
+        "start": "1945",
+        "end": "2103",
+        "land": "2103",
+        "brief": "1815",
+        "formation": "",
+        "crew": [
+          {
+            "last": "REYNOLDS",
+            "first": "DAVID",
+            "full": "REYNOLDS, DAVID"
+          },
+          {
+            "last": "TUCKER",
+            "first": "CHRISTOPHER",
+            "full": "TUCKER, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "REYNOLDS, DAVID"
+        ],
+        "students": [
+          "TUCKER, CHRISTOPHER"
+        ],
+        "page": 1,
+        "line": "6",
+        "raw": "6 \u00b7 1815 \u00b7 1945 \u00b7 2103 \u00b7 REYNOLDS, DAVID R, CDR Simulator (Sim \u00b7 Event) \u00b7 TUCKER, CHRISTOPHER S, LCDR Schedule \u00b7 NTR4101 \u00b7 1.3/0.0 \u00b7 RC",
+        "role": "NTR4101",
+        "remarks": "RC",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

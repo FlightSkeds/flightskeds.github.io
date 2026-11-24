@@ -331,5 +331,257 @@
       "line_number": 21,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "C. UPON COMPLETION  OF FLT NAV4390 OR STK4390 FOR INTERMEDIATE, SEE STUDENT CONTROL ASAP.    D. STUDENTS: COMPLETE EVENT REHEARSAL NAVFLIR, AND SUBMIT NAVFLIR TO SDO. SDOS: SUBMIT GRADESHEET FOR APPLICABLE EVENT IN TSHARP.",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "AM ASDO",
+        "start": "0600",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FIORI-PUYU",
+            "first": "K",
+            "full": "FIORI-PUYU, K"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM ASDO \u00b7 Fiori-Puyu, K, ENS \u00b7 0600 \u00b7 1800",
+        "role": "AM ASDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM ASDO",
+        "start": "1800",
+        "end": "0600",
+        "land": "0600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MASCARINAS",
+            "first": "A",
+            "full": "MASCARINAS, A"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM ASDO \u00b7 Mascarinas, A, ENS \u00b7 1800 \u00b7 0600",
+        "role": "PM ASDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER - FLIGHT DISTRO",
+        "start": "0001",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LOOMIS",
+            "first": "A",
+            "full": "LOOMIS, A"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER - FLIGHT DISTRO \u00b7 Loomis, A, ENS \u00b7 0001 \u00b7 2359",
+        "role": "DUTY DRIVER - FLIGHT DISTRO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO",
+        "start": "0001",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DONOFRIO",
+            "first": "A",
+            "full": "DONOFRIO, A"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO \u00b7 DONOFRIO, A, LT \u00b7 0001 \u00b7 2359",
+        "role": "SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FUN4101",
+        "start": "0800",
+        "end": "0930",
+        "land": "0930",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JONES",
+            "first": "N",
+            "full": "JONES, N"
+          },
+          {
+            "last": "BAYLOR",
+            "first": "S",
+            "full": "BAYLOR, S"
+          }
+        ],
+        "instructors": [
+          "JONES, N"
+        ],
+        "students": [
+          "BAYLOR, S"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 0800 \u00b7 0930 \u00b7 KATT \u00b7 JONES, N, LCDR \u00b7 Baylor, S, ENS \u00b7 FUN4101 \u00b7 1.5 \u00b7 DD-1801, KPNS",
+        "role": "FUN4101",
+        "remarks": "DD-1801, KPNS",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FUN4102",
+        "start": "1100",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JONES",
+            "first": "N",
+            "full": "JONES, N"
+          },
+          {
+            "last": "BAYLOR",
+            "first": "S",
+            "full": "BAYLOR, S"
+          }
+        ],
+        "instructors": [
+          "JONES, N"
+        ],
+        "students": [
+          "BAYLOR, S"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 1100 \u00b7 1230 \u00b7 KATT \u00b7 JONES, N, LCDR \u00b7 Baylor, S, ENS \u00b7 FUN4102 \u00b7 1.5 \u00b7 DD-1801, KPNS",
+        "role": "FUN4102",
+        "remarks": "DD-1801, KPNS",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FUN4101",
+        "start": "0800",
+        "end": "0930",
+        "land": "0930",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORGAN",
+            "first": "J",
+            "full": "MORGAN, J"
+          },
+          {
+            "last": "GONZALEZ BERMUDEZ",
+            "first": "F",
+            "full": "GONZALEZ BERMUDEZ, F"
+          }
+        ],
+        "instructors": [
+          "MORGAN, J"
+        ],
+        "students": [
+          "GONZALEZ BERMUDEZ, F"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 0800 \u00b7 0930 \u00b7 KATT \u00b7 MORGAN, J, LT \u00b7 Gonzalez Bermudez, F, ENS \u00b7 FUN4101 \u00b7 1.5 \u00b7 DD-1801, KPNS",
+        "role": "FUN4101",
+        "remarks": "DD-1801, KPNS",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FUN4102",
+        "start": "1100",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORGAN",
+            "first": "J",
+            "full": "MORGAN, J"
+          },
+          {
+            "last": "GONZALEZ BERMUDEZ",
+            "first": "F",
+            "full": "GONZALEZ BERMUDEZ, F"
+          }
+        ],
+        "instructors": [
+          "MORGAN, J"
+        ],
+        "students": [
+          "GONZALEZ BERMUDEZ, F"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 1100 \u00b7 1230 \u00b7 KATT \u00b7 MORGAN, J, LT Simulator (Sim \u00b7 Gonzalez Bermudez, F, ENS Event) Schedule \u00b7 FUN4102 \u00b7 1.5 \u00b7 DD-1801, KPNS",
+        "role": "FUN4102",
+        "remarks": "DD-1801, KPNS",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

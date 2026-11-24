@@ -1177,5 +1177,1393 @@
       "line_number": 105,
       "text": "Go's"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "   ANDERSON, 2 BENSON, 2 DICARLO, 2     NIETO, MILLER, BUTKUS,     ANDERSON, 2 BENSON, 2 DICARLO, 2     NIETO, MILLER, BUTKUS, ",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "Day SDO",
+        "start": "0800",
+        "end": "2000",
+        "land": "2000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PASCHAL",
+            "first": "CAMERON",
+            "full": "PASCHAL, CAMERON"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "Day SDO \u00b7 PASCHAL, CAMERON \u00b7 0800 \u00b7 2000",
+        "role": "Day SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "Night SDO",
+        "start": "2000",
+        "end": "0800",
+        "land": "0800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHERMAN",
+            "first": "CHRISTOPHER",
+            "full": "SHERMAN, CHRISTOPHER"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "Night SDO \u00b7 SHERMAN, CHRISTOPHER \u00b7 2000 \u00b7 0800",
+        "role": "Night SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "QA Skeds/Duty OPS",
+        "start": "0700",
+        "end": "1500",
+        "land": "1500",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "THOMAS",
+            "first": "WILLIAM",
+            "full": "THOMAS, WILLIAM"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "QA Skeds/Duty OPS \u00b7 THOMAS, WILLIAM \u00b7 0700 \u00b7 1500",
+        "role": "QA Skeds/Duty OPS",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "WKDAY AM DUTY DRIVER",
+        "start": "0600",
+        "end": "2000",
+        "land": "2000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ROSS",
+            "first": "CAMREN",
+            "full": "ROSS, CAMREN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "WKDAY AM DUTY DRIVER \u00b7 ROSS, CAMREN \u00b7 0600 \u00b7 2000",
+        "role": "WKDAY AM DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4202",
+        "start": "0702",
+        "end": "0838",
+        "land": "0838",
+        "brief": "0517",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BUTKUS",
+            "first": "DARRIN",
+            "full": "BUTKUS, DARRIN"
+          },
+          {
+            "last": "DICARLO",
+            "first": "VICTORIA",
+            "full": "DICARLO, VICTORIA"
+          }
+        ],
+        "instructors": [
+          "BUTKUS, DARRIN"
+        ],
+        "students": [
+          "DICARLO, VICTORIA"
+        ],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0517 \u00b7 0702 \u00b7 0838 \u00b7 BUTKUS, DARRIN# \u00b7 DICARLO, VICTORIA# \u00b7 I4202 \u00b7 1.6/0.0 \u00b7 2X; O/I",
+        "role": "I4202",
+        "remarks": "2X; O/I",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4203",
+        "start": "0705",
+        "end": "0841",
+        "land": "0841",
+        "brief": "0520",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MILLER",
+            "first": "BRANNON",
+            "full": "MILLER, BRANNON"
+          },
+          {
+            "last": "BENSON",
+            "first": "ROBERT",
+            "full": "BENSON, ROBERT"
+          }
+        ],
+        "instructors": [
+          "MILLER, BRANNON"
+        ],
+        "students": [
+          "BENSON, ROBERT"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0520 \u00b7 0705 \u00b7 0841 \u00b7 MILLER, BRANNON# \u00b7 BENSON, ROBERT# \u00b7 I4203 \u00b7 1.6/0.0 \u00b7 2X; O/I",
+        "role": "I4203",
+        "remarks": "2X; O/I",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "BIS (RPT)",
+        "start": "0716",
+        "end": "0846",
+        "land": "0846",
+        "brief": "0616",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NIETO",
+            "first": "STEVEN",
+            "full": "NIETO, STEVEN"
+          },
+          {
+            "last": "ANDERSON",
+            "first": "JOSHUA",
+            "full": "ANDERSON, JOSHUA"
+          }
+        ],
+        "instructors": [
+          "NIETO, STEVEN"
+        ],
+        "students": [
+          "ANDERSON, JOSHUA"
+        ],
+        "page": 2,
+        "line": "3",
+        "raw": "3 \u00b7 0616 \u00b7 0716 \u00b7 0846 \u00b7 NIETO, STEVEN# \u00b7 ANDERSON, JOSHUA# \u00b7 BIS (RPT) \u00b7 1.5/0.0 \u00b7 2X; O/I ANDERSON SIGN FOR 08NOV AIRCRAFT",
+        "role": "BIS (RPT)",
+        "remarks": "2X; O/I ANDERSON SIGN FOR 08NOV AIRCRAFT",
+        "duration": "1.5/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4203",
+        "start": "1102",
+        "end": "1238",
+        "land": "1238",
+        "brief": "0917",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BUTKUS",
+            "first": "DARRIN",
+            "full": "BUTKUS, DARRIN"
+          },
+          {
+            "last": "DICARLO",
+            "first": "VICTORIA",
+            "full": "DICARLO, VICTORIA"
+          }
+        ],
+        "instructors": [
+          "BUTKUS, DARRIN"
+        ],
+        "students": [
+          "DICARLO, VICTORIA"
+        ],
+        "page": 2,
+        "line": "4",
+        "raw": "4 \u00b7 0917 \u00b7 1102 \u00b7 1238 \u00b7 BUTKUS, DARRIN# \u00b7 DICARLO, VICTORIA# \u00b7 I4203 \u00b7 1.6/0.0 \u00b7 3.8 NITE; CTO; LAND KNDZ 1700-2100; CTO KNSE 0700-1700; 2100-2300",
+        "role": "I4203",
+        "remarks": "3.8 NITE; CTO; LAND KNDZ 1700-2100; CTO KNSE 0700-1700; 2100-2300",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "I4204",
+        "start": "1105",
+        "end": "1241",
+        "land": "1241",
+        "brief": "0920",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MILLER",
+            "first": "BRANNON",
+            "full": "MILLER, BRANNON"
+          },
+          {
+            "last": "BENSON",
+            "first": "ROBERT",
+            "full": "BENSON, ROBERT"
+          }
+        ],
+        "instructors": [
+          "MILLER, BRANNON"
+        ],
+        "students": [
+          "BENSON, ROBERT"
+        ],
+        "page": 2,
+        "line": "5",
+        "raw": "5 \u00b7 0920 \u00b7 1105 \u00b7 1241 \u00b7 MILLER, BRANNON# \u00b7 BENSON, ROBERT# \u00b7 I4204 \u00b7 1.6/0.0 \u00b7 3.5 NITE; CTO; LAND KNDZ 1700-2100; CTO KNSE 0700-1700; 2100-2300",
+        "role": "I4204",
+        "remarks": "3.5 NITE; CTO; LAND KNDZ 1700-2100; CTO KNSE 0700-1700; 2100-2300",
+        "duration": "1.6/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "QIP",
+        "start": "1116",
+        "end": "1246",
+        "land": "1246",
+        "brief": "1046",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NIETO",
+            "first": "STEVEN",
+            "full": "NIETO, STEVEN"
+          },
+          {
+            "last": "ANDERSON",
+            "first": "JOSHUA",
+            "full": "ANDERSON, JOSHUA"
+          }
+        ],
+        "instructors": [
+          "NIETO, STEVEN"
+        ],
+        "students": [
+          "ANDERSON, JOSHUA"
+        ],
+        "page": 2,
+        "line": "6",
+        "raw": "6 \u00b7 1046 \u00b7 1116 \u00b7 1246 \u00b7 NIETO, STEVEN# \u00b7 ANDERSON, JOSHUA# Simulator (Sim Event) Schedule \u00b7 QIP \u00b7 1.5/0.0 \u00b7 CTO; LAND KNDZ 1700-2100; CTO KNSE 0700-1700; 2100-2300",
+        "role": "QIP",
+        "remarks": "CTO; LAND KNDZ 1700-2100; CTO KNSE 0700-1700; 2100-2300",
+        "duration": "1.5/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-8",
+        "start": "0600",
+        "end": "0720",
+        "land": "0720",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BENDER",
+            "first": "HENRY",
+            "full": "BENDER, HENRY"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0600-0720 \u00b7 OFT-8 \u00b7 BENDER, HENRY",
+        "role": "OFT-8",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-5",
+        "start": "0600",
+        "end": "0720",
+        "land": "0720",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FITZGERALD",
+            "first": "JAMES",
+            "full": "FITZGERALD, JAMES"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0600-0720 \u00b7 OFT-5 \u00b7 FITZGERALD, JAMES",
+        "role": "OFT-5",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-2",
+        "start": "0600",
+        "end": "0720",
+        "land": "0720",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MOORE",
+            "first": "ZOE",
+            "full": "MOORE, ZOE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0600-0720 \u00b7 OFT-2 \u00b7 MOORE, ZOE",
+        "role": "OFT-2",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "UTD-5",
+        "start": "0600",
+        "end": "0720",
+        "land": "0720",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STEPHENS",
+            "first": "SIDNEY",
+            "full": "STEPHENS, SIDNEY"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0600-0720 \u00b7 UTD-5 \u00b7 STEPHENS, SIDNEY",
+        "role": "UTD-5",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-7",
+        "start": "0720",
+        "end": "0840",
+        "land": "0840",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BOSTOCK",
+            "first": "NICHOLAS",
+            "full": "BOSTOCK, NICHOLAS"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0720-0840 \u00b7 OFT-7 \u00b7 BOSTOCK, NICHOLAS",
+        "role": "OFT-7",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-4",
+        "start": "0720",
+        "end": "0840",
+        "land": "0840",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GOLDEN",
+            "first": "LIAM",
+            "full": "GOLDEN, LIAM"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0720-0840 \u00b7 OFT-4 \u00b7 GOLDEN, LIAM",
+        "role": "OFT-4",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "UTD-7",
+        "start": "0720",
+        "end": "0840",
+        "land": "0840",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JOHANSON",
+            "first": "SEAN",
+            "full": "JOHANSON, SEAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0720-0840 \u00b7 UTD-7 \u00b7 JOHANSON, SEAN",
+        "role": "UTD-7",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "UTD-4",
+        "start": "0720",
+        "end": "0840",
+        "land": "0840",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PREMZIC",
+            "first": "JACK",
+            "full": "PREMZIC, JACK"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0720-0840 \u00b7 UTD-4 \u00b7 PREMZIC, JACK",
+        "role": "UTD-4",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-9",
+        "start": "0840",
+        "end": "1000",
+        "land": "1000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CARL",
+            "first": "ALEXANDER",
+            "full": "CARL, ALEXANDER"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0840-1000 \u00b7 OFT-9 \u00b7 CARL, ALEXANDER",
+        "role": "OFT-9",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-6",
+        "start": "0840",
+        "end": "1000",
+        "land": "1000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ESPIRITU",
+            "first": "CHRISTOPHER",
+            "full": "ESPIRITU, CHRISTOPHER"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0840-1000 \u00b7 OFT-6 \u00b7 ESPIRITU, CHRISTOPHER",
+        "role": "OFT-6",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "UTD-3",
+        "start": "0840",
+        "end": "1000",
+        "land": "1000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HILL",
+            "first": "CHARLOTTE",
+            "full": "HILL, CHARLOTTE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0840-1000 \u00b7 UTD-3 \u00b7 HILL, CHARLOTTE",
+        "role": "UTD-3",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-3",
+        "start": "0840",
+        "end": "1000",
+        "land": "1000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HUDSON",
+            "first": "EYAN",
+            "full": "HUDSON, EYAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0840-1000 \u00b7 OFT-3 \u00b7 HUDSON, EYAN",
+        "role": "OFT-3",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "UTD-6",
+        "start": "0840",
+        "end": "1000",
+        "land": "1000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PLATT",
+            "first": "KYLE",
+            "full": "PLATT, KYLE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "0840-1000 \u00b7 UTD-6 \u00b7 PLATT, KYLE",
+        "role": "UTD-6",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "UTD-5",
+        "start": "1000",
+        "end": "1120",
+        "land": "1120",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BEATTIE",
+            "first": "SAMUEL",
+            "full": "BEATTIE, SAMUEL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "1000-1120 \u00b7 UTD-5 \u00b7 BEATTIE, SAMUEL",
+        "role": "UTD-5",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-9",
+        "start": "1000",
+        "end": "1120",
+        "land": "1120",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BROOKS",
+            "first": "RYAN",
+            "full": "BROOKS, RYAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "1000-1120 \u00b7 OFT-9 \u00b7 BROOKS, RYAN",
+        "role": "OFT-9",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-5",
+        "start": "1000",
+        "end": "1120",
+        "land": "1120",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KOHRELL",
+            "first": "JOSHUA",
+            "full": "KOHRELL, JOSHUA"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "1000-1120 \u00b7 OFT-5 \u00b7 KOHRELL, JOSHUA",
+        "role": "OFT-5",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-8",
+        "start": "1000",
+        "end": "1120",
+        "land": "1120",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LONG",
+            "first": "COLE",
+            "full": "LONG, COLE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "1000-1120 \u00b7 OFT-8 \u00b7 LONG, COLE",
+        "role": "OFT-8",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "UTD-4",
+        "start": "1120",
+        "end": "1240",
+        "land": "1240",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BUSQUIN",
+            "first": "JEROME",
+            "full": "BUSQUIN, JEROME"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "1120-1240 \u00b7 UTD-4 \u00b7 BUSQUIN, JEROME",
+        "role": "UTD-4",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-4",
+        "start": "1120",
+        "end": "1240",
+        "land": "1240",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FONCANNON",
+            "first": "EATHAN",
+            "full": "FONCANNON, EATHAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "1120-1240 \u00b7 OFT-4 \u00b7 FONCANNON, EATHAN",
+        "role": "OFT-4",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "UTD-7",
+        "start": "1120",
+        "end": "1240",
+        "land": "1240",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HALE",
+            "first": "BENJAMIN",
+            "full": "HALE, BENJAMIN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 2,
+        "line": "",
+        "raw": "1120-1240 \u00b7 UTD-7 \u00b7 HALE, BENJAMIN",
+        "role": "UTD-7",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-7",
+        "start": "1120",
+        "end": "1240",
+        "land": "1240",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MASCHINO",
+            "first": "SPENCER",
+            "full": "MASCHINO, SPENCER"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1120-1240 \u00b7 OFT-7 \u00b7 MASCHINO, SPENCER",
+        "role": "OFT-7",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-1",
+        "start": "1120",
+        "end": "1240",
+        "land": "1240",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MEYER",
+            "first": "CARSON",
+            "full": "MEYER, CARSON"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1120-1240 \u00b7 OFT-1 \u00b7 MEYER, CARSON",
+        "role": "OFT-1",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-6",
+        "start": "1240",
+        "end": "1400",
+        "land": "1400",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALSTON",
+            "first": "CHRISTIAN",
+            "full": "ALSTON, CHRISTIAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1240-1400 \u00b7 OFT-6 \u00b7 ALSTON, CHRISTIAN",
+        "role": "OFT-6",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-9",
+        "start": "1240",
+        "end": "1400",
+        "land": "1400",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BROWN",
+            "first": "COLLIN",
+            "full": "BROWN, COLLIN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1240-1400 \u00b7 OFT-9 \u00b7 BROWN, COLLIN",
+        "role": "OFT-9",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-3",
+        "start": "1240",
+        "end": "1400",
+        "land": "1400",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "LABOY",
+            "first": "LEONARDO",
+            "full": "LABOY, LEONARDO"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1240-1400 \u00b7 OFT-3 \u00b7 LABOY, LEONARDO",
+        "role": "OFT-3",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "UTD-6",
+        "start": "1240",
+        "end": "1400",
+        "land": "1400",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCCABE",
+            "first": "SEAN",
+            "full": "MCCABE, SEAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1240-1400 \u00b7 UTD-6 \u00b7 MCCABE, SEAN",
+        "role": "UTD-6",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "UTD-3",
+        "start": "1240",
+        "end": "1400",
+        "land": "1400",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PELOQUIN",
+            "first": "BENNET",
+            "full": "PELOQUIN, BENNET"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1240-1400 \u00b7 UTD-3 \u00b7 PELOQUIN, BENNET",
+        "role": "UTD-3",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-2",
+        "start": "1400",
+        "end": "1520",
+        "land": "1520",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FITZGERALD",
+            "first": "GARRETT",
+            "full": "FITZGERALD, GARRETT"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1400-1520 \u00b7 OFT-2 \u00b7 FITZGERALD, GARRETT",
+        "role": "OFT-2",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-6",
+        "start": "1400",
+        "end": "1520",
+        "land": "1520",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GILBERT",
+            "first": "JEREMIAH",
+            "full": "GILBERT, JEREMIAH"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1400-1520 \u00b7 OFT-6 \u00b7 GILBERT, JEREMIAH",
+        "role": "OFT-6",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "UTD-5",
+        "start": "1400",
+        "end": "1520",
+        "land": "1520",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JOYNER",
+            "first": "SARA",
+            "full": "JOYNER, SARA"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1400-1520 \u00b7 UTD-5 \u00b7 JOYNER, SARA",
+        "role": "UTD-5",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-8",
+        "start": "1400",
+        "end": "1520",
+        "land": "1520",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KOSTRZEBSKI",
+            "first": "BRADLEY",
+            "full": "KOSTRZEBSKI, BRADLEY"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1400-1520 \u00b7 OFT-8 \u00b7 KOSTRZEBSKI, BRADLEY",
+        "role": "OFT-8",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-1",
+        "start": "1520",
+        "end": "1640",
+        "land": "1640",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALMUTAIRI",
+            "first": "FAISAL",
+            "full": "ALMUTAIRI, FAISAL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1520-1640 \u00b7 OFT-1 \u00b7 ALMUTAIRI, FAISAL",
+        "role": "OFT-1",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "UTD-4",
+        "start": "1520",
+        "end": "1640",
+        "land": "1640",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BROWN",
+            "first": "GARRETT",
+            "full": "BROWN, GARRETT"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1520-1640 \u00b7 UTD-4 \u00b7 BROWN, GARRETT",
+        "role": "UTD-4",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "UTD-7",
+        "start": "1520",
+        "end": "1640",
+        "land": "1640",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DEVITO",
+            "first": "THOMAS",
+            "full": "DEVITO, THOMAS"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1520-1640 \u00b7 UTD-7 \u00b7 DEVITO, THOMAS",
+        "role": "UTD-7",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-7",
+        "start": "1520",
+        "end": "1640",
+        "land": "1640",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SCARPA",
+            "first": "CHIARA",
+            "full": "SCARPA, CHIARA"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1520-1640 \u00b7 OFT-7 \u00b7 SCARPA, CHIARA",
+        "role": "OFT-7",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-4",
+        "start": "1520",
+        "end": "1640",
+        "land": "1640",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIMONSEN",
+            "first": "CHRISTIAN",
+            "full": "SIMONSEN, CHRISTIAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1520-1640 \u00b7 OFT-4 \u00b7 SIMONSEN, CHRISTIAN",
+        "role": "OFT-4",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-9",
+        "start": "1640",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALQARNI",
+            "first": "BADER",
+            "full": "ALQARNI, BADER"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1640-1800 \u00b7 OFT-9 \u00b7 ALQARNI, BADER",
+        "role": "OFT-9",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "UTD-6",
+        "start": "1640",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "APPIAH",
+            "first": "JUSTICE",
+            "full": "APPIAH, JUSTICE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1640-1800 \u00b7 UTD-6 \u00b7 APPIAH, JUSTICE",
+        "role": "UTD-6",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "UTD-3",
+        "start": "1640",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "COUNTISS",
+            "first": "BENJAMIN",
+            "full": "COUNTISS, BENJAMIN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1640-1800 \u00b7 UTD-3 \u00b7 COUNTISS, BENJAMIN",
+        "role": "UTD-3",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-6",
+        "start": "1640",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DESANTIS",
+            "first": "RAFAELLE",
+            "full": "DESANTIS, RAFAELLE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1640-1800 \u00b7 OFT-6 \u00b7 DESANTIS, RAFAELLE",
+        "role": "OFT-6",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OFT-3",
+        "start": "1640",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FERNANDEZ",
+            "first": "RUBEN",
+            "full": "FERNANDEZ, RUBEN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1640-1800 \u00b7 OFT-3 \u00b7 FERNANDEZ, RUBEN",
+        "role": "OFT-3",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

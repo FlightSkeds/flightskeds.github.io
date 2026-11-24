@@ -376,5 +376,572 @@
       "line_number": 28,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": "C. UPON COMPLETION  OF FLT NAV4390 OR STK4390 FOR INTERMEDIATE, SEE STUDENT CONTROL ASAP.    D. STUDENTS: COMPLETE EVENT REHEARSAL NAVFLIR, AND SUBMIT NAVFLIR TO SDO. SDOS: SUBMIT GRADESHEET FOR APPLICABLE EVENT IN TSHARP.",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "AM ASDO",
+        "start": "0600",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WISENBAKER",
+            "first": "L",
+            "full": "WISENBAKER, L"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM ASDO \u00b7 Wisenbaker, L, ENS \u00b7 0600 \u00b7 1800",
+        "role": "AM ASDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM ASDO",
+        "start": "1800",
+        "end": "0600",
+        "land": "0600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HOLT",
+            "first": "S",
+            "full": "HOLT, S"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM ASDO \u00b7 Holt, S, ENS \u00b7 1800 \u00b7 0600",
+        "role": "PM ASDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER - FLIGHT DISTRO",
+        "start": "0001",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "VALVERDE",
+            "first": "V",
+            "full": "VALVERDE, V"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER - FLIGHT DISTRO \u00b7 Valverde, V, ENS \u00b7 0001 \u00b7 2359",
+        "role": "DUTY DRIVER - FLIGHT DISTRO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO",
+        "start": "0001",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ADDISON",
+            "first": "M",
+            "full": "ADDISON, M"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO \u00b7 ADDISON, M, LT \u00b7 0001 \u00b7 2359",
+        "role": "SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FUN4101",
+        "start": "0900",
+        "end": "1030",
+        "land": "1030",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORGAN",
+            "first": "J",
+            "full": "MORGAN, J"
+          },
+          {
+            "last": "MURPHY",
+            "first": "M",
+            "full": "MURPHY, M"
+          }
+        ],
+        "instructors": [
+          "MORGAN, J"
+        ],
+        "students": [
+          "MURPHY, M"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0700 \u00b7 0900 \u00b7 1030 \u00b7 KATT \u00b7 MORGAN, J, LT \u00b7 Murphy, M, ENS \u00b7 FUN4101 \u00b7 1.5 \u00b7 DD-1801, KPNS",
+        "role": "FUN4101",
+        "remarks": "DD-1801, KPNS",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FUN4102",
+        "start": "1200",
+        "end": "1330",
+        "land": "1330",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORGAN",
+            "first": "J",
+            "full": "MORGAN, J"
+          },
+          {
+            "last": "MURPHY",
+            "first": "M",
+            "full": "MURPHY, M"
+          }
+        ],
+        "instructors": [
+          "MORGAN, J"
+        ],
+        "students": [
+          "MURPHY, M"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0700 \u00b7 1200 \u00b7 1330 \u00b7 KATT \u00b7 MORGAN, J, LT \u00b7 Murphy, M, ENS \u00b7 FUN4102 \u00b7 1.5 \u00b7 REPO KNPA",
+        "role": "FUN4102",
+        "remarks": "REPO KNPA",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FUN4101",
+        "start": "0900",
+        "end": "1030",
+        "land": "1030",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JONES",
+            "first": "N",
+            "full": "JONES, N"
+          },
+          {
+            "last": "TIERNEY",
+            "first": "M",
+            "full": "TIERNEY, M"
+          }
+        ],
+        "instructors": [
+          "JONES, N"
+        ],
+        "students": [
+          "TIERNEY, M"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0700 \u00b7 0900 \u00b7 1030 \u00b7 KATT \u00b7 JONES, N, LCDR \u00b7 Tierney, M, ENS \u00b7 FUN4101 \u00b7 1.5 \u00b7 DD-1801, KPNS",
+        "role": "FUN4101",
+        "remarks": "DD-1801, KPNS",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FUN4102",
+        "start": "1200",
+        "end": "1330",
+        "land": "1330",
+        "brief": "0700",
+        "formation": "",
+        "crew": [
+          {
+            "last": "JONES",
+            "first": "N",
+            "full": "JONES, N"
+          },
+          {
+            "last": "TIERNEY",
+            "first": "M",
+            "full": "TIERNEY, M"
+          }
+        ],
+        "instructors": [
+          "JONES, N"
+        ],
+        "students": [
+          "TIERNEY, M"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0700 \u00b7 1200 \u00b7 1330 \u00b7 KATT \u00b7 JONES, N, LCDR \u00b7 Tierney, M, ENS \u00b7 FUN4102 \u00b7 1.5 \u00b7 REPO KNPA",
+        "role": "FUN4102",
+        "remarks": "REPO KNPA",
+        "duration": "1.5",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4204",
+        "start": "0800",
+        "end": "0942",
+        "land": "0942",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SANDMAN",
+            "first": "W",
+            "full": "SANDMAN, W"
+          },
+          {
+            "last": "CARMICHAEL",
+            "first": "A",
+            "full": "CARMICHAEL, A"
+          }
+        ],
+        "instructors": [
+          "SANDMAN, W"
+        ],
+        "students": [
+          "CARMICHAEL, A"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 0800 \u00b7 0942 \u00b7 KATT \u00b7 SANDMAN, W, LT \u00b7 Carmichael, A, ENS \u00b7 NAV4204 \u00b7 1.7 \u00b7 KSUS-KPAH",
+        "role": "NAV4204",
+        "remarks": "KSUS-KPAH",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4205",
+        "start": "1100",
+        "end": "1242",
+        "land": "1242",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SANDMAN",
+            "first": "W",
+            "full": "SANDMAN, W"
+          },
+          {
+            "last": "CARMICHAEL",
+            "first": "A",
+            "full": "CARMICHAEL, A"
+          }
+        ],
+        "instructors": [
+          "SANDMAN, W"
+        ],
+        "students": [
+          "CARMICHAEL, A"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 1100 \u00b7 1242 \u00b7 KATT \u00b7 SANDMAN, W, LT \u00b7 Carmichael, A, ENS \u00b7 NAV4205 \u00b7 1.7 \u00b7 KPAH-KTCL",
+        "role": "NAV4205",
+        "remarks": "KPAH-KTCL",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4390",
+        "start": "1400",
+        "end": "1542",
+        "land": "1542",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SANDMAN",
+            "first": "W",
+            "full": "SANDMAN, W"
+          },
+          {
+            "last": "CARMICHAEL",
+            "first": "A",
+            "full": "CARMICHAEL, A"
+          }
+        ],
+        "instructors": [
+          "SANDMAN, W"
+        ],
+        "students": [
+          "CARMICHAEL, A"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 1400 \u00b7 1542 \u00b7 KATT \u00b7 SANDMAN, W, LT \u00b7 Carmichael, A, ENS \u00b7 NAV4390 \u00b7 1.7 \u00b7 KTCL-KNPA",
+        "role": "NAV4390",
+        "remarks": "KTCL-KNPA",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4204",
+        "start": "0800",
+        "end": "0942",
+        "land": "0942",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCCLANAHAN",
+            "first": "P",
+            "full": "MCCLANAHAN, P"
+          },
+          {
+            "last": "OETTING",
+            "first": "J",
+            "full": "OETTING, J"
+          }
+        ],
+        "instructors": [
+          "MCCLANAHAN, P"
+        ],
+        "students": [
+          "OETTING, J"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 0800 \u00b7 0942 \u00b7 KATT \u00b7 McCLANAHAN, P, LT \u00b7 Oetting, J, ENS \u00b7 NAV4204 \u00b7 1.7 \u00b7 KSUS-KPAH",
+        "role": "NAV4204",
+        "remarks": "KSUS-KPAH",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4205",
+        "start": "1100",
+        "end": "1242",
+        "land": "1242",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCCLANAHAN",
+            "first": "P",
+            "full": "MCCLANAHAN, P"
+          },
+          {
+            "last": "OETTING",
+            "first": "J",
+            "full": "OETTING, J"
+          }
+        ],
+        "instructors": [
+          "MCCLANAHAN, P"
+        ],
+        "students": [
+          "OETTING, J"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 1100 \u00b7 1242 \u00b7 KATT \u00b7 McCLANAHAN, P, LT \u00b7 Oetting, J, ENS \u00b7 NAV4205 \u00b7 1.7 \u00b7 KPAH-KTCL",
+        "role": "NAV4205",
+        "remarks": "KPAH-KTCL",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4390",
+        "start": "1400",
+        "end": "1542",
+        "land": "1542",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCCLANAHAN",
+            "first": "P",
+            "full": "MCCLANAHAN, P"
+          },
+          {
+            "last": "OETTING",
+            "first": "J",
+            "full": "OETTING, J"
+          }
+        ],
+        "instructors": [
+          "MCCLANAHAN, P"
+        ],
+        "students": [
+          "OETTING, J"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 1400 \u00b7 1542 \u00b7 KATT \u00b7 McCLANAHAN, P, LT \u00b7 Oetting, J, ENS \u00b7 NAV4390 \u00b7 1.7 \u00b7 KTCL-KNPA",
+        "role": "NAV4390",
+        "remarks": "KTCL-KNPA",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4105",
+        "start": "0800",
+        "end": "0942",
+        "land": "0942",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALCORN",
+            "first": "Z",
+            "full": "ALCORN, Z"
+          },
+          {
+            "last": "NUSSBAUM",
+            "first": "P",
+            "full": "NUSSBAUM, P"
+          }
+        ],
+        "instructors": [
+          "ALCORN, Z"
+        ],
+        "students": [
+          "NUSSBAUM, P"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 0800 \u00b7 0942 \u00b7 KATT \u00b7 ALCORN, Z, LT \u00b7 Nussbaum, P, ENS \u00b7 NAV4105 \u00b7 1.7 \u00b7 KMQY-KBHM",
+        "role": "NAV4105",
+        "remarks": "KMQY-KBHM",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4106",
+        "start": "1100",
+        "end": "1242",
+        "land": "1242",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALCORN",
+            "first": "Z",
+            "full": "ALCORN, Z"
+          },
+          {
+            "last": "NUSSBAUM",
+            "first": "P",
+            "full": "NUSSBAUM, P"
+          }
+        ],
+        "instructors": [
+          "ALCORN, Z"
+        ],
+        "students": [
+          "NUSSBAUM, P"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 1100 \u00b7 1242 \u00b7 KATT \u00b7 ALCORN, Z, LT \u00b7 Nussbaum, P, ENS \u00b7 NAV4106 \u00b7 1.7 \u00b7 KBHM-KHSA",
+        "role": "NAV4106",
+        "remarks": "KBHM-KHSA",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4107",
+        "start": "1400",
+        "end": "1542",
+        "land": "1542",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALCORN",
+            "first": "Z",
+            "full": "ALCORN, Z"
+          },
+          {
+            "last": "NUSSBAUM",
+            "first": "P",
+            "full": "NUSSBAUM, P"
+          }
+        ],
+        "instructors": [
+          "ALCORN, Z"
+        ],
+        "students": [
+          "NUSSBAUM, P"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 1400 \u00b7 1542 \u00b7 KATT \u00b7 ALCORN, Z, LT Simulator (Sim \u00b7 Nussbaum, P, ENS Event) Schedule \u00b7 NAV4107 \u00b7 1.7 \u00b7 KHSA-KNPA",
+        "role": "NAV4107",
+        "remarks": "KHSA-KNPA",
+        "duration": "1.7",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

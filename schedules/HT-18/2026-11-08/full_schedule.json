@@ -509,5 +509,361 @@
       "line_number": 29,
       "text": "2"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "CDO",
+        "start": "0700",
+        "end": "2100",
+        "land": "2100",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RATH",
+            "first": "CHRISTOPHER",
+            "full": "RATH, CHRISTOPHER"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "CDO \u00b7 RATH, CHRISTOPHER, LT \u00b7 0700 \u00b7 2100",
+        "role": "CDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM SDO",
+        "start": "0600",
+        "end": "1800",
+        "land": "1800",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GILLEY",
+            "first": "AMELIA",
+            "full": "GILLEY, AMELIA"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM SDO \u00b7 GILLEY, AMELIA G, 1stLt \u00b7 0600 \u00b7 1800",
+        "role": "AM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM SDO",
+        "start": "1800",
+        "end": "0600",
+        "land": "0600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CURNUTT",
+            "first": "JOHN",
+            "full": "CURNUTT, JOHN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM SDO \u00b7 CURNUTT, JOHN W, LTJG \u00b7 1800 \u00b7 0600",
+        "role": "PM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER",
+        "start": "0730",
+        "end": "1600",
+        "land": "1600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCARTHUR",
+            "first": "DONALD",
+            "full": "MCARTHUR, DONALD"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER \u00b7 MCARTHUR, DONALD, ENS \u00b7 0730 \u00b7 1600",
+        "role": "DUTY DRIVER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4202R, RI4203R",
+        "start": "1230",
+        "end": "2030",
+        "land": "2030",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RICHARDSON",
+            "first": "THOMAS",
+            "full": "RICHARDSON, THOMAS"
+          },
+          {
+            "last": "KUENNEN",
+            "first": "MADELINE",
+            "full": "KUENNEN, MADELINE"
+          }
+        ],
+        "instructors": [
+          "RICHARDSON, THOMAS"
+        ],
+        "students": [
+          "KUENNEN, MADELINE"
+        ],
+        "page": 2,
+        "line": "T39-1",
+        "raw": "T39-1 \u00b7 1130 \u00b7 1230 \u00b7 2030 \u00b7 KGNV \u00b7 KNDZ \u00b7 RICHARDSON, THOMAS F, LT \u00b7 KUENNEN, MADELINE T, ENS \u00b7 RI4202R, RI4203R \u00b7 1D2 1D9 \u00b7 6.0 \u00b7 CCX RETURN FROM KGNV",
+        "role": "RI4202R, RI4203R",
+        "remarks": "CCX RETURN FROM KGNV",
+        "duration": "6.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "NAV4101R",
+        "start": "1230",
+        "end": "2030",
+        "land": "2030",
+        "brief": "1130",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCKENZIE",
+            "first": "CONNER",
+            "full": "MCKENZIE, CONNER"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "MCKENZIE, CONNER"
+        ],
+        "page": 2,
+        "line": "T39-1",
+        "raw": "T39-1 \u00b7 1130 \u00b7 1230 \u00b7 2030 \u00b7 RICHARDSON, \u00b7 MCKENZIE, CONNER J, ENS \u00b7 NAV4101R",
+        "role": "NAV4101R",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4202A, RI4203A",
+        "start": "0930",
+        "end": "1730",
+        "land": "1730",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FRICKE",
+            "first": "ROBERT",
+            "full": "FRICKE, ROBERT"
+          },
+          {
+            "last": "KUHL",
+            "first": "MATTHEW",
+            "full": "KUHL, MATTHEW"
+          }
+        ],
+        "instructors": [
+          "FRICKE, ROBERT"
+        ],
+        "students": [
+          "KUHL, MATTHEW"
+        ],
+        "page": 2,
+        "line": "T43-1",
+        "raw": "T43-1 \u00b7 0830 \u00b7 0930 \u00b7 1730 \u00b7 KGNV \u00b7 KNDZ \u00b7 FRICKE, ROBERT L, LT \u00b7 KUHL, MATTHEW A, ENS \u00b7 RI4202A, RI4203A \u00b7 1D2 \u00b7 6.0 \u00b7 CCX RETURN FROM KGNV",
+        "role": "RI4202A, RI4203A",
+        "remarks": "CCX RETURN FROM KGNV",
+        "duration": "6.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4203A",
+        "start": "0930",
+        "end": "1730",
+        "land": "1730",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FRICKE",
+            "first": "ROBERT",
+            "full": "FRICKE, ROBERT"
+          },
+          {
+            "last": "VASQUEZ",
+            "first": "BENJAMIN",
+            "full": "VASQUEZ, BENJAMIN"
+          }
+        ],
+        "instructors": [
+          "FRICKE, ROBERT"
+        ],
+        "students": [
+          "VASQUEZ, BENJAMIN"
+        ],
+        "page": 2,
+        "line": "T43-1",
+        "raw": "T43-1 \u00b7 0830 \u00b7 0930 \u00b7 1730 \u00b7 FRICKE, ROBERT L, \u00b7 VASQUEZ, BENJAMIN A, 2ndLt \u00b7 RI4203A",
+        "role": "RI4203A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4202A, RI4203A",
+        "start": "0930",
+        "end": "1730",
+        "land": "1730",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHAUNAK",
+            "first": "SAMUEL",
+            "full": "SHAUNAK, SAMUEL"
+          },
+          {
+            "last": "LEUNG",
+            "first": "TIMOTHY",
+            "full": "LEUNG, TIMOTHY"
+          }
+        ],
+        "instructors": [
+          "SHAUNAK, SAMUEL"
+        ],
+        "students": [
+          "LEUNG, TIMOTHY"
+        ],
+        "page": 2,
+        "line": "T47-1",
+        "raw": "T47-1 \u00b7 0830 \u00b7 0930 \u00b7 1730 \u00b7 KNEW \u00b7 KNDZ \u00b7 SHAUNAK, SAMUEL K, LT \u00b7 LEUNG, TIMOTHY E, LTJG \u00b7 RI4202A, RI4203A \u00b7 1D2 \u00b7 6.0 \u00b7 CCX RETURN FROM KNEW",
+        "role": "RI4202A, RI4203A",
+        "remarks": "CCX RETURN FROM KNEW",
+        "duration": "6.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4203A",
+        "start": "0930",
+        "end": "1730",
+        "land": "1730",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHAUNAK",
+            "first": "SAMUEL",
+            "full": "SHAUNAK, SAMUEL"
+          },
+          {
+            "last": "THOMPSON",
+            "first": "MICHAEL",
+            "full": "THOMPSON, MICHAEL"
+          }
+        ],
+        "instructors": [
+          "SHAUNAK, SAMUEL"
+        ],
+        "students": [
+          "THOMPSON, MICHAEL"
+        ],
+        "page": 2,
+        "line": "T47-1",
+        "raw": "T47-1 \u00b7 0830 \u00b7 0930 \u00b7 1730 \u00b7 SHAUNAK, SAMUEL \u00b7 THOMPSON, MICHAEL N, LTJG \u00b7 RI4203A",
+        "role": "RI4203A",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "RI4104R RI4002A",
+        "start": "0830",
+        "end": "1230",
+        "land": "1230",
+        "brief": "0615",
+        "formation": "",
+        "crew": [
+          {
+            "last": "REGIS",
+            "first": "ANDREW",
+            "full": "REGIS, ANDREW"
+          },
+          {
+            "last": "ODORISIO",
+            "first": "JOAN",
+            "full": "ODORISIO, JOAN"
+          },
+          {
+            "last": "ALTURKI",
+            "first": "MUQREN",
+            "full": "ALTURKI, MUQREN"
+          }
+        ],
+        "instructors": [
+          "REGIS, ANDREW"
+        ],
+        "students": [
+          "ODORISIO, JOAN",
+          "ALTURKI, MUQREN"
+        ],
+        "page": 2,
+        "line": "T11-1",
+        "raw": "T11-1 \u00b7 0615 \u00b7 0830 \u00b7 1230 \u00b7 KNDZ \u00b7 KNDZ \u00b7 REGIS, ANDREW, LCDR Simulator \u00b7 ODORISIO, JOAN C, ENS ALTURKI, MUQREN T, LTJG (Sim Event) Schedule \u00b7 RI4104R RI4002A \u00b7 1D2 \u00b7 3.6 \u00b7 HOME FIELD PREPO",
+        "role": "RI4104R RI4002A",
+        "remarks": "HOME FIELD PREPO",
+        "duration": "3.6",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }

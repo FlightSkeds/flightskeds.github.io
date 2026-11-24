@@ -768,5 +768,838 @@
       "line_number": 32,
       "text": "A. J. MERRALL M. B. SIPAH"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": true,
+    "unreadable": false,
+    "uncertain": " G0490/G0590 FITU Admin WAGSTAFF, RYAN K, LT, HOWELL, AARON D,    G0290/G0390 Acad Bldg 2946, RM 7 BILLINGS, COLBY J, Capt, FERREE, EVAN E, LT,     - Testing Ctr MADDOCKS II, TODD D, Capt    SY0101 - Sys 1 Intro JPATS Bldg 3125, Rm Talegaonkar, Neeraj A, LT#, LINDSAY, NICHOLAS ORTIZ, MARTIN A, CIV    105 R, LCDR#    SY0206 - Propulsion JPATS Bldg 3125, Rm BLANTON, RICHARD S, CWO4#, VALDEZ, EMILIO ODAY, TREVOR A, CIV   Review 105 J, CDR#    SY0102 - AC Sys 1  Talegaonkar, Neeraj A, LT#, LINDSAY, NICHOLAS ORTIZ, MARTIN A, CIV Location: North Field  Tour  R, LCDR#  Hanger  T-Sharp Brief  Talegaonkar, Neeraj A, LT#  Location: Bldg 3155 Rm  Q1101 - FAM 0 FITU Admin BUSBY JR, JOHN H, Maj, KOVACH, JOSHUA G, BIHL, ADAM J, LT     LT#, YUHAS, JENNER M, LtCol, HOPKINS, JACOB,    SY0211 - SYS 2 JPATS Bldg 3125, Rm BLANTON, RICHARD S, CWO4#, VALDEZ, EMILIO ODAY, TREVOR A, CIV   Review 3 105 J, CDR#  ",
+    "events": [
+      {
+        "section": "Duty",
+        "code": "AM FDO",
+        "start": "0500",
+        "end": "1400",
+        "land": "1400",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DAWSON",
+            "first": "RYAN",
+            "full": "DAWSON, RYAN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM FDO \u00b7 DAWSON, RYAN A, ENS \u00b7 0500 \u00b7 1400",
+        "role": "AM FDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM FDO",
+        "start": "1200",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ALESSI",
+            "first": "NATHANIEL",
+            "full": "ALESSI, NATHANIEL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM FDO \u00b7 ALESSI, NATHANIEL A, ENS \u00b7 1200 \u00b7 2359",
+        "role": "PM FDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SCHEDULES",
+        "start": "0900",
+        "end": "1300",
+        "land": "1300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCLAUGHLIN",
+            "first": "STEPHEN",
+            "full": "MCLAUGHLIN, STEPHEN"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SCHEDULES \u00b7 MCLAUGHLIN, STEPHEN P, LTJG \u00b7 0900 \u00b7 1300",
+        "role": "SCHEDULES",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SCHEDULES QA",
+        "start": "0900",
+        "end": "1300",
+        "land": "1300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WARNOCK",
+            "first": "ALEXANDER",
+            "full": "WARNOCK, ALEXANDER"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SCHEDULES QA \u00b7 WARNOCK, ALEXANDER D, ENS \u00b7 0900 \u00b7 1300",
+        "role": "SCHEDULES QA",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "C4203",
+        "start": "0700",
+        "end": "0900",
+        "land": "0900",
+        "brief": "0515",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SLOAN",
+            "first": "NICHOLAS",
+            "full": "SLOAN, NICHOLAS"
+          },
+          {
+            "last": "COGO",
+            "first": "JOAOVICTOR",
+            "full": "COGO, JOAOVICTOR"
+          }
+        ],
+        "instructors": [
+          "SLOAN, NICHOLAS"
+        ],
+        "students": [
+          "COGO, JOAOVICTOR"
+        ],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0515 \u00b7 0700 \u00b7 0900 \u00b7 SLOAN, NICHOLAS A, Capt \u00b7 COGO, JOAOVICTOR C, Capt \u00b7 C4203 \u00b7 2.0/0.0 \u00b7 1x",
+        "role": "C4203",
+        "remarks": "1x",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Q4103",
+        "start": "0715",
+        "end": "0915",
+        "land": "0915",
+        "brief": "0530",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MERRALL",
+            "first": "ALEXANDER",
+            "full": "MERRALL, ALEXANDER"
+          },
+          {
+            "last": "KERBER",
+            "first": "MARK",
+            "full": "KERBER, MARK"
+          }
+        ],
+        "instructors": [
+          "MERRALL, ALEXANDER"
+        ],
+        "students": [
+          "KERBER, MARK"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0530 \u00b7 0715 \u00b7 0915 \u00b7 MERRALL, ALEXANDER J, Maj \u00b7 KERBER, MARK , CAPT \u00b7 Q4103 \u00b7 2.0/0.0 \u00b7 1x, To Morris",
+        "role": "Q4103",
+        "remarks": "1x, To Morris",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "BIS",
+        "start": "0730",
+        "end": "0930",
+        "land": "0930",
+        "brief": "0545",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIPAH",
+            "first": "MICHAEL",
+            "full": "SIPAH, MICHAEL"
+          },
+          {
+            "last": "BIHL",
+            "first": "ADAM",
+            "full": "BIHL, ADAM"
+          }
+        ],
+        "instructors": [
+          "SIPAH, MICHAEL"
+        ],
+        "students": [
+          "BIHL, ADAM"
+        ],
+        "page": 2,
+        "line": "3",
+        "raw": "3 \u00b7 0545 \u00b7 0730 \u00b7 0930 \u00b7 SIPAH, MICHAEL B, LCDR \u00b7 BIHL, ADAM J, LT \u00b7 BIS \u00b7 2.0/0.0 \u00b7 1x, To Schiffer",
+        "role": "BIS",
+        "remarks": "1x, To Schiffer",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Q4103",
+        "start": "0745",
+        "end": "0945",
+        "land": "0945",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GOODPASTER",
+            "first": "MATTHEW",
+            "full": "GOODPASTER, MATTHEW"
+          },
+          {
+            "last": "PARRY",
+            "first": "JONATHON",
+            "full": "PARRY, JONATHON"
+          }
+        ],
+        "instructors": [
+          "GOODPASTER, MATTHEW"
+        ],
+        "students": [
+          "PARRY, JONATHON"
+        ],
+        "page": 2,
+        "line": "4",
+        "raw": "4 \u00b7 0600 \u00b7 0745 \u00b7 0945 \u00b7 GOODPASTER, MATTHEW I, LT# \u00b7 PARRY, JONATHON K, CDR# \u00b7 Q4103 \u00b7 2.0/0.0 \u00b7 2x O/I, OCF Required",
+        "role": "Q4103",
+        "remarks": "2x O/I, OCF Required",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Q4103",
+        "start": "0800",
+        "end": "1000",
+        "land": "1000",
+        "brief": "0615",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HOFIUS",
+            "first": "JONATHAN",
+            "full": "HOFIUS, JONATHAN"
+          },
+          {
+            "last": "FLEIG",
+            "first": "TYLER",
+            "full": "FLEIG, TYLER"
+          }
+        ],
+        "instructors": [
+          "HOFIUS, JONATHAN"
+        ],
+        "students": [
+          "FLEIG, TYLER"
+        ],
+        "page": 2,
+        "line": "5",
+        "raw": "5 \u00b7 0615 \u00b7 0800 \u00b7 1000 \u00b7 HOFIUS, JONATHAN W, LCDR# \u00b7 FLEIG, TYLER J, LT# \u00b7 Q4103 \u00b7 2.0/0.0 \u00b7 2x O/I, OCF Required",
+        "role": "Q4103",
+        "remarks": "2x O/I, OCF Required",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Q4103",
+        "start": "1115",
+        "end": "1315",
+        "land": "1315",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORRIS",
+            "first": "COLTON",
+            "full": "MORRIS, COLTON"
+          },
+          {
+            "last": "FISK",
+            "first": "DANIEL",
+            "full": "FISK, DANIEL"
+          }
+        ],
+        "instructors": [
+          "MORRIS, COLTON"
+        ],
+        "students": [
+          "FISK, DANIEL"
+        ],
+        "page": 2,
+        "line": "6",
+        "raw": "6 \u00b7 0930 \u00b7 1115 \u00b7 1315 \u00b7 MORRIS, COLTON J, Capt# \u00b7 FISK, DANIEL R, LT# \u00b7 Q4103 \u00b7 2.0/0.0 \u00b7 2x O/I, OCF Required",
+        "role": "Q4103",
+        "remarks": "2x O/I, OCF Required",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Q4103",
+        "start": "1130",
+        "end": "1330",
+        "land": "1330",
+        "brief": "0945",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SCHIFFER",
+            "first": "BRENT",
+            "full": "SCHIFFER, BRENT"
+          },
+          {
+            "last": "CHISHOLM",
+            "first": "RYAN",
+            "full": "CHISHOLM, RYAN"
+          }
+        ],
+        "instructors": [
+          "SCHIFFER, BRENT"
+        ],
+        "students": [
+          "CHISHOLM, RYAN"
+        ],
+        "page": 2,
+        "line": "7",
+        "raw": "7 \u00b7 0945 \u00b7 1130 \u00b7 1330 \u00b7 SCHIFFER, BRENT M, LCDR# \u00b7 CHISHOLM, RYAN C, LT# \u00b7 Q4103 \u00b7 2.0/0.0 \u00b7 2x O/I, OCF Required",
+        "role": "Q4103",
+        "remarks": "2x O/I, OCF Required",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Q4104",
+        "start": "1145",
+        "end": "1345",
+        "land": "1345",
+        "brief": "1000",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GOODPASTER",
+            "first": "MATTHEW",
+            "full": "GOODPASTER, MATTHEW"
+          },
+          {
+            "last": "PARRY",
+            "first": "JONATHON",
+            "full": "PARRY, JONATHON"
+          }
+        ],
+        "instructors": [
+          "GOODPASTER, MATTHEW"
+        ],
+        "students": [
+          "PARRY, JONATHON"
+        ],
+        "page": 2,
+        "line": "8",
+        "raw": "8 \u00b7 1000 \u00b7 1145 \u00b7 1345 \u00b7 GOODPASTER, MATTHEW I, LT# \u00b7 PARRY, JONATHON K, CDR# \u00b7 Q4104 \u00b7 2.0/0.0",
+        "role": "Q4104",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Q4104",
+        "start": "1200",
+        "end": "1400",
+        "land": "1400",
+        "brief": "1015",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HOFIUS",
+            "first": "JONATHAN",
+            "full": "HOFIUS, JONATHAN"
+          },
+          {
+            "last": "FLEIG",
+            "first": "TYLER",
+            "full": "FLEIG, TYLER"
+          }
+        ],
+        "instructors": [
+          "HOFIUS, JONATHAN"
+        ],
+        "students": [
+          "FLEIG, TYLER"
+        ],
+        "page": 2,
+        "line": "9",
+        "raw": "9 \u00b7 1015 \u00b7 1200 \u00b7 1400 \u00b7 HOFIUS, JONATHAN W, LCDR# \u00b7 FLEIG, TYLER J, LT# \u00b7 Q4104 \u00b7 2.0/0.0",
+        "role": "Q4104",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Q4104",
+        "start": "1515",
+        "end": "1715",
+        "land": "1715",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MORRIS",
+            "first": "COLTON",
+            "full": "MORRIS, COLTON"
+          },
+          {
+            "last": "FISK",
+            "first": "DANIEL",
+            "full": "FISK, DANIEL"
+          }
+        ],
+        "instructors": [
+          "MORRIS, COLTON"
+        ],
+        "students": [
+          "FISK, DANIEL"
+        ],
+        "page": 2,
+        "line": "10",
+        "raw": "10 \u00b7 1330 \u00b7 1515 \u00b7 1715 \u00b7 MORRIS, COLTON J, Capt# \u00b7 FISK, DANIEL R, LT# \u00b7 Q4104 \u00b7 2.0/0.0",
+        "role": "Q4104",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "Q4104 Event) Schedule",
+        "start": "1530",
+        "end": "1730",
+        "land": "1730",
+        "brief": "1345",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SCHIFFER",
+            "first": "BRENT",
+            "full": "SCHIFFER, BRENT"
+          },
+          {
+            "last": "CHISHOLM",
+            "first": "RYAN",
+            "full": "CHISHOLM, RYAN"
+          }
+        ],
+        "instructors": [
+          "SCHIFFER, BRENT"
+        ],
+        "students": [
+          "CHISHOLM, RYAN"
+        ],
+        "page": 2,
+        "line": "11",
+        "raw": "11 \u00b7 1345 \u00b7 1530 \u00b7 1730 \u00b7 SCHIFFER, BRENT M, LCDR# \u00b7 CHISHOLM, RYAN C, LT# Simulator (Sim \u00b7 Q4104 Event) Schedule \u00b7 2.0/0.0",
+        "role": "Q4104 Event) Schedule",
+        "remarks": "",
+        "duration": "2.0/0.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Q2101",
+        "start": "0720",
+        "end": "",
+        "land": "",
+        "brief": "0650",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CESSNA",
+            "first": "ANDREW",
+            "full": "CESSNA, ANDREW"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "CESSNA, ANDREW"
+        ],
+        "page": 2,
+        "line": "1",
+        "raw": "1 \u00b7 0650 \u00b7 0720 \u00b7 OFT 1W \u00b7 CESSNA, ANDREW L, LT \u00b7 Q2101",
+        "role": "Q2101",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 1W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Q3203",
+        "start": "0840",
+        "end": "",
+        "land": "",
+        "brief": "0810",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KOVACH",
+            "first": "JOSHUA",
+            "full": "KOVACH, JOSHUA"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "KOVACH, JOSHUA"
+        ],
+        "page": 2,
+        "line": "2",
+        "raw": "2 \u00b7 0810 \u00b7 0840 \u00b7 OFT 8W \u00b7 KOVACH, JOSHUA G, LT# \u00b7 Q3203",
+        "role": "Q3203",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 8W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Q2104",
+        "start": "1000",
+        "end": "",
+        "land": "",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAJEWSKI",
+            "first": "DARLENE",
+            "full": "HAJEWSKI, DARLENE"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "HAJEWSKI, DARLENE"
+        ],
+        "page": 2,
+        "line": "3",
+        "raw": "3 \u00b7 0930 \u00b7 1000 \u00b7 OFT 3W \u00b7 HAJEWSKI, DARLENE A, CAPT# \u00b7 Q2104",
+        "role": "Q2104",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 3W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "C3102",
+        "start": "1000",
+        "end": "",
+        "land": "",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIVILS",
+            "first": "JONATHAN",
+            "full": "SIVILS, JONATHAN"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "SIVILS, JONATHAN"
+        ],
+        "page": 2,
+        "line": "4",
+        "raw": "4 \u00b7 0930 \u00b7 1000 \u00b7 OFT 4W \u00b7 SIVILS, JONATHAN S, Capt# \u00b7 C3102",
+        "role": "C3102",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 4W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "I3201",
+        "start": "1120",
+        "end": "",
+        "land": "",
+        "brief": "1050",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FUNKHOUSER",
+            "first": "BENJAMIN",
+            "full": "FUNKHOUSER, BENJAMIN"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "FUNKHOUSER, BENJAMIN"
+        ],
+        "page": 2,
+        "line": "5",
+        "raw": "5 \u00b7 1050 \u00b7 1120 \u00b7 OFT 4W \u00b7 FUNKHOUSER, BENJAMIN L, LCDR# \u00b7 I3201",
+        "role": "I3201",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 4W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Q3202",
+        "start": "1120",
+        "end": "",
+        "land": "",
+        "brief": "1050",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHARPE",
+            "first": "ALEC",
+            "full": "SHARPE, ALEC"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "SHARPE, ALEC"
+        ],
+        "page": 3,
+        "line": "6",
+        "raw": "6 \u00b7 1050 \u00b7 1120 \u00b7 OFT 9W \u00b7 SHARPE, ALEC C, LT \u00b7 Q3202",
+        "role": "Q3202",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 9W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Q3101",
+        "start": "1240",
+        "end": "",
+        "land": "",
+        "brief": "1210",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAJEWSKI",
+            "first": "DARLENE",
+            "full": "HAJEWSKI, DARLENE"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "HAJEWSKI, DARLENE"
+        ],
+        "page": 3,
+        "line": "7",
+        "raw": "7 \u00b7 1210 \u00b7 1240 \u00b7 OFT 3W \u00b7 HAJEWSKI, DARLENE A, CAPT# \u00b7 Q3101",
+        "role": "Q3101",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 3W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "C3103",
+        "start": "1240",
+        "end": "",
+        "land": "",
+        "brief": "1210",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SIVILS",
+            "first": "JONATHAN",
+            "full": "SIVILS, JONATHAN"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "SIVILS, JONATHAN"
+        ],
+        "page": 3,
+        "line": "8",
+        "raw": "8 \u00b7 1210 \u00b7 1240 \u00b7 OFT 7W \u00b7 SIVILS, JONATHAN S, Capt# \u00b7 C3103",
+        "role": "C3103",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 7W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "I3202",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FUNKHOUSER",
+            "first": "BENJAMIN",
+            "full": "FUNKHOUSER, BENJAMIN"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "FUNKHOUSER, BENJAMIN"
+        ],
+        "page": 3,
+        "line": "9",
+        "raw": "9 \u00b7 1330 \u00b7 1400 \u00b7 OFT 5W \u00b7 FUNKHOUSER, BENJAMIN L, LCDR# \u00b7 I3202",
+        "role": "I3202",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 5W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Q2103",
+        "start": "1400",
+        "end": "",
+        "land": "",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CORDONNIER",
+            "first": "LISA",
+            "full": "CORDONNIER, LISA"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "CORDONNIER, LISA"
+        ],
+        "page": 3,
+        "line": "10",
+        "raw": "10 \u00b7 1330 \u00b7 1400 \u00b7 OFT 6W \u00b7 CORDONNIER, LISA D, Col \u00b7 Q2103",
+        "role": "Q2103",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 6W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Q3202",
+        "start": "1520",
+        "end": "",
+        "land": "",
+        "brief": "1450",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WHITE",
+            "first": "ABIGAIL",
+            "full": "WHITE, ABIGAIL"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "WHITE, ABIGAIL"
+        ],
+        "page": 3,
+        "line": "11",
+        "raw": "11 \u00b7 1450 \u00b7 1520 \u00b7 OFT 2W \u00b7 WHITE, ABIGAIL R, LT \u00b7 Q3202",
+        "role": "Q3202",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 2W",
+        "solo": false
+      },
+      {
+        "section": "Simulator",
+        "code": "Q2101",
+        "start": "1800",
+        "end": "",
+        "land": "",
+        "brief": "1730",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BLOODGOOD",
+            "first": "RILEY",
+            "full": "BLOODGOOD, RILEY"
+          }
+        ],
+        "instructors": [],
+        "students": [
+          "BLOODGOOD, RILEY"
+        ],
+        "page": 3,
+        "line": "12",
+        "raw": "12 \u00b7 1730 \u00b7 1800 \u00b7 OFT 7W \u00b7 BLOODGOOD, RILEY D, LT Ground Events \u00b7 Q2101",
+        "role": "Q2101",
+        "remarks": "",
+        "duration": "",
+        "device": "OFT 7W",
+        "solo": false
+      }
+    ]
+  }
 }

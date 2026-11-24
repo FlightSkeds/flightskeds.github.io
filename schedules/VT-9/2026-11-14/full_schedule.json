@@ -405,5 +405,321 @@
       "line_number": 20,
       "text": "No Ground Events Scheduled"
     }
-  ]
+  ],
+  "assignments": {
+    "version": 1,
+    "complete": false,
+    "unreadable": false,
+    "uncertain": "",
+    "events": [
+      {
+        "section": "Flight",
+        "code": "FTX LEAD",
+        "start": "0800",
+        "end": "0906",
+        "land": "0906",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHANMUGAM",
+            "first": "",
+            "full": "SHANMUGAM"
+          }
+        ],
+        "instructors": [
+          "SHANMUGAM"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "900",
+        "raw": "900 \u00b7 0600 \u00b7 0800 \u00b7 0906 \u00b7 LCDR SHANMUGAM \u00b7 FTX LEAD \u00b7 1.1 \u00b7 MEI OPS",
+        "role": "FTX LEAD",
+        "remarks": "MEI OPS",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FTX4101",
+        "start": "0800",
+        "end": "0900",
+        "land": "0900",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RICHARDSON",
+            "first": "",
+            "full": "RICHARDSON"
+          },
+          {
+            "last": "FREISCHLAG",
+            "first": "",
+            "full": "FREISCHLAG"
+          }
+        ],
+        "instructors": [
+          "RICHARDSON"
+        ],
+        "students": [
+          "FREISCHLAG"
+        ],
+        "page": 2,
+        "line": "901",
+        "raw": "901 \u00b7 0600 \u00b7 0800 \u00b7 0900 \u00b7 LCDR RICHARDSON \u00b7 LT FREISCHLAG \u00b7 FTX4101 \u00b7 1.0 \u00b7 MEI OPS; 2HR BRF",
+        "role": "FTX4101",
+        "remarks": "MEI OPS; 2HR BRF",
+        "duration": "1.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FTX LEAD",
+        "start": "0800",
+        "end": "0906",
+        "land": "0906",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHAKER",
+            "first": "",
+            "full": "SHAKER"
+          }
+        ],
+        "instructors": [
+          "SHAKER"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "902",
+        "raw": "902 \u00b7 0600 \u00b7 0800 \u00b7 0906 \u00b7 Maj SHAKER \u00b7 FTX LEAD \u00b7 1.1 \u00b7 MEI OPS",
+        "role": "FTX LEAD",
+        "remarks": "MEI OPS",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FTX4101",
+        "start": "0800",
+        "end": "0900",
+        "land": "0900",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "AUCOIN",
+            "first": "",
+            "full": "AUCOIN"
+          },
+          {
+            "last": "WILLIAMS",
+            "first": "",
+            "full": "WILLIAMS"
+          }
+        ],
+        "instructors": [
+          "AUCOIN"
+        ],
+        "students": [
+          "WILLIAMS"
+        ],
+        "page": 2,
+        "line": "903",
+        "raw": "903 \u00b7 0600 \u00b7 0800 \u00b7 0900 \u00b7 CDR AUCOIN \u00b7 LTJG WILLIAMS \u00b7 FTX4101 \u00b7 1.0 \u00b7 MEI OPS; 2HR BRF",
+        "role": "FTX4101",
+        "remarks": "MEI OPS; 2HR BRF",
+        "duration": "1.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FTX LEAD",
+        "start": "1030",
+        "end": "1136",
+        "land": "1136",
+        "brief": "0845",
+        "formation": "",
+        "crew": [
+          {
+            "last": "RICHARDSON",
+            "first": "",
+            "full": "RICHARDSON"
+          }
+        ],
+        "instructors": [
+          "RICHARDSON"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "904",
+        "raw": "904 \u00b7 0845 \u00b7 1030 \u00b7 1136 \u00b7 LCDR RICHARDSON \u00b7 FTX LEAD \u00b7 1.1 \u00b7 MEI OPS",
+        "role": "FTX LEAD",
+        "remarks": "MEI OPS",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FTX4102",
+        "start": "1030",
+        "end": "1130",
+        "land": "1130",
+        "brief": "0845",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHANMUGAM",
+            "first": "",
+            "full": "SHANMUGAM"
+          },
+          {
+            "last": "FREISCHLAG",
+            "first": "",
+            "full": "FREISCHLAG"
+          }
+        ],
+        "instructors": [
+          "SHANMUGAM"
+        ],
+        "students": [
+          "FREISCHLAG"
+        ],
+        "page": 2,
+        "line": "905",
+        "raw": "905 \u00b7 0845 \u00b7 1030 \u00b7 1130 \u00b7 LCDR SHANMUGAM \u00b7 LT FREISCHLAG \u00b7 FTX4102 \u00b7 1.0 \u00b7 MEI OPS",
+        "role": "FTX4102",
+        "remarks": "MEI OPS",
+        "duration": "1.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FTX LEAD",
+        "start": "1030",
+        "end": "1136",
+        "land": "1136",
+        "brief": "0845",
+        "formation": "",
+        "crew": [
+          {
+            "last": "AUCOIN",
+            "first": "",
+            "full": "AUCOIN"
+          }
+        ],
+        "instructors": [
+          "AUCOIN"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "906",
+        "raw": "906 \u00b7 0845 \u00b7 1030 \u00b7 1136 \u00b7 CDR AUCOIN \u00b7 FTX LEAD \u00b7 1.1 \u00b7 MEI OPS",
+        "role": "FTX LEAD",
+        "remarks": "MEI OPS",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FTX4102",
+        "start": "1030",
+        "end": "1130",
+        "land": "1130",
+        "brief": "0845",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHAKER",
+            "first": "",
+            "full": "SHAKER"
+          },
+          {
+            "last": "WILLIAMS",
+            "first": "",
+            "full": "WILLIAMS"
+          }
+        ],
+        "instructors": [
+          "SHAKER"
+        ],
+        "students": [
+          "WILLIAMS"
+        ],
+        "page": 2,
+        "line": "907",
+        "raw": "907 \u00b7 0845 \u00b7 1030 \u00b7 1130 \u00b7 Maj SHAKER \u00b7 LTJG WILLIAMS \u00b7 FTX4102 \u00b7 1.0 \u00b7 MEI OPS; MB",
+        "role": "FTX4102",
+        "remarks": "MEI OPS; MB",
+        "duration": "1.0",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FTX LEAD",
+        "start": "1300",
+        "end": "1406",
+        "land": "1406",
+        "brief": "0845",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SHAKER",
+            "first": "",
+            "full": "SHAKER"
+          }
+        ],
+        "instructors": [
+          "SHAKER"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "908",
+        "raw": "908 \u00b7 0845 \u00b7 1300 \u00b7 1406 \u00b7 Maj SHAKER \u00b7 FTX LEAD \u00b7 1.1 \u00b7 MEI OPS",
+        "role": "FTX LEAD",
+        "remarks": "MEI OPS",
+        "duration": "1.1",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "FTX4102",
+        "start": "1300",
+        "end": "1400",
+        "land": "1400",
+        "brief": "0845",
+        "formation": "",
+        "crew": [
+          {
+            "last": "AUCOIN SIMULATOR",
+            "first": "",
+            "full": "AUCOIN SIMULATOR"
+          }
+        ],
+        "instructors": [
+          "AUCOIN SIMULATOR"
+        ],
+        "students": [],
+        "page": 2,
+        "line": "909",
+        "raw": "909 \u00b7 0845 \u00b7 1300 \u00b7 1400 \u00b7 CDR AUCOIN Simulator \u00b7 1stLt ZUZELSKI (Sim Event) Schedule \u00b7 FTX4102 \u00b7 1.0 \u00b7 MEI OPS; BRF W/ WILLIAMS",
+        "role": "FTX4102",
+        "remarks": "MEI OPS; BRF W/ WILLIAMS",
+        "duration": "1.0",
+        "device": "",
+        "solo": false
+      }
+    ]
+  }
 }
