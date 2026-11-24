@@ -12,7 +12,7 @@ from unittest.mock import Mock, patch
 
 import fetch_schedules as fetch
 import notify_schedules as push
-from notification_schedule import personal, read_schedule
+from notification_schedule import personal, read_schedule, schedule_assignments, stored_schedule
 
 
 class Notifications(unittest.TestCase):
@@ -37,6 +37,19 @@ class Notifications(unittest.TestCase):
         one = personal(self.schedule, first, last, False)
         self.assertIn("1 event:", push.message(self.day, None, one, False)[1])
         self.assertIn("4 events:", push.message(self.day, None, self.bailey, False)[1])
+
+    def test_vt21_preserves_columns_and_searchable_initials(self):
+        path = push.ROOT / "schedules/VT-21/2026-11-20/original_schedule.pdf"
+        parsed = schedule_assignments(path.read_bytes())
+        events = parsed["events"]
+        self.assertEqual(Counter(event["section"] for event in events)["Flight"], 50)
+        self.assertEqual(Counter(event["section"] for event in events)["Simulator"], 30)
+        durkin = next(e for e in events if e["code"] == "BFM4602" and "DURKIN, K" in e["instructors"])
+        self.assertEqual(durkin["students"], ["TORIANO, N"])
+        self.assertEqual(durkin["start"], "0800")
+        self.assertEqual(durkin["page"], 2)
+        schedule = stored_schedule({"assignments": parsed, "pages": []})
+        self.assertIsNone(personal(schedule, "KEVIN", "DURKIN", True))
 
     def test_absent_and_unmatched(self):
         for known, expected in [(True, "No Events"), (False, "Schedule Posted")]:
@@ -63,7 +76,7 @@ class Notifications(unittest.TestCase):
         path = f"schedules/VT-3/{self.day}/full_schedule.json"
         tags = {"squadron": "VT-3", "first": "LOGAN", "last": "BAILEY"}
         devices = {"a": tags, "b": tags, "c": dict(tags, squadron="VT-6")}
-        with patch.object(push, "git", side_effect=[b"changed", self.pdf, b""]*2), \
+        with patch.object(push, "git", side_effect=[b"changed", b"{}", self.pdf, b""]*2), \
              patch.object(push, "api", return_value={"id": "accepted"}) as send:
             for _ in range(2):
                 push.dispatch("revision", path, devices)

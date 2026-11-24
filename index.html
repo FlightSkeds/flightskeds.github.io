@@ -845,11 +845,6 @@ function setTheme() {
     wings[profile.wing] || profile.wing;
 
   const patch = $('homePatch');
-  const patchFiles = {
-    'VT-3':'/patches/vt-3.png',
-    'VT-6':'/patches/vt-6.png',
-    'VT-2':'/patches/vt-2.png'
-  };
   const fallback = () => {
     patch.textContent =
       profile.squadron.startsWith('HT') ? '🚁' : '✈';
@@ -858,15 +853,11 @@ function setTheme() {
 
   patch.replaceChildren();
 
-  if (patchFiles[profile.squadron]) {
-    const img = document.createElement('img');
-    img.alt = profile.squadron + ' squadron patch';
-    img.onerror = fallback;
-    img.src = patchFiles[profile.squadron];
-    patch.appendChild(img);
-  } else {
-    fallback();
-  }
+  const img = document.createElement('img');
+  img.alt = profile.squadron + ' insignia';
+  img.onerror = fallback;
+  img.src = '/patches/' + encodeURIComponent(profile.squadron.toLowerCase()) + '.png';
+  patch.appendChild(img);
 }
 
 function renderOnboarding() {
@@ -1095,7 +1086,7 @@ async function fetchSchedule(url,squadron,date) {
     const data = await fetchJSON(url);
     if (data === null) return null;
     if (!Array.isArray(data.records) || !Array.isArray(data.pages) ||
-        (!data.records.length && !data.pages.some(page => page.text?.trim())) ||
+        (!data.assignments && !data.records.length && !data.pages.some(page => page.text?.trim())) ||
         data.metadata?.schedule_date !== date ||
         data.metadata?.schedule_id !== squadron) {
       throw Error('Invalid schedule data');
@@ -1223,6 +1214,16 @@ function parseSimulator(text,page) {
 }
 
 function parseSchedule(data) {
+  if (data.assignments?.version === 1 && Array.isArray(data.assignments.events)) {
+    const events = data.assignments.events;
+    return {
+      flights:events.filter(event => event.section === 'Flight'),
+      sims:events.filter(event => event.section === 'Simulator'),
+      ground:events.filter(event => event.section === 'Ground'),
+      duty:events.filter(event => event.section === 'Duty')
+    };
+  }
+
   const flights = [];
   const sims = [];
   const ground = [];
@@ -1298,7 +1299,7 @@ function parseSchedule(data) {
 
 function matchPerson(crew,last,first) {
   const candidates = crew.filter(
-    person => person.last === last
+    person => person.last.replace(/’/g,"'") === last.replace(/’/g,"'")
   );
 
   if (!candidates.length) return false;
@@ -1306,6 +1307,7 @@ function matchPerson(crew,last,first) {
 
   return candidates.some(person =>
     person.first === first ||
+    (first.length === 1 && person.first?.[0] === first) ||
     (
       person.first.length === 1 &&
       person.first === first[0]
@@ -1315,7 +1317,8 @@ function matchPerson(crew,last,first) {
 
 function findEvents(parsed,last,first) {
   const matching = items => items.filter(event =>
-    matchPerson(event.crew || [],last,first)
+    matchPerson(event.crew || [],last,first) ||
+    (event.crew || []).some(person => !person.first && matchPerson([person],last,''))
   );
 
   return {
@@ -1443,7 +1446,8 @@ function discussHTML(event,id,date) {
   const key = [profile.squadron,profile.last,profile.first,id,date,event.section,
     event.line,event.code,...event.crew.map(person => person.full)].join('/');
   const instructor = supported && profile.role === 'instructor';
-  const trainee = event.crew[event.solo ? 0 : 1];
+  const trainee = event.students ? event.crew.find(person => event.students.includes(person.full)) :
+    event.crew[event.solo ? 0 : 1];
   const ownEvent = supported && id === profile.squadron && trainee &&
     matchPerson([trainee],profile.last,profile.first);
   const syllabus = instructor ? viewedSyllabi.get(key) || '' :
@@ -1494,13 +1498,13 @@ function eventCard(event,id,date,all) {
       <div>
         <small>INSTRUCTOR</small>
         <strong>
-          ${escapeHTML((!event.solo && event.crew[0]?.full) || '—')}
+          ${escapeHTML((event.instructors ? event.instructors.join(' / ') : !event.solo && event.crew[0]?.full) || '—')}
         </strong>
       </div>
       <div>
         <small>STUDENT</small>
         <strong>
-          ${escapeHTML(event.crew[event.solo ? 0 : 1]?.full || '—')}
+          ${escapeHTML((event.students ? event.students.join(' / ') : event.crew[event.solo ? 0 : 1]?.full) || '—')}
         </strong>
       </div>
     </div>
@@ -1574,8 +1578,20 @@ function dailyQuestionsHTML(data) {
   </section>`;
 }
 
+function parsingNotice(data) {
+  if (!data.assignments || data.assignments.complete) return '';
+  return data.assignments.unreadable
+    ? 'This PDF has no readable assignment text. Open the original schedule to verify.'
+    : 'Some assignments could not be verified. Check the original schedule for the full list.';
+}
+
 function scheduleHTML(found,id,date,parsed,data) {
-  let html = `<div class="stats">
+  const warning = parsingNotice(data);
+  const limitedNames = Object.values(found).some(events => events.some(event =>
+    event.crew?.some(person => (person.first || '').length < 2)));
+  let html = warning ? `<p class="notice">${warning} ${pdfLink(id,date,1)}</p>` : '';
+  if (limitedNames) html += '<p class="notice">This schedule lists some names by surname or initial. Verify the person against the PDF.</p>';
+  html += `<div class="stats">
     <div class="stat">
       <small>FLIGHTS</small>
       <strong>${found.flights.length}</strong>
@@ -1676,7 +1692,7 @@ async function loadMySchedule({auto = false} = {}) {
 
     $('myResults').innerHTML = scheduleHTML(found,squadron,date,parsed,data);
 
-    if (!eventCount(found)) {
+    if (!eventCount(found) && !parsingNotice(data)) {
       $('myResults').insertAdjacentHTML('beforeend',`<div class="notice">
         ${escapeHTML(pick(emptyMessages))}
         <div>${pdfLink(squadron,date,1)}</div>
@@ -1754,7 +1770,7 @@ async function searchSomeone() {
       const found = findEvents(parsed,last,first);
       const count = eventCount(found);
 
-      if (!count) continue;
+      if (!count && !parsingNotice(item.data)) continue;
 
       total += count;
 
@@ -1773,7 +1789,8 @@ async function searchSomeone() {
       `${total} matching events · ` +
       `${available}/${ids.length} schedules available` +
       (loaded.some(item => item.cached) ? ' · Includes cached schedules' : '') +
-      (errors ? ` · ${errors} unavailable` : ''),
+      (errors ? ` · ${errors} unavailable` : '') +
+      (loaded.some(item => item.data && parsingNotice(item.data)) ? ' · Some assignments unverified' : ''),
       !!errors
     );
 
@@ -1809,7 +1826,7 @@ function historyDayHTML(item) {
     detail = item.cached ? '<p class="muted small">Cached schedule copy</p>' : '';
     detail += scheduleHTML(item.found,profile.squadron,item.date,item.parsed,item.data);
 
-    if (!item.count) {
+    if (!item.count && !parsingNotice(item.data)) {
       detail += `<p class="muted small">Published schedule — no matching assignments.</p>
         ${pdfLink(profile.squadron,item.date,1)}`;
     }
@@ -1827,7 +1844,9 @@ function calendarAssignments(found) {
     (timeMinutes(a.start) ?? 1440) - (timeMinutes(b.start) ?? 1440)
   );
   return events.map(event => {
-    const counterpart = event.crew[profile.role === 'instructor' ? 1 : 0];
+    const partners = profile.role === 'instructor' ? event.students : event.instructors;
+    const counterpart = partners ? event.crew.find(person => partners.includes(person.full)) :
+      event.crew[profile.role === 'instructor' ? 1 : 0];
     const name = !event.solo && counterpart &&
       !matchPerson([counterpart],profile.last,profile.first)
       ? counterpart.last.toLowerCase().replace(/(^|[ '-])[a-z]/g,char => char.toUpperCase())
@@ -1952,7 +1971,8 @@ async function loadHistory() {
       'historyMessage',
       `${available}/${days} schedules available · ${assigned} matching events` +
       (loaded.some(item => item.cached) ? ' · Includes cached schedules' : '') +
-      (errors ? ` · ${errors} unavailable` : ''),
+      (errors ? ` · ${errors} unavailable` : '') +
+      (loaded.some(item => item.data && parsingNotice(item.data)) ? ' · Some assignments unverified' : ''),
       !!errors
     );
 

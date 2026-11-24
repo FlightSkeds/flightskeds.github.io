@@ -16,7 +16,7 @@ from urllib.parse import urlencode, urlsplit
 
 import requests
 
-from notification_schedule import personal, read_schedule
+from notification_schedule import personal, read_schedule, stored_schedule
 
 ROOT = Path(__file__).resolve().parent
 CURSOR = ROOT / ".github/notification-cursor"
@@ -168,7 +168,12 @@ def dispatch(commit, path, devices):
     revisions = git("diff", "--name-only", commit+"^", commit, "--", pdf)
     if not revisions:
         return
-    new = read_schedule(git("show", commit+":"+pdf))
+    try:
+        current = json.loads(git("show", commit+":"+path))
+    except (ValueError, subprocess.CalledProcessError):
+        current = {}
+    new = (stored_schedule(current) if current.get("assignments", {}).get("version") == 1
+           else read_schedule(git("show", commit+":"+pdf)))
     existed = bool(git("ls-tree", commit+"^", "--", pdf))
     old = read_schedule(git("show", commit+"^:"+pdf)) if existed else None
     for device, tags in targets:

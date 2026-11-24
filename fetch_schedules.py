@@ -15,6 +15,8 @@ from pathlib import Path
 from urllib.parse import quote, urlparse
 from zoneinfo import ZoneInfo
 
+from notification_schedule import schedule_assignments
+
 import certifi
 import pdfplumber
 import requests
@@ -150,7 +152,7 @@ def schedule_url(identifier, info, day):
     )
 
 
-def extract_pdf(data):
+def extract_pdf(data, day=None):
     pages = []
     tables = []
     records = []
@@ -198,13 +200,11 @@ def extract_pdf(data):
                         "rows": rows
                     })
 
-    if not records:
-        raise ValueError("PDF has no extractable text")
-
     return {
         "pages": pages,
         "tables": tables,
-        "records": records
+        "records": records,
+        "assignments": schedule_assignments(data, day)
     }, "\n\n".join(text_parts)
 
 
@@ -390,16 +390,16 @@ def check_schedule(
         try:
             old_hash = file_hash(pdf_path.read_bytes())
 
-            if old_hash == new_hash:
+            if old_hash == new_hash and json.loads(json_path.read_text()).get("assignments", {}).get("version") == 1:
                 return "unchanged"
 
-        except OSError:
+        except (OSError, ValueError):
             pass
 
     previous_exists = pdf_path.exists()
 
     try:
-        parsed, full_text = extract_pdf(data)
+        parsed, full_text = extract_pdf(data, day)
 
     except Exception as exc:
         print(
@@ -462,6 +462,30 @@ def check_schedule(
     return "downloaded"
 
 
+def backfill_assignments(squadrons, today):
+    start = today - timedelta(days=29)
+    errors = []
+    processed = 0
+    for identifier in squadrons:
+        for archive in sorted((OUTPUT / identifier).glob("*/full_schedule.json")):
+            if not start.isoformat() <= archive.parent.name <= today.isoformat():
+                continue
+            try:
+                data = json.loads(archive.read_text())
+                if data.get("assignments", {}).get("version") == 1:
+                    continue
+                data["assignments"] = schedule_assignments(archive.with_name("original_schedule.pdf").read_bytes(), archive.parent.name)
+                write_json(archive, data)
+                processed += 1
+            except Exception as error:
+                errors.append(f"{identifier}/{archive.parent.name}: {error}")
+    print(f"Backfilled {processed} schedules")
+    if errors:
+        print("\n".join(errors))
+        return 1
+    return 0
+
+
 def main():
     parser = argparse.ArgumentParser()
 
@@ -490,6 +514,7 @@ def main():
         action="store_true"
     )
 
+    parser.add_argument("--backfill-assignments", action="store_true")
     args = parser.parse_args()
 
     config = json.loads(
@@ -511,6 +536,8 @@ def main():
         selected = squadrons
 
     now = datetime.now(TZ)
+    if args.backfill_assignments:
+        raise SystemExit(backfill_assignments(selected, now.date()))
 
     print("=" * 60)
     print("FLIGHTLINE CNATRA SCHEDULE CHECK")
