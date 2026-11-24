@@ -1585,9 +1585,9 @@ function parsingNotice(data) {
     : 'Some assignments could not be verified. Check the original schedule for the full list.';
 }
 
-function scheduleHTML(found,id,date,parsed,data) {
-  const warning = parsingNotice(data);
-  const limitedNames = Object.values(found).some(events => events.some(event =>
+function scheduleHTML(found,id,date,parsed,data,{showVerification = true} = {}) {
+  const warning = showVerification && parsingNotice(data);
+  const limitedNames = showVerification && Object.values(found).some(events => events.some(event =>
     event.crew?.some(person => (person.first || '').length < 2)));
   let html = warning ? `<p class="notice">${warning} ${pdfLink(id,date,1)}</p>` : '';
   if (limitedNames) html += '<p class="notice">This schedule lists some names by surname or initial. Verify the person against the PDF.</p>';
@@ -1770,7 +1770,7 @@ async function searchSomeone() {
       const found = findEvents(parsed,last,first);
       const count = eventCount(found);
 
-      if (!count && !parsingNotice(item.data)) continue;
+      if (!count) continue;
 
       total += count;
 
@@ -1781,7 +1781,7 @@ async function searchSomeone() {
       </h3>`;
 
       if (item.cached) html += '<p class="muted small">Cached schedule copy</p>';
-      html += scheduleHTML(found,item.id,date,parsed,item.data);
+      html += scheduleHTML(found,item.id,date,parsed,item.data,{showVerification:false});
     }
 
     showMessage(
@@ -1789,15 +1789,13 @@ async function searchSomeone() {
       `${total} matching events · ` +
       `${available}/${ids.length} schedules available` +
       (loaded.some(item => item.cached) ? ' · Includes cached schedules' : '') +
-      (errors ? ` · ${errors} unavailable` : '') +
-      (loaded.some(item => item.data && parsingNotice(item.data)) ? ' · Some assignments unverified' : ''),
+      (errors ? ` · ${errors} unavailable` : ''),
       !!errors
     );
 
     $('findResults').innerHTML = html ||
       `<div class="notice">
-        No matching assignments found in available schedules.
-        Scheduling may have promoted them to ground ops.
+        No searchable assignments matched this name and date.
       </div>`;
 
   } catch (error) {
