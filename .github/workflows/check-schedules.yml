@@ -1,136 +1,49 @@
-
 name: Check CNATRA Schedules
-
-on:
-  workflow_dispatch:
-    inputs:
-      squadron:
-        description: "Schedule to check"
-        required: true
-        default: "all"
-        type: choice
-        options:
-          - all
-          - VT-7
-          - VT-9
-          - VT-21
-          - VT-22
-          - TW2-FITU
-          - VT-27
-          - VT-28
-          - VT-31
-          - VT-35
-          - TW4-FITU
-          - TW5
-          - TW5-FITU
-          - TH-73A-HITU
-          - VT-2
-          - VT-3
-          - VT-6
-          - HT-8
-          - HT-18
-          - HT-28
-          - TW6-FITU
-          - VT-4
-          - VT-10
-          - VT-86
-
-      schedule_date:
-        description: "YYYY-MM-DD; blank for automatic date"
-        required: false
-        default: ""
-        type: string
-
-  # Backup for the existing external dispatcher. Covers 13:08 Central in both seasons.
-  schedule:
-    - cron: "8,38 0-3,18-23 * * *"
-
+on: workflow_dispatch
 permissions:
-  contents: write
-
-concurrency:
-  group: cnatra-schedule-check
-  cancel-in-progress: false
-
+  contents: read
 jobs:
-  check-schedules:
+  notification-test:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-          fetch-depth: 0
-          ref: ${{ github.ref_name }}
-
+      - uses: actions/checkout@v4
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-          cache: pip
-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Show execution details
-        run: |
-          echo "Event: ${{ github.event_name }}"
-          echo "UTC: $(date -u)"
-          echo "Central: $(TZ=America/Chicago date)"
-          echo "Branch: ${{ github.ref_name }}"
-
-      - name: Download and process schedules
-        env:
-          SELECTED_SQUADRON: ${{ inputs.squadron }}
-          SELECTED_DATE: ${{ inputs.schedule_date }}
-        run: |
-          if [ "$GITHUB_EVENT_NAME" = "schedule" ]; then
-            python fetch_schedules.py --scheduled-poll
-          elif [ -n "$SELECTED_DATE" ]; then
-            python fetch_schedules.py \
-              --squadron "${SELECTED_SQUADRON:-all}" \
-              --date "$SELECTED_DATE"
-          else
-            python fetch_schedules.py \
-              --squadron "${SELECTED_SQUADRON:-all}"
-          fi
-
-      - name: Commit downloaded schedules
-        id: archive
-        if: success()
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          if [ ! -f .github/notification-cursor ]; then
-            git rev-parse HEAD > .github/notification-cursor
-            git add .github/notification-cursor
-          fi
-          if [ -d schedules ]; then
-            git add schedules/
-          fi
-
-          if ! git diff --cached --quiet; then
-            git commit -m "Update CNATRA schedules"
-            git push
-          else
-            echo "No new schedules to commit"
-          fi
-
-      - name: Send FlightLine notifications
-        if: success()
+      - run: pip install -q -r requirements.txt
+      - name: Send the requested profile test
         env:
           ONESIGNAL_APP_ID: ${{ vars.ONESIGNAL_APP_ID }}
           ONESIGNAL_REST_API_KEY: ${{ secrets.ONESIGNAL_REST_API_KEY }}
-        run: python notify_schedules.py
-
-      - name: Save notification progress
-        if: always() && steps.archive.outcome == 'success'
         run: |
-          git add .github/notification-cursor
-          if ! git diff --cached --quiet; then
-            git commit -m "Record processed schedule revisions"
-            git push
-          fi
+          python - <<'PY'
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          import os, uuid
+          import requests
+          from notify_schedules import APP_ID, API, SITE, api
+
+          filters = [{"field": "tag", "key": key, "relation": "=", "value": value}
+                     for key, value in (("squadron", "VT-3"), ("last", "BAILEY"), ("first", "LOGAN"))]
+          day = datetime.now(ZoneInfo("America/Chicago")).date().isoformat()
+          result = api("/notifications", {
+              "app_id": APP_ID, "target_channel": "push", "filters": filters,
+              "idempotency_key": str(uuid.uuid5(uuid.NAMESPACE_URL, "flightline-private-test-" + os.environ["GITHUB_RUN_ID"])),
+              "headings": {"en": "FlightLine — Test Notification"},
+              "contents": {"en": "Logan, this is your background push test. Tap to open your VT-3 schedule."},
+              "url": SITE + "?squadron=VT-3&date=" + day,
+              "ttl": 300,
+          })
+          if not result.get("id"):
+              print("No notification accepted:",result.get("errors", "no matching subscribers"))
+              raise SystemExit(1)
+          print("OneSignal accepted the targeted notification.", flush=True)
+          import time
+          time.sleep(8)
+          response = requests.get(API + "/notifications/" + result["id"], params={"app_id": APP_ID},
+                                  headers={"Authorization": "Key " + os.environ["ONESIGNAL_REST_API_KEY"]}, timeout=25)
+          if response.ok:
+              stats = response.json()
+              print("Provider counts:", {k: stats.get(k) for k in ("successful","failed","errored","received","remaining")})
+          PY
