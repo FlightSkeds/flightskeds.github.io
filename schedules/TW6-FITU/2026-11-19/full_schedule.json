@@ -169,7 +169,7 @@
   ],
   "assignments": {
     "version": 1,
-    "parser_revision": 2,
+    "parser_revision": 3,
     "complete": true,
     "unreadable": false,
     "uncertain": "",
@@ -281,7 +281,7 @@
       },
       {
         "section": "Flight",
-        "code": "OCF4102 Event) Schedule",
+        "code": "OCF4102",
         "start": "1430",
         "end": "1518",
         "land": "1518",
@@ -307,8 +307,8 @@
         ],
         "page": 1,
         "line": "",
-        "raw": "1230 \u00b7 1430 \u00b7 1518 \u00b7 LAVALLE, CHRISTIAN \u00b7 MORGAN, JAMES Simulator (Sim \u00b7 OCF4102 Event) Schedule \u00b7 0.8 \u00b7 DD-1801, FITU U/G",
-        "role": "OCF4102 Event) Schedule",
+        "raw": "1230 \u00b7 1430 \u00b7 1518 \u00b7 LAVALLE, CHRISTIAN \u00b7 MORGAN, JAMES \u00b7 OCF4102 \u00b7 0.8 \u00b7 DD-1801, FITU U/G",
+        "role": "OCF4102",
         "remarks": "DD-1801, FITU U/G",
         "duration": "0.8",
         "device": "",

@@ -5977,14 +5977,14 @@
   ],
   "assignments": {
     "version": 1,
-    "parser_revision": 2,
+    "parser_revision": 3,
     "complete": false,
     "unreadable": false,
-    "uncertain": "Workshop    EVERINGHAM, CHASE     FRANSON, ANTHONY",
+    "uncertain": "",
     "events": [
       {
         "section": "Ground",
-        "code": "Red DA",
+        "code": "Red DA Workshop",
         "start": "0930",
         "end": "",
         "land": "",
@@ -5995,14 +5995,24 @@
             "last": "AYERS",
             "first": "ANDREW",
             "full": "AYERS, ANDREW"
+          },
+          {
+            "last": "EVERINGHAM",
+            "first": "CHASE",
+            "full": "EVERINGHAM, CHASE"
+          },
+          {
+            "last": "FRANSON",
+            "first": "ANTHONY",
+            "full": "FRANSON, ANTHONY"
           }
         ],
         "instructors": [],
         "students": [],
         "page": 5,
         "line": "",
-        "raw": "Red DA \u00b7 24NOV26 \u00b7 0930 \u00b7 STUCON TW5 \u00b7 AYERS, ANDREW",
-        "role": "Red DA",
+        "raw": "Red DA Workshop \u00b7 24NOV26 \u00b7 0930 \u00b7 STUCON TW5 \u00b7 AYERS, ANDREW EVERINGHAM, CHASE FRANSON, ANTHONY",
+        "role": "Red DA Workshop",
         "remarks": "",
         "duration": "",
         "device": "",

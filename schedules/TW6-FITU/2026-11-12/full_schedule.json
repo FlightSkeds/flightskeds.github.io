@@ -231,14 +231,14 @@
   ],
   "assignments": {
     "version": 1,
-    "parser_revision": 2,
+    "parser_revision": 3,
     "complete": false,
     "unreadable": false,
     "uncertain": "1130-1230 DYNAMIC HYPOXIA TRAINING MONTANA, JOHN  MCMILLEN, WILLIAM T-45 OFT #3",
     "events": [
       {
         "section": "Flight",
-        "code": "NA4108 (87(ET)) Event) Schedule",
+        "code": "NA4108 (87(ET))",
         "start": "1100",
         "end": "1248",
         "land": "1248",
@@ -264,8 +264,8 @@
         ],
         "page": 1,
         "line": "",
-        "raw": "0900 \u00b7 1100 \u00b7 1248 \u00b7 LETSON, JACOB \u00b7 ORTIZ, RICHARD Simulator (Sim \u00b7 NA4108 (87(ET)) Event) Schedule \u00b7 1.8 \u00b7 DD-1801",
-        "role": "NA4108 (87(ET)) Event) Schedule",
+        "raw": "0900 \u00b7 1100 \u00b7 1248 \u00b7 LETSON, JACOB \u00b7 ORTIZ, RICHARD \u00b7 NA4108 (87(ET)) \u00b7 1.8 \u00b7 DD-1801",
+        "role": "NA4108 (87(ET))",
         "remarks": "DD-1801",
         "duration": "1.8",
         "device": "",

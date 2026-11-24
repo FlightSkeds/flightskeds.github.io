@@ -5777,26 +5777,57 @@
   ],
   "assignments": {
     "version": 1,
-    "parser_revision": 2,
+    "parser_revision": 3,
     "complete": false,
     "unreadable": false,
-    "uncertain": "MUSTER    STASHES, AND ATTRITES NJROTC    1.HALTER, MICHAEL INSPECTION    2.GOLDBLOOM, YOSEF UOD:    3.WALSH, HANNAH USN:KHAKIS/    4. McGRAIL, MYLES USMC:    5.KWAN, SYLVIA SERVICE C    6.SARIC, IVO OUTREACH &  Building ANDERSEN, JAMES EVENT 18NOV   ADKISON, KENNEDY     PARKES, AIDEN     HOLCOMB, CAMDEN     KIMBALL, GRANT     McGRAIL, MYLES     THORNLEY, WILLIAM",
+    "uncertain": "",
     "events": [
       {
         "section": "Ground",
-        "code": "PACE HS",
+        "code": "PACE HS NJROTC INSPECTION UOD: USN:KHAKIS/ USMC: SERVICE C",
         "start": "0830",
         "end": "1130",
         "land": "1130",
         "brief": "",
         "formation": "",
-        "crew": [],
+        "crew": [
+          {
+            "last": "HALTER",
+            "first": "MICHAEL",
+            "full": "HALTER, MICHAEL"
+          },
+          {
+            "last": "GOLDBLOOM",
+            "first": "YOSEF",
+            "full": "GOLDBLOOM, YOSEF"
+          },
+          {
+            "last": "WALSH",
+            "first": "HANNAH",
+            "full": "WALSH, HANNAH"
+          },
+          {
+            "last": "MCGRAIL",
+            "first": "MYLES",
+            "full": "MCGRAIL, MYLES"
+          },
+          {
+            "last": "KWAN",
+            "first": "SYLVIA",
+            "full": "KWAN, SYLVIA"
+          },
+          {
+            "last": "SARIC",
+            "first": "IVO",
+            "full": "SARIC, IVO"
+          }
+        ],
         "instructors": [],
         "students": [],
         "page": 6,
         "line": "",
-        "raw": "PACE HS \u00b7 17NOV26 \u00b7 0830-1130 \u00b7 PACE HIGH SCHOOL",
-        "role": "PACE HS",
+        "raw": "PACE HS NJROTC INSPECTION UOD: USN:KHAKIS/ USMC: SERVICE C \u00b7 17NOV26 \u00b7 0830-1130 \u00b7 PACE HIGH SCHOOL \u00b7 1.HALTER, MICHAEL 2.GOLDBLOOM, YOSEF 3.WALSH, HANNAH 4. McGRAIL, MYLES 5.KWAN, SYLVIA 6.SARIC, IVO",
+        "role": "PACE HS NJROTC INSPECTION UOD: USN:KHAKIS/ USMC: SERVICE C",
         "remarks": "",
         "duration": "",
         "device": "",

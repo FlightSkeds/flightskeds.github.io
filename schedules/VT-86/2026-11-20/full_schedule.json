@@ -973,7 +973,7 @@
   ],
   "assignments": {
     "version": 1,
-    "parser_revision": 2,
+    "parser_revision": 3,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -1200,15 +1200,22 @@
             "last": "GASPER",
             "first": "J",
             "full": "GASPER, J"
+          },
+          {
+            "last": "GEORGE",
+            "first": "M",
+            "full": "GEORGE, M"
           }
         ],
         "instructors": [
           "GASPER, J"
         ],
-        "students": [],
+        "students": [
+          "GEORGE, M"
+        ],
         "page": 2,
         "line": "",
-        "raw": "0930 \u00b7 1030 \u00b7 1154 \u00b7 ROKT 41 \u00b7 GASPER J \u00b7 GEORGE M CYCLE 3 \u00b7 NA4103 \u00b7 NOTE 1",
+        "raw": "0930 \u00b7 1030 \u00b7 1154 \u00b7 ROKT 41 \u00b7 GASPER J \u00b7 GEORGE M \u00b7 NA4103 \u00b7 NOTE 1",
         "role": "NA4103",
         "remarks": "NOTE 1",
         "duration": "",

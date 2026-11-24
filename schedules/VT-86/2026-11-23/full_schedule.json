@@ -572,7 +572,7 @@
   ],
   "assignments": {
     "version": 1,
-    "parser_revision": 2,
+    "parser_revision": 3,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -625,15 +625,22 @@
             "last": "GASPER",
             "first": "J",
             "full": "GASPER, J"
+          },
+          {
+            "last": "WALDRON",
+            "first": "S",
+            "full": "WALDRON, S"
           }
         ],
         "instructors": [
           "GASPER, J"
         ],
-        "students": [],
+        "students": [
+          "WALDRON, S"
+        ],
         "page": 1,
         "line": "",
-        "raw": "0630 \u00b7 0730 \u00b7 0842 \u00b7 ROKT 21 \u00b7 GASPER J \u00b7 WALDRON S CYCLE 2 \u00b7 NA4201 \u00b7 NOTE 1",
+        "raw": "0630 \u00b7 0730 \u00b7 0842 \u00b7 ROKT 21 \u00b7 GASPER J \u00b7 WALDRON S \u00b7 NA4201 \u00b7 NOTE 1",
         "role": "NA4201",
         "remarks": "NOTE 1",
         "duration": "",
@@ -688,15 +695,22 @@
             "last": "GASPER",
             "first": "J",
             "full": "GASPER, J"
+          },
+          {
+            "last": "WALDRON",
+            "first": "S",
+            "full": "WALDRON, S"
           }
         ],
         "instructors": [
           "GASPER, J"
         ],
-        "students": [],
+        "students": [
+          "WALDRON, S"
+        ],
         "page": 1,
         "line": "",
-        "raw": "0630 \u00b7 1000 \u00b7 1112 \u00b7 ROKT 21 \u00b7 GASPER J \u00b7 WALDRON S CYCLE 3 \u00b7 NA4202 \u00b7 NOTE 1",
+        "raw": "0630 \u00b7 1000 \u00b7 1112 \u00b7 ROKT 21 \u00b7 GASPER J \u00b7 WALDRON S \u00b7 NA4202 \u00b7 NOTE 1",
         "role": "NA4202",
         "remarks": "NOTE 1",
         "duration": "",
@@ -705,7 +719,7 @@
       },
       {
         "section": "Flight",
-        "code": "CAS4101 CAS4490 CAS SUP",
+        "code": "CAS4101",
         "start": "1230",
         "end": "1342",
         "land": "1342",
@@ -713,20 +727,62 @@
         "formation": "",
         "crew": [
           {
-            "last": "S GEORGE M PITTMAN",
-            "first": "C",
-            "full": "S GEORGE M PITTMAN, C"
+            "last": "DOLAN",
+            "first": "S",
+            "full": "DOLAN, S"
+          },
+          {
+            "last": "FAILS",
+            "first": "M",
+            "full": "FAILS, M"
           }
         ],
         "instructors": [
-          "S GEORGE M PITTMAN, C"
+          "DOLAN, S"
         ],
-        "students": [],
+        "students": [
+          "FAILS, M"
+        ],
         "page": 1,
         "line": "",
-        "raw": "1100 \u00b7 1230 \u00b7 1342 \u00b7 ROKT 31 \u00b7 DOLAN S GEORGE M PITTMAN C \u00b7 Fails M STAATS M RUFF J CYCLE 4 \u00b7 CAS4101 CAS4490 CAS SUP \u00b7 DESOTO & BULLSEYE (1230-1400) NOTE 7 # HAWK4 B/U (1230-1400) NOTE 7 NOTE 7, 10",
-        "role": "CAS4101 CAS4490 CAS SUP",
-        "remarks": "DESOTO & BULLSEYE (1230-1400) NOTE 7 # HAWK4 B/U (1230-1400) NOTE 7 NOTE 7, 10",
+        "raw": "1100 \u00b7 1230 \u00b7 1342 \u00b7 ROKT 31 \u00b7 DOLAN S \u00b7 Fails M \u00b7 CAS4101 \u00b7 DESOTO & BULLSEYE (1230-1400) NOTE 7 #",
+        "role": "CAS4101",
+        "remarks": "DESOTO & BULLSEYE (1230-1400) NOTE 7 #",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CAS4490 CAS SUP",
+        "start": "1230",
+        "end": "1342",
+        "land": "1342",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GEORGE M PITTMAN",
+            "first": "C",
+            "full": "GEORGE M PITTMAN, C"
+          },
+          {
+            "last": "STAATS M RUFF",
+            "first": "J",
+            "full": "STAATS M RUFF, J"
+          }
+        ],
+        "instructors": [
+          "GEORGE M PITTMAN, C"
+        ],
+        "students": [
+          "STAATS M RUFF, J"
+        ],
+        "page": 1,
+        "line": "",
+        "raw": "1100 \u00b7 1230 \u00b7 1342 \u00b7 ROKT 31 \u00b7 GEORGE M PITTMAN C \u00b7 STAATS M RUFF J \u00b7 CAS4490 CAS SUP \u00b7 HAWK4 B/U (1230-1400) NOTE 7 NOTE 7, 10",
+        "role": "CAS4490 CAS SUP",
+        "remarks": "HAWK4 B/U (1230-1400) NOTE 7 NOTE 7, 10",
         "duration": "",
         "device": "",
         "solo": false
@@ -849,15 +905,22 @@
             "last": "CHARNAS",
             "first": "N",
             "full": "CHARNAS, N"
+          },
+          {
+            "last": "CARPER",
+            "first": "K",
+            "full": "CARPER, K"
           }
         ],
         "instructors": [
           "CHARNAS, N"
         ],
-        "students": [],
+        "students": [
+          "CARPER, K"
+        ],
         "page": 1,
         "line": "",
-        "raw": "1330 \u00b7 1500 \u00b7 1618 \u00b7 ROKT 71 \u00b7 CHARNAS N \u00b7 Carper K CYCLE 5 \u00b7 FAM4104 \u00b7 NOTE 1",
+        "raw": "1330 \u00b7 1500 \u00b7 1618 \u00b7 ROKT 71 \u00b7 CHARNAS N \u00b7 Carper K \u00b7 FAM4104 \u00b7 NOTE 1",
         "role": "FAM4104",
         "remarks": "NOTE 1",
         "duration": "",

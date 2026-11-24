@@ -877,7 +877,7 @@
   ],
   "assignments": {
     "version": 1,
-    "parser_revision": 2,
+    "parser_revision": 3,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -1075,7 +1075,7 @@
       },
       {
         "section": "Flight",
-        "code": "CAS4103 CAS4102 CAS SUP",
+        "code": "CAS4103",
         "start": "0730",
         "end": "0842",
         "land": "0842",
@@ -1083,27 +1083,62 @@
         "formation": "",
         "crew": [
           {
-            "last": "J REILLY K PETERS",
-            "first": "D",
-            "full": "J REILLY K PETERS, D"
+            "last": "HAWLEY",
+            "first": "J",
+            "full": "HAWLEY, J"
           },
           {
-            "last": "E MONSON M MARQUARDT",
-            "first": "J",
-            "full": "E MONSON M MARQUARDT, J"
+            "last": "GESSNER",
+            "first": "E",
+            "full": "GESSNER, E"
           }
         ],
         "instructors": [
-          "J REILLY K PETERS, D"
+          "HAWLEY, J"
         ],
         "students": [
-          "E MONSON M MARQUARDT, J"
+          "GESSNER, E"
         ],
         "page": 2,
         "line": "",
-        "raw": "0600 \u00b7 0730 \u00b7 0842 \u00b7 ROKT 25 \u00b7 HAWLEY J REILLY K PETERS D \u00b7 Gessner E Monson M MARQUARDT J \u00b7 CAS4103 CAS4102 CAS SUP \u00b7 Bulldog MOA ATCAA (0730-0900) MSN# 1798 NOTE 1, 7 # NOTE 1, 7 NOTE 1, 7",
-        "role": "CAS4103 CAS4102 CAS SUP",
-        "remarks": "Bulldog MOA ATCAA (0730-0900) MSN# 1798 NOTE 1, 7 # NOTE 1, 7 NOTE 1, 7",
+        "raw": "0600 \u00b7 0730 \u00b7 0842 \u00b7 ROKT 25 \u00b7 HAWLEY J \u00b7 Gessner E \u00b7 CAS4103 \u00b7 Bulldog MOA ATCAA (0730-0900) MSN# 1798 NOTE 1, 7 #",
+        "role": "CAS4103",
+        "remarks": "Bulldog MOA ATCAA (0730-0900) MSN# 1798 NOTE 1, 7 #",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CAS4102 CAS SUP",
+        "start": "0730",
+        "end": "0842",
+        "land": "0842",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "REILLY K PETERS",
+            "first": "D",
+            "full": "REILLY K PETERS, D"
+          },
+          {
+            "last": "MONSON M MARQUARDT",
+            "first": "J",
+            "full": "MONSON M MARQUARDT, J"
+          }
+        ],
+        "instructors": [
+          "REILLY K PETERS, D"
+        ],
+        "students": [
+          "MONSON M MARQUARDT, J"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 0730 \u00b7 0842 \u00b7 ROKT 25 \u00b7 REILLY K PETERS D \u00b7 Monson M MARQUARDT J \u00b7 CAS4102 CAS SUP \u00b7 NOTE 1, 7 NOTE 1, 7",
+        "role": "CAS4102 CAS SUP",
+        "remarks": "NOTE 1, 7 NOTE 1, 7",
         "duration": "",
         "device": "",
         "solo": false
@@ -1121,15 +1156,22 @@
             "last": "BOOTH",
             "first": "J",
             "full": "BOOTH, J"
+          },
+          {
+            "last": "BOWES C FRANKLIN",
+            "first": "M",
+            "full": "BOWES C FRANKLIN, M"
           }
         ],
         "instructors": [
           "BOOTH, J"
         ],
-        "students": [],
+        "students": [
+          "BOWES C FRANKLIN, M"
+        ],
         "page": 2,
         "line": "",
-        "raw": "0845 \u00b7 0900 \u00b7 1200 \u00b7 BOOTH J \u00b7 BOWES C FRANKLIN M CYCLE 2 \u00b7 GND PWR \u00b7 Ground Power NOTE 3",
+        "raw": "0845 \u00b7 0900 \u00b7 1200 \u00b7 BOOTH J \u00b7 BOWES C FRANKLIN M \u00b7 GND PWR \u00b7 Ground Power NOTE 3",
         "role": "GND PWR",
         "remarks": "Ground Power NOTE 3",
         "duration": "",
@@ -1173,7 +1215,7 @@
       },
       {
         "section": "Flight",
-        "code": "CAS4103 CAS4290 CAS SUP",
+        "code": "CAS4103",
         "start": "1000",
         "end": "1112",
         "land": "1112",
@@ -1181,34 +1223,69 @@
         "formation": "",
         "crew": [
           {
-            "last": "K HAWLEY J PETERS",
-            "first": "D",
-            "full": "K HAWLEY J PETERS, D"
+            "last": "REILLY",
+            "first": "K",
+            "full": "REILLY, K"
           },
           {
-            "last": "M GESSNER E MARQUARDT",
-            "first": "J",
-            "full": "M GESSNER E MARQUARDT, J"
+            "last": "MONSON",
+            "first": "M",
+            "full": "MONSON, M"
           }
         ],
         "instructors": [
-          "K HAWLEY J PETERS, D"
+          "REILLY, K"
         ],
         "students": [
-          "M GESSNER E MARQUARDT, J"
+          "MONSON, M"
         ],
         "page": 2,
         "line": "",
-        "raw": "0600 \u00b7 1000 \u00b7 1112 \u00b7 ROKT 25 \u00b7 REILLY K HAWLEY J PETERS D \u00b7 Monson M Gessner E MARQUARDT J \u00b7 CAS4103 CAS4290 CAS SUP \u00b7 Gamecock I MSN# 1782 NOTE 1, 7 # NOTE 1, 7 NOTE 1, 7",
-        "role": "CAS4103 CAS4290 CAS SUP",
-        "remarks": "Gamecock I MSN# 1782 NOTE 1, 7 # NOTE 1, 7 NOTE 1, 7",
+        "raw": "0600 \u00b7 1000 \u00b7 1112 \u00b7 ROKT 25 \u00b7 REILLY K \u00b7 Monson M \u00b7 CAS4103 \u00b7 Gamecock I MSN# 1782 NOTE 1, 7 #",
+        "role": "CAS4103",
+        "remarks": "Gamecock I MSN# 1782 NOTE 1, 7 #",
         "duration": "",
         "device": "",
         "solo": false
       },
       {
         "section": "Flight",
-        "code": "STK4204 STK4204",
+        "code": "CAS4290 CAS SUP",
+        "start": "1000",
+        "end": "1112",
+        "land": "1112",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HAWLEY J PETERS",
+            "first": "D",
+            "full": "HAWLEY J PETERS, D"
+          },
+          {
+            "last": "GESSNER E MARQUARDT",
+            "first": "J",
+            "full": "GESSNER E MARQUARDT, J"
+          }
+        ],
+        "instructors": [
+          "HAWLEY J PETERS, D"
+        ],
+        "students": [
+          "GESSNER E MARQUARDT, J"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 1000 \u00b7 1112 \u00b7 ROKT 25 \u00b7 HAWLEY J PETERS D \u00b7 Gessner E MARQUARDT J \u00b7 CAS4290 CAS SUP \u00b7 NOTE 1, 7 NOTE 1, 7",
+        "role": "CAS4290 CAS SUP",
+        "remarks": "NOTE 1, 7 NOTE 1, 7",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4204",
         "start": "1100",
         "end": "1212",
         "land": "1212",
@@ -1216,27 +1293,69 @@
         "formation": "",
         "crew": [
           {
-            "last": "MCCARTHY C CHARNAS",
-            "first": "N",
-            "full": "MCCARTHY C CHARNAS, N"
+            "last": "MCCARTHY",
+            "first": "C",
+            "full": "MCCARTHY, C"
+          },
+          {
+            "last": "FAILS",
+            "first": "M",
+            "full": "FAILS, M"
           }
         ],
         "instructors": [
-          "MCCARTHY C CHARNAS, N"
+          "MCCARTHY, C"
         ],
-        "students": [],
+        "students": [
+          "FAILS, M"
+        ],
         "page": 2,
         "line": "",
-        "raw": "0930 \u00b7 1100 \u00b7 1212 \u00b7 ROKT 35 \u00b7 MCCARTHY C CHARNAS N \u00b7 Fails M Tiefel Z CYCLE 3 \u00b7 STK4204 STK4204 \u00b7 CTW Gamecock I MSN# 1782 NOTE 1, 3, 7 + NOTE 1, 3, 7",
-        "role": "STK4204 STK4204",
-        "remarks": "CTW Gamecock I MSN# 1782 NOTE 1, 3, 7 + NOTE 1, 3, 7",
+        "raw": "0930 \u00b7 1100 \u00b7 1212 \u00b7 ROKT 35 \u00b7 MCCARTHY C \u00b7 Fails M \u00b7 STK4204 \u00b7 CTW Gamecock I MSN# 1782 NOTE 1, 3, 7 +",
+        "role": "STK4204",
+        "remarks": "CTW Gamecock I MSN# 1782 NOTE 1, 3, 7 +",
         "duration": "",
         "device": "",
         "solo": false
       },
       {
         "section": "Flight",
-        "code": "STK4390 STK4390",
+        "code": "STK4204",
+        "start": "1100",
+        "end": "1212",
+        "land": "1212",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CHARNAS",
+            "first": "N",
+            "full": "CHARNAS, N"
+          },
+          {
+            "last": "TIEFEL",
+            "first": "Z",
+            "full": "TIEFEL, Z"
+          }
+        ],
+        "instructors": [
+          "CHARNAS, N"
+        ],
+        "students": [
+          "TIEFEL, Z"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0930 \u00b7 1100 \u00b7 1212 \u00b7 ROKT 35 \u00b7 CHARNAS N \u00b7 Tiefel Z \u00b7 STK4204 \u00b7 NOTE 1, 3, 7",
+        "role": "STK4204",
+        "remarks": "NOTE 1, 3, 7",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4390",
         "start": "1330",
         "end": "1448",
         "land": "1448",
@@ -1244,34 +1363,69 @@
         "formation": "",
         "crew": [
           {
-            "last": "CHARNAS N MCCARTHY",
-            "first": "C",
-            "full": "CHARNAS N MCCARTHY, C"
+            "last": "CHARNAS",
+            "first": "N",
+            "full": "CHARNAS, N"
           },
           {
-            "last": "TIEFEL Z FAILS",
-            "first": "M",
-            "full": "TIEFEL Z FAILS, M"
+            "last": "TIEFEL",
+            "first": "Z",
+            "full": "TIEFEL, Z"
           }
         ],
         "instructors": [
-          "CHARNAS N MCCARTHY, C"
+          "CHARNAS, N"
         ],
         "students": [
-          "TIEFEL Z FAILS, M"
+          "TIEFEL, Z"
         ],
         "page": 2,
         "line": "",
-        "raw": "0930 \u00b7 1330 \u00b7 1448 \u00b7 ROKT 35 \u00b7 CHARNAS N MCCARTHY C \u00b7 Tiefel Z Fails M \u00b7 STK4390 STK4390 \u00b7 NOTE 1, 3, 7 + NOTE 1, 3, 7",
-        "role": "STK4390 STK4390",
-        "remarks": "NOTE 1, 3, 7 + NOTE 1, 3, 7",
+        "raw": "0930 \u00b7 1330 \u00b7 1448 \u00b7 ROKT 35 \u00b7 CHARNAS N \u00b7 Tiefel Z \u00b7 STK4390 \u00b7 NOTE 1, 3, 7 +",
+        "role": "STK4390",
+        "remarks": "NOTE 1, 3, 7 +",
         "duration": "",
         "device": "",
         "solo": false
       },
       {
         "section": "Flight",
-        "code": "BFM4101 BFM4101",
+        "code": "STK4390",
+        "start": "1330",
+        "end": "1448",
+        "land": "1448",
+        "brief": "0930",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCCARTHY",
+            "first": "C",
+            "full": "MCCARTHY, C"
+          },
+          {
+            "last": "FAILS",
+            "first": "M",
+            "full": "FAILS, M"
+          }
+        ],
+        "instructors": [
+          "MCCARTHY, C"
+        ],
+        "students": [
+          "FAILS, M"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0930 \u00b7 1330 \u00b7 1448 \u00b7 ROKT 35 \u00b7 MCCARTHY C \u00b7 Fails M \u00b7 STK4390 \u00b7 NOTE 1, 3, 7",
+        "role": "STK4390",
+        "remarks": "NOTE 1, 3, 7",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "BFM4101",
         "start": "1230",
         "end": "1336",
         "land": "1336",
@@ -1279,27 +1433,62 @@
         "formation": "",
         "crew": [
           {
-            "last": "GOTTSCHALK M FEAY",
-            "first": "C",
-            "full": "GOTTSCHALK M FEAY, C"
+            "last": "GOTTSCHALK",
+            "first": "M",
+            "full": "GOTTSCHALK, M"
           },
           {
-            "last": "SIMMONS J BATISTE",
-            "first": "L",
-            "full": "SIMMONS J BATISTE, L"
+            "last": "SIMMONS",
+            "first": "J",
+            "full": "SIMMONS, J"
           }
         ],
         "instructors": [
-          "GOTTSCHALK M FEAY, C"
+          "GOTTSCHALK, M"
         ],
         "students": [
-          "SIMMONS J BATISTE, L"
+          "SIMMONS, J"
         ],
         "page": 2,
         "line": "",
-        "raw": "1100 \u00b7 1230 \u00b7 1336 \u00b7 ROKT 45 \u00b7 GOTTSCHALK M FEAY C \u00b7 Simmons J Batiste L \u00b7 BFM4101 BFM4101 \u00b7 Gamecock C/D or Bulldog MOA ATCAA (1130-1330) NOTE 1, 7 + MSN# 1730 NOTE 1, 7",
-        "role": "BFM4101 BFM4101",
-        "remarks": "Gamecock C/D or Bulldog MOA ATCAA (1130-1330) NOTE 1, 7 + MSN# 1730 NOTE 1, 7",
+        "raw": "1100 \u00b7 1230 \u00b7 1336 \u00b7 ROKT 45 \u00b7 GOTTSCHALK M \u00b7 Simmons J \u00b7 BFM4101 \u00b7 Gamecock C/D or Bulldog MOA ATCAA (1130-1330) NOTE 1, 7 +",
+        "role": "BFM4101",
+        "remarks": "Gamecock C/D or Bulldog MOA ATCAA (1130-1330) NOTE 1, 7 +",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "BFM4101",
+        "start": "1230",
+        "end": "1336",
+        "land": "1336",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FEAY",
+            "first": "C",
+            "full": "FEAY, C"
+          },
+          {
+            "last": "BATISTE",
+            "first": "L",
+            "full": "BATISTE, L"
+          }
+        ],
+        "instructors": [
+          "FEAY, C"
+        ],
+        "students": [
+          "BATISTE, L"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1100 \u00b7 1230 \u00b7 1336 \u00b7 ROKT 45 \u00b7 FEAY C \u00b7 Batiste L \u00b7 BFM4101 \u00b7 MSN# 1730 NOTE 1, 7",
+        "role": "BFM4101",
+        "remarks": "MSN# 1730 NOTE 1, 7",
         "duration": "",
         "device": "",
         "solo": false
@@ -1317,15 +1506,22 @@
             "last": "GEORGE",
             "first": "M",
             "full": "GEORGE, M"
+          },
+          {
+            "last": "FRANKLIN",
+            "first": "M",
+            "full": "FRANKLIN, M"
           }
         ],
         "instructors": [
           "GEORGE, M"
         ],
-        "students": [],
+        "students": [
+          "FRANKLIN, M"
+        ],
         "page": 2,
         "line": "",
-        "raw": "1200 \u00b7 1330 \u00b7 1448 \u00b7 ROKT 55 \u00b7 GEORGE M \u00b7 FRANKLIN M CYCLE 4 \u00b7 T45 IPROF \u00b7 Snowbird MOA (1330-1430) MSN# 3000(S) NOTE 3",
+        "raw": "1200 \u00b7 1330 \u00b7 1448 \u00b7 ROKT 55 \u00b7 GEORGE M \u00b7 FRANKLIN M \u00b7 T45 IPROF \u00b7 Snowbird MOA (1330-1430) MSN# 3000(S) NOTE 3",
         "role": "T45 IPROF",
         "remarks": "Snowbird MOA (1330-1430) MSN# 3000(S) NOTE 3",
         "duration": "",
@@ -1334,7 +1530,7 @@
       },
       {
         "section": "Flight",
-        "code": "BFM4102 BFM4102",
+        "code": "BFM4102",
         "start": "1515",
         "end": "1621",
         "land": "1621",
@@ -1342,27 +1538,62 @@
         "formation": "",
         "crew": [
           {
-            "last": "FEAY C GOTTSCHALK",
-            "first": "M",
-            "full": "FEAY C GOTTSCHALK, M"
+            "last": "FEAY",
+            "first": "C",
+            "full": "FEAY, C"
           },
           {
-            "last": "BATISTE L SIMMONS",
-            "first": "J",
-            "full": "BATISTE L SIMMONS, J"
+            "last": "BATISTE",
+            "first": "L",
+            "full": "BATISTE, L"
           }
         ],
         "instructors": [
-          "FEAY C GOTTSCHALK, M"
+          "FEAY, C"
         ],
         "students": [
-          "BATISTE L SIMMONS, J"
+          "BATISTE, L"
         ],
         "page": 2,
         "line": "",
-        "raw": "1100 \u00b7 1515 \u00b7 1621 \u00b7 ROKT 45 \u00b7 FEAY C GOTTSCHALK M \u00b7 Batiste L Simmons J \u00b7 BFM4102 BFM4102 \u00b7 Gamecock C/D or Bulldog MOA ATCAA (1515-1730) NOTE 1, 7+ MSN# 1798 NOTE 1, 7",
-        "role": "BFM4102 BFM4102",
-        "remarks": "Gamecock C/D or Bulldog MOA ATCAA (1515-1730) NOTE 1, 7+ MSN# 1798 NOTE 1, 7",
+        "raw": "1100 \u00b7 1515 \u00b7 1621 \u00b7 ROKT 45 \u00b7 FEAY C \u00b7 Batiste L \u00b7 BFM4102 \u00b7 Gamecock C/D or Bulldog MOA ATCAA (1515-1730) NOTE 1, 7+",
+        "role": "BFM4102",
+        "remarks": "Gamecock C/D or Bulldog MOA ATCAA (1515-1730) NOTE 1, 7+",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "BFM4102",
+        "start": "1515",
+        "end": "1621",
+        "land": "1621",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GOTTSCHALK",
+            "first": "M",
+            "full": "GOTTSCHALK, M"
+          },
+          {
+            "last": "SIMMONS",
+            "first": "J",
+            "full": "SIMMONS, J"
+          }
+        ],
+        "instructors": [
+          "GOTTSCHALK, M"
+        ],
+        "students": [
+          "SIMMONS, J"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1100 \u00b7 1515 \u00b7 1621 \u00b7 ROKT 45 \u00b7 GOTTSCHALK M \u00b7 Simmons J \u00b7 BFM4102 \u00b7 MSN# 1798 NOTE 1, 7",
+        "role": "BFM4102",
+        "remarks": "MSN# 1798 NOTE 1, 7",
         "duration": "",
         "device": "",
         "solo": false

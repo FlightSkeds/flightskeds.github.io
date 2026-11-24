@@ -1002,7 +1002,7 @@
   ],
   "assignments": {
     "version": 1,
-    "parser_revision": 2,
+    "parser_revision": 3,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -1165,7 +1165,7 @@
       },
       {
         "section": "Flight",
-        "code": "AWI4690 AWI4110",
+        "code": "AWI4690",
         "start": "1000",
         "end": "1112",
         "land": "1112",
@@ -1173,34 +1173,69 @@
         "formation": "",
         "crew": [
           {
-            "last": "GOTTSCHALK M DRYER",
-            "first": "S",
-            "full": "GOTTSCHALK M DRYER, S"
+            "last": "GOTTSCHALK",
+            "first": "M",
+            "full": "GOTTSCHALK, M"
           },
           {
-            "last": "MCKELLAR A PETERS",
-            "first": "D",
-            "full": "MCKELLAR A PETERS, D"
+            "last": "MCKELLAR",
+            "first": "A",
+            "full": "MCKELLAR, A"
           }
         ],
         "instructors": [
-          "GOTTSCHALK M DRYER, S"
+          "GOTTSCHALK, M"
         ],
         "students": [
-          "MCKELLAR A PETERS, D"
+          "MCKELLAR, A"
         ],
         "page": 2,
         "line": "",
-        "raw": "0830 \u00b7 1000 \u00b7 1112 \u00b7 ROKT 11 \u00b7 GOTTSCHALK M DRYER S \u00b7 McKellar A PETERS D \u00b7 AWI4690 AWI4110 \u00b7 W-155 SFC-FL300 (1000-1200) NOTE 3, 5 + NOTE 3",
-        "role": "AWI4690 AWI4110",
-        "remarks": "W-155 SFC-FL300 (1000-1200) NOTE 3, 5 + NOTE 3",
+        "raw": "0830 \u00b7 1000 \u00b7 1112 \u00b7 ROKT 11 \u00b7 GOTTSCHALK M \u00b7 McKellar A \u00b7 AWI4690 \u00b7 W-155 SFC-FL300 (1000-1200) NOTE 3, 5 +",
+        "role": "AWI4690",
+        "remarks": "W-155 SFC-FL300 (1000-1200) NOTE 3, 5 +",
         "duration": "",
         "device": "",
         "solo": false
       },
       {
         "section": "Flight",
-        "code": "AWI4402 AWI4401",
+        "code": "AWI4110",
+        "start": "1000",
+        "end": "1112",
+        "land": "1112",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DRYER",
+            "first": "S",
+            "full": "DRYER, S"
+          },
+          {
+            "last": "PETERS",
+            "first": "D",
+            "full": "PETERS, D"
+          }
+        ],
+        "instructors": [
+          "DRYER, S"
+        ],
+        "students": [
+          "PETERS, D"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0830 \u00b7 1000 \u00b7 1112 \u00b7 ROKT 11 \u00b7 DRYER S \u00b7 PETERS D \u00b7 AWI4110 \u00b7 NOTE 3",
+        "role": "AWI4110",
+        "remarks": "NOTE 3",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AWI4402",
         "start": "1030",
         "end": "1142",
         "land": "1142",
@@ -1208,34 +1243,69 @@
         "formation": "",
         "crew": [
           {
-            "last": "HEALEY J KOCHANSKI",
+            "last": "HEALEY",
             "first": "J",
-            "full": "HEALEY J KOCHANSKI, J"
+            "full": "HEALEY, J"
           },
           {
-            "last": "JUELFS A TIMBANG",
+            "last": "JUELFS",
             "first": "A",
-            "full": "JUELFS A TIMBANG, A"
+            "full": "JUELFS, A"
           }
         ],
         "instructors": [
-          "HEALEY J KOCHANSKI, J"
+          "HEALEY, J"
         ],
         "students": [
-          "JUELFS A TIMBANG, A"
+          "JUELFS, A"
         ],
         "page": 2,
         "line": "",
-        "raw": "0900 \u00b7 1030 \u00b7 1142 \u00b7 ROKT 21 \u00b7 HEALEY J KOCHANSKI J \u00b7 Juelfs A Timbang A \u00b7 AWI4402 AWI4401 \u00b7 W-155 SFC-FL300 (1000-1200) NOTE 1, 3 + NOTE 1, 3",
-        "role": "AWI4402 AWI4401",
-        "remarks": "W-155 SFC-FL300 (1000-1200) NOTE 1, 3 + NOTE 1, 3",
+        "raw": "0900 \u00b7 1030 \u00b7 1142 \u00b7 ROKT 21 \u00b7 HEALEY J \u00b7 Juelfs A \u00b7 AWI4402 \u00b7 W-155 SFC-FL300 (1000-1200) NOTE 1, 3 +",
+        "role": "AWI4402",
+        "remarks": "W-155 SFC-FL300 (1000-1200) NOTE 1, 3 +",
         "duration": "",
         "device": "",
         "solo": false
       },
       {
         "section": "Flight",
-        "code": "STK4201 STK4301",
+        "code": "AWI4401",
+        "start": "1030",
+        "end": "1142",
+        "land": "1142",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KOCHANSKI",
+            "first": "J",
+            "full": "KOCHANSKI, J"
+          },
+          {
+            "last": "TIMBANG",
+            "first": "A",
+            "full": "TIMBANG, A"
+          }
+        ],
+        "instructors": [
+          "KOCHANSKI, J"
+        ],
+        "students": [
+          "TIMBANG, A"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0900 \u00b7 1030 \u00b7 1142 \u00b7 ROKT 21 \u00b7 KOCHANSKI J \u00b7 Timbang A \u00b7 AWI4401 \u00b7 NOTE 1, 3",
+        "role": "AWI4401",
+        "remarks": "NOTE 1, 3",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4201",
         "start": "1000",
         "end": "1112",
         "land": "1112",
@@ -1243,27 +1313,62 @@
         "formation": "",
         "crew": [
           {
-            "last": "ANDERSON J WATTAM",
-            "first": "B",
-            "full": "ANDERSON J WATTAM, B"
+            "last": "ANDERSON",
+            "first": "J",
+            "full": "ANDERSON, J"
           },
           {
-            "last": "SPRINGER J MOCKRIDGE",
-            "first": "D",
-            "full": "SPRINGER J MOCKRIDGE, D"
+            "last": "SPRINGER",
+            "first": "J",
+            "full": "SPRINGER, J"
           }
         ],
         "instructors": [
-          "ANDERSON J WATTAM, B"
+          "ANDERSON, J"
         ],
         "students": [
-          "SPRINGER J MOCKRIDGE, D"
+          "SPRINGER, J"
         ],
         "page": 2,
         "line": "",
-        "raw": "0830 \u00b7 1000 \u00b7 1112 \u00b7 ROKT 31 \u00b7 ANDERSON J WATTAM B \u00b7 Springer J MOCKRIDGE D \u00b7 STK4201 STK4301 \u00b7 IR ONLY NOTE 1, 3 + NOTE 1, 3",
-        "role": "STK4201 STK4301",
-        "remarks": "IR ONLY NOTE 1, 3 + NOTE 1, 3",
+        "raw": "0830 \u00b7 1000 \u00b7 1112 \u00b7 ROKT 31 \u00b7 ANDERSON J \u00b7 Springer J \u00b7 STK4201 \u00b7 IR ONLY NOTE 1, 3 +",
+        "role": "STK4201",
+        "remarks": "IR ONLY NOTE 1, 3 +",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4301",
+        "start": "1000",
+        "end": "1112",
+        "land": "1112",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WATTAM",
+            "first": "B",
+            "full": "WATTAM, B"
+          },
+          {
+            "last": "MOCKRIDGE",
+            "first": "D",
+            "full": "MOCKRIDGE, D"
+          }
+        ],
+        "instructors": [
+          "WATTAM, B"
+        ],
+        "students": [
+          "MOCKRIDGE, D"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0830 \u00b7 1000 \u00b7 1112 \u00b7 ROKT 31 \u00b7 WATTAM B \u00b7 MOCKRIDGE D \u00b7 STK4301 \u00b7 NOTE 1, 3",
+        "role": "STK4301",
+        "remarks": "NOTE 1, 3",
         "duration": "",
         "device": "",
         "solo": false
@@ -1281,15 +1386,22 @@
             "last": "NYGAARD",
             "first": "C",
             "full": "NYGAARD, C"
+          },
+          {
+            "last": "MARQUARDT",
+            "first": "J",
+            "full": "MARQUARDT, J"
           }
         ],
         "instructors": [
           "NYGAARD, C"
         ],
-        "students": [],
+        "students": [
+          "MARQUARDT, J"
+        ],
         "page": 2,
         "line": "",
-        "raw": "0900 \u00b7 1000 \u00b7 1112 \u00b7 ROKT 41 \u00b7 NYGAARD C \u00b7 MARQUARDT J CYCLE 3 \u00b7 NA4690 \u00b7 NOTE 1",
+        "raw": "0900 \u00b7 1000 \u00b7 1112 \u00b7 ROKT 41 \u00b7 NYGAARD C \u00b7 MARQUARDT J \u00b7 NA4690 \u00b7 NOTE 1",
         "role": "NA4690",
         "remarks": "NOTE 1",
         "duration": "",
@@ -1298,7 +1410,7 @@
       },
       {
         "section": "Flight",
-        "code": "AWI4690 AWI4111",
+        "code": "AWI4690",
         "start": "1230",
         "end": "1342",
         "land": "1342",
@@ -1306,34 +1418,69 @@
         "formation": "",
         "crew": [
           {
-            "last": "TASSINARI M DRYER",
-            "first": "S",
-            "full": "TASSINARI M DRYER, S"
+            "last": "TASSINARI",
+            "first": "M",
+            "full": "TASSINARI, M"
           },
           {
-            "last": "DRISCOLL B PETERS",
-            "first": "D",
-            "full": "DRISCOLL B PETERS, D"
+            "last": "DRISCOLL",
+            "first": "B",
+            "full": "DRISCOLL, B"
           }
         ],
         "instructors": [
-          "TASSINARI M DRYER, S"
+          "TASSINARI, M"
         ],
         "students": [
-          "DRISCOLL B PETERS, D"
+          "DRISCOLL, B"
         ],
         "page": 2,
         "line": "",
-        "raw": "0830 \u00b7 1230 \u00b7 1342 \u00b7 ROKT 11 \u00b7 TASSINARI M DRYER S \u00b7 Driscoll B PETERS D \u00b7 AWI4690 AWI4111 \u00b7 FLYOVER / W-155 SFC-FL300 (1230-1430) NOTE 3, 5 + NOTE 3",
-        "role": "AWI4690 AWI4111",
-        "remarks": "FLYOVER / W-155 SFC-FL300 (1230-1430) NOTE 3, 5 + NOTE 3",
+        "raw": "0830 \u00b7 1230 \u00b7 1342 \u00b7 ROKT 11 \u00b7 TASSINARI M \u00b7 Driscoll B \u00b7 AWI4690 \u00b7 FLYOVER / W-155 SFC-FL300 (1230-1430) NOTE 3, 5 +",
+        "role": "AWI4690",
+        "remarks": "FLYOVER / W-155 SFC-FL300 (1230-1430) NOTE 3, 5 +",
         "duration": "",
         "device": "",
         "solo": false
       },
       {
         "section": "Flight",
-        "code": "AWI4402 AWI4403",
+        "code": "AWI4111",
+        "start": "1230",
+        "end": "1342",
+        "land": "1342",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "DRYER",
+            "first": "S",
+            "full": "DRYER, S"
+          },
+          {
+            "last": "PETERS",
+            "first": "D",
+            "full": "PETERS, D"
+          }
+        ],
+        "instructors": [
+          "DRYER, S"
+        ],
+        "students": [
+          "PETERS, D"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0830 \u00b7 1230 \u00b7 1342 \u00b7 ROKT 11 \u00b7 DRYER S \u00b7 PETERS D \u00b7 AWI4111 \u00b7 NOTE 3",
+        "role": "AWI4111",
+        "remarks": "NOTE 3",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AWI4402",
         "start": "1300",
         "end": "1412",
         "land": "1412",
@@ -1341,34 +1488,69 @@
         "formation": "",
         "crew": [
           {
-            "last": "KOCHANSKI J HEALEY",
+            "last": "KOCHANSKI",
             "first": "J",
-            "full": "KOCHANSKI J HEALEY, J"
+            "full": "KOCHANSKI, J"
           },
           {
-            "last": "TIMBANG A JUELFS",
+            "last": "TIMBANG",
             "first": "A",
-            "full": "TIMBANG A JUELFS, A"
+            "full": "TIMBANG, A"
           }
         ],
         "instructors": [
-          "KOCHANSKI J HEALEY, J"
+          "KOCHANSKI, J"
         ],
         "students": [
-          "TIMBANG A JUELFS, A"
+          "TIMBANG, A"
         ],
         "page": 2,
         "line": "",
-        "raw": "0900 \u00b7 1300 \u00b7 1412 \u00b7 ROKT 21 \u00b7 KOCHANSKI J HEALEY J \u00b7 Timbang A Juelfs A \u00b7 AWI4402 AWI4403 \u00b7 W-155 SFC-FL300 (1230-1430) NOTE 1, 3 + NOTE 1, 3",
-        "role": "AWI4402 AWI4403",
-        "remarks": "W-155 SFC-FL300 (1230-1430) NOTE 1, 3 + NOTE 1, 3",
+        "raw": "0900 \u00b7 1300 \u00b7 1412 \u00b7 ROKT 21 \u00b7 KOCHANSKI J \u00b7 Timbang A \u00b7 AWI4402 \u00b7 W-155 SFC-FL300 (1230-1430) NOTE 1, 3 +",
+        "role": "AWI4402",
+        "remarks": "W-155 SFC-FL300 (1230-1430) NOTE 1, 3 +",
         "duration": "",
         "device": "",
         "solo": false
       },
       {
         "section": "Flight",
-        "code": "STK4202 STK4302",
+        "code": "AWI4403",
+        "start": "1300",
+        "end": "1412",
+        "land": "1412",
+        "brief": "0900",
+        "formation": "",
+        "crew": [
+          {
+            "last": "HEALEY",
+            "first": "J",
+            "full": "HEALEY, J"
+          },
+          {
+            "last": "JUELFS",
+            "first": "A",
+            "full": "JUELFS, A"
+          }
+        ],
+        "instructors": [
+          "HEALEY, J"
+        ],
+        "students": [
+          "JUELFS, A"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0900 \u00b7 1300 \u00b7 1412 \u00b7 ROKT 21 \u00b7 HEALEY J \u00b7 Juelfs A \u00b7 AWI4403 \u00b7 NOTE 1, 3",
+        "role": "AWI4403",
+        "remarks": "NOTE 1, 3",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4202",
         "start": "1230",
         "end": "1342",
         "land": "1342",
@@ -1376,27 +1558,62 @@
         "formation": "",
         "crew": [
           {
-            "last": "ANDERSON J WATTAM",
-            "first": "B",
-            "full": "ANDERSON J WATTAM, B"
+            "last": "ANDERSON",
+            "first": "J",
+            "full": "ANDERSON, J"
           },
           {
-            "last": "SPRINGER J MOCKRIDGE",
-            "first": "D",
-            "full": "SPRINGER J MOCKRIDGE, D"
+            "last": "SPRINGER",
+            "first": "J",
+            "full": "SPRINGER, J"
           }
         ],
         "instructors": [
-          "ANDERSON J WATTAM, B"
+          "ANDERSON, J"
         ],
         "students": [
-          "SPRINGER J MOCKRIDGE, D"
+          "SPRINGER, J"
         ],
         "page": 2,
         "line": "",
-        "raw": "0830 \u00b7 1230 \u00b7 1342 \u00b7 ROKT 31 \u00b7 ANDERSON J WATTAM B \u00b7 Springer J MOCKRIDGE D \u00b7 STK4202 STK4302 \u00b7 VR ONLY NOTE 1, 7 + NOTE 1, 7",
-        "role": "STK4202 STK4302",
-        "remarks": "VR ONLY NOTE 1, 7 + NOTE 1, 7",
+        "raw": "0830 \u00b7 1230 \u00b7 1342 \u00b7 ROKT 31 \u00b7 ANDERSON J \u00b7 Springer J \u00b7 STK4202 \u00b7 VR ONLY NOTE 1, 7 +",
+        "role": "STK4202",
+        "remarks": "VR ONLY NOTE 1, 7 +",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4302",
+        "start": "1230",
+        "end": "1342",
+        "land": "1342",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WATTAM",
+            "first": "B",
+            "full": "WATTAM, B"
+          },
+          {
+            "last": "MOCKRIDGE",
+            "first": "D",
+            "full": "MOCKRIDGE, D"
+          }
+        ],
+        "instructors": [
+          "WATTAM, B"
+        ],
+        "students": [
+          "MOCKRIDGE, D"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0830 \u00b7 1230 \u00b7 1342 \u00b7 ROKT 31 \u00b7 WATTAM B \u00b7 MOCKRIDGE D \u00b7 STK4302 \u00b7 NOTE 1, 7",
+        "role": "STK4302",
+        "remarks": "NOTE 1, 7",
         "duration": "",
         "device": "",
         "solo": false
@@ -1449,15 +1666,22 @@
             "last": "WALDRON",
             "first": "S",
             "full": "WALDRON, S"
+          },
+          {
+            "last": "MATHENY",
+            "first": "T",
+            "full": "MATHENY, T"
           }
         ],
         "instructors": [
           "WALDRON, S"
         ],
-        "students": [],
+        "students": [
+          "MATHENY, T"
+        ],
         "page": 2,
         "line": "",
-        "raw": "1200 \u00b7 1300 \u00b7 1412 \u00b7 ROKT 51 \u00b7 WALDRON S \u00b7 MATHENY T CYCLE 4 \u00b7 NA4690",
+        "raw": "1200 \u00b7 1300 \u00b7 1412 \u00b7 ROKT 51 \u00b7 WALDRON S \u00b7 MATHENY T \u00b7 NA4690",
         "role": "NA4690",
         "remarks": "",
         "duration": "",
@@ -1466,7 +1690,7 @@
       },
       {
         "section": "Flight",
-        "code": "STK4390 STK4390",
+        "code": "STK4390",
         "start": "1500",
         "end": "1612",
         "land": "1612",
@@ -1474,34 +1698,69 @@
         "formation": "",
         "crew": [
           {
-            "last": "FEAY C IVES",
-            "first": "N",
-            "full": "FEAY C IVES, N"
+            "last": "FEAY",
+            "first": "C",
+            "full": "FEAY, C"
           },
           {
-            "last": "ARMOUR G SPILLMAN",
-            "first": "K",
-            "full": "ARMOUR G SPILLMAN, K"
+            "last": "ARMOUR",
+            "first": "G",
+            "full": "ARMOUR, G"
           }
         ],
         "instructors": [
-          "FEAY C IVES, N"
+          "FEAY, C"
         ],
         "students": [
-          "ARMOUR G SPILLMAN, K"
+          "ARMOUR, G"
         ],
         "page": 2,
         "line": "",
-        "raw": "1330 \u00b7 1500 \u00b7 1612 \u00b7 ROKT 61 \u00b7 FEAY C IVES N \u00b7 Armour G Spillman K \u00b7 STK4390 STK4390 \u00b7 NOTE 1, 3, 7 + NOTE 1, 3, 7",
-        "role": "STK4390 STK4390",
-        "remarks": "NOTE 1, 3, 7 + NOTE 1, 3, 7",
+        "raw": "1330 \u00b7 1500 \u00b7 1612 \u00b7 ROKT 61 \u00b7 FEAY C \u00b7 Armour G \u00b7 STK4390 \u00b7 NOTE 1, 3, 7 +",
+        "role": "STK4390",
+        "remarks": "NOTE 1, 3, 7 +",
         "duration": "",
         "device": "",
         "solo": false
       },
       {
         "section": "Flight",
-        "code": "STK4201 STK4302",
+        "code": "STK4390",
+        "start": "1500",
+        "end": "1612",
+        "land": "1612",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "IVES",
+            "first": "N",
+            "full": "IVES, N"
+          },
+          {
+            "last": "SPILLMAN",
+            "first": "K",
+            "full": "SPILLMAN, K"
+          }
+        ],
+        "instructors": [
+          "IVES, N"
+        ],
+        "students": [
+          "SPILLMAN, K"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1330 \u00b7 1500 \u00b7 1612 \u00b7 ROKT 61 \u00b7 IVES N \u00b7 Spillman K \u00b7 STK4390 \u00b7 NOTE 1, 3, 7",
+        "role": "STK4390",
+        "remarks": "NOTE 1, 3, 7",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4201",
         "start": "1530",
         "end": "1642",
         "land": "1642",
@@ -1509,34 +1768,69 @@
         "formation": "",
         "crew": [
           {
-            "last": "NAIR N PITTMAN",
-            "first": "C",
-            "full": "NAIR N PITTMAN, C"
+            "last": "NAIR",
+            "first": "N",
+            "full": "NAIR, N"
           },
           {
-            "last": "STECKLAIR D MARTENS",
-            "first": "N",
-            "full": "STECKLAIR D MARTENS, N"
+            "last": "STECKLAIR",
+            "first": "D",
+            "full": "STECKLAIR, D"
           }
         ],
         "instructors": [
-          "NAIR N PITTMAN, C"
+          "NAIR, N"
         ],
         "students": [
-          "STECKLAIR D MARTENS, N"
+          "STECKLAIR, D"
         ],
         "page": 2,
         "line": "",
-        "raw": "1400 \u00b7 1530 \u00b7 1642 \u00b7 ROKT 71 \u00b7 NAIR N PITTMAN C \u00b7 Stecklair D MARTENS N \u00b7 STK4201 STK4302 \u00b7 VR ONLY NOTE 7 + NOTE 7",
-        "role": "STK4201 STK4302",
-        "remarks": "VR ONLY NOTE 7 + NOTE 7",
+        "raw": "1400 \u00b7 1530 \u00b7 1642 \u00b7 ROKT 71 \u00b7 NAIR N \u00b7 Stecklair D \u00b7 STK4201 \u00b7 VR ONLY NOTE 7 +",
+        "role": "STK4201",
+        "remarks": "VR ONLY NOTE 7 +",
         "duration": "",
         "device": "",
         "solo": false
       },
       {
         "section": "Flight",
-        "code": "STK4107 STK4105",
+        "code": "STK4302",
+        "start": "1530",
+        "end": "1642",
+        "land": "1642",
+        "brief": "1400",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PITTMAN",
+            "first": "C",
+            "full": "PITTMAN, C"
+          },
+          {
+            "last": "MARTENS",
+            "first": "N",
+            "full": "MARTENS, N"
+          }
+        ],
+        "instructors": [
+          "PITTMAN, C"
+        ],
+        "students": [
+          "MARTENS, N"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1400 \u00b7 1530 \u00b7 1642 \u00b7 ROKT 71 \u00b7 PITTMAN C \u00b7 MARTENS N \u00b7 STK4302 \u00b7 NOTE 7",
+        "role": "STK4302",
+        "remarks": "NOTE 7",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4107",
         "start": "1500",
         "end": "1612",
         "land": "1612",
@@ -1544,20 +1838,62 @@
         "formation": "",
         "crew": [
           {
-            "last": "STEVENS J TASSINARI",
-            "first": "M",
-            "full": "STEVENS J TASSINARI, M"
+            "last": "STEVENS",
+            "first": "J",
+            "full": "STEVENS, J"
+          },
+          {
+            "last": "BROWN",
+            "first": "J",
+            "full": "BROWN, J"
           }
         ],
         "instructors": [
-          "STEVENS J TASSINARI, M"
+          "STEVENS, J"
         ],
-        "students": [],
+        "students": [
+          "BROWN, J"
+        ],
         "page": 2,
         "line": "",
-        "raw": "1330 \u00b7 1500 \u00b7 1612 \u00b7 ROKT 81 \u00b7 STEVENS J TASSINARI M \u00b7 Brown J Perez K CYCLE 5 \u00b7 STK4107 STK4105 \u00b7 NOTE 3, 7",
-        "role": "STK4107 STK4105",
+        "raw": "1330 \u00b7 1500 \u00b7 1612 \u00b7 ROKT 81 \u00b7 STEVENS J \u00b7 Brown J \u00b7 STK4107 \u00b7 NOTE 3, 7",
+        "role": "STK4107",
         "remarks": "NOTE 3, 7",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4105",
+        "start": "1500",
+        "end": "1612",
+        "land": "1612",
+        "brief": "1330",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TASSINARI",
+            "first": "M",
+            "full": "TASSINARI, M"
+          },
+          {
+            "last": "PEREZ",
+            "first": "K",
+            "full": "PEREZ, K"
+          }
+        ],
+        "instructors": [
+          "TASSINARI, M"
+        ],
+        "students": [
+          "PEREZ, K"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1330 \u00b7 1500 \u00b7 1612 \u00b7 ROKT 81 \u00b7 TASSINARI M \u00b7 Perez K \u00b7 STK4105",
+        "role": "STK4105",
+        "remarks": "",
         "duration": "",
         "device": "",
         "solo": false

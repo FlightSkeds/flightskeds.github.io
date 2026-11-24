@@ -204,7 +204,7 @@
   ],
   "assignments": {
     "version": 1,
-    "parser_revision": 2,
+    "parser_revision": 3,
     "complete": true,
     "unreadable": false,
     "uncertain": "",
@@ -351,7 +351,7 @@
       },
       {
         "section": "Flight",
-        "code": "ON4290 (RPT) Event) Schedule",
+        "code": "ON4290 (RPT)",
         "start": "1330",
         "end": "1506",
         "land": "1506",
@@ -377,8 +377,8 @@
         ],
         "page": 1,
         "line": "",
-        "raw": "1130 \u00b7 1330 \u00b7 1506 \u00b7 MARTIN, PARKER \u00b7 SIMS, GEORGE Simulator (Sim \u00b7 ON4290 (RPT) Event) Schedule \u00b7 1.6 \u00b7 DD-1801",
-        "role": "ON4290 (RPT) Event) Schedule",
+        "raw": "1130 \u00b7 1330 \u00b7 1506 \u00b7 MARTIN, PARKER \u00b7 SIMS, GEORGE \u00b7 ON4290 (RPT) \u00b7 1.6 \u00b7 DD-1801",
+        "role": "ON4290 (RPT)",
         "remarks": "DD-1801",
         "duration": "1.6",
         "device": "",

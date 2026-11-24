@@ -484,7 +484,7 @@
   ],
   "assignments": {
     "version": 1,
-    "parser_revision": 2,
+    "parser_revision": 3,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -717,7 +717,7 @@
       },
       {
         "section": "Flight",
-        "code": "BFM4101 BFM4101",
+        "code": "BFM4101",
         "start": "0800",
         "end": "0906",
         "land": "0906",
@@ -725,27 +725,62 @@
         "formation": "",
         "crew": [
           {
-            "last": "FEAY C GEORGE",
-            "first": "M",
-            "full": "FEAY C GEORGE, M"
+            "last": "FEAY",
+            "first": "C",
+            "full": "FEAY, C"
           },
           {
-            "last": "BATISTE L SIMMONS",
-            "first": "J",
-            "full": "BATISTE L SIMMONS, J"
+            "last": "BATISTE",
+            "first": "L",
+            "full": "BATISTE, L"
           }
         ],
         "instructors": [
-          "FEAY C GEORGE, M"
+          "FEAY, C"
         ],
         "students": [
-          "BATISTE L SIMMONS, J"
+          "BATISTE, L"
         ],
         "page": 2,
         "line": "",
-        "raw": "0630 \u00b7 0800 \u00b7 0906 \u00b7 ROKT 35 \u00b7 FEAY C GEORGE M \u00b7 Batiste L Simmons J \u00b7 BFM4101 BFM4101 \u00b7 GAMECOCK C/D ATCAA OR BULLDOG MOA (0730-0900) NOTE 1, 7 + MSN# 1800/1799 NOTE 1, 7",
-        "role": "BFM4101 BFM4101",
-        "remarks": "GAMECOCK C/D ATCAA OR BULLDOG MOA (0730-0900) NOTE 1, 7 + MSN# 1800/1799 NOTE 1, 7",
+        "raw": "0630 \u00b7 0800 \u00b7 0906 \u00b7 ROKT 35 \u00b7 FEAY C \u00b7 Batiste L \u00b7 BFM4101 \u00b7 GAMECOCK C/D ATCAA OR BULLDOG MOA (0730-0900) NOTE 1, 7 +",
+        "role": "BFM4101",
+        "remarks": "GAMECOCK C/D ATCAA OR BULLDOG MOA (0730-0900) NOTE 1, 7 +",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "BFM4101",
+        "start": "0800",
+        "end": "0906",
+        "land": "0906",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GEORGE",
+            "first": "M",
+            "full": "GEORGE, M"
+          },
+          {
+            "last": "SIMMONS",
+            "first": "J",
+            "full": "SIMMONS, J"
+          }
+        ],
+        "instructors": [
+          "GEORGE, M"
+        ],
+        "students": [
+          "SIMMONS, J"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0630 \u00b7 0800 \u00b7 0906 \u00b7 ROKT 35 \u00b7 GEORGE M \u00b7 Simmons J \u00b7 BFM4101 \u00b7 MSN# 1800/1799 NOTE 1, 7",
+        "role": "BFM4101",
+        "remarks": "MSN# 1800/1799 NOTE 1, 7",
         "duration": "",
         "device": "",
         "solo": false
@@ -763,15 +798,22 @@
             "last": "MCCARTHY C CHARNAS",
             "first": "N",
             "full": "MCCARTHY C CHARNAS, N"
+          },
+          {
+            "last": "BOWES C FRANKLIN",
+            "first": "M",
+            "full": "BOWES C FRANKLIN, M"
           }
         ],
         "instructors": [
           "MCCARTHY C CHARNAS, N"
         ],
-        "students": [],
+        "students": [
+          "BOWES C FRANKLIN, M"
+        ],
         "page": 2,
         "line": "",
-        "raw": "0630 \u00b7 0800 \u00b7 0906 \u00b7 ROKT 45 \u00b7 MCCARTHY C CHARNAS N \u00b7 BOWES C FRANKLIN M CYCLE 2 \u00b7 AWI SUP AWI SUP \u00b7 BULLDOG ATCAA OR GAMECOCK C/D (0730-0900) NOTE 1, 3 + MSN# 1799/1800 NOTE 1, 3",
+        "raw": "0630 \u00b7 0800 \u00b7 0906 \u00b7 ROKT 45 \u00b7 MCCARTHY C CHARNAS N \u00b7 BOWES C FRANKLIN M \u00b7 AWI SUP AWI SUP \u00b7 BULLDOG ATCAA OR GAMECOCK C/D (0730-0900) NOTE 1, 3 + MSN# 1799/1800 NOTE 1, 3",
         "role": "AWI SUP AWI SUP",
         "remarks": "BULLDOG ATCAA OR GAMECOCK C/D (0730-0900) NOTE 1, 3 + MSN# 1799/1800 NOTE 1, 3",
         "duration": "",
@@ -850,7 +892,7 @@
       },
       {
         "section": "Flight",
-        "code": "BFM4102 BFM4102",
+        "code": "BFM4102",
         "start": "1030",
         "end": "1136",
         "land": "1136",
@@ -858,27 +900,62 @@
         "formation": "",
         "crew": [
           {
-            "last": "GEORGE M FEAY",
-            "first": "C",
-            "full": "GEORGE M FEAY, C"
+            "last": "GEORGE",
+            "first": "M",
+            "full": "GEORGE, M"
           },
           {
-            "last": "SIMMONS J BATISTE",
-            "first": "L",
-            "full": "SIMMONS J BATISTE, L"
+            "last": "SIMMONS",
+            "first": "J",
+            "full": "SIMMONS, J"
           }
         ],
         "instructors": [
-          "GEORGE M FEAY, C"
+          "GEORGE, M"
         ],
         "students": [
-          "SIMMONS J BATISTE, L"
+          "SIMMONS, J"
         ],
         "page": 2,
         "line": "",
-        "raw": "0630 \u00b7 1030 \u00b7 1136 \u00b7 ROKT 35 \u00b7 GEORGE M FEAY C \u00b7 Simmons J Batiste L \u00b7 BFM4102 BFM4102 \u00b7 GAMECOCK C/D ATCAA OR BULLDOG MOA (1100-1330) NOTE 1, 7 + MSN# 1800 NOTE 1, 7",
-        "role": "BFM4102 BFM4102",
-        "remarks": "GAMECOCK C/D ATCAA OR BULLDOG MOA (1100-1330) NOTE 1, 7 + MSN# 1800 NOTE 1, 7",
+        "raw": "0630 \u00b7 1030 \u00b7 1136 \u00b7 ROKT 35 \u00b7 GEORGE M \u00b7 Simmons J \u00b7 BFM4102 \u00b7 GAMECOCK C/D ATCAA OR BULLDOG MOA (1100-1330) NOTE 1, 7 +",
+        "role": "BFM4102",
+        "remarks": "GAMECOCK C/D ATCAA OR BULLDOG MOA (1100-1330) NOTE 1, 7 +",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "BFM4102",
+        "start": "1030",
+        "end": "1136",
+        "land": "1136",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FEAY",
+            "first": "C",
+            "full": "FEAY, C"
+          },
+          {
+            "last": "BATISTE",
+            "first": "L",
+            "full": "BATISTE, L"
+          }
+        ],
+        "instructors": [
+          "FEAY, C"
+        ],
+        "students": [
+          "BATISTE, L"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0630 \u00b7 1030 \u00b7 1136 \u00b7 ROKT 35 \u00b7 FEAY C \u00b7 Batiste L \u00b7 BFM4102 \u00b7 MSN# 1800 NOTE 1, 7",
+        "role": "BFM4102",
+        "remarks": "MSN# 1800 NOTE 1, 7",
         "duration": "",
         "device": "",
         "solo": false
@@ -896,15 +973,22 @@
             "last": "CHARNAS N MCCARTHY",
             "first": "C",
             "full": "CHARNAS N MCCARTHY, C"
+          },
+          {
+            "last": "FRANKLIN M BOWES",
+            "first": "C",
+            "full": "FRANKLIN M BOWES, C"
           }
         ],
         "instructors": [
           "CHARNAS N MCCARTHY, C"
         ],
-        "students": [],
+        "students": [
+          "FRANKLIN M BOWES, C"
+        ],
         "page": 2,
         "line": "",
-        "raw": "0630 \u00b7 1030 \u00b7 1136 \u00b7 ROKT 45 \u00b7 CHARNAS N MCCARTHY C \u00b7 FRANKLIN M BOWES C CYCLE 3 \u00b7 AWI SUP AWI SUP \u00b7 BULLDOG MOA OR GAMECOCK C/D (1100-1330) NOTE 1, 3 + MSN# 1800 NOTE 1, 3",
+        "raw": "0630 \u00b7 1030 \u00b7 1136 \u00b7 ROKT 45 \u00b7 CHARNAS N MCCARTHY C \u00b7 FRANKLIN M BOWES C \u00b7 AWI SUP AWI SUP \u00b7 BULLDOG MOA OR GAMECOCK C/D (1100-1330) NOTE 1, 3 + MSN# 1800 NOTE 1, 3",
         "role": "AWI SUP AWI SUP",
         "remarks": "BULLDOG MOA OR GAMECOCK C/D (1100-1330) NOTE 1, 3 + MSN# 1800 NOTE 1, 3",
         "duration": "",
@@ -948,7 +1032,7 @@
       },
       {
         "section": "Flight",
-        "code": "CAS4290 CAS4290 CAS SUP",
+        "code": "CAS4290",
         "start": "1330",
         "end": "1442",
         "land": "1442",
@@ -956,27 +1040,62 @@
         "formation": "",
         "crew": [
           {
-            "last": "M REILLY K PETERS",
-            "first": "D",
-            "full": "M REILLY K PETERS, D"
+            "last": "GOTTSCHALK",
+            "first": "M",
+            "full": "GOTTSCHALK, M"
           },
           {
-            "last": "P MONSON M SEIDA",
-            "first": "J",
-            "full": "P MONSON M SEIDA, J"
+            "last": "HASLAM",
+            "first": "P",
+            "full": "HASLAM, P"
           }
         ],
         "instructors": [
-          "M REILLY K PETERS, D"
+          "GOTTSCHALK, M"
         ],
         "students": [
-          "P MONSON M SEIDA, J"
+          "HASLAM, P"
         ],
         "page": 2,
         "line": "",
-        "raw": "1200 \u00b7 1330 \u00b7 1442 \u00b7 ROKT 65 \u00b7 GOTTSCHALK M REILLY K PETERS D \u00b7 Haslam P Monson M SEIDA J \u00b7 CAS4290 CAS4290 CAS SUP \u00b7 SNOWBIRD MOA (1330-1430) MSN# 3016 NOTE 7 # NOTE 7 NOTE 7",
-        "role": "CAS4290 CAS4290 CAS SUP",
-        "remarks": "SNOWBIRD MOA (1330-1430) MSN# 3016 NOTE 7 # NOTE 7 NOTE 7",
+        "raw": "1200 \u00b7 1330 \u00b7 1442 \u00b7 ROKT 65 \u00b7 GOTTSCHALK M \u00b7 Haslam P \u00b7 CAS4290 \u00b7 SNOWBIRD MOA (1330-1430) MSN# 3016 NOTE 7 #",
+        "role": "CAS4290",
+        "remarks": "SNOWBIRD MOA (1330-1430) MSN# 3016 NOTE 7 #",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CAS4290 CAS SUP",
+        "start": "1330",
+        "end": "1442",
+        "land": "1442",
+        "brief": "1200",
+        "formation": "",
+        "crew": [
+          {
+            "last": "REILLY K PETERS",
+            "first": "D",
+            "full": "REILLY K PETERS, D"
+          },
+          {
+            "last": "MONSON M SEIDA",
+            "first": "J",
+            "full": "MONSON M SEIDA, J"
+          }
+        ],
+        "instructors": [
+          "REILLY K PETERS, D"
+        ],
+        "students": [
+          "MONSON M SEIDA, J"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1200 \u00b7 1330 \u00b7 1442 \u00b7 ROKT 65 \u00b7 REILLY K PETERS D \u00b7 Monson M SEIDA J \u00b7 CAS4290 CAS SUP \u00b7 NOTE 7 NOTE 7",
+        "role": "CAS4290 CAS SUP",
+        "remarks": "NOTE 7 NOTE 7",
         "duration": "",
         "device": "",
         "solo": false
@@ -1029,15 +1148,22 @@
             "last": "MAYERS",
             "first": "G",
             "full": "MAYERS, G"
+          },
+          {
+            "last": "VELOZ",
+            "first": "J",
+            "full": "VELOZ, J"
           }
         ],
         "instructors": [
           "MAYERS, G"
         ],
-        "students": [],
+        "students": [
+          "VELOZ, J"
+        ],
         "page": 2,
         "line": "",
-        "raw": "1200 \u00b7 1400 \u00b7 1518 \u00b7 ROKT 85 \u00b7 MAYERS G \u00b7 Veloz J CYCLE 4 \u00b7 FAM4101 \u00b7 SNOWBIRD MOA (1330-1430) MSN# 3016 NOTE 1",
+        "raw": "1200 \u00b7 1400 \u00b7 1518 \u00b7 ROKT 85 \u00b7 MAYERS G \u00b7 Veloz J \u00b7 FAM4101 \u00b7 SNOWBIRD MOA (1330-1430) MSN# 3016 NOTE 1",
         "role": "FAM4101",
         "remarks": "SNOWBIRD MOA (1330-1430) MSN# 3016 NOTE 1",
         "duration": "",

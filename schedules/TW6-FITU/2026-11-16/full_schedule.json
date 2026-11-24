@@ -202,14 +202,14 @@
   ],
   "assignments": {
     "version": 1,
-    "parser_revision": 2,
+    "parser_revision": 3,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
     "events": [
       {
         "section": "Flight",
-        "code": "NA4290 Event) Schedule",
+        "code": "NA4290",
         "start": "1200",
         "end": "1348",
         "land": "1348",
@@ -235,8 +235,8 @@
         ],
         "page": 1,
         "line": "",
-        "raw": "1000 \u00b7 1200 \u00b7 1348 \u00b7 POPE, DANIEL \u00b7 ORTIZ, RICHARD Simulator (Sim \u00b7 NA4290 Event) Schedule \u00b7 1.8 \u00b7 DD-1801",
-        "role": "NA4290 Event) Schedule",
+        "raw": "1000 \u00b7 1200 \u00b7 1348 \u00b7 POPE, DANIEL \u00b7 ORTIZ, RICHARD \u00b7 NA4290 \u00b7 1.8 \u00b7 DD-1801",
+        "role": "NA4290",
         "remarks": "DD-1801",
         "duration": "1.8",
         "device": "",

@@ -1107,7 +1107,7 @@
   ],
   "assignments": {
     "version": 1,
-    "parser_revision": 2,
+    "parser_revision": 3,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -1244,7 +1244,7 @@
       },
       {
         "section": "Flight",
-        "code": "AWI4201 AWI4201",
+        "code": "AWI4201",
         "start": "0730",
         "end": "0836",
         "land": "0836",
@@ -1252,34 +1252,69 @@
         "formation": "",
         "crew": [
           {
-            "last": "STEVENS J GOLDTHWAITE",
-            "first": "M",
-            "full": "STEVENS J GOLDTHWAITE, M"
+            "last": "STEVENS",
+            "first": "J",
+            "full": "STEVENS, J"
           },
           {
-            "last": "WYSOCKI J GOERGEN",
-            "first": "E",
-            "full": "WYSOCKI J GOERGEN, E"
+            "last": "WYSOCKI",
+            "first": "J",
+            "full": "WYSOCKI, J"
           }
         ],
         "instructors": [
-          "STEVENS J GOLDTHWAITE, M"
+          "STEVENS, J"
         ],
         "students": [
-          "WYSOCKI J GOERGEN, E"
+          "WYSOCKI, J"
         ],
         "page": 2,
         "line": "",
-        "raw": "0600 \u00b7 0730 \u00b7 0836 \u00b7 ROKT 11 \u00b7 STEVENS J GOLDTHWAITE M \u00b7 Wysocki J Goergen E \u00b7 AWI4201 AWI4201 \u00b7 W-155 SFC-FL300 (0730-0930) NOTE 3 + NOTE 3",
-        "role": "AWI4201 AWI4201",
-        "remarks": "W-155 SFC-FL300 (0730-0930) NOTE 3 + NOTE 3",
+        "raw": "0600 \u00b7 0730 \u00b7 0836 \u00b7 ROKT 11 \u00b7 STEVENS J \u00b7 Wysocki J \u00b7 AWI4201 \u00b7 W-155 SFC-FL300 (0730-0930) NOTE 3 +",
+        "role": "AWI4201",
+        "remarks": "W-155 SFC-FL300 (0730-0930) NOTE 3 +",
         "duration": "",
         "device": "",
         "solo": false
       },
       {
         "section": "Flight",
-        "code": "AWI4201 AWI4201",
+        "code": "AWI4201",
+        "start": "0730",
+        "end": "0836",
+        "land": "0836",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GOLDTHWAITE",
+            "first": "M",
+            "full": "GOLDTHWAITE, M"
+          },
+          {
+            "last": "GOERGEN",
+            "first": "E",
+            "full": "GOERGEN, E"
+          }
+        ],
+        "instructors": [
+          "GOLDTHWAITE, M"
+        ],
+        "students": [
+          "GOERGEN, E"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 0730 \u00b7 0836 \u00b7 ROKT 11 \u00b7 GOLDTHWAITE M \u00b7 Goergen E \u00b7 AWI4201 \u00b7 NOTE 3",
+        "role": "AWI4201",
+        "remarks": "NOTE 3",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AWI4201",
         "start": "0800",
         "end": "0906",
         "land": "0906",
@@ -1287,27 +1322,62 @@
         "formation": "",
         "crew": [
           {
-            "last": "KOCHANSKI J GEORGE",
-            "first": "M",
-            "full": "KOCHANSKI J GEORGE, M"
+            "last": "KOCHANSKI",
+            "first": "J",
+            "full": "KOCHANSKI, J"
           },
           {
-            "last": "NORKO K SULLIVAN",
-            "first": "T",
-            "full": "NORKO K SULLIVAN, T"
+            "last": "NORKO",
+            "first": "K",
+            "full": "NORKO, K"
           }
         ],
         "instructors": [
-          "KOCHANSKI J GEORGE, M"
+          "KOCHANSKI, J"
         ],
         "students": [
-          "NORKO K SULLIVAN, T"
+          "NORKO, K"
         ],
         "page": 2,
         "line": "",
-        "raw": "0630 \u00b7 0800 \u00b7 0906 \u00b7 ROKT 21 \u00b7 KOCHANSKI J GEORGE M \u00b7 Norko K Sullivan T \u00b7 AWI4201 AWI4201 \u00b7 W-155 SFC-FL300 (0730-0930) NOTE 3 + NOTE 3",
-        "role": "AWI4201 AWI4201",
-        "remarks": "W-155 SFC-FL300 (0730-0930) NOTE 3 + NOTE 3",
+        "raw": "0630 \u00b7 0800 \u00b7 0906 \u00b7 ROKT 21 \u00b7 KOCHANSKI J \u00b7 Norko K \u00b7 AWI4201 \u00b7 W-155 SFC-FL300 (0730-0930) NOTE 3 +",
+        "role": "AWI4201",
+        "remarks": "W-155 SFC-FL300 (0730-0930) NOTE 3 +",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AWI4201",
+        "start": "0800",
+        "end": "0906",
+        "land": "0906",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GEORGE",
+            "first": "M",
+            "full": "GEORGE, M"
+          },
+          {
+            "last": "SULLIVAN",
+            "first": "T",
+            "full": "SULLIVAN, T"
+          }
+        ],
+        "instructors": [
+          "GEORGE, M"
+        ],
+        "students": [
+          "SULLIVAN, T"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0630 \u00b7 0800 \u00b7 0906 \u00b7 ROKT 21 \u00b7 GEORGE M \u00b7 Sullivan T \u00b7 AWI4201 \u00b7 NOTE 3",
+        "role": "AWI4201",
+        "remarks": "NOTE 3",
         "duration": "",
         "device": "",
         "solo": false
@@ -1360,15 +1430,22 @@
             "last": "WALDRON",
             "first": "S",
             "full": "WALDRON, S"
+          },
+          {
+            "last": "PETERS",
+            "first": "D",
+            "full": "PETERS, D"
           }
         ],
         "instructors": [
           "WALDRON, S"
         ],
-        "students": [],
+        "students": [
+          "PETERS, D"
+        ],
         "page": 2,
         "line": "",
-        "raw": "0630 \u00b7 0730 \u00b7 0836 \u00b7 ROKT 41 \u00b7 WALDRON S \u00b7 PETERS D CYCLE 2 \u00b7 FITU IUT \u00b7 NOTE 1",
+        "raw": "0630 \u00b7 0730 \u00b7 0836 \u00b7 ROKT 41 \u00b7 WALDRON S \u00b7 PETERS D \u00b7 FITU IUT \u00b7 NOTE 1",
         "role": "FITU IUT",
         "remarks": "NOTE 1",
         "duration": "",
@@ -1458,15 +1535,22 @@
             "last": "WALDRON",
             "first": "S",
             "full": "WALDRON, S"
+          },
+          {
+            "last": "PETERS",
+            "first": "D",
+            "full": "PETERS, D"
           }
         ],
         "instructors": [
           "WALDRON, S"
         ],
-        "students": [],
+        "students": [
+          "PETERS, D"
+        ],
         "page": 2,
         "line": "",
-        "raw": "0630 \u00b7 1000 \u00b7 1106 \u00b7 ROKT 41 \u00b7 WALDRON S \u00b7 PETERS D CYCLE 3 \u00b7 FITU IUT \u00b7 NOTE 1",
+        "raw": "0630 \u00b7 1000 \u00b7 1106 \u00b7 ROKT 41 \u00b7 WALDRON S \u00b7 PETERS D \u00b7 FITU IUT \u00b7 NOTE 1",
         "role": "FITU IUT",
         "remarks": "NOTE 1",
         "duration": "",
@@ -1475,7 +1559,7 @@
       },
       {
         "section": "Flight",
-        "code": "AWI4202 AWI4202",
+        "code": "AWI4202",
         "start": "1300",
         "end": "1406",
         "land": "1406",
@@ -1483,34 +1567,69 @@
         "formation": "",
         "crew": [
           {
-            "last": "HEALEY J STEVENS",
+            "last": "HEALEY",
             "first": "J",
-            "full": "HEALEY J STEVENS, J"
+            "full": "HEALEY, J"
           },
           {
-            "last": "GOERGEN E WYSOCKI",
-            "first": "J",
-            "full": "GOERGEN E WYSOCKI, J"
+            "last": "GOERGEN",
+            "first": "E",
+            "full": "GOERGEN, E"
           }
         ],
         "instructors": [
-          "HEALEY J STEVENS, J"
+          "HEALEY, J"
         ],
         "students": [
-          "GOERGEN E WYSOCKI, J"
+          "GOERGEN, E"
         ],
         "page": 2,
         "line": "",
-        "raw": "0600 \u00b7 1300 \u00b7 1406 \u00b7 ROKT 11 \u00b7 HEALEY J STEVENS J \u00b7 Goergen E Wysocki J \u00b7 AWI4202 AWI4202 \u00b7 W-155 SFC-FL300 (1300-1430) NOTE 3 + NOTE 3",
-        "role": "AWI4202 AWI4202",
-        "remarks": "W-155 SFC-FL300 (1300-1430) NOTE 3 + NOTE 3",
+        "raw": "0600 \u00b7 1300 \u00b7 1406 \u00b7 ROKT 11 \u00b7 HEALEY J \u00b7 Goergen E \u00b7 AWI4202 \u00b7 W-155 SFC-FL300 (1300-1430) NOTE 3 +",
+        "role": "AWI4202",
+        "remarks": "W-155 SFC-FL300 (1300-1430) NOTE 3 +",
         "duration": "",
         "device": "",
         "solo": false
       },
       {
         "section": "Flight",
-        "code": "AWI4202 AWI4202",
+        "code": "AWI4202",
+        "start": "1300",
+        "end": "1406",
+        "land": "1406",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STEVENS",
+            "first": "J",
+            "full": "STEVENS, J"
+          },
+          {
+            "last": "WYSOCKI",
+            "first": "J",
+            "full": "WYSOCKI, J"
+          }
+        ],
+        "instructors": [
+          "STEVENS, J"
+        ],
+        "students": [
+          "WYSOCKI, J"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 1300 \u00b7 1406 \u00b7 ROKT 11 \u00b7 STEVENS J \u00b7 Wysocki J \u00b7 AWI4202 \u00b7 NOTE 3",
+        "role": "AWI4202",
+        "remarks": "NOTE 3",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AWI4202",
         "start": "1330",
         "end": "1436",
         "land": "1436",
@@ -1518,27 +1637,62 @@
         "formation": "",
         "crew": [
           {
-            "last": "WATTAM B KOCHANSKI",
-            "first": "J",
-            "full": "WATTAM B KOCHANSKI, J"
+            "last": "WATTAM",
+            "first": "B",
+            "full": "WATTAM, B"
           },
           {
-            "last": "SULLIVAN T NORKO",
-            "first": "K",
-            "full": "SULLIVAN T NORKO, K"
+            "last": "SULLIVAN",
+            "first": "T",
+            "full": "SULLIVAN, T"
           }
         ],
         "instructors": [
-          "WATTAM B KOCHANSKI, J"
+          "WATTAM, B"
         ],
         "students": [
-          "SULLIVAN T NORKO, K"
+          "SULLIVAN, T"
         ],
         "page": 2,
         "line": "",
-        "raw": "0630 \u00b7 1330 \u00b7 1436 \u00b7 ROKT 21 \u00b7 WATTAM B KOCHANSKI J \u00b7 Sullivan T Norko K \u00b7 AWI4202 AWI4202 \u00b7 W-155 SFC-FL300 (1300-1430) NOTE 3 + NOTE 3",
-        "role": "AWI4202 AWI4202",
-        "remarks": "W-155 SFC-FL300 (1300-1430) NOTE 3 + NOTE 3",
+        "raw": "0630 \u00b7 1330 \u00b7 1436 \u00b7 ROKT 21 \u00b7 WATTAM B \u00b7 Sullivan T \u00b7 AWI4202 \u00b7 W-155 SFC-FL300 (1300-1430) NOTE 3 +",
+        "role": "AWI4202",
+        "remarks": "W-155 SFC-FL300 (1300-1430) NOTE 3 +",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AWI4202",
+        "start": "1330",
+        "end": "1436",
+        "land": "1436",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KOCHANSKI",
+            "first": "J",
+            "full": "KOCHANSKI, J"
+          },
+          {
+            "last": "NORKO",
+            "first": "K",
+            "full": "NORKO, K"
+          }
+        ],
+        "instructors": [
+          "KOCHANSKI, J"
+        ],
+        "students": [
+          "NORKO, K"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0630 \u00b7 1330 \u00b7 1436 \u00b7 ROKT 21 \u00b7 KOCHANSKI J \u00b7 Norko K \u00b7 AWI4202 \u00b7 NOTE 3",
+        "role": "AWI4202",
+        "remarks": "NOTE 3",
         "duration": "",
         "device": "",
         "solo": false
@@ -1591,15 +1745,22 @@
             "last": "GASPER",
             "first": "J",
             "full": "GASPER, J"
+          },
+          {
+            "last": "PITTMAN",
+            "first": "C",
+            "full": "PITTMAN, C"
           }
         ],
         "instructors": [
           "GASPER, J"
         ],
-        "students": [],
+        "students": [
+          "PITTMAN, C"
+        ],
         "page": 2,
         "line": "",
-        "raw": "1130 \u00b7 1230 \u00b7 1354 \u00b7 ROKT 81 \u00b7 GASPER J \u00b7 PITTMAN C CYCLE 4 \u00b7 NA4101 \u00b7 NOTE 1",
+        "raw": "1130 \u00b7 1230 \u00b7 1354 \u00b7 ROKT 81 \u00b7 GASPER J \u00b7 PITTMAN C \u00b7 NA4101 \u00b7 NOTE 1",
         "role": "NA4101",
         "remarks": "NOTE 1",
         "duration": "",
@@ -1608,7 +1769,7 @@
       },
       {
         "section": "Flight",
-        "code": "CAS4290 CAS4290 CAS SUP",
+        "code": "CAS4290",
         "start": "1530",
         "end": "1642",
         "land": "1642",
@@ -1616,27 +1777,62 @@
         "formation": "",
         "crew": [
           {
-            "last": "M ANDERSON J NAIR",
-            "first": "N",
-            "full": "M ANDERSON J NAIR, N"
+            "last": "TASSINARI",
+            "first": "M",
+            "full": "TASSINARI, M"
           },
           {
-            "last": "A TIEFEL Z BURCH",
-            "first": "K",
-            "full": "A TIEFEL Z BURCH, K"
+            "last": "NEUMANN",
+            "first": "A",
+            "full": "NEUMANN, A"
           }
         ],
         "instructors": [
-          "M ANDERSON J NAIR, N"
+          "TASSINARI, M"
         ],
         "students": [
-          "A TIEFEL Z BURCH, K"
+          "NEUMANN, A"
         ],
         "page": 2,
         "line": "",
-        "raw": "0830 \u00b7 1530 \u00b7 1642 \u00b7 ROKT 51 \u00b7 TASSINARI M ANDERSON J NAIR N \u00b7 Neumann A Tiefel Z BURCH K \u00b7 CAS4290 CAS4290 CAS SUP \u00b7 HAWK4 (1530-1700) #",
-        "role": "CAS4290 CAS4290 CAS SUP",
+        "raw": "0830 \u00b7 1530 \u00b7 1642 \u00b7 ROKT 51 \u00b7 TASSINARI M \u00b7 Neumann A \u00b7 CAS4290 \u00b7 HAWK4 (1530-1700) #",
+        "role": "CAS4290",
         "remarks": "HAWK4 (1530-1700) #",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CAS4290 CAS SUP",
+        "start": "1530",
+        "end": "1642",
+        "land": "1642",
+        "brief": "0830",
+        "formation": "",
+        "crew": [
+          {
+            "last": "ANDERSON J NAIR",
+            "first": "N",
+            "full": "ANDERSON J NAIR, N"
+          },
+          {
+            "last": "TIEFEL Z BURCH",
+            "first": "K",
+            "full": "TIEFEL Z BURCH, K"
+          }
+        ],
+        "instructors": [
+          "ANDERSON J NAIR, N"
+        ],
+        "students": [
+          "TIEFEL Z BURCH, K"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0830 \u00b7 1530 \u00b7 1642 \u00b7 ROKT 51 \u00b7 ANDERSON J NAIR N \u00b7 Tiefel Z BURCH K \u00b7 CAS4290 CAS SUP",
+        "role": "CAS4290 CAS SUP",
+        "remarks": "",
         "duration": "",
         "device": "",
         "solo": false

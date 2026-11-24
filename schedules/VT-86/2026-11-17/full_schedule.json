@@ -997,7 +997,7 @@
   ],
   "assignments": {
     "version": 1,
-    "parser_revision": 2,
+    "parser_revision": 3,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -1160,7 +1160,7 @@
       },
       {
         "section": "Flight",
-        "code": "CAS4101 CAS4301 CAS SUP",
+        "code": "CAS4101",
         "start": "0730",
         "end": "0842",
         "land": "0842",
@@ -1168,34 +1168,34 @@
         "formation": "",
         "crew": [
           {
-            "last": "J NYGAARD C WATTAM",
-            "first": "B",
-            "full": "J NYGAARD C WATTAM, B"
+            "last": "HEALEY",
+            "first": "J",
+            "full": "HEALEY, J"
           },
           {
-            "last": "A STAATS M KRIESMER",
-            "first": "Z",
-            "full": "A STAATS M KRIESMER, Z"
+            "last": "NEUMANN",
+            "first": "A",
+            "full": "NEUMANN, A"
           }
         ],
         "instructors": [
-          "J NYGAARD C WATTAM, B"
+          "HEALEY, J"
         ],
         "students": [
-          "A STAATS M KRIESMER, Z"
+          "NEUMANN, A"
         ],
         "page": 2,
         "line": "",
-        "raw": "0600 \u00b7 0730 \u00b7 0842 \u00b7 ROKT 11 \u00b7 HEALEY J NYGAARD C WATTAM B \u00b7 Neumann A STAATS M KRIESMER Z \u00b7 CAS4101 CAS4301 CAS SUP \u00b7 DESOTO & BULLSEYE & R-4401 (0730-0900) NOTE 1, 7 # NOTE 1, 7 NOTE 1, 7",
-        "role": "CAS4101 CAS4301 CAS SUP",
-        "remarks": "DESOTO & BULLSEYE & R-4401 (0730-0900) NOTE 1, 7 # NOTE 1, 7 NOTE 1, 7",
+        "raw": "0600 \u00b7 0730 \u00b7 0842 \u00b7 ROKT 11 \u00b7 HEALEY J \u00b7 Neumann A \u00b7 CAS4101 \u00b7 DESOTO & BULLSEYE & R-4401 (0730-0900) NOTE 1, 7 #",
+        "role": "CAS4101",
+        "remarks": "DESOTO & BULLSEYE & R-4401 (0730-0900) NOTE 1, 7 #",
         "duration": "",
         "device": "",
         "solo": false
       },
       {
         "section": "Flight",
-        "code": "AWI4501 AWI4290",
+        "code": "CAS4301 CAS SUP",
         "start": "0730",
         "end": "0842",
         "land": "0842",
@@ -1203,27 +1203,97 @@
         "formation": "",
         "crew": [
           {
-            "last": "TASSINARI M PETERS",
-            "first": "D",
-            "full": "TASSINARI M PETERS, D"
+            "last": "NYGAARD C WATTAM",
+            "first": "B",
+            "full": "NYGAARD C WATTAM, B"
           },
           {
-            "last": "JUELFS A OSOVSKI",
-            "first": "L",
-            "full": "JUELFS A OSOVSKI, L"
+            "last": "STAATS M KRIESMER",
+            "first": "Z",
+            "full": "STAATS M KRIESMER, Z"
           }
         ],
         "instructors": [
-          "TASSINARI M PETERS, D"
+          "NYGAARD C WATTAM, B"
         ],
         "students": [
-          "JUELFS A OSOVSKI, L"
+          "STAATS M KRIESMER, Z"
         ],
         "page": 2,
         "line": "",
-        "raw": "0600 \u00b7 0730 \u00b7 0842 \u00b7 ROKT 21 \u00b7 TASSINARI M PETERS D \u00b7 Juelfs A OSOVSKI L \u00b7 AWI4501 AWI4290 \u00b7 W-155 SFC-FL300 (0730-1030) NOTE 1, 3 + NOTE 1, 3",
-        "role": "AWI4501 AWI4290",
-        "remarks": "W-155 SFC-FL300 (0730-1030) NOTE 1, 3 + NOTE 1, 3",
+        "raw": "0600 \u00b7 0730 \u00b7 0842 \u00b7 ROKT 11 \u00b7 NYGAARD C WATTAM B \u00b7 STAATS M KRIESMER Z \u00b7 CAS4301 CAS SUP \u00b7 NOTE 1, 7 NOTE 1, 7",
+        "role": "CAS4301 CAS SUP",
+        "remarks": "NOTE 1, 7 NOTE 1, 7",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AWI4501",
+        "start": "0730",
+        "end": "0842",
+        "land": "0842",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TASSINARI",
+            "first": "M",
+            "full": "TASSINARI, M"
+          },
+          {
+            "last": "JUELFS",
+            "first": "A",
+            "full": "JUELFS, A"
+          }
+        ],
+        "instructors": [
+          "TASSINARI, M"
+        ],
+        "students": [
+          "JUELFS, A"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 0730 \u00b7 0842 \u00b7 ROKT 21 \u00b7 TASSINARI M \u00b7 Juelfs A \u00b7 AWI4501 \u00b7 W-155 SFC-FL300 (0730-1030) NOTE 1, 3 +",
+        "role": "AWI4501",
+        "remarks": "W-155 SFC-FL300 (0730-1030) NOTE 1, 3 +",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "AWI4290",
+        "start": "0730",
+        "end": "0842",
+        "land": "0842",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PETERS",
+            "first": "D",
+            "full": "PETERS, D"
+          },
+          {
+            "last": "OSOVSKI",
+            "first": "L",
+            "full": "OSOVSKI, L"
+          }
+        ],
+        "instructors": [
+          "PETERS, D"
+        ],
+        "students": [
+          "OSOVSKI, L"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 0730 \u00b7 0842 \u00b7 ROKT 21 \u00b7 PETERS D \u00b7 OSOVSKI L \u00b7 AWI4290 \u00b7 NOTE 1, 3",
+        "role": "AWI4290",
+        "remarks": "NOTE 1, 3",
         "duration": "",
         "device": "",
         "solo": false
@@ -1265,7 +1335,7 @@
       },
       {
         "section": "Flight",
-        "code": "STK4390 STK4303",
+        "code": "STK4390",
         "start": "0800",
         "end": "0912",
         "land": "0912",
@@ -1273,27 +1343,69 @@
         "formation": "",
         "crew": [
           {
-            "last": "NAIR N WILLENBORG",
-            "first": "C",
-            "full": "NAIR N WILLENBORG, C"
+            "last": "NAIR",
+            "first": "N",
+            "full": "NAIR, N"
+          },
+          {
+            "last": "SPILLMAN",
+            "first": "K",
+            "full": "SPILLMAN, K"
           }
         ],
         "instructors": [
-          "NAIR N WILLENBORG, C"
+          "NAIR, N"
         ],
-        "students": [],
+        "students": [
+          "SPILLMAN, K"
+        ],
         "page": 2,
         "line": "",
-        "raw": "0630 \u00b7 0800 \u00b7 0912 \u00b7 ROKT 41 \u00b7 NAIR N WILLENBORG C \u00b7 Spillman K MARTENS N CYCLE 2 \u00b7 STK4390 STK4303 \u00b7 IR ONLY NOTE 3 + NOTE 3",
-        "role": "STK4390 STK4303",
-        "remarks": "IR ONLY NOTE 3 + NOTE 3",
+        "raw": "0630 \u00b7 0800 \u00b7 0912 \u00b7 ROKT 41 \u00b7 NAIR N \u00b7 Spillman K \u00b7 STK4390 \u00b7 IR ONLY NOTE 3 +",
+        "role": "STK4390",
+        "remarks": "IR ONLY NOTE 3 +",
         "duration": "",
         "device": "",
         "solo": false
       },
       {
         "section": "Flight",
-        "code": "CAS4102 CAS4302 CAS SUP",
+        "code": "STK4303",
+        "start": "0800",
+        "end": "0912",
+        "land": "0912",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WILLENBORG",
+            "first": "C",
+            "full": "WILLENBORG, C"
+          },
+          {
+            "last": "MARTENS",
+            "first": "N",
+            "full": "MARTENS, N"
+          }
+        ],
+        "instructors": [
+          "WILLENBORG, C"
+        ],
+        "students": [
+          "MARTENS, N"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0630 \u00b7 0800 \u00b7 0912 \u00b7 ROKT 41 \u00b7 WILLENBORG C \u00b7 MARTENS N \u00b7 STK4303 \u00b7 NOTE 3",
+        "role": "STK4303",
+        "remarks": "NOTE 3",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CAS4102",
         "start": "1000",
         "end": "1112",
         "land": "1112",
@@ -1301,27 +1413,62 @@
         "formation": "",
         "crew": [
           {
-            "last": "J NYGAARD C WATTAM",
-            "first": "B",
-            "full": "J NYGAARD C WATTAM, B"
+            "last": "HEALEY",
+            "first": "J",
+            "full": "HEALEY, J"
           },
           {
-            "last": "A STAATS M KRIESMER",
-            "first": "Z",
-            "full": "A STAATS M KRIESMER, Z"
+            "last": "NEUMANN",
+            "first": "A",
+            "full": "NEUMANN, A"
           }
         ],
         "instructors": [
-          "J NYGAARD C WATTAM, B"
+          "HEALEY, J"
         ],
         "students": [
-          "A STAATS M KRIESMER, Z"
+          "NEUMANN, A"
         ],
         "page": 2,
         "line": "",
-        "raw": "0600 \u00b7 1000 \u00b7 1112 \u00b7 ROKT 11 \u00b7 HEALEY J NYGAARD C WATTAM B \u00b7 Neumann A STAATS M KRIESMER Z \u00b7 CAS4102 CAS4302 CAS SUP \u00b7 HAWK-4 (1000-1200) NOTE 1 # NOTE 1 NOTE 1",
-        "role": "CAS4102 CAS4302 CAS SUP",
-        "remarks": "HAWK-4 (1000-1200) NOTE 1 # NOTE 1 NOTE 1",
+        "raw": "0600 \u00b7 1000 \u00b7 1112 \u00b7 ROKT 11 \u00b7 HEALEY J \u00b7 Neumann A \u00b7 CAS4102 \u00b7 HAWK-4 (1000-1200) NOTE 1 #",
+        "role": "CAS4102",
+        "remarks": "HAWK-4 (1000-1200) NOTE 1 #",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "CAS4302 CAS SUP",
+        "start": "1000",
+        "end": "1112",
+        "land": "1112",
+        "brief": "0600",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NYGAARD C WATTAM",
+            "first": "B",
+            "full": "NYGAARD C WATTAM, B"
+          },
+          {
+            "last": "STAATS M KRIESMER",
+            "first": "Z",
+            "full": "STAATS M KRIESMER, Z"
+          }
+        ],
+        "instructors": [
+          "NYGAARD C WATTAM, B"
+        ],
+        "students": [
+          "STAATS M KRIESMER, Z"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0600 \u00b7 1000 \u00b7 1112 \u00b7 ROKT 11 \u00b7 NYGAARD C WATTAM B \u00b7 STAATS M KRIESMER Z \u00b7 CAS4302 CAS SUP \u00b7 NOTE 1 NOTE 1",
+        "role": "CAS4302 CAS SUP",
+        "remarks": "NOTE 1 NOTE 1",
         "duration": "",
         "device": "",
         "solo": false
@@ -1363,7 +1510,7 @@
       },
       {
         "section": "Flight",
-        "code": "STK4390 STK4490",
+        "code": "STK4390",
         "start": "1030",
         "end": "1142",
         "land": "1142",
@@ -1371,20 +1518,62 @@
         "formation": "",
         "crew": [
           {
-            "last": "NAIR N WILLENBORG",
-            "first": "C",
-            "full": "NAIR N WILLENBORG, C"
+            "last": "NAIR",
+            "first": "N",
+            "full": "NAIR, N"
+          },
+          {
+            "last": "ARMOUR",
+            "first": "G",
+            "full": "ARMOUR, G"
           }
         ],
         "instructors": [
-          "NAIR N WILLENBORG, C"
+          "NAIR, N"
         ],
-        "students": [],
+        "students": [
+          "ARMOUR, G"
+        ],
         "page": 2,
         "line": "",
-        "raw": "0630 \u00b7 1030 \u00b7 1142 \u00b7 ROKT 41 \u00b7 NAIR N WILLENBORG C \u00b7 Armour G MARTENS N CYCLE 3 \u00b7 STK4390 STK4490 \u00b7 VR ONLY NOTE 7 + NOTE 7",
-        "role": "STK4390 STK4490",
-        "remarks": "VR ONLY NOTE 7 + NOTE 7",
+        "raw": "0630 \u00b7 1030 \u00b7 1142 \u00b7 ROKT 41 \u00b7 NAIR N \u00b7 Armour G \u00b7 STK4390 \u00b7 VR ONLY NOTE 7 +",
+        "role": "STK4390",
+        "remarks": "VR ONLY NOTE 7 +",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4490",
+        "start": "1030",
+        "end": "1142",
+        "land": "1142",
+        "brief": "0630",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WILLENBORG",
+            "first": "C",
+            "full": "WILLENBORG, C"
+          },
+          {
+            "last": "MARTENS",
+            "first": "N",
+            "full": "MARTENS, N"
+          }
+        ],
+        "instructors": [
+          "WILLENBORG, C"
+        ],
+        "students": [
+          "MARTENS, N"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "0630 \u00b7 1030 \u00b7 1142 \u00b7 ROKT 41 \u00b7 WILLENBORG C \u00b7 MARTENS N \u00b7 STK4490 \u00b7 NOTE 7",
+        "role": "STK4490",
+        "remarks": "NOTE 7",
         "duration": "",
         "device": "",
         "solo": false
@@ -1461,7 +1650,7 @@
       },
       {
         "section": "Flight",
-        "code": "STK4202 STK4303",
+        "code": "STK4202",
         "start": "1230",
         "end": "1342",
         "land": "1342",
@@ -1469,27 +1658,69 @@
         "formation": "",
         "crew": [
           {
-            "last": "GOLDTHWAITE M FEAY",
-            "first": "C",
-            "full": "GOLDTHWAITE M FEAY, C"
+            "last": "GOLDTHWAITE",
+            "first": "M",
+            "full": "GOLDTHWAITE, M"
+          },
+          {
+            "last": "STECKLAIR",
+            "first": "D",
+            "full": "STECKLAIR, D"
           }
         ],
         "instructors": [
-          "GOLDTHWAITE M FEAY, C"
+          "GOLDTHWAITE, M"
         ],
-        "students": [],
+        "students": [
+          "STECKLAIR, D"
+        ],
         "page": 2,
         "line": "",
-        "raw": "1100 \u00b7 1230 \u00b7 1342 \u00b7 ROKT 71 \u00b7 GOLDTHWAITE M FEAY C \u00b7 Stecklair D MOCKRIDGE D CYCLE 4 \u00b7 STK4202 STK4303 \u00b7 IR ONLY NOTE 1, 3, 9 + NOTE 1, 3",
-        "role": "STK4202 STK4303",
-        "remarks": "IR ONLY NOTE 1, 3, 9 + NOTE 1, 3",
+        "raw": "1100 \u00b7 1230 \u00b7 1342 \u00b7 ROKT 71 \u00b7 GOLDTHWAITE M \u00b7 Stecklair D \u00b7 STK4202 \u00b7 IR ONLY NOTE 1, 3, 9 +",
+        "role": "STK4202",
+        "remarks": "IR ONLY NOTE 1, 3, 9 +",
         "duration": "",
         "device": "",
         "solo": false
       },
       {
         "section": "Flight",
-        "code": "STK4203 STK4490",
+        "code": "STK4303",
+        "start": "1230",
+        "end": "1342",
+        "land": "1342",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FEAY",
+            "first": "C",
+            "full": "FEAY, C"
+          },
+          {
+            "last": "MOCKRIDGE",
+            "first": "D",
+            "full": "MOCKRIDGE, D"
+          }
+        ],
+        "instructors": [
+          "FEAY, C"
+        ],
+        "students": [
+          "MOCKRIDGE, D"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1100 \u00b7 1230 \u00b7 1342 \u00b7 ROKT 71 \u00b7 FEAY C \u00b7 MOCKRIDGE D \u00b7 STK4303 \u00b7 NOTE 1, 3",
+        "role": "STK4303",
+        "remarks": "NOTE 1, 3",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4203",
         "start": "1500",
         "end": "1612",
         "land": "1612",
@@ -1497,20 +1728,55 @@
         "formation": "",
         "crew": [
           {
-            "last": "GOLDTHWAITE M FEAY",
-            "first": "C",
-            "full": "GOLDTHWAITE M FEAY, C"
+            "last": "GOLDTHWAITE",
+            "first": "M",
+            "full": "GOLDTHWAITE, M"
+          },
+          {
+            "last": "STECKLAIR",
+            "first": "D",
+            "full": "STECKLAIR, D"
           }
         ],
         "instructors": [
-          "GOLDTHWAITE M FEAY, C"
+          "GOLDTHWAITE, M"
+        ],
+        "students": [
+          "STECKLAIR, D"
+        ],
+        "page": 2,
+        "line": "",
+        "raw": "1100 \u00b7 1500 \u00b7 1612 \u00b7 ROKT 71 \u00b7 GOLDTHWAITE M \u00b7 Stecklair D \u00b7 STK4203 \u00b7 VR ONLY NOTE 1, 7 +",
+        "role": "STK4203",
+        "remarks": "VR ONLY NOTE 1, 7 +",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Flight",
+        "code": "STK4490",
+        "start": "1500",
+        "end": "1612",
+        "land": "1612",
+        "brief": "1100",
+        "formation": "",
+        "crew": [
+          {
+            "last": "FEAY",
+            "first": "C",
+            "full": "FEAY, C"
+          }
+        ],
+        "instructors": [
+          "FEAY, C"
         ],
         "students": [],
         "page": 2,
         "line": "",
-        "raw": "1100 \u00b7 1500 \u00b7 1612 \u00b7 ROKT 71 \u00b7 GOLDTHWAITE M FEAY C \u00b7 Stecklair D MOCKRIDGE D T-45 SIMULATOR SCHEDULE \u00b7 STK4203 STK4490 \u00b7 VR ONLY NOTE 1, 7 + NOTE 1, 7",
-        "role": "STK4203 STK4490",
-        "remarks": "VR ONLY NOTE 1, 7 + NOTE 1, 7",
+        "raw": "1100 \u00b7 1500 \u00b7 1612 \u00b7 ROKT 71 \u00b7 FEAY C \u00b7 MOCKRIDGE D T-45 SIMULATOR SCHEDULE \u00b7 STK4490 \u00b7 NOTE 1, 7",
+        "role": "STK4490",
+        "remarks": "NOTE 1, 7",
         "duration": "",
         "device": "",
         "solo": false
