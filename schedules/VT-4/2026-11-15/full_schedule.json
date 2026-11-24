@@ -205,50 +205,10 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
-    "uncertain": "    Sunday, 15-Nov-2026  ",
-    "events": [
-      {
-        "section": "Simulator",
-        "code": "% ILLUM: 29%",
-        "start": "0615",
-        "end": "",
-        "land": "",
-        "brief": "",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 1,
-        "line": "",
-        "raw": "SUNRISE: \u00b7 0615 \u00b7 MOONRISE: 1130 \u00b7 % ILLUM: 29% \u00b7 JULIAN DATE: 6319",
-        "role": "% ILLUM: 29%",
-        "remarks": "JULIAN DATE: 6319",
-        "duration": "",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "SYL SYL",
-        "start": "1652",
-        "end": "",
-        "land": "",
-        "brief": "",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 1,
-        "line": "",
-        "raw": "SUNSET: TOTAL TOTAL SDO \u00b7 1652 FLY EVENTS: SIM EVENTS: \u00b7 SMITH, \u00b7 MOONSET: 2209 TOTAL FLY HRS: TOTAL SIM HRS: JOSHUA \u00b7 SYL FLY EVENTS: SYL SIM EVENTS: 0730 Simulator Events \u00b7 SYL SYL \u00b7 FLY HRS: 0.0 SIM HRS: 0.0 0729",
-        "role": "SYL SYL",
-        "remarks": "FLY HRS: 0.0 SIM HRS: 0.0 0729",
-        "duration": "",
-        "device": "SMITH,",
-        "solo": false
-      }
-    ]
+    "uncertain": "    Sunday, 15-Nov-2026  SDO   SMITH, JOSHUA 0730 0729",
+    "events": []
   }
 }

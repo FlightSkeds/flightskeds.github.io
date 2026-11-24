@@ -868,10 +868,193 @@
   ],
   "assignments": {
     "version": 1,
-    "complete": false,
+    "parser_revision": 2,
+    "complete": true,
     "unreadable": false,
     "uncertain": "",
     "events": [
+      {
+        "section": "Duty",
+        "code": "AM ODO",
+        "start": "0630",
+        "end": "1245",
+        "land": "1245",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MCKINNEY",
+            "first": "",
+            "full": "MCKINNEY"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM ODO \u00b7 CAPT MCKINNEY \u00b7 0630 \u00b7 1245",
+        "role": "AM ODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM ODO",
+        "start": "1245",
+        "end": "1900",
+        "land": "1900",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "SCHEURER",
+            "first": "",
+            "full": "SCHEURER"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM ODO \u00b7 1stLt SCHEURER \u00b7 1245 \u00b7 1900",
+        "role": "PM ODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "AM SDO",
+        "start": "0530",
+        "end": "1215",
+        "land": "1215",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MARCOTTE",
+            "first": "",
+            "full": "MARCOTTE"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "AM SDO \u00b7 LTJG MARCOTTE \u00b7 0530 \u00b7 1215",
+        "role": "AM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "PM SDO",
+        "start": "1215",
+        "end": "1900",
+        "land": "1900",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BAUBLITZ",
+            "first": "",
+            "full": "BAUBLITZ"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "PM SDO \u00b7 LTJG BAUBLITZ \u00b7 1215 \u00b7 1900",
+        "role": "PM SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SKED WRITER",
+        "start": "0800",
+        "end": "1630",
+        "land": "1630",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "BRYANT",
+            "first": "",
+            "full": "BRYANT"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SKED WRITER \u00b7 CIV BRYANT \u00b7 0800 \u00b7 1630",
+        "role": "SKED WRITER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SKED REVIEWER",
+        "start": "1200",
+        "end": "1700",
+        "land": "1700",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "YOUNG",
+            "first": "",
+            "full": "YOUNG"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SKED REVIEWER \u00b7 LT YOUNG \u00b7 1200 \u00b7 1700",
+        "role": "SKED REVIEWER",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER (ON CALL)",
+        "start": "0000",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PONDER",
+            "first": "",
+            "full": "PONDER"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER (ON CALL) \u00b7 ENS PONDER \u00b7 0000 \u00b7 2359",
+        "role": "DUTY DRIVER (ON CALL)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
       {
         "section": "Flight",
         "code": "BITS",

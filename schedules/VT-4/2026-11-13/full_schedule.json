@@ -828,6 +828,7 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -1694,7 +1695,7 @@
         ],
         "page": 3,
         "line": "",
-        "raw": "1730 MIL \u00b7 1830 \u00b7 1959 \u00b7 Device 2 Seat 1 \u00b7 MERRIMAN, ISAAC# \u00b7 Icban, Karl Academic Events \u00b7 SEN3103",
+        "raw": "1730 \u00b7 1830 \u00b7 1959 \u00b7 Device 2 Seat 1 \u00b7 MERRIMAN, ISAAC# \u00b7 Icban, Karl \u00b7 SEN3103",
         "role": "SEN3103",
         "remarks": "",
         "duration": "",
@@ -1702,118 +1703,127 @@
         "solo": false
       },
       {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1330",
-        "end": "0102",
-        "land": "0102",
-        "brief": "0830",
+        "section": "Ground",
+        "code": "E0102",
+        "start": "0830",
+        "end": "1330",
+        "land": "1330",
+        "brief": "",
         "formation": "",
-        "crew": [],
-        "instructors": [],
+        "crew": [
+          {
+            "last": "CHITTERLING",
+            "first": "CHRISTOPHER",
+            "full": "CHITTERLING, CHRISTOPHER"
+          }
+        ],
+        "instructors": [
+          "CHITTERLING, CHRISTOPHER"
+        ],
         "students": [],
         "page": 3,
         "line": "",
-        "raw": "0830 \u00b7 1330 \u00b7 E0102 \u00b7 IEC \u00b7 2 CHITTERLING, \u00b7 CHRISTOPHER 26-43E",
-        "role": "Simulator",
-        "remarks": "",
+        "raw": "0830 \u00b7 1330 \u00b7 E0102 \u00b7 IEC 2 \u00b7 CHITTERLING, CHRISTOPHER \u00b7 26-43E",
+        "role": "E0102",
+        "remarks": "26-43E",
         "duration": "",
-        "device": "IEC",
+        "device": "",
         "solo": false
       },
       {
-        "section": "Simulator",
-        "code": "Cooper#",
-        "start": "1430",
-        "end": "1101",
-        "land": "1101",
-        "brief": "1030",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1030 SS \u00b7 1430 \u00b7 OPS1101 \u00b7 IEC \u00b7 1 PAULUS, \u00b7 CHAD Gowan, \u00b7 Cooper#",
-        "role": "Cooper#",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1400",
-        "end": "1303",
-        "land": "1303",
-        "brief": "1000",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1000 \u00b7 1400 \u00b7 P1303 \u00b7 STRAND \u00b7 2 \u00b7 26-37M",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "STRAND",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Cooper#",
-        "start": "1700",
-        "end": "1102",
-        "land": "1102",
-        "brief": "1430",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1430 Test \u00b7 1700 \u00b7 OPS1102 \u00b7 IEC \u00b7 1 \u00b7 Gowan, \u00b7 Cooper#",
-        "role": "Cooper#",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Cooper# COMMANDING",
-        "start": "1000",
-        "end": "0115",
-        "land": "0115",
-        "brief": "0830",
+        "section": "Ground",
+        "code": "OPS1101",
+        "start": "1030",
+        "end": "1430",
+        "land": "1430",
+        "brief": "",
         "formation": "",
         "crew": [
           {
             "last": "PAULUS",
-            "first": "OPERATIONS",
-            "full": "PAULUS, OPERATIONS"
-          },
-          {
-            "last": "CHAD GOWAN",
-            "first": "REVIEWED",
-            "full": "CHAD GOWAN, REVIEWED"
+            "first": "CHAD",
+            "full": "PAULUS, CHAD"
           }
         ],
         "instructors": [
-          "PAULUS, OPERATIONS"
+          "PAULUS, CHAD"
         ],
-        "students": [
-          "CHAD GOWAN, REVIEWED"
-        ],
+        "students": [],
         "page": 3,
         "line": "",
-        "raw": "0830 \u00b7 1000 SCHEDULES \u00b7 OPS0115 SUBMITTED \u00b7 IEC BY: OFFICER \u00b7 1 PAULUS, OPERATIONS \u00b7 CHAD Gowan, REVIEWED BY: OFFICER \u00b7 Cooper# COMMANDING \u00b7 APPROVED BY: OFFICER",
-        "role": "Cooper# COMMANDING",
-        "remarks": "APPROVED BY: OFFICER",
+        "raw": "1030 \u00b7 1430 \u00b7 OPS1101 \u00b7 IEC 1 \u00b7 PAULUS, CHAD \u00b7 Gowan, Cooper#",
+        "role": "OPS1101",
+        "remarks": "Gowan, Cooper#",
         "duration": "",
-        "device": "IEC BY: OFFICER",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "P1303",
+        "start": "1000",
+        "end": "1400",
+        "land": "1400",
+        "brief": "",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1000 \u00b7 1400 \u00b7 P1303 \u00b7 STRAND 2 \u00b7 26-37M",
+        "role": "P1303",
+        "remarks": "26-37M",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OPS1102",
+        "start": "1430",
+        "end": "1700",
+        "land": "1700",
+        "brief": "",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1430 \u00b7 1700 \u00b7 OPS1102 \u00b7 IEC 1 \u00b7 Gowan, Cooper#",
+        "role": "OPS1102",
+        "remarks": "Gowan, Cooper#",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OPS0115",
+        "start": "0830",
+        "end": "1000",
+        "land": "1000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PAULUS",
+            "first": "CHAD",
+            "full": "PAULUS, CHAD"
+          }
+        ],
+        "instructors": [
+          "PAULUS, CHAD"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0830 \u00b7 1000 \u00b7 OPS0115 \u00b7 IEC 1 \u00b7 PAULUS, CHAD \u00b7 Gowan, Cooper#",
+        "role": "OPS0115",
+        "remarks": "Gowan, Cooper#",
+        "duration": "",
+        "device": "",
         "solo": false
       }
     ]

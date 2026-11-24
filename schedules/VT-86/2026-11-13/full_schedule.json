@@ -928,6 +928,7 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -3407,7 +3408,7 @@
       },
       {
         "section": "Ground",
-        "code": "AWI1501 SUBMITTED BY:",
+        "code": "AWI1501",
         "start": "1330",
         "end": "1530",
         "land": "1530",
@@ -3418,15 +3419,22 @@
             "last": "PIFER G",
             "first": "TIMBANG",
             "full": "PIFER G, TIMBANG"
+          },
+          {
+            "last": "MARTENS",
+            "first": "N",
+            "full": "MARTENS, N"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "MARTENS, N"
+        ],
         "students": [],
         "page": 4,
         "line": "",
-        "raw": "1330-1530 \u00b7 AWI1501 SUBMITTED BY: \u00b7 Room 203 \u00b7 Pifer G, Timbang A REVIEWED BY: \u00b7 MARTENS N APPROVED \u00b7 Self Escort Strike Route BY:",
-        "role": "AWI1501 SUBMITTED BY:",
-        "remarks": "Self Escort Strike Route BY:",
+        "raw": "1330-1530 \u00b7 AWI1501 \u00b7 Room 203 \u00b7 Pifer G, Timbang A \u00b7 MARTENS N \u00b7 Self Escort Strike Route",
+        "role": "AWI1501",
+        "remarks": "Self Escort Strike Route",
         "duration": "",
         "device": "",
         "solo": false

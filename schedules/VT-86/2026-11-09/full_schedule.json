@@ -963,6 +963,7 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -3392,7 +3393,7 @@
       },
       {
         "section": "Ground",
-        "code": "OPS0107/ OPS0124 SUBMITTED BY:",
+        "code": "OPS0107/ OPS0124",
         "start": "1000",
         "end": "1130",
         "land": "1130",
@@ -3418,15 +3419,22 @@
             "last": "J",
             "first": "MOORE",
             "full": "J, MOORE"
+          },
+          {
+            "last": "LAUFFER",
+            "first": "B",
+            "full": "LAUFFER, B"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "LAUFFER, B"
+        ],
         "students": [],
         "page": 4,
         "line": "",
-        "raw": "1000-1130 \u00b7 OPS0107/ OPS0124 SUBMITTED BY: \u00b7 Room 204 \u00b7 CRONIN D, Arroyo J, Cummins N Deveraturda A, Laya J, Moore B REVIEWED BY: \u00b7 LAUFFER B APPROVED \u00b7 Land ISR Operations Exam BY:",
-        "role": "OPS0107/ OPS0124 SUBMITTED BY:",
-        "remarks": "Land ISR Operations Exam BY:",
+        "raw": "1000-1130 \u00b7 OPS0107/ OPS0124 \u00b7 Room 204 \u00b7 CRONIN D, Arroyo J, Cummins N Deveraturda A, Laya J, Moore B \u00b7 LAUFFER B \u00b7 Land ISR Operations Exam",
+        "role": "OPS0107/ OPS0124",
+        "remarks": "Land ISR Operations Exam",
         "duration": "",
         "device": "",
         "solo": false

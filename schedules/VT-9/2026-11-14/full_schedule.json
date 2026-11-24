@@ -408,10 +408,63 @@
   ],
   "assignments": {
     "version": 1,
-    "complete": false,
+    "parser_revision": 2,
+    "complete": true,
     "unreadable": false,
     "uncertain": "",
     "events": [
+      {
+        "section": "Duty",
+        "code": "WODO (ON CALL)",
+        "start": "0000",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GARRISON",
+            "first": "",
+            "full": "GARRISON"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "WODO (ON CALL) \u00b7 LT GARRISON \u00b7 0000 \u00b7 2359",
+        "role": "WODO (ON CALL)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER (ON CALL)",
+        "start": "0000",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "TAFOYA",
+            "first": "",
+            "full": "TAFOYA"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER (ON CALL) \u00b7 1stLt TAFOYA \u00b7 0000 \u00b7 2359",
+        "role": "DUTY DRIVER (ON CALL)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
       {
         "section": "Flight",
         "code": "FTX LEAD",

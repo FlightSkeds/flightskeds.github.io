@@ -908,6 +908,7 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -3313,7 +3314,7 @@
       },
       {
         "section": "Ground",
-        "code": "OPS0207 SUBMITTED BY:",
+        "code": "OPS0207",
         "start": "1500",
         "end": "1730",
         "land": "1730",
@@ -3324,15 +3325,22 @@
             "last": "CHESTNUT G",
             "first": "CRONIN",
             "full": "CHESTNUT G, CRONIN"
+          },
+          {
+            "last": "MERRELL",
+            "first": "J",
+            "full": "MERRELL, J"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "MERRELL, J"
+        ],
         "students": [],
         "page": 4,
         "line": "",
-        "raw": "1500-1730 \u00b7 OPS0207 SUBMITTED BY: \u00b7 Room 204 \u00b7 CHESTNUT G, CRONIN D REVIEWED BY: \u00b7 MERRELL J APPROVED \u00b7 Maritime ISR Operations Exam BY:",
-        "role": "OPS0207 SUBMITTED BY:",
-        "remarks": "Maritime ISR Operations Exam BY:",
+        "raw": "1500-1730 \u00b7 OPS0207 \u00b7 Room 204 \u00b7 CHESTNUT G, CRONIN D \u00b7 MERRELL J \u00b7 Maritime ISR Operations Exam",
+        "role": "OPS0207",
+        "remarks": "Maritime ISR Operations Exam",
         "duration": "",
         "device": "",
         "solo": false

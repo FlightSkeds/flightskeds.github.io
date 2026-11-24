@@ -287,6 +287,7 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -416,7 +417,7 @@
       },
       {
         "section": "Ground",
-        "code": "OPS0216 SUBMITTED BY:",
+        "code": "OPS0216",
         "start": "1100",
         "end": "1200",
         "land": "1200",
@@ -448,9 +449,9 @@
         "students": [],
         "page": 2,
         "line": "",
-        "raw": "1100-1200 \u00b7 OPS0216 SUBMITTED BY: \u00b7 Arroyo J, Cummins N, Deveraturda A, Laya J, Moore B REVIEWED BY: \u00b7 APPROVED \u00b7 Littoral Surveillance Overview BY:",
-        "role": "OPS0216 SUBMITTED BY:",
-        "remarks": "Littoral Surveillance Overview BY:",
+        "raw": "1100-1200 \u00b7 OPS0216 \u00b7 Arroyo J, Cummins N, Deveraturda A, Laya J, Moore B \u00b7 Littoral Surveillance Overview",
+        "role": "OPS0216",
+        "remarks": "Littoral Surveillance Overview",
         "duration": "",
         "device": "",
         "solo": false

@@ -958,6 +958,7 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -2046,7 +2047,7 @@
         ],
         "page": 3,
         "line": "",
-        "raw": "2000 \u00b7 2129 \u00b7 Device 2 Seat 2 \u00b7 MERRIMAN, ISAAC# \u00b7 Huber, Eva Academic Events \u00b7 OPS2101 \u00b7 PACOM",
+        "raw": "2000 \u00b7 2129 \u00b7 Device 2 Seat 2 \u00b7 MERRIMAN, ISAAC# \u00b7 Huber, Eva \u00b7 OPS2101 \u00b7 PACOM",
         "role": "OPS2101",
         "remarks": "PACOM",
         "duration": "",
@@ -2054,11 +2055,11 @@
         "solo": false
       },
       {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1100",
-        "end": "0301",
-        "land": "0301",
+        "section": "Ground",
+        "code": "P0301",
+        "start": "1000",
+        "end": "1100",
+        "land": "1100",
         "brief": "",
         "formation": "",
         "crew": [],
@@ -2066,19 +2067,19 @@
         "students": [],
         "page": 3,
         "line": "",
-        "raw": "1100 \u00b7 P0301 \u00b7 IEC \u00b7 1 \u00b7 26-37M",
-        "role": "Simulator",
-        "remarks": "",
+        "raw": "1000 \u00b7 1100 \u00b7 P0301 \u00b7 IEC 1 \u00b7 26-37M",
+        "role": "P0301",
+        "remarks": "26-37M",
         "duration": "",
-        "device": "IEC",
+        "device": "",
         "solo": false
       },
       {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1200",
-        "end": "0302",
-        "land": "0302",
+        "section": "Ground",
+        "code": "P0302",
+        "start": "0900",
+        "end": "1200",
+        "land": "1200",
         "brief": "",
         "formation": "",
         "crew": [
@@ -2094,183 +2095,207 @@
         "students": [],
         "page": 3,
         "line": "",
-        "raw": "1200 \u00b7 P0302 \u00b7 IEC \u00b7 1 WIMER, JONATHAN \u00b7 26-37M",
-        "role": "Simulator",
-        "remarks": "",
+        "raw": "0900 \u00b7 1200 \u00b7 P0302 \u00b7 IEC 1 \u00b7 WIMER, JONATHAN \u00b7 26-37M",
+        "role": "P0302",
+        "remarks": "26-37M",
         "duration": "",
-        "device": "IEC",
+        "device": "",
         "solo": false
       },
       {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1100",
-        "end": "1106",
-        "land": "1106",
-        "brief": "",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1100 \u00b7 NAV1106 \u00b7 IEC \u00b7 3 STAFFORD, \u00b7 DUSTIN 27-07",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1200",
-        "end": "1108",
-        "land": "1108",
-        "brief": "",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1200 \u00b7 NAV1108 \u00b7 IEC \u00b7 3 STAFFORD, \u00b7 DUSTIN 27-07",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1300",
-        "end": "0303",
-        "land": "0303",
-        "brief": "",
-        "formation": "",
-        "crew": [
-          {
-            "last": "WIMER",
-            "first": "JONATHAN",
-            "full": "WIMER, JONATHAN"
-          }
-        ],
-        "instructors": [
-          "WIMER, JONATHAN"
-        ],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1300 \u00b7 P0303 \u00b7 IEC \u00b7 1 WIMER, JONATHAN \u00b7 26-37M",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1530",
-        "end": "1201",
-        "land": "1201",
-        "brief": "",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1530 \u00b7 NAV1201 \u00b7 IEC \u00b7 3 STAFFORD, \u00b7 DUSTIN 27-07",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1600",
-        "end": "0304",
-        "land": "0304",
-        "brief": "",
-        "formation": "",
-        "crew": [
-          {
-            "last": "WIMER",
-            "first": "JONATHAN",
-            "full": "WIMER, JONATHAN"
-          }
-        ],
-        "instructors": [
-          "WIMER, JONATHAN"
-        ],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1600 \u00b7 P0304 \u00b7 IEC \u00b7 1 WIMER, JONATHAN \u00b7 26-37M",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1900",
-        "end": "0305",
-        "land": "0305",
-        "brief": "",
-        "formation": "",
-        "crew": [
-          {
-            "last": "WIMER",
-            "first": "JONATHAN",
-            "full": "WIMER, JONATHAN"
-          }
-        ],
-        "instructors": [
-          "WIMER, JONATHAN"
-        ],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1900 \u00b7 P0305 \u00b7 IEC \u00b7 1 WIMER, JONATHAN \u00b7 26-37M",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "COMMANDING",
-        "start": "1130",
-        "end": "1107",
-        "land": "1107",
+        "section": "Ground",
+        "code": "NAV1106",
+        "start": "1000",
+        "end": "1100",
+        "land": "1100",
         "brief": "",
         "formation": "",
         "crew": [
           {
             "last": "STAFFORD",
-            "first": "OPERATIONS",
-            "full": "STAFFORD, OPERATIONS"
+            "first": "DUSTIN",
+            "full": "STAFFORD, DUSTIN"
           }
         ],
         "instructors": [
-          "STAFFORD, OPERATIONS"
+          "STAFFORD, DUSTIN"
         ],
         "students": [],
         "page": 3,
         "line": "",
-        "raw": "1130 SCHEDULES \u00b7 NAV1107 SUBMITTED \u00b7 IEC BY: OFFICER \u00b7 3 STAFFORD, OPERATIONS \u00b7 DUSTIN 27-07 REVIEWED BY: OFFICER \u00b7 COMMANDING \u00b7 APPROVED BY: OFFICER",
-        "role": "COMMANDING",
-        "remarks": "APPROVED BY: OFFICER",
+        "raw": "1000 \u00b7 1100 \u00b7 NAV1106 \u00b7 IEC 3 \u00b7 STAFFORD, DUSTIN \u00b7 27-07",
+        "role": "NAV1106",
+        "remarks": "27-07",
         "duration": "",
-        "device": "IEC BY: OFFICER",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV1108",
+        "start": "1130",
+        "end": "1200",
+        "land": "1200",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STAFFORD",
+            "first": "DUSTIN",
+            "full": "STAFFORD, DUSTIN"
+          }
+        ],
+        "instructors": [
+          "STAFFORD, DUSTIN"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1130 \u00b7 1200 \u00b7 NAV1108 \u00b7 IEC 3 \u00b7 STAFFORD, DUSTIN \u00b7 27-07",
+        "role": "NAV1108",
+        "remarks": "27-07",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "P0303",
+        "start": "1200",
+        "end": "1300",
+        "land": "1300",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WIMER",
+            "first": "JONATHAN",
+            "full": "WIMER, JONATHAN"
+          }
+        ],
+        "instructors": [
+          "WIMER, JONATHAN"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1200 \u00b7 1300 \u00b7 P0303 \u00b7 IEC 1 \u00b7 WIMER, JONATHAN \u00b7 26-37M",
+        "role": "P0303",
+        "remarks": "26-37M",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV1201",
+        "start": "1200",
+        "end": "1530",
+        "land": "1530",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STAFFORD",
+            "first": "DUSTIN",
+            "full": "STAFFORD, DUSTIN"
+          }
+        ],
+        "instructors": [
+          "STAFFORD, DUSTIN"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1200 \u00b7 1530 \u00b7 NAV1201 \u00b7 IEC 3 \u00b7 STAFFORD, DUSTIN \u00b7 27-07",
+        "role": "NAV1201",
+        "remarks": "27-07",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "P0304",
+        "start": "1500",
+        "end": "1600",
+        "land": "1600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WIMER",
+            "first": "JONATHAN",
+            "full": "WIMER, JONATHAN"
+          }
+        ],
+        "instructors": [
+          "WIMER, JONATHAN"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1500 \u00b7 1600 \u00b7 P0304 \u00b7 IEC 1 \u00b7 WIMER, JONATHAN \u00b7 26-37M",
+        "role": "P0304",
+        "remarks": "26-37M",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "P0305",
+        "start": "1600",
+        "end": "1900",
+        "land": "1900",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WIMER",
+            "first": "JONATHAN",
+            "full": "WIMER, JONATHAN"
+          }
+        ],
+        "instructors": [
+          "WIMER, JONATHAN"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1600 \u00b7 1900 \u00b7 P0305 \u00b7 IEC 1 \u00b7 WIMER, JONATHAN \u00b7 26-37M",
+        "role": "P0305",
+        "remarks": "26-37M",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV1107",
+        "start": "1100",
+        "end": "1130",
+        "land": "1130",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STAFFORD",
+            "first": "DUSTIN",
+            "full": "STAFFORD, DUSTIN"
+          }
+        ],
+        "instructors": [
+          "STAFFORD, DUSTIN"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1100 \u00b7 1130 \u00b7 NAV1107 \u00b7 IEC 3 \u00b7 STAFFORD, DUSTIN \u00b7 27-07",
+        "role": "NAV1107",
+        "remarks": "27-07",
+        "duration": "",
+        "device": "",
         "solo": false
       }
     ]

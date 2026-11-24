@@ -752,6 +752,7 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -1576,280 +1577,60 @@
         "solo": false
       },
       {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1030",
-        "end": "1101",
-        "land": "1101",
-        "brief": "0930",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "0930 MIL \u00b7 1030 \u00b7 NAV1101 \u00b7 IEC \u00b7 3 \u00b7 27-05",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1200",
-        "end": "0113",
-        "land": "0113",
-        "brief": "0800",
-        "formation": "",
-        "crew": [
-          {
-            "last": "NOBLE",
-            "first": "TIMOTHY",
-            "full": "NOBLE, TIMOTHY"
-          }
-        ],
-        "instructors": [
-          "NOBLE, TIMOTHY"
-        ],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "0800 \u00b7 1200 \u00b7 OPS0113 \u00b7 IEC \u00b7 2 NOBLE, TIMOTHY \u00b7 26-45",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1130",
-        "end": "1102",
-        "land": "1102",
-        "brief": "1030",
-        "formation": "",
-        "crew": [
-          {
-            "last": "KUBA",
-            "first": "CHARLES",
-            "full": "KUBA, CHARLES"
-          }
-        ],
-        "instructors": [
-          "KUBA, CHARLES"
-        ],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1030 \u00b7 1130 \u00b7 NAV1102 \u00b7 IEC \u00b7 3 KUBA, CHARLES \u00b7 27-05",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1230",
-        "end": "1103",
-        "land": "1103",
-        "brief": "1130",
-        "formation": "",
-        "crew": [
-          {
-            "last": "KUBA",
-            "first": "CHARLES",
-            "full": "KUBA, CHARLES"
-          }
-        ],
-        "instructors": [
-          "KUBA, CHARLES"
-        ],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1130 \u00b7 1230 \u00b7 NAV1103 \u00b7 IEC \u00b7 3 KUBA, CHARLES \u00b7 27-05",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1330",
-        "end": "0205",
-        "land": "0205",
-        "brief": "1130",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1130 \u00b7 1330 \u00b7 P0205 \u00b7 IEC \u00b7 3 CARANDANG, \u00b7 KEN 26-37M",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1430",
-        "end": "0114",
-        "land": "0114",
-        "brief": "1230",
-        "formation": "",
-        "crew": [
-          {
-            "last": "NOBLE",
-            "first": "TIMOTHY",
-            "full": "NOBLE, TIMOTHY"
-          }
-        ],
-        "instructors": [
-          "NOBLE, TIMOTHY"
-        ],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1230 \u00b7 1430 \u00b7 OPS0114 \u00b7 IEC \u00b7 2 NOBLE, TIMOTHY \u00b7 26-45",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1500",
-        "end": "1104",
-        "land": "1104",
-        "brief": "1230",
-        "formation": "",
-        "crew": [
-          {
-            "last": "KUBA",
-            "first": "CHARLES",
-            "full": "KUBA, CHARLES"
-          }
-        ],
-        "instructors": [
-          "KUBA, CHARLES"
-        ],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1230 \u00b7 1500 \u00b7 NAV1104 \u00b7 IEC \u00b7 3 KUBA, CHARLES \u00b7 27-05",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1630",
-        "end": "0206",
-        "land": "0206",
-        "brief": "1330",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1330 \u00b7 1630 \u00b7 P0206 \u00b7 IEC \u00b7 1 CARANDANG, \u00b7 KEN 26-37M",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1600",
-        "end": "1105",
-        "land": "1105",
-        "brief": "1500",
-        "formation": "",
-        "crew": [
-          {
-            "last": "KUBA",
-            "first": "CHARLES",
-            "full": "KUBA, CHARLES"
-          }
-        ],
-        "instructors": [
-          "KUBA, CHARLES"
-        ],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1500 \u00b7 1600 \u00b7 NAV1105 \u00b7 IEC \u00b7 3 KUBA, CHARLES \u00b7 27-05",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1930",
-        "end": "0207",
-        "land": "0207",
-        "brief": "1630",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1630 SS \u00b7 1930 \u00b7 P0207 \u00b7 IEC \u00b7 1 CARANDANG, \u00b7 KEN 26-37M",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1230",
-        "end": "1204",
-        "land": "1204",
-        "brief": "0930",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "0930 Test \u00b7 1230 \u00b7 E1204 \u00b7 STRAND \u00b7 2 \u00b7 26-37E",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "STRAND",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "COMMANDING",
+        "section": "Ground",
+        "code": "NAV1101",
         "start": "0930",
-        "end": "0207",
-        "land": "0207",
-        "brief": "0800",
+        "end": "1030",
+        "land": "1030",
+        "brief": "",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0930 \u00b7 1030 \u00b7 NAV1101 \u00b7 IEC 3 \u00b7 27-05",
+        "role": "NAV1101",
+        "remarks": "27-05",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OPS0113",
+        "start": "0800",
+        "end": "1200",
+        "land": "1200",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NOBLE",
+            "first": "TIMOTHY",
+            "full": "NOBLE, TIMOTHY"
+          }
+        ],
+        "instructors": [
+          "NOBLE, TIMOTHY"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0800 \u00b7 1200 \u00b7 OPS0113 \u00b7 IEC 2 \u00b7 NOBLE, TIMOTHY \u00b7 26-45",
+        "role": "OPS0113",
+        "remarks": "26-45",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV1102",
+        "start": "1030",
+        "end": "1130",
+        "land": "1130",
+        "brief": "",
         "formation": "",
         "crew": [
           {
@@ -1864,11 +1645,255 @@
         "students": [],
         "page": 3,
         "line": "",
-        "raw": "0800 \u00b7 0930 SCHEDULES \u00b7 NAV0207 SUBMITTED \u00b7 IEC BY: OFFICER \u00b7 3 KUBA, CHARLES OPERATIONS \u00b7 27-05 REVIEWED BY: OFFICER \u00b7 COMMANDING \u00b7 APPROVED BY: OFFICER",
-        "role": "COMMANDING",
-        "remarks": "APPROVED BY: OFFICER",
+        "raw": "1030 \u00b7 1130 \u00b7 NAV1102 \u00b7 IEC 3 \u00b7 KUBA, CHARLES \u00b7 27-05",
+        "role": "NAV1102",
+        "remarks": "27-05",
         "duration": "",
-        "device": "IEC BY: OFFICER",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV1103",
+        "start": "1130",
+        "end": "1230",
+        "land": "1230",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KUBA",
+            "first": "CHARLES",
+            "full": "KUBA, CHARLES"
+          }
+        ],
+        "instructors": [
+          "KUBA, CHARLES"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1130 \u00b7 1230 \u00b7 NAV1103 \u00b7 IEC 3 \u00b7 KUBA, CHARLES \u00b7 27-05",
+        "role": "NAV1103",
+        "remarks": "27-05",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "P0205",
+        "start": "1130",
+        "end": "1330",
+        "land": "1330",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CARANDANG",
+            "first": "KEN",
+            "full": "CARANDANG, KEN"
+          }
+        ],
+        "instructors": [
+          "CARANDANG, KEN"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1130 \u00b7 1330 \u00b7 P0205 \u00b7 IEC 3 \u00b7 CARANDANG, KEN \u00b7 26-37M",
+        "role": "P0205",
+        "remarks": "26-37M",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OPS0114",
+        "start": "1230",
+        "end": "1430",
+        "land": "1430",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "NOBLE",
+            "first": "TIMOTHY",
+            "full": "NOBLE, TIMOTHY"
+          }
+        ],
+        "instructors": [
+          "NOBLE, TIMOTHY"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1230 \u00b7 1430 \u00b7 OPS0114 \u00b7 IEC 2 \u00b7 NOBLE, TIMOTHY \u00b7 26-45",
+        "role": "OPS0114",
+        "remarks": "26-45",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV1104",
+        "start": "1230",
+        "end": "1500",
+        "land": "1500",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KUBA",
+            "first": "CHARLES",
+            "full": "KUBA, CHARLES"
+          }
+        ],
+        "instructors": [
+          "KUBA, CHARLES"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1230 \u00b7 1500 \u00b7 NAV1104 \u00b7 IEC 3 \u00b7 KUBA, CHARLES \u00b7 27-05",
+        "role": "NAV1104",
+        "remarks": "27-05",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "P0206",
+        "start": "1330",
+        "end": "1630",
+        "land": "1630",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CARANDANG",
+            "first": "KEN",
+            "full": "CARANDANG, KEN"
+          }
+        ],
+        "instructors": [
+          "CARANDANG, KEN"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1330 \u00b7 1630 \u00b7 P0206 \u00b7 IEC 1 \u00b7 CARANDANG, KEN \u00b7 26-37M",
+        "role": "P0206",
+        "remarks": "26-37M",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV1105",
+        "start": "1500",
+        "end": "1600",
+        "land": "1600",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KUBA",
+            "first": "CHARLES",
+            "full": "KUBA, CHARLES"
+          }
+        ],
+        "instructors": [
+          "KUBA, CHARLES"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1500 \u00b7 1600 \u00b7 NAV1105 \u00b7 IEC 3 \u00b7 KUBA, CHARLES \u00b7 27-05",
+        "role": "NAV1105",
+        "remarks": "27-05",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "P0207",
+        "start": "1630",
+        "end": "1930",
+        "land": "1930",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "CARANDANG",
+            "first": "KEN",
+            "full": "CARANDANG, KEN"
+          }
+        ],
+        "instructors": [
+          "CARANDANG, KEN"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1630 \u00b7 1930 \u00b7 P0207 \u00b7 IEC 1 \u00b7 CARANDANG, KEN \u00b7 26-37M",
+        "role": "P0207",
+        "remarks": "26-37M",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "E1204",
+        "start": "0930",
+        "end": "1230",
+        "land": "1230",
+        "brief": "",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0930 \u00b7 1230 \u00b7 E1204 \u00b7 STRAND 2 \u00b7 26-37E",
+        "role": "E1204",
+        "remarks": "26-37E",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV0207",
+        "start": "0800",
+        "end": "0930",
+        "land": "0930",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KUBA",
+            "first": "CHARLES",
+            "full": "KUBA, CHARLES"
+          }
+        ],
+        "instructors": [
+          "KUBA, CHARLES"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0800 \u00b7 0930 \u00b7 NAV0207 \u00b7 IEC 3 \u00b7 KUBA, CHARLES \u00b7 27-05",
+        "role": "NAV0207",
+        "remarks": "27-05",
+        "duration": "",
+        "device": "",
         "solo": false
       }
     ]

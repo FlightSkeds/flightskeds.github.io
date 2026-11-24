@@ -1286,934 +1286,11 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
-    "uncertain": "  9526 Avenue D, Suite 347, Corpus Christi TX 78419    9526 Avenue D, Suite 347, Corpus Christi TX 78419     9526 Avenue D, Suite 347, Corpus Christi TX 78419     9526 Avenue D, Suite 347, Corpus Christi TX 78419  ",
+    "uncertain": " 9526 Avenue D, Suite 347, Corpus Christi TX 78419     9526 Avenue D, Suite 347, Corpus Christi TX 78419     9526 Avenue D, Suite 347, Corpus Christi TX 78419  ",
     "events": [
-      {
-        "section": "Flight",
-        "code": "CAP4390",
-        "start": "0800",
-        "end": "1000",
-        "land": "1000",
-        "brief": "0600",
-        "formation": "",
-        "crew": [
-          {
-            "last": "DEBERRY",
-            "first": "E",
-            "full": "DEBERRY, E"
-          },
-          {
-            "last": "S L TJG GERMOND",
-            "first": "J",
-            "full": "S L TJG GERMOND, J"
-          }
-        ],
-        "instructors": [
-          "DEBERRY, E"
-        ],
-        "students": [
-          "S L TJG GERMOND, J"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0600 / 0800 / 1000 \u00b7 LtCol DeBerry E# \u00b7 LTJG Borden S# L TJG Germond J# \u00b7 CAP4390 \u00b7 2.0 \u00b7 O/I LEG 1 OF 2",
-        "role": "CAP4390",
-        "remarks": "O/I LEG 1 OF 2",
-        "duration": "2.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "CAP4101",
-        "start": "0930",
-        "end": "1230",
-        "land": "1230",
-        "brief": "0730",
-        "formation": "",
-        "crew": [
-          {
-            "last": "O'CONNELL",
-            "first": "M",
-            "full": "O'CONNELL, M"
-          },
-          {
-            "last": "BERNETT",
-            "first": "B",
-            "full": "BERNETT, B"
-          }
-        ],
-        "instructors": [
-          "O'CONNELL, M"
-        ],
-        "students": [
-          "BERNETT, B"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0730 / 0930 / 1230 \u00b7 CDR O'CONNELL M# \u00b7 LTJG Bernett B# \u00b7 CAP4101 \u00b7 3.0 \u00b7 CCX LEG 1 OF 2; KNGP-KCEW",
-        "role": "CAP4101",
-        "remarks": "CCX LEG 1 OF 2; KNGP-KCEW",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "CAP4103",
-        "start": "1000",
-        "end": "1300",
-        "land": "1300",
-        "brief": "0800",
-        "formation": "",
-        "crew": [
-          {
-            "last": "LUND",
-            "first": "H",
-            "full": "LUND, H"
-          },
-          {
-            "last": "VOELKEL",
-            "first": "K",
-            "full": "VOELKEL, K"
-          }
-        ],
-        "instructors": [
-          "LUND, H"
-        ],
-        "students": [
-          "VOELKEL, K"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0800 / 1000 / 1300 \u00b7 LT Lund H# \u00b7 1stLt Voelkel K# \u00b7 CAP4103 \u00b7 3.0 \u00b7 CCX O/I LEG 1 OF 2",
-        "role": "CAP4103",
-        "remarks": "CCX O/I LEG 1 OF 2",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "EP4104",
-        "start": "1000",
-        "end": "1200",
-        "land": "1200",
-        "brief": "0800",
-        "formation": "",
-        "crew": [
-          {
-            "last": "HOLTER",
-            "first": "S",
-            "full": "HOLTER, S"
-          },
-          {
-            "last": "STREETER",
-            "first": "H",
-            "full": "STREETER, H"
-          }
-        ],
-        "instructors": [
-          "HOLTER, S"
-        ],
-        "students": [
-          "STREETER, H"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0800 / 1000 / 1200 \u00b7 Maj Holter S# \u00b7 LTJG Streeter H# \u00b7 EP4104 \u00b7 2.0 \u00b7 O/I LEG 1 OF 2",
-        "role": "EP4104",
-        "remarks": "O/I LEG 1 OF 2",
-        "duration": "2.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "CAP4203",
-        "start": "1100",
-        "end": "1300",
-        "land": "1300",
-        "brief": "0845",
-        "formation": "",
-        "crew": [
-          {
-            "last": "DEBERRY",
-            "first": "E",
-            "full": "DEBERRY, E"
-          },
-          {
-            "last": "J L TJG BORDEN",
-            "first": "S",
-            "full": "J L TJG BORDEN, S"
-          }
-        ],
-        "instructors": [
-          "DEBERRY, E"
-        ],
-        "students": [
-          "J L TJG BORDEN, S"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0845 / 1100 / 1300 \u00b7 LtCol DeBerry E# \u00b7 LTJG Germond J# L TJG Borden S# \u00b7 CAP4203 \u00b7 2.0 \u00b7 O/I LEG 2 OF 2; PREPO KCRP",
-        "role": "CAP4203",
-        "remarks": "O/I LEG 2 OF 2; PREPO KCRP",
-        "duration": "2.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "EP4104",
-        "start": "1100",
-        "end": "1300",
-        "land": "1300",
-        "brief": "0900",
-        "formation": "",
-        "crew": [
-          {
-            "last": "CZEPINSKI",
-            "first": "B",
-            "full": "CZEPINSKI, B"
-          },
-          {
-            "last": "PACHECO",
-            "first": "P",
-            "full": "PACHECO, P"
-          }
-        ],
-        "instructors": [
-          "CZEPINSKI, B"
-        ],
-        "students": [
-          "PACHECO, P"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0900 / 1100 / 1300 \u00b7 LT Czepinski B# \u00b7 LTJG Pacheco P# \u00b7 EP4104 \u00b7 2.0 \u00b7 O/I LEG 1 OF 2",
-        "role": "EP4104",
-        "remarks": "O/I LEG 1 OF 2",
-        "duration": "2.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "EP4105",
-        "start": "1300",
-        "end": "1500",
-        "land": "1500",
-        "brief": "1045",
-        "formation": "",
-        "crew": [
-          {
-            "last": "HOLTER",
-            "first": "S",
-            "full": "HOLTER, S"
-          },
-          {
-            "last": "STREETER",
-            "first": "H",
-            "full": "STREETER, H"
-          }
-        ],
-        "instructors": [
-          "HOLTER, S"
-        ],
-        "students": [
-          "STREETER, H"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1045 / 1300 / 1500 \u00b7 Maj Holter S# \u00b7 LTJG Streeter H# \u00b7 EP4105 \u00b7 2.0 \u00b7 O/I LEG 2 OF 2",
-        "role": "EP4105",
-        "remarks": "O/I LEG 2 OF 2",
-        "duration": "2.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "CAP4102",
-        "start": "1330",
-        "end": "1630",
-        "land": "1630",
-        "brief": "1115",
-        "formation": "",
-        "crew": [
-          {
-            "last": "O'CONNELL",
-            "first": "M",
-            "full": "O'CONNELL, M"
-          },
-          {
-            "last": "BERNETT",
-            "first": "B",
-            "full": "BERNETT, B"
-          }
-        ],
-        "instructors": [
-          "O'CONNELL, M"
-        ],
-        "students": [
-          "BERNETT, B"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1115 / 1330 / 1630 \u00b7 CDR O'CONNELL M# \u00b7 LTJG Bernett B# \u00b7 CAP4102 \u00b7 3.0 \u00b7 CCX LEG 2 OF 2; KCEW-KSGJ",
-        "role": "CAP4102",
-        "remarks": "CCX LEG 2 OF 2; KCEW-KSGJ",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "CAP4104",
-        "start": "1400",
-        "end": "1700",
-        "land": "1700",
-        "brief": "1145",
-        "formation": "",
-        "crew": [
-          {
-            "last": "LUND",
-            "first": "H",
-            "full": "LUND, H"
-          },
-          {
-            "last": "VOELKEL",
-            "first": "K",
-            "full": "VOELKEL, K"
-          }
-        ],
-        "instructors": [
-          "LUND, H"
-        ],
-        "students": [
-          "VOELKEL, K"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1145 / 1400 / 1700 \u00b7 LT Lund H# \u00b7 1stLt Voelkel K# \u00b7 CAP4104 \u00b7 3.0 \u00b7 CCX O/I LEG 2 OF 2",
-        "role": "CAP4104",
-        "remarks": "CCX O/I LEG 2 OF 2",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "EP4105",
-        "start": "1400",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1145",
-        "formation": "",
-        "crew": [
-          {
-            "last": "CZEPINSKI B SATURDAY",
-            "first": "",
-            "full": "CZEPINSKI B SATURDAY"
-          },
-          {
-            "last": "PACHECO P SIMULATOR EVENTS",
-            "first": "",
-            "full": "PACHECO P SIMULATOR EVENTS"
-          }
-        ],
-        "instructors": [
-          "CZEPINSKI B SATURDAY"
-        ],
-        "students": [
-          "PACHECO P SIMULATOR EVENTS"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1145 / 1400 / 1600 \u00b7 LT Czepinski B# SATURDAY \u00b7 LTJG Pacheco P# SIMULATOR EVENTS \u00b7 EP4105 \u00b7 2.0 \u00b7 O/I LEG 2 OF 2",
-        "role": "EP4105",
-        "remarks": "O/I LEG 2 OF 2",
-        "duration": "2.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "EP3202",
-        "start": "0700",
-        "end": "1000",
-        "land": "1000",
-        "brief": "0600",
-        "formation": "",
-        "crew": [
-          {
-            "last": "CORNWELL",
-            "first": "N",
-            "full": "CORNWELL, N"
-          },
-          {
-            "last": "WILLIS",
-            "first": "S",
-            "full": "WILLIS, S"
-          }
-        ],
-        "instructors": [
-          "CORNWELL, N"
-        ],
-        "students": [
-          "WILLIS, S"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0600 / 0700 / 1000 \u00b7 CTR Cornwell N# \u00b7 LTJG Willis S \u00b7 EP3202 \u00b7 3.0",
-        "role": "EP3202",
-        "remarks": "",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "EP3102",
-        "start": "0700",
-        "end": "1000",
-        "land": "1000",
-        "brief": "0600",
-        "formation": "",
-        "crew": [
-          {
-            "last": "CORNWELL",
-            "first": "N",
-            "full": "CORNWELL, N"
-          },
-          {
-            "last": "STLT SHERWOOD",
-            "first": "L",
-            "full": "STLT SHERWOOD, L"
-          }
-        ],
-        "instructors": [
-          "CORNWELL, N"
-        ],
-        "students": [
-          "STLT SHERWOOD, L"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0600 / 0700 / 1000 \u00b7 CTR Cornwell N# \u00b7 1 stLt Sherwood L \u00b7 E P3102",
-        "role": "EP3102",
-        "remarks": "",
-        "duration": "",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "FAM3205",
-        "start": "0700",
-        "end": "1000",
-        "land": "1000",
-        "brief": "0600",
-        "formation": "",
-        "crew": [
-          {
-            "last": "WALLETT",
-            "first": "M",
-            "full": "WALLETT, M"
-          },
-          {
-            "last": "NACHEMAN",
-            "first": "J",
-            "full": "NACHEMAN, J"
-          }
-        ],
-        "instructors": [
-          "WALLETT, M"
-        ],
-        "students": [
-          "NACHEMAN, J"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0600 / 0700 / 1000 \u00b7 CTR Wallett M \u00b7 LTJG Nacheman J \u00b7 FAM3205 \u00b7 3.0",
-        "role": "FAM3205",
-        "remarks": "",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "FAM3201",
-        "start": "0700",
-        "end": "1000",
-        "land": "1000",
-        "brief": "0600",
-        "formation": "",
-        "crew": [
-          {
-            "last": "WALLETT",
-            "first": "M",
-            "full": "WALLETT, M"
-          },
-          {
-            "last": "STLT LEVESQUE",
-            "first": "D",
-            "full": "STLT LEVESQUE, D"
-          }
-        ],
-        "instructors": [
-          "WALLETT, M"
-        ],
-        "students": [
-          "STLT LEVESQUE, D"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0600 / 0700 / 1000 \u00b7 CTR Wallett M \u00b7 1 stLt Levesque D \u00b7 F AM3201",
-        "role": "FAM3201",
-        "remarks": "",
-        "duration": "",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "EP3203",
-        "start": "1000",
-        "end": "1300",
-        "land": "1300",
-        "brief": "0900",
-        "formation": "",
-        "crew": [
-          {
-            "last": "MINNERS",
-            "first": "J",
-            "full": "MINNERS, J"
-          },
-          {
-            "last": "ORTIZ",
-            "first": "J",
-            "full": "ORTIZ, J"
-          }
-        ],
-        "instructors": [
-          "MINNERS, J"
-        ],
-        "students": [
-          "ORTIZ, J"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0900 / 1000 / 1300 \u00b7 CTR Minners J# \u00b7 1stLt Ortiz J \u00b7 EP3203 \u00b7 3.0",
-        "role": "EP3203",
-        "remarks": "",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "FAM3201",
-        "start": "1000",
-        "end": "1300",
-        "land": "1300",
-        "brief": "0900",
-        "formation": "",
-        "crew": [
-          {
-            "last": "MINNERS",
-            "first": "J",
-            "full": "MINNERS, J"
-          },
-          {
-            "last": "STLT STEGEMAN",
-            "first": "M",
-            "full": "STLT STEGEMAN, M"
-          }
-        ],
-        "instructors": [
-          "MINNERS, J"
-        ],
-        "students": [
-          "STLT STEGEMAN, M"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0900 / 1000 / 1300 \u00b7 CTR Minners J# \u00b7 1 stLt Stegeman M \u00b7 F AM3201",
-        "role": "FAM3201",
-        "remarks": "",
-        "duration": "",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "EP3203 C /P Sim",
-        "start": "1000",
-        "end": "1130",
-        "land": "1130",
-        "brief": "0930",
-        "formation": "",
-        "crew": [
-          {
-            "last": "RICHMOND",
-            "first": "G",
-            "full": "RICHMOND, G"
-          },
-          {
-            "last": "STLT HAN",
-            "first": "A",
-            "full": "STLT HAN, A"
-          }
-        ],
-        "instructors": [
-          "RICHMOND, G"
-        ],
-        "students": [
-          "STLT HAN, A"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0930 / 1000 / 1130 \u00b7 CTR Richmond G \u00b7 1stLt Cordell A 1 stLt Han A \u00b7 EP3203 C /P Sim \u00b7 1.5",
-        "role": "EP3203 C /P Sim",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "EP3202 C /P Sim",
-        "start": "1130",
-        "end": "1300",
-        "land": "1300",
-        "brief": "1100",
-        "formation": "",
-        "crew": [
-          {
-            "last": "AINSWORTH",
-            "first": "D",
-            "full": "AINSWORTH, D"
-          },
-          {
-            "last": "STLT LEE",
-            "first": "E",
-            "full": "STLT LEE, E"
-          }
-        ],
-        "instructors": [
-          "AINSWORTH, D"
-        ],
-        "students": [
-          "STLT LEE, E"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1100 / 1130 / 1300 \u00b7 CTR Ainsworth D \u00b7 1stLt Sayre A 1 stLt Lee E \u00b7 EP3202 C /P Sim \u00b7 1.5",
-        "role": "EP3202 C /P Sim",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "EP2101",
-        "start": "1300",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1200",
-        "formation": "",
-        "crew": [
-          {
-            "last": "CORNWELL",
-            "first": "N",
-            "full": "CORNWELL, N"
-          },
-          {
-            "last": "HEWITT",
-            "first": "M",
-            "full": "HEWITT, M"
-          }
-        ],
-        "instructors": [
-          "CORNWELL, N"
-        ],
-        "students": [
-          "HEWITT, M"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1200 / 1300 / 1600 \u00b7 CTR Cornwell N# \u00b7 LTJG Hewitt M \u00b7 EP2101 \u00b7 3.0",
-        "role": "EP2101",
-        "remarks": "",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "EP2101",
-        "start": "1300",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1200",
-        "formation": "",
-        "crew": [
-          {
-            "last": "CORNWELL",
-            "first": "N",
-            "full": "CORNWELL, N"
-          }
-        ],
-        "instructors": [
-          "CORNWELL, N"
-        ],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1200 / 1300 / 1600 \u00b7 CTR Cornwell N# \u00b7 E NS Dahms L 3 \u00b7 E P2101",
-        "role": "EP2101",
-        "remarks": "",
-        "duration": "",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "EP3202 C /P Sim EVENTS",
-        "start": "1430",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1400",
-        "formation": "",
-        "crew": [
-          {
-            "last": "MINNERS",
-            "first": "J",
-            "full": "MINNERS, J"
-          }
-        ],
-        "instructors": [
-          "MINNERS, J"
-        ],
-        "students": [],
-        "page": 4,
-        "line": "",
-        "raw": "1400 / 1430 / 1600 \u00b7 CTR Minners J# \u00b7 1stLt Mattiace T L TJG Johnson A SUNDAY FLIGHT \u00b7 EP3202 C /P Sim EVENTS \u00b7 1.5",
-        "role": "EP3202 C /P Sim EVENTS",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "CAP4103",
-        "start": "0900",
-        "end": "1200",
-        "land": "1200",
-        "brief": "0645",
-        "formation": "",
-        "crew": [
-          {
-            "last": "ADAMS",
-            "first": "T",
-            "full": "ADAMS, T"
-          },
-          {
-            "last": "BALMAIN",
-            "first": "T",
-            "full": "BALMAIN, T"
-          }
-        ],
-        "instructors": [
-          "ADAMS, T"
-        ],
-        "students": [
-          "BALMAIN, T"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "0645 / 0900 / 1200 \u00b7 Maj Adams T# \u00b7 1stLt Balmain T# \u00b7 CAP4103 \u00b7 3.0 \u00b7 CCX RTN LEG 1 OF 2; KAPA-KLIT",
-        "role": "CAP4103",
-        "remarks": "CCX RTN LEG 1 OF 2; KAPA-KLIT",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "CAP4103",
-        "start": "0900",
-        "end": "1200",
-        "land": "1200",
-        "brief": "0645",
-        "formation": "",
-        "crew": [
-          {
-            "last": "HARTZLER",
-            "first": "L",
-            "full": "HARTZLER, L"
-          },
-          {
-            "last": "DORN",
-            "first": "D",
-            "full": "DORN, D"
-          }
-        ],
-        "instructors": [
-          "HARTZLER, L"
-        ],
-        "students": [
-          "DORN, D"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "0645 / 0900 / 1200 \u00b7 LT Hartzler L# \u00b7 1stLt Dorn D# \u00b7 CAP4103 \u00b7 3.0 \u00b7 CCX RTN LEG 1 OF 2; KPHX- KPUB",
-        "role": "CAP4103",
-        "remarks": "CCX RTN LEG 1 OF 2; KPHX- KPUB",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "EP4105",
-        "start": "0900",
-        "end": "1100",
-        "land": "1100",
-        "brief": "0645",
-        "formation": "",
-        "crew": [
-          {
-            "last": "DEBERRY",
-            "first": "E",
-            "full": "DEBERRY, E"
-          },
-          {
-            "last": "MARTINEZ",
-            "first": "C",
-            "full": "MARTINEZ, C"
-          }
-        ],
-        "instructors": [
-          "DEBERRY, E"
-        ],
-        "students": [
-          "MARTINEZ, C"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "0645 / 0900 / 1100 \u00b7 LtCol DeBerry E# \u00b7 1stLt Martinez C# \u00b7 EP4105 \u00b7 2.0 \u00b7 O/I LEG 1 OF 2",
-        "role": "EP4105",
-        "remarks": "O/I LEG 1 OF 2",
-        "duration": "2.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "EP4201",
-        "start": "1200",
-        "end": "1400",
-        "land": "1400",
-        "brief": "0945",
-        "formation": "",
-        "crew": [
-          {
-            "last": "DEBERRY",
-            "first": "E",
-            "full": "DEBERRY, E"
-          },
-          {
-            "last": "MARTINEZ",
-            "first": "C",
-            "full": "MARTINEZ, C"
-          }
-        ],
-        "instructors": [
-          "DEBERRY, E"
-        ],
-        "students": [
-          "MARTINEZ, C"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "0945 / 1200 / 1400 \u00b7 LtCol DeBerry E# \u00b7 1stLt Martinez C# \u00b7 EP4201 \u00b7 2.0 \u00b7 O/I LEG 2 OF 2; REPO KNGP",
-        "role": "EP4201",
-        "remarks": "O/I LEG 2 OF 2; REPO KNGP",
-        "duration": "2.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "CAP4104",
-        "start": "1300",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1045",
-        "formation": "",
-        "crew": [
-          {
-            "last": "ADAMS",
-            "first": "T",
-            "full": "ADAMS, T"
-          },
-          {
-            "last": "BALMAIN",
-            "first": "T",
-            "full": "BALMAIN, T"
-          }
-        ],
-        "instructors": [
-          "ADAMS, T"
-        ],
-        "students": [
-          "BALMAIN, T"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1045 / 1300 / 1600 \u00b7 Maj Adams T# \u00b7 1stLt Balmain T# \u00b7 CAP4104 \u00b7 3.0 \u00b7 CCX RTN LEG 2 OF 2; KLIT-KNGP",
-        "role": "CAP4104",
-        "remarks": "CCX RTN LEG 2 OF 2; KLIT-KNGP",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "CAP4104",
-        "start": "1300",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1045",
-        "formation": "",
-        "crew": [
-          {
-            "last": "HARTZLER",
-            "first": "L",
-            "full": "HARTZLER, L"
-          }
-        ],
-        "instructors": [
-          "HARTZLER, L"
-        ],
-        "students": [],
-        "page": 4,
-        "line": "",
-        "raw": "1045 / 1300 / 1600 \u00b7 LT Hartzler L# \u00b7 1stLt Dorn D# MONDAY FLIGHT EVENTS \u00b7 CAP4104 \u00b7 3.0 \u00b7 CCX RTN LEG 2 OF 2; KPUB- KNGP",
-        "role": "CAP4104",
-        "remarks": "CCX RTN LEG 2 OF 2; KPUB- KNGP",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
       {
         "section": "Flight",
         "code": "CAP4390",
@@ -3509,7 +2586,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "EP3101",
         "start": "0700",
         "end": "1000",
@@ -3544,7 +2621,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "EP3101",
         "start": "0700",
         "end": "1000",
@@ -3579,7 +2656,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "EP3204",
         "start": "0700",
         "end": "1000",
@@ -3614,7 +2691,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "EP3204",
         "start": "0700",
         "end": "1000",
@@ -3649,7 +2726,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "EP3103 C /P Sim",
         "start": "0700",
         "end": "0830",
@@ -3677,7 +2754,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "EP3203",
         "start": "1000",
         "end": "1300",
@@ -3712,7 +2789,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "EP3203",
         "start": "1000",
         "end": "1300",
@@ -3747,7 +2824,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3301 C /P Sim",
         "start": "1000",
         "end": "1130",
@@ -3782,7 +2859,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3204 C /P Sim",
         "start": "1130",
         "end": "1300",
@@ -3817,7 +2894,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM2201 C /P Sim",
         "start": "1130",
         "end": "1300",
@@ -3852,7 +2929,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3201",
         "start": "1300",
         "end": "1600",
@@ -3887,7 +2964,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3201",
         "start": "1300",
         "end": "1600",
@@ -3922,7 +2999,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM2202 C /P Sim",
         "start": "1300",
         "end": "1430",
@@ -3957,7 +3034,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM2201 C /P Sim",
         "start": "1430",
         "end": "1600",
@@ -3992,7 +3069,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3202",
         "start": "1600",
         "end": "1900",
@@ -4027,7 +3104,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3201",
         "start": "1600",
         "end": "1900",
@@ -4062,7 +3139,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM2104 C /P Sim",
         "start": "1600",
         "end": "1730",
@@ -4097,7 +3174,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM2202 C /P Sim",
         "start": "1600",
         "end": "1730",
@@ -4132,7 +3209,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM2105 C /P Sim",
         "start": "1730",
         "end": "1900",
@@ -4167,7 +3244,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM2104 C /P Sim",
         "start": "1730",
         "end": "1900",
@@ -4202,7 +3279,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM2101",
         "start": "1900",
         "end": "2200",
@@ -4237,7 +3314,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM2101",
         "start": "1900",
         "end": "2200",
@@ -4272,7 +3349,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3202",
         "start": "1900",
         "end": "2200",
@@ -4307,7 +3384,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3201",
         "start": "1900",
         "end": "2200",
@@ -4342,7 +3419,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3202",
         "start": "1900",
         "end": "2200",
@@ -4377,7 +3454,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3202",
         "start": "1900",
         "end": "2200",
@@ -4412,7 +3489,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM2103",
         "start": "1900",
         "end": "2200",
@@ -4447,7 +3524,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM2103",
         "start": "1900",
         "end": "2200",

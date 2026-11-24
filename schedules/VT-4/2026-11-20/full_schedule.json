@@ -888,6 +888,7 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -1843,7 +1844,7 @@
         ],
         "page": 3,
         "line": "",
-        "raw": "MIL \u00b7 1830 \u00b7 1959 \u00b7 Device 2 Seat 2 \u00b7 MERRIMAN, ISAAC# \u00b7 Tolker, Henry Academic Events \u00b7 SEN2201",
+        "raw": "1830 \u00b7 1959 \u00b7 Device 2 Seat 2 \u00b7 MERRIMAN, ISAAC# \u00b7 Tolker, Henry \u00b7 SEN2201",
         "role": "SEN2201",
         "remarks": "",
         "duration": "",
@@ -1851,12 +1852,12 @@
         "solo": false
       },
       {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1200",
-        "end": "0113",
-        "land": "0113",
-        "brief": "0800",
+        "section": "Ground",
+        "code": "OPS0113",
+        "start": "0800",
+        "end": "1200",
+        "land": "1200",
+        "brief": "",
         "formation": "",
         "crew": [
           {
@@ -1871,147 +1872,171 @@
         "students": [],
         "page": 3,
         "line": "",
-        "raw": "0800 \u00b7 1200 \u00b7 OPS0113 \u00b7 IEC \u00b7 1 KUBA, CHARLES \u00b7 26-47",
-        "role": "Simulator",
-        "remarks": "",
+        "raw": "0800 \u00b7 1200 \u00b7 OPS0113 \u00b7 IEC 1 \u00b7 KUBA, CHARLES \u00b7 26-47",
+        "role": "OPS0113",
+        "remarks": "26-47",
         "duration": "",
-        "device": "IEC",
+        "device": "",
         "solo": false
       },
       {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1130",
-        "end": "0205",
-        "land": "0205",
-        "brief": "0930",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "0930 \u00b7 1130 \u00b7 NAV0205 \u00b7 IEC \u00b7 3 STAFFORD, \u00b7 DUSTIN 27-07",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1330",
-        "end": "1101",
-        "land": "1101",
-        "brief": "0930",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "0930 \u00b7 1330 \u00b7 SEN1101 \u00b7 IEC \u00b7 2 PAULUS, \u00b7 CHAD 27-01",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1400",
-        "end": "0114",
-        "land": "0114",
-        "brief": "1200",
-        "formation": "",
-        "crew": [
-          {
-            "last": "KUBA",
-            "first": "CHARLES",
-            "full": "KUBA, CHARLES"
-          }
-        ],
-        "instructors": [
-          "KUBA, CHARLES"
-        ],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1200 \u00b7 1400 \u00b7 OPS0114 \u00b7 IEC \u00b7 1 KUBA, CHARLES \u00b7 26-47",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1400",
-        "end": "0206",
-        "land": "0206",
-        "brief": "1200",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1200 SS \u00b7 1400 \u00b7 NAV0206 \u00b7 IEC \u00b7 3 STAFFORD, \u00b7 DUSTIN 27-07",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "Simulator",
-        "start": "1630",
-        "end": "1102",
-        "land": "1102",
-        "brief": "1330",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1330 Test \u00b7 1630 \u00b7 SEN1102 \u00b7 IEC \u00b7 2 \u00b7 27-01",
-        "role": "Simulator",
-        "remarks": "",
-        "duration": "",
-        "device": "IEC",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "COMMANDING",
+        "section": "Ground",
+        "code": "NAV0205",
         "start": "0930",
-        "end": "0114",
-        "land": "0114",
-        "brief": "0800",
+        "end": "1130",
+        "land": "1130",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STAFFORD",
+            "first": "DUSTIN",
+            "full": "STAFFORD, DUSTIN"
+          }
+        ],
+        "instructors": [
+          "STAFFORD, DUSTIN"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0930 \u00b7 1130 \u00b7 NAV0205 \u00b7 IEC 3 \u00b7 STAFFORD, DUSTIN \u00b7 27-07",
+        "role": "NAV0205",
+        "remarks": "27-07",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "SEN1101",
+        "start": "0930",
+        "end": "1330",
+        "land": "1330",
+        "brief": "",
         "formation": "",
         "crew": [
           {
             "last": "PAULUS",
-            "first": "OPERATIONS",
-            "full": "PAULUS, OPERATIONS"
+            "first": "CHAD",
+            "full": "PAULUS, CHAD"
           }
         ],
         "instructors": [
-          "PAULUS, OPERATIONS"
+          "PAULUS, CHAD"
         ],
         "students": [],
         "page": 3,
         "line": "",
-        "raw": "0800 \u00b7 0930 SCHEDULES \u00b7 SEN0114 SUBMITTED \u00b7 IEC BY: OFFICER \u00b7 2 PAULUS, OPERATIONS \u00b7 CHAD 27-01 REVIEWED BY: OFFICER \u00b7 COMMANDING \u00b7 APPROVED BY: OFFICER",
-        "role": "COMMANDING",
-        "remarks": "APPROVED BY: OFFICER",
+        "raw": "0930 \u00b7 1330 \u00b7 SEN1101 \u00b7 IEC 2 \u00b7 PAULUS, CHAD \u00b7 27-01",
+        "role": "SEN1101",
+        "remarks": "27-01",
         "duration": "",
-        "device": "IEC BY: OFFICER",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "OPS0114",
+        "start": "1200",
+        "end": "1400",
+        "land": "1400",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "KUBA",
+            "first": "CHARLES",
+            "full": "KUBA, CHARLES"
+          }
+        ],
+        "instructors": [
+          "KUBA, CHARLES"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1200 \u00b7 1400 \u00b7 OPS0114 \u00b7 IEC 1 \u00b7 KUBA, CHARLES \u00b7 26-47",
+        "role": "OPS0114",
+        "remarks": "26-47",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "NAV0206",
+        "start": "1200",
+        "end": "1400",
+        "land": "1400",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "STAFFORD",
+            "first": "DUSTIN",
+            "full": "STAFFORD, DUSTIN"
+          }
+        ],
+        "instructors": [
+          "STAFFORD, DUSTIN"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1200 \u00b7 1400 \u00b7 NAV0206 \u00b7 IEC 3 \u00b7 STAFFORD, DUSTIN \u00b7 27-07",
+        "role": "NAV0206",
+        "remarks": "27-07",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "SEN1102",
+        "start": "1330",
+        "end": "1630",
+        "land": "1630",
+        "brief": "",
+        "formation": "",
+        "crew": [],
+        "instructors": [],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "1330 \u00b7 1630 \u00b7 SEN1102 \u00b7 IEC 2 \u00b7 27-01",
+        "role": "SEN1102",
+        "remarks": "27-01",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Ground",
+        "code": "SEN0114",
+        "start": "0800",
+        "end": "0930",
+        "land": "0930",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PAULUS",
+            "first": "CHAD",
+            "full": "PAULUS, CHAD"
+          }
+        ],
+        "instructors": [
+          "PAULUS, CHAD"
+        ],
+        "students": [],
+        "page": 3,
+        "line": "",
+        "raw": "0800 \u00b7 0930 \u00b7 SEN0114 \u00b7 IEC 2 \u00b7 PAULUS, CHAD \u00b7 27-01",
+        "role": "SEN0114",
+        "remarks": "27-01",
+        "duration": "",
+        "device": "",
         "solo": false
       }
     ]

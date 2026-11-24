@@ -943,6 +943,7 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -3599,7 +3600,7 @@
       },
       {
         "section": "Ground",
-        "code": "ENG0104 SUBMITTED BY:",
+        "code": "ENG0104",
         "start": "1330",
         "end": "1530",
         "land": "1530",
@@ -3610,15 +3611,22 @@
             "last": "RAMIREZ S",
             "first": "SANDERS",
             "full": "RAMIREZ S, SANDERS"
+          },
+          {
+            "last": "LIGGETT",
+            "first": "C",
+            "full": "LIGGETT, C"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "LIGGETT, C"
+        ],
         "students": [],
         "page": 4,
         "line": "",
-        "raw": "1330-1530 \u00b7 ENG0104 SUBMITTED BY: \u00b7 Room 121 \u00b7 Ramirez S, Sanders C REVIEWED BY: \u00b7 LIGGETT C APPROVED \u00b7 Engine and Related Systems BY:",
-        "role": "ENG0104 SUBMITTED BY:",
-        "remarks": "Engine and Related Systems BY:",
+        "raw": "1330-1530 \u00b7 ENG0104 \u00b7 Room 121 \u00b7 Ramirez S, Sanders C \u00b7 LIGGETT C \u00b7 Engine and Related Systems",
+        "role": "ENG0104",
+        "remarks": "Engine and Related Systems",
         "duration": "",
         "device": "",
         "solo": false

@@ -907,12 +907,13 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
     "uncertain": "  9526 Avenue D, Suite 347, Corpus Christi TX 78419     9526 Avenue D, Suite 347, Corpus Christi TX 78419",
     "events": [
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "CAP4101",
         "start": "0700",
         "end": "1000",
@@ -947,7 +948,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "FAM4104",
         "start": "0701",
         "end": "1101",
@@ -982,7 +983,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "FAM4104",
         "start": "0701",
         "end": "1101",
@@ -1017,7 +1018,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "CAP4102",
         "start": "1100",
         "end": "1400",
@@ -1052,7 +1053,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "EP4103",
         "start": "1200",
         "end": "1400",
@@ -1087,7 +1088,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "EP4104",
         "start": "1500",
         "end": "1700",
@@ -1122,7 +1123,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "EP4104",
         "start": "1500",
         "end": "1700",

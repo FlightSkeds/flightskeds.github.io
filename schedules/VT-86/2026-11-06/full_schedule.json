@@ -484,6 +484,7 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -1108,7 +1109,7 @@
       },
       {
         "section": "Ground",
-        "code": "STK4107 + 4201 SUBMITTED BY:",
+        "code": "STK4107 + 4201",
         "start": "0630",
         "end": "1100",
         "land": "1100",
@@ -1125,9 +1126,9 @@
         "students": [],
         "page": 2,
         "line": "",
-        "raw": "0630-1100 \u00b7 STK4107 + 4201 SUBMITTED BY: \u00b7 Det Spaces \u00b7 Armour G, Springer J REVIEWED BY: \u00b7 APPROVED \u00b7 Standby Event BY:",
-        "role": "STK4107 + 4201 SUBMITTED BY:",
-        "remarks": "Standby Event BY:",
+        "raw": "0630-1100 \u00b7 STK4107 + 4201 \u00b7 Det Spaces \u00b7 Armour G, Springer J \u00b7 Standby Event",
+        "role": "STK4107 + 4201",
+        "remarks": "Standby Event",
         "duration": "",
         "device": "",
         "solo": false

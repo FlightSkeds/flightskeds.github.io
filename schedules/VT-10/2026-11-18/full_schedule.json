@@ -576,7 +576,8 @@
   ],
   "assignments": {
     "version": 1,
-    "complete": false,
+    "parser_revision": 2,
+    "complete": true,
     "unreadable": false,
     "uncertain": "",
     "events": [
@@ -1692,7 +1693,7 @@
       },
       {
         "section": "Flight",
-        "code": "FRM4202 EVENT",
+        "code": "FRM4202",
         "start": "1120",
         "end": "1250",
         "land": "1250",
@@ -1717,16 +1718,16 @@
           "LEWIS, W"
         ],
         "page": 2,
-        "line": "INSTRUCTOR",
-        "raw": "0620 BRIEF \u00b7 1120 T/O \u00b7 1250 LAND \u00b7 KATT SIM/DEVICE \u00b7 INSTRUCTOR \u00b7 SYDLOWSKI, J, LT Simulator (Sim \u00b7 Lewis, W, ENS Event) Schedule STUDENT \u00b7 FRM4202 EVENT \u00b7 1.5 SIM HRS \u00b7 DD-1801 REMARKS",
-        "role": "FRM4202 EVENT",
-        "remarks": "DD-1801 REMARKS",
-        "duration": "1.5 SIM HRS",
+        "line": "",
+        "raw": "0620 \u00b7 1120 \u00b7 1250 \u00b7 KATT \u00b7 SYDLOWSKI, J, LT Simulator (Sim \u00b7 Lewis, W, ENS Event) Schedule \u00b7 FRM4202 \u00b7 1.5 \u00b7 DD-1801",
+        "role": "FRM4202",
+        "remarks": "DD-1801",
+        "duration": "1.5",
         "device": "",
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "NAV3104",
         "start": "0630",
         "end": "0800",
@@ -1734,27 +1735,34 @@
         "brief": "0600",
         "formation": "",
         "crew": [
+          {
+            "last": "LEE",
+            "first": "J",
+            "full": "LEE, J"
+          },
           {
             "last": "RENKEN",
             "first": "H",
             "full": "RENKEN, H"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "LEE, J"
+        ],
         "students": [
           "RENKEN, H"
         ],
         "page": 3,
-        "line": "LEE,",
-        "raw": "0600 \u00b7 0630 \u00b7 0800 \u00b7 UTD-1P \u00b7 LEE, \u00b7 J, CIV \u00b7 Renken, H, LTJG \u00b7 NAV3104 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "line": "",
+        "raw": "0600 \u00b7 0630 \u00b7 0800 \u00b7 UTD-1P \u00b7 LEE, J, CIV \u00b7 Renken, H, LTJG \u00b7 NAV3104 \u00b7 1.5 \u00b7 SEE NOTE B",
         "role": "NAV3104",
         "remarks": "SEE NOTE B",
         "duration": "1.5",
-        "device": "",
+        "device": "UTD-1P",
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "NAV3104",
         "start": "0630",
         "end": "0800",
@@ -1762,27 +1770,34 @@
         "brief": "0600",
         "formation": "",
         "crew": [
+          {
+            "last": "JELENIEWSKI",
+            "first": "W",
+            "full": "JELENIEWSKI, W"
+          },
           {
             "last": "BOWERS",
             "first": "K",
             "full": "BOWERS, K"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "JELENIEWSKI, W"
+        ],
         "students": [
           "BOWERS, K"
         ],
         "page": 3,
-        "line": "JELENIEWSKI,",
-        "raw": "0600 \u00b7 0630 \u00b7 0800 \u00b7 UTD-4P \u00b7 JELENIEWSKI, \u00b7 W, CIV \u00b7 Bowers, K, ENS \u00b7 NAV3104 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "line": "",
+        "raw": "0600 \u00b7 0630 \u00b7 0800 \u00b7 UTD-4P \u00b7 JELENIEWSKI, W, CIV \u00b7 Bowers, K, ENS \u00b7 NAV3104 \u00b7 1.5 \u00b7 SEE NOTE B",
         "role": "NAV3104",
         "remarks": "SEE NOTE B",
         "duration": "1.5",
-        "device": "",
+        "device": "UTD-4P",
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3105",
         "start": "0630",
         "end": "0800",
@@ -1790,27 +1805,34 @@
         "brief": "0600",
         "formation": "",
         "crew": [
+          {
+            "last": "BALL",
+            "first": "G",
+            "full": "BALL, G"
+          },
           {
             "last": "WALKER",
             "first": "J",
             "full": "WALKER, J"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "BALL, G"
+        ],
         "students": [
           "WALKER, J"
         ],
         "page": 3,
-        "line": "BALL,",
-        "raw": "0600 \u00b7 0630 \u00b7 0800 \u00b7 OFT-6P \u00b7 BALL, \u00b7 G, CIV \u00b7 Walker, J, ENS \u00b7 FAM3105 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "line": "",
+        "raw": "0600 \u00b7 0630 \u00b7 0800 \u00b7 OFT-6P \u00b7 BALL, G, CIV \u00b7 Walker, J, ENS \u00b7 FAM3105 \u00b7 1.5 \u00b7 SEE NOTE B",
         "role": "FAM3105",
         "remarks": "SEE NOTE B",
         "duration": "1.5",
-        "device": "",
+        "device": "OFT-6P",
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "NAV3104",
         "start": "0630",
         "end": "0800",
@@ -1818,27 +1840,34 @@
         "brief": "0600",
         "formation": "",
         "crew": [
+          {
+            "last": "LEGER",
+            "first": "A",
+            "full": "LEGER, A"
+          },
           {
             "last": "ROTH",
             "first": "N",
             "full": "ROTH, N"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "LEGER, A"
+        ],
         "students": [
           "ROTH, N"
         ],
         "page": 3,
-        "line": "LEGER,",
-        "raw": "0600 \u00b7 0630 \u00b7 0800 \u00b7 UTD-2P \u00b7 LEGER, \u00b7 A, CIV \u00b7 Roth, N, LTJG \u00b7 NAV3104 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "line": "",
+        "raw": "0600 \u00b7 0630 \u00b7 0800 \u00b7 UTD-2P \u00b7 LEGER, A, CIV \u00b7 Roth, N, LTJG \u00b7 NAV3104 \u00b7 1.5 \u00b7 SEE NOTE B",
         "role": "NAV3104",
         "remarks": "SEE NOTE B",
         "duration": "1.5",
-        "device": "",
+        "device": "UTD-2P",
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "NAV3104",
         "start": "0630",
         "end": "0800",
@@ -1846,27 +1875,34 @@
         "brief": "0600",
         "formation": "",
         "crew": [
+          {
+            "last": "WUJEK",
+            "first": "J",
+            "full": "WUJEK, J"
+          },
           {
             "last": "HALL",
             "first": "C",
             "full": "HALL, C"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "WUJEK, J"
+        ],
         "students": [
           "HALL, C"
         ],
         "page": 3,
-        "line": "WUJEK,",
-        "raw": "0600 \u00b7 0630 \u00b7 0800 \u00b7 UTD-5P \u00b7 WUJEK, \u00b7 J, CIV \u00b7 Hall, C, ENS \u00b7 NAV3104 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "line": "",
+        "raw": "0600 \u00b7 0630 \u00b7 0800 \u00b7 UTD-5P \u00b7 WUJEK, J, CIV \u00b7 Hall, C, ENS \u00b7 NAV3104 \u00b7 1.5 \u00b7 SEE NOTE B",
         "role": "NAV3104",
         "remarks": "SEE NOTE B",
         "duration": "1.5",
-        "device": "",
+        "device": "UTD-5P",
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "NAV3104",
         "start": "0630",
         "end": "0800",
@@ -1875,26 +1911,33 @@
         "formation": "",
         "crew": [
           {
+            "last": "EASTERLING",
+            "first": "P",
+            "full": "EASTERLING, P"
+          },
+          {
             "last": "NORAH",
             "first": "C",
             "full": "NORAH, C"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "EASTERLING, P"
+        ],
         "students": [
           "NORAH, C"
         ],
         "page": 3,
-        "line": "EASTERLING,",
-        "raw": "0600 \u00b7 0630 \u00b7 0800 \u00b7 UTD-3P \u00b7 EASTERLING, \u00b7 P, CIV \u00b7 Norah, C, ENS \u00b7 NAV3104 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "line": "",
+        "raw": "0600 \u00b7 0630 \u00b7 0800 \u00b7 UTD-3P \u00b7 EASTERLING, P, CIV \u00b7 Norah, C, ENS \u00b7 NAV3104 \u00b7 1.5 \u00b7 SEE NOTE B",
         "role": "NAV3104",
         "remarks": "SEE NOTE B",
         "duration": "1.5",
-        "device": "",
+        "device": "UTD-3P",
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3105",
         "start": "0630",
         "end": "0800",
@@ -1903,26 +1946,33 @@
         "formation": "",
         "crew": [
           {
+            "last": "DEWITZ",
+            "first": "N",
+            "full": "DEWITZ, N"
+          },
+          {
             "last": "LAWRENCE",
             "first": "C",
             "full": "LAWRENCE, C"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "DEWITZ, N"
+        ],
         "students": [
           "LAWRENCE, C"
         ],
         "page": 3,
-        "line": "DEWITZ,",
-        "raw": "0600 \u00b7 0630 \u00b7 0800 \u00b7 OFT-7P \u00b7 DEWITZ, \u00b7 N, CIV \u00b7 Lawrence, C, ENS \u00b7 FAM3105 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "line": "",
+        "raw": "0600 \u00b7 0630 \u00b7 0800 \u00b7 OFT-7P \u00b7 DEWITZ, N, CIV \u00b7 Lawrence, C, ENS \u00b7 FAM3105 \u00b7 1.5 \u00b7 SEE NOTE B",
         "role": "FAM3105",
         "remarks": "SEE NOTE B",
         "duration": "1.5",
-        "device": "",
+        "device": "OFT-7P",
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "NAV3103",
         "start": "0800",
         "end": "0930",
@@ -1931,26 +1981,33 @@
         "formation": "",
         "crew": [
           {
+            "last": "WING",
+            "first": "A",
+            "full": "WING, A"
+          },
+          {
             "last": "BOSTOCK",
             "first": "S",
             "full": "BOSTOCK, S"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "WING, A"
+        ],
         "students": [
           "BOSTOCK, S"
         ],
         "page": 3,
-        "line": "WING,",
-        "raw": "0730 \u00b7 0800 \u00b7 0930 \u00b7 UTD-4P \u00b7 WING, \u00b7 A, CIV \u00b7 Bostock, S, ENS \u00b7 NAV3103 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "line": "",
+        "raw": "0730 \u00b7 0800 \u00b7 0930 \u00b7 UTD-4P \u00b7 WING, A, CIV \u00b7 Bostock, S, ENS \u00b7 NAV3103 \u00b7 1.5 \u00b7 SEE NOTE B",
         "role": "NAV3103",
         "remarks": "SEE NOTE B",
         "duration": "1.5",
-        "device": "",
+        "device": "UTD-4P",
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "NAV3104",
         "start": "0800",
         "end": "0930",
@@ -1958,27 +2015,34 @@
         "brief": "0730",
         "formation": "",
         "crew": [
+          {
+            "last": "LOVE",
+            "first": "S",
+            "full": "LOVE, S"
+          },
           {
             "last": "MORGAN",
             "first": "N",
             "full": "MORGAN, N"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "LOVE, S"
+        ],
         "students": [
           "MORGAN, N"
         ],
         "page": 3,
-        "line": "LOVE,",
-        "raw": "0730 \u00b7 0800 \u00b7 0930 \u00b7 UTD-2P \u00b7 LOVE, \u00b7 S, CIV \u00b7 Morgan, N, ENS \u00b7 NAV3104 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "line": "",
+        "raw": "0730 \u00b7 0800 \u00b7 0930 \u00b7 UTD-2P \u00b7 LOVE, S, CIV \u00b7 Morgan, N, ENS \u00b7 NAV3104 \u00b7 1.5 \u00b7 SEE NOTE B",
         "role": "NAV3104",
         "remarks": "SEE NOTE B",
         "duration": "1.5",
-        "device": "",
+        "device": "UTD-2P",
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "NAV3104",
         "start": "0800",
         "end": "0930",
@@ -1986,27 +2050,34 @@
         "brief": "0730",
         "formation": "",
         "crew": [
+          {
+            "last": "JOYCE",
+            "first": "C",
+            "full": "JOYCE, C"
+          },
           {
             "last": "BAS",
             "first": "C",
             "full": "BAS, C"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "JOYCE, C"
+        ],
         "students": [
           "BAS, C"
         ],
         "page": 3,
-        "line": "JOYCE,",
-        "raw": "0730 \u00b7 0800 \u00b7 0930 \u00b7 UTD-1P \u00b7 JOYCE, \u00b7 C, CIV \u00b7 Bas, C, ENS \u00b7 NAV3104 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "line": "",
+        "raw": "0730 \u00b7 0800 \u00b7 0930 \u00b7 UTD-1P \u00b7 JOYCE, C, CIV \u00b7 Bas, C, ENS \u00b7 NAV3104 \u00b7 1.5 \u00b7 SEE NOTE B",
         "role": "NAV3104",
         "remarks": "SEE NOTE B",
         "duration": "1.5",
-        "device": "",
+        "device": "UTD-1P",
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "NAV3104",
         "start": "0800",
         "end": "0930",
@@ -2015,26 +2086,33 @@
         "formation": "",
         "crew": [
           {
+            "last": "SUMNER",
+            "first": "M",
+            "full": "SUMNER, M"
+          },
+          {
             "last": "YOUNG",
             "first": "S",
             "full": "YOUNG, S"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "SUMNER, M"
+        ],
         "students": [
           "YOUNG, S"
         ],
         "page": 3,
-        "line": "SUMNER,",
-        "raw": "0730 \u00b7 0800 \u00b7 0930 \u00b7 UTD-5P \u00b7 SUMNER, \u00b7 M, CIV \u00b7 Young, S, ENS \u00b7 NAV3104 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "line": "",
+        "raw": "0730 \u00b7 0800 \u00b7 0930 \u00b7 UTD-5P \u00b7 SUMNER, M, CIV \u00b7 Young, S, ENS \u00b7 NAV3104 \u00b7 1.5 \u00b7 SEE NOTE B",
         "role": "NAV3104",
         "remarks": "SEE NOTE B",
         "duration": "1.5",
-        "device": "",
+        "device": "UTD-5P",
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "NAV3201",
         "start": "0800",
         "end": "0930",
@@ -2043,26 +2121,33 @@
         "formation": "",
         "crew": [
           {
+            "last": "RAVENDO",
+            "first": "R",
+            "full": "RAVENDO, R"
+          },
+          {
             "last": "CARMICHAEL",
             "first": "A",
             "full": "CARMICHAEL, A"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "RAVENDO, R"
+        ],
         "students": [
           "CARMICHAEL, A"
         ],
         "page": 3,
-        "line": "RAVENDO,",
-        "raw": "0730 \u00b7 0800 \u00b7 0930 \u00b7 UTD-3P \u00b7 RAVENDO, \u00b7 R, CIV \u00b7 Carmichael, A, ENS \u00b7 NAV3201 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "line": "",
+        "raw": "0730 \u00b7 0800 \u00b7 0930 \u00b7 UTD-3P \u00b7 RAVENDO, R, CIV \u00b7 Carmichael, A, ENS \u00b7 NAV3201 \u00b7 1.5 \u00b7 SEE NOTE B",
         "role": "NAV3201",
         "remarks": "SEE NOTE B",
         "duration": "1.5",
-        "device": "",
+        "device": "UTD-3P",
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3105",
         "start": "0800",
         "end": "0930",
@@ -2071,27 +2156,34 @@
         "formation": "",
         "crew": [
           {
+            "last": "DUKE",
+            "first": "J",
+            "full": "DUKE, J"
+          },
+          {
             "last": "RYAN",
             "first": "T",
             "full": "RYAN, T"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "DUKE, J"
+        ],
         "students": [
           "RYAN, T"
         ],
         "page": 3,
-        "line": "DUKE,",
-        "raw": "0730 \u00b7 0800 \u00b7 0930 \u00b7 OFT-6P \u00b7 DUKE, \u00b7 J, CIV \u00b7 Ryan, T, ENS \u00b7 FAM3105 \u00b7 1.5 \u00b7 SEE NOTE B",
+        "line": "",
+        "raw": "0730 \u00b7 0800 \u00b7 0930 \u00b7 OFT-6P \u00b7 DUKE, J, CIV \u00b7 Ryan, T, ENS \u00b7 FAM3105 \u00b7 1.5 \u00b7 SEE NOTE B",
         "role": "FAM3105",
         "remarks": "SEE NOTE B",
         "duration": "1.5",
-        "device": "",
+        "device": "OFT-6P",
         "solo": false
       },
       {
-        "section": "Flight",
-        "code": "FAM3105FOR",
+        "section": "Simulator",
+        "code": "FAM3105 FOR APPLICABLE",
         "start": "0800",
         "end": "0930",
         "land": "0930",
@@ -2099,9 +2191,14 @@
         "formation": "",
         "crew": [
           {
-            "last": "INTERMEDIATE",
+            "last": "GREENWOOD",
+            "first": "A",
+            "full": "GREENWOOD, A"
+          },
+          {
+            "last": "SIM COMPLETE. FOR INTERMEDIATE",
             "first": "SEE",
-            "full": "INTERMEDIATE, SEE"
+            "full": "SIM COMPLETE. FOR INTERMEDIATE, SEE"
           },
           {
             "last": "DEFIELD",
@@ -2110,18 +2207,19 @@
           }
         ],
         "instructors": [
-          "INTERMEDIATE, SEE"
+          "GREENWOOD, A",
+          "SIM COMPLETE. FOR INTERMEDIATE, SEE"
         ],
         "students": [
           "DEFIELD, M"
         ],
         "page": 3,
-        "line": "GREENWOOD, SIM COMPLETE. STK4390 FOR NAVFLIR,",
-        "raw": "0730 ---------------------------------------------------------------------- FLIGHT SCHEDULE/SIMULATOR A. SECTION B. TURN IN C. UPON COMPLETION D. STUDENTS: \u00b7 0800 LEAD. NAVFLIR COMPLETE \u00b7 0930 NOTES: AND GRADESHEET OF FLT NAV4390 EVENT \u00b7 OFT-7P WHEN OR REHEARSAL \u00b7 GREENWOOD, SIM COMPLETE. STK4390 FOR NAVFLIR, \u00b7 A, CIV INTERMEDIATE, SEE STUDENT AND SUBMIT NAVFLIR TO Ground \u00b7 DeField, M, ENS CONTROL ASAP. SDO. SDOS: SUBMIT GRADESHEET Events \u00b7 FAM3105 FOR \u00b7 1.5 APPLICABLE \u00b7 SEE NOTE B EVENT IN TSHARP.",
-        "role": "FAM3105FOR",
+        "line": "",
+        "raw": "0730 ---------------------------------------------------------------------- FLIGHT A. SECTION B. TURN C. UPON D. STUDENTS: \u00b7 0800 SCHEDULE/SIMULATOR LEAD. IN NAVFLIR COMPLETION COMPLETE \u00b7 0930 AND GRADESHEET OF FLT NAV4390 EVENT \u00b7 OFT-7P NOTES: WHEN OR STK4390 REHEARSAL NAVFLIR, \u00b7 GREENWOOD, A, CIV SIM COMPLETE. FOR INTERMEDIATE, SEE AND SUBMIT NAVFLIR Ground \u00b7 DeField, M, ENS STUDENT CONTROL ASAP. TO SDO. SDOS: SUBMIT GRADESHEET Events \u00b7 FAM3105 FOR APPLICABLE \u00b7 1.5 \u00b7 SEE NOTE B EVENT IN TSHARP.",
+        "role": "FAM3105 FOR APPLICABLE",
         "remarks": "SEE NOTE B EVENT IN TSHARP.",
-        "duration": "1.5 APPLICABLE",
-        "device": "",
+        "duration": "1.5",
+        "device": "OFT-7P NOTES: WHEN OR STK4390 REHEARSAL NAVFLIR,",
         "solo": false
       },
       {

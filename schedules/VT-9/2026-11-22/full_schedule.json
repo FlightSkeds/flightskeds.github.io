@@ -480,10 +480,115 @@
   ],
   "assignments": {
     "version": 1,
-    "complete": false,
+    "parser_revision": 2,
+    "complete": true,
     "unreadable": false,
     "uncertain": "",
     "events": [
+      {
+        "section": "Duty",
+        "code": "WODO (ON CALL)",
+        "start": "0000",
+        "end": "2359",
+        "land": "2359",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "GLASGOW",
+            "first": "",
+            "full": "GLASGOW"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "WODO (ON CALL) \u00b7 LCDR GLASGOW \u00b7 0000 \u00b7 2359",
+        "role": "WODO (ON CALL)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "ODO",
+        "start": "1230",
+        "end": "1700",
+        "land": "1700",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "PLUMLEY",
+            "first": "",
+            "full": "PLUMLEY"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "ODO \u00b7 Capt PLUMLEY \u00b7 1230 \u00b7 1700",
+        "role": "ODO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "SDO",
+        "start": "1215",
+        "end": "1700",
+        "land": "1700",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "WISLER",
+            "first": "",
+            "full": "WISLER"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "SDO \u00b7 LTJG WISLER \u00b7 1215 \u00b7 1700",
+        "role": "SDO",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
+      {
+        "section": "Duty",
+        "code": "DUTY DRIVER (ON CALL)",
+        "start": "0200",
+        "end": "0000",
+        "land": "0000",
+        "brief": "",
+        "formation": "",
+        "crew": [
+          {
+            "last": "MULHALL",
+            "first": "",
+            "full": "MULHALL"
+          }
+        ],
+        "instructors": [],
+        "students": [],
+        "page": 1,
+        "line": "",
+        "raw": "DUTY DRIVER (ON CALL) \u00b7 LTJG MULHALL \u00b7 0200 \u00b7 0000",
+        "role": "DUTY DRIVER (ON CALL)",
+        "remarks": "",
+        "duration": "",
+        "device": "",
+        "solo": false
+      },
       {
         "section": "Flight",
         "code": "TAC LEAD",

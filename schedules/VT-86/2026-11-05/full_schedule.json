@@ -877,6 +877,7 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -2934,7 +2935,7 @@
       },
       {
         "section": "Ground",
-        "code": "NA1103 SUBMITTED BY:",
+        "code": "NA1103",
         "start": "1300",
         "end": "1400",
         "land": "1400",
@@ -2955,15 +2956,22 @@
             "last": "C",
             "first": "MCQUEEN",
             "full": "C, MCQUEEN"
+          },
+          {
+            "last": "HEINO",
+            "first": "A",
+            "full": "HEINO, A"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "HEINO, A"
+        ],
         "students": [],
         "page": 4,
         "line": "",
-        "raw": "1300-1400 \u00b7 NA1103 SUBMITTED BY: \u00b7 Room 121 \u00b7 Chitty J, Custer C, Forrest C, McQueen C REVIEWED BY: \u00b7 HEINO A APPROVED \u00b7 NATOPS EP Boldface Exam BY:",
-        "role": "NA1103 SUBMITTED BY:",
-        "remarks": "NATOPS EP Boldface Exam BY:",
+        "raw": "1300-1400 \u00b7 NA1103 \u00b7 Room 121 \u00b7 Chitty J, Custer C, Forrest C, McQueen C \u00b7 HEINO A \u00b7 NATOPS EP Boldface Exam",
+        "role": "NA1103",
+        "remarks": "NATOPS EP Boldface Exam",
         "duration": "",
         "device": "",
         "solo": false

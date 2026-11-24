@@ -1315,1067 +1315,13 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
-    "uncertain": "  9526 Avenue D, Suite 347, Corpus Christi TX 78419    9526 Avenue D, Suite 347, Corpus Christi TX 78419     9526 Avenue D, Suite 347, Corpus Christi TX 78419     9526 Avenue D, Suite 347, Corpus Christi TX 78419",
+    "uncertain": " 9526 Avenue D, Suite 347, Corpus Christi TX 78419     9526 Avenue D, Suite 347, Corpus Christi TX 78419     9526 Avenue D, Suite 347, Corpus Christi TX 78419",
     "events": [
       {
-        "section": "Simulator",
-        "code": "EP4103",
-        "start": "1400",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1145",
-        "formation": "",
-        "crew": [
-          {
-            "last": "DEBERRY",
-            "first": "E",
-            "full": "DEBERRY, E"
-          },
-          {
-            "last": "POSTMA",
-            "first": "M",
-            "full": "POSTMA, M"
-          }
-        ],
-        "instructors": [
-          "DEBERRY, E"
-        ],
-        "students": [
-          "POSTMA, M"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1145 / 1400 / 1600 \u00b7 LtCol DeBerry E# \u00b7 1stLt Postma M# \u00b7 EP4103 \u00b7 2.0 \u00b7 O/I LEG 1 OF 2. PREPO KCRP",
-        "role": "EP4103",
-        "remarks": "O/I LEG 1 OF 2. PREPO KCRP",
-        "duration": "2.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "EP4104",
-        "start": "1700",
-        "end": "1900",
-        "land": "1900",
-        "brief": "1445",
-        "formation": "",
-        "crew": [
-          {
-            "last": "DEBERRY",
-            "first": "E",
-            "full": "DEBERRY, E"
-          },
-          {
-            "last": "POSTMA M SIMULATOR EVENTS",
-            "first": "",
-            "full": "POSTMA M SIMULATOR EVENTS"
-          }
-        ],
-        "instructors": [
-          "DEBERRY, E"
-        ],
-        "students": [
-          "POSTMA M SIMULATOR EVENTS"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1445 / 1700 / 1900 \u00b7 LtCol DeBerry E# \u00b7 1stLt Postma M# SIMULATOR EVENTS \u00b7 EP4104 \u00b7 2.0 \u00b7 O/I LEG 2 OF 2. PREPO KCRP",
-        "role": "EP4104",
-        "remarks": "O/I LEG 2 OF 2. PREPO KCRP",
-        "duration": "2.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "FAM2104",
-        "start": "0700",
-        "end": "1000",
-        "land": "1000",
-        "brief": "0630",
-        "formation": "",
-        "crew": [
-          {
-            "last": "FREDERICK",
-            "first": "J",
-            "full": "FREDERICK, J"
-          },
-          {
-            "last": "SETTE",
-            "first": "D",
-            "full": "SETTE, D"
-          }
-        ],
-        "instructors": [
-          "FREDERICK, J"
-        ],
-        "students": [
-          "SETTE, D"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0630 / 0700 / 1000 \u00b7 CTR Frederick J \u00b7 LTJG Sette D \u00b7 FAM2104 \u00b7 3.0",
-        "role": "FAM2104",
-        "remarks": "",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "FAM3201",
-        "start": "0700",
-        "end": "1000",
-        "land": "1000",
-        "brief": "0630",
-        "formation": "",
-        "crew": [
-          {
-            "last": "FREDERICK",
-            "first": "J",
-            "full": "FREDERICK, J"
-          },
-          {
-            "last": "L TJG JOHNSON",
-            "first": "A",
-            "full": "L TJG JOHNSON, A"
-          }
-        ],
-        "instructors": [
-          "FREDERICK, J"
-        ],
-        "students": [
-          "L TJG JOHNSON, A"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0630 / 0700 / 1000 \u00b7 CTR Frederick J \u00b7 L TJG Johnson A \u00b7 F AM3201",
-        "role": "FAM3201",
-        "remarks": "",
-        "duration": "",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "FAM3104",
-        "start": "0700",
-        "end": "1000",
-        "land": "1000",
-        "brief": "0630",
-        "formation": "",
-        "crew": [
-          {
-            "last": "WALLETT",
-            "first": "M",
-            "full": "WALLETT, M"
-          },
-          {
-            "last": "MARGRAF",
-            "first": "N",
-            "full": "MARGRAF, N"
-          }
-        ],
-        "instructors": [
-          "WALLETT, M"
-        ],
-        "students": [
-          "MARGRAF, N"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0630 / 0700 / 1000 \u00b7 CTR Wallett M \u00b7 ENS Margraf N \u00b7 FAM3104 \u00b7 3.0",
-        "role": "FAM3104",
-        "remarks": "",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "FAM3205",
-        "start": "0700",
-        "end": "1000",
-        "land": "1000",
-        "brief": "0630",
-        "formation": "",
-        "crew": [
-          {
-            "last": "WALLETT",
-            "first": "M",
-            "full": "WALLETT, M"
-          },
-          {
-            "last": "L TJG STEPHENS",
-            "first": "K",
-            "full": "L TJG STEPHENS, K"
-          }
-        ],
-        "instructors": [
-          "WALLETT, M"
-        ],
-        "students": [
-          "L TJG STEPHENS, K"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0630 / 0700 / 1000 \u00b7 CTR Wallett M \u00b7 L TJG Stephens K \u00b7 F AM3205",
-        "role": "FAM3205",
-        "remarks": "",
-        "duration": "",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "G0303",
-        "start": "1000",
-        "end": "1300",
-        "land": "1300",
-        "brief": "0900",
-        "formation": "",
-        "crew": [
-          {
-            "last": "HARPEY",
-            "first": "N",
-            "full": "HARPEY, N"
-          }
-        ],
-        "instructors": [],
-        "students": [
-          "HARPEY, N"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0900 / 1000 / 1300 \u00b7 LTJG Harpey N# \u00b7 G0303 \u00b7 3.0",
-        "role": "G0303",
-        "remarks": "",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "G0303",
-        "start": "1000",
-        "end": "1300",
-        "land": "1300",
-        "brief": "0900",
-        "formation": "",
-        "crew": [
-          {
-            "last": "L TJG ASADORIAN",
-            "first": "E",
-            "full": "L TJG ASADORIAN, E"
-          }
-        ],
-        "instructors": [],
-        "students": [
-          "L TJG ASADORIAN, E"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0900 / 1000 / 1300 \u00b7 L TJG Asadorian E# \u00b7 G0303",
-        "role": "G0303",
-        "remarks": "",
-        "duration": "",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "FAM2104",
-        "start": "1000",
-        "end": "1300",
-        "land": "1300",
-        "brief": "0930",
-        "formation": "",
-        "crew": [
-          {
-            "last": "MINNERS",
-            "first": "J",
-            "full": "MINNERS, J"
-          },
-          {
-            "last": "SCALPATI",
-            "first": "V",
-            "full": "SCALPATI, V"
-          }
-        ],
-        "instructors": [
-          "MINNERS, J"
-        ],
-        "students": [
-          "SCALPATI, V"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0930 / 1000 / 1300 \u00b7 CTR Minners J# \u00b7 LTJG Scalpati V \u00b7 FAM2104 \u00b7 3.0",
-        "role": "FAM2104",
-        "remarks": "",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "FAM2104",
-        "start": "1000",
-        "end": "1300",
-        "land": "1300",
-        "brief": "0930",
-        "formation": "",
-        "crew": [
-          {
-            "last": "MINNERS",
-            "first": "J",
-            "full": "MINNERS, J"
-          },
-          {
-            "last": "L TJG SWANSON",
-            "first": "D",
-            "full": "L TJG SWANSON, D"
-          }
-        ],
-        "instructors": [
-          "MINNERS, J"
-        ],
-        "students": [
-          "L TJG SWANSON, D"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0930 / 1000 / 1300 \u00b7 CTR Minners J# \u00b7 L TJG Swanson D \u00b7 F AM2104",
-        "role": "FAM2104",
-        "remarks": "",
-        "duration": "",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "FAM2102 C /P Sim",
-        "start": "1000",
-        "end": "1130",
-        "land": "1130",
-        "brief": "0930",
-        "formation": "",
-        "crew": [
-          {
-            "last": "RICHMOND",
-            "first": "G",
-            "full": "RICHMOND, G"
-          },
-          {
-            "last": "G L T CURREN",
-            "first": "D",
-            "full": "G L T CURREN, D"
-          }
-        ],
-        "instructors": [
-          "RICHMOND, G"
-        ],
-        "students": [
-          "G L T CURREN, D"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0930 / 1000 / 1130 \u00b7 CTR Richmond G \u00b7 LTJG Louth G L T Curren D \u00b7 FAM2102 C /P Sim \u00b7 1.5",
-        "role": "FAM2102 C /P Sim",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "FAM3104",
-        "start": "1130",
-        "end": "1430",
-        "land": "1430",
-        "brief": "1100",
-        "formation": "",
-        "crew": [
-          {
-            "last": "BISTLINE",
-            "first": "K",
-            "full": "BISTLINE, K"
-          },
-          {
-            "last": "LEVESQUE",
-            "first": "D",
-            "full": "LEVESQUE, D"
-          }
-        ],
-        "instructors": [
-          "BISTLINE, K"
-        ],
-        "students": [
-          "LEVESQUE, D"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1100 / 1130 / 1430 \u00b7 CTR Bistline K \u00b7 1stLt Levesque D \u00b7 FAM3104 \u00b7 3.0",
-        "role": "FAM3104",
-        "remarks": "",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "FAM3104",
-        "start": "1130",
-        "end": "1430",
-        "land": "1430",
-        "brief": "1100",
-        "formation": "",
-        "crew": [
-          {
-            "last": "BISTLINE",
-            "first": "K",
-            "full": "BISTLINE, K"
-          },
-          {
-            "last": "STLT LISCOM",
-            "first": "K",
-            "full": "STLT LISCOM, K"
-          }
-        ],
-        "instructors": [
-          "BISTLINE, K"
-        ],
-        "students": [
-          "STLT LISCOM, K"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1100 / 1130 / 1430 \u00b7 CTR Bistline K \u00b7 1 stLt Liscom K \u00b7 F AM3104",
-        "role": "FAM3104",
-        "remarks": "",
-        "duration": "",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "G0304",
-        "start": "1300",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1200",
-        "formation": "",
-        "crew": [
-          {
-            "last": "HARPEY",
-            "first": "N",
-            "full": "HARPEY, N"
-          }
-        ],
-        "instructors": [],
-        "students": [
-          "HARPEY, N"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1200 / 1300 / 1600 \u00b7 LTJG Harpey N# \u00b7 G0304 \u00b7 3.0",
-        "role": "G0304",
-        "remarks": "",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "G0304",
-        "start": "1300",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1200",
-        "formation": "",
-        "crew": [
-          {
-            "last": "L TJG ASADORIAN",
-            "first": "E",
-            "full": "L TJG ASADORIAN, E"
-          }
-        ],
-        "instructors": [],
-        "students": [
-          "L TJG ASADORIAN, E"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1200 / 1300 / 1600 \u00b7 L TJG Asadorian E# \u00b7 G0304",
-        "role": "G0304",
-        "remarks": "",
-        "duration": "",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "FAM2101",
-        "start": "1300",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1230",
-        "formation": "",
-        "crew": [
-          {
-            "last": "VACIO",
-            "first": "J",
-            "full": "VACIO, J"
-          },
-          {
-            "last": "LEGALLAIS",
-            "first": "J",
-            "full": "LEGALLAIS, J"
-          }
-        ],
-        "instructors": [
-          "VACIO, J"
-        ],
-        "students": [
-          "LEGALLAIS, J"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1230 / 1300 / 1600 \u00b7 CTR Vacio J \u00b7 Capt Legallais J \u00b7 FAM2101 \u00b7 3.0",
-        "role": "FAM2101",
-        "remarks": "",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "FAM2101",
-        "start": "1300",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1230",
-        "formation": "",
-        "crew": [
-          {
-            "last": "VACIO",
-            "first": "J",
-            "full": "VACIO, J"
-          },
-          {
-            "last": "STLT RESTEL",
-            "first": "G",
-            "full": "STLT RESTEL, G"
-          }
-        ],
-        "instructors": [
-          "VACIO, J"
-        ],
-        "students": [
-          "STLT RESTEL, G"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1230 / 1300 / 1600 \u00b7 CTR Vacio J \u00b7 1 stLt Restel G \u00b7 F AM2101",
-        "role": "FAM2101",
-        "remarks": "",
-        "duration": "",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "FAM2103 C /P Sim",
-        "start": "1430",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1400",
-        "formation": "",
-        "crew": [
-          {
-            "last": "MINNERS",
-            "first": "J",
-            "full": "MINNERS, J"
-          },
-          {
-            "last": "N L TJG HARBERT",
-            "first": "A",
-            "full": "N L TJG HARBERT, A"
-          }
-        ],
-        "instructors": [
-          "MINNERS, J"
-        ],
-        "students": [
-          "N L TJG HARBERT, A"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1400 / 1430 / 1600 \u00b7 CTR Minners J# \u00b7 LTJG Watson N L TJG Harbert A \u00b7 FAM2103 C /P Sim \u00b7 1.5",
-        "role": "FAM2103 C /P Sim",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "G0303",
-        "start": "1600",
-        "end": "1900",
-        "land": "1900",
-        "brief": "1500",
-        "formation": "",
-        "crew": [
-          {
-            "last": "BOXLEY",
-            "first": "C",
-            "full": "BOXLEY, C"
-          }
-        ],
-        "instructors": [],
-        "students": [
-          "BOXLEY, C"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1500 / 1600 / 1900 \u00b7 1stLt Boxley C# \u00b7 G0303 \u00b7 3.0",
-        "role": "G0303",
-        "remarks": "",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "G0303",
-        "start": "1600",
-        "end": "1900",
-        "land": "1900",
-        "brief": "1500",
-        "formation": "",
-        "crew": [
-          {
-            "last": "STLT HUNTER",
-            "first": "J",
-            "full": "STLT HUNTER, J"
-          }
-        ],
-        "instructors": [],
-        "students": [
-          "STLT HUNTER, J"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1500 / 1600 / 1900 \u00b7 1 stLt Hunter J# \u00b7 G0303",
-        "role": "G0303",
-        "remarks": "",
-        "duration": "",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "G0303",
-        "start": "1600",
-        "end": "1900",
-        "land": "1900",
-        "brief": "1500",
-        "formation": "",
-        "crew": [
-          {
-            "last": "MURPHY",
-            "first": "O",
-            "full": "MURPHY, O"
-          }
-        ],
-        "instructors": [],
-        "students": [
-          "MURPHY, O"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1500 / 1600 / 1900 \u00b7 1stLt Murphy O# \u00b7 G0303 \u00b7 3.0",
-        "role": "G0303",
-        "remarks": "",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "G0303",
-        "start": "1600",
-        "end": "1900",
-        "land": "1900",
-        "brief": "1500",
-        "formation": "",
-        "crew": [
-          {
-            "last": "STLT HOLCOMB",
-            "first": "J",
-            "full": "STLT HOLCOMB, J"
-          }
-        ],
-        "instructors": [],
-        "students": [
-          "STLT HOLCOMB, J"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1500 / 1600 / 1900 \u00b7 1 stLt Holcomb J# \u00b7 G0303",
-        "role": "G0303",
-        "remarks": "",
-        "duration": "",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "G0303",
-        "start": "1600",
-        "end": "1900",
-        "land": "1900",
-        "brief": "1500",
-        "formation": "",
-        "crew": [
-          {
-            "last": "KEENY",
-            "first": "S",
-            "full": "KEENY, S"
-          }
-        ],
-        "instructors": [],
-        "students": [
-          "KEENY, S"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1500 / 1600 / 1900 \u00b7 LTJG Keeny S# \u00b7 G0303 \u00b7 3.0",
-        "role": "G0303",
-        "remarks": "",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "G0303",
-        "start": "1600",
-        "end": "1900",
-        "land": "1900",
-        "brief": "1500",
-        "formation": "",
-        "crew": [
-          {
-            "last": "E NS REYES",
-            "first": "A",
-            "full": "E NS REYES, A"
-          }
-        ],
-        "instructors": [],
-        "students": [
-          "E NS REYES, A"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1500 / 1600 / 1900 \u00b7 E NS Reyes A# \u00b7 G 0303",
-        "role": "G0303",
-        "remarks": "",
-        "duration": "",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "G0304",
-        "start": "1900",
-        "end": "2200",
-        "land": "2200",
-        "brief": "1800",
-        "formation": "",
-        "crew": [
-          {
-            "last": "KEENY",
-            "first": "S",
-            "full": "KEENY, S"
-          }
-        ],
-        "instructors": [],
-        "students": [
-          "KEENY, S"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1800 / 1900 / 2200 \u00b7 LTJG Keeny S# \u00b7 G0304 \u00b7 3.0",
-        "role": "G0304",
-        "remarks": "",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "G0304",
-        "start": "1900",
-        "end": "2200",
-        "land": "2200",
-        "brief": "1800",
-        "formation": "",
-        "crew": [
-          {
-            "last": "E NS REYES",
-            "first": "A",
-            "full": "E NS REYES, A"
-          }
-        ],
-        "instructors": [],
-        "students": [
-          "E NS REYES, A"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1800 / 1900 / 2200 \u00b7 E NS Reyes A# \u00b7 G0304",
-        "role": "G0304",
-        "remarks": "",
-        "duration": "",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "G0304",
-        "start": "1900",
-        "end": "2200",
-        "land": "2200",
-        "brief": "1800",
-        "formation": "",
-        "crew": [
-          {
-            "last": "MURPHY",
-            "first": "O",
-            "full": "MURPHY, O"
-          }
-        ],
-        "instructors": [],
-        "students": [
-          "MURPHY, O"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1800 / 1900 / 2200 \u00b7 1stLt Murphy O# \u00b7 G0304 \u00b7 3.0",
-        "role": "G0304",
-        "remarks": "",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "G0304",
-        "start": "1900",
-        "end": "2200",
-        "land": "2200",
-        "brief": "1800",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1800 / 1900 / 2200 \u00b7 1 stLt Holcomb J# 3 \u00b7 G0304",
-        "role": "G0304",
-        "remarks": "",
-        "duration": "",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "G0304",
-        "start": "1900",
-        "end": "2200",
-        "land": "2200",
-        "brief": "1800",
-        "formation": "",
-        "crew": [
-          {
-            "last": "BOXLEY",
-            "first": "C",
-            "full": "BOXLEY, C"
-          }
-        ],
-        "instructors": [],
-        "students": [
-          "BOXLEY, C"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1800 / 1900 / 2200 \u00b7 1stLt Boxley C# \u00b7 G0304 \u00b7 3.0",
-        "role": "G0304",
-        "remarks": "",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "G0304 EVENTS",
-        "start": "1900",
-        "end": "2200",
-        "land": "2200",
-        "brief": "1800",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 4,
-        "line": "",
-        "raw": "1800 / 1900 / 2200 \u00b7 1 stLt Hunter J# SUNDAY FLIGHT \u00b7 G0304 EVENTS",
-        "role": "G0304 EVENTS",
-        "remarks": "",
-        "duration": "",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "CAP4103",
-        "start": "1100",
-        "end": "1400",
-        "land": "1400",
-        "brief": "0845",
-        "formation": "",
-        "crew": [
-          {
-            "last": "HARTZLER",
-            "first": "L",
-            "full": "HARTZLER, L"
-          },
-          {
-            "last": "GERMOND",
-            "first": "J",
-            "full": "GERMOND, J"
-          }
-        ],
-        "instructors": [
-          "HARTZLER, L"
-        ],
-        "students": [
-          "GERMOND, J"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "0845 / 1100 / 1400 \u00b7 LT Hartzler L# \u00b7 LTJG Germond J# \u00b7 CAP4103 \u00b7 3.0 \u00b7 CCX LEG 1 OF 2. KBFI-KGJT",
-        "role": "CAP4103",
-        "remarks": "CCX LEG 1 OF 2. KBFI-KGJT",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "CAP4101",
-        "start": "1100",
-        "end": "1400",
-        "land": "1400",
-        "brief": "0845",
-        "formation": "",
-        "crew": [
-          {
-            "last": "DEBERRY",
-            "first": "E",
-            "full": "DEBERRY, E"
-          },
-          {
-            "last": "CADRECHA",
-            "first": "C",
-            "full": "CADRECHA, C"
-          }
-        ],
-        "instructors": [
-          "DEBERRY, E"
-        ],
-        "students": [
-          "CADRECHA, C"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "0845 / 1100 / 1400 \u00b7 LtCol DeBerry E# \u00b7 1stLt Cadrecha C# \u00b7 CAP4101 \u00b7 3.0 \u00b7 CCX O/I LEG 1 OF 2. REPO KNGP",
-        "role": "CAP4101",
-        "remarks": "CCX O/I LEG 1 OF 2. REPO KNGP",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "CAP4102",
-        "start": "1500",
-        "end": "1800",
-        "land": "1800",
-        "brief": "1245",
-        "formation": "",
-        "crew": [
-          {
-            "last": "DEBERRY",
-            "first": "E",
-            "full": "DEBERRY, E"
-          },
-          {
-            "last": "CADRECHA",
-            "first": "C",
-            "full": "CADRECHA, C"
-          }
-        ],
-        "instructors": [
-          "DEBERRY, E"
-        ],
-        "students": [
-          "CADRECHA, C"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1245 / 1500 / 1800 \u00b7 LtCol DeBerry E# \u00b7 1stLt Cadrecha C# \u00b7 CAP4102 \u00b7 3.0 \u00b7 CCX O/I LEG 2 OF 2. REPO KNGP",
-        "role": "CAP4102",
-        "remarks": "CCX O/I LEG 2 OF 2. REPO KNGP",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
-        "code": "CAP4104",
-        "start": "1500",
-        "end": "1800",
-        "land": "1800",
-        "brief": "1245",
-        "formation": "",
-        "crew": [
-          {
-            "last": "HARTZLER",
-            "first": "L",
-            "full": "HARTZLER, L"
-          }
-        ],
-        "instructors": [
-          "HARTZLER, L"
-        ],
-        "students": [],
-        "page": 4,
-        "line": "",
-        "raw": "1245 / 1500 / 1800 \u00b7 LT Hartzler L# \u00b7 LTJG Germond J# MONDAY FLIGHT EVENTS \u00b7 CAP4104 \u00b7 3.0 \u00b7 CCX LEG 2 OF 2. KGJT-KNGP",
-        "role": "CAP4104",
-        "remarks": "CCX LEG 2 OF 2. KGJT-KNGP",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "FAM4302",
         "start": "0700",
         "end": "1100",
@@ -2410,7 +1356,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "FAM4302",
         "start": "0700",
         "end": "1100",
@@ -2445,7 +1391,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "FAM4104",
         "start": "0701",
         "end": "1101",
@@ -2480,7 +1426,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "FAM4104",
         "start": "0701",
         "end": "1101",
@@ -2515,7 +1461,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "CAP4201",
         "start": "0800",
         "end": "1200",
@@ -2550,7 +1496,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "CAP4201",
         "start": "0800",
         "end": "1200",
@@ -2585,7 +1531,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "FAM4201",
         "start": "0801",
         "end": "1201",
@@ -2620,7 +1566,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "FAM4201",
         "start": "0801",
         "end": "1201",
@@ -2655,7 +1601,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "CAP4101",
         "start": "0901",
         "end": "1201",
@@ -2690,7 +1636,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "NATOPS CHK FLT",
         "start": "0900",
         "end": "1130",
@@ -2725,7 +1671,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "FAM4104",
         "start": "1100",
         "end": "1500",
@@ -2760,7 +1706,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "FAM4104",
         "start": "1100",
         "end": "1500",
@@ -2795,7 +1741,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "CAP4103",
         "start": "1101",
         "end": "1401",
@@ -2830,7 +1776,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "CAP4102",
         "start": "1301",
         "end": "1601",
@@ -2871,7 +1817,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "INST CHECK FLT",
         "start": "1230",
         "end": "1400",
@@ -2906,7 +1852,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "FAM4203",
         "start": "1400",
         "end": "1800",
@@ -2941,7 +1887,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "FAM4203",
         "start": "1400",
         "end": "1800",
@@ -2969,7 +1915,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "CAP4202",
         "start": "1401",
         "end": "1801",
@@ -3004,7 +1950,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "EP4105",
         "start": "1401",
         "end": "1801",
@@ -3039,7 +1985,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "EP4103",
         "start": "1500",
         "end": "1900",
@@ -3074,7 +2020,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "EP4203",
         "start": "1500",
         "end": "1900",
@@ -3109,7 +2055,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "EP4105",
         "start": "1501",
         "end": "1701",
@@ -3144,7 +2090,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "CAP4104",
         "start": "1501",
         "end": "1801",
@@ -3179,7 +2125,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "EP4103",
         "start": "1600",
         "end": "2000",
@@ -3214,7 +2160,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "EP4103",
         "start": "1600",
         "end": "2000",
@@ -3249,7 +2195,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "EP4104",
         "start": "1601",
         "end": "2001",
@@ -3284,7 +2230,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "EP4202",
         "start": "1601",
         "end": "2001",
@@ -3319,7 +2265,7 @@
         "solo": false
       },
       {
-        "section": "Simulator",
+        "section": "Flight",
         "code": "EP4201",
         "start": "1801",
         "end": "2001",

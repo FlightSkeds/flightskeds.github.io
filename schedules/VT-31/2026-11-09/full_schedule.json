@@ -1734,1318 +1734,11 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
     "events": [
-      {
-        "section": "Flight",
-        "code": "I4301",
-        "start": "1000",
-        "end": "1300",
-        "land": "1300",
-        "brief": "0745",
-        "formation": "",
-        "crew": [
-          {
-            "last": "KLUNDER",
-            "first": "M",
-            "full": "KLUNDER, M"
-          }
-        ],
-        "instructors": [],
-        "students": [
-          "KLUNDER, M"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0745 / 1000 / 1300 \u00b7 MAJ LAMBARD P VT-35 \u00b7 LTJG KLUNDER M \u00b7 I4301 \u00b7 3.0 \u00b7 RO2N KSDM LINE 1 OF 2",
-        "role": "I4301",
-        "remarks": "RO2N KSDM LINE 1 OF 2",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I4402",
-        "start": "1415",
-        "end": "1715",
-        "land": "1715",
-        "brief": "1200",
-        "formation": "",
-        "crew": [
-          {
-            "last": "KANG",
-            "first": "C",
-            "full": "KANG, C"
-          },
-          {
-            "last": "BOLT",
-            "first": "C",
-            "full": "BOLT, C"
-          }
-        ],
-        "instructors": [
-          "KANG, C"
-        ],
-        "students": [
-          "BOLT, C"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1200 / 1415 / 1715 \u00b7 LT KANG C \u00b7 1STLT BOLT C \u00b7 I4402 \u00b7 2.0 \u00b7 HP",
-        "role": "I4402",
-        "remarks": "HP",
-        "duration": "2.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I4402",
-        "start": "1415",
-        "end": "1715",
-        "land": "1715",
-        "brief": "1200",
-        "formation": "",
-        "crew": [
-          {
-            "last": "KANG",
-            "first": "C",
-            "full": "KANG, C"
-          },
-          {
-            "last": "MANNING",
-            "first": "L",
-            "full": "MANNING, L"
-          }
-        ],
-        "instructors": [
-          "KANG, C"
-        ],
-        "students": [
-          "MANNING, L"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "1200 / 1415 / 1715 \u00b7 LT KANG C \u00b7 ENS MANNING L \u00b7 I4402 \u00b7 2.0 \u00b7 PREPO KCRP",
-        "role": "I4402",
-        "remarks": "PREPO KCRP",
-        "duration": "2.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I4302 EVENTS 4",
-        "start": "1430",
-        "end": "1730",
-        "land": "1730",
-        "brief": "1400",
-        "formation": "",
-        "crew": [],
-        "instructors": [],
-        "students": [],
-        "page": 3,
-        "line": "",
-        "raw": "1400 / 1430 / 1730 \u00b7 MAJ LAMBARD P VT-35 \u00b7 LTJG KLUNDER M SATURDAY SIMULATOR T-44C: 26 | T-54A: \u00b7 I4302 EVENTS 4 \u00b7 3.0 \u00b7 LINE 2 OF 2",
-        "role": "I4302 EVENTS 4",
-        "remarks": "LINE 2 OF 2",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "FAM2102",
-        "start": "0700",
-        "end": "1000",
-        "land": "1000",
-        "brief": "0600",
-        "formation": "",
-        "crew": [
-          {
-            "last": "HARRISON",
-            "first": "M",
-            "full": "HARRISON, M"
-          },
-          {
-            "last": "HARRIGAN",
-            "first": "T",
-            "full": "HARRIGAN, T"
-          }
-        ],
-        "instructors": [
-          "HARRISON, M"
-        ],
-        "students": [
-          "HARRIGAN, T"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0600 / 0700 / 1000 \u00b7 CTR HARRISON M \u00b7 ENS HARRIGAN T \u00b7 FAM2102 \u00b7 1.5",
-        "role": "FAM2102",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "FAM2103",
-        "start": "0700",
-        "end": "1000",
-        "land": "1000",
-        "brief": "0600",
-        "formation": "",
-        "crew": [
-          {
-            "last": "HARRISON",
-            "first": "M",
-            "full": "HARRISON, M"
-          },
-          {
-            "last": "WARD",
-            "first": "Z",
-            "full": "WARD, Z"
-          }
-        ],
-        "instructors": [
-          "HARRISON, M"
-        ],
-        "students": [
-          "WARD, Z"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0600 / 0700 / 1000 \u00b7 CTR HARRISON M \u00b7 LTJG WARD Z \u00b7 FAM2103 \u00b7 1.5",
-        "role": "FAM2103",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "FAM2104",
-        "start": "0700",
-        "end": "1000",
-        "land": "1000",
-        "brief": "0600",
-        "formation": "",
-        "crew": [
-          {
-            "last": "CORNWELL",
-            "first": "N",
-            "full": "CORNWELL, N"
-          },
-          {
-            "last": "KILLEEN",
-            "first": "A",
-            "full": "KILLEEN, A"
-          }
-        ],
-        "instructors": [
-          "CORNWELL, N"
-        ],
-        "students": [
-          "KILLEEN, A"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0600 / 0700 / 1000 \u00b7 CTR CORNWELL N \u00b7 ENS KILLEEN A \u00b7 FAM2104 \u00b7 1.5",
-        "role": "FAM2104",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "FAM2103",
-        "start": "0700",
-        "end": "1000",
-        "land": "1000",
-        "brief": "0600",
-        "formation": "",
-        "crew": [
-          {
-            "last": "CORNWELL",
-            "first": "N",
-            "full": "CORNWELL, N"
-          },
-          {
-            "last": "ZAHID",
-            "first": "M",
-            "full": "ZAHID, M"
-          }
-        ],
-        "instructors": [
-          "CORNWELL, N"
-        ],
-        "students": [
-          "ZAHID, M"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0600 / 0700 / 1000 \u00b7 CTR CORNWELL N \u00b7 LTJG ZAHID M \u00b7 FAM2103 \u00b7 1.5",
-        "role": "FAM2103",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I2101",
-        "start": "0700",
-        "end": "1000",
-        "land": "1000",
-        "brief": "0600",
-        "formation": "",
-        "crew": [
-          {
-            "last": "PETERSON",
-            "first": "R",
-            "full": "PETERSON, R"
-          },
-          {
-            "last": "LUKEZ",
-            "first": "N",
-            "full": "LUKEZ, N"
-          }
-        ],
-        "instructors": [
-          "PETERSON, R"
-        ],
-        "students": [
-          "LUKEZ, N"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0600 / 0700 / 1000 \u00b7 CTR PETERSON R \u00b7 1STLT LUKEZ N \u00b7 I2101 \u00b7 1.5",
-        "role": "I2101",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I2102",
-        "start": "0700",
-        "end": "1000",
-        "land": "1000",
-        "brief": "0600",
-        "formation": "",
-        "crew": [
-          {
-            "last": "PETERSON",
-            "first": "R",
-            "full": "PETERSON, R"
-          },
-          {
-            "last": "GEORGE",
-            "first": "B",
-            "full": "GEORGE, B"
-          }
-        ],
-        "instructors": [
-          "PETERSON, R"
-        ],
-        "students": [
-          "GEORGE, B"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0600 / 0700 / 1000 \u00b7 CTR PETERSON R \u00b7 ENS GEORGE B \u00b7 I2102 \u00b7 1.5",
-        "role": "I2102",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I2102",
-        "start": "0700",
-        "end": "1000",
-        "land": "1000",
-        "brief": "0600",
-        "formation": "",
-        "crew": [
-          {
-            "last": "CLOSE",
-            "first": "J",
-            "full": "CLOSE, J"
-          },
-          {
-            "last": "WILSON",
-            "first": "G",
-            "full": "WILSON, G"
-          }
-        ],
-        "instructors": [
-          "CLOSE, J"
-        ],
-        "students": [
-          "WILSON, G"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0600 / 0700 / 1000 \u00b7 CTR CLOSE J \u00b7 ENS WILSON G \u00b7 I2102 \u00b7 1.5",
-        "role": "I2102",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I2102",
-        "start": "0700",
-        "end": "1000",
-        "land": "1000",
-        "brief": "0600",
-        "formation": "",
-        "crew": [
-          {
-            "last": "CLOSE",
-            "first": "J",
-            "full": "CLOSE, J"
-          },
-          {
-            "last": "SPRATT",
-            "first": "R",
-            "full": "SPRATT, R"
-          }
-        ],
-        "instructors": [
-          "CLOSE, J"
-        ],
-        "students": [
-          "SPRATT, R"
-        ],
-        "page": 3,
-        "line": "",
-        "raw": "0600 / 0700 / 1000 \u00b7 CTR CLOSE J \u00b7 ENS SPRATT R \u00b7 I2102 \u00b7 1.5",
-        "role": "I2102",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "FAM3301",
-        "start": "1000",
-        "end": "1300",
-        "land": "1300",
-        "brief": "0900",
-        "formation": "",
-        "crew": [
-          {
-            "last": "JANSSEN",
-            "first": "D",
-            "full": "JANSSEN, D"
-          },
-          {
-            "last": "PATTERSON",
-            "first": "H",
-            "full": "PATTERSON, H"
-          }
-        ],
-        "instructors": [
-          "JANSSEN, D"
-        ],
-        "students": [
-          "PATTERSON, H"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "0900 / 1000 / 1300 \u00b7 CTR JANSSEN D \u00b7 ENS PATTERSON H \u00b7 FAM3301 \u00b7 1.5",
-        "role": "FAM3301",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "FAM3301",
-        "start": "1000",
-        "end": "1300",
-        "land": "1300",
-        "brief": "0900",
-        "formation": "",
-        "crew": [
-          {
-            "last": "JANSSEN",
-            "first": "D",
-            "full": "JANSSEN, D"
-          },
-          {
-            "last": "MUSIC",
-            "first": "M",
-            "full": "MUSIC, M"
-          }
-        ],
-        "instructors": [
-          "JANSSEN, D"
-        ],
-        "students": [
-          "MUSIC, M"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "0900 / 1000 / 1300 \u00b7 CTR JANSSEN D \u00b7 LTJG MUSIC M \u00b7 FAM3301 \u00b7 1.5",
-        "role": "FAM3301",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "FAM2103",
-        "start": "1000",
-        "end": "1300",
-        "land": "1300",
-        "brief": "0900",
-        "formation": "",
-        "crew": [
-          {
-            "last": "NEAS",
-            "first": "S",
-            "full": "NEAS, S"
-          },
-          {
-            "last": "TREASTER",
-            "first": "G",
-            "full": "TREASTER, G"
-          }
-        ],
-        "instructors": [
-          "NEAS, S"
-        ],
-        "students": [
-          "TREASTER, G"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "0900 / 1000 / 1300 \u00b7 CIV NEAS S \u00b7 LTJG TREASTER G \u00b7 FAM2103 \u00b7 1.5",
-        "role": "FAM2103",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "FAM2103",
-        "start": "1000",
-        "end": "1300",
-        "land": "1300",
-        "brief": "0900",
-        "formation": "",
-        "crew": [
-          {
-            "last": "NEAS",
-            "first": "S",
-            "full": "NEAS, S"
-          },
-          {
-            "last": "PENNINGTON",
-            "first": "T",
-            "full": "PENNINGTON, T"
-          }
-        ],
-        "instructors": [
-          "NEAS, S"
-        ],
-        "students": [
-          "PENNINGTON, T"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "0900 / 1000 / 1300 \u00b7 CIV NEAS S \u00b7 ENS PENNINGTON T \u00b7 FAM2103 \u00b7 1.5",
-        "role": "FAM2103",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I3501",
-        "start": "1000",
-        "end": "1300",
-        "land": "1300",
-        "brief": "0900",
-        "formation": "",
-        "crew": [
-          {
-            "last": "MAW",
-            "first": "C",
-            "full": "MAW, C"
-          },
-          {
-            "last": "DIBITONTO",
-            "first": "G",
-            "full": "DIBITONTO, G"
-          }
-        ],
-        "instructors": [
-          "MAW, C"
-        ],
-        "students": [
-          "DIBITONTO, G"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "0900 / 1000 / 1300 \u00b7 CTR MAW C \u00b7 ENS DIBITONTO G \u00b7 I3501 \u00b7 1.5 \u00b7 DP",
-        "role": "I3501",
-        "remarks": "DP",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I2103",
-        "start": "1000",
-        "end": "1300",
-        "land": "1300",
-        "brief": "0900",
-        "formation": "",
-        "crew": [
-          {
-            "last": "MAW",
-            "first": "C",
-            "full": "MAW, C"
-          },
-          {
-            "last": "MASSA",
-            "first": "A",
-            "full": "MASSA, A"
-          }
-        ],
-        "instructors": [
-          "MAW, C"
-        ],
-        "students": [
-          "MASSA, A"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "0900 / 1000 / 1300 \u00b7 CTR MAW C \u00b7 LTJG MASSA A \u00b7 I2103 \u00b7 1.5",
-        "role": "I2103",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "EP3101",
-        "start": "1300",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1200",
-        "formation": "",
-        "crew": [
-          {
-            "last": "RICHMOND",
-            "first": "G",
-            "full": "RICHMOND, G"
-          },
-          {
-            "last": "MILLER",
-            "first": "D",
-            "full": "MILLER, D"
-          }
-        ],
-        "instructors": [
-          "RICHMOND, G"
-        ],
-        "students": [
-          "MILLER, D"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1200 / 1300 / 1600 \u00b7 CTR RICHMOND G \u00b7 ENS MILLER D \u00b7 EP3101 \u00b7 1.5",
-        "role": "EP3101",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "EP3203",
-        "start": "1300",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1200",
-        "formation": "",
-        "crew": [
-          {
-            "last": "RICHMOND",
-            "first": "G",
-            "full": "RICHMOND, G"
-          },
-          {
-            "last": "ROBINSON",
-            "first": "P",
-            "full": "ROBINSON, P"
-          }
-        ],
-        "instructors": [
-          "RICHMOND, G"
-        ],
-        "students": [
-          "ROBINSON, P"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1200 / 1300 / 1600 \u00b7 CTR RICHMOND G \u00b7 LTJG ROBINSON P \u00b7 EP3203 \u00b7 1.5",
-        "role": "EP3203",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "FAM3301",
-        "start": "1300",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1200",
-        "formation": "",
-        "crew": [
-          {
-            "last": "HARRISON",
-            "first": "M",
-            "full": "HARRISON, M"
-          },
-          {
-            "last": "PIPHO",
-            "first": "A",
-            "full": "PIPHO, A"
-          }
-        ],
-        "instructors": [
-          "HARRISON, M"
-        ],
-        "students": [
-          "PIPHO, A"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1200 / 1300 / 1600 \u00b7 CTR HARRISON M \u00b7 1STLT PIPHO A \u00b7 FAM3301 \u00b7 1.5",
-        "role": "FAM3301",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "FAM3301",
-        "start": "1300",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1200",
-        "formation": "",
-        "crew": [
-          {
-            "last": "HARRISON",
-            "first": "M",
-            "full": "HARRISON, M"
-          },
-          {
-            "last": "WELLS",
-            "first": "D",
-            "full": "WELLS, D"
-          }
-        ],
-        "instructors": [
-          "HARRISON, M"
-        ],
-        "students": [
-          "WELLS, D"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1200 / 1300 / 1600 \u00b7 CTR HARRISON M \u00b7 LTJG WELLS D \u00b7 FAM3301 \u00b7 1.5",
-        "role": "FAM3301",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I3204",
-        "start": "1300",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1200",
-        "formation": "",
-        "crew": [
-          {
-            "last": "WILKINSON",
-            "first": "M",
-            "full": "WILKINSON, M"
-          },
-          {
-            "last": "SCHUMACHER",
-            "first": "J",
-            "full": "SCHUMACHER, J"
-          }
-        ],
-        "instructors": [
-          "WILKINSON, M"
-        ],
-        "students": [
-          "SCHUMACHER, J"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1200 / 1300 / 1600 \u00b7 CTR WILKINSON M \u00b7 LTJG SCHUMACHER J \u00b7 I3204 \u00b7 1.5",
-        "role": "I3204",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I3206",
-        "start": "1300",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1200",
-        "formation": "",
-        "crew": [
-          {
-            "last": "WILKINSON",
-            "first": "M",
-            "full": "WILKINSON, M"
-          },
-          {
-            "last": "JAATUN",
-            "first": "V",
-            "full": "JAATUN, V"
-          }
-        ],
-        "instructors": [
-          "WILKINSON, M"
-        ],
-        "students": [
-          "JAATUN, V"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1200 / 1300 / 1600 \u00b7 CTR WILKINSON M \u00b7 ENS JAATUN V \u00b7 I3206 \u00b7 1.5",
-        "role": "I3206",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I3501",
-        "start": "1300",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1200",
-        "formation": "",
-        "crew": [
-          {
-            "last": "PETERSON",
-            "first": "R",
-            "full": "PETERSON, R"
-          },
-          {
-            "last": "RATAJCZYK",
-            "first": "W",
-            "full": "RATAJCZYK, W"
-          }
-        ],
-        "instructors": [
-          "PETERSON, R"
-        ],
-        "students": [
-          "RATAJCZYK, W"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1200 / 1300 / 1600 \u00b7 CTR PETERSON R \u00b7 1STLT RATAJCZYK W \u00b7 I3501 \u00b7 1.5",
-        "role": "I3501",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I3206",
-        "start": "1300",
-        "end": "1600",
-        "land": "1600",
-        "brief": "1200",
-        "formation": "",
-        "crew": [
-          {
-            "last": "PETERSON",
-            "first": "R",
-            "full": "PETERSON, R"
-          },
-          {
-            "last": "OELBERG",
-            "first": "J",
-            "full": "OELBERG, J"
-          }
-        ],
-        "instructors": [
-          "PETERSON, R"
-        ],
-        "students": [
-          "OELBERG, J"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1200 / 1300 / 1600 \u00b7 CTR PETERSON R \u00b7 2LT OELBERG J \u00b7 I3206 \u00b7 1.5",
-        "role": "I3206",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I3501",
-        "start": "1600",
-        "end": "1900",
-        "land": "1900",
-        "brief": "1500",
-        "formation": "",
-        "crew": [
-          {
-            "last": "MAW",
-            "first": "C",
-            "full": "MAW, C"
-          },
-          {
-            "last": "REVHAUG",
-            "first": "S",
-            "full": "REVHAUG, S"
-          }
-        ],
-        "instructors": [
-          "MAW, C"
-        ],
-        "students": [
-          "REVHAUG, S"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1500 / 1600 / 1900 \u00b7 CTR MAW C \u00b7 LTJG REVHAUG S \u00b7 I3501 \u00b7 1.5",
-        "role": "I3501",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I3501",
-        "start": "1600",
-        "end": "1900",
-        "land": "1900",
-        "brief": "1500",
-        "formation": "",
-        "crew": [
-          {
-            "last": "MAW",
-            "first": "C",
-            "full": "MAW, C"
-          },
-          {
-            "last": "GROENENG",
-            "first": "T",
-            "full": "GROENENG, T"
-          }
-        ],
-        "instructors": [
-          "MAW, C"
-        ],
-        "students": [
-          "GROENENG, T"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1500 / 1600 / 1900 \u00b7 CTR MAW C \u00b7 2LT GROENENG T \u00b7 I3501 \u00b7 1.5",
-        "role": "I3501",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I3502",
-        "start": "1600",
-        "end": "1900",
-        "land": "1900",
-        "brief": "1500",
-        "formation": "",
-        "crew": [
-          {
-            "last": "JANSSEN",
-            "first": "D",
-            "full": "JANSSEN, D"
-          },
-          {
-            "last": "DIBITONTO",
-            "first": "G",
-            "full": "DIBITONTO, G"
-          }
-        ],
-        "instructors": [
-          "JANSSEN, D"
-        ],
-        "students": [
-          "DIBITONTO, G"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1500 / 1600 / 1900 \u00b7 CTR JANSSEN D \u00b7 ENS DIBITONTO G \u00b7 I3502 \u00b7 1.5 \u00b7 DP",
-        "role": "I3502",
-        "remarks": "DP",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I3101",
-        "start": "1600",
-        "end": "1900",
-        "land": "1900",
-        "brief": "1500",
-        "formation": "",
-        "crew": [
-          {
-            "last": "JANSSEN",
-            "first": "D",
-            "full": "JANSSEN, D"
-          },
-          {
-            "last": "NICHOLSON",
-            "first": "C",
-            "full": "NICHOLSON, C"
-          }
-        ],
-        "instructors": [
-          "JANSSEN, D"
-        ],
-        "students": [
-          "NICHOLSON, C"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1500 / 1600 / 1900 \u00b7 CTR JANSSEN D \u00b7 LTJG NICHOLSON C \u00b7 I3101 \u00b7 1.5",
-        "role": "I3101",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I3402",
-        "start": "1600",
-        "end": "1900",
-        "land": "1900",
-        "brief": "1500",
-        "formation": "",
-        "crew": [
-          {
-            "last": "NEAS",
-            "first": "S",
-            "full": "NEAS, S"
-          },
-          {
-            "last": "IVERSEN",
-            "first": "A",
-            "full": "IVERSEN, A"
-          }
-        ],
-        "instructors": [
-          "NEAS, S"
-        ],
-        "students": [
-          "IVERSEN, A"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1500 / 1600 / 1900 \u00b7 CIV NEAS S \u00b7 2LT IVERSEN A \u00b7 I3402 \u00b7 1.5",
-        "role": "I3402",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I2102",
-        "start": "1600",
-        "end": "1900",
-        "land": "1900",
-        "brief": "1500",
-        "formation": "",
-        "crew": [
-          {
-            "last": "NEAS",
-            "first": "S",
-            "full": "NEAS, S"
-          },
-          {
-            "last": "URBINA",
-            "first": "J",
-            "full": "URBINA, J"
-          }
-        ],
-        "instructors": [
-          "NEAS, S"
-        ],
-        "students": [
-          "URBINA, J"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1500 / 1600 / 1900 \u00b7 CIV NEAS S \u00b7 ENS URBINA J \u00b7 I2102 \u00b7 1.5",
-        "role": "I2102",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I3401",
-        "start": "1900",
-        "end": "2200",
-        "land": "2200",
-        "brief": "1800",
-        "formation": "",
-        "crew": [
-          {
-            "last": "WILKINSON",
-            "first": "M",
-            "full": "WILKINSON, M"
-          },
-          {
-            "last": "NESTELL",
-            "first": "C",
-            "full": "NESTELL, C"
-          }
-        ],
-        "instructors": [
-          "WILKINSON, M"
-        ],
-        "students": [
-          "NESTELL, C"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1800 / 1900 / 2200 \u00b7 CTR WILKINSON M \u00b7 LTJG NESTELL C \u00b7 I3401 \u00b7 1.5",
-        "role": "I3401",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I3401",
-        "start": "1900",
-        "end": "2200",
-        "land": "2200",
-        "brief": "1800",
-        "formation": "",
-        "crew": [
-          {
-            "last": "WILKINSON",
-            "first": "M",
-            "full": "WILKINSON, M"
-          },
-          {
-            "last": "MEEKS",
-            "first": "B",
-            "full": "MEEKS, B"
-          }
-        ],
-        "instructors": [
-          "WILKINSON, M"
-        ],
-        "students": [
-          "MEEKS, B"
-        ],
-        "page": 4,
-        "line": "",
-        "raw": "1800 / 1900 / 2200 \u00b7 CTR WILKINSON M \u00b7 LTJG MEEKS B \u00b7 I3401 \u00b7 1.5",
-        "role": "I3401",
-        "remarks": "",
-        "duration": "1.5",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I4303",
-        "start": "1200",
-        "end": "1500",
-        "land": "1500",
-        "brief": "0945",
-        "formation": "",
-        "crew": [
-          {
-            "last": "KINDER",
-            "first": "T",
-            "full": "KINDER, T"
-          },
-          {
-            "last": "GROOVER",
-            "first": "J",
-            "full": "GROOVER, J"
-          }
-        ],
-        "instructors": [
-          "KINDER, T"
-        ],
-        "students": [
-          "GROOVER, J"
-        ],
-        "page": 5,
-        "line": "",
-        "raw": "0945 / 1200 / 1500 \u00b7 LT KINDER T \u00b7 1STLT GROOVER J \u00b7 I4303 \u00b7 3.0 \u00b7 RTN KNGP LINE 1 OF 2",
-        "role": "I4303",
-        "remarks": "RTN KNGP LINE 1 OF 2",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I4403",
-        "start": "1205",
-        "end": "1605",
-        "land": "1605",
-        "brief": "0950",
-        "formation": "",
-        "crew": [
-          {
-            "last": "KANG",
-            "first": "C",
-            "full": "KANG, C"
-          },
-          {
-            "last": "MOYE",
-            "first": "E",
-            "full": "MOYE, E"
-          }
-        ],
-        "instructors": [
-          "KANG, C"
-        ],
-        "students": [
-          "MOYE, E"
-        ],
-        "page": 5,
-        "line": "",
-        "raw": "0950 / 1205 / 1605 \u00b7 LT KANG C \u00b7 LTJG MOYE E \u00b7 I4403 \u00b7 2.0",
-        "role": "I4403",
-        "remarks": "",
-        "duration": "2.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I4202",
-        "start": "1205",
-        "end": "1605",
-        "land": "1605",
-        "brief": "0950",
-        "formation": "",
-        "crew": [
-          {
-            "last": "KANG",
-            "first": "C",
-            "full": "KANG, C"
-          },
-          {
-            "last": "ONEILL",
-            "first": "C",
-            "full": "ONEILL, C"
-          }
-        ],
-        "instructors": [
-          "KANG, C"
-        ],
-        "students": [
-          "ONEILL, C"
-        ],
-        "page": 5,
-        "line": "",
-        "raw": "0950 / 1205 / 1605 \u00b7 LT KANG C \u00b7 LTJG ONEILL C \u00b7 I4202 \u00b7 2.0 \u00b7 RTN KNGP",
-        "role": "I4202",
-        "remarks": "RTN KNGP",
-        "duration": "2.0",
-        "device": "",
-        "solo": false
-      },
-      {
-        "section": "Flight",
-        "code": "I4304",
-        "start": "1630",
-        "end": "1930",
-        "land": "1930",
-        "brief": "1600",
-        "formation": "",
-        "crew": [
-          {
-            "last": "KINDER",
-            "first": "T",
-            "full": "KINDER, T"
-          },
-          {
-            "last": "GROOVER",
-            "first": "J",
-            "full": "GROOVER, J"
-          }
-        ],
-        "instructors": [
-          "KINDER, T"
-        ],
-        "students": [
-          "GROOVER, J"
-        ],
-        "page": 5,
-        "line": "",
-        "raw": "1600 / 1630 / 1930 \u00b7 LT KINDER T \u00b7 1STLT GROOVER J \u00b7 I4304 \u00b7 3.0 \u00b7 LINE 2 OF 2",
-        "role": "I4304",
-        "remarks": "LINE 2 OF 2",
-        "duration": "3.0",
-        "device": "",
-        "solo": false
-      },
       {
         "section": "Flight",
         "code": "EP4201",
@@ -4332,7 +3025,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3201",
         "start": "0700",
         "end": "1000",
@@ -4367,7 +3060,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3201",
         "start": "0700",
         "end": "1000",
@@ -4402,7 +3095,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM2105",
         "start": "0700",
         "end": "1000",
@@ -4437,7 +3130,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM2105",
         "start": "0700",
         "end": "1000",
@@ -4472,7 +3165,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3104",
         "start": "1000",
         "end": "1300",
@@ -4507,7 +3200,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3103",
         "start": "1000",
         "end": "1300",
@@ -4542,7 +3235,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "I3401",
         "start": "1000",
         "end": "1300",
@@ -4577,7 +3270,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "I3402",
         "start": "1000",
         "end": "1300",
@@ -4612,7 +3305,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "I2101",
         "start": "1130",
         "end": "1300",
@@ -4647,7 +3340,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "I3502",
         "start": "1130",
         "end": "1430",
@@ -4682,7 +3375,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "I3203",
         "start": "1130",
         "end": "1430",
@@ -4717,7 +3410,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM2104",
         "start": "1300",
         "end": "1600",
@@ -4752,7 +3445,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM2104",
         "start": "1300",
         "end": "1600",
@@ -4787,7 +3480,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "I3501",
         "start": "1300",
         "end": "1600",
@@ -4822,7 +3515,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "I3502",
         "start": "1300",
         "end": "1600",
@@ -4857,7 +3550,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "I3502 C/P SIM",
         "start": "1300",
         "end": "1430",
@@ -4898,7 +3591,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "I2202 C/P SIM",
         "start": "1430",
         "end": "1600",
@@ -4939,7 +3632,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "EP3204",
         "start": "1600",
         "end": "1900",
@@ -4974,7 +3667,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "EP3204",
         "start": "1600",
         "end": "1900",
@@ -5009,7 +3702,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "I3101 C/P SIM",
         "start": "1600",
         "end": "1730",
@@ -5050,7 +3743,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3301",
         "start": "1600",
         "end": "1900",
@@ -5085,7 +3778,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "FAM3301",
         "start": "1600",
         "end": "1900",
@@ -5120,7 +3813,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "I3402",
         "start": "1600",
         "end": "1900",
@@ -5155,7 +3848,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "I3402",
         "start": "1600",
         "end": "1900",
@@ -5190,7 +3883,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "I3101 C/P SIM",
         "start": "1730",
         "end": "1900",
@@ -5231,7 +3924,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "I2103",
         "start": "1900",
         "end": "2200",
@@ -5266,7 +3959,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "I2103",
         "start": "1900",
         "end": "2200",
@@ -5301,7 +3994,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "I2202 C/P SIM",
         "start": "2030",
         "end": "2200",
@@ -5342,7 +4035,7 @@
         "solo": false
       },
       {
-        "section": "Flight",
+        "section": "Simulator",
         "code": "I2202 C/P SIM",
         "start": "2030",
         "end": "2200",

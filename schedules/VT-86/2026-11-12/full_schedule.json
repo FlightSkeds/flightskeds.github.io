@@ -968,6 +968,7 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -3521,20 +3522,33 @@
       },
       {
         "section": "Ground",
-        "code": "FAM1107 SUBMITTED BY:",
+        "code": "FAM1107",
         "start": "0700",
         "end": "0800",
         "land": "0800",
         "brief": "",
         "formation": "",
-        "crew": [],
-        "instructors": [],
+        "crew": [
+          {
+            "last": "RUPPENTHAL",
+            "first": "C",
+            "full": "RUPPENTHAL, C"
+          },
+          {
+            "last": "TASSINARI",
+            "first": "M",
+            "full": "TASSINARI, M"
+          }
+        ],
+        "instructors": [
+          "TASSINARI, M"
+        ],
         "students": [],
         "page": 4,
         "line": "",
-        "raw": "0700-0800 \u00b7 FAM1107 SUBMITTED BY: \u00b7 Virtual \u00b7 Ruppenthal C REVIEWED BY: \u00b7 TASSINARI M APPROVED \u00b7 Familiarization Stage Debrief BY:",
-        "role": "FAM1107 SUBMITTED BY:",
-        "remarks": "Familiarization Stage Debrief BY:",
+        "raw": "0700-0800 \u00b7 FAM1107 \u00b7 Virtual \u00b7 Ruppenthal C \u00b7 TASSINARI M \u00b7 Familiarization Stage Debrief",
+        "role": "FAM1107",
+        "remarks": "Familiarization Stage Debrief",
         "duration": "",
         "device": "",
         "solo": false

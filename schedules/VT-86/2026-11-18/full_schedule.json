@@ -968,6 +968,7 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
     "uncertain": "1530 CSRB Wings HENSLEY B, STAATS M, SEPULVEDA K      Briggs M, Collins M, Driscoll B, Hawkins P,      McKellar A, Olds J Patel N, Petralia J,  ",
@@ -3349,7 +3350,7 @@
       },
       {
         "section": "Ground",
-        "code": "STK1113 SUBMITTED BY:",
+        "code": "STK1113",
         "start": "1100",
         "end": "1300",
         "land": "1300",
@@ -3366,9 +3367,9 @@
         "students": [],
         "page": 4,
         "line": "",
-        "raw": "1100-1300 \u00b7 STK1113 SUBMITTED BY: \u00b7 Virtual \u00b7 MARTENS N, MOCKRIDGE D FEAY REVIEWED BY: \u00b7 C APPROVED \u00b7 Strike Stage Exam BY:",
-        "role": "STK1113 SUBMITTED BY:",
-        "remarks": "Strike Stage Exam BY:",
+        "raw": "1100-1300 \u00b7 STK1113 \u00b7 Virtual \u00b7 MARTENS N, MOCKRIDGE D FEAY \u00b7 C \u00b7 Strike Stage Exam",
+        "role": "STK1113",
+        "remarks": "Strike Stage Exam",
         "duration": "",
         "device": "",
         "solo": false

@@ -1107,6 +1107,7 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -4003,7 +4004,7 @@
       },
       {
         "section": "Ground",
-        "code": "EP1106 SUBMITTED BY:",
+        "code": "EP1106",
         "start": "1430",
         "end": "1530",
         "land": "1530",
@@ -4014,15 +4015,22 @@
             "last": "RAMIREZ S",
             "first": "SANDERS",
             "full": "RAMIREZ S, SANDERS"
+          },
+          {
+            "last": "LIGGETT",
+            "first": "C",
+            "full": "LIGGETT, C"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "LIGGETT, C"
+        ],
         "students": [],
         "page": 5,
         "line": "",
-        "raw": "1430-1530 \u00b7 EP1106 SUBMITTED BY: \u00b7 Room 121 \u00b7 Ramirez S, Sanders C REVIEWED BY: \u00b7 LIGGETT C APPROVED \u00b7 Emergency Flight Procedures Exam I/Review BY:",
-        "role": "EP1106 SUBMITTED BY:",
-        "remarks": "Emergency Flight Procedures Exam I/Review BY:",
+        "raw": "1430-1530 \u00b7 EP1106 \u00b7 Room 121 \u00b7 Ramirez S, Sanders C \u00b7 LIGGETT C \u00b7 Emergency Flight Procedures Exam I/Review",
+        "role": "EP1106",
+        "remarks": "Emergency Flight Procedures Exam I/Review",
         "duration": "",
         "device": "",
         "solo": false

@@ -480,6 +480,7 @@
   ],
   "assignments": {
     "version": 1,
+    "parser_revision": 2,
     "complete": false,
     "unreadable": false,
     "uncertain": "",
@@ -1081,7 +1082,7 @@
       },
       {
         "section": "Ground",
-        "code": "AWI1204 SUBMITTED BY:",
+        "code": "AWI1204",
         "start": "1500",
         "end": "1600",
         "land": "1600",
@@ -1102,15 +1103,22 @@
             "last": "T",
             "first": "WYSOCKI",
             "full": "T, WYSOCKI"
+          },
+          {
+            "last": "BURCH",
+            "first": "K",
+            "full": "BURCH, K"
           }
         ],
-        "instructors": [],
+        "instructors": [
+          "BURCH, K"
+        ],
         "students": [],
         "page": 2,
         "line": "",
-        "raw": "1500-1600 \u00b7 AWI1204 SUBMITTED BY: \u00b7 Cerulean Aviation \u00b7 Goergen E, Norko K, Sullivan T, Wysocki J REVIEWED BY: \u00b7 BURCH K APPROVED \u00b7 Intercept Progression IV BY:",
-        "role": "AWI1204 SUBMITTED BY:",
-        "remarks": "Intercept Progression IV BY:",
+        "raw": "1500-1600 \u00b7 AWI1204 \u00b7 Cerulean Aviation \u00b7 Goergen E, Norko K, Sullivan T, Wysocki J \u00b7 BURCH K \u00b7 Intercept Progression IV",
+        "role": "AWI1204",
+        "remarks": "Intercept Progression IV",
         "duration": "",
         "device": "",
         "solo": false
