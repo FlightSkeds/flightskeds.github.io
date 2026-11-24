@@ -463,12 +463,13 @@ def check_schedule(
 
 
 def backfill_assignments(squadrons, today):
-    start = today - timedelta(days=29)
+    start = (today - timedelta(days=29)).isoformat()
+    end = (today + timedelta(days=LOOKAHEAD_DAYS)).isoformat()
     errors = []
     processed = 0
     for identifier in squadrons:
         for archive in sorted((OUTPUT / identifier).glob("*/full_schedule.json")):
-            if not start.isoformat() <= archive.parent.name <= today.isoformat():
+            if not start <= archive.parent.name <= end:
                 continue
             try:
                 data = json.loads(archive.read_text())
