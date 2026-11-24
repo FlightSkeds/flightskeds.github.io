@@ -185,6 +185,7 @@ def dispatch(commit, path, devices):
         title, body = notice
         result = api("/notifications", {
             "app_id": APP_ID, "include_subscription_ids": [device], "target_channel": "push",
+            "priority": 10, "data": {"flightline_alert": "schedule"},
             "idempotency_key": str(uuid.uuid5(uuid.NAMESPACE_URL, "|".join([APP_ID, commit, path, device]))),
             "headings": {"en": "FlightLine — " + title}, "contents": {"en": body},
             "url": SITE + "?" + urlencode({"squadron": squadron, "date": day}),
