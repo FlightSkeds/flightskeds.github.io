@@ -68,6 +68,21 @@ class Notifications(unittest.TestCase):
                     self.assertTrue(any(e["section"] == "Ground" and e["code"] == "NAV1106" and
                                     e["instructors"] == ["STAFFORD, DUSTIN"] for e in parsed["events"]))
 
+    def test_grouped_seats_and_wrapped_rosters(self):
+        cases = [
+            ("VT-86", "BOOTH", "AWI4101", "0730"),
+            ("TW5", "EVERINGHAM", "Red DA Workshop", "0930"),
+            ("TW6-FITU", "LAVALLE", "FAM4101", "1400"),
+        ]
+        for unit, last, code, start in cases:
+            with self.subTest(unit=unit):
+                day = "2026-11-24"
+                path = push.ROOT / "schedules" / unit / day / "original_schedule.pdf"
+                events = schedule_assignments(path.read_bytes(), day, unit)["events"]
+                self.assertTrue(any(e["code"] == code and e["start"] == start and
+                                    any(person["last"] == last for person in e["crew"])
+                                    for e in events))
+
     def test_absent_and_unmatched(self):
         for known, expected in [(True, "No Events"), (False, "Schedule Posted")]:
             after = personal(self.schedule, "TEST", "ABSENT", known)

@@ -32,8 +32,14 @@ RANK = r"(?:ADM|CAPT|CDR|LCDR|LTJG|LT|ENS|COL|LTCOL|MAJ|(?:1ST|2ND|1|2)\s*LT|CTR
 SURNAME = r"[A-Z][A-Z'’.-]*(?:\s+[A-Z][A-Z'’.-]*){0,3}"
 START = ("SCHD T/O", "T/O", "SCHD T/O ICAO", "START", "SIM TIME", "TIME RANGE")
 EVENT = ("TYPE EVENT", "EVENT", "EVENTS", "TYPE SIM EVENT SIM", "TYPE FLIGHT EVENT FLIGHT", "SUBJECT")
-PARSER_REVISION = 2
+PARSER_REVISION = 3
+FOLLOWUP_SOURCES = {"VT-86", "TW5", "TW6-FITU"}
 SECTION_TITLE = re.compile(r"(?:(MONDAY|TUESDAY|WEDNESDAY|THURSDAY|FRIDAY|SATURDAY|SUNDAY) )?(FLIGHT|SIMULATOR) (?:\((?:FLIGHT|SIM) EVENT\) )?(?:EVENTS|SCHEDULE)")
+
+
+def current_assignments(data, schedule_id):
+    revision = data.get("assignments", {}).get("parser_revision")
+    return revision == PARSER_REVISION or (revision == 2 and schedule_id not in FOLLOWUP_SOURCES)
 
 
 def names(cell, allow_bare=False):
@@ -145,7 +151,7 @@ def text_header(words):
             columns.append((label, word["x0"]))
     return columns
 
-def read_schedule(pdf, schedule_date=None):
+def read_schedule(pdf, schedule_date=None, schedule_id=None):
     events, text, sections = [], [], set()
     weekday = date.fromisoformat(schedule_date).strftime("%A").upper() if schedule_date else None
     def record(kind, cells, labels, page):
@@ -240,8 +246,14 @@ def read_schedule(pdf, schedule_date=None):
                     for y in sorted(by_line):
                         if not begin <= y < boundary:
                             continue
+                        ordered = sorted(by_line[y], key=lambda w: w["x0"])
+                        if schedule_id in ("TW6-FITU", "VT-86"):
+                            heading = " ".join(w["text"].upper() for w in ordered)
+                            if (schedule_id == "TW6-FITU" and SECTION_TITLE.fullmatch(heading) or
+                                    schedule_id == "VT-86" and re.fullmatch(r"CYCLE \d+", heading)):
+                                continue
                         row = [[] for _ in bounds]
-                        for word in sorted(by_line[y], key=lambda w: w["x0"]):
+                        for word in ordered:
                             for i, column in enumerate(bounds):
                                 if column and column[0]-1.5 <= word["x0"] < column[2]-1.5:
                                     row[i].append(word["text"])
@@ -268,16 +280,20 @@ def read_schedule(pdf, schedule_date=None):
                             multiple_crews = "TIME RANGE" in labels or any(
                                 "ICAO" in label or label == "SCHD FLT TIME" for label in labels
                             )
-                            if multiple_crews and re.search(r"[A-Z]\s*\d[\d ]{2,}", code.upper()) and separate_student:
+                            paired_seats = schedule_id == "VT-86" and {"FRONT SEAT", "BACK SEAT"}.issubset(labels)
+                            if (multiple_crews or paired_seats) and re.search(r"[A-Z]\s*\d[\d ]{2,}", code.upper()) and separate_student:
                                 record(kind, current, labels, page.page_number)
                                 shared = set(START) | {"BRIEF TIME", "BRIEF", "LINE NUM", "LINE", "#",
                                                        "LAND", "SCHD LAND", "SCHD LAND ICAO", "SCHED LAND",
                                                        "INSTRUCTOR", "INSTRUCTOR / PIC", "FRONT SEAT",
                                                        "RED KNIGHT", "DEVICE", "SIM/DEVICE", "SIM/ DEVICE"}
+                                if paired_seats:
+                                    shared.discard("FRONT SEAT")
+                                    shared.add("CALLSIGN")
                                 current = [c or (base if h in shared else "") for h, c, base in zip(labels, cells, primary)]
                             elif any(cells):
                                 current = [" ".join(filter(None, pair)) for pair in zip(current, cells)]
-                        elif current and any(cells) and (not cells[0] or kind == "Duty"):
+                        elif current and any(cells) and (not cells[0] or kind == "Duty" or (kind == "Roster" and schedule_id == "TW5")):
                             current = [" ".join(filter(None, pair)) for pair in zip(current, cells)]
                         elif current and any(cells):
                             record(kind, current, labels, page.page_number)
@@ -302,8 +318,8 @@ def read_schedule(pdf, schedule_date=None):
     return events, raw, complete, " ".join(unassigned)
 
 
-def schedule_assignments(pdf, schedule_date=None):
-    events, raw, complete, uncertain = read_schedule(pdf, schedule_date)
+def schedule_assignments(pdf, schedule_date=None, schedule_id=None):
+    events, raw, complete, uncertain = read_schedule(pdf, schedule_date, schedule_id)
     return {
         "version": 1, "parser_revision": PARSER_REVISION, "complete": complete,
         "unreadable": not re.search(r"[A-Z]{3}", re.sub(r"\(CID:\d+\)", "", raw)),

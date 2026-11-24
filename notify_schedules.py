@@ -173,9 +173,9 @@ def dispatch(commit, path, devices):
     except (ValueError, subprocess.CalledProcessError):
         current = {}
     new = (stored_schedule(current) if current.get("assignments", {}).get("version") == 1
-           else read_schedule(git("show", commit+":"+pdf), day))
+           else read_schedule(git("show", commit+":"+pdf), day, squadron))
     existed = bool(git("ls-tree", commit+"^", "--", pdf))
-    old = read_schedule(git("show", commit+"^:"+pdf), day) if existed else None
+    old = read_schedule(git("show", commit+"^:"+pdf), day, squadron) if existed else None
     for device, tags in targets:
         first, last = [str(tags.get(k) or "").strip().upper() for k in ("first", "last")]
         known = bool(first and last and re.search(r"(?<![A-Z'-])" + re.escape(last) +

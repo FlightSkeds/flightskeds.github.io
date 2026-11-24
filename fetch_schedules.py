@@ -15,7 +15,7 @@ from pathlib import Path
 from urllib.parse import quote, urlparse
 from zoneinfo import ZoneInfo
 
-from notification_schedule import PARSER_REVISION, schedule_assignments
+from notification_schedule import current_assignments, schedule_assignments
 
 import certifi
 import pdfplumber
@@ -152,7 +152,7 @@ def schedule_url(identifier, info, day):
     )
 
 
-def extract_pdf(data, day=None):
+def extract_pdf(data, day=None, identifier=None):
     pages = []
     tables = []
     records = []
@@ -204,7 +204,7 @@ def extract_pdf(data, day=None):
         "pages": pages,
         "tables": tables,
         "records": records,
-        "assignments": schedule_assignments(data, day)
+        "assignments": schedule_assignments(data, day, identifier)
     }, "\n\n".join(text_parts)
 
 
@@ -390,7 +390,7 @@ def check_schedule(
         try:
             old_hash = file_hash(pdf_path.read_bytes())
 
-            if old_hash == new_hash and json.loads(json_path.read_text()).get("assignments", {}).get("parser_revision") == PARSER_REVISION:
+            if old_hash == new_hash and current_assignments(json.loads(json_path.read_text()), identifier):
                 return "unchanged"
 
         except (OSError, ValueError):
@@ -399,7 +399,7 @@ def check_schedule(
     previous_exists = pdf_path.exists()
 
     try:
-        parsed, full_text = extract_pdf(data, day)
+        parsed, full_text = extract_pdf(data, day, identifier)
 
     except Exception as exc:
         print(
@@ -473,9 +473,9 @@ def backfill_assignments(squadrons, today):
                 continue
             try:
                 data = json.loads(archive.read_text())
-                if data.get("assignments", {}).get("parser_revision") == PARSER_REVISION:
+                if current_assignments(data, identifier):
                     continue
-                data["assignments"] = schedule_assignments(archive.with_name("original_schedule.pdf").read_bytes(), archive.parent.name)
+                data["assignments"] = schedule_assignments(archive.with_name("original_schedule.pdf").read_bytes(), archive.parent.name, identifier)
                 write_json(archive, data)
                 processed += 1
             except Exception as error:
