@@ -4,6 +4,10 @@ name: Check CNATRA Schedules
 on:
   workflow_dispatch:
     inputs:
+      backfill_assignments:
+        description: "Reparse the past 30 days of archived PDFs"
+        type: boolean
+        default: false
       squadron:
         description: "Schedule to check"
         required: true
@@ -55,7 +59,7 @@ concurrency:
 jobs:
   check-schedules:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
 
     steps:
       - name: Checkout repository
@@ -84,9 +88,12 @@ jobs:
       - name: Download and process schedules
         env:
           SELECTED_SQUADRON: ${{ inputs.squadron }}
+          BACKFILL_ASSIGNMENTS: ${{ inputs.backfill_assignments }}
           SELECTED_DATE: ${{ inputs.schedule_date }}
         run: |
-          if [ "$GITHUB_EVENT_NAME" = "schedule" ]; then
+          if [ "$BACKFILL_ASSIGNMENTS" = "true" ]; then
+            python fetch_schedules.py --backfill-assignments --squadron "${SELECTED_SQUADRON:-all}"
+          elif [ "$GITHUB_EVENT_NAME" = "schedule" ]; then
             python fetch_schedules.py --scheduled-poll
           elif [ -n "$SELECTED_DATE" ]; then
             python fetch_schedules.py \
@@ -99,7 +106,7 @@ jobs:
 
       - name: Commit downloaded schedules
         id: archive
-        if: success()
+        if: success() || (failure() && inputs.backfill_assignments)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
