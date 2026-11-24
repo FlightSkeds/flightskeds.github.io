@@ -15,7 +15,7 @@ from pathlib import Path
 from urllib.parse import quote, urlparse
 from zoneinfo import ZoneInfo
 
-from notification_schedule import schedule_assignments
+from notification_schedule import PARSER_REVISION, schedule_assignments
 
 import certifi
 import pdfplumber
@@ -390,7 +390,7 @@ def check_schedule(
         try:
             old_hash = file_hash(pdf_path.read_bytes())
 
-            if old_hash == new_hash and json.loads(json_path.read_text()).get("assignments", {}).get("version") == 1:
+            if old_hash == new_hash and json.loads(json_path.read_text()).get("assignments", {}).get("parser_revision") == PARSER_REVISION:
                 return "unchanged"
 
         except (OSError, ValueError):
@@ -473,7 +473,7 @@ def backfill_assignments(squadrons, today):
                 continue
             try:
                 data = json.loads(archive.read_text())
-                if data.get("assignments", {}).get("version") == 1:
+                if data.get("assignments", {}).get("parser_revision") == PARSER_REVISION:
                     continue
                 data["assignments"] = schedule_assignments(archive.with_name("original_schedule.pdf").read_bytes(), archive.parent.name)
                 write_json(archive, data)

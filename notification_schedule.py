@@ -32,7 +32,8 @@ RANK = r"(?:ADM|CAPT|CDR|LCDR|LTJG|LT|ENS|COL|LTCOL|MAJ|(?:1ST|2ND|1|2)\s*LT|CTR
 SURNAME = r"[A-Z][A-Z'’.-]*(?:\s+[A-Z][A-Z'’.-]*){0,3}"
 START = ("SCHD T/O", "T/O", "SCHD T/O ICAO", "START", "SIM TIME", "TIME RANGE")
 EVENT = ("TYPE EVENT", "EVENT", "EVENTS", "TYPE SIM EVENT SIM", "TYPE FLIGHT EVENT FLIGHT", "SUBJECT")
-CREW = re.compile(r"INSTRUCTOR|STUDENT|MSN CDR|FRONT SEAT|BACK SEAT|SQUIRE|RED KNIGHT|PIC|COPILOT")
+PARSER_REVISION = 2
+SECTION_TITLE = re.compile(r"(?:(MONDAY|TUESDAY|WEDNESDAY|THURSDAY|FRIDAY|SATURDAY|SUNDAY) )?(FLIGHT|SIMULATOR) (?:\((?:FLIGHT|SIM) EVENT\) )?(?:EVENTS|SCHEDULE)")
 
 
 def names(cell, allow_bare=False):
@@ -97,8 +98,8 @@ def assignment(kind, cells, headers, page=1):
         brief = ""
     elif kind in {"Ground", "Roster"}:
         label = get(*EVENT) or kind_out
-        clock = times(get("TIME", "TIME RANGE"))
-        start, end = clock[:1], clock[1:2]
+        clock = times(get("TIME", "TIME RANGE", "START"))
+        start, end = clock[:1], clock[1:2] or times(get("END"))
         brief = ""
         crew = tuple(dict.fromkeys(people(lambda h: h in ("PERSON", "ROSTER"), True) + instructors + students))
     else:
@@ -128,6 +129,10 @@ def text_header(words):
     labels = [word["text"].upper() for word in words]
     if "INSTRUCTOR" not in labels or "STUDENT" not in labels:
         return None
+    if {"BRIEF", "T/O", "LAND", "SIM/DEVICE", "EVENT"}.issubset(labels):
+        columns = [(label, word["x0"]) for label, word in zip(labels, words)
+                   if label in {"BRIEF", "T/O", "LAND", "SIM/DEVICE", "INSTRUCTOR", "STUDENT", "EVENT", "HRS", "REMARKS"}]
+        return [("SIM HRS" if label == "HRS" else label, x) for label, x in columns]
     if "BRF" in labels and "TO" in labels and "LAND" in labels and any(h in EVENT for h in labels):
         start = labels.index("BRF")
     elif "START" in labels and "END" in labels and "SUBJECT" in labels:
@@ -142,6 +147,7 @@ def text_header(words):
 
 def read_schedule(pdf, schedule_date=None):
     events, text, sections = [], [], set()
+    weekday = date.fromisoformat(schedule_date).strftime("%A").upper() if schedule_date else None
     def record(kind, cells, labels, page):
         if kind == "Roster" and schedule_date:
             day = date.fromisoformat(schedule_date)
@@ -154,17 +160,21 @@ def read_schedule(pdf, schedule_date=None):
     unassigned = []
     with pdfplumber.open(io.BytesIO(pdf)) as document:
         corpus_kind = "Flight"
+        corpus_day = None
+        seen_pages = set()
         for page in document.pages:
             page_text = page.extract_text() or ""
+            if page_text.strip():
+                key = (page.width, page.height, page_text)
+                if key in seen_pages:
+                    continue
+                seen_pages.add(key)
             text.append(page_text)
-            if re.search(r"^SIMULATOR EVENTS\s*$", page_text, re.M | re.I):
-                corpus_kind = "Simulator"
-            elif re.search(r"^FLIGHT EVENTS\s*$", page_text, re.M | re.I):
-                corpus_kind = "Flight"
             markers = {}
             for table in page.find_tables():
-                for header, cells in zip(table.rows[:3], table.extract()[:3]):
+                for header, cells in zip(table.rows, table.extract()):
                     labels = [" ".join((v or "").upper().split()) for v in cells]
+                    labels = ["SIGN IN" if h == "S IGN IN" else h for h in labels]
                     kind = layout(labels)
                     if not kind:
                         continue
@@ -172,7 +182,6 @@ def read_schedule(pdf, schedule_date=None):
                     markers[header.bbox[1]] = (header.bbox[3], (kind, labels, header.cells))
                     if kind in ("Duty", "Roster"):
                         markers[table.bbox[3]] = (table.bbox[3], None)
-                    break
             words = page.extract_words()
             by_line = {}
             baseline = -10
@@ -182,7 +191,29 @@ def read_schedule(pdf, schedule_date=None):
                     baseline = y
                 by_line.setdefault(baseline, []).append(word)
             for top, line in sorted(by_line.items()):
-                columns = text_header(sorted(line, key=lambda w: w["x0"]))
+                ordered = sorted(line, key=lambda w: w["x0"])
+                line_text = " ".join(w["text"].upper() for w in ordered)
+                title = SECTION_TITLE.fullmatch(line_text)
+                if title:
+                    corpus_kind = title[2].title()
+                    if title[1]:
+                        corpus_day = title[1]
+                if line_text == "ACADEMIC EVENTS":
+                    markers.setdefault(top, (top, None))
+                    corpus_day = None
+                    # VT-4's unruled academics block uses fixed columns in a
+                    # 612-point wide sheet, following the DEVICE/SEAT simulator block.
+                    previous = next((entry for y, (_, entry) in sorted(markers.items(), reverse=True)
+                                     if y < top and entry), active)
+                    if previous and "DEVICE/SEAT" in previous[1] and abs(page.width - 612) < 1:
+                        labels = ["START", "END", "EVENT", "LOCATION", "INSTRUCTOR", "REMARKS"]
+                        edges = [28, 62, 102, 164, 241, 349, page.width]
+                        bounds = [(x, top, end, top) for x, end in zip(edges, edges[1:])]
+                        markers[top] = (top, ("Ground", labels, bounds))
+                        sections.add("Ground")
+                elif line_text.startswith("SUBMITTED BY:"):
+                    markers.setdefault(top, (top, None))
+                columns = text_header(ordered)
                 if not columns:
                     continue
                 labels = [label for label, _ in columns]
@@ -196,7 +227,8 @@ def read_schedule(pdf, schedule_date=None):
                 origins = [max(0, x - (12 if i else 4)) for i, (_, x) in enumerate(columns)]
                 bounds = [(x, top, end, top + 8) for x, end in zip(origins, origins[1:] + [page.width])]
                 if not any(y <= top < hi for y, (hi, _) in markers.items()):
-                    markers[top] = (top + 8, (kind, labels, bounds))
+                    wrong_day = "TIME RANGE" in labels and kind in ("Flight", "Simulator") and weekday and corpus_day and weekday != corpus_day
+                    markers[top] = (top + 8, None if wrong_day else (kind, labels, bounds))
                 sections.add(kind)
 
             begin = 0
@@ -262,7 +294,8 @@ def read_schedule(pdf, schedule_date=None):
     matches_totals = all(counts["Flight" if key == "FLY" else "Simulator"] == int(value)
                          for key, value in totals.items())
     complete = (len(totals) == 2 and matches_totals and
-                (not re.search(r"^GROUND EVENTS\s*$", raw, re.M) or "Ground" in sections) and
+                (not re.search(r"^GROUND EVENTS\s*$", raw, re.M) or "Ground" in sections
+                 or "NO GROUND EVENTS SCHEDULED" in raw) and
                 ("DUTY/WATCH" not in raw or "Duty" in sections))
     if any(e.section in ("Flight", "Simulator") and not e.crew for e in events):
         complete = False
@@ -272,7 +305,7 @@ def read_schedule(pdf, schedule_date=None):
 def schedule_assignments(pdf, schedule_date=None):
     events, raw, complete, uncertain = read_schedule(pdf, schedule_date)
     return {
-        "version": 1, "complete": complete,
+        "version": 1, "parser_revision": PARSER_REVISION, "complete": complete,
         "unreadable": not re.search(r"[A-Z]{3}", re.sub(r"\(CID:\d+\)", "", raw)),
         "uncertain": uncertain,
         "events": [

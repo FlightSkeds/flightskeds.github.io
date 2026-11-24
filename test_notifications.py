@@ -51,6 +51,23 @@ class Notifications(unittest.TestCase):
         schedule = stored_schedule({"assignments": parsed, "pages": []})
         self.assertIsNone(personal(schedule, "KEVIN", "DURKIN", True))
 
+    def test_archive_layout_regressions(self):
+        cases = [
+            ("VT-27", "2026-11-18", {"Flight": 50, "Simulator": 42, "Duty": 7}),
+            ("VT-10", "2026-11-18", {"Flight": 29, "Simulator": 14}),
+            ("VT-9", "2026-11-23", {"Flight": 58, "Simulator": 24, "Duty": 7}),
+            ("VT-4", "2026-11-24", {"Simulator": 30, "Ground": 9}),
+        ]
+        for unit, day, expected in cases:
+            with self.subTest(unit=unit, day=day):
+                path = push.ROOT / "schedules" / unit / day / "original_schedule.pdf"
+                parsed = schedule_assignments(path.read_bytes(), day)
+                counts = Counter(event["section"] for event in parsed["events"])
+                self.assertEqual({section: counts[section] for section in expected}, expected)
+                if unit == "VT-4":
+                    self.assertTrue(any(e["section"] == "Ground" and e["code"] == "NAV1106" and
+                                    e["instructors"] == ["STAFFORD, DUSTIN"] for e in parsed["events"]))
+
     def test_absent_and_unmatched(self):
         for known, expected in [(True, "No Events"), (False, "Schedule Posted")]:
             after = personal(self.schedule, "TEST", "ABSENT", known)
